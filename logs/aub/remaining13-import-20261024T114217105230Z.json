@@ -1,0 +1,2385 @@
+{
+  "university_id": "UK005",
+  "generated_at": "2026-10-24T11:42:17.041403+00:00",
+  "review_path": "logs\\aub\\remaining-20-review-20261024T110631590638Z\\remaining-20-review.json",
+  "database_changes": false,
+  "courses": [
+    {
+      "course_id": "C_UK005_23",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_23",
+          "title": "MA Creative Writing (Online)",
+          "level": "PG",
+          "duration": "2 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-creative-writing-online",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Online",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "9975.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "2000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "acceptance_payment": "500.00",
+            "annual_fee_available": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": "500.00",
+              "available": true,
+              "included_in_tuition": true,
+              "is_cas_deposit": false,
+              "message": "AUB publishes a non-refundable GBP 500 acceptance payment for two-year online courses, allocated to the first tuition payment after study starts. It is not an extra GBP 500 added to the programme total or a campus pre-CAS requirement.",
+              "payment_stage": "acceptance",
+              "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+            },
+            "duration_note": "Two-year part-time online route.",
+            "duration_verified": true,
+            "fee_note": "Published 2027/28 two-year online programme total GBP 9,975. Country-dependent GST/VAT may apply. Non-refundable GBP 500 acceptance payment is allocated to the first tuition payment and is included in that total. UCAS generic annual labelling does not override the direct AUB total basis.",
+            "fee_source_sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_same_online_route"
+            },
+            "programme_total": "9975.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "2 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "review_reference": "turn245view0",
+                "source_url": "https://www.ucas.com/explore/courses/39d0409a-05ed-4c30-974b-1f3906464fc1/course?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_fee_basis_conflict": "UCAS uses a generic per-year heading for GBP 9,975. Use the saved direct AUB fee page for its explicit two-year programme-total basis, taxes and acceptance payment.",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              },
+              {
+                "sha256": "aab33dd4a20c23222dfd386e9c13f89dfe689ceb4268e6e2a893e0da5b946b10",
+                "source_url": "https://aub.ac.uk/graduate-courses/ma-creative-writing-online"
+              },
+              {
+                "sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+                "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "online",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "The online fee page advertises a conditional 20% AUB Alumni progression discount under England support: undergraduate completion within two years. International applicability, exact cohort/route and combination rules require confirmation. Do not infer eligibility or carry over the campus competitive award.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-creative-writing-online",
+            "source_fee_category": "International",
+            "study_mode": "online",
+            "study_year": 1,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Creative Writing (Online)",
+          "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_23",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-creative-writing-online",
+          "duration": "2 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Online",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Creative Writing (Online)",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "acceptance_payment": "500.00",
+            "annual_fee_available": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": "500.00",
+              "available": true,
+              "included_in_tuition": true,
+              "is_cas_deposit": false,
+              "message": "AUB publishes a non-refundable GBP 500 acceptance payment for two-year online courses, allocated to the first tuition payment after study starts. It is not an extra GBP 500 added to the programme total or a campus pre-CAS requirement.",
+              "payment_stage": "acceptance",
+              "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+            },
+            "duration_note": "Two-year part-time online route.",
+            "duration_verified": true,
+            "fee_note": "Published 2027/28 two-year online programme total GBP 9,975. Country-dependent GST/VAT may apply. Non-refundable GBP 500 acceptance payment is allocated to the first tuition payment and is included in that total. UCAS generic annual labelling does not override the direct AUB total basis.",
+            "fee_source_sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_same_online_route"
+            },
+            "programme_total": "9975.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "2 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "review_reference": "turn245view0",
+                "source_url": "https://www.ucas.com/explore/courses/39d0409a-05ed-4c30-974b-1f3906464fc1/course?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_fee_basis_conflict": "UCAS uses a generic per-year heading for GBP 9,975. Use the saved direct AUB fee page for its explicit two-year programme-total basis, taxes and acceptance payment.",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              },
+              {
+                "sha256": "aab33dd4a20c23222dfd386e9c13f89dfe689ceb4268e6e2a893e0da5b946b10",
+                "source_url": "https://aub.ac.uk/graduate-courses/ma-creative-writing-online"
+              },
+              {
+                "sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+                "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "online",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "The online fee page advertises a conditional 20% AUB Alumni progression discount under England support: undergraduate completion within two years. International applicability, exact cohort/route and combination rules require confirmation. Do not infer eligibility or carry over the campus competitive award.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-creative-writing-online",
+            "source_fee_category": "International",
+            "study_mode": "online",
+            "study_year": 1,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Creative Writing (Online)",
+          "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "2000",
+          "tuition_fee": "9975.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_33",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_33",
+          "title": "MA Fashion Innovation",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-fashion-innovation",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Stored one-year duration retained; not independently established in this capture.",
+            "duration_verified": false,
+            "fee_note": "Published September 2027 campus MA annual international tuition. Explicit replacement from MA Digital Fashion Innovation to MA Fashion Innovation. Stored one-year duration is not independently confirmed here.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "accepted": true,
+              "kind": "explicit_replacement",
+              "new_title": "MA Fashion Innovation",
+              "old_title": "MA Digital Fashion Innovation"
+            },
+            "route_evidence": [
+              {
+                "sha256": "8211055a61c1d15a006573c0f2bfadd89f037a41177c59283298fc618474b0df",
+                "source_url": "https://aub.ac.uk/graduate-courses/ma-fashion-innovation"
+              },
+              {
+                "sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+                "source_url": "https://aub.ac.uk/fees/postgraduate"
+              }
+            ],
+            "route_evidence_kind": "saved_direct_university_capture",
+            "route_kind": "campus",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "Propose this exact replacement for the reviewed campus PG competitive rule. No automatic maximum deduction; AUB must grant/confirm the actual amount. No scope change has been made.",
+              "status": "competitive_actual_amount_scope_proposal"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-fashion-innovation",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Fashion Innovation",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_33",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-fashion-innovation",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Fashion Innovation",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Stored one-year duration retained; not independently established in this capture.",
+            "duration_verified": false,
+            "fee_note": "Published September 2027 campus MA annual international tuition. Explicit replacement from MA Digital Fashion Innovation to MA Fashion Innovation. Stored one-year duration is not independently confirmed here.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "accepted": true,
+              "kind": "explicit_replacement",
+              "new_title": "MA Fashion Innovation",
+              "old_title": "MA Digital Fashion Innovation"
+            },
+            "route_evidence": [
+              {
+                "sha256": "8211055a61c1d15a006573c0f2bfadd89f037a41177c59283298fc618474b0df",
+                "source_url": "https://aub.ac.uk/graduate-courses/ma-fashion-innovation"
+              },
+              {
+                "sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+                "source_url": "https://aub.ac.uk/fees/postgraduate"
+              }
+            ],
+            "route_evidence_kind": "saved_direct_university_capture",
+            "route_kind": "campus",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "Propose this exact replacement for the reviewed campus PG competitive rule. No automatic maximum deduction; AUB must grant/confirm the actual amount. No scope change has been made.",
+              "status": "competitive_actual_amount_scope_proposal"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-fashion-innovation",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Fashion Innovation",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_40",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_40",
+          "title": "MA Film Practice (Online)",
+          "level": "PG",
+          "duration": "2 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-film-practice-online",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Online",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "9975.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "2000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "acceptance_payment": "500.00",
+            "annual_fee_available": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": "500.00",
+              "available": true,
+              "included_in_tuition": true,
+              "is_cas_deposit": false,
+              "message": "AUB publishes a non-refundable GBP 500 acceptance payment for two-year online courses, allocated to the first tuition payment after study starts. It is not an extra GBP 500 added to the programme total or a campus pre-CAS requirement.",
+              "payment_stage": "acceptance",
+              "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+            },
+            "duration_note": "Two-year part-time online route.",
+            "duration_verified": true,
+            "fee_note": "Published 2027/28 two-year online programme total GBP 9,975. Country-dependent GST/VAT may apply. Non-refundable GBP 500 acceptance payment is allocated to the first tuition payment and is included in that total. UCAS generic annual labelling does not override the direct AUB total basis.",
+            "fee_source_sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_same_online_route"
+            },
+            "programme_total": "9975.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "2 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "review_reference": "turn240view1",
+                "source_url": "https://www.ucas.com/explore/courses/55611d75-a9fa-487a-a691-528927343998/film-practice-online?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_fee_basis_conflict": "UCAS uses a generic per-year heading for GBP 9,975. Use the saved direct AUB fee page for its explicit two-year programme-total basis, taxes and acceptance payment.",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              },
+              {
+                "sha256": "531b10cfd33b27233af0073aed4143ecc17d63969ba680c656b00071fbe06a76",
+                "source_url": "https://aub.ac.uk/graduate-courses/ma-film-practice-online"
+              },
+              {
+                "sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+                "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "online",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "The online fee page advertises a conditional 20% AUB Alumni progression discount under England support: undergraduate completion within two years. International applicability, exact cohort/route and combination rules require confirmation. Do not infer eligibility or carry over the campus competitive award.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-film-practice-online",
+            "source_fee_category": "International",
+            "study_mode": "online",
+            "study_year": 1,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Film Practice (Online)",
+          "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_40",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-film-practice-online",
+          "duration": "2 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Online",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Film Practice (Online)",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "acceptance_payment": "500.00",
+            "annual_fee_available": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": "500.00",
+              "available": true,
+              "included_in_tuition": true,
+              "is_cas_deposit": false,
+              "message": "AUB publishes a non-refundable GBP 500 acceptance payment for two-year online courses, allocated to the first tuition payment after study starts. It is not an extra GBP 500 added to the programme total or a campus pre-CAS requirement.",
+              "payment_stage": "acceptance",
+              "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+            },
+            "duration_note": "Two-year part-time online route.",
+            "duration_verified": true,
+            "fee_note": "Published 2027/28 two-year online programme total GBP 9,975. Country-dependent GST/VAT may apply. Non-refundable GBP 500 acceptance payment is allocated to the first tuition payment and is included in that total. UCAS generic annual labelling does not override the direct AUB total basis.",
+            "fee_source_sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_same_online_route"
+            },
+            "programme_total": "9975.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "2 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "review_reference": "turn240view1",
+                "source_url": "https://www.ucas.com/explore/courses/55611d75-a9fa-487a-a691-528927343998/film-practice-online?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_fee_basis_conflict": "UCAS uses a generic per-year heading for GBP 9,975. Use the saved direct AUB fee page for its explicit two-year programme-total basis, taxes and acceptance payment.",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              },
+              {
+                "sha256": "531b10cfd33b27233af0073aed4143ecc17d63969ba680c656b00071fbe06a76",
+                "source_url": "https://aub.ac.uk/graduate-courses/ma-film-practice-online"
+              },
+              {
+                "sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+                "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "online",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "The online fee page advertises a conditional 20% AUB Alumni progression discount under England support: undergraduate completion within two years. International applicability, exact cohort/route and combination rules require confirmation. Do not infer eligibility or carry over the campus competitive award.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-film-practice-online",
+            "source_fee_category": "International",
+            "study_mode": "online",
+            "study_year": 1,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Film Practice (Online)",
+          "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "2000",
+          "tuition_fee": "9975.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_41",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_41",
+          "title": "MA Interior Design (Online)",
+          "level": "PG",
+          "duration": "2 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-interior-design-online",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Online",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "9975.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "2000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "acceptance_payment": "500.00",
+            "annual_fee_available": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": "500.00",
+              "available": true,
+              "included_in_tuition": true,
+              "is_cas_deposit": false,
+              "message": "AUB publishes a non-refundable GBP 500 acceptance payment for two-year online courses, allocated to the first tuition payment after study starts. It is not an extra GBP 500 added to the programme total or a campus pre-CAS requirement.",
+              "payment_stage": "acceptance",
+              "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+            },
+            "duration_note": "Two-year part-time online route.",
+            "duration_verified": true,
+            "fee_note": "Published 2027/28 two-year online programme total GBP 9,975. Country-dependent GST/VAT may apply. Non-refundable GBP 500 acceptance payment is allocated to the first tuition payment and is included in that total. UCAS generic annual labelling does not override the direct AUB total basis.",
+            "fee_source_sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_same_online_route"
+            },
+            "programme_total": "9975.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "2 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "review_reference": "turn240view2",
+                "source_url": "https://www.ucas.com/explore/courses/e8551303-fb78-47f9-8a87-a54f8c3812fc/interior-design-online?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_fee_basis_conflict": "UCAS uses a generic per-year heading for GBP 9,975. Use the saved direct AUB fee page for its explicit two-year programme-total basis, taxes and acceptance payment.",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              },
+              {
+                "sha256": "a52400c9f502080b470df9f08800c981362dfc66680672146b00384b28af72b1",
+                "source_url": "https://aub.ac.uk/graduate-courses/ma-interior-design-online"
+              },
+              {
+                "sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+                "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "online",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "The online fee page advertises a conditional 20% AUB Alumni progression discount under England support: undergraduate completion within two years. International applicability, exact cohort/route and combination rules require confirmation. Do not infer eligibility or carry over the campus competitive award.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-interior-design-online",
+            "source_fee_category": "International",
+            "study_mode": "online",
+            "study_year": 1,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Interior Design (Online)",
+          "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_41",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-interior-design-online",
+          "duration": "2 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Online",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Interior Design (Online)",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "acceptance_payment": "500.00",
+            "annual_fee_available": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": "500.00",
+              "available": true,
+              "included_in_tuition": true,
+              "is_cas_deposit": false,
+              "message": "AUB publishes a non-refundable GBP 500 acceptance payment for two-year online courses, allocated to the first tuition payment after study starts. It is not an extra GBP 500 added to the programme total or a campus pre-CAS requirement.",
+              "payment_stage": "acceptance",
+              "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+            },
+            "duration_note": "Two-year part-time online route.",
+            "duration_verified": true,
+            "fee_note": "Published 2027/28 two-year online programme total GBP 9,975. Country-dependent GST/VAT may apply. Non-refundable GBP 500 acceptance payment is allocated to the first tuition payment and is included in that total. UCAS generic annual labelling does not override the direct AUB total basis.",
+            "fee_source_sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_same_online_route"
+            },
+            "programme_total": "9975.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "2 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "review_reference": "turn240view2",
+                "source_url": "https://www.ucas.com/explore/courses/e8551303-fb78-47f9-8a87-a54f8c3812fc/interior-design-online?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_fee_basis_conflict": "UCAS uses a generic per-year heading for GBP 9,975. Use the saved direct AUB fee page for its explicit two-year programme-total basis, taxes and acceptance payment.",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              },
+              {
+                "sha256": "a52400c9f502080b470df9f08800c981362dfc66680672146b00384b28af72b1",
+                "source_url": "https://aub.ac.uk/graduate-courses/ma-interior-design-online"
+              },
+              {
+                "sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+                "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "online",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "The online fee page advertises a conditional 20% AUB Alumni progression discount under England support: undergraduate completion within two years. International applicability, exact cohort/route and combination rules require confirmation. Do not infer eligibility or carry over the campus competitive award.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-interior-design-online",
+            "source_fee_category": "International",
+            "study_mode": "online",
+            "study_year": 1,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Interior Design (Online)",
+          "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "2000",
+          "tuition_fee": "9975.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_42",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_42",
+          "title": "MA Landscape Architecture Studies (Online)",
+          "level": "PG",
+          "duration": "2 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-landscape-architecture-studies-online",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Online",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "9975.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "2000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "acceptance_payment": "500.00",
+            "annual_fee_available": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": "500.00",
+              "available": true,
+              "included_in_tuition": true,
+              "is_cas_deposit": false,
+              "message": "AUB publishes a non-refundable GBP 500 acceptance payment for two-year online courses, allocated to the first tuition payment after study starts. It is not an extra GBP 500 added to the programme total or a campus pre-CAS requirement.",
+              "payment_stage": "acceptance",
+              "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+            },
+            "duration_note": "Two-year part-time online route.",
+            "duration_verified": true,
+            "fee_note": "Published 2027/28 two-year online programme total GBP 9,975. Country-dependent GST/VAT may apply. Non-refundable GBP 500 acceptance payment is allocated to the first tuition payment and is included in that total. UCAS generic annual labelling does not override the direct AUB total basis.",
+            "fee_source_sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_same_online_route"
+            },
+            "programme_total": "9975.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "2 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "review_reference": "turn240view3",
+                "source_url": "https://www.ucas.com/explore/courses/a8a90e80-c4bb-4e8c-868a-64e6f72d1724/landscape-architecture-studies-online?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_fee_basis_conflict": "UCAS uses a generic per-year heading for GBP 9,975. Use the saved direct AUB fee page for its explicit two-year programme-total basis, taxes and acceptance payment.",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              },
+              {
+                "sha256": "4277d75d6667ab968753a5b3675c45e0fefa69b03162f845635ec1ec62e30df9",
+                "source_url": "https://aub.ac.uk/graduate-courses/ma-landscape-architecture-studies-online"
+              },
+              {
+                "sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+                "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "online",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "The online fee page advertises a conditional 20% AUB Alumni progression discount under England support: undergraduate completion within two years. International applicability, exact cohort/route and combination rules require confirmation. Do not infer eligibility or carry over the campus competitive award.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-landscape-architecture-studies-online",
+            "source_fee_category": "International",
+            "study_mode": "online",
+            "study_year": 1,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Landscape Architecture Studies (Online)",
+          "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_42",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-landscape-architecture-studies-online",
+          "duration": "2 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Online",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Landscape Architecture Studies (Online)",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "acceptance_payment": "500.00",
+            "annual_fee_available": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": "500.00",
+              "available": true,
+              "included_in_tuition": true,
+              "is_cas_deposit": false,
+              "message": "AUB publishes a non-refundable GBP 500 acceptance payment for two-year online courses, allocated to the first tuition payment after study starts. It is not an extra GBP 500 added to the programme total or a campus pre-CAS requirement.",
+              "payment_stage": "acceptance",
+              "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+            },
+            "duration_note": "Two-year part-time online route.",
+            "duration_verified": true,
+            "fee_note": "Published 2027/28 two-year online programme total GBP 9,975. Country-dependent GST/VAT may apply. Non-refundable GBP 500 acceptance payment is allocated to the first tuition payment and is included in that total. UCAS generic annual labelling does not override the direct AUB total basis.",
+            "fee_source_sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_same_online_route"
+            },
+            "programme_total": "9975.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "2 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "review_reference": "turn240view3",
+                "source_url": "https://www.ucas.com/explore/courses/a8a90e80-c4bb-4e8c-868a-64e6f72d1724/landscape-architecture-studies-online?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_fee_basis_conflict": "UCAS uses a generic per-year heading for GBP 9,975. Use the saved direct AUB fee page for its explicit two-year programme-total basis, taxes and acceptance payment.",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              },
+              {
+                "sha256": "4277d75d6667ab968753a5b3675c45e0fefa69b03162f845635ec1ec62e30df9",
+                "source_url": "https://aub.ac.uk/graduate-courses/ma-landscape-architecture-studies-online"
+              },
+              {
+                "sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+                "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "online",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "The online fee page advertises a conditional 20% AUB Alumni progression discount under England support: undergraduate completion within two years. International applicability, exact cohort/route and combination rules require confirmation. Do not infer eligibility or carry over the campus competitive award.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-landscape-architecture-studies-online",
+            "source_fee_category": "International",
+            "study_mode": "online",
+            "study_year": 1,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Landscape Architecture Studies (Online)",
+          "source_url": "https://aub.ac.uk/fees/postgraduate-online"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "2000",
+          "tuition_fee": "9975.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_43",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_43",
+          "title": "BA (Hons) Acting with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "410F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "410F"
+            },
+            "published_duration": "4 to 5 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 to 5 Years",
+                "review_reference": "turn238search3; turn242view2",
+                "source_url": "https://www.ucas.com/explore/courses/a5788579-979d-4aac-adc0-6e3e86f7ecc0/acting-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "410F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "410F",
+          "source_course_name": "BA (Hons) Acting with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/a5788579-979d-4aac-adc0-6e3e86f7ecc0/acting-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_43",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Acting with Foundation Year",
+          "ucas_cao_code": "410F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "410F"
+            },
+            "published_duration": "4 to 5 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 to 5 Years",
+                "review_reference": "turn238search3; turn242view2",
+                "source_url": "https://www.ucas.com/explore/courses/a5788579-979d-4aac-adc0-6e3e86f7ecc0/acting-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "410F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "410F",
+          "source_course_name": "BA (Hons) Acting with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/a5788579-979d-4aac-adc0-6e3e86f7ecc0/acting-with-foundation-year?studyYear=2027"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "14750.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_44",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_44",
+          "title": "BA (Hons) Animation Production with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "615F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "615F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn245view1; turn243search2",
+                "source_url": "https://www.ucas.com/explore/courses/59017b58-c61b-4dc6-8a10-8a53a846b172/course?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "615F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "615F",
+          "source_course_name": "BA (Hons) Animation Production with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/59017b58-c61b-4dc6-8a10-8a53a846b172/animation-production-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_44",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Animation Production with Foundation Year",
+          "ucas_cao_code": "615F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "615F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn245view1; turn243search2",
+                "source_url": "https://www.ucas.com/explore/courses/59017b58-c61b-4dc6-8a10-8a53a846b172/course?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "615F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "615F",
+          "source_course_name": "BA (Hons) Animation Production with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/59017b58-c61b-4dc6-8a10-8a53a846b172/animation-production-with-foundation-year?studyYear=2027"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "14750.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_45",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_45",
+          "title": "BA (Hons) Commercial Photography with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "644F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "644F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn236search6; turn242view3",
+                "source_url": "https://www.ucas.com/explore/courses/5d031411-1334-4c17-97c8-2a9dd609d27b/commercial-photography-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "644F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "644F",
+          "source_course_name": "BA (Hons) Commercial Photography with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/5d031411-1334-4c17-97c8-2a9dd609d27b/commercial-photography-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_45",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Commercial Photography with Foundation Year",
+          "ucas_cao_code": "644F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "644F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn236search6; turn242view3",
+                "source_url": "https://www.ucas.com/explore/courses/5d031411-1334-4c17-97c8-2a9dd609d27b/commercial-photography-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "644F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "644F",
+          "source_course_name": "BA (Hons) Commercial Photography with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/5d031411-1334-4c17-97c8-2a9dd609d27b/commercial-photography-with-foundation-year?studyYear=2027"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "14750.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_46",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_46",
+          "title": "BA (Hons) Communication Design and Strategy with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "213F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "213F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn243search0",
+                "source_url": "https://www.ucas.com/explore/courses/847e9a32-197b-43e0-bfc9-5c7076dda0f3/communication-design-and-strategy-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "213F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "213F",
+          "source_course_name": "BA (Hons) Communication Design and Strategy with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/847e9a32-197b-43e0-bfc9-5c7076dda0f3/communication-design-and-strategy-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_46",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Communication Design and Strategy with Foundation Year",
+          "ucas_cao_code": "213F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "213F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn243search0",
+                "source_url": "https://www.ucas.com/explore/courses/847e9a32-197b-43e0-bfc9-5c7076dda0f3/communication-design-and-strategy-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "213F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "213F",
+          "source_course_name": "BA (Hons) Communication Design and Strategy with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/847e9a32-197b-43e0-bfc9-5c7076dda0f3/communication-design-and-strategy-with-foundation-year?studyYear=2027"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "14750.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_47",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_47",
+          "title": "BA (Hons) Content Creation with Marketing with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "225F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "225F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn243search1",
+                "source_url": "https://www.ucas.com/explore/courses/970197d3-8d82-4281-aae6-99e1af950b7a/content-creation-with-marketing-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "225F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "225F",
+          "source_course_name": "BA (Hons) Content Creation with Marketing with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/970197d3-8d82-4281-aae6-99e1af950b7a/content-creation-with-marketing-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_47",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Content Creation with Marketing with Foundation Year",
+          "ucas_cao_code": "225F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "225F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn243search1",
+                "source_url": "https://www.ucas.com/explore/courses/970197d3-8d82-4281-aae6-99e1af950b7a/content-creation-with-marketing-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "225F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "225F",
+          "source_course_name": "BA (Hons) Content Creation with Marketing with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/970197d3-8d82-4281-aae6-99e1af950b7a/content-creation-with-marketing-with-foundation-year?studyYear=2027"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "14750.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_48",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_48",
+          "title": "BA (Hons) Costume with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "452F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "452F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search2; turn242view5",
+                "source_url": "https://www.ucas.com/explore/courses/d5f4255b-e79c-4dda-b3fe-f16bc6adb155/costume-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "452F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "452F",
+          "source_course_name": "BA (Hons) Costume with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/d5f4255b-e79c-4dda-b3fe-f16bc6adb155/costume-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_48",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Costume with Foundation Year",
+          "ucas_cao_code": "452F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "452F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search2; turn242view5",
+                "source_url": "https://www.ucas.com/explore/courses/d5f4255b-e79c-4dda-b3fe-f16bc6adb155/costume-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "452F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "452F",
+          "source_course_name": "BA (Hons) Costume with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/d5f4255b-e79c-4dda-b3fe-f16bc6adb155/costume-with-foundation-year?studyYear=2027"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "14750.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_49",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_49",
+          "title": "BA (Hons) Fashion with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "230F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "230F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search4; turn242view1",
+                "source_url": "https://www.ucas.com/explore/courses/e657b6c8-0b26-4896-be27-ded5dd3f5d61/fashion-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "230F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "230F",
+          "source_course_name": "BA (Hons) Fashion with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/e657b6c8-0b26-4896-be27-ded5dd3f5d61/fashion-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_49",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Fashion with Foundation Year",
+          "ucas_cao_code": "230F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "230F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search4; turn242view1",
+                "source_url": "https://www.ucas.com/explore/courses/e657b6c8-0b26-4896-be27-ded5dd3f5d61/fashion-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "230F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "230F",
+          "source_course_name": "BA (Hons) Fashion with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/e657b6c8-0b26-4896-be27-ded5dd3f5d61/fashion-with-foundation-year?studyYear=2027"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "14750.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_50",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_50",
+          "title": "BA (Hons) Film Production with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "610F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "610F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search0; turn242view4",
+                "source_url": "https://www.ucas.com/explore/courses/13b40cc9-2246-4d44-9ba3-c424107948b0/film-production-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "610F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "610F",
+          "source_course_name": "BA (Hons) Film Production with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/13b40cc9-2246-4d44-9ba3-c424107948b0/film-production-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_50",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Film Production with Foundation Year",
+          "ucas_cao_code": "610F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "610F"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search0; turn242view4",
+                "source_url": "https://www.ucas.com/explore/courses/13b40cc9-2246-4d44-9ba3-c424107948b0/film-production-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "610F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "questions_location": "scholarship_page",
+              "reason": "International scholarship treatment of the integrated foundation year/Year 0 is not established by the reviewed standard UG rule. Do not extend that rule just because the course level is UG.",
+              "status": "applicability_pending"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "610F",
+          "source_course_name": "BA (Hons) Film Production with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/13b40cc9-2246-4d44-9ba3-c424107948b0/film-production-with-foundation-year?studyYear=2027"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "14750.00"
+        }
+      }
+    }
+  ],
+  "unchanged_pending_ids": [
+    "C_UK005_04",
+    "C_UK005_11",
+    "C_UK005_27",
+    "C_UK005_28",
+    "C_UK005_30",
+    "C_UK005_31",
+    "C_UK005_32"
+  ],
+  "changed_courses": 0,
+  "changed_items": 0,
+  "award": {
+    "name": "AUB International Competitive PG — Fashion Confirmed Amount (2027/28)",
+    "changed": false,
+    "rules": {
+      "importer": "aub_competitive_confirmed_amount_v1",
+      "kind": "confirmed_amount",
+      "value": "3000.00",
+      "published_maximum": "3000.00",
+      "confirmed_amount_fact": "aub_confirmed_award_amount",
+      "benefit": "tuition",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "study_years": [
+        1
+      ],
+      "conditions": {
+        "aub_fee_status_confirmed": [
+          true
+        ],
+        "aub_offer_confirmed": [
+          true
+        ],
+        "aub_application_by_deadline": [
+          true
+        ],
+        "aub_award_granted": [
+          true
+        ],
+        "aub_award_accepted": [
+          true
+        ],
+        "aub_award_for_compared_period": [
+          true
+        ],
+        "aub_no_other_aub_award": [
+          true
+        ],
+        "course_id": [
+          "C_UK005_33"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "aub_award_amount_valid": [
+          true
+        ]
+      },
+      "award_status": "competitive",
+      "stacking": "exclusive",
+      "compatible_ids": [],
+      "percentage_basis": "original_tuition",
+      "fee_basis_confirmed": true,
+      "source_capture_sha256": "512006985c7d067522728834611b6782caa6a6a0ef00240fa54e41c03b882973",
+      "eligibility_questions": [
+        {
+          "key": "aub_fee_status_confirmed",
+          "type": "boolean",
+          "label": "Has AUB assessed you as an overseas fee payer?"
+        },
+        {
+          "key": "aub_offer_confirmed",
+          "type": "boolean",
+          "label": "Do you hold the AUB offer for this exact course and intake?"
+        },
+        {
+          "key": "aub_application_by_deadline",
+          "type": "boolean",
+          "label": "Did you submit the scholarship application by the published deadline for your intake?"
+        },
+        {
+          "key": "aub_award_granted",
+          "type": "boolean",
+          "label": "Has AUB granted you this international scholarship?"
+        },
+        {
+          "key": "aub_award_accepted",
+          "type": "boolean",
+          "label": "Have you accepted the scholarship under AUB’s instructions?"
+        },
+        {
+          "key": "aub_award_for_compared_period",
+          "type": "boolean",
+          "label": "Does the award letter make this amount applicable to the fee period being compared?"
+        },
+        {
+          "key": "aub_no_other_aub_award",
+          "type": "boolean",
+          "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?"
+        },
+        {
+          "key": "aub_confirmed_award_amount",
+          "type": "money",
+          "currency": "GBP",
+          "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award."
+        }
+      ],
+      "questions_location": "scholarship_page",
+      "scope_note": "Exact reviewed campus course IDs and compared year only. Deduct the actual granted amount, bounded by the published maximum, once saved personal facts are confirmed. The AUB adapter is required; the generic calculator cannot interpret confirmed_amount."
+    }
+  },
+  "online_acceptance_policy": {
+    "changed": false,
+    "currency": "GBP",
+    "rules": {
+      "importer": "aub_remaining13_v1",
+      "kind": "online_acceptance_payment",
+      "academic_year": "2027/28",
+      "payment_stage": "acceptance",
+      "amount": "500.00",
+      "currency": "GBP",
+      "course_ids": [
+        "C_UK005_23",
+        "C_UK005_40",
+        "C_UK005_41",
+        "C_UK005_42"
+      ],
+      "included_in_tuition": true,
+      "is_cas_deposit": false,
+      "note": "For these four reviewed two-year online programmes, GBP 500 is a non-refundable acceptance payment allocated to the first tuition instalment after study starts. Included in total tuition; not a campus pre-CAS deposit.",
+      "source_capture_sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa"
+    },
+    "source_url": "https://aub.ac.uk/fees/postgraduate-online",
+    "source_text": "For these four reviewed two-year online programmes, GBP 500 is a non-refundable acceptance payment allocated to the first tuition instalment after study starts. Included in total tuition; not a campus pre-CAS deposit.",
+    "source_sha256": "43a1ebedfee5fea8523d95b6cc7bfa7a545f2a0aa55f723d3dc66269726693aa",
+    "verified": true
+  }
+}

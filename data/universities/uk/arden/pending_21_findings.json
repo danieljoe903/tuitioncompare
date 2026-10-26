@@ -1,0 +1,168 @@
+{
+  "university_id": "UK004",
+  "database_changes": false,
+  "evidence_summary": {
+    "database_courses": 21,
+    "reviews_completed": 21,
+    "pages_collected": 32,
+    "fee_responses": 26,
+    "collection_issues": 4,
+    "request_attempts": 60,
+    "status_counts": {
+      "university_ownership_review": 2,
+      "duplicate_candidate_review": 1,
+      "direct_route_found_fee_and_intake_review": 8,
+      "current_exact_route_or_intake_unconfirmed": 7,
+      "berlin_route_does_not_confirm_uk_intake": 3
+    }
+  },
+  "findings": [
+    {
+      "course_id": "C_UK004_13",
+      "title": "BSc (Hons) Agriculture",
+      "status": "university_ownership_or_award_confirmation_required",
+      "reason": "Stored Writtle location points towards ARU; current ARU export contains no matching Agriculture/Veterinary Nursing record. No cross-university reassignment is approved.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_14",
+      "title": "BSc (Hons) Veterinary Nursing",
+      "status": "university_ownership_or_award_confirmation_required",
+      "reason": "Stored Writtle location points towards ARU; current ARU export contains no matching Agriculture/Veterinary Nursing record. No cross-university reassignment is approved.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_26",
+      "title": "BA (Hons) Business Management (Top-Up)",
+      "status": "confirmed_duplicate_retirement_proposal",
+      "reason": "Same exact top-up title and source as active, verified C_ARD004_01. Retain canonical calculations; retire duplicate only with explicit acceptance.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_29",
+      "title": "BA (Hons) Business Management with Foundation Year",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_30",
+      "title": "LLB (Hons) Law with Foundation Year",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_31",
+      "title": "BA (Hons) Criminology and Psychology with Foundation Year",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_39",
+      "title": "MSc Data Analytics and Project Management",
+      "status": "historical_award_current_intake_unconfirmed",
+      "reason": "Official historical award evidence exists; both direct URL probes returned 404. No current intake or automatic replacement is approved.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_46",
+      "title": "BA (Hons) Criminal Justice",
+      "status": "legacy_title_requires_replacement_acceptance_or_intake_proof",
+      "reason": "A marketing quiz mentions Criminal Justice. Current Criminology is a different title; changing the programme requires explicit replacement acceptance and fee/intake verification.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_47",
+      "title": "BA (Hons) Human Resource Management and Psychology",
+      "status": "confirmed_online_route_current_intake_unverified",
+      "reason": "Direct page and NG/GH £5,500 per-level fee schedule confirmed. No application study options or intake present. No current academic year or deduction can be assigned.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_48",
+      "title": "BSc (Hons) Health and Care Management with Foundation Year",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_51",
+      "title": "MSc IT Security Management",
+      "status": "redirect_to_already_mapped_course",
+      "reason": "The IT Security Management probe redirects to MSc Cyber Security, already C_UK004_18. Redirect alone does not establish equivalent awards or allow a duplicate fee import.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_52",
+      "title": "MSc Global Supply Chain Management",
+      "status": "related_programme_already_mapped",
+      "reason": "MSc Supply Chain Management and Logistics already has canonical record C_UK004_25. Global Supply Chain title still needs identity confirmation.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_54",
+      "title": "MA Education",
+      "status": "exact_current_route_unconfirmed",
+      "reason": "No exact current MA Education intake and fee established. Related subject labels or other qualification levels do not verify this route.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_55",
+      "title": "MSc Data Analytics and Information Systems Management",
+      "status": "historical_award_current_intake_unconfirmed",
+      "reason": "Official historical award evidence exists; both direct URL probes returned 404. No current intake or automatic replacement is approved.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_57",
+      "title": "BA (Hons) Business Management (Accounting and Finance) with Foundation Year",
+      "status": "redirect_drops_foundation_year",
+      "reason": "The foundation pathway probe redirects to the non-foundation Accounting and Finance degree. Do not import a three-year fee against a four-year foundation route.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_58",
+      "title": "BA (Hons) Business Management (Marketing) with Foundation Year",
+      "status": "berlin_route_not_a_verified_uk_route",
+      "reason": "Exact themed foundation route found on Berlin pages. A UK campus/intake and GBP fee are not established; UK scholarship rules do not carry over.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_59",
+      "title": "BA (Hons) Business Management (HRM) with Foundation Year",
+      "status": "berlin_route_not_a_verified_uk_route",
+      "reason": "Exact themed foundation route found on Berlin pages. A UK campus/intake and GBP fee are not established; UK scholarship rules do not carry over.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_60",
+      "title": "BA (Hons) Business Management (Tourism) with Foundation Year",
+      "status": "berlin_route_not_a_verified_uk_route",
+      "reason": "Exact themed foundation route found on Berlin pages. A UK campus/intake and GBP fee are not established; UK scholarship rules do not carry over.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_61",
+      "title": "Foundation Degree Business and Innovation (FdA)",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_62",
+      "title": "Foundation Degree Computing and Digital Futures (FdSc)",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_63",
+      "title": "Foundation Degree Health and Care Management (FdSc)",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Search Universities in UK & Ireland - University Tuition Compare</title>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    body > main {
+        padding-top: 0 !important;
+    }
+
+    .university-search-page {
+        --university-header-height: 120px;
+    }
+
+    .university-search-page .university-hero {
+        position: relative;
+        isolation: isolate;
+        display: flex;
+        align-items: center;
+        min-height: 520px;
+        box-sizing: border-box;
+        padding: calc(var(--university-header-height) + 56px) 0 64px;
+        background: #102c46;
+    }
+
+    .university-search-page .university-hero-image {
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .university-search-page .university-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background: linear-gradient(
+            90deg,
+            rgba(8, 25, 43, 0.85),
+            rgba(8, 25, 43, 0.4)
+        );
+    }
+
+    .university-search-page .university-hero-content {
+        max-width: 760px;
+    }
+
+    .university-search-page .university-eyebrow {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 8px 14px;
+        border: 1px solid rgba(125, 211, 252, 0.35);
+        border-radius: 999px;
+        background: rgba(56, 189, 248, 0.12);
+        color: #bae6fd;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .university-search-page .university-hero h1 {
+        margin: 0 0 22px;
+        color: #ffffff;
+        font-size: clamp(32px, 4vw, 50px);
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .university-search-page .university-hero-description {
+        max-width: 680px;
+        margin: 0;
+        color: #e2e8f0;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .university-search-page .university-hero-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 28px;
+    }
+
+    .university-search-page .university-hero-tags span {
+        padding: 8px 14px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        background: rgba(8, 25, 43, 0.25);
+        color: #ffffff;
+        font-size: 14px;
+    }
+
+    .university-search-page .university-results-section {
+        padding: 48px 0 72px;
+        background: #f1f7fb;
+    }
+
+    .university-search-page .university-layout {
+        display: grid;
+        grid-template-columns: 300px minmax(0, 1fr);
+        align-items: start;
+        gap: 36px;
+    }
+
+    .university-search-page .university-desktop-filters {
+        position: sticky;
+        top: calc(var(--university-header-height) + 20px);
+        max-height: calc(100dvh - var(--university-header-height) - 40px);
+        overflow-y: auto;
+    }
+
+    .university-search-page .university-mobile-filters {
+        display: none;
+        margin-bottom: 28px;
+    }
+
+    .university-search-page .university-filter-card {
+        padding: 24px;
+        border: 1px solid #e2e8f0;
+        border-radius: 18px;
+        background: #ffffff;
+        box-shadow: 0 10px 30px rgba(16, 44, 70, 0.05);
+    }
+
+    .university-search-page .university-filter-card h2 {
+        margin: 0 0 24px;
+        color: #102c46;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .university-search-page .university-filter-field {
+        margin-bottom: 24px;
+    }
+
+    .university-search-page .university-filter-field label,
+    .university-search-page .university-filter-field legend {
+        display: block;
+        margin-bottom: 10px;
+        color: #334155;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .university-search-page .university-filter-field input {
+        width: 100%;
+        min-height: 48px;
+        padding: 12px 14px;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #ffffff;
+        color: #102c46;
+        font-size: 15px;
+    }
+
+    .university-search-page .university-filter-field input:focus {
+        border-color: #2563eb;
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    }
+
+    .university-search-page .university-filter-options {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 10px;
+    }
+
+    .university-search-page .university-filter-options button {
+        min-height: 44px;
+        padding: 10px 6px;
+        border: 2px solid #cbd5e1;
+        border-radius: 10px;
+        background: #ffffff;
+        color: #334155;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: border-color 0.2s, background-color 0.2s;
+    }
+
+    .university-search-page .university-filter-options button:hover {
+        border-color: #102c46;
+    }
+
+    .university-search-page .university-filter-options button.active {
+        border-color: #102c46;
+        background: #102c46;
+        color: #ffffff;
+    }
+
+    .university-search-page .university-clear-button {
+        width: 100%;
+        min-height: 46px;
+        padding: 12px 16px;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #f8fafc;
+        color: #102c46;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .university-search-page .university-clear-button:hover {
+        background: #e2e8f0;
+    }
+
+    .university-search-page button:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 3px;
+    }
+
+    .university-search-page .university-results {
+        min-width: 0;
+    }
+
+    .university-search-page .university-results-heading {
+        margin-bottom: 24px;
+    }
+
+    .university-search-page #university-count {
+        margin: 0;
+        color: #102c46;
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .university-search-page .university-results-note {
+        margin: 8px 0 0;
+        color: #64748b;
+        font-size: 14px;
+    }
+
+    .university-search-page #universities-grid > * + * {
+        margin-top: 24px;
+    }
+
+    .university-search-page #load-more-container {
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    .university-search-page #load-more-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        min-height: 52px;
+        padding: 14px 36px;
+        border: 2px solid #102c46;
+        border-radius: 10px;
+        background: #ffffff;
+        color: #102c46;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .university-search-page #load-more-btn:hover {
+        background: #102c46;
+        color: #ffffff;
+    }
+
+    .university-search-page #load-more-btn:disabled {
+        cursor: wait;
+        opacity: 0.7;
+    }
+
+    .dark .university-search-page .university-results-section {
+        background: #011120;
+    }
+
+    .dark .university-search-page .university-filter-card {
+        border-color: #334155;
+        background: #102c46;
+    }
+
+    .dark .university-search-page .university-filter-card h2,
+    .dark .university-search-page #university-count {
+        color: #ffffff;
+    }
+
+    .dark .university-search-page .university-filter-field label,
+    .dark .university-search-page .university-filter-field legend,
+    .dark .university-search-page .university-results-note {
+        color: #cbd5e1;
+    }
+
+    .dark .university-search-page .university-filter-field input,
+    .dark .university-search-page .university-filter-options button {
+        border-color: #475569;
+        background: #1b2430;
+        color: #ffffff;
+    }
+
+    .dark .university-search-page .university-filter-options button.active {
+        border-color: #2563eb;
+        background: #2563eb;
+    }
+
+    .dark .university-search-page .university-clear-button,
+    .dark .university-search-page #load-more-btn {
+        border-color: #475569;
+        background: #1b2430;
+        color: #ffffff;
+    }
+
+    @media (max-width: 1023px) {
+        .university-search-page .university-layout {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        .university-search-page .university-desktop-filters {
+            display: none;
+        }
+
+        .university-search-page .university-mobile-filters {
+            display: block;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .university-search-page .university-hero {
+            min-height: 440px;
+            padding: calc(var(--university-header-height) + 36px) 0 48px;
+        }
+
+        .university-search-page .university-hero-description {
+            font-size: 16px;
+        }
+
+        .university-search-page .university-results-section {
+            padding: 32px 0 48px;
+        }
+
+        .university-search-page .university-filter-card {
+            padding: 20px;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="university-search-page" id="university-search-page">
+
+    <!-- Hero banner -->
+    <section class="university-hero" aria-labelledby="university-hero-heading">
+        <img
+            src="{% static 'images/hero/university.jpg' %}"
+            class="university-hero-image"
+            alt=""
+            fetchpriority="high"
+        />
+
+        <div class="container">
+            <div class="university-hero-content">
+                <span class="university-eyebrow">
+                    University Discovery
+                </span>
+
+                <h1 id="university-hero-heading">
+                    Explore Universities
+                </h1>
+
+                <p class="university-hero-description">
+                    Discover universities across the UK and Ireland.
+                    Explore your options and find a university
+                    that matches your study goals.
+                </p>
+
+                <div class="university-hero-tags">
+                    <span>United Kingdom</span>
+                    <span>Ireland</span>
+                    <span>Find Your Match</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filters and results -->
+    <section class="university-results-section">
+        <div class="container">
+            <div class="university-layout">
+
+                <!-- Desktop filters -->
+                <aside
+                    class="university-desktop-filters"
+                    aria-label="Filter universities"
+                >
+                    <div class="university-filter-card">
+                        <h2>Filter Universities</h2>
+
+                        <div class="university-filter-field">
+                            <label for="filter-name">Search by Name</label>
+                            <input
+                                type="text"
+                                id="filter-name"
+                                placeholder="Search universities..."
+                            />
+                        </div>
+
+                        <fieldset class="university-filter-field">
+                            <legend>Study Level</legend>
+                            <div class="university-filter-options">
+                                <button
+                                    type="button"
+                                    data-level="UG"
+                                    class="level-btn active"
+                                >
+                                    Undergraduate
+                                </button>
+                                <button
+                                    type="button"
+                                    data-level="PG"
+                                    class="level-btn"
+                                >
+                                    Postgraduate
+                                </button>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="university-filter-field">
+                            <legend>Location</legend>
+                            <div class="university-filter-options">
+                                <button
+                                    type="button"
+                                    data-country="UK"
+                                    class="country-btn active"
+                                >
+                                    UK
+                                </button>
+                                <button
+                                    type="button"
+                                    data-country="IE"
+                                    class="country-btn"
+                                >
+                                    Ireland
+                                </button>
+                            </div>
+                        </fieldset>
+
+                        <button
+                            type="button"
+                            id="clear-filters"
+                            class="university-clear-button"
+                        >
+                            Clear All Filters
+                        </button>
+                    </div>
+                </aside>
+
+                <div class="university-results">
+
+                    <!-- Mobile filters -->
+                    <div class="university-mobile-filters">
+                        <div class="university-filter-card">
+                            <h2>Filter Universities</h2>
+
+                            <div class="university-filter-field">
+                                <label for="filter-name-mobile">
+                                    Search by Name
+                                </label>
+                                <input
+                                    type="text"
+                                    id="filter-name-mobile"
+                                    placeholder="Search universities..."
+                                />
+                            </div>
+
+                            <fieldset class="university-filter-field">
+                                <legend>Study Level</legend>
+                                <div class="university-filter-options">
+                                    <button
+                                        type="button"
+                                        data-level="UG"
+                                        class="level-btn-mobile active"
+                                    >
+                                        Undergraduate
+                                    </button>
+                                    <button
+                                        type="button"
+                                        data-level="PG"
+                                        class="level-btn-mobile"
+                                    >
+                                        Postgraduate
+                                    </button>
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="university-filter-field">
+                                <legend>Location</legend>
+                                <div class="university-filter-options">
+                                    <button
+                                        type="button"
+                                        data-country="UK"
+                                        class="country-btn-mobile active"
+                                    >
+                                        UK
+                                    </button>
+                                    <button
+                                        type="button"
+                                        data-country="IE"
+                                        class="country-btn-mobile"
+                                    >
+                                        Ireland
+                                    </button>
+                                </div>
+                            </fieldset>
+
+                            <button
+                                type="button"
+                                id="clear-filters-mobile"
+                                class="university-clear-button"
+                            >
+                                Clear All Filters
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="university-results-heading">
+                        <h2 id="university-count" aria-live="polite">
+                            0 Universities
+                        </h2>
+                        <p class="university-results-note">
+                            Use the filters to narrow your search.
+                        </p>
+                    </div>
+
+                    <div id="universities-grid">
+                        <!-- Populated by university-search.js -->
+                    </div>
+
+                    <div id="load-more-container" class="hidden">
+                        <button type="button" id="load-more-btn">
+                            <span id="load-more-text">Load More</span>
+
+                            <svg
+                                id="load-more-spinner"
+                                class="hidden animate-spin h-5 w-5"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                aria-hidden="true"
+                            >
+                                <circle
+                                    class="opacity-25"
+                                    cx="12"
+                                    cy="12"
+                                    r="10"
+                                    stroke="currentColor"
+                                    stroke-width="4"
+                                ></circle>
+                                <path
+                                    class="opacity-75"
+                                    fill="currentColor"
+                                    d="M4 12a8 8 0 018-8V0C5.373 0 0
+                                       5.373 0 12h4zm2 5.291A7.962
+                                       7.962 0 014 12H0c0 3.042
+                                       1.135 5.824 3 7.938l3-2.647z"
+                                ></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    (() => {
+        const header = document.getElementById("header");
+        const page = document.getElementById("university-search-page");
+
+        if (!header || !page) return;
+
+        const updateSpacing = () => {
+            const isFixed =
+                getComputedStyle(header).position === "fixed";
+
+            const height = isFixed
+                ? Math.ceil(header.getBoundingClientRect().height)
+                : 0;
+
+            page.style.setProperty(
+                "--university-header-height",
+                `${height}px`
+            );
+        };
+
+        updateSpacing();
+
+        new ResizeObserver(updateSpacing).observe(header);
+        window.addEventListener("load", updateSpacing);
+    })();
+</script>
+
+<script src="{% static 'js/university-search.js' %}"></script>
+{% endblock %}

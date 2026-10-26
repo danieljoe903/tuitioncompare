@@ -1,0 +1,483 @@
+{% load static %}
+
+<style>
+    .recommended-section {
+        padding: 80px 0;
+        overflow: hidden;
+        background: #f1f7fb;
+    }
+
+    .recommended-section .recommended-heading {
+        max-width: 720px;
+        margin: 0 auto 40px;
+        text-align: center;
+    }
+
+    .recommended-section .recommended-eyebrow {
+        display: inline-block;
+        margin-bottom: 14px;
+        color: #2563eb;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+
+    .recommended-section .recommended-heading h2 {
+        margin: 0 0 16px;
+        color: #102c46;
+        font-size: clamp(28px, 3vw, 38px);
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .recommended-section .recommended-heading p {
+        margin: 0;
+        color: #52657a;
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .recommended-section .recommended-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 24px;
+    }
+
+    .recommended-section .university-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        overflow: hidden;
+        border: 1px solid #dce6ef;
+        border-radius: 20px;
+        background: #ffffff;
+        box-shadow: 0 8px 24px rgba(16, 44, 70, 0.05);
+        transition:
+            box-shadow 0.25s ease,
+            border-color 0.25s ease;
+    }
+
+    .recommended-section .university-card:hover {
+        border-color: #93c5fd;
+        box-shadow: 0 16px 36px rgba(16, 44, 70, 0.12);
+    }
+
+    .recommended-section .university-card-image {
+        position: relative;
+        overflow: hidden;
+        background: #e2e8f0;
+    }
+
+    .recommended-section .university-card-image img {
+        display: block;
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+    }
+
+    .recommended-section .university-card:hover .university-card-image img {
+        transform: scale(1.04);
+    }
+
+    .recommended-section .favorite-btn {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        padding: 8px;
+        border: 1px solid #e2e8f0;
+        border-radius: 50%;
+        background: #ffffff;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(16, 44, 70, 0.12);
+    }
+
+    .recommended-section .favorite-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .recommended-section .favorite-btn:hover svg {
+        color: #ef4444;
+    }
+
+    .recommended-section .university-card-body {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding: 22px;
+    }
+
+    .recommended-section .university-card-body h3 {
+        margin: 0 0 12px;
+        color: #102c46;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.45;
+        overflow-wrap: anywhere;
+    }
+
+    .recommended-section .university-location {
+        display: flex;
+        align-items: flex-start;
+        gap: 7px;
+        margin: 0 0 24px;
+        color: #64748b;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .recommended-section .university-location svg {
+        flex-shrink: 0;
+        width: 17px;
+        height: 17px;
+        margin-top: 2px;
+        color: #2563eb;
+    }
+
+    .recommended-section .university-card-actions {
+        display: grid;
+        gap: 10px;
+        margin-top: auto;
+    }
+
+    .recommended-section .university-info-link,
+    .recommended-section .university-website-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        min-height: 44px;
+        padding: 11px 14px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+        transition:
+            background-color 0.2s ease,
+            border-color 0.2s ease;
+    }
+
+    .recommended-section .university-info-link {
+        background: #102c46;
+        color: #ffffff;
+    }
+
+    .recommended-section .university-info-link:hover {
+        background: #1d4e73;
+    }
+
+    .recommended-section .university-website-link {
+        border-color: #dbeafe;
+        background: #eff6ff;
+        color: #1d4ed8;
+    }
+
+    .recommended-section .university-website-link:hover {
+        border-color: #93c5fd;
+        background: #dbeafe;
+    }
+
+    .recommended-section .university-website-link svg {
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0;
+    }
+
+    .recommended-section a:focus-visible,
+    .recommended-section button:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 4px;
+    }
+
+    .recommended-section .recommended-empty {
+        grid-column: 1 / -1;
+        padding: 32px;
+        border: 1px dashed #cbd5e1;
+        border-radius: 16px;
+        color: #52657a;
+        text-align: center;
+    }
+
+    /* Dark mode */
+    .dark .recommended-section {
+        background: #101e30;
+    }
+
+    .dark .recommended-section .recommended-heading h2,
+    .dark .recommended-section .university-card-body h3 {
+        color: #ffffff;
+    }
+
+    .dark .recommended-section .recommended-heading p,
+    .dark .recommended-section .university-location,
+    .dark .recommended-section .recommended-empty {
+        color: #cbd5e1;
+    }
+
+    .dark .recommended-section .recommended-eyebrow,
+    .dark .recommended-section .university-location svg {
+        color: #7dd3fc;
+    }
+
+    .dark .recommended-section .university-card {
+        border-color: #334155;
+        background: #16283d;
+        box-shadow: none;
+    }
+
+    .dark .recommended-section .university-card:hover {
+        border-color: #60a5fa;
+    }
+
+    .dark .recommended-section .university-info-link {
+        background: #2563eb;
+    }
+
+    .dark .recommended-section .university-info-link:hover {
+        background: #1d4ed8;
+    }
+
+    .dark .recommended-section .university-website-link {
+        border-color: #334155;
+        background: #102c46;
+        color: #bfdbfe;
+    }
+
+    .dark .recommended-section .university-website-link:hover {
+        background: #1d3c59;
+    }
+
+    /* Tablets */
+    @media (max-width: 1100px) {
+        .recommended-section .recommended-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    /* Phones */
+    @media (max-width: 639px) {
+        .recommended-section {
+            padding: 48px 0;
+        }
+
+        .recommended-section .recommended-heading {
+            margin-bottom: 28px;
+            text-align: left;
+        }
+
+        .recommended-section .recommended-heading p {
+            font-size: 16px;
+        }
+
+        .recommended-section .recommended-grid {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 18px;
+        }
+
+        .recommended-section .university-card {
+            border-radius: 16px;
+        }
+
+        .recommended-section .university-card-image img {
+            height: 200px;
+        }
+
+        .recommended-section .university-card-body {
+            padding: 20px;
+        }
+
+        .recommended-section .university-card-actions {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    @media (max-width: 359px) {
+        .recommended-section .university-card-actions {
+            grid-template-columns: minmax(0, 1fr);
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .recommended-section [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        .recommended-section .university-card,
+        .recommended-section .university-card-image img,
+        .recommended-section a {
+            transition: none;
+        }
+
+        .recommended-section .university-card:hover .university-card-image img {
+            transform: none;
+        }
+    }
+</style>
+
+<section
+    class="recommended-section"
+    aria-labelledby="recommended-universities-heading"
+>
+    <div class="container">
+
+        <div
+            class="recommended-heading"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-once="true"
+        >
+            <span class="recommended-eyebrow">
+                Explore your next destination
+            </span>
+
+            <h2 id="recommended-universities-heading">
+                Recommended Universities
+            </h2>
+
+            <p>
+                Discover universities across the UK and Ireland.
+                Explore tuition fees, rankings and course options
+                to find a university that fits your academic goals.
+            </p>
+        </div>
+
+        <div class="recommended-grid">
+            {% for university in recommended_universities %}
+
+            <!-- Animate the wrapper; keep card hover effects separate. -->
+            <div
+                data-aos="fade-up"
+                data-aos-delay="{% cycle '0' '100' '200' '300' %}"
+                data-aos-duration="800"
+                data-aos-once="true"
+            >
+                <article class="university-card">
+
+                    <div class="university-card-image">
+                        <img
+                            src="{% if university.banner %}{{ university.banner }}{% else %}{% static 'images/mine/about-us.jpg' %}{% endif %}"
+                            data-fallback-src="{% static 'images/mine/about-us.jpg' %}"
+                            alt="{{ university.name }}"
+                            loading="lazy"
+                            decoding="async"
+                            onerror="this.onerror=null; this.src=this.dataset.fallbackSrc; this.alt='Students outdoors';"
+                        >
+                        <button
+                            type="button"
+                            class="favorite-btn"
+                            data-university-id="{{ university.university_id }}"
+                            title="Add to favorites"
+                            aria-label="Add {{ university.name }} to favorites"
+                        >
+                            <svg
+                                class="text-gray-400"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                                ></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="university-card-body">
+                        <h3>{{ university.name }}</h3>
+
+                        <p class="university-location">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1116 0Z"
+                                ></path>
+                                <circle cx="12" cy="10" r="2.5"></circle>
+                            </svg>
+
+                            <span>
+                                {% if university.city %}
+                                    {{ university.city }}
+                                {% endif %}
+
+                                {% if university.country == 'IE' %}
+                                    {% if university.city %}, {% endif %}Ireland
+                                {% elif university.country == 'UK' or university.country == 'GB' %}
+                                    {% if university.city %}, {% endif %}United Kingdom
+                                {% elif university.country %}
+                                    {% if university.city %}, {% endif %}{{ university.get_country_display }}
+                                {% endif %}
+                            </span>
+                        </p>
+
+                        <div class="university-card-actions">
+                            <a
+                                href="/universities/{{ university.slug }}/"
+                                class="university-info-link"
+                            >
+                                View Info
+                            </a>
+
+                            {% if university.website %}
+                            <a
+                                href="{% if university.website|slice:':8' == 'https://' or university.website|slice:':7' == 'http://' %}{{ university.website }}{% else %}https://{{ university.website }}{% endif %}"
+                                class="university-website-link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Visit {{ university.name }} website (opens in a new tab)"
+                            >
+                                <span>Visit Website</span>
+
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.8"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M14 3h7v7M21 3l-9 9M10 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-5"
+                                    ></path>
+                                </svg>
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+
+            {% empty %}
+            <p class="recommended-empty">
+                Recommended universities will appear here soon.
+            </p>
+            {% endfor %}
+        </div>
+
+    </div>
+</section>
+
+<div class="border-t border-gray-200 dark:border-gray-700"></div>

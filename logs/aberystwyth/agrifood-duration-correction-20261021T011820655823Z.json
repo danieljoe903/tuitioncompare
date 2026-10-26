@@ -1,0 +1,81 @@
+{
+  "course_id": "C_UK002_92",
+  "changed": true,
+  "before": {
+    "course": {
+      "duration": "3 Years",
+      "location": "Distance Learning",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aber.ac.uk"
+    },
+    "source_course_code": "",
+    "raw_fees": {
+      "verified": false,
+      "fee_review": {
+        "reason": "Agrifood Innovation candidates differ in award and duration. Confirm the distance-learning route and module/programme fees.",
+        "status": "pending",
+        "candidate_urls": [
+          "https://courses.aber.ac.uk/postgraduate/J792D-agrifood-innovation/",
+          "https://courses.aber.ac.uk/postgraduate/J792D3-sustainable-agriculture/",
+          "https://courses.aber.ac.uk/postgraduate/agrifood-innovation/"
+        ],
+        "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+      },
+      "display_notes": {
+        "fee": "International tuition has not been verified for this course and intake.",
+        "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+        "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+      },
+      "deposit_status": "offer_letter_amount_required",
+      "scholarship_status": "applicability_unconfirmed",
+      "fee_verification_status": "needs_review"
+    }
+  },
+  "after": {
+    "course": {
+      "duration": "3 Years",
+      "location": "Distance Learning",
+      "start_month": "January",
+      "start_year": 2027,
+      "course_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701"
+    },
+    "source_course_code": "D67ND3",
+    "raw_fees": {
+      "verified": false,
+      "fee_review": {
+        "reason": "Agrifood Innovation candidates differ in award and duration. Confirm the distance-learning route and module/programme fees.",
+        "status": "pending",
+        "candidate_urls": [
+          "https://courses.aber.ac.uk/postgraduate/J792D-agrifood-innovation/",
+          "https://courses.aber.ac.uk/postgraduate/J792D3-sustainable-agriculture/",
+          "https://courses.aber.ac.uk/postgraduate/agrifood-innovation/"
+        ],
+        "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+      },
+      "display_notes": {
+        "fee": "International tuition has not been verified for this course and intake.",
+        "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+        "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+      },
+      "deposit_status": "offer_letter_amount_required",
+      "scholarship_status": "applicability_unconfirmed",
+      "fee_verification_status": "needs_review",
+      "course_source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701",
+      "course_identity": {
+        "status": "confirmed_current_catalogue_match",
+        "official_title": "Agrifood Innovation",
+        "official_code": "D67ND3",
+        "official_award": "MSC",
+        "source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701",
+        "note": "Three-year MSc scheme. Corrects the earlier assignment to the separate five-year D67ND route."
+      },
+      "duration_review": {
+        "status": "corrected",
+        "duration": "3 Years",
+        "source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701",
+        "reason": "Official D67ND3 scheme specifies three years."
+      }
+    }
+  }
+}

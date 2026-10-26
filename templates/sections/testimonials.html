@@ -1,0 +1,475 @@
+<style>
+    .student-stories {
+        padding: 88px 0;
+        overflow: hidden;
+        background:
+            radial-gradient(
+                circle at 50% 0,
+                rgba(56, 189, 248, 0.08),
+                transparent 45%
+            ),
+            #ffffff;
+    }
+
+    .student-stories .stories-heading {
+        max-width: 680px;
+        margin: 0 auto 44px;
+        text-align: center;
+    }
+
+    .student-stories .stories-eyebrow {
+        display: inline-block;
+        margin-bottom: 14px;
+        color: #2563eb;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+
+    .student-stories .stories-heading h2 {
+        margin: 0 0 18px;
+        color: #102c46;
+        font-size: clamp(28px, 3vw, 40px);
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .student-stories .stories-heading p {
+        margin: 0;
+        color: #52657a;
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .student-stories .stories-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px;
+    }
+
+    .student-stories .story-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 30px;
+        overflow: hidden;
+        border: 1px solid #dce6ef;
+        border-radius: 22px;
+        background: #ffffff;
+        box-shadow: 0 10px 30px rgba(16, 44, 70, 0.05);
+        transition:
+            border-color 0.25s ease,
+            box-shadow 0.25s ease;
+    }
+
+    .student-stories .story-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 30px;
+        right: 30px;
+        height: 4px;
+        border-radius: 0 0 4px 4px;
+        background: #2563eb;
+    }
+
+    .student-stories .story-card:hover {
+        border-color: #93c5fd;
+        box-shadow: 0 18px 40px rgba(16, 44, 70, 0.1);
+    }
+
+    .student-stories .story-person {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 24px;
+    }
+
+    .student-stories .story-avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 54px;
+        height: 54px;
+        border: 4px solid #eff6ff;
+        border-radius: 50%;
+        background: #2563eb;
+        color: #ffffff;
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    .student-stories .story-avatar-green {
+        border-color: #ecfdf5;
+        background: #047857;
+    }
+
+    .student-stories .story-avatar-navy {
+        border-color: #eef2f6;
+        background: #102c46;
+    }
+
+    .student-stories .story-person h3 {
+        margin: 0 0 4px;
+        color: #102c46;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 1.4;
+    }
+
+    .student-stories .story-country {
+        margin: 0;
+        color: #64748b;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .student-stories .story-rating {
+        margin-bottom: 18px;
+        color: #b77900;
+        font-size: 20px;
+        letter-spacing: 3px;
+        line-height: 1;
+    }
+
+    .student-stories .story-quote {
+        flex: 1;
+        margin: 0 0 26px;
+        padding: 0;
+        border: 0;
+        color: #52657a;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.85;
+    }
+
+    .student-stories .story-quote p {
+        margin: 0;
+    }
+
+    .student-stories .story-course {
+        margin-top: auto;
+        padding-top: 20px;
+        border-top: 1px solid #e2e8f0;
+    }
+
+    .student-stories .story-course-label {
+        display: block;
+        margin-bottom: 7px;
+        color: #64748b;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .student-stories .story-course p {
+        margin: 0;
+        color: #1d4ed8;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.6;
+    }
+
+    .student-stories .story-course p span {
+        display: block;
+        margin-top: 4px;
+        color: #52657a;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    /* Dark mode */
+    .dark .student-stories {
+        background:
+            radial-gradient(
+                circle at 50% 0,
+                rgba(56, 189, 248, 0.06),
+                transparent 45%
+            ),
+            #0d1a2c;
+    }
+
+    .dark .student-stories .stories-heading h2,
+    .dark .student-stories .story-person h3 {
+        color: #ffffff;
+    }
+
+    .dark .student-stories .stories-eyebrow,
+    .dark .student-stories .story-course p {
+        color: #7dd3fc;
+    }
+
+    .dark .student-stories .stories-heading p,
+    .dark .student-stories .story-quote {
+        color: #cbd5e1;
+    }
+
+    .dark .student-stories .story-country,
+    .dark .student-stories .story-course-label,
+    .dark .student-stories .story-course p span {
+        color: #94a3b8;
+    }
+
+    .dark .student-stories .story-card {
+        border-color: #334155;
+        background: #16283d;
+        box-shadow: none;
+    }
+
+    .dark .student-stories .story-card:hover {
+        border-color: #60a5fa;
+    }
+
+    .dark .student-stories .story-avatar {
+        border-color: #243b56;
+    }
+
+    .dark .student-stories .story-course {
+        border-color: #334155;
+    }
+
+    .dark .student-stories .story-rating {
+        color: #fbbf24;
+    }
+
+    /* Tablets: two cards, with the last card centered */
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .student-stories .stories-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .student-stories .story-wrapper:last-child {
+            grid-column: 1 / -1;
+            width: calc(50% - 12px);
+            justify-self: center;
+        }
+    }
+
+    @media (max-width: 1023px) {
+        .student-stories {
+            padding: 64px 0;
+        }
+
+        .student-stories .story-card {
+            padding: 26px;
+        }
+    }
+
+    /* Phones */
+    @media (max-width: 767px) {
+        .student-stories {
+            padding: 48px 0;
+        }
+
+        .student-stories .stories-heading {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .student-stories .stories-heading p {
+            font-size: 16px;
+        }
+
+        .student-stories .stories-grid {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 20px;
+        }
+
+        .student-stories .story-card {
+            padding: 24px;
+            border-radius: 18px;
+        }
+
+        .student-stories .story-quote {
+            font-size: 15px;
+        }
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+        .student-stories [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        .student-stories .story-card {
+            transition: none;
+        }
+    }
+</style>
+
+<section
+    class="student-stories"
+    aria-labelledby="student-stories-heading"
+>
+    <div class="container">
+
+        <div
+            class="stories-heading"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-once="true"
+        >
+            <span class="stories-eyebrow">
+                Student experiences
+            </span>
+
+            <h2 id="student-stories-heading">
+                Student Success Stories
+            </h2>
+
+            <p>
+                Hear from students who found their perfect
+                university match.
+            </p>
+        </div>
+
+        <div class="stories-grid">
+
+            <!-- Testimonial 1 -->
+            <div
+                class="story-wrapper"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="900"
+                data-aos-easing="ease-out-cubic"
+                data-aos-once="true"
+            >
+                <article class="story-card">
+                    <div class="story-person">
+                        <span class="story-avatar" aria-hidden="true">A</span>
+
+                        <div>
+                            <h3>Adebayo O.</h3>
+                            <p class="story-country">
+                                Nigeria <span aria-hidden="true">🇳🇬</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="story-rating" role="img" aria-label="5 out of 5 stars">
+                        <span aria-hidden="true">★★★★★</span>
+                    </div>
+
+                    <blockquote class="story-quote">
+                        <p>
+                            “This platform helped me compare tuition fees
+                            across UK universities. I found a great MSc Business Analytics programme that fit my budget
+                            and saved £15,000 with a scholarship I discovered here!
+                        </p>
+                    </blockquote>
+
+                    <div class="story-course">
+                        <span class="story-course-label">Course & university</span>
+                        <p>
+                            MSc Business Analytics
+                            <span>Imperial College London</span>
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div
+                class="story-wrapper"
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="900"
+                data-aos-easing="ease-out-cubic"
+                data-aos-once="true"
+            >
+                <article class="story-card">
+                    <div class="story-person">
+                        <span
+                            class="story-avatar story-avatar-green"
+                            aria-hidden="true"
+                        >P</span>
+
+                        <div>
+                            <h3>Priya M.</h3>
+                            <p class="story-country">
+                                India <span aria-hidden="true">🇮🇳</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="story-rating" role="img" aria-label="5 out of 5 stars">
+                        <span aria-hidden="true">★★★★★</span>
+                    </div>
+
+                    <blockquote class="story-quote">
+                        <p>
+                            “The course comparison feature is amazing!
+                            I could see entry requirements, duration,
+                            and fees all in one place. Made my decision
+                            to study in Ireland so much easier.”
+                        </p>
+                    </blockquote>
+
+                    <div class="story-course">
+                        <span class="story-course-label">Course & university</span>
+                        <p>
+                            BSc Computer Science
+                            <span>Trinity College Dublin</span>
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div
+                class="story-wrapper"
+                data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-duration="900"
+                data-aos-easing="ease-out-cubic"
+                data-aos-once="true"
+            >
+                <article class="story-card">
+                    <div class="story-person">
+                        <span
+                            class="story-avatar story-avatar-navy"
+                            aria-hidden="true"
+                        >K</span>
+
+                        <div>
+                            <h3>Kwame A.</h3>
+                            <p class="story-country">
+                                Ghana <span aria-hidden="true">🇬🇭</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="story-rating" role="img" aria-label="5 out of 5 stars">
+                        <span aria-hidden="true">★★★★★</span>
+                    </div>
+
+                    <blockquote class="story-quote">
+                        <p>
+                            “I loved the currency converter feature.
+                            Seeing tuition in GHS helped me plan my
+                            budget better. The scholarship section also
+                            connected me with funding opportunities.”
+                        </p>
+                    </blockquote>
+
+                    <div class="story-course">
+                        <span class="story-course-label">Course & university</span>
+                        <p>
+                            BEng Mechanical Engineering
+                            <span>University of Manchester</span>
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="border-t border-gray-200 dark:border-gray-700"></div>

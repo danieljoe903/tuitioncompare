@@ -1,0 +1,199 @@
+[
+  {
+    "course_id": "C_UK005_04",
+    "stored_title": "BA (Hons) Business of Games",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "category": "pending_identity",
+    "reason": "An official Business of Games specification establishes an award and 3-year route, but does not establish a current September 2027 recruiting intake. No current route may be inferred from a historical specification."
+  },
+  {
+    "course_id": "C_UK005_11",
+    "stored_title": "BA (Hons) Dance, Movement and Creative Practice",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "category": "pending_identity",
+    "reason": "The award appears in shared application guidance, but the collected catalogue did not establish an exact current route/intake. Shared or older application text does not confirm September 2027 recruitment."
+  },
+  {
+    "course_id": "C_UK005_23",
+    "stored_title": "MA Creative Writing (Online)",
+    "level": "PG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/39d0409a-05ed-4c30-974b-1f3906464fc1/creative-writing-online?studyYear=2027",
+    "ucas_heading": "Creative Writing (Online) (Taught)",
+    "expected_code": null,
+    "category": "online",
+    "course_url": "https://aub.ac.uk/graduate-courses/ma-creative-writing-online"
+  },
+  {
+    "course_id": "C_UK005_27",
+    "stored_title": "BA (Hons) Ceramics",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "category": "pending_identity",
+    "reason": "Ceramics appears in shared application guidance; an exact current recruiting course/intake was not established. Do not equate a ceramics subject filter with a confirmed degree intake."
+  },
+  {
+    "course_id": "C_UK005_28",
+    "stored_title": "BA (Hons) Creative Events Management",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "category": "pending_identity",
+    "reason": "Historical Creative Events Management programme specification exists; current exact award/intake not established. No automatic substitution with Arts, Media and Creative Industries Management."
+  },
+  {
+    "course_id": "C_UK005_30",
+    "stored_title": "BA (Hons) Performance Design and Film Costume",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "category": "pending_identity",
+    "reason": "Historical prospectus/alumni evidence exists. Do not substitute Costume or Costume for Film without an explicit reviewed replacement."
+  },
+  {
+    "course_id": "C_UK005_31",
+    "stored_title": "BA (Hons) Visual Effects (VFX) for Film and Television",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "category": "pending_identity",
+    "reason": "Historical official course evidence does not establish a current BA VFX intake. MA Visual Effects is a different level and must not be substituted."
+  },
+  {
+    "course_id": "C_UK005_32",
+    "stored_title": "BA (Hons) Future Media Production",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "category": "pending_identity",
+    "reason": "A 2025 open-day announcement listed Future Media Production subject to validation. A current exact intake was not established; do not duplicate the existing Film Production record."
+  },
+  {
+    "course_id": "C_UK005_33",
+    "stored_title": "MA Digital Fashion Innovation",
+    "level": "PG",
+    "reviewed_on": "2026-10-24",
+    "category": "replacement",
+    "course_url": "https://aub.ac.uk/graduate-courses/ma-fashion-innovation",
+    "proposed_title": "MA Fashion Innovation"
+  },
+  {
+    "course_id": "C_UK005_40",
+    "stored_title": "MA Film Practice (Online)",
+    "level": "PG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/55611d75-a9fa-487a-a691-528927343998/film-practice-online?studyYear=2027",
+    "ucas_heading": "Film Practice (Online) (Taught)",
+    "expected_code": null,
+    "category": "online",
+    "course_url": "https://aub.ac.uk/graduate-courses/ma-film-practice-online"
+  },
+  {
+    "course_id": "C_UK005_41",
+    "stored_title": "MA Interior Design (Online)",
+    "level": "PG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/e8551303-fb78-47f9-8a87-a54f8c3812fc/interior-design-online?studyYear=2027",
+    "ucas_heading": "Interior Design (Online) (Taught)",
+    "expected_code": null,
+    "category": "online",
+    "course_url": "https://aub.ac.uk/graduate-courses/ma-interior-design-online"
+  },
+  {
+    "course_id": "C_UK005_42",
+    "stored_title": "MA Landscape Architecture Studies (Online)",
+    "level": "PG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/a8a90e80-c4bb-4e8c-868a-64e6f72d1724/landscape-architecture-studies-online?studyYear=2027",
+    "ucas_heading": "Landscape Architecture Studies (Online) (Taught)",
+    "expected_code": null,
+    "category": "online",
+    "course_url": "https://aub.ac.uk/graduate-courses/ma-landscape-architecture-studies-online"
+  },
+  {
+    "course_id": "C_UK005_43",
+    "stored_title": "BA (Hons) Acting with Foundation Year",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/a5788579-979d-4aac-adc0-6e3e86f7ecc0/acting-with-foundation-year?studyYear=2027",
+    "ucas_heading": "Acting with Foundation Year",
+    "expected_code": "410F",
+    "category": "foundation",
+    "course_url": "https://aub.ac.uk/integrated-foundation-year"
+  },
+  {
+    "course_id": "C_UK005_44",
+    "stored_title": "BA (Hons) Animation Production with Foundation Year",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/59017b58-c61b-4dc6-8a10-8a53a846b172/animation-production-with-foundation-year?studyYear=2027",
+    "ucas_heading": "Animation Production with Foundation Year",
+    "expected_code": "615F",
+    "category": "foundation",
+    "course_url": "https://aub.ac.uk/integrated-foundation-year"
+  },
+  {
+    "course_id": "C_UK005_45",
+    "stored_title": "BA (Hons) Commercial Photography with Foundation Year",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/5d031411-1334-4c17-97c8-2a9dd609d27b/commercial-photography-with-foundation-year?studyYear=2027",
+    "ucas_heading": "Commercial Photography with Foundation Year",
+    "expected_code": "644F",
+    "category": "foundation",
+    "course_url": "https://aub.ac.uk/integrated-foundation-year"
+  },
+  {
+    "course_id": "C_UK005_46",
+    "stored_title": "BA (Hons) Communication Design and Strategy with Foundation Year",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/847e9a32-197b-43e0-bfc9-5c7076dda0f3/communication-design-and-strategy-with-foundation-year?studyYear=2027",
+    "ucas_heading": "Communication Design and Strategy with Foundation Year",
+    "expected_code": "213F",
+    "category": "foundation",
+    "course_url": "https://aub.ac.uk/integrated-foundation-year"
+  },
+  {
+    "course_id": "C_UK005_47",
+    "stored_title": "BA (Hons) Content Creation with Marketing with Foundation Year",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/970197d3-8d82-4281-aae6-99e1af950b7a/content-creation-with-marketing-with-foundation-year?studyYear=2027",
+    "ucas_heading": "Content Creation with Marketing with Foundation Year",
+    "expected_code": "225F",
+    "category": "foundation",
+    "course_url": "https://aub.ac.uk/integrated-foundation-year"
+  },
+  {
+    "course_id": "C_UK005_48",
+    "stored_title": "BA (Hons) Costume with Foundation Year",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/d5f4255b-e79c-4dda-b3fe-f16bc6adb155/costume-with-foundation-year?studyYear=2027",
+    "ucas_heading": "Costume with Foundation Year",
+    "expected_code": "452F",
+    "category": "foundation",
+    "course_url": "https://aub.ac.uk/integrated-foundation-year"
+  },
+  {
+    "course_id": "C_UK005_49",
+    "stored_title": "BA (Hons) Fashion with Foundation Year",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/e657b6c8-0b26-4896-be27-ded5dd3f5d61/fashion-with-foundation-year?studyYear=2027",
+    "ucas_heading": "Fashion with Foundation Year",
+    "expected_code": "230F",
+    "category": "foundation",
+    "course_url": "https://aub.ac.uk/integrated-foundation-year"
+  },
+  {
+    "course_id": "C_UK005_50",
+    "stored_title": "BA (Hons) Film Production with Foundation Year",
+    "level": "UG",
+    "reviewed_on": "2026-10-24",
+    "ucas_url": "https://www.ucas.com/explore/courses/13b40cc9-2246-4d44-9ba3-c424107948b0/film-production-with-foundation-year?studyYear=2027",
+    "ucas_heading": "Film Production with Foundation Year",
+    "expected_code": "610F",
+    "category": "foundation",
+    "course_url": "https://aub.ac.uk/integrated-foundation-year"
+  }
+]

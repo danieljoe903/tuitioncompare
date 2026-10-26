@@ -1,0 +1,501 @@
+{
+  "generated_at": "2026-10-20T23:23:25.454853+00:00",
+  "university_id": "UK002",
+  "mode": "preview",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\remaining-review-20261020T231510825902Z\\remaining-course-review.json",
+  "proposals": [
+    {
+      "course_id": "C_ABE002_RES_01",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MRes Biosciences",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/biosciences-masters-research/"
+        },
+        "tuition": {
+          "tuition_fee": "23820.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Biosciences",
+          "source_course_code": "C190",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Sciences",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_mres",
+            "academic_year": "2027/28",
+            "annual_tuition": "23820.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "Published base tuition for the first study year. Project-specific supplementary costs, where applicable, are excluded and require university confirmation.",
+                "academic_year": "2027/28",
+                "annual_tuition": "23820.00",
+                "raw_annual_fee": "£23,820.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/biosciences-masters-research/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International",
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MRes Biosciences",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/biosciences-masters-research/"
+        },
+        "tuition": {
+          "tuition_fee": "23820.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Biosciences",
+          "source_course_code": "C190",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Sciences",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_mres",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/biosciences-masters-research/",
+            "annual_tuition": "23820.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "supplementary_charges_included": false,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "23820.00",
+                "raw_annual_fee": "£23,820.00",
+                "footnote_marker": "",
+                "annotation": "Published base tuition for the first study year. Project-specific supplementary costs, where applicable, are excluded and require university confirmation.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_46",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MBA in Project Management",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/project-management/"
+        },
+        "tuition": {
+          "tuition_fee": "23310.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Project Management",
+          "source_course_code": "N1839",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "MBA",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_taught",
+            "academic_year": "2027/28",
+            "annual_tuition": "23310.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "Published base tuition for the first study year. Project-specific supplementary costs, where applicable, are excluded and require university confirmation.",
+                "academic_year": "2027/28",
+                "annual_tuition": "23310.00",
+                "raw_annual_fee": "£23,310.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/project-management/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International",
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MBA in Project Management",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/project-management/"
+        },
+        "tuition": {
+          "tuition_fee": "23310.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Project Management",
+          "source_course_code": "N1839",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "MBA",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/project-management/",
+            "annual_tuition": "23310.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "supplementary_charges_included": false,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "23310.00",
+                "raw_annual_fee": "£23,310.00",
+                "footnote_marker": "",
+                "annotation": "Published base tuition for the first study year. Project-specific supplementary costs, where applicable, are excluded and require university confirmation.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_64",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MBA in International Marketing",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/international-marketing/"
+        },
+        "tuition": {
+          "tuition_fee": "23310.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Marketing",
+          "source_course_code": "N1840",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "MBA",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_taught",
+            "academic_year": "2027/28",
+            "annual_tuition": "23310.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "Published base tuition for the first study year. Project-specific supplementary costs, where applicable, are excluded and require university confirmation.",
+                "academic_year": "2027/28",
+                "annual_tuition": "23310.00",
+                "raw_annual_fee": "£23,310.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/international-marketing/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International",
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MBA in International Marketing",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/international-marketing/"
+        },
+        "tuition": {
+          "tuition_fee": "23310.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Marketing",
+          "source_course_code": "N1840",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "MBA",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/international-marketing/",
+            "annual_tuition": "23310.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "supplementary_charges_included": false,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "23310.00",
+                "raw_annual_fee": "£23,310.00",
+                "footnote_marker": "",
+                "annotation": "Published base tuition for the first study year. Project-specific supplementary costs, where applicable, are excluded and require university confirmation.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "blocked": [],
+  "held": [
+    {
+      "course_id": "C_ABE002_RES_02",
+      "title": "MRes Parasitology",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_ABE002_RES_03",
+      "title": "MRes International Politics",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_ABE002_RES_04",
+      "title": "MRes Modern History",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_ABE002_RES_05",
+      "title": "MRes Media, Communication and Creative Practice",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_ABE002_RES_06",
+      "title": "MPhil (Research) Psychology",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_ABE002_RES_07",
+      "title": "MSc (Research) Geography",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_ABE002_RES_08",
+      "title": "MSc (Research) Computer Science",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_ABE002_RES_09",
+      "title": "MPhil (Research) Welsh / Cymraeg",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_07",
+      "title": "BSc (Hons) Criminology and Sociology",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_10",
+      "title": "BA (Hons) International Politics",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_14",
+      "title": "BVSc Veterinary Science",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_25",
+      "title": "LLM International Business Law",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_27",
+      "title": "MSc Environmental Management",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_28",
+      "title": "MSc Psychology (Conversion)",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_29",
+      "title": "MA Digital Media Production",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_36",
+      "title": "BSc (Hons) Nursing (Adult)",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_37",
+      "title": "BSc (Hons) Nursing (Mental Health)",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_41",
+      "title": "BA (Hons) Drama and Theatre Studies",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_43",
+      "title": "BA (Hons) Modern Languages (French and Spanish)",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_52",
+      "title": "MSc Business Psychology",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_57",
+      "title": "BSc (Hons) Psychology and Marketing",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_60",
+      "title": "LLB (Hons) Law with Criminology",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_61",
+      "title": "MSc Advanced Computer Science (with integrated year in industry)",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_65",
+      "title": "MSc Agrifood Innovation",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_68",
+      "title": "PhD Education / Childhood Studies",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_80",
+      "title": "BA (Hons) History and Heritage",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_82",
+      "title": "BSc (Hons) Geology",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_83",
+      "title": "BSc (Hons) Physics with Astronomy",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_84",
+      "title": "BSc (Hons) Mathematics with Statistics",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_86",
+      "title": "BA (Hons) Creative Arts",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_91",
+      "title": "MSc Behaviour Change",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_92",
+      "title": "MSc Agrifood Innovation (Distance Learning)",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_93",
+      "title": "MSc Human Resource Management",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_94",
+      "title": "MSc Digital Marketing",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_95",
+      "title": "MSc Bioengineering",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_96",
+      "title": "MSc Pharmaceutical Sciences",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_97",
+      "title": "PhD Politics",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    },
+    {
+      "course_id": "C_UK002_99",
+      "title": "MRes Geography and Earth Sciences",
+      "reason": "Candidate identity, applicable fee category or special-route charges require further verification."
+    }
+  ]
+}

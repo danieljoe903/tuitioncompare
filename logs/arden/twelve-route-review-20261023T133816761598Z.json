@@ -1,0 +1,477 @@
+{
+  "university_id": "UK004",
+  "review_date": "2026-10-23",
+  "database_changes": false,
+  "review_basis": "Uploaded 21-case evidence plus official public course and programme pages checked during this review. Absence from a search is not proof of closure.",
+  "findings": [
+    {
+      "course_id": "C_UK004_13",
+      "stored_title": "BSc (Hons) Agriculture",
+      "outcome": "ownership_mismatch_indicated",
+      "finding": "ARU advertises the matching BSc Agriculture at Writtle. The Arden assignment appears incorrect; no course transfer or fee substitution is approved.",
+      "sources": [
+        "https://www.aru.ac.uk/study/undergraduate/agriculture"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_14",
+      "stored_title": "BSc (Hons) Veterinary Nursing",
+      "outcome": "owner_and_award_unconfirmed",
+      "finding": "ARU Writtle advertises veterinary-nursing college/apprenticeship provision. This does not verify the stored BSc qualification or Arden ownership.",
+      "sources": [
+        "https://www.aru.ac.uk/study/college-courses/subject-areas/veterinary-nursing"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_39",
+      "stored_title": "MSc Data Analytics and Project Management",
+      "outcome": "historical_award_current_intake_unconfirmed",
+      "finding": "Historical official award evidence exists; two current URL probes returned 404. Do not silently replace it with already mapped MSc Project Management.",
+      "sources": [
+        "https://arden.ac.uk/programme-specifications"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_46",
+      "stored_title": "BA (Hons) Criminal Justice",
+      "outcome": "explicit_criminology_replacement_available",
+      "finding": "Current online BA Criminology is a possible explicit replacement. The January 2027 option and NG/GH level fees are captured. It is not a confirmed rename of Criminal Justice.",
+      "sources": [
+        "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology",
+        "https://arden.ac.uk/which-degree-would-be-right-for-me"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": true
+    },
+    {
+      "course_id": "C_UK004_51",
+      "stored_title": "MSc IT Security Management",
+      "outcome": "redirect_to_canonical_cyber_security",
+      "finding": "The old IT Security Management URL redirects to current MSc Cyber Security, already C_UK004_18. Redirects do not prove award equivalence; retain the existing canonical fee/award scope.",
+      "sources": [
+        "https://arden.ac.uk/our-courses/postgraduate/masters/msc-it-security-management",
+        "https://arden.ac.uk/our-courses/postgraduate/masters/msc-cyber-security"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_52",
+      "stored_title": "MSc Global Supply Chain Management",
+      "outcome": "related_course_already_canonical",
+      "finding": "The current advertised title is MSc Supply Chain Management and Logistics, already C_UK004_25. No exact Global Supply Chain title/intake was established.",
+      "sources": [
+        "https://arden.ac.uk/our-courses/postgraduate/business-degree/msc-supply-chain-management-and-logistics"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_54",
+      "stored_title": "MA Education",
+      "outcome": "exact_ma_route_not_established",
+      "finding": "No exact current MA Education intake, mode and price established. A subject label, PG Cert or staff teaching qualification cannot verify this MA.",
+      "sources": [
+        "https://arden.ac.uk/our-courses/qualification/masters",
+        "https://arden.ac.uk/programme-specifications"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_55",
+      "stored_title": "MSc Data Analytics and Information Systems Management",
+      "outcome": "historical_berlin_award_current_uk_intake_unconfirmed",
+      "finding": "Official Berlin alumni accounts confirm the historical award. They do not establish a current UK intake or price. Both guessed direct URLs returned 404.",
+      "sources": [
+        "https://arden.ac.uk/berlin/knowledge-base/student-life/berlin-graduation-stories-neha"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_57",
+      "stored_title": "BA (Hons) Business Management (Accounting and Finance) with Foundation Year",
+      "outcome": "explicit_bsc_foundation_replacement_available",
+      "finding": "The old foundation URL redirects to a non-foundation BA. The separately advertised BSc Accounting and Finance with Foundation Year is a possible explicit replacement; its collected international fee is unavailable.",
+      "sources": [
+        "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/bsc-hons-accounting-and-finance-foundation"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": true
+    },
+    {
+      "course_id": "C_UK004_58",
+      "stored_title": "BA (Hons) Business Management (Marketing) with Foundation Year",
+      "outcome": "berlin_route_no_uk_intake_verified",
+      "finding": "Exact Marketing foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "sources": [
+        "https://arden.ac.uk/berlin/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-business-management-marketing-foundation-year"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_59",
+      "stored_title": "BA (Hons) Business Management (HRM) with Foundation Year",
+      "outcome": "berlin_route_no_uk_intake_verified",
+      "finding": "Exact HRM foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "sources": [
+        "https://arden.ac.uk/berlin/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-business-management-human-resource-management-foundation-year"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_60",
+      "stored_title": "BA (Hons) Business Management (Tourism) with Foundation Year",
+      "outcome": "berlin_route_no_uk_intake_verified",
+      "finding": "Exact Tourism foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "sources": [
+        "https://arden.ac.uk/berlin/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-business-management-tourism-foundation-year"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    }
+  ],
+  "generated_at": "2026-10-23T13:38:15.144804+00:00",
+  "mode": "preview",
+  "replacements_accepted": false,
+  "current_database_courses": [
+    {
+      "course_id": "C_UK004_13",
+      "title": "BSc (Hons) Agriculture",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Writtle Campus (Chelmsford)",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_14",
+      "title": "BSc (Hons) Veterinary Nursing",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Writtle Campus (Chelmsford)",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_39",
+      "title": "MSc Data Analytics and Project Management",
+      "level": "PG",
+      "duration": "1 Year",
+      "location": "London / Manchester / Birmingham",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_46",
+      "title": "BA (Hons) Criminal Justice",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "London / Manchester / Birmingham",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_51",
+      "title": "MSc IT Security Management",
+      "level": "PG",
+      "duration": "1 Year",
+      "location": "London / Manchester / Birmingham",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_52",
+      "title": "MSc Global Supply Chain Management",
+      "level": "PG",
+      "duration": "1 Year",
+      "location": "London / Manchester / Birmingham",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_54",
+      "title": "MA Education",
+      "level": "PG",
+      "duration": "1 Year",
+      "location": "London Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_55",
+      "title": "MSc Data Analytics and Information Systems Management",
+      "level": "PG",
+      "duration": "1 Year",
+      "location": "London / Manchester / Birmingham",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_57",
+      "title": "BA (Hons) Business Management (Accounting and Finance) with Foundation Year",
+      "level": "UG",
+      "duration": "4 Years",
+      "location": "London / Birmingham / Manchester",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_58",
+      "title": "BA (Hons) Business Management (Marketing) with Foundation Year",
+      "level": "UG",
+      "duration": "4 Years",
+      "location": "London / Birmingham / Manchester",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_59",
+      "title": "BA (Hons) Business Management (HRM) with Foundation Year",
+      "level": "UG",
+      "duration": "4 Years",
+      "location": "London / Birmingham / Manchester",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    },
+    {
+      "course_id": "C_UK004_60",
+      "title": "BA (Hons) Business Management (Tourism) with Foundation Year",
+      "level": "UG",
+      "duration": "4 Years",
+      "location": "London / Birmingham / Manchester",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.arden.ac.uk",
+      "is_active": true
+    }
+  ],
+  "current_international_tuitions": [
+    {
+      "id": 5317,
+      "course_id": "C_UK004_13",
+      "residency": "INTL",
+      "tuition_fee": "16000.0",
+      "scholarship": "4000.0",
+      "tuition_deposit": "3000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5319,
+      "course_id": "C_UK004_14",
+      "residency": "INTL",
+      "tuition_fee": "16000.0",
+      "scholarship": "4000.0",
+      "tuition_deposit": "3000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5369,
+      "course_id": "C_UK004_39",
+      "residency": "INTL",
+      "tuition_fee": "17500.0",
+      "scholarship": "5000.0",
+      "tuition_deposit": "3500",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5383,
+      "course_id": "C_UK004_46",
+      "residency": "INTL",
+      "tuition_fee": "13000.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "3000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5393,
+      "course_id": "C_UK004_51",
+      "residency": "INTL",
+      "tuition_fee": "13500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "3500",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5395,
+      "course_id": "C_UK004_52",
+      "residency": "INTL",
+      "tuition_fee": "13500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "3500",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5399,
+      "course_id": "C_UK004_54",
+      "residency": "INTL",
+      "tuition_fee": "13500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "3500",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5401,
+      "course_id": "C_UK004_55",
+      "residency": "INTL",
+      "tuition_fee": "13500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "3500",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5405,
+      "course_id": "C_UK004_57",
+      "residency": "INTL",
+      "tuition_fee": "16000.0",
+      "scholarship": "4000.0",
+      "tuition_deposit": "3000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5407,
+      "course_id": "C_UK004_58",
+      "residency": "INTL",
+      "tuition_fee": "16000.0",
+      "scholarship": "4000.0",
+      "tuition_deposit": "3000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5409,
+      "course_id": "C_UK004_59",
+      "residency": "INTL",
+      "tuition_fee": "16000.0",
+      "scholarship": "4000.0",
+      "tuition_deposit": "3000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5411,
+      "course_id": "C_UK004_60",
+      "residency": "INTL",
+      "tuition_fee": "16000.0",
+      "scholarship": "4000.0",
+      "tuition_deposit": "3000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    }
+  ],
+  "replacement_proposals": [
+    {
+      "course_id": "C_UK004_46",
+      "kind": "explicit_replacement_proposal",
+      "before": {
+        "course_id": "C_UK004_46",
+        "title": "BA (Hons) Criminal Justice",
+        "level": "UG",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.arden.ac.uk",
+        "is_active": true
+      },
+      "after": {
+        "title": "BA (Hons) Criminology",
+        "location": "Online",
+        "duration": "3 years+ (part-time)",
+        "start_month": "January",
+        "start_year": 2027,
+        "course_url": "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology"
+      },
+      "fee_basis": "per_level",
+      "fees_by_level": {
+        "4": "5500.00",
+        "5": "5500.00",
+        "6": "5500.00"
+      },
+      "currency": "GBP",
+      "academic_year": "2026/27",
+      "academic_year_provenance": "Derived from the advertised January 2027 intake, not a printed fee-year label.",
+      "country_scope": [
+        "NG",
+        "GH"
+      ],
+      "source_course_code": "2441",
+      "study_option": "c2441|tdl1668|i2027-01|m=pt",
+      "derived_programme_total": "16500.00",
+      "separately_published_total": false,
+      "scholarship_status": "not_in_collected_global_tiers_schedule_1",
+      "scholarship_deduction_verified": false,
+      "scholarship_note": "No Global Tiers deduction approved. Other scholarship applicability remains unconfirmed; this does not establish that no scholarship exists.",
+      "deposit_status": "campus_policy_not_applicable_to_online",
+      "acceptance_required": true
+    },
+    {
+      "course_id": "C_UK004_57",
+      "kind": "explicit_replacement_proposal",
+      "before": {
+        "course_id": "C_UK004_57",
+        "title": "BA (Hons) Business Management (Accounting and Finance) with Foundation Year",
+        "level": "UG",
+        "duration": "4 Years",
+        "location": "London / Birmingham / Manchester",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.arden.ac.uk",
+        "is_active": true
+      },
+      "after": {
+        "title": "BSc (Hons) Accounting and Finance with Foundation Year",
+        "duration": "4 Years",
+        "course_url": "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/bsc-hons-accounting-and-finance-foundation"
+      },
+      "fee_available": false,
+      "verified_international_tuition": null,
+      "fee_note": "The current BSc foundation route is advertised, but the collected international fee response is unavailable. No non-foundation fee is substituted.",
+      "fee_capture_provenance": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\arden\\dynamic-fees-20261023T010111265891Z\\dynamic-fees.json",
+      "scholarship_status": "pending_international_fee_intake_and_scope",
+      "scholarship_deduction_verified": false,
+      "deposit_status": "pending_international_route_confirmation",
+      "acceptance_required": true
+    }
+  ]
+}

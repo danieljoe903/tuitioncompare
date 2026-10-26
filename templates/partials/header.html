@@ -1,0 +1,311 @@
+{% load static %}
+<style>
+    
+     /* Solid background on other pages */
+    #header {
+        background: #102d47 !important;
+    }
+
+    /* Transparent background on the homepage */
+    body.homepage #header {
+        background: rgba(8, 25, 43, 0.35) !important;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+
+    /* White main navigation on both backgrounds */
+    #header > .container > div > ul > li > a {
+        color: #ffffff !important;
+    }
+
+    #header > .container > div > ul > li > a:hover {
+        color: #fde047 !important;
+    }
+
+    #mobile-menu-toggle > span {
+        background-color: #ffffff !important;
+    }
+    #header .navbar-logo {
+        display: inline-flex;
+        align-items: center;
+        flex-shrink: 0;
+        padding: 8px 12px;
+        border-radius: 12px;
+        background: #ffffff;
+    }
+
+    #header .navbar-logo img {
+        display: block;
+        width: auto;
+        height: 44px;
+    }
+
+    #mobile-menu-overlay {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1000;
+    }
+
+    #mobile-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: min(320px, 90vw);
+        max-width: 320px;
+        height: 50vh;
+        height: 50dvh;
+        overflow-y: auto;
+        background: #ffffff;
+        z-index: 1001;
+    }
+
+    #mobile-menu h2,
+    #mobile-menu nav a,
+    #mobile-menu-close {
+        color: #102d47;
+    }
+
+    #mobile-menu nav a:hover {
+        color: #2563eb;
+    }
+</style>
+
+<header id="header" class="fixed top-0 z-50 w-full py-1 transition-all">
+    <div class="container">
+        <div class="flex items-center justify-between py-4">
+            <!-- Logo -->
+            <a href="/" class="navbar-logo">
+                <img
+                    src="{% static 'images/mine/university compare.png' %}"
+                    alt="University Tuition Compare"
+                />
+            </a>
+            
+            <!-- Desktop Navigation -->
+            <ul class="desktop-nav hidden lg:flex flex-grow items-center justify-center space-x-6">
+                <li>
+                    <a href="/find-course" class="text-base font-medium text-MidnightNavyText dark:text-white hover:text-primary transition-colors flex items-center gap-2.5">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                        Find Courses
+                    </a>
+                </li>
+                <li class="relative group">
+                    <a href="#" class="text-base font-medium text-MidnightNavyText dark:text-white hover:text-primary transition-colors flex items-center gap-2.5">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path>
+                        </svg>
+                        Compare
+                        <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </a>
+                    <!-- Dropdown -->
+                    <ul class="absolute top-full left-0 mt-2 bg-white dark:bg-secondary shadow-lg rounded-lg py-2 min-w-[220px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                        <li>
+                            <a href="/compare-tuition" class="block px-4 py-2 text-sm text-MidnightNavyText dark:text-white hover:bg-primary hover:text-white flex items-center gap-2.5 whitespace-nowrap">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                                Compare Tuition
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/compare-rankings" class="block px-4 py-2 text-sm text-MidnightNavyText dark:text-white hover:bg-primary hover:text-white flex items-center gap-2.5 whitespace-nowrap">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                </svg>
+                                Compare Rankings
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/university-search" class="text-base font-medium text-MidnightNavyText dark:text-white hover:text-primary transition-colors flex items-center gap-2.5">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                        </svg>
+                        Universities
+                    </a>
+                </li>
+                <li>
+                    <a href="/scholarships" class="text-base font-medium text-MidnightNavyText dark:text-white hover:text-primary transition-colors flex items-center gap-2.5">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path>
+                        </svg>
+                        Scholarships
+                    </a>
+                </li>
+                <li>
+                    <a href="/favorites" class="text-base font-medium text-MidnightNavyText dark:text-white hover:text-primary transition-colors flex items-center gap-2.5">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                        Favorites
+                    </a>
+                </li>
+                <li class="relative group">
+                    <a href="#" class="text-base font-medium text-MidnightNavyText dark:text-white hover:text-primary transition-colors flex items-center gap-2.5">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        Get Advice
+                        <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </a>
+                    <!-- Dropdown -->
+                    <ul class="absolute top-full left-0 mt-2 bg-white dark:bg-secondary shadow-lg rounded-lg py-2 min-w-[220px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                        <li>
+                            <a href="/blog" class="block px-4 py-2 text-sm text-MidnightNavyText dark:text-white hover:bg-primary hover:text-white flex items-center gap-2.5 whitespace-nowrap">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                </svg>
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/faq" class="block px-4 py-2 text-sm text-MidnightNavyText dark:text-white hover:bg-primary hover:text-white flex items-center gap-2.5 whitespace-nowrap">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                                Frequently Asked Questions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/contact-us" class="block px-4 py-2 text-sm text-MidnightNavyText dark:text-white hover:bg-primary hover:text-white flex items-center gap-2.5 whitespace-nowrap">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <!-- Right Side Actions -->
+            <div class="flex items-center space-x-4">
+                <!-- Mobile Menu Toggle -->
+                <button id="mobile-menu-toggle" class="block lg:hidden p-2 rounded-lg" aria-label="Toggle mobile menu">
+                    <span class="block w-6 h-0.5 bg-black dark:bg-white"></span>
+                    <span class="block w-6 h-0.5 bg-black dark:bg-white mt-1.5"></span>
+                    <span class="block w-6 h-0.5 bg-black dark:bg-white mt-1.5"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Mobile Menu Overlay -->
+    
+</header>
+
+<div id="mobile-menu-overlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-40 hidden"></div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="lg:hidden fixed top-0 right-0 h-full w-full bg-white dark:bg-darkmode shadow-lg transform transition-transform duration-300 max-w-64 translate-x-full z-50">
+        <div class="flex items-center justify-between p-4">
+            <h2 class="text-lg font-bold text-black dark:text-SlateBlueText">Menu</h2>
+            <button id="mobile-menu-close" aria-label="Close mobile menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="dark:text-SlateBlueText">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <nav class="flex flex-col items-start p-4">
+            <a href="/find-course" class="w-full text-base font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center gap-3">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+                Find Courses
+            </a>
+            
+            <!-- Compare Dropdown in Mobile -->
+            <div class="w-full">
+                <button id="mobile-compare-toggle" class="w-full text-base font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center justify-between gap-3">
+                    <div class="flex items-center gap-3">
+                        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path>
+                        </svg>
+                        Compare
+                    </div>
+                    <svg class="w-4 h-4 transform transition-transform mobile-compare-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="mobile-compare-dropdown" class="hidden pl-7 flex flex-col">
+                    <a href="/compare-tuition" class="w-full text-sm font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center gap-3">
+                        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        Compare Tuition
+                    </a>
+                    <a href="/compare-rankings" class="w-full text-sm font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center gap-3">
+                        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                        </svg>
+                        Compare Rankings
+                    </a>
+                </div>
+            </div>
+            
+            <a href="/university-search" class="w-full text-base font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center gap-3">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                </svg>
+                Universities
+            </a>
+            <a href="/scholarships" class="w-full text-base font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center gap-3">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path>
+                </svg>
+                Scholarships
+            </a>
+            <a href="/favorites" class="w-full text-base font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center gap-3">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                </svg>
+                Favorites
+            </a>
+            
+            <!-- Get Advice Dropdown in Mobile -->
+            <div class="w-full">
+                <button id="mobile-advice-toggle" class="w-full text-base font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center justify-between gap-3">
+                    <div class="flex items-center gap-3">
+                        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        Get Advice
+                    </div>
+                    <svg class="w-4 h-4 transform transition-transform mobile-advice-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="mobile-advice-dropdown" class="hidden pl-7 flex flex-col">
+                    <a href="/blog" class="w-full text-sm font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center gap-3">
+                        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                        Blog
+                    </a>
+                    <a href="/faq" class="w-full text-sm font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center gap-3">
+                        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        Frequently Asked Questions
+                    </a>
+                    <a href="/contact-us" class="w-full text-sm font-medium text-MidnightNavyText dark:text-white py-2 hover:text-primary flex items-center gap-3">
+                        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>

@@ -1,0 +1,562 @@
+{
+  "mode": "apply",
+  "academic_year": "2026/27",
+  "evidence_sha256": "f32353bb4d634dec4c1b637851901b85a5d5951021207e73dc3f87c76900d15f",
+  "link_reviewed_discounts": false,
+  "scholarships": [
+    {
+      "id": 85,
+      "level": "UG",
+      "before": {
+        "award_value": "12000.00",
+        "award_type": "Tuition Reduction",
+        "currency": "GBP",
+        "deadline": null,
+        "eligibility": "International (Non-EU) fee status",
+        "requirements": "Must be classified as International for fee purposes; minimum academic entry requirements equivalent to BBC at A-Level; must have accepted an offer of study for a full-time undergraduate degree; cannot be combined with other Abertay scholarships.",
+        "description": "Abertay's primary award for high-achieving international students. The scholarship is paid as a £3,000 reduction in tuition fees per year for up to four years of study (total £12,000), aimed at supporting diverse talent in Dundee.",
+        "url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/scholarships/abertay-international-scholarship/",
+        "calculation_rule": {
+          "verified": true,
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/scholarships/abertay-international-scholarship/",
+          "rules": {
+            "kind": "fixed",
+            "value": "3000",
+            "benefit": "tuition",
+            "currency": "GBP",
+            "stacking": "exclusive",
+            "conditions": {
+              "level": [
+                "UG"
+              ],
+              "course_id": [
+                "C_UK001_01"
+              ],
+              "full_time": [
+                true
+              ],
+              "fee_status": [
+                "INTL"
+              ],
+              "new_entrant": [
+                true
+              ],
+              "repeat_year": [
+                false
+              ],
+              "on_campus_dundee": [
+                true
+              ],
+              "partner_discount": [
+                false
+              ],
+              "academic_conditions_met": [
+                true
+              ]
+            },
+            "study_years": [
+              1
+            ],
+            "award_status": "conditional",
+            "review_notes": "Pilot annual deduction only. No combined awards or early-payment discounts. Award notification and acceptance still required.",
+            "academic_year": "2026/27",
+            "compatible_ids": [],
+            "fee_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+            "percentage_basis": "original_tuition",
+            "terms_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/terms-conditions/",
+            "fee_basis_confirmed": true
+          },
+          "reviewed_at": "2026-10-14T02:16:07.545880+00:00"
+        }
+      },
+      "proposed": {
+        "award_value": "3000.00",
+        "award_type": "Maximum annual tuition reduction",
+        "currency": "GBP",
+        "deadline": null,
+        "eligibility": "International (Overseas) fee status; not nationality alone",
+        "requirements": "New full-time entrant; international fee status; academic offer conditions met; on-campus study in Dundee; no partner tuition discount; no repeat-year award. University award notification and acceptance required.",
+        "description": "Up to GBP 3,000 per academic year, for at most four years and no longer than the eligible course. This is a maximum, not a guaranteed award. Award notification and acceptance are required. Certain named scholarships may be combined under the university's rules; this calculation currently uses the base award alone. No verified application deadline is recorded from the inspected sources.",
+        "url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/scholarships/abertay-international-scholarship/",
+        "calculation_rule": {
+          "verified": true,
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/scholarships/abertay-international-scholarship/",
+          "rules": {
+            "fee_basis_confirmed": true,
+            "benefit": "tuition",
+            "kind": "fixed_maximum",
+            "value": "3000",
+            "currency": "GBP",
+            "academic_year": "2026/27",
+            "study_years": [
+              1
+            ],
+            "conditions": {
+              "fee_status": [
+                "INTL"
+              ],
+              "level": [
+                "UG"
+              ],
+              "new_entrant": [
+                true
+              ],
+              "full_time": [
+                true
+              ],
+              "on_campus_dundee": [
+                true
+              ],
+              "academic_conditions_met": [
+                true
+              ],
+              "partner_discount": [
+                false
+              ],
+              "repeat_year": [
+                false
+              ],
+              "course_id": [
+                "C_UK001_02",
+                "C_UK001_03",
+                "C_UK001_06",
+                "C_UK001_07",
+                "C_UK001_08",
+                "C_UK001_09",
+                "C_UK001_10",
+                "C_UK001_11",
+                "C_UK001_12",
+                "C_UK001_13",
+                "C_UK001_14",
+                "C_UK001_15",
+                "C_UK001_16",
+                "C_UK001_17",
+                "C_UK001_18",
+                "C_UK001_37",
+                "C_UK001_38",
+                "C_UK001_39",
+                "C_UK001_41",
+                "C_UK001_42",
+                "C_UK001_43",
+                "C_UK001_44",
+                "C_UK001_45",
+                "C_UK001_46",
+                "C_UK001_63",
+                "C_UK001_79"
+              ]
+            },
+            "award_status": "conditional",
+            "stacking": "exclusive",
+            "compatible_ids": [],
+            "percentage_basis": "original_tuition",
+            "importer": "abertay-base-maximum-v1",
+            "terms_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/terms-conditions/",
+            "evidence_sha256": "f32353bb4d634dec4c1b637851901b85a5d5951021207e73dc3f87c76900d15f",
+            "published_maximum_years": 4,
+            "review_notes": "First compared study year only. Base award only; named combinations are not implemented. PG deductions remain blocked until PG tuition bases are reviewed."
+          }
+        }
+      },
+      "changed": true
+    },
+    {
+      "id": 86,
+      "level": "PG",
+      "before": {
+        "award_value": "3000.00",
+        "award_type": "Tuition Reduction",
+        "currency": "GBP",
+        "deadline": "2026-08-15",
+        "eligibility": "International (Non-EU) fee status",
+        "requirements": "Must be classified as International for fee purposes; hold a 2:1 or equivalent in a relevant undergraduate degree; admission to a full-time Postgraduate Taught (PGT) program; personal statement required for specific competitive subjects.",
+        "description": "A merit-based one-off tuition fee reduction for international postgraduate students. This award is designed to attract top global graduates to Abertay's world-leading specialized programs in Cyber Security and Game Design.",
+        "url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/scholarships/abertay-international-scholarship/",
+        "calculation_rule": null
+      },
+      "proposed": {
+        "award_value": "3000.00",
+        "award_type": "Maximum annual tuition reduction",
+        "currency": "GBP",
+        "deadline": null,
+        "eligibility": "International (Overseas) fee status; not nationality alone",
+        "requirements": "New full-time entrant; international fee status; academic offer conditions met; on-campus study in Dundee; no partner tuition discount; no repeat-year award. University award notification and acceptance required. Postgraduate taught programme and UK 2:1 equivalent or better required.",
+        "description": "Up to GBP 3,000 per academic year, for at most four years and no longer than the eligible course. This is a maximum, not a guaranteed award. Award notification and acceptance are required. Certain named scholarships may be combined under the university's rules; this calculation currently uses the base award alone. No verified application deadline is recorded from the inspected sources.",
+        "url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/scholarships/abertay-international-scholarship/",
+        "calculation_rule": {
+          "verified": true,
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/scholarships/abertay-international-scholarship/",
+          "rules": {
+            "fee_basis_confirmed": false,
+            "benefit": "tuition",
+            "kind": "fixed_maximum",
+            "value": "3000",
+            "currency": "GBP",
+            "academic_year": "2026/27",
+            "study_years": [
+              1
+            ],
+            "conditions": {
+              "fee_status": [
+                "INTL"
+              ],
+              "level": [
+                "PG",
+                "PGT"
+              ],
+              "new_entrant": [
+                true
+              ],
+              "full_time": [
+                true
+              ],
+              "on_campus_dundee": [
+                true
+              ],
+              "academic_conditions_met": [
+                true
+              ],
+              "partner_discount": [
+                false
+              ],
+              "repeat_year": [
+                false
+              ],
+              "postgraduate_taught": [
+                true
+              ],
+              "pg_2_1_equivalent_met": [
+                true
+              ]
+            },
+            "award_status": "conditional",
+            "stacking": "exclusive",
+            "compatible_ids": [],
+            "percentage_basis": "original_tuition",
+            "importer": "abertay-base-maximum-v1",
+            "terms_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/terms-conditions/",
+            "evidence_sha256": "f32353bb4d634dec4c1b637851901b85a5d5951021207e73dc3f87c76900d15f",
+            "published_maximum_years": 4,
+            "review_notes": "First compared study year only. Base award only; named combinations are not implemented. PG deductions remain blocked until PG tuition bases are reviewed."
+          }
+        }
+      },
+      "changed": true
+    }
+  ],
+  "tuition_links": [
+    {
+      "tuition_id": 4705,
+      "course_id": "C_UK001_02",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4707,
+      "course_id": "C_UK001_03",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4713,
+      "course_id": "C_UK001_06",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4715,
+      "course_id": "C_UK001_07",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4717,
+      "course_id": "C_UK001_08",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4719,
+      "course_id": "C_UK001_09",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4721,
+      "course_id": "C_UK001_10",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4723,
+      "course_id": "C_UK001_11",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4725,
+      "course_id": "C_UK001_12",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4727,
+      "course_id": "C_UK001_13",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4729,
+      "course_id": "C_UK001_14",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4731,
+      "course_id": "C_UK001_15",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4733,
+      "course_id": "C_UK001_16",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4735,
+      "course_id": "C_UK001_17",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4737,
+      "course_id": "C_UK001_18",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4775,
+      "course_id": "C_UK001_37",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4777,
+      "course_id": "C_UK001_38",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4779,
+      "course_id": "C_UK001_39",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4783,
+      "course_id": "C_UK001_41",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4785,
+      "course_id": "C_UK001_42",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4787,
+      "course_id": "C_UK001_43",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4789,
+      "course_id": "C_UK001_44",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4791,
+      "course_id": "C_UK001_45",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4793,
+      "course_id": "C_UK001_46",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4827,
+      "course_id": "C_UK001_63",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    },
+    {
+      "tuition_id": 4859,
+      "course_id": "C_UK001_79",
+      "before": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "scholarship": "3000.0",
+        "scholarship_source_id": 85
+      }
+    }
+  ],
+  "unlinked_discount_reviews": [],
+  "status": "committed"
+}

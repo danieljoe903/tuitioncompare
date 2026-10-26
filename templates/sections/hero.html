@@ -1,0 +1,367 @@
+{% load static %}
+{% static 'images/hero/school.jpg' as hero_background %}
+
+<style>
+    .homepage-hero {
+        min-height: 620px;
+        display: flex;
+        align-items: center;
+        padding: 80px 0;
+        background-color: #08192b;
+        background-image:
+            linear-gradient(
+                90deg,
+                rgba(8, 25, 43, 0.85),
+                rgba(8, 25, 43, 0.45)
+            ),
+            url("{{ hero_background }}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .homepage-hero .hero-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 220px;
+        align-items: center;
+        gap: 48px;
+        width: 100%;
+    }
+
+    .homepage-hero .hero-content {
+        min-width: 0;
+        max-width: 850px;
+    }
+
+    .homepage-hero .hero-eyebrow {
+        margin: 0 0 18px;
+        color: #fde047;
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .homepage-hero .hero-heading {
+        margin: 0 0 24px;
+        color: #ffffff;
+        font-size: clamp(32px, 4vw, 52px);
+        line-height: 1.15;
+        font-weight: 700;
+    }
+
+    .homepage-hero .hero-description {
+        max-width: 680px;
+        margin: 0 0 36px;
+        color: #e2e8f0;
+        font-size: 19px;
+        line-height: 1.7;
+    }
+
+    .homepage-hero .hero-search {
+        display: flex;
+        align-items: stretch;
+        width: 100%;
+        border: 1px solid #d1d5db;
+        border-radius: 12px;
+        background: #ffffff;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .homepage-hero .hero-input-wrapper {
+        position: relative;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .homepage-hero .hero-search-icon {
+        position: absolute;
+        left: 18px;
+        top: 21px;
+        width: 22px;
+        height: 22px;
+        color: #64748b;
+        pointer-events: none;
+    }
+
+    .homepage-hero #hero-search-input {
+        width: 100%;
+        height: 64px;
+        padding: 0 18px 0 52px;
+        border: 0;
+        border-radius: 12px 0 0 12px;
+        background: #ffffff;
+        color: #102d47;
+        font-size: 17px;
+    }
+
+    .homepage-hero #hero-search-input::placeholder {
+        color: #64748b;
+        font-size: 17px;
+    }
+
+    .homepage-hero .hero-search-actions {
+        display: flex;
+        flex-shrink: 0;
+    }
+
+    .homepage-hero #hero-level-select {
+        width: 190px;
+        min-height: 64px;
+        padding: 0 16px;
+        border: 0;
+        border-left: 1px solid #d1d5db;
+        background-color: #ffffff;
+        color: #102d47;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .homepage-hero #hero-search-btn {
+        min-width: 120px;
+        min-height: 64px;
+        padding: 0 24px;
+        border: 0;
+        border-radius: 0 12px 12px 0;
+        background: #102d47;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    .homepage-hero #hero-search-btn:hover {
+        background: #1d4e73;
+    }
+
+    .homepage-hero #hero-search-input:focus-visible,
+    .homepage-hero #hero-level-select:focus-visible,
+    .homepage-hero #hero-search-btn:focus-visible {
+        outline: 3px solid #38bdf8;
+        outline-offset: -3px;
+    }
+
+    .homepage-hero #hero-suggestions {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        max-height: 320px;
+        margin-top: 6px;
+        overflow-y: auto;
+        border: 1px solid #d1d5db;
+        border-radius: 10px;
+        background: #ffffff;
+        color: #102d47;
+        box-shadow: 0 16px 35px rgba(0, 0, 0, 0.2);
+    }
+
+    .homepage-hero .hero-trust {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 28px;
+        color: #e2e8f0;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .homepage-hero .hero-trust-icon {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        color: #38bdf8;
+    }
+
+    .homepage-hero .hero-rating {
+        justify-self: end;
+        width: 220px;
+        padding: 30px 22px;
+        border-radius: 24px;
+        background: #fde047;
+        color: #713f12;
+        text-align: center;
+        box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+    }
+
+    .homepage-hero .hero-rating-stars {
+        margin-bottom: 14px;
+        color: #854d0e;
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+
+    .homepage-hero .hero-rating-title {
+        margin: 0;
+        font-size: 21px;
+        line-height: 1.4;
+        font-weight: 700;
+    }
+
+    .homepage-hero .hero-rating-score {
+        margin: 10px 0 0;
+        font-size: 17px;
+    }
+
+    @media (max-width: 1023px) {
+        .homepage-hero .hero-layout {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 36px;
+        }
+
+        .homepage-hero .hero-rating {
+            justify-self: start;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .homepage-hero {
+            min-height: 560px;
+            padding: 124px 0 56px;
+        }
+
+        .homepage-hero .hero-description {
+            margin-bottom: 28px;
+            font-size: 17px;
+        }
+
+        .homepage-hero .hero-search {
+            flex-direction: column;
+        }
+
+        .homepage-hero #hero-search-input {
+            border-radius: 12px 12px 0 0;
+        }
+
+        .homepage-hero .hero-search-actions {
+            width: 100%;
+            border-top: 1px solid #d1d5db;
+        }
+
+        .homepage-hero #hero-level-select {
+            flex: 1;
+            width: 0;
+            min-width: 0;
+            border-left: 0;
+            border-radius: 0 0 0 12px;
+        }
+
+        .homepage-hero #hero-search-btn {
+            min-width: 100px;
+            padding: 0 18px;
+            border-radius: 0 0 12px 0;
+        }
+
+        .homepage-hero .hero-rating {
+            width: 200px;
+            padding: 22px;
+        }
+    }
+</style>
+
+<section class="homepage-hero" aria-labelledby="hero-heading">
+    <div class="container">
+        <div class="hero-layout">
+
+            <div class="hero-content">
+                <p class="hero-eyebrow">
+                    Compare University Tuition Fees
+                </p>
+
+                <h1 id="hero-heading" class="hero-heading">
+                    Find Your Best University Match
+                </h1>
+
+                <p class="hero-description">
+                    Compare tuition fees and rankings across UK and Irish
+                    universities.
+                </p>
+
+                <div class="hero-search" role="search" aria-label="Find courses">
+                    <div class="hero-input-wrapper">
+                        <svg
+                            class="hero-search-icon"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                            ></path>
+                        </svg>
+
+                        <input
+                            type="text"
+                            id="hero-search-input"
+                            placeholder="Search Courses"
+                            aria-label="Search courses"
+                            autocomplete="off"
+                        />
+
+                        <div id="hero-suggestions" class="hidden">
+                            <!-- Populated by hero-search.js -->
+                        </div>
+                    </div>
+
+                    <div class="hero-search-actions">
+                        <select
+                            id="hero-level-select"
+                            aria-label="Course level"
+                        >
+                            <option value="undergraduate">
+                                Undergraduate
+                            </option>
+                            <option value="postgraduate">
+                                Postgraduate
+                            </option>
+                        </select>
+
+                        <button id="hero-search-btn" type="button">
+                            Search
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero-trust">
+                    <svg
+                        class="hero-trust-icon"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10
+                               0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3
+                               3 0 015.356-1.857M7 20v-2c0-.656.126-1.283
+                               .356-1.857m0 0a5.002 5.002 0 019.288 0M15
+                               7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0
+                               11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0
+                               2 2 0 014 0z"
+                        ></path>
+                    </svg>
+
+                    <span>Trusted by 200k+ students every year.</span>
+                </div>
+            </div>
+
+            <aside class="hero-rating" aria-label="Rating">
+                <div class="hero-rating-stars" aria-hidden="true">
+                    ★★★★★
+                </div>
+                <p class="hero-rating-title">Top Rankings</p>
+                <p class="hero-rating-score">4.8 rating</p>
+            </aside>
+
+        </div>
+    </div>
+</section>
+
+<div class="border-t border-gray-200 dark:border-gray-700"></div>

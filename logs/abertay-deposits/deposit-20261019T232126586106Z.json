@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-10-19T23:21:26.586106+00:00",
+  "mode": "preview",
+  "university_id": "UK001",
+  "changed": false,
+  "before": {
+    "academic_year": "2026/27",
+    "currency": "GBP",
+    "rules": {
+      "basis": "net_tuition",
+      "fee_status": "INTL",
+      "self_funded": true,
+      "payment_stage": "before_cas",
+      "schema_version": 1,
+      "standard_percentage": "50",
+      "full_payment_regions": {
+        "IN": [
+          "gujarat",
+          "haryana",
+          "punjab",
+          "telangana"
+        ]
+      },
+      "country_fixed_amounts": {
+        "NG": "4500.00"
+      },
+      "requires_student_visa": true,
+      "full_payment_countries": [
+        "AF",
+        "BD",
+        "IR",
+        "PK"
+      ],
+      "full_payment_percentage": "100",
+      "individual_override_possible": true,
+      "early_payment_discounts_included": false
+    },
+    "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+    "source_sha256": "10c27346e0b303e8e4a77c261c48712c10032d5f8c446591fbdab5cbd7185f6b",
+    "verified": true
+  },
+  "after": {
+    "academic_year": "2026/27",
+    "currency": "GBP",
+    "rules": {
+      "schema_version": 1,
+      "fee_status": "INTL",
+      "payment_stage": "before_cas",
+      "self_funded": true,
+      "requires_student_visa": true,
+      "basis": "net_tuition",
+      "standard_percentage": "50",
+      "country_fixed_amounts": {
+        "NG": "4500.00"
+      },
+      "full_payment_percentage": "100",
+      "full_payment_countries": [
+        "AF",
+        "BD",
+        "IR",
+        "PK"
+      ],
+      "full_payment_regions": {
+        "IN": [
+          "gujarat",
+          "haryana",
+          "punjab",
+          "telangana"
+        ]
+      },
+      "individual_override_possible": true,
+      "early_payment_discounts_included": false
+    },
+    "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+    "source_sha256": "10c27346e0b303e8e4a77c261c48712c10032d5f8c446591fbdab5cbd7185f6b",
+    "verified": true
+  },
+  "source_evidence": [
+    {
+      "heading": "Undergraduate Tuition Fees - International Students 2026/27",
+      "paragraphs": [
+        "Undergraduate tuition fees for international students vary depending on your programme of study (also called an 'undergraduate degree course'). See table below. Paying your deposit You're required to pay a deposit equal to 50% of your net tuition fee before you can apply for your Confirmation of Acceptance for Studies (CAS), a mandatory document for your Student Visa application. The net tuition fee is calculated after deducting any University scholarships from the gross fee. Following registration on your programme of study, the remaining balance of your net tuition fee will be payable in three equal instalments: Students starting in September A 50% deposit is due, with three equal instalments to be paid on 1 November, 1 January and 1 March. For example, if you're enrolled on a course with a gross tuition fee of £16,950 and you receive an International Scholarship of £3,000, your net tuition fee becomes £13,950. Consequently, your deposit will be 50% of £13,950: £6,975. The remaining balance will then be divided into three equal payments of £2,325 each. Please note: In certain circumstances, if risk factors are identified in relation to visa applications, a student may be required to pay either the full first-year tuition fee or a higher deposit prior to the issuance of the CAS. Should this occur, you'll be advised accordingly. Exceptions You are required to pay 100% deposit before you can apply for your CAS if you legally reside in: Afghanistan. Iran. Pakistan. Bangladesh. The Indian states of Punjab, Haryana, Gujarat, and Telangana. Applicants who legally reside in Nigeria need to pay a flat deposit of £4,500. If you pay your full deposit by 1 June 2026, you will qualify for the Early Bird discount. See 'Early Bird and upfront payment discounts' below. Early Bird and upfront payment discounts These discounts apply to international students on undergraduate and postgraduate taught programmes only. They do not apply to postgraduate research. They apply to students starting for the first time in September 2026 or January 2027, not continuing students. How they work: Discounts apply to your net tuition fee only (the fee after any scholarships). The 3% Early Bird 50% deposit discount applies to your first year of study only. The 5% Early Bird remaining fees discount applies to each year of your course where you pay in full by the deadline. The 5% Early Bird will not be applied to additional study years caused by resits. The maximum discount in any year is 5%. If you meet both deadlines, you receive 5%, not 8%. Payment deadlines and discounts Start date Payment type Deadline Discount September 2026 50% deposit 1 April 2026 (South Africa, Mauritius, Zimbabwe 3% September 2026 Remaining fees 17 August 2026 5% (maximum) Fee guarantee We offer all new international students a fee guarantee: the net tuition fee you pay in your first year – after any scholarships are applied – will remain the same for every year of your course. Your fee will not increase. Find out more about funding: Funding for International students, including scholarships UNDERGRADUATE DEGREE COURSES TUITION FEES PER YEAR (£) BA (Hons) Computer Arts BSc (Hons) Computer Game Applications Development BSc (Hons) Computer Games Technology BSc (Hons) Computing BSc (Hons) Computer Science BSc (Hons) Computer Science with Cybersecurity BSc (Hons) Ethical Hacking BA (Hons) Game Design and Production BSc (Hons) Visual Effects for Games and Real-Time Media £17,950 All other Undergraduate Bachelors Degree Programmes £16,950 See below 'Tuition Fees - Self-funding/sponsored students: how to pay tuition fees' for more useful information.",
+        "Undergraduate tuition fees for international students vary depending on your programme of study (also called an 'undergraduate degree course'). See table below.",
+        "You're required to pay a deposit equal to 50% of your net tuition fee before you can apply for your Confirmation of Acceptance for Studies (CAS), a mandatory document for your Student Visa application. The net tuition fee is calculated after deducting any University scholarships from the gross fee.",
+        "Following registration on your programme of study, the remaining balance of your net tuition fee will be payable in three equal instalments:",
+        "A 50% deposit is due, with three equal instalments to be paid on 1 November, 1 January and 1 March.",
+        "For example, if you're enrolled on a course with a gross tuition fee of £16,950 and you receive an International Scholarship of £3,000, your net tuition fee becomes £13,950. Consequently, your deposit will be 50% of £13,950: £6,975. The remaining balance will then be divided into three equal payments of £2,325 each.",
+        "Please note: In certain circumstances, if risk factors are identified in relation to visa applications, a student may be required to pay either the full first-year tuition fee or a higher deposit prior to the issuance of the CAS. Should this occur, you'll be advised accordingly.",
+        "You are required to pay 100% deposit before you can apply for your CAS if you legally reside in:",
+        "Afghanistan.",
+        "Iran.",
+        "Pakistan.",
+        "Bangladesh.",
+        "The Indian states of Punjab, Haryana, Gujarat, and Telangana.",
+        "Applicants who legally reside in Nigeria need to pay a flat deposit of £4,500.",
+        "If you pay your full deposit by 1 June 2026, you will qualify for the Early Bird discount. See 'Early Bird and upfront payment discounts' below."
+      ],
+      "list_items": [
+        "A 50% deposit is due, with three equal instalments to be paid on 1 November, 1 January and 1 March.",
+        "Afghanistan.",
+        "Iran.",
+        "Pakistan.",
+        "Bangladesh.",
+        "The Indian states of Punjab, Haryana, Gujarat, and Telangana."
+      ]
+    },
+    {
+      "heading": "Postgraduate Tuition Fees - International Students 2026/27",
+      "paragraphs": [
+        "Postgraduate tuition fees for international students vary depending on your programme of study (also called a 'postgraduate degree course'). See table below. Paying your deposit You’re required to pay a deposit equal to 50% of your net tuition fee before you can apply for your Confirmation of Acceptance for Studies (CAS) – a mandatory document for your Student Visa application. The net tuition fee is calculated after deducting any University scholarships from the gross fee. Following registration on your programme of study, the remaining balance of your net tuition fee will be payable in three equal instalments: Students starting in September A 50% deposit is due, with three equal instalments to be paid on 1 November, 1 January and 1 March. Students starting in January A 50% deposit is due, with three equal instalments to be paid on 1 March, 1 May and 1 July. For example, if you’re enrolled on a course with a gross tuition fee of £18,950 and you receive an International Scholarship of £3,000, your net tuition fee becomes £15,950. Consequently, your deposit will be 50% of £15,950—that is, £7,975. The remaining balance will then be divided into three equal payments of £2,658.33 each. Please note: In certain circumstances, if risk factors are identified in relation to visa applications, a student may be required to pay either the full first-year tuition fee or a higher deposit prior to the issuance of the CAS. Should this occur, you’ll be advised accordingly. Exceptions You are required to pay 100% deposit before you can apply for your CAS if you legally reside in: Afghanistan. Iran. Pakistan. Bangladesh. The Indian states of Punjab, Haryana, Gujarat, and Telangana. Applicants who legally reside in Nigeria need to pay a flat deposit of £4500. If you pay your full deposit by 1 June, you will qualify for the early bird discount. Early Bird Discount and upfront payment discounts These discounts apply to international students on undergraduate and postgraduate taught programmes only. They do not apply to postgraduate research. They apply to students starting for the first time in September 2026 or January 2027, not continuing students. How they work: Discounts apply to your net tuition fee only (the fee after any scholarships). The 3% Early Bird 50% deposit discount applies to your first year of study only. The 5% Early Bird remaining fees discount applies to each year of your course where you pay in full by the deadline. The 5% Early Bird will not be applied to additional study years caused by resits. The maximum discount in any year is 5%. If you meet both deadlines, you receive 5%, not 8%. Payment Deadlines and Discounts Start Date Payment Type Deadline Discount September 2026 50% deposit 1 April 2026 (South Africa, Mauritius, Zimbabwe) 1 June 2026 (rest of the world) 3% September 2026 Remaining fees 17 August 2026 5% (maximum) January 2027 50% deposit 1 November 2026 3% January 2027 Remaining fees 4 January 2027 5% (maximum) Early Bird Discount - November 2026 and January 2027 International postgraduate students commencing their studies in November 2026 or January 2027 may be eligible for a 5% Early Bird Discount where their tuition fees are paid in full by the relevant deadline below. Students from Pakistan and Bangladesh Students from Pakistan and Bangladesh are required to pay their tuition fees in full. A 5% Early Bird Discount will apply where full payment is received by: 31 August 2026 for November 2026 entry 9 November 2026 for January 2027 entry Students from all other countries International students from all other countries can receive a 5% Early Bird Discount where their tuition fees are paid in full by: 12 October 2026 for November 2026 entry 7 December 2026 for January 2027 entry The Early Bird Discount is applied to the tuition fee payable for the relevant academic year and is subject to the University's applicable terms and conditions. Fee guarantee We offer all new international students a fee guarantee: the net tuition fee you pay in your first year – after any scholarships are applied – will remain the same for every year of your course. Your fee will not increase. POSTGRADUATE COURSES TUITION FEES PER YEAR (£) Postgraduate Taught Degrees* MSc Ethical Hacking and Cybersecurity £19,950* MSc Applied Artificial Intelligence and User Experience £19,950* MProf Games Development £19,950* MSc Computer Games Technology £19,950* MSc Technical Art & Visual Effects £19,950* MSc Counselling £18,950 a MSc Counselling and Psychotherapy Studies £18,950 a MSc Accounting and Finance (CIMA Gateway) £18,950* ( Please note: Your programme fees will cover your first year's CIMA subscription fees, one attempt at the CIMA Management Case Study Exam, and access to CIMAstudy.com .) MSc Digital Marketing & e-Business £18,950 * MSc Biomedical Sciences MSc Biomedical Sciences with Industrial Practise £18,950* MSc Civil Engineering MSc Civil Engineering with Industrial Practise £18,950 * MSc Construction and Project Management £18,950 * MSc Environment and Business MSc Environment and Business with Industrial Practise £18,950 * MSc Environment and Energy MSc Environment and Energy with Industrial Practise £18,950 * MSc Environmental Health MSc Environmental Health with Industrial Practise £18,950 * MSc Environmental Health with Professional Practise £18,950* MSc Fintech £18,950* MSc Food Quality and Safety with Industrial Practise £18,950* MSc Food Quality, Safety and Innovation £18,950* MSc Human Resource Management £18,950* MSc International Management £18,950* MSc International Human Resource Management £18,950* MSc Geotechnical Engineering MSc Geotechnical Engineering with Industrial Practise £18,950* Global MBA £19,950* MSc Research Methods in Psychology £18,950* MSc Sports Therapy £18,950* MSc Structural Engineering MSc Structural Engineering with Industrial Practise £18,950* MSc Water and Environmental Management MSc Water and Environmental Management with Industrial Practise £18,950 * Postgraduate Research Programmes Masters by Research (all subjects) £22,000 PhD/MPhil subjects in Food, Environment, Engineering, Science, Sport (per academic year) £15,750 PhD/MPhil subjects in Computing, Computer Games, Computer Arts, Ethical Hacking (per academic year) £14,750 PhD/MPhil subjects in Counselling, Psychology, Sociology, Management, Marketing, Business, Accountancy, Economics, Mental Health Nursing (per academic year) £13,750 Continuation Fee for Masters by Research (for the additional two months) Continuation Fee for PhD/MPhil (per academic year) £150 £500 There may be additional charges where the MSc is not completed within 18 months (FTE). Module fees are on a pro rata basis of 120 credits. a These courses are charged module by module. Each module's fee is a share of the total MSc fee, based on 180 credits. For example, a 20-credit module costs 20/180 of the total fee. See 'Self-funding/sponsored students: how to pay tuition fees' below for payment information. Find out more about your funding options: Postgraduate taught funding including scholarships. Postgraduate research funding including scholarships.",
+        "Postgraduate tuition fees for international students vary depending on your programme of study (also called a 'postgraduate degree course'). See table below.",
+        "You’re required to pay a deposit equal to 50% of your net tuition fee before you can apply for your Confirmation of Acceptance for Studies (CAS) – a mandatory document for your Student Visa application. The net tuition fee is calculated after deducting any University scholarships from the gross fee.",
+        "Following registration on your programme of study, the remaining balance of your net tuition fee will be payable in three equal instalments:",
+        "A 50% deposit is due, with three equal instalments to be paid on 1 November, 1 January and 1 March.",
+        "A 50% deposit is due, with three equal instalments to be paid on 1 March, 1 May and 1 July.",
+        "For example, if you’re enrolled on a course with a gross tuition fee of £18,950 and you receive an International Scholarship of £3,000, your net tuition fee becomes £15,950. Consequently, your deposit will be 50% of £15,950—that is, £7,975. The remaining balance will then be divided into three equal payments of £2,658.33 each.",
+        "Please note: In certain circumstances, if risk factors are identified in relation to visa applications, a student may be required to pay either the full first-year tuition fee or a higher deposit prior to the issuance of the CAS. Should this occur, you’ll be advised accordingly.",
+        "You are required to pay 100% deposit before you can apply for your CAS if you legally reside in:",
+        "Afghanistan.",
+        "Iran.",
+        "Pakistan.",
+        "Bangladesh.",
+        "The Indian states of Punjab, Haryana, Gujarat, and Telangana.",
+        "Applicants who legally reside in Nigeria need to pay a flat deposit of £4500.",
+        "If you pay your full deposit by 1 June, you will qualify for the early bird discount."
+      ],
+      "list_items": [
+        "A 50% deposit is due, with three equal instalments to be paid on 1 November, 1 January and 1 March.",
+        "A 50% deposit is due, with three equal instalments to be paid on 1 March, 1 May and 1 July.",
+        "Afghanistan.",
+        "Iran.",
+        "Pakistan.",
+        "Bangladesh.",
+        "The Indian states of Punjab, Haryana, Gujarat, and Telangana."
+      ]
+    }
+  ]
+}

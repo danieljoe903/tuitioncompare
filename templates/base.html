@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N503NRJ8Y7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-N503NRJ8Y7');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% block title %}<title>University Tuition Compare</title>{% endblock %}
+    
+    {% block meta %}
+    <meta name="description" content="Compare universities in UK & Ireland. Find detailed rankings, course information, tuition fees, scholarships, and costs">
+    <meta name="keywords" content="compare universities, university tuition compare, UK universities, Ireland universities, tuition fees, university rankings, scholarships, courses">
+    <meta name="author" content="University Tuition Compare">
+    <meta name="robots" content="index, follow">
+    {% endblock %}
+    
+    <link rel="icon" href="{% static 'images/mine/compare-favicon.png' %}" type="image/png">
+    
+    {% block extra_head %}{% endblock %}
+    
+    <!-- Tailwind CSS -->
+    <link href="{% static 'css/output.css' %}" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    
+    {% block extra_css %}{% endblock %}
+</head>
+
+</script>
+<body class="overflow-x-hidden dark:bg-darkmode {% block page_class %}{% endblock %}">
+    
+    <!-- Header -->
+    {% include 'partials/header.html' %}
+    
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    
+    <!-- Footer -->
+    {% include 'partials/footer.html' %}
+    
+    {% block scroll_to_top %}
+    <button id="scroll-to-top" class="fixed bottom-8 right-8 bg-primary text-white p-3 rounded-full shadow-lg hidden hover:bg-blue-700 transition-all duration-300 z-50">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+    {% endblock %}
+    
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    
+    <!-- Main JS -->
+    <script src="{% static 'js/main.js' %}"></script>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

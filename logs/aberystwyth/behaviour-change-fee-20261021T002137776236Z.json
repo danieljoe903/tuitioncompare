@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-10-21T00:21:37.776236+00:00",
+  "mode": "preview",
+  "course_id": "C_UK002_91",
+  "changed": true,
+  "evidence": {
+    "course": {
+      "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+      "sha256": "b67699f4a6bceba40cdbbf44404a29cff51e02ffb2398d124d5cd2ba57dbb93c"
+    },
+    "department": {
+      "source_url": "https://www.aber.ac.uk/en/study-schemes/2027-2028/departments/department/?department=W",
+      "sha256": "b88957d5423e836f9b46c55684851afb42f9bdb5ca522f5b4f08d6834f3b2168"
+    },
+    "fee_schedule": {
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/",
+      "sha256": "c270ae8beb4525f1f89436b1431c167afe907b430a911a0b25cef7db4246252e"
+    },
+    "method": "official_department_and_published_subject_band",
+    "classification": "Psychology",
+    "fee_band": "Sciences",
+    "academic_year": "2027/28",
+    "annual_tuition": "23820.00"
+  },
+  "before": {
+    "tuition_fee": "20805.00",
+    "currency": "GBP",
+    "source": {
+      "academic_year": "",
+      "source_url": "",
+      "source_course_name": "Behaviour Change",
+      "source_course_code": "C801",
+      "fee_basis": "unverified",
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation.",
+          "status": "pending",
+          "target_academic_year": "2027/28"
+        },
+        "display_notes": {
+          "fee": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation.",
+          "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+          "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+        },
+        "deposit_status": "individual_policy_review_required",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+          "official_code": "C801",
+          "official_award": "MSC",
+          "official_title": "Behaviour Change",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+        "application_review": {
+          "note": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation.",
+          "status": "not_assessed",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      }
+    }
+  },
+  "after": {
+    "tuition_fee": "23820.00",
+    "currency": "GBP",
+    "source": {
+      "academic_year": "2027/28",
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/",
+      "source_course_name": "Behaviour Change",
+      "source_course_code": "C801",
+      "fee_basis": "annual_tuition",
+      "raw_fees": {
+        "verified": true,
+        "fee_review": {
+          "status": "resolved",
+          "reason": "The 2027/28 Psychology departmental register lists C801 MSc Behaviour Change. The international taught-master's fee schedule classifies Psychology as Science."
+        },
+        "display_notes": {
+          "deposit": "Confirm the deposit amount in the individual offer letter.",
+          "scholarship": "Scholarship applicability requires separate reconciliation."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+          "official_code": "C801",
+          "official_award": "MSC",
+          "official_title": "Behaviour Change",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+        "application_review": {
+          "note": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation.",
+          "status": "not_assessed",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "pending_separate_reconciliation",
+        "fee_verification_status": "verified",
+        "academic_year": "2027/28",
+        "source_fee_category": "International",
+        "currency": "GBP",
+        "annual_tuition": "23820.00",
+        "fee_band": "Sciences",
+        "programme_fee_group": "masters",
+        "course_kind": "postgraduate_taught",
+        "study_year": 1,
+        "fee_method": "official_department_and_published_subject_band",
+        "fee_classification_evidence": {
+          "course": {
+            "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+            "sha256": "b67699f4a6bceba40cdbbf44404a29cff51e02ffb2398d124d5cd2ba57dbb93c"
+          },
+          "department": {
+            "source_url": "https://www.aber.ac.uk/en/study-schemes/2027-2028/departments/department/?department=W",
+            "sha256": "b88957d5423e836f9b46c55684851afb42f9bdb5ca522f5b4f08d6834f3b2168"
+          },
+          "fee_schedule": {
+            "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/",
+            "sha256": "c270ae8beb4525f1f89436b1431c167afe907b430a911a0b25cef7db4246252e"
+          },
+          "method": "official_department_and_published_subject_band",
+          "classification": "Psychology",
+          "fee_band": "Sciences",
+          "academic_year": "2027/28",
+          "annual_tuition": "23820.00"
+        },
+        "fee_categories": [
+          {
+            "source_fee_category": "International",
+            "academic_year": "2027/28",
+            "currency": "GBP",
+            "annual_tuition": "23820.00",
+            "raw_annual_fee": "£23,820",
+            "annotation": "Full-time taught master's fee, mapped through the official Psychology departmental register.",
+            "footnote_marker": "",
+            "amount_requires_review": false
+          }
+        ]
+      }
+    }
+  }
+}

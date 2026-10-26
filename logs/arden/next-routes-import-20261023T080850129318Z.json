@@ -1,0 +1,2569 @@
+{
+  "generated_at": "2026-10-23T08:08:47.000525+00:00",
+  "mode": "apply",
+  "database_changes": true,
+  "preview_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\arden\\next-route-preview-20261023T073907572371Z.json",
+  "courses": [
+    {
+      "course_id": "C_ARD004_01",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "14000.00",
+          "scholarship": "1000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-top-up",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "16000.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=277&awarding_body=arden&course_id=1556",
+          "source_course_code": "1556",
+          "source_course_name": "Business Management (Top-Up) ​",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_topup_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_topup",
+            "study_mode": "campus",
+            "default_intake": "2026-11",
+            "study_options": [
+              {
+                "location": "London Stratford",
+                "intake": "2026-11",
+                "attendance": "full_time",
+                "source_option": "c1556|tbl1680|i2026-11|m=ft"
+              },
+              {
+                "location": "Manchester",
+                "intake": "2026-11",
+                "attendance": "full_time",
+                "source_option": "c1556|tbl1666|i2026-11|m=ft"
+              },
+              {
+                "location": "Manchester",
+                "intake": "2027-02",
+                "attendance": "full_time",
+                "source_option": "c1556|tbl1666|i2027-02|m=ft"
+              },
+              {
+                "location": "London Stratford",
+                "intake": "2027-02",
+                "attendance": "full_time",
+                "source_option": "c1556|tbl1680|i2027-02|m=ft"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-top-up",
+            "source_course_id": "1556",
+            "fee_response_sha256": [
+              "d39d3abe39064f203fc285ae86a8512fcba7a9a502c25ac82806faf79a0d68b1",
+              "d39d3abe39064f203fc285ae86a8512fcba7a9a502c25ac82806faf79a0d68b1"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Full-time: 1 year (Blended) Part-time: 1 year+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "verified_rule_eligibility_required",
+            "scholarship_review": {
+              "reason": "Standard campus offer verified; Manchester early-bird combination held for source discrepancy.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "application_advised",
+            "annual_tuition": "16000.00",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "fee_note": "Annual gross campus top-up tuition, one-year full-time route. UK offers conditional. Manchester early-bird combination remains unverified."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_36",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-business-psychology",
+          "duration": "1 year+ (part-time)"
+        },
+        "tuition": {
+          "tuition_fee": "10550.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1568",
+          "source_course_code": "1568",
+          "source_course_name": "Business Psychology",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c1568|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-business-psychology",
+            "source_course_id": "1568",
+            "fee_response_sha256": [
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1",
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Part-time: 1 year+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "verified_rule_eligibility_required",
+            "scholarship_review": {
+              "reason": "Global Tiers Tier 2 conditions verified for the NG/GH application-country cases in this batch. Other regional tiers and the separate Alumni offer require review.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "10550.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. Global Tiers Tier 2 conditions verified for the NG/GH application-country cases in this batch. Other regional tiers and the separate Alumni offer require review."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_37",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/degrees/msc-global-health-management",
+          "duration": "1 year+ (part-time)"
+        },
+        "tuition": {
+          "tuition_fee": "10550.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1534",
+          "source_course_code": "1534",
+          "source_course_name": "Global Health Management",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c1534|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/degrees/msc-global-health-management",
+            "source_course_id": "1534",
+            "fee_response_sha256": [
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1",
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Part-time: 1 year+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "applicability_requires_review",
+            "scholarship_review": {
+              "reason": "An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "10550.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_38",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/ma-serious-and-violent-crime",
+          "duration": "1 year full-time; 1 year+ part-time"
+        },
+        "tuition": {
+          "tuition_fee": "10550.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=2696",
+          "source_course_code": "2696",
+          "source_course_name": "Serious and Violent Crime",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "full_time",
+                "source_option": "c2696|tdl1668|i2027-01|m=ft"
+              },
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c2696|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/masters/ma-serious-and-violent-crime",
+            "source_course_id": "2696",
+            "fee_response_sha256": [
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1",
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Full-time: 1 year (Online) Part-time: 1 year+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "applicability_requires_review",
+            "scholarship_review": {
+              "reason": "An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "10550.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_53",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "6500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/mba/mba-top-up",
+          "duration": "1 year+ (part-time)"
+        },
+        "tuition": {
+          "tuition_fee": "3421.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=281&awarding_body=arden&course_id=1174",
+          "source_course_code": "1174",
+          "source_course_name": "MBA (Top-Up)",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c1174|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/mba/mba-top-up",
+            "source_course_id": "1174",
+            "fee_response_sha256": [
+              "971f0d992757bb889e34afd7562e27d73477a3b21608b5e6cb7336b9dd785209",
+              "971f0d992757bb889e34afd7562e27d73477a3b21608b5e6cb7336b9dd785209"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Part-time: 1 year+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "applicability_requires_review",
+            "scholarship_review": {
+              "reason": "MBA Top-Up is explicitly excluded from Global Tiers 2026–2027. Other award applicability requires separate review.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "3421.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. MBA Top-Up is explicitly excluded from Global Tiers 2026–2027. Other award applicability requires separate review."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_64",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/business-degree/msc-business-transformation",
+          "duration": "1 year+ (part-time)"
+        },
+        "tuition": {
+          "tuition_fee": "10550.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1297",
+          "source_course_code": "1297",
+          "source_course_name": "Business Transformation",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c1297|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/business-degree/msc-business-transformation",
+            "source_course_id": "1297",
+            "fee_response_sha256": [
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1",
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Part-time: 1 year+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "applicability_requires_review",
+            "scholarship_review": {
+              "reason": "An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "10550.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_65",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "Online / London",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/ma-design-management",
+          "duration": "1 year+ (part-time)"
+        },
+        "tuition": {
+          "tuition_fee": "10550.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1544",
+          "source_course_code": "1544",
+          "source_course_name": "Design Management",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c1544|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/masters/ma-design-management",
+            "source_course_id": "1544",
+            "fee_response_sha256": [
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1",
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Part-time: 1 year+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "applicability_requires_review",
+            "scholarship_review": {
+              "reason": "An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "10550.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_66",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "18500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/mba/executive-mba-ai",
+          "duration": "1 year+ (part-time)"
+        },
+        "tuition": {
+          "tuition_fee": "10855.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=280&awarding_body=arden&course_id=3389",
+          "source_course_code": "3389",
+          "source_course_name": "Executive MBA (Artificial Intelligence)",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c3389|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/mba/executive-mba-ai",
+            "source_course_id": "3389",
+            "fee_response_sha256": [
+              "0672f51e7fa07a106ba6bf7a5ec00f491a3087fa03fe3088a4c3bc9f5cf7bbfa",
+              "0672f51e7fa07a106ba6bf7a5ec00f491a3087fa03fe3088a4c3bc9f5cf7bbfa"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Part-time: 1 year+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "verified_rule_eligibility_required",
+            "scholarship_review": {
+              "reason": "Global Tiers Tier 2 conditions verified for the NG/GH application-country cases in this batch. Other regional tiers and the separate Alumni offer require review.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "10855.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. Global Tiers Tier 2 conditions verified for the NG/GH application-country cases in this batch. Other regional tiers and the separate Alumni offer require review."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_67",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "18500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/mba/executive-mba-finance",
+          "duration": "1 year+ (part-time)"
+        },
+        "tuition": {
+          "tuition_fee": "10855.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=280&awarding_body=arden&course_id=2343",
+          "source_course_code": "2343",
+          "source_course_name": "Executive MBA (Finance)",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c2343|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/mba/executive-mba-finance",
+            "source_course_id": "2343",
+            "fee_response_sha256": [
+              "0672f51e7fa07a106ba6bf7a5ec00f491a3087fa03fe3088a4c3bc9f5cf7bbfa",
+              "0672f51e7fa07a106ba6bf7a5ec00f491a3087fa03fe3088a4c3bc9f5cf7bbfa"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Part-time: 1 year+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "applicability_requires_review",
+            "scholarship_review": {
+              "reason": "An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "10855.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_68",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "Online / London",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "13500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-health-and-care-management-top-up",
+          "duration": "6 months+ (part-time)"
+        },
+        "tuition": {
+          "tuition_fee": "3421.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=3371",
+          "source_course_code": "3371",
+          "source_course_name": "Health and Care Management (Top-Up)",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c3371|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-health-and-care-management-top-up",
+            "source_course_id": "3371",
+            "fee_response_sha256": [
+              "971f0d992757bb889e34afd7562e27d73477a3b21608b5e6cb7336b9dd785209",
+              "971f0d992757bb889e34afd7562e27d73477a3b21608b5e6cb7336b9dd785209"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Part-time: 6 months+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "applicability_requires_review",
+            "scholarship_review": {
+              "reason": "An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "3421.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_69",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "Online / London",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-psychology-bps",
+          "duration": "15 months (part-time)"
+        },
+        "tuition": {
+          "tuition_fee": "8500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1203",
+          "source_course_code": "1203",
+          "source_course_name": "Psychology Conversion Degree (BPS)",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c1203|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-psychology-bps",
+            "source_course_id": "1203",
+            "fee_response_sha256": [
+              "b8b97393b4b103c7922c726f6acbffcaf4f4298f7e5053e310f3a10610b901bb",
+              "b8b97393b4b103c7922c726f6acbffcaf4f4298f7e5053e310f3a10610b901bb"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Part-time: 15 months (Online)",
+            "duration_verified": true,
+            "scholarship_status": "verified_rule_eligibility_required",
+            "scholarship_review": {
+              "reason": "Global Tiers Tier 2 conditions verified for the NG/GH application-country cases in this batch. Other regional tiers and the separate Alumni offer require review.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "8500.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. Global Tiers Tier 2 conditions verified for the NG/GH application-country cases in this batch. Other regional tiers and the separate Alumni offer require review."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_70",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "Online / London",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "0.5 Year"
+        },
+        "tuition": {
+          "tuition_fee": "8750.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/pg-cert-neurodiversity",
+          "duration": "10 months+ (part-time)"
+        },
+        "tuition": {
+          "tuition_fee": "3967.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=278&awarding_body=arden&course_id=2647",
+          "source_course_code": "2647",
+          "source_course_name": "PG Cert Neurodiversity",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c2647|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/masters/pg-cert-neurodiversity",
+            "source_course_id": "2647",
+            "fee_response_sha256": [
+              "a23165a1c77318a0f92d2a4c21daf8810f663ee6b893c3a05ced9d38cf56f8b7",
+              "a23165a1c77318a0f92d2a4c21daf8810f663ee6b893c3a05ced9d38cf56f8b7"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Part-time: 10 months+ (Online)",
+            "duration_verified": true,
+            "scholarship_status": "applicability_requires_review",
+            "scholarship_review": {
+              "reason": "An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "3967.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_71",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "Online / London",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "1 Year"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "April",
+          "start_year": 2027,
+          "intake_months": "April",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/llm",
+          "duration": "1 year full-time; 2 years part-time"
+        },
+        "tuition": {
+          "tuition_fee": "10550.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1567",
+          "source_course_code": "1567",
+          "source_course_name": "LLM in Professional Legal Practice (SQE1 and SQE2)",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-04",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-04",
+                "attendance": "full_time",
+                "source_option": "c1567|tdl1668|i2027-04|m=ft"
+              },
+              {
+                "location": "Online",
+                "intake": "2027-04",
+                "attendance": "part_time",
+                "source_option": "c1567|tdl1668|i2027-04|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/masters/llm",
+            "source_course_id": "1567",
+            "fee_response_sha256": [
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1",
+              "a846909cdfea58a12c05e5c5aaeee0a833c3092dc1640566ecb2a4ec5a5252e1"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Full-time: 1 year (Online) Part-time: 2 years (Online)",
+            "duration_verified": true,
+            "scholarship_status": "applicability_requires_review",
+            "scholarship_review": {
+              "reason": "LLM is named in Global Tiers Schedule 1, but its applicable net-fee price group has not been confirmed. No deduction applied.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "10550.00",
+            "online_intakes": [
+              "2027-04"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. LLM is named in Global Tiers Schedule 1, but its applicable net-fee price group has not been confirmed. No deduction applied."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_72",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "Online / London",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk",
+          "duration": "0.5 Year"
+        },
+        "tuition": {
+          "tuition_fee": "8750.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/pg-cert/serious-and-violent-crime",
+          "duration": "Confirmation required"
+        },
+        "tuition": {
+          "tuition_fee": "3967.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=278&awarding_body=arden&course_id=3557",
+          "source_course_code": "3557",
+          "source_course_name": "Postgraduate Certificate in Serious and Violent Crime (PG Cert)",
+          "fee_basis": "total_programme_fee",
+          "raw_fees": {
+            "importer": "arden_online_pg_v2",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught_online",
+            "study_mode": "online",
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time",
+                "source_option": "c3557|tdl1668|i2027-01|m=pt"
+              }
+            ],
+            "study_year": 1,
+            "course_source_url": "https://arden.ac.uk/our-courses/postgraduate/pg-cert/serious-and-violent-crime",
+            "source_course_id": "3557",
+            "fee_response_sha256": [
+              "a23165a1c77318a0f92d2a4c21daf8810f663ee6b893c3a05ced9d38cf56f8b7",
+              "a23165a1c77318a0f92d2a4c21daf8810f663ee6b893c3a05ced9d38cf56f8b7"
+            ],
+            "academic_year_basis": "Derived from explicitly advertised 2026/2027 intakes using the September–August comparison year; offer terms identify cohort 2026–2027.",
+            "published_duration_summary": "Full-time: 1 year (Online)",
+            "duration_verified": false,
+            "scholarship_status": "applicability_requires_review",
+            "scholarship_review": {
+              "reason": "An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_status": "campus_policy_not_applicable",
+            "total_programme_fee": "3967.00",
+            "online_intakes": [
+              "2027-01"
+            ],
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "fee_note": "Total online programme fee, not an annual charge. Do not divide by duration or compare directly with annual tuition. An applicable award amount and programme scope have not been confirmed for this route. No deduction applied; this does not establish that no award exists."
+          }
+        }
+      }
+    }
+  ],
+  "awards": [
+    {
+      "name": "Arden UK International UG Top-Up — Manchester (2026/27)",
+      "level": "UG",
+      "value": "3500.00",
+      "conditions": {
+        "requires_student_visa": [
+          true
+        ],
+        "arden_uk_blended_offer": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_ARD004_01"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_intake": [
+          "2026-11",
+          "2027-02"
+        ],
+        "arden_campus": [
+          "Manchester"
+        ]
+      },
+      "family": "topup_standard"
+    },
+    {
+      "name": "Arden UK International UG Top-Up — London Stratford (2026/27)",
+      "level": "UG",
+      "value": "2500.00",
+      "conditions": {
+        "requires_student_visa": [
+          true
+        ],
+        "arden_uk_blended_offer": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_ARD004_01"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_intake": [
+          "2026-11",
+          "2027-02"
+        ],
+        "arden_campus": [
+          "London Stratford"
+        ]
+      },
+      "family": "topup_standard"
+    },
+    {
+      "name": "Arden UK International UG Top-Up Early Bird — London — 2026-11 (2026/27)",
+      "level": "UG",
+      "value": "3000.00",
+      "conditions": {
+        "requires_student_visa": [
+          true
+        ],
+        "arden_uk_blended_offer": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_ARD004_01"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_intake": [
+          "2026-11"
+        ],
+        "arden_campus": [
+          "London Stratford"
+        ],
+        "arden_student_visa_sponsored": [
+          true
+        ],
+        "arden_programme_at_least_120_credits": [
+          true
+        ],
+        "arden_unconditional_offer_on_time": [
+          true
+        ],
+        "arden_deposit_paid_on_time": [
+          true
+        ]
+      },
+      "family": "topup_early"
+    },
+    {
+      "name": "Arden UK International UG Top-Up Early Bird — London — 2027-02 (2026/27)",
+      "level": "UG",
+      "value": "3000.00",
+      "conditions": {
+        "requires_student_visa": [
+          true
+        ],
+        "arden_uk_blended_offer": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_ARD004_01"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_intake": [
+          "2027-02"
+        ],
+        "arden_campus": [
+          "London Stratford"
+        ],
+        "arden_student_visa_sponsored": [
+          true
+        ],
+        "arden_programme_at_least_120_credits": [
+          true
+        ],
+        "arden_unconditional_offer_on_time": [
+          true
+        ],
+        "arden_deposit_paid_on_time": [
+          true
+        ]
+      },
+      "family": "topup_early"
+    },
+    {
+      "name": "Arden Global Tiers Tier 2 — MSc Business Psychology (2026/27)",
+      "level": "PG",
+      "value": "5802.50",
+      "conditions": {
+        "arden_online_offer_confirmed": [
+          true
+        ],
+        "arden_not_uk_student": [
+          true
+        ],
+        "arden_country_evidence_accepted": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_UK004_36"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_campus": [
+          "Online"
+        ],
+        "arden_intake": [
+          "2027-01"
+        ],
+        "arden_online_tier2_country_confirmed": [
+          true
+        ],
+        "arden_online_gross_quote": [
+          "10550.00"
+        ]
+      },
+      "family": "online"
+    },
+    {
+      "name": "Arden Global Tiers Tier 2 — MBA Executive AI (2026/27)",
+      "level": "PG",
+      "value": "5970.25",
+      "conditions": {
+        "arden_online_offer_confirmed": [
+          true
+        ],
+        "arden_not_uk_student": [
+          true
+        ],
+        "arden_country_evidence_accepted": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_UK004_66"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_campus": [
+          "Online"
+        ],
+        "arden_intake": [
+          "2027-01"
+        ],
+        "arden_online_tier2_country_confirmed": [
+          true
+        ],
+        "arden_online_gross_quote": [
+          "10855.00"
+        ]
+      },
+      "family": "online"
+    },
+    {
+      "name": "Arden Global Tiers Tier 2 — MSc Psychology Conversion Degree (BPS) (2026/27)",
+      "level": "PG",
+      "value": "4675.00",
+      "conditions": {
+        "arden_online_offer_confirmed": [
+          true
+        ],
+        "arden_not_uk_student": [
+          true
+        ],
+        "arden_country_evidence_accepted": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_UK004_69"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_campus": [
+          "Online"
+        ],
+        "arden_intake": [
+          "2027-01"
+        ],
+        "arden_online_tier2_country_confirmed": [
+          true
+        ],
+        "arden_online_gross_quote": [
+          "8500.00"
+        ]
+      },
+      "family": "online"
+    }
+  ],
+  "review_notes": [
+    "Programme totals require comparison_basis=programme_total; they are not annual prices.",
+    "Online quotes in this batch are verified for Nigeria/Ghana. Other fee countries need review.",
+    "Course C_UK004_72 has a part-time application option but only a full-time duration summary. Duration remains confirmation required.",
+    "Separate Alumni offer not yet reconciled for these routes."
+  ],
+  "course_changes": 14,
+  "changed_items": 29,
+  "campus_deposit_scope": 12,
+  "status": "applied"
+}

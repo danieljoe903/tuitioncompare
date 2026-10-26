@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-10-22T13:40:00.948964+00:00",
+  "university_id": "UK003",
+  "mode": "apply",
+  "database_changes": true,
+  "changed_records": 3,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\campus-intakes-20261022T130316956041Z\\campus-intake-evidence.json",
+  "preview_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\games-health-preview-20261022T134000883555Z.json",
+  "results": [
+    {
+      "course_id": "C_ARU003_RES_01",
+      "changed": true,
+      "replacement_accepted": true,
+      "fee_verified": true,
+      "before": {
+        "course": {
+          "title": "MSc by Research (Medicine & Health)",
+          "level": "MRES",
+          "location": "Cambridge Campus",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "ucas_cao_code": "",
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition": {
+          "id": 61303,
+          "residency": "INTL",
+          "currency": "GBP",
+          "tuition_fee": "16700.00"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Allied Health and Social Care",
+          "level": "PG",
+          "location": "Cambridge Campus",
+          "duration": "1 to 3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "ucas_cao_code": "",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/school-of-allied-health"
+        },
+        "tuition": {
+          "id": 61303,
+          "residency": "INTL",
+          "currency": "GBP",
+          "tuition_fee": "17500.00"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/school-of-allied-health",
+          "source_course_name": "Allied Health and Social Care",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "route_review_history": [
+              {
+                "recorded_at": "2026-10-22T13:40:00.929760+00:00",
+                "mapping": "explicit_replacement",
+                "replacement_accepted": true,
+                "before_course": {
+                  "title": "MSc by Research (Medicine & Health)",
+                  "level": "MRES",
+                  "location": "Cambridge Campus",
+                  "duration": "1 Year",
+                  "start_month": "September",
+                  "start_year": 2026,
+                  "ucas_cao_code": "",
+                  "course_url": "www.aru.ac.uk"
+                },
+                "after_course": {
+                  "title": "MPhil Allied Health and Social Care",
+                  "level": "PG",
+                  "location": "Cambridge Campus",
+                  "duration": "1 to 3 Years",
+                  "start_month": "January",
+                  "start_year": 2027,
+                  "ucas_cao_code": "",
+                  "course_url": "https://www.aru.ac.uk/study/postgraduate/school-of-allied-health"
+                },
+                "previous_tuition_source": null,
+                "evidence_generated_at": "2026-10-22T13:03:16.956041+00:00"
+              }
+            ],
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_research",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/school-of-allied-health",
+            "source_sha256": "fa8eff0da69a87734e7e0a2d3b4d21ab479423ca4dfe2be6cae5167b0fad7bc1",
+            "source_course_name": "Allied Health and Social Care",
+            "source_course_code": "",
+            "fee_basis": "annual_tuition",
+            "annual_tuition": "17500.00",
+            "fee_note": "Annual full-time international research tuition for January 2027 / 2026/27. MPhil completion is published as 1–3 years. This is not a total programme price. Additional project-specific bench fees may apply and have not been included.",
+            "mapping": "explicit_replacement",
+            "replacement_accepted": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "17500.00",
+                "raw_annual_fee": "17500.00",
+                "annotation": "Annual full-time international research tuition for January 2027 / 2026/27. MPhil completion is published as 1–3 years. This is not a total programme price. Additional project-specific bench fees may apply and have not been included.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ],
+            "scholarship_status": "applicability_pending",
+            "deposit_status": "applicability_pending"
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_65",
+      "changed": true,
+      "replacement_accepted": true,
+      "fee_verified": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Computer Games Technology",
+          "level": "UG",
+          "location": "Cambridge Campus",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "ucas_cao_code": "",
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition": {
+          "id": 5211,
+          "residency": "INTL",
+          "currency": "GBP",
+          "tuition_fee": "19500.00"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Computer Games Programming",
+          "level": "UG",
+          "location": "Cambridge Campus",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "ucas_cao_code": "I611",
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/computer-games-programming"
+        },
+        "tuition": {
+          "id": 5211,
+          "residency": "INTL",
+          "currency": "GBP",
+          "tuition_fee": "18825.00"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/computer-games-programming",
+          "source_course_name": "Computer Games Programming",
+          "source_course_code": "I611",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "route_review_history": [
+              {
+                "recorded_at": "2026-10-22T13:40:00.936698+00:00",
+                "mapping": "explicit_replacement",
+                "replacement_accepted": true,
+                "before_course": {
+                  "title": "BSc (Hons) Computer Games Technology",
+                  "level": "UG",
+                  "location": "Cambridge Campus",
+                  "duration": "3 Years",
+                  "start_month": "September",
+                  "start_year": 2026,
+                  "ucas_cao_code": "",
+                  "course_url": "www.aru.ac.uk"
+                },
+                "after_course": {
+                  "title": "BSc (Hons) Computer Games Programming",
+                  "level": "UG",
+                  "location": "Cambridge Campus",
+                  "duration": "3 Years",
+                  "start_month": "September",
+                  "start_year": 2027,
+                  "ucas_cao_code": "I611",
+                  "course_url": "https://www.aru.ac.uk/study/undergraduate/computer-games-programming"
+                },
+                "previous_tuition_source": null,
+                "evidence_generated_at": "2026-10-22T13:03:16.956041+00:00"
+              }
+            ],
+            "verified": true,
+            "academic_year": "2027/28",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/computer-games-programming",
+            "source_sha256": "7591f176c601d57b200ff616b10fbaee68099c5785e64a7ccf2401270a47d0a6",
+            "source_course_name": "Computer Games Programming",
+            "source_course_code": "I611",
+            "fee_basis": "annual_tuition",
+            "annual_tuition": "18825.00",
+            "fee_note": "Annual international tuition for the standard three-year Cambridge BSc route, September 2027. Optional foundation and placement routes are excluded.",
+            "mapping": "explicit_replacement",
+            "replacement_accepted": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "raw_annual_fee": "18825.00",
+                "annotation": "Annual international tuition for the standard three-year Cambridge BSc route, September 2027. Optional foundation and placement routes are excluded.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ],
+            "scholarship_status": "applicability_pending",
+            "deposit_status": "applicability_pending"
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_94",
+      "changed": true,
+      "replacement_accepted": true,
+      "fee_verified": false,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Computer Animation and Visual Effects",
+          "level": "UG",
+          "location": "Cambridge Campus",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "ucas_cao_code": "",
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition": {
+          "id": 5269,
+          "residency": "INTL",
+          "currency": "GBP",
+          "tuition_fee": "19500.00"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) 3D Animation",
+          "level": "UG",
+          "location": "Cambridge Campus",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "ucas_cao_code": "I626",
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/3d-animation"
+        },
+        "tuition": {
+          "id": 5269,
+          "residency": "INTL",
+          "currency": "GBP",
+          "tuition_fee": "19500.00"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/3d-animation",
+          "source_course_name": "3D Animation",
+          "source_course_code": "I626",
+          "fee_basis": "unavailable",
+          "raw_fees": {
+            "route_review_history": [
+              {
+                "recorded_at": "2026-10-22T13:40:00.941997+00:00",
+                "mapping": "explicit_replacement",
+                "replacement_accepted": true,
+                "before_course": {
+                  "title": "BA (Hons) Computer Animation and Visual Effects",
+                  "level": "UG",
+                  "location": "Cambridge Campus",
+                  "duration": "3 Years",
+                  "start_month": "September",
+                  "start_year": 2026,
+                  "ucas_cao_code": "",
+                  "course_url": "www.aru.ac.uk"
+                },
+                "after_course": {
+                  "title": "BA (Hons) 3D Animation",
+                  "level": "UG",
+                  "location": "Cambridge Campus",
+                  "duration": "3 Years",
+                  "start_month": "September",
+                  "start_year": 2027,
+                  "ucas_cao_code": "I626",
+                  "course_url": "https://www.aru.ac.uk/study/undergraduate/3d-animation"
+                },
+                "previous_tuition_source": null,
+                "evidence_generated_at": "2026-10-22T13:03:16.956041+00:00"
+              }
+            ],
+            "verified": false,
+            "academic_year": "",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/3d-animation",
+            "source_sha256": "963b587db794daf5990af10e0968bf7a0c7337c1ad5648a48facb237be7ba51a",
+            "source_course_name": "3D Animation",
+            "source_course_code": "I626",
+            "fee_basis": "unavailable",
+            "annual_tuition": null,
+            "fee_note": "The September 2027 BA 3D Animation route is identified, but an applicable international tuition amount has not been verified. UK tuition must not be substituted. Retain an unavailable-fee message.",
+            "mapping": "explicit_replacement",
+            "replacement_accepted": true,
+            "fee_categories": [],
+            "verification_reason": "The September 2027 BA 3D Animation route is identified, but an applicable international tuition amount has not been verified. UK tuition must not be substituted. Retain an unavailable-fee message.",
+            "scholarship_status": "applicability_pending",
+            "deposit_status": "applicability_pending"
+          }
+        }
+      }
+    }
+  ],
+  "scholarship_scopes_changed": false,
+  "deposit_policies_changed": false
+}

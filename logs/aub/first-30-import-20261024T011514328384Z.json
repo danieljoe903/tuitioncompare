@@ -1,0 +1,4230 @@
+{
+  "generated_at": "2026-10-24T01:15:14.218180+00:00",
+  "university_id": "UK005",
+  "mode": "preview",
+  "database_changes": false,
+  "courses": [
+    {
+      "course_id": "C_UK005_01",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_01",
+          "title": "BA (Hons) Acting",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_01",
+          "course_url": "https://aub.ac.uk/ba-hons-acting",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Acting",
+          "ucas_cao_code": "W410"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-acting",
+            "source_fee_category": "International",
+            "source_sha256": "2509c97bd0b9bd13ebf3d530cb92b8e6b4f81dbfaaf3fc78b458be7b9183e93e",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W410",
+          "source_course_name": "BA (Hons) Acting",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_02",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_02",
+          "title": "BA (Hons) Animation Production",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_02",
+          "course_url": "https://aub.ac.uk/ba-hons-animation-production",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Animation Production",
+          "ucas_cao_code": "W615"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-animation-production",
+            "source_fee_category": "International",
+            "source_sha256": "62cd75bcd0732b91b7bd63c71345bfed96f8be715dbd4c1f5037d68c691cddf4",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W615",
+          "source_course_name": "BA (Hons) Animation Production",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_03",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_03",
+          "title": "BA (Hons) Architecture",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_03",
+          "course_url": "https://aub.ac.uk/ba-hons-architecture-riba-arb",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Architecture",
+          "ucas_cao_code": "K100"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-architecture-riba-arb",
+            "source_fee_category": "International",
+            "source_sha256": "e948b28554a179aae5bd3284dad2be123acc6b362d34089dac19752bcfd69287",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "K100",
+          "source_course_name": "BA (Hons) Architecture (Part 1 RIBA/ARB)",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_05",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_05",
+          "title": "BA (Hons) Commercial Photography",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_05",
+          "course_url": "https://aub.ac.uk/ba-hons-commercial-photography",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Commercial Photography",
+          "ucas_cao_code": "W644"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-commercial-photography",
+            "source_fee_category": "International",
+            "source_sha256": "6ed2d77a17d0cc42c1cc5cbaa732452b6235036339510338c7d76238b6e63139",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W644",
+          "source_course_name": "BA (Hons) Commercial Photography",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_06",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_06",
+          "title": "BA (Hons) Communication Design and Strategy",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_06",
+          "course_url": "https://aub.ac.uk/ba-hons-communication-design-strategy",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Communication Design and Strategy",
+          "ucas_cao_code": "W213"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-communication-design-strategy",
+            "source_fee_category": "International",
+            "source_sha256": "c2361cebf47d73de37143008a7b84553221abf89206a0c0901328237705e0a3b",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W213",
+          "source_course_name": "BA (Hons) Communication Design and Strategy",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_07",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_07",
+          "title": "BA (Hons) Content Creation with Marketing",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_07",
+          "course_url": "https://aub.ac.uk/ba-hons-content-creation-with-marketing",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Content Creation with Marketing",
+          "ucas_cao_code": "W225"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-content-creation-with-marketing",
+            "source_fee_category": "International",
+            "source_sha256": "4b27e31b75befc9680b4e7d2b8cc4ace0596647f5c0230afae99afef88c6ae7f",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W225",
+          "source_course_name": "BA (Hons) Content Creation with Marketing",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_08",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_08",
+          "title": "BA (Hons) Costume",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_08",
+          "course_url": "https://aub.ac.uk/ba-hons-costume",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Costume",
+          "ucas_cao_code": "W452"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-costume",
+            "source_fee_category": "International",
+            "source_sha256": "ad2e29ebba22b7b0d6e6bde5f7a14d9a294b24dda6a54532461b3090ac4d06e6",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W452",
+          "source_course_name": "BA (Hons) Costume",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_09",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_09",
+          "title": "BA (Hons) Costume for Film",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_09",
+          "course_url": "https://aub.ac.uk/ba-hons-costume-for-film",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Costume for Film",
+          "ucas_cao_code": "W454"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-costume-for-film",
+            "source_fee_category": "International",
+            "source_sha256": "619af56967f4e0871c08693cf7f6427a1e4be85db0506f7af3930c73d2f3394f",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W454",
+          "source_course_name": "BA (Hons) Costume for Film",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_10",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_10",
+          "title": "BA (Hons) Creative Writing",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_10",
+          "course_url": "https://aub.ac.uk/ba-hons-creative-writing",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Creative Writing",
+          "ucas_cao_code": "W800"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–4 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–4 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–4 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-creative-writing",
+            "source_fee_category": "International",
+            "source_sha256": "7ebdc43e1cad337380f7934911b8b6909e45b4be2d68c0b7a1fddd3c0b5bd6e4",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W800",
+          "source_course_name": "BA (Hons) Creative Writing",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_12",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_12",
+          "title": "BA (Hons) Fashion",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_12",
+          "course_url": "https://aub.ac.uk/ba-hons-fashion",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Fashion",
+          "ucas_cao_code": "W230"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-fashion",
+            "source_fee_category": "International",
+            "source_sha256": "2a9ca97b40c7ec017b288a0533ddb73b34a1e02ef0cafbc9096be7d172f3a96f",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W230",
+          "source_course_name": "BA (Hons) Fashion",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_13",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_13",
+          "title": "BA (Hons) Fashion Communication",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_13",
+          "course_url": "https://aub.ac.uk/ba-hons-fashion-communication",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Fashion Communication",
+          "ucas_cao_code": "W111"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-fashion-communication",
+            "source_fee_category": "International",
+            "source_sha256": "41b5570fdc1b4b6d86dd96209d5bcf35468c1a50aacbd03baf239fc86f75357f",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W111",
+          "source_course_name": "BA (Hons) Fashion Communication",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_14",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_14",
+          "title": "BSc (Hons) Fashion Management and Strategy",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_14",
+          "course_url": "https://aub.ac.uk/bsc-hons-fashion-management-and-strategy",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Fashion Management and Strategy",
+          "ucas_cao_code": "W112"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/bsc-hons-fashion-management-and-strategy",
+            "source_fee_category": "International",
+            "source_sha256": "cb9086981f442ce2072d647f215571c25885f801893d58284c0d6ce41698bc6c",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W112",
+          "source_course_name": "BSc (Hons) Fashion Management and Strategy",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_15",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_15",
+          "title": "BA (Hons) Film Production",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_15",
+          "course_url": "https://aub.ac.uk/ba-hons-film-production",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Film Production",
+          "ucas_cao_code": "W610"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-film-production",
+            "source_fee_category": "International",
+            "source_sha256": "22619b211f9e798f6e7176d74f809c619dcc5ef67af76937173924d8aa344de2",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W610",
+          "source_course_name": "BA (Hons) Film Production",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_16",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_16",
+          "title": "BA (Hons) Fine Art",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_16",
+          "course_url": "https://aub.ac.uk/ba-hons-fine-art",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Fine Art",
+          "ucas_cao_code": "W100"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-fine-art",
+            "source_fee_category": "International",
+            "source_sha256": "20f298824a88ce0c02488ef5268330d619177f348e90c02c6297712473eca701",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W100",
+          "source_course_name": "BA (Hons) Fine Art",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_17",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_17",
+          "title": "BA (Hons) Games Art and Design",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_17",
+          "course_url": "https://aub.ac.uk/ba-hons-games-art-and-design",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Games Art and Design",
+          "ucas_cao_code": "I620"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3 or 4 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3 or 4 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3 or 4 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-games-art-and-design",
+            "source_fee_category": "International",
+            "source_sha256": "80085e272f5f9c43542ccf68ac61627e548f18d761104ccaf0f4f3845c011769",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "I620",
+          "source_course_name": "BA (Hons) Games Art and Design",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_18",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_18",
+          "title": "BA (Hons) Graphic Design",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_18",
+          "course_url": "https://aub.ac.uk/ba-hons-graphic-design",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Graphic Design",
+          "ucas_cao_code": "W210"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-graphic-design",
+            "source_fee_category": "International",
+            "source_sha256": "f4d3d8259503d5c9e85ce85fdb58f76abff5be2f95d014954d95a2131303a9b5",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W210",
+          "source_course_name": "BA (Hons) Graphic Design",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_19",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_19",
+          "title": "BA (Hons) Illustration",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_19",
+          "course_url": "https://aub.ac.uk/ba-hons-illustration",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Illustration",
+          "ucas_cao_code": "W220"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-illustration",
+            "source_fee_category": "International",
+            "source_sha256": "b3fbd704d3d96d51946acce41e05c84e2f672b83d1a4f4731e31b0a223164f23",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W220",
+          "source_course_name": "BA (Hons) Illustration",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_20",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_20",
+          "title": "BA (Hons) Interior Architecture and Design",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_20",
+          "course_url": "https://aub.ac.uk/ba-hons-interior-architecture-design",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Interior Architecture and Design",
+          "ucas_cao_code": "KW12"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3 or 4 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3 or 4 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3 or 4 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-interior-architecture-design",
+            "source_fee_category": "International",
+            "source_sha256": "fe89f7c27f1e2dda0ea0d46fe8506d2fe0f0fb21d8b8a220d4418a1e5901bdf1",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "KW12",
+          "source_course_name": "BA (Hons) Interior Architecture and Design",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_21",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_21",
+          "title": "MA Animation Production",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_21",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-animation-production",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Animation Production",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "The stored duration has not been independently confirmed by a course specification in this batch.",
+            "duration_verified": false,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. The stored duration has not been independently confirmed by a course specification in this batch.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": null,
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-animation-production",
+            "source_fee_category": "International",
+            "source_sha256": "13b1ae61908e2b6c21e2124bca5d9ef3bdd6f68ee6e2b9311f6df5c7200ec998",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Animation Production",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_22",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_22",
+          "title": "Master of Architecture (Part 2)",
+          "level": "PG",
+          "duration": "2 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_22",
+          "course_url": "https://aub.ac.uk/graduate-courses/master-of-architecture-part-2-arb-riba",
+          "duration": "2 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "Master of Architecture (Part 2)",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Published two-year full-time MArch route.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Published two-year full-time MArch route.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "2 Years, full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/master-of-architecture-part-2-arb-riba",
+            "source_fee_category": "International",
+            "source_sha256": "5f9b83e21924df0dca517daace6e25a4b76cb0f87e5584c8fe126e607a608e9b",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "Master of Architecture (Part 2 RIBA/ARB)",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_24",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_24",
+          "title": "MA Fine Art",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_24",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-fine-art",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Fine Art",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "The stored duration has not been independently confirmed by a course specification in this batch.",
+            "duration_verified": false,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. The stored duration has not been independently confirmed by a course specification in this batch.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": null,
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-fine-art",
+            "source_fee_category": "International",
+            "source_sha256": "adf5b8f4a8462350600895c349c932367c36f210f02d08ce2e6a6de1122d81a0",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Fine Art",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_25",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_25",
+          "title": "MA Graphic Design",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_25",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-graphic-design",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Graphic Design",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "The stored duration has not been independently confirmed by a course specification in this batch.",
+            "duration_verified": false,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. The stored duration has not been independently confirmed by a course specification in this batch.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": null,
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-graphic-design",
+            "source_fee_category": "International",
+            "source_sha256": "6770eff5070bb963d61dc8debcb12560b5cde80e3d37a6205ee1cb848f13d896",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Graphic Design",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_26",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_26",
+          "title": "BA (Hons) Acting for Screen",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_26",
+          "course_url": "https://aub.ac.uk/ba-hons-acting-for-screen",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Acting for Screen",
+          "ucas_cao_code": "W412"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3–5 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3–5 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-acting-for-screen",
+            "source_fee_category": "International",
+            "source_sha256": "9a67de4f4b6eb34dfce65b5a205cc030cc0d58c4b7045b6c2e5fe5f89bb88a56",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W412",
+          "source_course_name": "BA (Hons) Acting for Screen",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_29",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_29",
+          "title": "BA (Hons) Modelmaking",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_29",
+          "course_url": "https://aub.ac.uk/ba-hons-modelmaking",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Modelmaking",
+          "ucas_cao_code": "W291"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "Reviewed standard three-year route. Published duration is 3 or 4 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "duration_verified": true,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Reviewed standard three-year route. Published duration is 3 or 4 years full-time. Optional foundation/placement routes are separate; none is selected by this import.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": "3 or 4 years full-time",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/ba-hons-modelmaking",
+            "source_fee_category": "International",
+            "source_sha256": "27c53f9423aade80b74b06d06898873f6aaa1f7bac0aad700867cd508267c099",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "W291",
+          "source_course_name": "BA (Hons) Modelmaking",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_34",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_34",
+          "title": "MA Historical Costume",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_34",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-historical-costume",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Historical Costume",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "The stored duration has not been independently confirmed by a course specification in this batch.",
+            "duration_verified": false,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. The stored duration has not been independently confirmed by a course specification in this batch.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": null,
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-historical-costume",
+            "source_fee_category": "International",
+            "source_sha256": "4a3954be221d6682145d172275caf2032f10848ab8924b16153131a6511919e4",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Historical Costume",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_35",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_35",
+          "title": "MA Illustration",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_35",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-illustration",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Illustration",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "The stored duration has not been independently confirmed by a course specification in this batch.",
+            "duration_verified": false,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. The stored duration has not been independently confirmed by a course specification in this batch.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": null,
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-illustration",
+            "source_fee_category": "International",
+            "source_sha256": "0b39ac2a9858b7e026624e46edf52417ebb004c929d949b7039f7b1538e068d7",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Illustration",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_36",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_36",
+          "title": "MA Photography",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_36",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-photography",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Photography",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "The stored duration has not been independently confirmed by a course specification in this batch.",
+            "duration_verified": false,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. The stored duration has not been independently confirmed by a course specification in this batch.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": null,
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-photography",
+            "source_fee_category": "International",
+            "source_sha256": "f2b0d5561a213919a18c45e38e424f0d8d4c6bee49367638f547753681879ce1",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Photography",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_37",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_37",
+          "title": "MA Painting",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_37",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-painting",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Painting",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "The stored duration has not been independently confirmed by a course specification in this batch.",
+            "duration_verified": false,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. The stored duration has not been independently confirmed by a course specification in this batch.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": null,
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-painting",
+            "source_fee_category": "International",
+            "source_sha256": "ee045822edc691aae3d1c2574ae8806d0ca299e32e15512e65b89d3f9a132c30",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Painting",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_38",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_38",
+          "title": "MA Innovation and Creative Entrepreneurship",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_38",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-innovation-and-creative-entrepreneurship",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA Innovation and Creative Entrepreneurship",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "The stored duration has not been independently confirmed by a course specification in this batch.",
+            "duration_verified": false,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. The stored duration has not been independently confirmed by a course specification in this batch.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": null,
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-innovation-and-creative-entrepreneurship",
+            "source_fee_category": "International",
+            "source_sha256": "734e17c432bf25f03d59e9668300c32fb1af7015d111453aeb0d31214cfaaf66",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": false,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA Innovation and Creative Entrepreneurship",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_39",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_39",
+          "title": "MA User Experience (UX/UI)",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_39",
+          "course_url": "https://aub.ac.uk/graduate-courses/ma-user-experience-ux-ui",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MA User Experience (UX/UI)",
+          "ucas_cao_code": ""
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27.",
+              "numeric_amount": null,
+              "status": "2027_28_policy_confirmation_required"
+            },
+            "deposit_status": "2027_28_policy_confirmation_required",
+            "duration_note": "The stored duration has not been independently confirmed by a course specification in this batch.",
+            "duration_verified": false,
+            "fee_note": "Published international tuition for the reviewed September 2027 campus route and 2027/28 fee period. Course is subject to validation. The stored duration has not been independently confirmed by a course specification in this batch.",
+            "fee_source_sha256": "d243163d3a0b4f0f9cd99898850a3b99c12b2de1b7e2df75a4367d57c105186f",
+            "importer": "aub_campus_first30_v1",
+            "mapping": {
+              "accepted_intake": "2027-09",
+              "kind": "reviewed_same_award_route"
+            },
+            "published_duration": null,
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "aub_fee_status_confirmed",
+                  "label": "Has AUB assessed you as an overseas fee payer?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_offer_confirmed",
+                  "label": "Do you hold the AUB offer for this exact course and intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_application_by_deadline",
+                  "label": "Did you submit the scholarship application by the published deadline for your intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_granted",
+                  "label": "Has AUB granted you this international scholarship?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_accepted",
+                  "label": "Have you accepted the scholarship under AUB’s instructions?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_award_for_compared_period",
+                  "label": "Does the award letter make this amount applicable to the fee period being compared?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "aub_no_other_aub_award",
+                  "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?",
+                  "type": "boolean"
+                },
+                {
+                  "currency": "GBP",
+                  "key": "aub_confirmed_award_amount",
+                  "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award.",
+                  "type": "money"
+                }
+              ],
+              "reason": "AUB award maximum is not automatic; use the actual granted amount saved from the scholarship page.",
+              "status": "competitive_actual_award_amount_required"
+            },
+            "source_course_url": "https://aub.ac.uk/graduate-courses/ma-user-experience-ux-ui",
+            "source_fee_category": "International",
+            "source_sha256": "950d18abfb9459ae83cd2ab3f00e6bc8d7d24215adff7a424fb51776d4287cb4",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": true,
+            "verified": true
+          },
+          "source_course_code": "",
+          "source_course_name": "MA User Experience (UX/UI)*",
+          "source_url": "https://aub.ac.uk/fees/postgraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    }
+  ],
+  "awards": [
+    {
+      "name": "AUB International Competitive UG — Confirmed Amount (2027/28)",
+      "changed": true,
+      "rules": {
+        "importer": "aub_competitive_confirmed_amount_v1",
+        "kind": "confirmed_amount",
+        "value": "5000.00",
+        "published_maximum": "5000.00",
+        "confirmed_amount_fact": "aub_confirmed_award_amount",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aub_fee_status_confirmed": [
+            true
+          ],
+          "aub_offer_confirmed": [
+            true
+          ],
+          "aub_application_by_deadline": [
+            true
+          ],
+          "aub_award_granted": [
+            true
+          ],
+          "aub_award_accepted": [
+            true
+          ],
+          "aub_award_for_compared_period": [
+            true
+          ],
+          "aub_no_other_aub_award": [
+            true
+          ],
+          "course_id": [
+            "C_UK005_01",
+            "C_UK005_02",
+            "C_UK005_03",
+            "C_UK005_05",
+            "C_UK005_06",
+            "C_UK005_07",
+            "C_UK005_08",
+            "C_UK005_09",
+            "C_UK005_10",
+            "C_UK005_12",
+            "C_UK005_13",
+            "C_UK005_14",
+            "C_UK005_15",
+            "C_UK005_16",
+            "C_UK005_17",
+            "C_UK005_18",
+            "C_UK005_19",
+            "C_UK005_20",
+            "C_UK005_26",
+            "C_UK005_29"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aub_award_amount_valid": [
+            true
+          ]
+        },
+        "award_status": "competitive",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "source_capture_sha256": "512006985c7d067522728834611b6782caa6a6a0ef00240fa54e41c03b882973",
+        "eligibility_questions": [
+          {
+            "key": "aub_fee_status_confirmed",
+            "type": "boolean",
+            "label": "Has AUB assessed you as an overseas fee payer?"
+          },
+          {
+            "key": "aub_offer_confirmed",
+            "type": "boolean",
+            "label": "Do you hold the AUB offer for this exact course and intake?"
+          },
+          {
+            "key": "aub_application_by_deadline",
+            "type": "boolean",
+            "label": "Did you submit the scholarship application by the published deadline for your intake?"
+          },
+          {
+            "key": "aub_award_granted",
+            "type": "boolean",
+            "label": "Has AUB granted you this international scholarship?"
+          },
+          {
+            "key": "aub_award_accepted",
+            "type": "boolean",
+            "label": "Have you accepted the scholarship under AUB’s instructions?"
+          },
+          {
+            "key": "aub_award_for_compared_period",
+            "type": "boolean",
+            "label": "Does the award letter make this amount applicable to the fee period being compared?"
+          },
+          {
+            "key": "aub_no_other_aub_award",
+            "type": "boolean",
+            "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?"
+          },
+          {
+            "key": "aub_confirmed_award_amount",
+            "type": "money",
+            "currency": "GBP",
+            "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award."
+          }
+        ],
+        "questions_location": "scholarship_page",
+        "scope_note": "Exact reviewed campus course IDs and compared year only. Deduct the actual granted amount, bounded by the published maximum, once saved personal facts are confirmed. The AUB adapter is required; the generic calculator cannot interpret confirmed_amount."
+      }
+    },
+    {
+      "name": "AUB International Competitive PG — Confirmed Amount (2027/28)",
+      "changed": true,
+      "rules": {
+        "importer": "aub_competitive_confirmed_amount_v1",
+        "kind": "confirmed_amount",
+        "value": "3000.00",
+        "published_maximum": "3000.00",
+        "confirmed_amount_fact": "aub_confirmed_award_amount",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aub_fee_status_confirmed": [
+            true
+          ],
+          "aub_offer_confirmed": [
+            true
+          ],
+          "aub_application_by_deadline": [
+            true
+          ],
+          "aub_award_granted": [
+            true
+          ],
+          "aub_award_accepted": [
+            true
+          ],
+          "aub_award_for_compared_period": [
+            true
+          ],
+          "aub_no_other_aub_award": [
+            true
+          ],
+          "course_id": [
+            "C_UK005_21",
+            "C_UK005_22",
+            "C_UK005_24",
+            "C_UK005_25",
+            "C_UK005_34",
+            "C_UK005_35",
+            "C_UK005_36",
+            "C_UK005_37",
+            "C_UK005_38",
+            "C_UK005_39"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aub_award_amount_valid": [
+            true
+          ]
+        },
+        "award_status": "competitive",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "source_capture_sha256": "512006985c7d067522728834611b6782caa6a6a0ef00240fa54e41c03b882973",
+        "eligibility_questions": [
+          {
+            "key": "aub_fee_status_confirmed",
+            "type": "boolean",
+            "label": "Has AUB assessed you as an overseas fee payer?"
+          },
+          {
+            "key": "aub_offer_confirmed",
+            "type": "boolean",
+            "label": "Do you hold the AUB offer for this exact course and intake?"
+          },
+          {
+            "key": "aub_application_by_deadline",
+            "type": "boolean",
+            "label": "Did you submit the scholarship application by the published deadline for your intake?"
+          },
+          {
+            "key": "aub_award_granted",
+            "type": "boolean",
+            "label": "Has AUB granted you this international scholarship?"
+          },
+          {
+            "key": "aub_award_accepted",
+            "type": "boolean",
+            "label": "Have you accepted the scholarship under AUB’s instructions?"
+          },
+          {
+            "key": "aub_award_for_compared_period",
+            "type": "boolean",
+            "label": "Does the award letter make this amount applicable to the fee period being compared?"
+          },
+          {
+            "key": "aub_no_other_aub_award",
+            "type": "boolean",
+            "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?"
+          },
+          {
+            "key": "aub_confirmed_award_amount",
+            "type": "money",
+            "currency": "GBP",
+            "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award."
+          }
+        ],
+        "questions_location": "scholarship_page",
+        "scope_note": "Exact reviewed campus course IDs and compared year only. Deduct the actual granted amount, bounded by the published maximum, once saved personal facts are confirmed. The AUB adapter is required; the generic calculator cannot interpret confirmed_amount."
+      }
+    }
+  ],
+  "changed_course_records": 30,
+  "changed_items": 32
+}

@@ -1,0 +1,317 @@
+{
+  "mode": "preview",
+  "status": "preview_complete",
+  "database_transaction_committed": false,
+  "undergraduate_refreshed": false,
+  "postgraduate_refresh_integrated": false,
+  "historical_scholarship_rules_verified": false,
+  "deposits_verified_by_this_workflow": false,
+  "completed_commands": [],
+  "undergraduate_sources": {
+    "extracted_pages": 54,
+    "mapped_source_pages": 26,
+    "unmapped_source_pages": 28
+  },
+  "coverage_before": {
+    "active_courses": 100,
+    "verified_fees": 83,
+    "unresolved_fees": 17,
+    "verified_by_academic_year": {
+      "2026/27": 70,
+      "2025/26": 13
+    },
+    "application_restricted_course_ids": [
+      "C_ABE001_RES_06",
+      "C_ABE001_RES_08"
+    ],
+    "unresolved": [
+      {
+        "course_id": "C_ABE001_01",
+        "title": "BSc (Hons) Computing (Top-up)",
+        "level": "TOPUP",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_ABE001_02",
+        "title": "BA (Hons) Business Management (Top-up)",
+        "level": "TOPUP",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_62",
+        "title": "BA (Hons) Sociology",
+        "level": "UG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_65",
+        "title": "MSc International Management with Industrial Practise",
+        "level": "PG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_66",
+        "title": "MSc Fintech with Industrial Practise",
+        "level": "PG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_67",
+        "title": "MSc Psychology (Conversion)",
+        "level": "PG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_68",
+        "title": "MSc Mental Health Nursing (Pre-registration)",
+        "level": "PG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_72",
+        "title": "MSc by Research in Biomedical Science",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_76",
+        "title": "BA (Hons) Business Management and Marketing",
+        "level": "UG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_77",
+        "title": "BA (Hons) Business Management with Human Resource Management",
+        "level": "UG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_78",
+        "title": "BSc (Hons) Food Science and Nutrition",
+        "level": "UG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_80",
+        "title": "BSc (Hons) Software Engineering",
+        "level": "UG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_81",
+        "title": "MSc by Research in Cognitive Psychology and Vision Science",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_82",
+        "title": "MSc by Research in Applied Sociology",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_83",
+        "title": "MSc by Research in Criminology",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_86",
+        "title": "MSc Sustainability Assessment and Decision Making",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_90",
+        "title": "MRes Education",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      }
+    ]
+  },
+  "coverage_after": {
+    "active_courses": 100,
+    "verified_fees": 83,
+    "unresolved_fees": 17,
+    "verified_by_academic_year": {
+      "2026/27": 70,
+      "2025/26": 13
+    },
+    "application_restricted_course_ids": [
+      "C_ABE001_RES_06",
+      "C_ABE001_RES_08"
+    ],
+    "unresolved": [
+      {
+        "course_id": "C_ABE001_01",
+        "title": "BSc (Hons) Computing (Top-up)",
+        "level": "TOPUP",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_ABE001_02",
+        "title": "BA (Hons) Business Management (Top-up)",
+        "level": "TOPUP",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_62",
+        "title": "BA (Hons) Sociology",
+        "level": "UG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_65",
+        "title": "MSc International Management with Industrial Practise",
+        "level": "PG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_66",
+        "title": "MSc Fintech with Industrial Practise",
+        "level": "PG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_67",
+        "title": "MSc Psychology (Conversion)",
+        "level": "PG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_68",
+        "title": "MSc Mental Health Nursing (Pre-registration)",
+        "level": "PG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_72",
+        "title": "MSc by Research in Biomedical Science",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_76",
+        "title": "BA (Hons) Business Management and Marketing",
+        "level": "UG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_77",
+        "title": "BA (Hons) Business Management with Human Resource Management",
+        "level": "UG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_78",
+        "title": "BSc (Hons) Food Science and Nutrition",
+        "level": "UG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_80",
+        "title": "BSc (Hons) Software Engineering",
+        "level": "UG",
+        "start_month": "September",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_81",
+        "title": "MSc by Research in Cognitive Psychology and Vision Science",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_82",
+        "title": "MSc by Research in Applied Sociology",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_83",
+        "title": "MSc by Research in Criminology",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_86",
+        "title": "MSc Sustainability Assessment and Decision Making",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      },
+      {
+        "course_id": "C_UK001_90",
+        "title": "MRes Education",
+        "level": "PG",
+        "start_month": "February",
+        "start_year": 2026,
+        "reason": "This course's international tuition fee has not been verified."
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "reviewed_on": "2026-10-24",
+  "evidence_type": "Human-reviewed official public pages and previously collected source reports; not a new HTTP capture archive",
+  "pending_routes": [
+    {
+      "course_id": "C_UK005_04",
+      "reference_title": "Business of Games",
+      "reason": "The old official URL redirects to Games Art and Design, already mapped separately. Historical specification is not a current exact recruiting intake. Redirect is not proof of equivalence or closure.",
+      "source_urls": [
+        "https://aub.ac.uk/ba-hons-business-of-games",
+        "https://webdocs.aub.ac.uk/BABOG%20Programme%20Specification.pdf"
+      ],
+      "next_action": "Obtain AUB confirmation of exact current award, intake, route code and applicable international fee; retain unavailable comparison meanwhile."
+    },
+    {
+      "course_id": "C_UK005_27",
+      "reference_title": "Ceramics",
+      "reason": "A UCAS catalogue candidate lists September 2027, but exact detailed route capture could not be verified; AUB direct URL redirects to its course index. A subject filter/shared application text is insufficient.",
+      "source_urls": [
+        "https://aub.ac.uk/ba-hons-ceramics",
+        "https://www.ucas.com/explore/courses/27539d5c-65a9-4e2e-a90f-55238b74ff7d/ceramics?studyYear=2027"
+      ],
+      "next_action": "Obtain AUB confirmation of exact current award, intake, route code and applicable international fee; retain unavailable comparison meanwhile."
+    },
+    {
+      "course_id": "C_UK005_28",
+      "reference_title": "Creative Events Management",
+      "reason": "Historical award evidence exists; no exact current intake established. Arts, Media and Creative Industries Management is a different advertised award, not an accepted automatic replacement.",
+      "source_urls": [
+        "https://aub.ac.uk/ba-hons-creative-events-management",
+        "https://aub.ac.uk/courses"
+      ],
+      "next_action": "Obtain AUB confirmation of exact current award, intake, route code and applicable international fee; retain unavailable comparison meanwhile."
+    },
+    {
+      "course_id": "C_UK005_30",
+      "reference_title": "Performance Design and Film Costume",
+      "reason": "Historical programme evidence does not verify September 2027 recruitment. Costume and Costume for Film must not be substituted without a reviewed replacement.",
+      "source_urls": [
+        "https://aub.ac.uk/ba-hons-performance-design-and-film-costume",
+        "https://aub.ac.uk/courses"
+      ],
+      "next_action": "Obtain AUB confirmation of exact current award, intake, route code and applicable international fee; retain unavailable comparison meanwhile."
+    },
+    {
+      "course_id": "C_UK005_31",
+      "reference_title": "BA Visual Effects",
+      "reason": "Historical undergraduate award does not verify a current intake. The advertised MA Visual Effects is a different award level.",
+      "source_urls": [
+        "https://aub.ac.uk/ba-hons-visual-effects-vfx-for-film-and-television",
+        "https://aub.ac.uk/courses"
+      ],
+      "next_action": "Obtain AUB confirmation of exact current award, intake, route code and applicable international fee; retain unavailable comparison meanwhile."
+    },
+    {
+      "course_id": "C_UK005_32",
+      "reference_title": "Future Media Production",
+      "reason": "The official URL redirects to Film Production, already separately mapped. Earlier launch notice was subject to validation. No separate current exact intake established; redirect is not proof of duplicate or closure.",
+      "source_urls": [
+        "https://aub.ac.uk/ba-hons-future-media-production",
+        "https://aub.ac.uk/latest/london-pop-up-open-days-october-2025"
+      ],
+      "next_action": "Obtain AUB confirmation of exact current award, intake, route code and applicable international fee; retain unavailable comparison meanwhile."
+    }
+  ],
+  "campus_deposit": {
+    "status": "2027/28_applicability_unconfirmed",
+    "source_url": "https://webdocs.aub.ac.uk/Fees%20Payment%20Policy.pdf",
+    "published_policy_year": "2026/27",
+    "next_review": "February 2027",
+    "note": "Do not carry earlier CAS percentages or acceptance amounts into September 2027 without applicable cohort confirmation. Nationality exceptions are not legal-residence rules."
+  },
+  "march_waiver": {
+    "course_id": "C_UK005_22",
+    "status": "exact_scope_unconfirmed",
+    "source_url": "https://aub.ac.uk/international/international-scholarships/international-early-payment-fee-waiver",
+    "note": "Postgraduate payment deadline names MA courses; MArch not added. Its separately verified competitive actual-amount rule remains available."
+  }
+}

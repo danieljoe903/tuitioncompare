@@ -1,0 +1,65 @@
+{
+  "before": {
+    "tuition_id": 4703,
+    "tuition_fee": "15500.0",
+    "scholarship": "3000.0",
+    "scholarship_source_id": null,
+    "scholarship_id": 85,
+    "deadline": "2026-07-31",
+    "rule": []
+  },
+  "proposed": {
+    "tuition_fee": "16950.00",
+    "legacy_scholarship": "3000.00",
+    "scholarship_source_id": 85,
+    "deadline": null,
+    "rules": {
+      "fee_basis_confirmed": true,
+      "benefit": "tuition",
+      "kind": "fixed",
+      "value": "3000",
+      "currency": "GBP",
+      "academic_year": "2026/27",
+      "study_years": [
+        1
+      ],
+      "percentage_basis": "original_tuition",
+      "award_status": "conditional",
+      "stacking": "exclusive",
+      "compatible_ids": [],
+      "conditions": {
+        "course_id": [
+          "C_UK001_01"
+        ],
+        "level": [
+          "UG"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "new_entrant": [
+          true
+        ],
+        "full_time": [
+          true
+        ],
+        "on_campus_dundee": [
+          true
+        ],
+        "academic_conditions_met": [
+          true
+        ],
+        "partner_discount": [
+          false
+        ],
+        "repeat_year": [
+          false
+        ]
+      },
+      "fee_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+      "terms_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/terms-conditions/",
+      "review_notes": "Pilot annual deduction only. No combined awards or early-payment discounts. Award notification and acceptance still required."
+    }
+  },
+  "recorded_at": "2026-10-14T02:16:07.523701+00:00"
+}

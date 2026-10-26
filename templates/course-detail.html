@@ -1,0 +1,376 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}<title>{{ course.title }} - {{ course.university.name }} | University Tuition Compare</title>{% endblock %}
+
+{% block content %}
+    <div class="pt-24">
+        <!-- Course Banner -->
+        <section class="relative h-[300px] lg:h-[400px]">
+            <!-- Banner Image with Opacity Overlay -->
+            <div class="absolute inset-0 bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('{% if course.university.banner %}{{ course.university.banner }}{% else %}https://www.collegetransitions.com/wp-content/uploads/2024/05/largest-high-schools.jpg{% endif %}');"></div>
+            
+            <!-- Banner Content -->
+            <div class="relative h-full container flex flex-col justify-center items-center text-center text-white z-10">
+                <h1 class="text-4xl lg:text-5xl font-bold mb-4 text-white" data-aos="fade-up">{{ course.title }}</h1>
+                <p class="text-xl lg:text-2xl mb-8 flex items-center justify-center gap-2" data-aos="fade-up" data-aos-delay="100">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
+                    </svg>
+                    <span>{{ course.university.name }}</span>
+                </p>
+                
+                <!-- Action Buttons -->
+                <div class="flex flex-wrap gap-4 justify-center" data-aos="fade-up" data-aos-delay="200">
+                    <a href="{% url 'university-detail' course.university.slug %}"
+                       class="px-8 py-4 text-white rounded-lg font-semibold transition-all text-base hover:opacity-90"
+                       style="background-color: #102C46;">
+                        View University
+                    </a>
+                    <a href="{% if 'http' in course.course_url %}{{ course.course_url }}{% else %}https://{{ course.course_url }}{% endif %}" target="_blank" rel="noopener noreferrer"
+                       class="px-8 py-4 bg-white text-gray-900 rounded-lg font-semibold transition-all text-base hover:bg-gray-100">
+                        Visit Website
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Course Information Section -->
+        <section class="bg-IcyBreeze dark:bg-darklight py-12">
+            <div class="container">
+                <h2 class="text-2xl font-semibold text-gray-900 dark:text-white mb-6">Course Information</h2>
+                
+                <!-- Course Overview -->
+                {% if course.overview %}
+                <div class="mb-8 text-gray-700 dark:text-gray-300 leading-relaxed">
+                    <p>{{ course.overview }}</p>
+                </div>
+                {% endif %}
+                
+                <!-- Stats Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                    <div class="bg-white/80 backdrop-blur-md dark:bg-dark_card/80 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">Programme Level</p>
+                        <p class="text-xl font-bold text-gray-900 dark:text-white">
+                            {% if course.level == 'UG' %}
+                                Undergraduate
+                            {% elif course.level == 'PG' or course.level == 'PGT' %}
+                                Postgraduate
+                            {% else %}
+                                {{ course.level }}
+                            {% endif %}
+                        </p>
+                    </div>
+                    
+                    {% if course.subject %}
+                    <div class="bg-white/80 backdrop-blur-md dark:bg-dark_card/80 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">Subject Area</p>
+                        <p class="text-xl font-bold text-gray-900 dark:text-white">{{ course.subject.name }}</p>
+                    </div>
+                    {% endif %}
+                    
+                    <div class="bg-white/80 backdrop-blur-md dark:bg-dark_card/80 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">Duration</p>
+                        <p class="text-xl font-bold text-gray-900 dark:text-white">{{ course.duration }}</p>
+                    </div>
+                    
+                    <div class="bg-white/80 backdrop-blur-md dark:bg-dark_card/80 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">Start Date</p>
+                        <p class="text-xl font-bold text-gray-900 dark:text-white">{{ course.start_month }} {{ course.start_year }}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Entry Requirements Section -->
+        {% if course.entry_requirements %}
+        <section class="bg-IcyBreeze dark:bg-darklight py-12">
+            <div class="container">
+                <h2 class="text-2xl font-semibold text-gray-900 dark:text-white mb-6">Course Details</h2>
+                
+                <!-- Tabs -->
+                <div class="flex gap-4 mb-8 border-b border-gray-200 dark:border-gray-700">
+                    <button id="requirements-tab" class="px-6 py-3 font-semibold border-b-4 transition-colors" style="border-color: #102C46; color: #102C46; margin-bottom: -1px;">
+                        Entry Requirements
+                    </button>
+                    {% if course.modules %}
+                    <button id="modules-tab" class="px-6 py-3 font-semibold border-b-4 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors" style="margin-bottom: -1px;">
+                        Modules
+                    </button>
+                    {% endif %}
+                </div>
+                
+                <!-- Entry Requirements Content -->
+                <div id="requirements-content" class="tab-content">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <!-- Image -->
+                        <div class="rounded-lg overflow-hidden order-1">
+                            <img src="https://cdn.universitycompare.com/content/images/UniUnderCover--Uni-of-Bradford-UG-Cover.jpg" alt="Entry Requirements" class="w-full h-auto">
+                        </div>
+                        <!-- Text Content -->
+                        <div class="order-2">
+                            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Academic Requirements</h3>
+                            <p class="text-gray-700 dark:text-gray-300 leading-relaxed">{{ course.entry_requirements }}</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Course Modules Content -->
+                {% if course.modules %}
+                <div id="modules-content" class="tab-content hidden">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <!-- Text Content -->
+                        <div class="order-2 lg:order-1">
+                            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">What You'll Study</h3>
+                            <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">{{ course.modules }}</p>
+                            <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                                For more detailed information about the course curriculum, please visit the official course page.
+                            </p>
+                        </div>
+                        <!-- Image -->
+                        <div class="rounded-lg overflow-hidden order-1 lg:order-2">
+                            <img src="https://cdn.universitycompare.com/content/images/Gallery--University-of-Bradford-Image-8-8.jpg" alt="Course Modules" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </section>
+        {% endif %}
+        
+        <!-- Related Courses Section -->
+        <section class="py-12" style="background-color: #102C46;">
+            <div class="container text-center">
+                <h2 class="text-2xl font-semibold text-white mb-8">Explore More Courses</h2>
+                <div class="flex flex-wrap gap-4 justify-center">
+                    <a href="{% url 'university-courses' course.university.slug %}"
+                       class="px-8 py-4 text-gray-900 rounded-lg font-semibold transition-all text-base border border-gray-200"
+                       style="background-color: #EFFBFF;"
+                       onmouseover="this.style.backgroundColor='#D6F5FF'"
+                       onmouseout="this.style.backgroundColor='#EFFBFF'">
+                        All Courses at {{ course.university.name }}
+                    </a>
+                    <a href="{% url 'compare-tuition' %}"
+                       class="px-8 py-4 rounded-lg font-semibold transition-all text-base border-2 border-white text-white hover:bg-white hover:text-[#102C46]">
+                        Compare Tuition Fees
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Tuition Fees and Scholarships Section -->
+        <section class="bg-IcyBreeze dark:bg-darklight py-12">
+            <div class="container">
+                <h2 class="text-2xl font-semibold text-gray-900 dark:text-white mb-6">Tuition Fees and Scholarships</h2>
+                
+                <!-- Tabs -->
+                <div class="flex gap-4 mb-8 border-b border-gray-200 dark:border-gray-700">
+                    <button id="tuition-tab" class="px-6 py-3 font-semibold border-b-4 transition-colors" style="border-color: #102C46; color: #102C46; margin-bottom: -1px;">
+                        Tuition Fees
+                    </button>
+                    {% if scholarships %}
+                    <button id="scholarships-tab" class="px-6 py-3 font-semibold border-b-4 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors" style="margin-bottom: -1px;">
+                        Scholarships
+                    </button>
+                    {% endif %}
+                </div>
+                
+                <!-- Tuition Fees Content -->
+                <div id="tuition-content" class="tab-content">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <!-- Image -->
+                        <div class="rounded-lg overflow-hidden order-1">
+                            <img src="https://cdn.universitycompare.com/content/images/Gallery--University-of-Bradford-Image-9-9.jpg" alt="Tuition Fees" class="w-full h-auto">
+                        </div>
+                        <!-- Text Content -->
+                        <div class="order-2">
+                            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Tuition Fees</h3>
+                            {% if tuition_data %}
+                            <div class="space-y-4 mb-6">
+                                {% if tuition_data.INTL %}
+                                <div class="bg-white dark:bg-dark_card rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+                                    <div class="flex justify-between items-center mb-2">
+                                        <span class="text-sm font-medium text-gray-600 dark:text-gray-400">International Students</span>
+                                        <span class="text-2xl font-bold" style="color: #102C46;">
+                                            {{ tuition_data.INTL.currency }} {{ tuition_data.INTL.fee|floatformat:0 }}
+                                            {% if tuition_data.INTL.academic_year %}
+                                            <small class="block text-sm">{{ tuition_data.INTL.fee_label }} · {{ tuition_data.INTL.academic_year }}</small>
+                                            <small class="block text-sm">{{ tuition_data.INTL.fee_note }}</small>
+                                            {% endif %}
+                                        </span>
+                                    </div>
+                                    {% if tuition_data.INTL.scholarship > 0 %}
+                                    <div class="flex justify-between items-center text-sm text-green-600 dark:text-green-400">
+                                        <span>After Scholarship</span>
+                                        <span class="font-semibold">{{ tuition_data.INTL.currency }} {{ tuition_data.INTL.net_fee|floatformat:0 }}</span>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                                {% endif %}
+                                
+                                {% if tuition_data.EU %}
+                                <div class="bg-white dark:bg-dark_card rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+                                    <div class="flex justify-between items-center mb-2">
+                                        <span class="text-sm font-medium text-gray-600 dark:text-gray-400">EU Students</span>
+                                        <span class="text-2xl font-bold" style="color: #102C46;">
+                                            {{ tuition_data.EU.currency }} {{ tuition_data.EU.fee|floatformat:0 }}
+                                            {% if tuition_data.EU.academic_year %}
+                                            <small class="block text-sm">{{ tuition_data.EU.fee_label }} · {{ tuition_data.EU.academic_year }}</small>
+                                            <small class="block text-sm">{{ tuition_data.EU.fee_note }}</small>
+                                            {% endif %}
+                                        </span>
+                                    </div>
+                                    {% if tuition_data.EU.scholarship > 0 %}
+                                    <div class="flex justify-between items-center text-sm text-green-600 dark:text-green-400">
+                                        <span>After Scholarship</span>
+                                        <span class="font-semibold">{{ tuition_data.EU.currency }} {{ tuition_data.EU.net_fee|floatformat:0 }}</span>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                                {% endif %}
+                                
+                                {% if tuition_data.HOME %}
+                                <div class="bg-white dark:bg-dark_card rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+                                    <div class="flex justify-between items-center mb-2">
+                                        <span class="text-sm font-medium text-gray-600 dark:text-gray-400">Home Students</span>
+                                        <span class="text-2xl font-bold" style="color: #102C46;">
+                                            {{ tuition_data.HOME.currency }} {{ tuition_data.HOME.fee|floatformat:0 }}
+                                        </span>
+                                    </div>
+                                    {% if tuition_data.HOME.scholarship > 0 %}
+                                    <div class="flex justify-between items-center text-sm text-green-600 dark:text-green-400">
+                                        <span>After Scholarship</span>
+                                        <span class="font-semibold">{{ tuition_data.HOME.currency }} {{ tuition_data.HOME.net_fee|floatformat:0 }}</span>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                                {% endif %}
+                            </div>
+                            {% else %}
+                            <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+                                Tuition fees for this course vary depending on your residency status and programme.
+                            </p>
+                            {% endif %}
+                            <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+                                For the most up-to-date tuition information and payment plans, please visit the official course website.
+                            </p>
+                            <a href="{% if 'http' in course.course_url %}{{ course.course_url }}{% else %}https://{{ course.course_url }}{% endif %}" target="_blank" rel="noopener noreferrer"
+                               class="inline-block px-8 py-3 text-white rounded-lg font-semibold transition-all text-base hover:opacity-90"
+                               style="background-color: #102C46;">
+                                Visit Course Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Scholarships Content -->
+                {% if scholarships %}
+                <div id="scholarships-content" class="tab-content hidden">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <!-- Image -->
+                        <div class="rounded-lg overflow-hidden order-1">
+                            <img src="https://cdn.universitycompare.com/content/images/Gallery--University-of-Bradford-Image-1-1.jpg" alt="Scholarships" class="w-full h-auto">
+                        </div>
+                        <!-- Text Content -->
+                        <div class="order-2">
+                            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Available Scholarships</h3>
+                            <ul class="list-disc list-inside text-gray-700 dark:text-gray-300 mb-6 leading-relaxed space-y-2">
+                                {% for scholarship in scholarships %}
+                                <li>
+                                    <strong>{{ scholarship.name }}</strong> - {{ scholarship.award_type }}
+                                    {% if scholarship.award_value %}({{ scholarship.award_value }}){% endif %}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            <a href="{% url 'university-detail' course.university.slug %}" 
+                               class="inline-block px-8 py-3 text-white rounded-lg font-semibold transition-all text-base hover:opacity-90"
+                               style="background-color: #102C46;">
+                                View More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    AOS.init({
+        duration: 800,
+        once: true,
+        offset: 50
+    });
+        
+        // Tab functionality for Course Details (Requirements/Modules)
+        const requirementsTab = document.getElementById('requirements-tab');
+        const modulesTab = document.getElementById('modules-tab');
+        const requirementsContent = document.getElementById('requirements-content');
+        const modulesContent = document.getElementById('modules-content');
+        
+        if (requirementsTab && modulesTab) {
+            requirementsTab.addEventListener('click', function() {
+                // Update tabs
+                requirementsTab.style.borderColor = '#102C46';
+                requirementsTab.style.color = '#102C46';
+                modulesTab.style.borderColor = 'transparent';
+                modulesTab.classList.add('text-gray-600', 'dark:text-gray-400');
+                modulesTab.classList.remove('text-gray-900', 'dark:text-white');
+                
+                // Update content
+                requirementsContent.classList.remove('hidden');
+                modulesContent.classList.add('hidden');
+            });
+            
+            modulesTab.addEventListener('click', function() {
+                // Update tabs
+                modulesTab.style.borderColor = '#102C46';
+                modulesTab.style.color = '#102C46';
+                modulesTab.classList.remove('text-gray-600', 'dark:text-gray-400');
+                modulesTab.classList.add('text-gray-900', 'dark:text-white');
+                requirementsTab.style.borderColor = 'transparent';
+                requirementsTab.classList.add('text-gray-600', 'dark:text-gray-400');
+                
+                // Update content
+                modulesContent.classList.remove('hidden');
+                requirementsContent.classList.add('hidden');
+            });
+        }
+        
+        // Tab functionality for Tuition/Scholarships
+        const tuitionTab = document.getElementById('tuition-tab');
+        const scholarshipsTab = document.getElementById('scholarships-tab');
+        const tuitionContent = document.getElementById('tuition-content');
+        const scholarshipsContent = document.getElementById('scholarships-content');
+        
+        if (tuitionTab && scholarshipsTab) {
+            tuitionTab.addEventListener('click', function() {
+                // Update tabs
+                tuitionTab.style.borderColor = '#102C46';
+                tuitionTab.style.color = '#102C46';
+                scholarshipsTab.style.borderColor = 'transparent';
+                scholarshipsTab.classList.add('text-gray-600', 'dark:text-gray-400');
+                scholarshipsTab.classList.remove('text-gray-900', 'dark:text-white');
+                
+                // Update content
+                tuitionContent.classList.remove('hidden');
+                scholarshipsContent.classList.add('hidden');
+            });
+            
+            scholarshipsTab.addEventListener('click', function() {
+                // Update tabs
+                scholarshipsTab.style.borderColor = '#102C46';
+                scholarshipsTab.style.color = '#102C46';
+                scholarshipsTab.classList.remove('text-gray-600', 'dark:text-gray-400');
+                scholarshipsTab.classList.add('text-gray-900', 'dark:text-white');
+                tuitionTab.style.borderColor = 'transparent';
+                tuitionTab.classList.add('text-gray-600', 'dark:text-gray-400');
+                
+                // Update content
+                scholarshipsContent.classList.remove('hidden');
+                tuitionContent.classList.add('hidden');
+            });
+        }
+    </script>
+{% endblock %}

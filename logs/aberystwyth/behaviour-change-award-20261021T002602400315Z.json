@@ -1,0 +1,293 @@
+{
+  "generated_at": "2026-10-21T00:26:02.400315+00:00",
+  "mode": "apply_requested",
+  "course_id": "C_UK002_91",
+  "changed": true,
+  "fee_evidence": {
+    "course": {
+      "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+      "sha256": "b67699f4a6bceba40cdbbf44404a29cff51e02ffb2398d124d5cd2ba57dbb93c"
+    },
+    "department": {
+      "source_url": "https://www.aber.ac.uk/en/study-schemes/2027-2028/departments/department/?department=W",
+      "sha256": "b88957d5423e836f9b46c55684851afb42f9bdb5ca522f5b4f08d6834f3b2168"
+    },
+    "fee_schedule": {
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/",
+      "sha256": "c270ae8beb4525f1f89436b1431c167afe907b430a911a0b25cef7db4246252e"
+    },
+    "method": "official_department_and_published_subject_band",
+    "classification": "Psychology",
+    "fee_band": "Sciences",
+    "academic_year": "2027/28",
+    "annual_tuition": "23820.00"
+  },
+  "award_evidence": {
+    "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+    "sha256": "922835b209af8a71da1789cdf3a925a966f22e94386cd3ac1af727264b71181d",
+    "published_row": [
+      "Sciences",
+      "£23,820",
+      "£3,800",
+      "£20,020 + free housing"
+    ]
+  },
+  "before": {
+    "scholarship_rule_id": 6,
+    "rules": {
+      "kind": "fixed",
+      "value": "3800.00",
+      "benefit": "tuition",
+      "currency": "GBP",
+      "stacking": "exclusive",
+      "conditions": {
+        "course_id": [
+          "C_UK002_21",
+          "C_UK002_22",
+          "C_UK002_26",
+          "C_UK002_47",
+          "C_UK002_51",
+          "C_UK002_61"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "new_entrant": [
+          true
+        ],
+        "offer_received": [
+          true
+        ],
+        "external_funding": [
+          false
+        ],
+        "applied_by_deadline": [
+          true
+        ],
+        "academic_conditions_met": [
+          true
+        ]
+      },
+      "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+      "study_years": [
+        1
+      ],
+      "award_status": "conditional",
+      "academic_year": "2027/28",
+      "compatible_ids": [],
+      "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+      "percentage_basis": "original_tuition",
+      "fee_basis_confirmed": true,
+      "application_deadline": "2027-08-01",
+      "published_scholarship_table": {
+        "net": "20020.00",
+        "award": "3800.00",
+        "gross": "23820.00"
+      }
+    },
+    "raw_fees": {
+      "currency": "GBP",
+      "fee_band": "Sciences",
+      "verified": true,
+      "fee_method": "official_department_and_published_subject_band",
+      "fee_review": {
+        "reason": "The 2027/28 Psychology departmental register lists C801 MSc Behaviour Change. The international taught-master's fee schedule classifies Psychology as Science.",
+        "status": "resolved"
+      },
+      "study_year": 1,
+      "course_kind": "postgraduate_taught",
+      "academic_year": "2027/28",
+      "display_notes": {
+        "deposit": "Confirm the deposit amount in the individual offer letter.",
+        "scholarship": "Scholarship applicability requires separate reconciliation."
+      },
+      "annual_tuition": "23820.00",
+      "deposit_status": "offer_letter_amount_required",
+      "fee_categories": [
+        {
+          "currency": "GBP",
+          "annotation": "Full-time taught master's fee, mapped through the official Psychology departmental register.",
+          "academic_year": "2027/28",
+          "annual_tuition": "23820.00",
+          "raw_annual_fee": "£23,820",
+          "footnote_marker": "",
+          "source_fee_category": "International",
+          "amount_requires_review": false
+        }
+      ],
+      "course_identity": {
+        "status": "confirmed_current_catalogue_match",
+        "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+        "official_code": "C801",
+        "official_award": "MSC",
+        "official_title": "Behaviour Change",
+        "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+      },
+      "course_source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+      "application_review": {
+        "note": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation.",
+        "status": "not_assessed",
+        "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+        "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+      },
+      "scholarship_status": "pending_separate_reconciliation",
+      "programme_fee_group": "masters",
+      "source_fee_category": "International",
+      "fee_verification_status": "verified",
+      "fee_classification_evidence": {
+        "course": {
+          "sha256": "b67699f4a6bceba40cdbbf44404a29cff51e02ffb2398d124d5cd2ba57dbb93c",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/"
+        },
+        "method": "official_department_and_published_subject_band",
+        "fee_band": "Sciences",
+        "department": {
+          "sha256": "b88957d5423e836f9b46c55684851afb42f9bdb5ca522f5b4f08d6834f3b2168",
+          "source_url": "https://www.aber.ac.uk/en/study-schemes/2027-2028/departments/department/?department=W"
+        },
+        "fee_schedule": {
+          "sha256": "c270ae8beb4525f1f89436b1431c167afe907b430a911a0b25cef7db4246252e",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/"
+        },
+        "academic_year": "2027/28",
+        "annual_tuition": "23820.00",
+        "classification": "Psychology"
+      }
+    }
+  },
+  "after": {
+    "scholarship_rule_id": 6,
+    "rules": {
+      "kind": "fixed",
+      "value": "3800.00",
+      "benefit": "tuition",
+      "currency": "GBP",
+      "stacking": "exclusive",
+      "conditions": {
+        "course_id": [
+          "C_UK002_21",
+          "C_UK002_22",
+          "C_UK002_26",
+          "C_UK002_47",
+          "C_UK002_51",
+          "C_UK002_61",
+          "C_UK002_91"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "new_entrant": [
+          true
+        ],
+        "offer_received": [
+          true
+        ],
+        "external_funding": [
+          false
+        ],
+        "applied_by_deadline": [
+          true
+        ],
+        "academic_conditions_met": [
+          true
+        ]
+      },
+      "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+      "study_years": [
+        1
+      ],
+      "award_status": "conditional",
+      "academic_year": "2027/28",
+      "compatible_ids": [],
+      "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+      "percentage_basis": "original_tuition",
+      "fee_basis_confirmed": true,
+      "application_deadline": "2027-08-01",
+      "published_scholarship_table": {
+        "net": "20020.00",
+        "award": "3800.00",
+        "gross": "23820.00"
+      }
+    },
+    "raw_fees": {
+      "currency": "GBP",
+      "fee_band": "Sciences",
+      "verified": true,
+      "fee_method": "official_department_and_published_subject_band",
+      "fee_review": {
+        "reason": "The 2027/28 Psychology departmental register lists C801 MSc Behaviour Change. The international taught-master's fee schedule classifies Psychology as Science.",
+        "status": "resolved"
+      },
+      "study_year": 1,
+      "course_kind": "postgraduate_taught",
+      "academic_year": "2027/28",
+      "display_notes": {
+        "deposit": "Confirm the deposit amount in the individual offer letter.",
+        "scholarship": "£3,800 scholarship if the published eligibility conditions are met; estimated net tuition £20,020."
+      },
+      "annual_tuition": "23820.00",
+      "deposit_status": "offer_letter_amount_required",
+      "fee_categories": [
+        {
+          "currency": "GBP",
+          "annotation": "Full-time taught master's fee, mapped through the official Psychology departmental register.",
+          "academic_year": "2027/28",
+          "annual_tuition": "23820.00",
+          "raw_annual_fee": "£23,820",
+          "footnote_marker": "",
+          "source_fee_category": "International",
+          "amount_requires_review": false
+        }
+      ],
+      "course_identity": {
+        "status": "confirmed_current_catalogue_match",
+        "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+        "official_code": "C801",
+        "official_award": "MSC",
+        "official_title": "Behaviour Change",
+        "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+      },
+      "course_source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+      "application_review": {
+        "note": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation.",
+        "status": "not_assessed",
+        "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+        "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+      },
+      "scholarship_status": "verified_rule_eligibility_required",
+      "programme_fee_group": "masters",
+      "source_fee_category": "International",
+      "fee_verification_status": "verified",
+      "fee_classification_evidence": {
+        "course": {
+          "sha256": "b67699f4a6bceba40cdbbf44404a29cff51e02ffb2398d124d5cd2ba57dbb93c",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/"
+        },
+        "method": "official_department_and_published_subject_band",
+        "fee_band": "Sciences",
+        "department": {
+          "sha256": "b88957d5423e836f9b46c55684851afb42f9bdb5ca522f5b4f08d6834f3b2168",
+          "source_url": "https://www.aber.ac.uk/en/study-schemes/2027-2028/departments/department/?department=W"
+        },
+        "fee_schedule": {
+          "sha256": "c270ae8beb4525f1f89436b1431c167afe907b430a911a0b25cef7db4246252e",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/"
+        },
+        "academic_year": "2027/28",
+        "annual_tuition": "23820.00",
+        "classification": "Psychology"
+      },
+      "scholarship_review": {
+        "status": "verified_rule_eligibility_required",
+        "scholarship_rule_id": 6,
+        "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+        "academic_year": "2027/28",
+        "award": "3800.00",
+        "gross": "23820.00",
+        "net_if_eligible": "20020.00",
+        "study_year": 1,
+        "note": "Postgraduate science award. Student eligibility must be confirmed before a deduction is calculated."
+      }
+    }
+  }
+}

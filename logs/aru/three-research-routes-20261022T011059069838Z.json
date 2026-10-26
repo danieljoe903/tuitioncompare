@@ -1,0 +1,418 @@
+{
+  "generated_at": "2026-10-22T01:10:59.069838+00:00",
+  "mode": "preview",
+  "database_changes": false,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\campus-intakes-20261022T010551815038Z\\campus-intake-evidence.json",
+  "records": [
+    {
+      "course_id": "C_ARU003_RES_05",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MPhil Business — School of Management",
+          "level": "PG",
+          "duration": "1 to 3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/business-and-management",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/business-and-management",
+          "source_course_code": "",
+          "source_course_name": "MPhil Business — School of Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "campus": "Chelmsford Campus",
+            "intake": "January 2027",
+            "currency": "GBP",
+            "fee_note": "Published annual international research tuition for 2026/27, January 2027 intake. Possible project-specific bench fees are excluded.",
+            "verified": true,
+            "study_mode": "full_time_campus",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "mapping_kind": "explicit_replacement",
+            "academic_year": "2026/27",
+            "duration_note": "Published full-time MPhil completion range: one to three years.",
+            "source_sha256": "289e4daab3bb5d6648b9afae70985dda03ba23ce58b71a5cac057c263f1d79c9",
+            "annual_tuition": "17500.00",
+            "deposit_status": "research_deposit_unconfirmed",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "academic_year": "2026/27",
+                "annual_tuition": "17500.00",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "source_heading": "Business PhD - School of Management MPhil, PhD",
+            "additional_costs": {
+              "note": "Project-specific bench fees may apply. ARU must confirm any additional amount.",
+              "amount": null,
+              "bench_fees_possible": true,
+              "included_in_tuition": false
+            },
+            "award_review_note": "No applicable scholarship deduction or research deposit amount has been verified for this January 2027 route. Confirm with ARU.",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/business-and-management",
+            "route_replacement": {
+              "note": "Explicitly selected the School of Management route. This is distinct from the School of Economics, Finance and Law research route.",
+              "previous_title": "MPhil (Research) Business",
+              "replacement_title": "MPhil Business — School of Management",
+              "university_confirmed_rename": false
+            },
+            "scholarship_status": "research_applicability_unconfirmed",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Business — School of Management",
+          "level": "PG",
+          "duration": "1 to 3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/business-and-management",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/business-and-management",
+          "source_course_code": "",
+          "source_course_name": "MPhil Business — School of Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "17500.00",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "study_mode": "full_time_campus",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/business-and-management",
+            "source_sha256": "289e4daab3bb5d6648b9afae70985dda03ba23ce58b71a5cac057c263f1d79c9",
+            "source_heading": "Business PhD - School of Management MPhil, PhD",
+            "campus": "Chelmsford Campus",
+            "intake": "January 2027",
+            "mapping_kind": "explicit_replacement",
+            "route_replacement": {
+              "note": "Explicitly selected the School of Management route. This is distinct from the School of Economics, Finance and Law research route.",
+              "previous_title": "MPhil (Research) Business",
+              "replacement_title": "MPhil Business — School of Management",
+              "university_confirmed_rename": false
+            },
+            "duration_note": "Published full-time MPhil completion range: one to three years.",
+            "additional_costs": {
+              "bench_fees_possible": true,
+              "amount": null,
+              "included_in_tuition": false,
+              "note": "Project-specific bench fees may apply. ARU must confirm any additional amount."
+            },
+            "scholarship_status": "research_applicability_unconfirmed",
+            "deposit_status": "research_deposit_unconfirmed",
+            "award_review_note": "No applicable scholarship deduction or research deposit amount has been verified for this January 2027 route. Confirm with ARU.",
+            "fee_note": "Published annual international research tuition for 2026/27, January 2027 intake. Possible project-specific bench fees are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "17500.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_ARU003_RES_06",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MPhil Art and Design",
+          "level": "PG",
+          "duration": "1 to 3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/art-and-design-research",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/art-and-design-research",
+          "source_course_code": "",
+          "source_course_name": "MPhil Art and Design",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "campus": "Cambridge Campus",
+            "intake": "January 2027",
+            "currency": "GBP",
+            "fee_note": "Published annual international research tuition for 2026/27, January 2027 intake. Possible project-specific bench fees are excluded.",
+            "verified": true,
+            "study_mode": "full_time_campus",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "mapping_kind": "explicit_replacement",
+            "academic_year": "2026/27",
+            "duration_note": "Published full-time MPhil completion range: one to three years.",
+            "source_sha256": "cf677ed1fbaa4678ee8ff172b0da3224bbadf31ea693fe778e1c00af644acd20",
+            "annual_tuition": "17500.00",
+            "deposit_status": "research_deposit_unconfirmed",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "academic_year": "2026/27",
+                "annual_tuition": "17500.00",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "source_heading": "Art and Design MPhil, PhD",
+            "additional_costs": {
+              "note": "Project-specific bench fees may apply. ARU must confirm any additional amount.",
+              "amount": null,
+              "bench_fees_possible": true,
+              "included_in_tuition": false
+            },
+            "award_review_note": "No applicable scholarship deduction or research deposit amount has been verified for this January 2027 route. Confirm with ARU.",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/art-and-design-research",
+            "route_replacement": {
+              "note": "Explicit replacement of the broad Creative Arts & Design record with the advertised Art and Design route.",
+              "previous_title": "MPhil (Research) Creative Arts & Design",
+              "replacement_title": "MPhil Art and Design",
+              "university_confirmed_rename": false
+            },
+            "scholarship_status": "research_applicability_unconfirmed",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Art and Design",
+          "level": "PG",
+          "duration": "1 to 3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/art-and-design-research",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/art-and-design-research",
+          "source_course_code": "",
+          "source_course_name": "MPhil Art and Design",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "17500.00",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "study_mode": "full_time_campus",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/art-and-design-research",
+            "source_sha256": "cf677ed1fbaa4678ee8ff172b0da3224bbadf31ea693fe778e1c00af644acd20",
+            "source_heading": "Art and Design MPhil, PhD",
+            "campus": "Cambridge Campus",
+            "intake": "January 2027",
+            "mapping_kind": "explicit_replacement",
+            "route_replacement": {
+              "note": "Explicit replacement of the broad Creative Arts & Design record with the advertised Art and Design route.",
+              "previous_title": "MPhil (Research) Creative Arts & Design",
+              "replacement_title": "MPhil Art and Design",
+              "university_confirmed_rename": false
+            },
+            "duration_note": "Published full-time MPhil completion range: one to three years.",
+            "additional_costs": {
+              "bench_fees_possible": true,
+              "amount": null,
+              "included_in_tuition": false,
+              "note": "Project-specific bench fees may apply. ARU must confirm any additional amount."
+            },
+            "scholarship_status": "research_applicability_unconfirmed",
+            "deposit_status": "research_deposit_unconfirmed",
+            "award_review_note": "No applicable scholarship deduction or research deposit amount has been verified for this January 2027 route. Confirm with ARU.",
+            "fee_note": "Published annual international research tuition for 2026/27, January 2027 intake. Possible project-specific bench fees are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "17500.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_ARU003_RES_08",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MPhil Musicology",
+          "level": "PG",
+          "duration": "1 to 3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/musicology-research",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/musicology-research",
+          "source_course_code": "",
+          "source_course_name": "MPhil Musicology",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "campus": "Cambridge Campus",
+            "intake": "January 2027",
+            "currency": "GBP",
+            "fee_note": "Published annual international research tuition for 2026/27, January 2027 intake. Possible project-specific bench fees are excluded.",
+            "verified": true,
+            "study_mode": "full_time_campus",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "mapping_kind": "explicit_replacement",
+            "academic_year": "2026/27",
+            "duration_note": "Published full-time MPhil completion range: one to three years.",
+            "source_sha256": "5597b85a45dbff2fe9c251fdf7708cc64f127cfcac9b94d4ab2b52931ff26fb3",
+            "annual_tuition": "17500.00",
+            "deposit_status": "research_deposit_unconfirmed",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "academic_year": "2026/27",
+                "annual_tuition": "17500.00",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "source_heading": "Musicology MPhil, PhD",
+            "additional_costs": {
+              "note": "Project-specific bench fees may apply. ARU must confirm any additional amount.",
+              "amount": null,
+              "bench_fees_possible": true,
+              "included_in_tuition": false
+            },
+            "award_review_note": "No applicable scholarship deduction or research deposit amount has been verified for this January 2027 route. Confirm with ARU.",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/musicology-research",
+            "route_replacement": {
+              "note": "Explicit replacement with Musicology, a narrower subject than the previous Music & Performing Arts record.",
+              "previous_title": "MPhil (Research) Music & Performing Arts",
+              "replacement_title": "MPhil Musicology",
+              "university_confirmed_rename": false
+            },
+            "scholarship_status": "research_applicability_unconfirmed",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Musicology",
+          "level": "PG",
+          "duration": "1 to 3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/musicology-research",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/musicology-research",
+          "source_course_code": "",
+          "source_course_name": "MPhil Musicology",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "17500.00",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "study_mode": "full_time_campus",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/musicology-research",
+            "source_sha256": "5597b85a45dbff2fe9c251fdf7708cc64f127cfcac9b94d4ab2b52931ff26fb3",
+            "source_heading": "Musicology MPhil, PhD",
+            "campus": "Cambridge Campus",
+            "intake": "January 2027",
+            "mapping_kind": "explicit_replacement",
+            "route_replacement": {
+              "note": "Explicit replacement with Musicology, a narrower subject than the previous Music & Performing Arts record.",
+              "previous_title": "MPhil (Research) Music & Performing Arts",
+              "replacement_title": "MPhil Musicology",
+              "university_confirmed_rename": false
+            },
+            "duration_note": "Published full-time MPhil completion range: one to three years.",
+            "additional_costs": {
+              "bench_fees_possible": true,
+              "amount": null,
+              "included_in_tuition": false,
+              "note": "Project-specific bench fees may apply. ARU must confirm any additional amount."
+            },
+            "scholarship_status": "research_applicability_unconfirmed",
+            "deposit_status": "research_deposit_unconfirmed",
+            "award_review_note": "No applicable scholarship deduction or research deposit amount has been verified for this January 2027 route. Confirm with ARU.",
+            "fee_note": "Published annual international research tuition for 2026/27, January 2027 intake. Possible project-specific bench fees are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "17500.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "proposed_changes": 0,
+  "completed": true
+}

@@ -1,0 +1,185 @@
+{
+  "generated_at": "2026-10-20T02:22:51.854193+00:00",
+  "mode": "preview",
+  "academic_year": "2027/28",
+  "proposals": [
+    {
+      "type": "scholarship",
+      "level": "UG",
+      "course_count": 13,
+      "changed": true,
+      "before": {
+        "award": null,
+        "rule": null
+      },
+      "after": {
+        "award": {
+          "award_type": "Tuition Reduction",
+          "award_value": "3000.00",
+          "currency": "GBP",
+          "deadline": null,
+          "eligibility": "Eligible new international students in the reviewed humanities course scope for 2027/28.",
+          "requirements": "Offer received; academic entry requirements met; relevant course application submitted by 1 August 2027; no external scholarship, funding or bursary. Eligible campus courses only.",
+          "description": "£3,000 annual tuition reduction. This rule models the first compared study year only. Accommodation benefits are excluded.",
+          "url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+        },
+        "rule": {
+          "verified": true,
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+          "rules": {
+            "benefit": "tuition",
+            "kind": "fixed",
+            "value": "3000.00",
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "study_years": [
+              1
+            ],
+            "fee_basis_confirmed": true,
+            "percentage_basis": "original_tuition",
+            "award_status": "conditional",
+            "stacking": "exclusive",
+            "compatible_ids": [],
+            "conditions": {
+              "course_id": [
+                "C_UK002_01",
+                "C_UK002_04",
+                "C_UK002_15",
+                "C_UK002_16",
+                "C_UK002_17",
+                "C_UK002_18",
+                "C_UK002_44",
+                "C_UK002_53",
+                "C_UK002_76",
+                "C_UK002_77",
+                "C_UK002_78",
+                "C_UK002_79",
+                "C_UK002_87"
+              ],
+              "fee_status": [
+                "INTL"
+              ],
+              "new_entrant": [
+                true
+              ],
+              "academic_conditions_met": [
+                true
+              ],
+              "offer_received": [
+                true
+              ],
+              "applied_by_deadline": [
+                true
+              ],
+              "external_funding": [
+                false
+              ]
+            },
+            "application_deadline": "2027-08-01",
+            "scope_note": "First compared study year only. Limited to the reviewed humanities campus courses in this import.",
+            "combination_note": "Potential combinations with Family, AberGrad or Caru awards require separate verified rules. Accommodation benefits are not deducted from tuition."
+          }
+        }
+      }
+    },
+    {
+      "type": "scholarship",
+      "level": "PG",
+      "course_count": 6,
+      "changed": true,
+      "before": {
+        "award": null,
+        "rule": null
+      },
+      "after": {
+        "award": {
+          "award_type": "Tuition Reduction",
+          "award_value": "3000.00",
+          "currency": "GBP",
+          "deadline": null,
+          "eligibility": "Eligible new international students in the reviewed humanities course scope for 2027/28.",
+          "requirements": "Offer received; academic entry requirements met; relevant course application submitted by 1 August 2027; no external scholarship, funding or bursary. Eligible campus courses only.",
+          "description": "£3,000 annual tuition reduction. This rule models the first compared study year only. Accommodation benefits are excluded.",
+          "url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+        },
+        "rule": {
+          "verified": true,
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+          "rules": {
+            "benefit": "tuition",
+            "kind": "fixed",
+            "value": "3000.00",
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "study_years": [
+              1
+            ],
+            "fee_basis_confirmed": true,
+            "percentage_basis": "original_tuition",
+            "award_status": "conditional",
+            "stacking": "exclusive",
+            "compatible_ids": [],
+            "conditions": {
+              "course_id": [
+                "C_UK002_49",
+                "C_UK002_62",
+                "C_UK002_63",
+                "C_UK002_75",
+                "C_UK002_89",
+                "C_UK002_90"
+              ],
+              "fee_status": [
+                "INTL"
+              ],
+              "new_entrant": [
+                true
+              ],
+              "academic_conditions_met": [
+                true
+              ],
+              "offer_received": [
+                true
+              ],
+              "applied_by_deadline": [
+                true
+              ],
+              "external_funding": [
+                false
+              ]
+            },
+            "application_deadline": "2027-08-01",
+            "scope_note": "First compared study year only. Limited to the reviewed humanities campus courses in this import.",
+            "combination_note": "Potential combinations with Family, AberGrad or Caru awards require separate verified rules. Accommodation benefits are not deducted from tuition."
+          }
+        }
+      }
+    },
+    {
+      "type": "deposit_policy",
+      "changed": true,
+      "before": null,
+      "after": {
+        "currency": "GBP",
+        "rules": {
+          "schema_version": 1,
+          "kind": "offer_letter",
+          "fee_status": "INTL",
+          "payment_stage": "before_cas",
+          "amount": null,
+          "percentage": null,
+          "currency": "GBP",
+          "amount_requires_individual_confirmation": true,
+          "exemptions_require_confirmation": true,
+          "note": "Where a deposit is required, the amount is specified in the applicant's offer letter. The deposit forms part of tuition payments. Exemptions require university confirmation."
+        },
+        "source_url": "https://www.aber.ac.uk/en/study-with-us/pg-studies/apply/isd/",
+        "verified": true
+      }
+    }
+  ],
+  "legacy_rules_to_mark_unverified": [],
+  "tuition_prices_changed": false,
+  "stored_discounts_changed": false,
+  "stored_deposits_changed": false,
+  "scholarship_source_sha256": "12311e230013d67c3e42e2e45a2916263875988d95d2bf52a2c55f94c84e4654"
+}

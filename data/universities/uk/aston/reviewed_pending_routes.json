@@ -1,0 +1,52 @@
+[
+  {
+    "course_id": "C_AST007_01",
+    "level": "TOPUP",
+    "start_month": "September",
+    "source_url": "https://www.aston.ac.uk/study/courses/global-business-and-management-top-bsc/september-2027",
+    "source_sha256": "c7ed354599eaf14ef44aa37d1acffcb9402b15e3c8ca3b85c28fc759bb4bc898",
+    "tuition_fee": "23500.00",
+    "academic_year": "2027/28",
+    "fee_basis": "annual_tuition"
+  },
+  {
+    "course_id": "C_UK007_26",
+    "level": "PG",
+    "start_month": "September",
+    "source_url": "https://www.aston.ac.uk/study/courses/public-health-mph/september-2027",
+    "source_sha256": "b467bd491d1e40a456308f86491b96fafffb216c616428a3cdf5ff96b22b2d0f",
+    "tuition_fee": "24800.00",
+    "academic_year": "2027/28",
+    "fee_basis": "full_time_course_fee"
+  },
+  {
+    "course_id": "C_UK007_20",
+    "level": "PG",
+    "start_month": "January",
+    "source_url": "https://www.aston.ac.uk/study/courses/advanced-computer-science-msc/january-2027",
+    "source_sha256": "790bf84898626399f651b53a0aae32cb23a421860ee2b7ec15325c6ff03377d5",
+    "tuition_fee": "24800.00",
+    "academic_year": "2026/27",
+    "fee_basis": "annual_tuition"
+  },
+  {
+    "course_id": "C_UK007_50",
+    "level": "PG",
+    "start_month": "January",
+    "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027",
+    "source_sha256": "a037c82ae10a773a40a03273b828cc5cb753c4be8e0966515d66392ba9af018b",
+    "tuition_fee": "31500.00",
+    "academic_year": "2026/27",
+    "fee_basis": "annual_tuition"
+  },
+  {
+    "course_id": "C_UK007_24",
+    "level": "PG",
+    "start_month": "September",
+    "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/september-2027",
+    "source_sha256": "33938e607324f9983fcd31350dc3e66b5cc4f15518920369c9526fdf63842afe",
+    "tuition_fee": "31500.00",
+    "academic_year": "2027/28",
+    "fee_basis": "annual_tuition"
+  }
+]

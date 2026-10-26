@@ -1,0 +1,288 @@
+{
+  "generated_at": "2026-10-21T00:52:50.806357+00:00",
+  "mode": "preview",
+  "evidence": {
+    "law_course": {
+      "source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+      "sha256": "5094b4215134350a56a93075104a15decae453ab08528d60b5571116572d9a48"
+    },
+    "creative_arts_scheme": {
+      "source_url": "https://www.aber.ac.uk/en/study-schemes/2027-2028/schemes/scheme/?scheme=AB-WW48-BA-202709",
+      "sha256": "26a2193b4028c8bc4375f6034256822190238bf510119ba573860bced0dc2be9"
+    },
+    "fee_schedule": {
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/",
+      "sha256": "c270ae8beb4525f1f89436b1431c167afe907b430a911a0b25cef7db4246252e"
+    }
+  },
+  "records": [
+    {
+      "course_id": "C_UK002_25",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "LLM International Commercial Law",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "22115.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/",
+          "source_course_name": "International Commercial Law",
+          "source_course_code": "M190",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_subject_band",
+            "fee_review": {
+              "reason": "Full-time taught LLM mapped to the published 2027 Law/Humanities international fee band.",
+              "status": "resolved"
+            },
+            "study_year": 1,
+            "course_kind": "postgraduate_taught",
+            "fee_evidence": {
+              "fees": {
+                "sha256": "c270ae8beb4525f1f89436b1431c167afe907b430a911a0b25cef7db4246252e",
+                "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/"
+              },
+              "course": {
+                "sha256": "5094b4215134350a56a93075104a15decae453ab08528d60b5571116572d9a48",
+                "source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/"
+              }
+            },
+            "academic_year": "2027/28",
+            "display_notes": {
+              "deposit": "Deposit amount is specified in your individual offer letter.",
+              "scholarship": "Scholarship applicability requires reconciliation."
+            },
+            "annual_tuition": "22115.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "Full-time taught-master's Law/Humanities fee.",
+                "academic_year": "2027/28",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_identity": {
+              "note": "Current catalogue replacement for the stored listing; historical rename not asserted.",
+              "status": "reviewed_current_catalogue_replacement",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+              "official_code": "M190",
+              "official_award": "LLM",
+              "official_title": "International Commercial Law"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International",
+            "fee_verification_status": "verified"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "LLM International Commercial Law",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "22115.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/",
+          "source_course_name": "International Commercial Law",
+          "source_course_code": "M190",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_subject_band",
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Full-time taught LLM mapped to the published 2027 Law/Humanities international fee band."
+            },
+            "study_year": 1,
+            "course_kind": "postgraduate_taught",
+            "fee_evidence": {
+              "course": {
+                "source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+                "sha256": "5094b4215134350a56a93075104a15decae453ab08528d60b5571116572d9a48"
+              },
+              "fees": {
+                "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/",
+                "sha256": "c270ae8beb4525f1f89436b1431c167afe907b430a911a0b25cef7db4246252e"
+              }
+            },
+            "academic_year": "2027/28",
+            "display_notes": {
+              "deposit": "Deposit amount is specified in your individual offer letter.",
+              "scholarship": "Scholarship applicability requires reconciliation."
+            },
+            "annual_tuition": "22115.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115",
+                "annotation": "Full-time taught-master's Law/Humanities fee.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ],
+            "course_identity": {
+              "status": "reviewed_current_catalogue_replacement",
+              "official_title": "International Commercial Law",
+              "official_code": "M190",
+              "official_award": "LLM",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+              "note": "Current catalogue replacement for the stored listing; historical rename not asserted."
+            },
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International",
+            "fee_verification_status": "verified"
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_86",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Creative Arts",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aber.ac.uk",
+          "is_active": false
+        },
+        "tuition": {
+          "tuition_fee": "19190.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "BA (Hons) Creative Arts",
+          "source_course_code": "",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+              "status": "pending",
+              "candidate_urls": [
+                "https://courses.aber.ac.uk/undergraduate/W100-fine-art/",
+                "https://courses.aber.ac.uk/undergraduate/WW18-creative-writing-and-fine-art/",
+                "https://courses.aber.ac.uk/undergraduate/creative-writing-degree/"
+              ],
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "display_notes": {
+              "fee": "International tuition has not been verified for this course and intake.",
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "intake_review": {
+              "note": "The stored intake is later than the scheme's published last intake. Historical course and tuition records are retained.",
+              "action": "deactivate_stored_new_entrant_listing",
+              "status": "stored_intake_after_last_published_intake",
+              "evidence": {
+                "sha256": "26a2193b4028c8bc4375f6034256822190238bf510119ba573860bced0dc2be9",
+                "source_url": "https://www.aber.ac.uk/en/study-schemes/2027-2028/schemes/scheme/?scheme=AB-WW48-BA-202709"
+              },
+              "source_url": "https://www.aber.ac.uk/en/study-schemes/2027-2028/schemes/scheme/?scheme=AB-WW48-BA-202709",
+              "last_intake_academic_year": "2024/25"
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Creative Arts",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aber.ac.uk",
+          "is_active": false
+        },
+        "tuition": {
+          "tuition_fee": "19190.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "BA (Hons) Creative Arts",
+          "source_course_code": "",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+              "status": "pending",
+              "candidate_urls": [
+                "https://courses.aber.ac.uk/undergraduate/W100-fine-art/",
+                "https://courses.aber.ac.uk/undergraduate/WW18-creative-writing-and-fine-art/",
+                "https://courses.aber.ac.uk/undergraduate/creative-writing-degree/"
+              ],
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "display_notes": {
+              "fee": "International tuition has not been verified for this course and intake.",
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "intake_review": {
+              "status": "stored_intake_after_last_published_intake",
+              "last_intake_academic_year": "2024/25",
+              "source_url": "https://www.aber.ac.uk/en/study-schemes/2027-2028/schemes/scheme/?scheme=AB-WW48-BA-202709",
+              "evidence": {
+                "source_url": "https://www.aber.ac.uk/en/study-schemes/2027-2028/schemes/scheme/?scheme=AB-WW48-BA-202709",
+                "sha256": "26a2193b4028c8bc4375f6034256822190238bf510119ba573860bced0dc2be9"
+              },
+              "action": "deactivate_stored_new_entrant_listing",
+              "note": "The stored intake is later than the scheme's published last intake. Historical course and tuition records are retained."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      }
+    }
+  ]
+}

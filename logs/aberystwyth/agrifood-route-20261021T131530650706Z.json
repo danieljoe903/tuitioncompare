@@ -1,0 +1,189 @@
+{
+  "generated_at": "2026-10-21T13:15:30.650706+00:00",
+  "mode": "preview",
+  "course_id": "C_UK002_92",
+  "changed": false,
+  "before": {
+    "course": {
+      "title": "MSc Agrifood Innovation (Distance Learning)",
+      "level": "PG",
+      "duration": "3 Years",
+      "location": "Distance Learning",
+      "start_month": "January",
+      "start_year": 2027,
+      "intake_months": "January, May, September",
+      "course_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701"
+    },
+    "source": {
+      "academic_year": "2026/27",
+      "source_url": "https://ibersdl.org.uk/registration/fees",
+      "source_course_name": "Agrifood Innovation",
+      "source_course_code": "D67ND3",
+      "fee_basis": "module_based",
+      "raw_fees": {
+        "currency": "GBP",
+        "verified": false,
+        "fee_review": {
+          "reason": "Module-based distance learning. Published module prices and a conditional upfront programme total are available, but no fixed annual fee is established.",
+          "status": "annual_fee_unavailable"
+        },
+        "study_mode": "distance_learning",
+        "course_kind": "postgraduate_taught",
+        "academic_year": "2026/27",
+        "display_notes": {
+          "fee": "Annual tuition unavailable. This distance-learning programme is charged by module; a conditional £9,500 upfront programme quote is published for 2026/27.",
+          "deposit": "Confirm payment or deposit requirements in your individual offer and distance-learning payment schedule.",
+          "scholarship": "Scholarship applicability for this distance-learning route has not yet been reconciled."
+        },
+        "deposit_status": "distance_learning_payment_review_required",
+        "fee_categories": [],
+        "route_evidence": {
+          "course": {
+            "sha256": "e0bec3ffeeb7eb336d57a7d24a4d7286b22223310d7898ed3c11cd560b6d2164",
+            "source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701"
+          },
+          "programme": {
+            "sha256": "f7d77c251ea45ff5137f22f5023bc4d2c4a3b8fa6fbf2139eaf8653a302af2b7",
+            "source_url": "https://ibersdl.org.uk/building-up-qualifications/msc-agrifood-innovation/"
+          },
+          "fee_schedule": {
+            "sha256": "8660e5cbbe84fc8e046ec79b5cb311cfae4dd6f90de07d4eed36fa8335a12ba7",
+            "source_url": "https://ibersdl.org.uk/registration/fees"
+          },
+          "general_programme_family": {
+            "sha256": "02926b5106c9d96e4f66d8037632423aacdb1694202dfcb0dde002de44bb7e3c",
+            "source_url": "https://courses.aber.ac.uk/postgraduate/agrifood-innovation/"
+          }
+        },
+        "course_identity": {
+          "note": "Three-year distance-learning MSc scheme D67ND3. Distinct from the five-year D67ND scheme.",
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701",
+          "official_code": "D67ND3",
+          "official_award": "MSC",
+          "official_title": "Agrifood Innovation"
+        },
+        "duration_review": {
+          "reason": "Official D67ND3 scheme specifies three years.",
+          "status": "corrected",
+          "duration": "3 Years",
+          "source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701"
+        },
+        "course_source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701",
+        "scholarship_status": "applicability_unconfirmed",
+        "source_fee_category": "International",
+        "published_fee_schedule": {
+          "note": "Use the published programme quote as stated; do not derive an annual fee by dividing it by the course duration.",
+          "currency": "GBP",
+          "source_url": "https://ibersdl.org.uk/registration/fees",
+          "academic_year": "2026/27",
+          "is_annual_fee": false,
+          "annual_tuition": null,
+          "source_verified": true,
+          "quote_conditions": "Published upfront full-course quote based on 20-credit online taught modules. The actual pay-per-module total depends on module choices and the years in which modules are taken.",
+          "programme_credits": 180,
+          "upfront_programme_quote": "9500.00",
+          "online_module_20_credits": "1055.00",
+          "msc_dissertation_60_credits": "3170.00"
+        },
+        "fee_verification_status": "annual_fee_unavailable_module_based"
+      }
+    }
+  },
+  "after": {
+    "course": {
+      "title": "MSc Agrifood Innovation (Distance Learning)",
+      "level": "PG",
+      "duration": "3 Years",
+      "location": "Distance Learning",
+      "start_month": "January",
+      "start_year": 2027,
+      "intake_months": "January, May, September",
+      "course_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701"
+    },
+    "source": {
+      "academic_year": "2026/27",
+      "source_url": "https://ibersdl.org.uk/registration/fees",
+      "source_course_name": "Agrifood Innovation",
+      "source_course_code": "D67ND3",
+      "fee_basis": "module_based",
+      "raw_fees": {
+        "currency": "GBP",
+        "verified": false,
+        "fee_review": {
+          "status": "annual_fee_unavailable",
+          "reason": "Module-based distance learning. Published module prices and a conditional upfront programme total are available, but no fixed annual fee is established."
+        },
+        "study_mode": "distance_learning",
+        "course_kind": "postgraduate_taught",
+        "academic_year": "2026/27",
+        "display_notes": {
+          "fee": "Annual tuition unavailable. This distance-learning programme is charged by module; a conditional £9,500 upfront programme quote is published for 2026/27.",
+          "deposit": "Confirm payment or deposit requirements in your individual offer and distance-learning payment schedule.",
+          "scholarship": "Scholarship applicability for this distance-learning route has not yet been reconciled."
+        },
+        "deposit_status": "distance_learning_payment_review_required",
+        "fee_categories": [],
+        "route_evidence": {
+          "course": {
+            "source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701",
+            "sha256": "e0bec3ffeeb7eb336d57a7d24a4d7286b22223310d7898ed3c11cd560b6d2164"
+          },
+          "general_programme_family": {
+            "source_url": "https://courses.aber.ac.uk/postgraduate/agrifood-innovation/",
+            "sha256": "02926b5106c9d96e4f66d8037632423aacdb1694202dfcb0dde002de44bb7e3c"
+          },
+          "programme": {
+            "source_url": "https://ibersdl.org.uk/building-up-qualifications/msc-agrifood-innovation/",
+            "sha256": "bbeb9bba7e4d0009d73c7e6bbca277d9679023c2d58b8bfb07c8d0fbec23139e"
+          },
+          "fee_schedule": {
+            "source_url": "https://ibersdl.org.uk/registration/fees",
+            "sha256": "de5001823ee8238799f230ed6d8765812124282746129ea2262f2c6140788cb7"
+          }
+        },
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "official_title": "Agrifood Innovation",
+          "official_code": "D67ND3",
+          "official_award": "MSC",
+          "source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701",
+          "note": "Three-year distance-learning MSc scheme D67ND3. Distinct from the five-year D67ND scheme."
+        },
+        "duration_review": {
+          "status": "corrected",
+          "duration": "3 Years",
+          "source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701",
+          "reason": "Official D67ND3 scheme specifies three years."
+        },
+        "course_source_url": "https://www.aber.ac.uk/en/study-schemes/2026-2027/schemes/scheme/?scheme=AB-D67ND3-MSC-202701",
+        "scholarship_status": "applicability_unconfirmed",
+        "source_fee_category": "International",
+        "published_fee_schedule": {
+          "source_verified": true,
+          "academic_year": "2026/27",
+          "currency": "GBP",
+          "source_url": "https://ibersdl.org.uk/registration/fees",
+          "online_module_20_credits": "1055.00",
+          "msc_dissertation_60_credits": "3170.00",
+          "upfront_programme_quote": "9500.00",
+          "programme_credits": 180,
+          "quote_conditions": "Published upfront full-course quote based on 20-credit online taught modules. The actual pay-per-module total depends on module choices and the years in which modules are taken.",
+          "annual_tuition": null,
+          "is_annual_fee": false,
+          "note": "Use the published programme quote as stated; do not derive an annual fee by dividing it by the course duration."
+        },
+        "fee_verification_status": "annual_fee_unavailable_module_based"
+      }
+    }
+  },
+  "possible_overlap_unchanged": {
+    "course_id": "C_UK002_65",
+    "title": "MSc Agrifood Innovation",
+    "duration": "1 Year",
+    "start_month": "September",
+    "start_year": 2026,
+    "is_active": true
+  },
+  "numeric_tuition_unchanged": "22410.0"
+}

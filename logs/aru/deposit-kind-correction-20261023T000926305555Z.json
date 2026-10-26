@@ -1,0 +1,376 @@
+{
+  "generated_at": "2026-10-23T00:09:26.306852+00:00",
+  "mode": "preview",
+  "university_id": "UK003",
+  "records": [
+    {
+      "course_id": "C_UK003_01",
+      "source_id": 332,
+      "academic_year": "2027/28",
+      "before_raw_fees": {
+        "route": "standard_three_year_honours",
+        "campus": "Chelmsford",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the standard three-year honours route, September 2027. Foundation and placement routes are excluded.",
+        "verified": true,
+        "fee_method": "reviewed_standard_campus_route",
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "academic_year": "2027/28",
+        "source_sha256": "06d675a6fbfc9b9991215cb3b4ab7c8e6c790405571c691438a4309313df1f30",
+        "annual_tuition": "18825.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "18825.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/accounting-and-finance",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_fee_category": "International"
+      },
+      "after_raw_fees": {
+        "route": "standard_three_year_honours",
+        "campus": "Chelmsford",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the standard three-year honours route, September 2027. Foundation and placement routes are excluded.",
+        "verified": true,
+        "fee_method": "reviewed_standard_campus_route",
+        "study_year": 1,
+        "course_kind": "undergraduate_taught",
+        "academic_year": "2027/28",
+        "source_sha256": "06d675a6fbfc9b9991215cb3b4ab7c8e6c790405571c691438a4309313df1f30",
+        "annual_tuition": "18825.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "18825.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/accounting-and-finance",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_fee_category": "International"
+      },
+      "changed": true
+    },
+    {
+      "course_id": "C_UK003_05",
+      "source_id": 343,
+      "academic_year": "2027/28",
+      "before_raw_fees": {
+        "campus": "Peterborough",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for September 2027, standard full-time campus route. Foundation, placement and part-time routes are excluded.",
+        "verified": true,
+        "fee_method": "reviewed_named_standard_route",
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "mapping_kind": "campus_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "3d883352cd1a2faa8324c0c02a56fb50a7086ccdc7434eb57889d70997201b80",
+        "annual_tuition": "18825.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "18825.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "campus_correction": {
+          "note": "Matched the exact advertised Business and Management title and UCAS code N127 to Peterborough.",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+          "previous_location": "Cambridge Campus",
+          "corrected_location": "Peterborough Campus"
+        },
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_fee_category": "International",
+        "scholarship_scope_note": "Existing first-year UG lower/higher rules; ARU must confirm the applicable award tier.",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+          "alternative": "sponsorship_letter",
+          "source_sha256": "3d883352cd1a2faa8324c0c02a56fb50a7086ccdc7434eb57889d70997201b80"
+        }
+      },
+      "after_raw_fees": {
+        "campus": "Peterborough",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for September 2027, standard full-time campus route. Foundation, placement and part-time routes are excluded.",
+        "verified": true,
+        "fee_method": "reviewed_named_standard_route",
+        "study_year": 1,
+        "course_kind": "undergraduate_taught",
+        "mapping_kind": "campus_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "3d883352cd1a2faa8324c0c02a56fb50a7086ccdc7434eb57889d70997201b80",
+        "annual_tuition": "18825.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "18825.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "campus_correction": {
+          "note": "Matched the exact advertised Business and Management title and UCAS code N127 to Peterborough.",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+          "previous_location": "Cambridge Campus",
+          "corrected_location": "Peterborough Campus"
+        },
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_fee_category": "International",
+        "scholarship_scope_note": "Existing first-year UG lower/higher rules; ARU must confirm the applicable award tier.",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+          "alternative": "sponsorship_letter",
+          "source_sha256": "3d883352cd1a2faa8324c0c02a56fb50a7086ccdc7434eb57889d70997201b80"
+        }
+      },
+      "changed": true
+    },
+    {
+      "course_id": "C_UK003_31",
+      "source_id": 349,
+      "academic_year": "2027/28",
+      "before_raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+        "verified": true,
+        "study_mode": "full_time_campus",
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "mapping_kind": "reviewed_title_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "47e1830d76e1ccc54e8928c0be7755db65eb332d17c26586756dce3db7132c47",
+        "annual_tuition": "19750.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "19750.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "intake_evidence": {
+          "basis": "standard_route_course_overview",
+          "campus": "Cambridge",
+          "ucas_code": "C842",
+          "selected_intake": "September 2027",
+          "structured_data_note": "JSON-LD lists January 2027 only. The standard-route overview explicitly advertises January and September 2027."
+        },
+        "award_review_note": "Saved first-year undergraduate lower/higher rules apply conditionally. ARU must confirm the award tier and individual eligibility.",
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/psychology-with-clinical-applications",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_fee_category": "International",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/psychology-with-clinical-applications",
+          "alternative": "sponsorship_letter",
+          "source_sha256": "47e1830d76e1ccc54e8928c0be7755db65eb332d17c26586756dce3db7132c47"
+        }
+      },
+      "after_raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+        "verified": true,
+        "study_mode": "full_time_campus",
+        "study_year": 1,
+        "course_kind": "undergraduate_taught",
+        "mapping_kind": "reviewed_title_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "47e1830d76e1ccc54e8928c0be7755db65eb332d17c26586756dce3db7132c47",
+        "annual_tuition": "19750.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "19750.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "intake_evidence": {
+          "basis": "standard_route_course_overview",
+          "campus": "Cambridge",
+          "ucas_code": "C842",
+          "selected_intake": "September 2027",
+          "structured_data_note": "JSON-LD lists January 2027 only. The standard-route overview explicitly advertises January and September 2027."
+        },
+        "award_review_note": "Saved first-year undergraduate lower/higher rules apply conditionally. ARU must confirm the award tier and individual eligibility.",
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/psychology-with-clinical-applications",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_fee_category": "International",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/psychology-with-clinical-applications",
+          "alternative": "sponsorship_letter",
+          "source_sha256": "47e1830d76e1ccc54e8928c0be7755db65eb332d17c26586756dce3db7132c47"
+        }
+      },
+      "changed": true
+    },
+    {
+      "course_id": "C_UK003_36",
+      "source_id": 333,
+      "academic_year": "2027/28",
+      "before_raw_fees": {
+        "route": "standard_three_year_honours",
+        "campus": "Chelmsford",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the standard three-year honours route, September 2027. Foundation and placement routes are excluded.",
+        "verified": true,
+        "fee_method": "reviewed_standard_campus_route",
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "academic_year": "2027/28",
+        "source_sha256": "d76f12d560d35202329673f588764be791127f5fb8d19612faa1870d2ca9b46e",
+        "annual_tuition": "19750.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "19750.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/quantity-surveying",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_fee_category": "International"
+      },
+      "after_raw_fees": {
+        "route": "standard_three_year_honours",
+        "campus": "Chelmsford",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the standard three-year honours route, September 2027. Foundation and placement routes are excluded.",
+        "verified": true,
+        "fee_method": "reviewed_standard_campus_route",
+        "study_year": 1,
+        "course_kind": "undergraduate_taught",
+        "academic_year": "2027/28",
+        "source_sha256": "d76f12d560d35202329673f588764be791127f5fb8d19612faa1870d2ca9b46e",
+        "annual_tuition": "19750.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "19750.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/quantity-surveying",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_fee_category": "International"
+      },
+      "changed": true
+    },
+    {
+      "course_id": "C_UK003_95",
+      "source_id": 334,
+      "academic_year": "2027/28",
+      "before_raw_fees": {
+        "campus": "Chelmsford",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for September 2027, full-time campus study. Distance learning, APCL, foundation and placement routes are excluded.",
+        "verified": true,
+        "fee_method": "reviewed_named_route",
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "mapping_kind": "explicit_replacement",
+        "academic_year": "2027/28",
+        "source_sha256": "091aaab3a8e7c9091aa73663deb71815fd6085dacb40c1c64a4e29c047ff0e93",
+        "annual_tuition": "18825.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "18825.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/banking-finance-and-fintech",
+        "route_replacement": {
+          "reason": "Explicit replacement with the currently advertised Banking, Finance and Fintech standard honours route.",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/banking-finance-and-fintech",
+          "previous_title": "BSc (Hons) Banking and Finance",
+          "replacement_title": "BSc (Hons) Banking, Finance and Fintech"
+        },
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_fee_category": "International"
+      },
+      "after_raw_fees": {
+        "campus": "Chelmsford",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for September 2027, full-time campus study. Distance learning, APCL, foundation and placement routes are excluded.",
+        "verified": true,
+        "fee_method": "reviewed_named_route",
+        "study_year": 1,
+        "course_kind": "undergraduate_taught",
+        "mapping_kind": "explicit_replacement",
+        "academic_year": "2027/28",
+        "source_sha256": "091aaab3a8e7c9091aa73663deb71815fd6085dacb40c1c64a4e29c047ff0e93",
+        "annual_tuition": "18825.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "18825.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/banking-finance-and-fintech",
+        "route_replacement": {
+          "reason": "Explicit replacement with the currently advertised Banking, Finance and Fintech standard honours route.",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/banking-finance-and-fintech",
+          "previous_title": "BSc (Hons) Banking and Finance",
+          "replacement_title": "BSc (Hons) Banking, Finance and Fintech"
+        },
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_fee_category": "International"
+      },
+      "changed": true
+    }
+  ],
+  "changed_records": 5,
+  "database_changes": false,
+  "status": "preview"
+}

@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% block page_class %}homepage{% endblock %}
+{% load static %}
+
+{% block title %}<title>Compare Universities in UK & Ireland - University Tuition Compare</title>{% endblock %}
+
+{% block meta %}
+<!-- Meta Tags -->
+<meta name="description" content="University tuition compare - Compare universities in UK & Ireland. Find detailed rankings, course information, tuition fees, scholarships, and costs to help you choose the perfect university.">
+<meta name="keywords" content="compare universities, university tuition compare, UK universities, Ireland universities, tuition fees, university rankings, scholarships, courses">
+<meta name="author" content="University Tuition Compare">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Compare Universities in UK & Ireland - University Tuition Compare">
+<meta property="og:description" content="University tuition compare - Compare universities in UK & Ireland. Find detailed rankings, course information, tuition fees, scholarships, and costs to help you choose the perfect university.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.universitytuitioncompare.com">
+<meta property="og:image" content="https://www.universitytuitioncompare.com/static/images/mine/about-us.jpg">
+<meta property="og:site_name" content="University Tuition Compare">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Compare Universities in UK & Ireland - University Tuition Compare">
+<meta name="twitter:description" content="University tuition compare - Compare universities in UK & Ireland. Find detailed rankings, course information, tuition fees, scholarships, and costs to help you choose the perfect university.">
+<meta name="twitter:image" content="https://www.universitytuitioncompare.com/static/images/mine/about-us.jpg">
+{% endblock %}
+
+{% block extra_head %}
+<!-- Schema.org Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "University Tuition Compare",
+  "alternateName": "Compare Universities in UK & Ireland",
+  "url": "https://www.universitytuitioncompare.com",
+  "description": "University tuition compare - Compare universities in UK & Ireland. Find detailed rankings, course information, tuition fees, scholarships, and costs to help you choose the perfect university.",
+  "image": "https://www.universitytuitioncompare.com/static/images/mine/university%20compare.png",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.universitytuitioncompare.com/course-search/?subject={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{% endblock %}
+
+{% block extra_css %}
+<!-- Slick Carousel CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+{% endblock %}
+
+{% block content %}
+    <!-- Hero Section -->
+    {% include 'sections/hero.html' %}
+    
+    <!-- Conferences Section -->
+    {% include 'sections/conferences.html' %}
+    
+    <!-- Event Ticket Section -->
+    {% include 'sections/event-ticket.html' %}
+    
+    <!-- Rankings Section -->
+    {% include 'sections/rankings.html' %}
+    
+    <!-- Engage Section -->
+    {% include 'sections/engage.html' %}
+    
+    <!-- Testimonials Section -->
+    {% include 'sections/testimonials.html' %}
+    
+    <!-- Auth Modals -->
+    {% include 'auth/signin-modal.html' %}
+    {% include 'auth/signup-modal.html' %}
+{% endblock %}
+
+{% block extra_js %}
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick Carousel JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="{% static 'js/favorites-handler.js' %}"></script>
+<script src="{% static 'js/hero-search.js' %}"></script>
+{% endblock %}

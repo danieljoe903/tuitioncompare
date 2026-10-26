@@ -1,0 +1,86 @@
+{
+  "provenance": "The original combined register retained Abertay/Aberystwyth/ARU. Preserve its labels and caveats; do not turn running totals into fresh audit results.",
+  "universities": {
+    "UK001": {
+      "audit_path": "data/universities/progress/university_scraping_progress_register.md",
+      "audit_timestamp": 0,
+      "report": {
+        "university_id": "UK001",
+        "university_name": "Abertay University",
+        "status": "reviewed_with_outstanding_cases",
+        "summary": {
+          "active_courses": 100,
+          "verified_international_fees": 83,
+          "pending_international_fees": 17,
+          "verified_fee_bases": {
+            "annual_tuition": 83
+          },
+          "verified_fee_years": {
+            "2026/27": 70,
+            "2025/26": 13
+          },
+          "reported_verified_scholarship_rules": 2,
+          "reported_scholarship_scope_memberships": 61
+        },
+        "provenance": "Preserved from the existing combined register; reported workflow totals, not a new live database query. Other scholarship/deposit counts remain unaudited."
+      }
+    },
+    "UK002": {
+      "audit_path": "data/universities/progress/university_scraping_progress_register.md",
+      "audit_timestamp": 0,
+      "report": {
+        "university_id": "UK002",
+        "university_name": "Aberystwyth University",
+        "status": "reviewed_with_outstanding_cases",
+        "summary": {
+          "active_courses": 109,
+          "verified_international_fees": 88,
+          "pending_international_fees": 21,
+          "verified_fee_bases": {
+            "annual_tuition": 88
+          },
+          "reported_verified_scholarship_rule_categories": 5,
+          "reported_unverified_scholarship_rule_categories": 1,
+          "reported_verified_scholarship_scope_memberships": 50
+        },
+        "provenance": "Preserved running totals from the combined register. The register retains the Astrophysics application/final-audit qualification. Unique conditional scholarship coverage and full deposit coverage remain unaudited."
+      }
+    },
+    "UK003": {
+      "audit_path": "data/universities/progress/university_scraping_progress_register.md",
+      "audit_timestamp": 1792714220.0,
+      "report": {
+        "university_id": "UK003",
+        "university_name": "Anglia Ruskin University",
+        "status": "reviewed_with_outstanding_cases",
+        "summary": {
+          "total_course_records": 115,
+          "active_courses": 115,
+          "inactive_courses": 0,
+          "verified_international_fees": 98,
+          "pending_international_fees": 15,
+          "restricted_international_comparisons": 2,
+          "verified_fee_bases": {
+            "annual_tuition": 94,
+            "full_time_course_fee": 3,
+            "first_year_tuition": 1
+          },
+          "verified_fee_years": {
+            "2027/28": 89,
+            "2026/27": 9
+          },
+          "scholarship_rule_records": 7,
+          "verified_scholarship_rule_records": 7,
+          "unverified_scholarship_rule_records": 0,
+          "verified_fee_courses_with_conditional_award_scope": 89,
+          "verified_fee_courses_without_conditional_award_scope": 9,
+          "deposit_policy_records": 2,
+          "verified_deposit_policy_records": 2,
+          "verified_fee_courses_with_deposit_scope": 91,
+          "verified_fee_courses_without_deposit_scope": 7
+        },
+        "provenance": "User-supplied final audit after five course-kind corrections; 20 synthetic scenarios passed. Saved audit: logs/scraping-progress/aru-handoff-20261023T001020216835Z/aru-final-audit.json."
+      }
+    }
+  }
+}

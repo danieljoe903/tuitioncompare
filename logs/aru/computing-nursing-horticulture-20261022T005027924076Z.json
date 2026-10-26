@@ -1,0 +1,298 @@
+{
+  "generated_at": "2026-10-22T00:50:27.924076+00:00",
+  "mode": "apply",
+  "database_changes": true,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\campus-intakes-20261022T004401280236Z\\campus-intake-evidence.json",
+  "records": [
+    {
+      "course_id": "C_ARU003_RES_02",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc by Research (Computing & Information Science)",
+          "level": "MRES",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "16700.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Computing and Information Science",
+          "level": "PG",
+          "duration": "1 to 3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/computer-science-research",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/computer-science-research",
+          "source_course_code": "",
+          "source_course_name": "MPhil Computing and Information Science",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/computer-science-research",
+            "source_sha256": "425d1c9735d414627556dbe00f401d046f986ac7b9d0722f6001b466bf97cca4",
+            "mapping_kind": "research_replacement",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "applicability_unconfirmed",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "17500.00",
+                "amount_requires_review": false
+              }
+            ],
+            "annual_tuition": "17500.00",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "duration_note": "Published MPhil full-time completion range: one to three years.",
+            "route_replacement": {
+              "previous_title": "MSc by Research (Computing & Information Science)",
+              "replacement_title": "MPhil Computing and Information Science",
+              "note": "Explicit MSc-to-MPhil replacement; not claimed to be a university-confirmed rename."
+            },
+            "additional_costs": {
+              "bench_fees_possible": true,
+              "amount": null,
+              "included_in_tuition": false,
+              "note": "Project-specific bench fees may apply. ARU must confirm any additional amount."
+            },
+            "fee_note": "Published annual international research tuition for 2026/27, January 2027 intake. Possible project-specific bench fees excluded."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_46",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Mental Health Nursing",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "19500.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Nursing (Mental Health)",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "intake_months": "September",
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/nursing-mental-health",
+          "ucas_cao_code": "B760",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "19500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/nursing-mental-health",
+          "source_course_code": "B760",
+          "source_course_name": "BSc (Hons) Nursing (Mental Health)",
+          "fee_basis": "unavailable",
+          "raw_fees": {
+            "verified": false,
+            "academic_year": "",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/nursing-mental-health",
+            "source_sha256": "7c7adc88e535062db4c6ce7eb191043558552252d34fce5d833b9f99194c9ec6",
+            "mapping_kind": "nursing_correction",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "applicability_unconfirmed",
+            "fee_categories": [],
+            "course_kind": "undergraduate",
+            "advertised_intake": "September 2027",
+            "verification_reason": "The reviewed Nursing course page does not provide a confirmed international tuition amount. International fee and applicant eligibility require confirmation. This does not establish that international applicants are excluded.",
+            "fee_note": "The reviewed Nursing course page does not provide a confirmed international tuition amount. International fee and applicant eligibility require confirmation. This does not establish that international applicants are excluded."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_89",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Child Nursing",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "19500.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Nursing (Children)",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "intake_months": "September",
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/nursing-child",
+          "ucas_cao_code": "B730",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "19500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/nursing-child",
+          "source_course_code": "B730",
+          "source_course_name": "BSc (Hons) Nursing (Children)",
+          "fee_basis": "unavailable",
+          "raw_fees": {
+            "verified": false,
+            "academic_year": "",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/nursing-child",
+            "source_sha256": "1b21d3c910b9b305124fa061442785bdeaf613ec6198f97cf588c13c643a577c",
+            "mapping_kind": "nursing_correction",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "applicability_unconfirmed",
+            "fee_categories": [],
+            "course_kind": "undergraduate",
+            "advertised_intake": "September 2027",
+            "verification_reason": "The reviewed Nursing course page does not provide a confirmed international tuition amount. International fee and applicant eligibility require confirmation. This does not establish that international applicants are excluded.",
+            "fee_note": "The reviewed Nursing course page does not provide a confirmed international tuition amount. International fee and applicant eligibility require confirmation. This does not establish that international applicants are excluded."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_56",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Horticulture",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Writtle Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "19500.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Horticulture",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Writtle Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/horticulture",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "19500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/horticulture",
+          "source_course_code": "",
+          "source_course_name": "MSc Horticulture",
+          "fee_basis": "unavailable",
+          "raw_fees": {
+            "verified": false,
+            "academic_year": "",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/horticulture",
+            "source_sha256": "72e4f6fa0a08759d9bbfc385304ec403e5fa0786c1c64181720368c5a6d76345",
+            "mapping_kind": "historical_part_time_review",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "applicability_unconfirmed",
+            "fee_categories": [],
+            "course_kind": "postgraduate_taught",
+            "observed_route": {
+              "duration": "3 years part-time",
+              "start_month": "September",
+              "start_year": null,
+              "campus": "Writtle",
+              "published_fee": {
+                "category": "UK",
+                "academic_year": "2025/26",
+                "amount": "3118.00",
+                "currency": "GBP",
+                "basis": "part_time_per_year"
+              }
+            },
+            "verification_reason": "The captured MSc Horticulture page only provides a three-year part-time option, September without an intake year, and a 2025/26 UK fee. A current applicable international route and fee are unconfirmed. The stored tuition is not verified.",
+            "fee_note": "The captured MSc Horticulture page only provides a three-year part-time option, September without an intake year, and a 2025/26 UK fee. A current applicable international route and fee are unconfirmed. The stored tuition is not verified."
+          }
+        }
+      }
+    }
+  ],
+  "proposed_changes": 4,
+  "completed": true
+}

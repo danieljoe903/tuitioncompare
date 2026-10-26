@@ -1,0 +1,1251 @@
+{
+  "generated_at": "2026-10-22T00:36:53.281960+00:00",
+  "mode": "preview",
+  "database_changes": false,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\campus-intakes-20261022T002000996588Z\\campus-intake-evidence.json",
+  "scholarship_rules": [
+    {
+      "name": "ARU International Undergraduate Scholarship — Lower — Year 1 (2027/28)",
+      "changed": false,
+      "before": {
+        "kind": "fixed",
+        "value": "2000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "apcl": [
+            false
+          ],
+          "course_id": [
+            "C_UK003_01",
+            "C_UK003_03",
+            "C_UK003_04",
+            "C_UK003_05",
+            "C_UK003_06",
+            "C_UK003_07",
+            "C_UK003_08",
+            "C_UK003_09",
+            "C_UK003_10",
+            "C_UK003_11",
+            "C_UK003_13",
+            "C_UK003_14",
+            "C_UK003_15",
+            "C_UK003_16",
+            "C_UK003_17",
+            "C_UK003_32",
+            "C_UK003_33",
+            "C_UK003_34",
+            "C_UK003_35",
+            "C_UK003_36",
+            "C_UK003_37",
+            "C_UK003_38",
+            "C_UK003_39",
+            "C_UK003_40",
+            "C_UK003_42",
+            "C_UK003_45",
+            "C_UK003_62",
+            "C_UK003_63",
+            "C_UK003_67",
+            "C_UK003_68",
+            "C_UK003_69",
+            "C_UK003_83",
+            "C_UK003_84",
+            "C_UK003_85",
+            "C_UK003_86",
+            "C_UK003_90",
+            "C_UK003_91",
+            "C_UK003_92",
+            "C_UK003_93",
+            "C_UK003_95"
+          ],
+          "full_time": [
+            true
+          ],
+          "entry_year": [
+            1
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "aru_ug_award_tier": [
+            "lower"
+          ],
+          "aru_ug_award_confirmed": [
+            true
+          ],
+          "registration_conditions_met": [
+            true
+          ],
+          "aru_funding_eligibility_confirmed": [
+            true
+          ]
+        },
+        "scope_note": "Reviewed standard campus undergraduate routes only. First compared study year and Year 1 entrants only. Unknown eligibility answers do not qualify.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "combination_note": "Do not combine with another scholarship. A Full Payment Discount may be permitted in Year 1, but is not modelled until its deadline and payment conditions have been separately verified.",
+        "future_year_note": "ARU publishes £1,000 in subsequent years, for up to three subsequent years, subject to successful completion. Those future-year rules are not imported by this command.",
+        "percentage_basis": "original_tuition",
+        "source_period_note": "Current published policy does not name an academic year. Saved against the reviewed 2027/28 course cohort; recheck before enrolment.",
+        "fee_basis_confirmed": true,
+        "eligibility_questions": [
+          {
+            "key": "new_entrant",
+            "type": "boolean",
+            "question": "Are you joining ARU for the first time?"
+          },
+          {
+            "key": "full_time",
+            "note": "Exceptional part-time cases require ARU confirmation.",
+            "type": "boolean",
+            "question": "Will you study full-time?"
+          },
+          {
+            "key": "entry_year",
+            "note": "These rules cover entry into Year 1 only.",
+            "type": "integer",
+            "question": "Which course year are you entering?"
+          },
+          {
+            "key": "apcl",
+            "note": "APCL discounts need a separate pro-rata assessment.",
+            "type": "boolean",
+            "question": "Have you received Accredited Prior Certified Learning credit?"
+          },
+          {
+            "key": "registration_conditions_met",
+            "type": "boolean",
+            "question": "Have all ARU registration conditions been met?"
+          },
+          {
+            "key": "aru_funding_eligibility_confirmed",
+            "note": "Sponsored students and federal loan recipients may need confirmation from ARU and their funding body.",
+            "type": "boolean",
+            "question": "Is your funding arrangement eligible for this award, including any sponsorship or federal tuition loan?"
+          },
+          {
+            "key": "aru_ug_award_confirmed",
+            "type": "boolean",
+            "question": "Has ARU confirmed your undergraduate scholarship?"
+          },
+          {
+            "key": "aru_ug_award_tier",
+            "note": "Exceeding entry requirements does not confirm a tier.",
+            "type": "choice",
+            "choices": [
+              {
+                "label": "£2,000",
+                "value": "lower"
+              },
+              {
+                "label": "£4,000",
+                "value": "higher"
+              }
+            ],
+            "question": "Which first-year award has ARU confirmed?"
+          }
+        ]
+      },
+      "after": {
+        "kind": "fixed",
+        "value": "2000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "apcl": [
+            false
+          ],
+          "course_id": [
+            "C_UK003_01",
+            "C_UK003_03",
+            "C_UK003_04",
+            "C_UK003_05",
+            "C_UK003_06",
+            "C_UK003_07",
+            "C_UK003_08",
+            "C_UK003_09",
+            "C_UK003_10",
+            "C_UK003_11",
+            "C_UK003_13",
+            "C_UK003_14",
+            "C_UK003_15",
+            "C_UK003_16",
+            "C_UK003_17",
+            "C_UK003_32",
+            "C_UK003_33",
+            "C_UK003_34",
+            "C_UK003_35",
+            "C_UK003_36",
+            "C_UK003_37",
+            "C_UK003_38",
+            "C_UK003_39",
+            "C_UK003_40",
+            "C_UK003_42",
+            "C_UK003_45",
+            "C_UK003_62",
+            "C_UK003_63",
+            "C_UK003_67",
+            "C_UK003_68",
+            "C_UK003_69",
+            "C_UK003_83",
+            "C_UK003_84",
+            "C_UK003_85",
+            "C_UK003_86",
+            "C_UK003_90",
+            "C_UK003_91",
+            "C_UK003_92",
+            "C_UK003_93",
+            "C_UK003_95"
+          ],
+          "full_time": [
+            true
+          ],
+          "entry_year": [
+            1
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "aru_ug_award_tier": [
+            "lower"
+          ],
+          "aru_ug_award_confirmed": [
+            true
+          ],
+          "registration_conditions_met": [
+            true
+          ],
+          "aru_funding_eligibility_confirmed": [
+            true
+          ]
+        },
+        "scope_note": "Reviewed standard campus undergraduate routes only. First compared study year and Year 1 entrants only. Unknown eligibility answers do not qualify.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "combination_note": "Do not combine with another scholarship. A Full Payment Discount may be permitted in Year 1, but is not modelled until its deadline and payment conditions have been separately verified.",
+        "future_year_note": "ARU publishes £1,000 in subsequent years, for up to three subsequent years, subject to successful completion. Those future-year rules are not imported by this command.",
+        "percentage_basis": "original_tuition",
+        "source_period_note": "Current published policy does not name an academic year. Saved against the reviewed 2027/28 course cohort; recheck before enrolment.",
+        "fee_basis_confirmed": true,
+        "eligibility_questions": [
+          {
+            "key": "new_entrant",
+            "type": "boolean",
+            "question": "Are you joining ARU for the first time?"
+          },
+          {
+            "key": "full_time",
+            "note": "Exceptional part-time cases require ARU confirmation.",
+            "type": "boolean",
+            "question": "Will you study full-time?"
+          },
+          {
+            "key": "entry_year",
+            "note": "These rules cover entry into Year 1 only.",
+            "type": "integer",
+            "question": "Which course year are you entering?"
+          },
+          {
+            "key": "apcl",
+            "note": "APCL discounts need a separate pro-rata assessment.",
+            "type": "boolean",
+            "question": "Have you received Accredited Prior Certified Learning credit?"
+          },
+          {
+            "key": "registration_conditions_met",
+            "type": "boolean",
+            "question": "Have all ARU registration conditions been met?"
+          },
+          {
+            "key": "aru_funding_eligibility_confirmed",
+            "note": "Sponsored students and federal loan recipients may need confirmation from ARU and their funding body.",
+            "type": "boolean",
+            "question": "Is your funding arrangement eligible for this award, including any sponsorship or federal tuition loan?"
+          },
+          {
+            "key": "aru_ug_award_confirmed",
+            "type": "boolean",
+            "question": "Has ARU confirmed your undergraduate scholarship?"
+          },
+          {
+            "key": "aru_ug_award_tier",
+            "note": "Exceeding entry requirements does not confirm a tier.",
+            "type": "choice",
+            "choices": [
+              {
+                "label": "£2,000",
+                "value": "lower"
+              },
+              {
+                "label": "£4,000",
+                "value": "higher"
+              }
+            ],
+            "question": "Which first-year award has ARU confirmed?"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ARU International Undergraduate Scholarship — Higher — Year 1 (2027/28)",
+      "changed": false,
+      "before": {
+        "kind": "fixed",
+        "value": "4000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "apcl": [
+            false
+          ],
+          "course_id": [
+            "C_UK003_01",
+            "C_UK003_03",
+            "C_UK003_04",
+            "C_UK003_05",
+            "C_UK003_06",
+            "C_UK003_07",
+            "C_UK003_08",
+            "C_UK003_09",
+            "C_UK003_10",
+            "C_UK003_11",
+            "C_UK003_13",
+            "C_UK003_14",
+            "C_UK003_15",
+            "C_UK003_16",
+            "C_UK003_32",
+            "C_UK003_33",
+            "C_UK003_34",
+            "C_UK003_35",
+            "C_UK003_36",
+            "C_UK003_37",
+            "C_UK003_38",
+            "C_UK003_39",
+            "C_UK003_40",
+            "C_UK003_42",
+            "C_UK003_45",
+            "C_UK003_62",
+            "C_UK003_63",
+            "C_UK003_67",
+            "C_UK003_68",
+            "C_UK003_83",
+            "C_UK003_84",
+            "C_UK003_85",
+            "C_UK003_86",
+            "C_UK003_90",
+            "C_UK003_91",
+            "C_UK003_92",
+            "C_UK003_93",
+            "C_UK003_95"
+          ],
+          "full_time": [
+            true
+          ],
+          "entry_year": [
+            1
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "aru_ug_award_tier": [
+            "higher"
+          ],
+          "aru_ug_award_confirmed": [
+            true
+          ],
+          "registration_conditions_met": [
+            true
+          ],
+          "aru_funding_eligibility_confirmed": [
+            true
+          ]
+        },
+        "scope_note": "Reviewed standard campus undergraduate routes only. First compared study year and Year 1 entrants only. Unknown eligibility answers do not qualify.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "combination_note": "Do not combine with another scholarship. A Full Payment Discount may be permitted in Year 1, but is not modelled until its deadline and payment conditions have been separately verified.",
+        "future_year_note": "ARU publishes £1,000 in subsequent years, for up to three subsequent years, subject to successful completion. Those future-year rules are not imported by this command.",
+        "percentage_basis": "original_tuition",
+        "source_period_note": "Current published policy does not name an academic year. Saved against the reviewed 2027/28 course cohort; recheck before enrolment.",
+        "fee_basis_confirmed": true,
+        "eligibility_questions": [
+          {
+            "key": "new_entrant",
+            "type": "boolean",
+            "question": "Are you joining ARU for the first time?"
+          },
+          {
+            "key": "full_time",
+            "note": "Exceptional part-time cases require ARU confirmation.",
+            "type": "boolean",
+            "question": "Will you study full-time?"
+          },
+          {
+            "key": "entry_year",
+            "note": "These rules cover entry into Year 1 only.",
+            "type": "integer",
+            "question": "Which course year are you entering?"
+          },
+          {
+            "key": "apcl",
+            "note": "APCL discounts need a separate pro-rata assessment.",
+            "type": "boolean",
+            "question": "Have you received Accredited Prior Certified Learning credit?"
+          },
+          {
+            "key": "registration_conditions_met",
+            "type": "boolean",
+            "question": "Have all ARU registration conditions been met?"
+          },
+          {
+            "key": "aru_funding_eligibility_confirmed",
+            "note": "Sponsored students and federal loan recipients may need confirmation from ARU and their funding body.",
+            "type": "boolean",
+            "question": "Is your funding arrangement eligible for this award, including any sponsorship or federal tuition loan?"
+          },
+          {
+            "key": "aru_ug_award_confirmed",
+            "type": "boolean",
+            "question": "Has ARU confirmed your undergraduate scholarship?"
+          },
+          {
+            "key": "aru_ug_award_tier",
+            "note": "Exceeding entry requirements does not confirm a tier.",
+            "type": "choice",
+            "choices": [
+              {
+                "label": "£2,000",
+                "value": "lower"
+              },
+              {
+                "label": "£4,000",
+                "value": "higher"
+              }
+            ],
+            "question": "Which first-year award has ARU confirmed?"
+          }
+        ]
+      },
+      "after": {
+        "kind": "fixed",
+        "value": "4000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "apcl": [
+            false
+          ],
+          "course_id": [
+            "C_UK003_01",
+            "C_UK003_03",
+            "C_UK003_04",
+            "C_UK003_05",
+            "C_UK003_06",
+            "C_UK003_07",
+            "C_UK003_08",
+            "C_UK003_09",
+            "C_UK003_10",
+            "C_UK003_11",
+            "C_UK003_13",
+            "C_UK003_14",
+            "C_UK003_15",
+            "C_UK003_16",
+            "C_UK003_32",
+            "C_UK003_33",
+            "C_UK003_34",
+            "C_UK003_35",
+            "C_UK003_36",
+            "C_UK003_37",
+            "C_UK003_38",
+            "C_UK003_39",
+            "C_UK003_40",
+            "C_UK003_42",
+            "C_UK003_45",
+            "C_UK003_62",
+            "C_UK003_63",
+            "C_UK003_67",
+            "C_UK003_68",
+            "C_UK003_83",
+            "C_UK003_84",
+            "C_UK003_85",
+            "C_UK003_86",
+            "C_UK003_90",
+            "C_UK003_91",
+            "C_UK003_92",
+            "C_UK003_93",
+            "C_UK003_95"
+          ],
+          "full_time": [
+            true
+          ],
+          "entry_year": [
+            1
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "aru_ug_award_tier": [
+            "higher"
+          ],
+          "aru_ug_award_confirmed": [
+            true
+          ],
+          "registration_conditions_met": [
+            true
+          ],
+          "aru_funding_eligibility_confirmed": [
+            true
+          ]
+        },
+        "scope_note": "Reviewed standard campus undergraduate routes only. First compared study year and Year 1 entrants only. Unknown eligibility answers do not qualify.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "combination_note": "Do not combine with another scholarship. A Full Payment Discount may be permitted in Year 1, but is not modelled until its deadline and payment conditions have been separately verified.",
+        "future_year_note": "ARU publishes £1,000 in subsequent years, for up to three subsequent years, subject to successful completion. Those future-year rules are not imported by this command.",
+        "percentage_basis": "original_tuition",
+        "source_period_note": "Current published policy does not name an academic year. Saved against the reviewed 2027/28 course cohort; recheck before enrolment.",
+        "fee_basis_confirmed": true,
+        "eligibility_questions": [
+          {
+            "key": "new_entrant",
+            "type": "boolean",
+            "question": "Are you joining ARU for the first time?"
+          },
+          {
+            "key": "full_time",
+            "note": "Exceptional part-time cases require ARU confirmation.",
+            "type": "boolean",
+            "question": "Will you study full-time?"
+          },
+          {
+            "key": "entry_year",
+            "note": "These rules cover entry into Year 1 only.",
+            "type": "integer",
+            "question": "Which course year are you entering?"
+          },
+          {
+            "key": "apcl",
+            "note": "APCL discounts need a separate pro-rata assessment.",
+            "type": "boolean",
+            "question": "Have you received Accredited Prior Certified Learning credit?"
+          },
+          {
+            "key": "registration_conditions_met",
+            "type": "boolean",
+            "question": "Have all ARU registration conditions been met?"
+          },
+          {
+            "key": "aru_funding_eligibility_confirmed",
+            "note": "Sponsored students and federal loan recipients may need confirmation from ARU and their funding body.",
+            "type": "boolean",
+            "question": "Is your funding arrangement eligible for this award, including any sponsorship or federal tuition loan?"
+          },
+          {
+            "key": "aru_ug_award_confirmed",
+            "type": "boolean",
+            "question": "Has ARU confirmed your undergraduate scholarship?"
+          },
+          {
+            "key": "aru_ug_award_tier",
+            "note": "Exceeding entry requirements does not confirm a tier.",
+            "type": "choice",
+            "choices": [
+              {
+                "label": "£2,000",
+                "value": "lower"
+              },
+              {
+                "label": "£4,000",
+                "value": "higher"
+              }
+            ],
+            "question": "Which first-year award has ARU confirmed?"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ARU International Postgraduate Scholarship — ARU graduate eligibility (2027/28)",
+      "changed": false,
+      "before": {
+        "kind": "fixed_maximum",
+        "value": "4000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "course_id": [
+            "C_UK003_100",
+            "C_UK003_101",
+            "C_UK003_102",
+            "C_UK003_103",
+            "C_UK003_20",
+            "C_UK003_21",
+            "C_UK003_23",
+            "C_UK003_27",
+            "C_UK003_28",
+            "C_UK003_30",
+            "C_UK003_47",
+            "C_UK003_48",
+            "C_UK003_49",
+            "C_UK003_50",
+            "C_UK003_51",
+            "C_UK003_53",
+            "C_UK003_55",
+            "C_UK003_57",
+            "C_UK003_58",
+            "C_UK003_60",
+            "C_UK003_72",
+            "C_UK003_73",
+            "C_UK003_74",
+            "C_UK003_75",
+            "C_UK003_76",
+            "C_UK003_77",
+            "C_UK003_78",
+            "C_UK003_79",
+            "C_UK003_97",
+            "C_UK003_98",
+            "C_UK003_99"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aru_graduate": [
+            true
+          ],
+          "registration_conditions_met": [
+            true
+          ],
+          "aru_pg_eligibility_confirmed": [
+            true
+          ],
+          "aru_funding_eligibility_confirmed": [
+            true
+          ],
+          "aru_pg_entry_requirements_exceeded": [
+            true
+          ]
+        },
+        "scope_note": "Reviewed September 2027 standard campus courses only. First compared study year. This models the published maximum, not a confirmed individual award.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "combination_note": "No other scholarship is combined automatically. Payment discounts require separate verification.",
+        "percentage_basis": "original_tuition",
+        "source_period_note": "The current scholarship page does not specify an academic year. Associated with the reviewed 2027/28 cohort and subject to rechecking before enrolment.",
+        "fee_basis_confirmed": true,
+        "eligibility_questions": [
+          {
+            "key": "aru_graduate",
+            "type": "boolean",
+            "question": "Are you an ARU graduate?"
+          },
+          {
+            "key": "aru_pg_entry_requirements_exceeded",
+            "type": "boolean",
+            "question": "Has ARU confirmed that your qualifications exceed the minimum entry requirements for this scholarship?"
+          },
+          {
+            "key": "registration_conditions_met",
+            "type": "boolean",
+            "question": "Have all ARU registration conditions been met?"
+          },
+          {
+            "key": "aru_funding_eligibility_confirmed",
+            "type": "boolean",
+            "question": "Is your funding arrangement eligible, including any sponsorship or federal tuition loan?"
+          },
+          {
+            "key": "aru_pg_eligibility_confirmed",
+            "note": "The published maximum is £4,000. Your actual award depends on ARU's assessment.",
+            "type": "boolean",
+            "question": "Has ARU confirmed your eligibility for its International Postgraduate Scholarship?"
+          }
+        ]
+      },
+      "after": {
+        "kind": "fixed_maximum",
+        "value": "4000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "course_id": [
+            "C_UK003_100",
+            "C_UK003_101",
+            "C_UK003_102",
+            "C_UK003_103",
+            "C_UK003_20",
+            "C_UK003_21",
+            "C_UK003_23",
+            "C_UK003_27",
+            "C_UK003_28",
+            "C_UK003_30",
+            "C_UK003_47",
+            "C_UK003_48",
+            "C_UK003_49",
+            "C_UK003_50",
+            "C_UK003_51",
+            "C_UK003_53",
+            "C_UK003_55",
+            "C_UK003_57",
+            "C_UK003_58",
+            "C_UK003_60",
+            "C_UK003_72",
+            "C_UK003_73",
+            "C_UK003_74",
+            "C_UK003_75",
+            "C_UK003_76",
+            "C_UK003_77",
+            "C_UK003_78",
+            "C_UK003_79",
+            "C_UK003_97",
+            "C_UK003_98",
+            "C_UK003_99"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aru_graduate": [
+            true
+          ],
+          "registration_conditions_met": [
+            true
+          ],
+          "aru_pg_eligibility_confirmed": [
+            true
+          ],
+          "aru_funding_eligibility_confirmed": [
+            true
+          ],
+          "aru_pg_entry_requirements_exceeded": [
+            true
+          ]
+        },
+        "scope_note": "Reviewed September 2027 standard campus courses only. First compared study year. This models the published maximum, not a confirmed individual award.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "combination_note": "No other scholarship is combined automatically. Payment discounts require separate verification.",
+        "percentage_basis": "original_tuition",
+        "source_period_note": "The current scholarship page does not specify an academic year. Associated with the reviewed 2027/28 cohort and subject to rechecking before enrolment.",
+        "fee_basis_confirmed": true,
+        "eligibility_questions": [
+          {
+            "key": "aru_graduate",
+            "type": "boolean",
+            "question": "Are you an ARU graduate?"
+          },
+          {
+            "key": "aru_pg_entry_requirements_exceeded",
+            "type": "boolean",
+            "question": "Has ARU confirmed that your qualifications exceed the minimum entry requirements for this scholarship?"
+          },
+          {
+            "key": "registration_conditions_met",
+            "type": "boolean",
+            "question": "Have all ARU registration conditions been met?"
+          },
+          {
+            "key": "aru_funding_eligibility_confirmed",
+            "type": "boolean",
+            "question": "Is your funding arrangement eligible, including any sponsorship or federal tuition loan?"
+          },
+          {
+            "key": "aru_pg_eligibility_confirmed",
+            "note": "The published maximum is £4,000. Your actual award depends on ARU's assessment.",
+            "type": "boolean",
+            "question": "Has ARU confirmed your eligibility for its International Postgraduate Scholarship?"
+          }
+        ]
+      }
+    }
+  ],
+  "deposit_policy": {
+    "changed": false,
+    "before": {
+      "kind": "fixed",
+      "note": "Current published pre-CAS deposit: £4,000 for full-fee-paying international taught students. Confirm the requirement in the individual offer. Sponsored arrangements require separate assessment. Recheck the current policy before payment.",
+      "amount": "4000.00",
+      "currency": "GBP",
+      "course_ids": [
+        "C_ARU003_02",
+        "C_UK003_01",
+        "C_UK003_03",
+        "C_UK003_04",
+        "C_UK003_05",
+        "C_UK003_06",
+        "C_UK003_07",
+        "C_UK003_08",
+        "C_UK003_09",
+        "C_UK003_10",
+        "C_UK003_100",
+        "C_UK003_101",
+        "C_UK003_102",
+        "C_UK003_103",
+        "C_UK003_105",
+        "C_UK003_11",
+        "C_UK003_13",
+        "C_UK003_14",
+        "C_UK003_15",
+        "C_UK003_16",
+        "C_UK003_17",
+        "C_UK003_19",
+        "C_UK003_20",
+        "C_UK003_21",
+        "C_UK003_23",
+        "C_UK003_24",
+        "C_UK003_25",
+        "C_UK003_27",
+        "C_UK003_28",
+        "C_UK003_29",
+        "C_UK003_30",
+        "C_UK003_32",
+        "C_UK003_33",
+        "C_UK003_34",
+        "C_UK003_35",
+        "C_UK003_36",
+        "C_UK003_37",
+        "C_UK003_38",
+        "C_UK003_39",
+        "C_UK003_40",
+        "C_UK003_42",
+        "C_UK003_45",
+        "C_UK003_47",
+        "C_UK003_48",
+        "C_UK003_49",
+        "C_UK003_50",
+        "C_UK003_51",
+        "C_UK003_53",
+        "C_UK003_55",
+        "C_UK003_57",
+        "C_UK003_58",
+        "C_UK003_60",
+        "C_UK003_62",
+        "C_UK003_63",
+        "C_UK003_67",
+        "C_UK003_68",
+        "C_UK003_69",
+        "C_UK003_72",
+        "C_UK003_73",
+        "C_UK003_74",
+        "C_UK003_75",
+        "C_UK003_76",
+        "C_UK003_77",
+        "C_UK003_78",
+        "C_UK003_79",
+        "C_UK003_80",
+        "C_UK003_83",
+        "C_UK003_84",
+        "C_UK003_85",
+        "C_UK003_86",
+        "C_UK003_90",
+        "C_UK003_91",
+        "C_UK003_92",
+        "C_UK003_93",
+        "C_UK003_95",
+        "C_UK003_96",
+        "C_UK003_97",
+        "C_UK003_98",
+        "C_UK003_99"
+      ],
+      "fee_status": "INTL",
+      "course_kinds": [
+        "postgraduate_taught",
+        "undergraduate_taught",
+        "undergraduate_topup"
+      ],
+      "academic_year": "2027/28",
+      "payment_stage": "before_cas",
+      "source_period": "current_undated_policy",
+      "schema_version": 1,
+      "full_fee_paying": true,
+      "course_source_urls": {
+        "C_UK003_05": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+        "C_UK003_19": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+        "C_UK003_24": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+        "C_UK003_29": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+        "C_UK003_30": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+        "C_UK003_96": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management"
+      },
+      "eligibility_questions": [
+        {
+          "key": "requires_student_visa",
+          "type": "boolean",
+          "question": "Do you require a Student visa?"
+        },
+        {
+          "key": "full_fee_paying",
+          "type": "boolean",
+          "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+        },
+        {
+          "key": "sponsored",
+          "type": "boolean",
+          "question": "Will a sponsor provide a sponsorship letter?"
+        }
+      ],
+      "requires_student_visa": true,
+      "deduct_scholarship_from_deposit": false,
+      "offer_letter_confirmation_required": true,
+      "sponsorship_letter_requires_review": true
+    },
+    "after": {
+      "kind": "fixed",
+      "note": "Current published pre-CAS deposit: £4,000 for full-fee-paying international taught students. Confirm the requirement in the individual offer. Sponsored arrangements require separate assessment. Recheck the current policy before payment.",
+      "amount": "4000.00",
+      "currency": "GBP",
+      "course_ids": [
+        "C_ARU003_02",
+        "C_UK003_01",
+        "C_UK003_03",
+        "C_UK003_04",
+        "C_UK003_05",
+        "C_UK003_06",
+        "C_UK003_07",
+        "C_UK003_08",
+        "C_UK003_09",
+        "C_UK003_10",
+        "C_UK003_100",
+        "C_UK003_101",
+        "C_UK003_102",
+        "C_UK003_103",
+        "C_UK003_105",
+        "C_UK003_11",
+        "C_UK003_13",
+        "C_UK003_14",
+        "C_UK003_15",
+        "C_UK003_16",
+        "C_UK003_17",
+        "C_UK003_19",
+        "C_UK003_20",
+        "C_UK003_21",
+        "C_UK003_23",
+        "C_UK003_24",
+        "C_UK003_25",
+        "C_UK003_27",
+        "C_UK003_28",
+        "C_UK003_29",
+        "C_UK003_30",
+        "C_UK003_32",
+        "C_UK003_33",
+        "C_UK003_34",
+        "C_UK003_35",
+        "C_UK003_36",
+        "C_UK003_37",
+        "C_UK003_38",
+        "C_UK003_39",
+        "C_UK003_40",
+        "C_UK003_42",
+        "C_UK003_45",
+        "C_UK003_47",
+        "C_UK003_48",
+        "C_UK003_49",
+        "C_UK003_50",
+        "C_UK003_51",
+        "C_UK003_53",
+        "C_UK003_55",
+        "C_UK003_57",
+        "C_UK003_58",
+        "C_UK003_60",
+        "C_UK003_62",
+        "C_UK003_63",
+        "C_UK003_67",
+        "C_UK003_68",
+        "C_UK003_69",
+        "C_UK003_72",
+        "C_UK003_73",
+        "C_UK003_74",
+        "C_UK003_75",
+        "C_UK003_76",
+        "C_UK003_77",
+        "C_UK003_78",
+        "C_UK003_79",
+        "C_UK003_80",
+        "C_UK003_83",
+        "C_UK003_84",
+        "C_UK003_85",
+        "C_UK003_86",
+        "C_UK003_90",
+        "C_UK003_91",
+        "C_UK003_92",
+        "C_UK003_93",
+        "C_UK003_95",
+        "C_UK003_96",
+        "C_UK003_97",
+        "C_UK003_98",
+        "C_UK003_99"
+      ],
+      "fee_status": "INTL",
+      "course_kinds": [
+        "postgraduate_taught",
+        "undergraduate_taught",
+        "undergraduate_topup"
+      ],
+      "academic_year": "2027/28",
+      "payment_stage": "before_cas",
+      "source_period": "current_undated_policy",
+      "schema_version": 1,
+      "full_fee_paying": true,
+      "course_source_urls": {
+        "C_UK003_05": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+        "C_UK003_19": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+        "C_UK003_24": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+        "C_UK003_29": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+        "C_UK003_30": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+        "C_UK003_96": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management"
+      },
+      "eligibility_questions": [
+        {
+          "key": "requires_student_visa",
+          "type": "boolean",
+          "question": "Do you require a Student visa?"
+        },
+        {
+          "key": "full_fee_paying",
+          "type": "boolean",
+          "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+        },
+        {
+          "key": "sponsored",
+          "type": "boolean",
+          "question": "Will a sponsor provide a sponsorship letter?"
+        }
+      ],
+      "requires_student_visa": true,
+      "deduct_scholarship_from_deposit": false,
+      "offer_letter_confirmation_required": true,
+      "sponsorship_letter_requires_review": true
+    }
+  },
+  "courses": [
+    {
+      "course_id": "C_UK003_05",
+      "changed": false,
+      "before": {
+        "raw_fees": {
+          "campus": "Peterborough",
+          "intake": "September 2027",
+          "currency": "GBP",
+          "fee_note": "Published annual international tuition for September 2027, standard full-time campus route. Foundation, placement and part-time routes are excluded.",
+          "verified": true,
+          "fee_method": "reviewed_named_standard_route",
+          "study_year": 1,
+          "course_kind": "undergraduate",
+          "mapping_kind": "campus_correction",
+          "academic_year": "2027/28",
+          "source_sha256": "3d883352cd1a2faa8324c0c02a56fb50a7086ccdc7434eb57889d70997201b80",
+          "annual_tuition": "18825.00",
+          "deposit_status": "verified_policy_eligibility_required",
+          "fee_categories": [
+            {
+              "currency": "GBP",
+              "academic_year": "2027/28",
+              "annual_tuition": "18825.00",
+              "source_fee_category": "International",
+              "amount_requires_review": false
+            }
+          ],
+          "campus_correction": {
+            "note": "Matched the exact advertised Business and Management title and UCAS code N127 to Peterborough.",
+            "source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+            "previous_location": "Cambridge Campus",
+            "corrected_location": "Peterborough Campus"
+          },
+          "course_source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+          "scholarship_status": "verified_rule_eligibility_required",
+          "source_fee_category": "International",
+          "scholarship_scope_note": "Existing first-year UG lower/higher rules; ARU must confirm the applicable award tier.",
+          "published_deposit_evidence": {
+            "amount": "4000.00",
+            "currency": "GBP",
+            "source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+            "alternative": "sponsorship_letter",
+            "source_sha256": "3d883352cd1a2faa8324c0c02a56fb50a7086ccdc7434eb57889d70997201b80"
+          }
+        },
+        "scholarship": "0.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "raw_fees": {
+          "campus": "Peterborough",
+          "intake": "September 2027",
+          "currency": "GBP",
+          "fee_note": "Published annual international tuition for September 2027, standard full-time campus route. Foundation, placement and part-time routes are excluded.",
+          "verified": true,
+          "fee_method": "reviewed_named_standard_route",
+          "study_year": 1,
+          "course_kind": "undergraduate",
+          "mapping_kind": "campus_correction",
+          "academic_year": "2027/28",
+          "source_sha256": "3d883352cd1a2faa8324c0c02a56fb50a7086ccdc7434eb57889d70997201b80",
+          "annual_tuition": "18825.00",
+          "deposit_status": "verified_policy_eligibility_required",
+          "fee_categories": [
+            {
+              "currency": "GBP",
+              "academic_year": "2027/28",
+              "annual_tuition": "18825.00",
+              "source_fee_category": "International",
+              "amount_requires_review": false
+            }
+          ],
+          "campus_correction": {
+            "note": "Matched the exact advertised Business and Management title and UCAS code N127 to Peterborough.",
+            "source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+            "previous_location": "Cambridge Campus",
+            "corrected_location": "Peterborough Campus"
+          },
+          "course_source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+          "scholarship_status": "verified_rule_eligibility_required",
+          "source_fee_category": "International",
+          "scholarship_scope_note": "Existing first-year UG lower/higher rules; ARU must confirm the applicable award tier.",
+          "published_deposit_evidence": {
+            "amount": "4000.00",
+            "currency": "GBP",
+            "alternative": "sponsorship_letter",
+            "source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+            "source_sha256": "3d883352cd1a2faa8324c0c02a56fb50a7086ccdc7434eb57889d70997201b80"
+          }
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null
+      }
+    },
+    {
+      "course_id": "C_UK003_30",
+      "changed": false,
+      "before": {
+        "raw_fees": {
+          "campus": "Cambridge",
+          "intake": "September 2027",
+          "currency": "GBP",
+          "fee_note": "Published annual international tuition for September 2027, standard full-time campus route. Foundation, placement and part-time routes are excluded.",
+          "verified": true,
+          "fee_method": "reviewed_named_standard_route",
+          "study_year": 1,
+          "course_kind": "postgraduate_taught",
+          "mapping_kind": "explicit_replacement",
+          "academic_year": "2027/28",
+          "source_sha256": "5b19064f79bd9b0be96fe8cd1af07efa142232d8d86f103797ac74399c5a3124",
+          "annual_tuition": "20925.00",
+          "deposit_status": "verified_policy_eligibility_required",
+          "fee_categories": [
+            {
+              "currency": "GBP",
+              "academic_year": "2027/28",
+              "annual_tuition": "20925.00",
+              "source_fee_category": "International",
+              "amount_requires_review": false
+            }
+          ],
+          "course_source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+          "route_replacement": {
+            "note": "Explicit replacement with a currently advertised course. This record does not claim a university-confirmed renaming.",
+            "source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+            "previous_title": "MSc Foundations in Clinical Psychology",
+            "replacement_title": "MSc Clinical Applications of Psychology"
+          },
+          "scholarship_status": "verified_rule_eligibility_required",
+          "source_fee_category": "International",
+          "scholarship_scope_note": "Existing first-year International PG rule for eligible ARU graduates. The award is a conditional maximum, not guaranteed.",
+          "published_deposit_evidence": {
+            "amount": "4000.00",
+            "currency": "GBP",
+            "source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+            "alternative": "sponsorship_letter",
+            "source_sha256": "5b19064f79bd9b0be96fe8cd1af07efa142232d8d86f103797ac74399c5a3124"
+          }
+        },
+        "scholarship": "0.0",
+        "scholarship_source_id": null
+      },
+      "after": {
+        "raw_fees": {
+          "campus": "Cambridge",
+          "intake": "September 2027",
+          "currency": "GBP",
+          "fee_note": "Published annual international tuition for September 2027, standard full-time campus route. Foundation, placement and part-time routes are excluded.",
+          "verified": true,
+          "fee_method": "reviewed_named_standard_route",
+          "study_year": 1,
+          "course_kind": "postgraduate_taught",
+          "mapping_kind": "explicit_replacement",
+          "academic_year": "2027/28",
+          "source_sha256": "5b19064f79bd9b0be96fe8cd1af07efa142232d8d86f103797ac74399c5a3124",
+          "annual_tuition": "20925.00",
+          "deposit_status": "verified_policy_eligibility_required",
+          "fee_categories": [
+            {
+              "currency": "GBP",
+              "academic_year": "2027/28",
+              "annual_tuition": "20925.00",
+              "source_fee_category": "International",
+              "amount_requires_review": false
+            }
+          ],
+          "course_source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+          "route_replacement": {
+            "note": "Explicit replacement with a currently advertised course. This record does not claim a university-confirmed renaming.",
+            "source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+            "previous_title": "MSc Foundations in Clinical Psychology",
+            "replacement_title": "MSc Clinical Applications of Psychology"
+          },
+          "scholarship_status": "verified_rule_eligibility_required",
+          "source_fee_category": "International",
+          "scholarship_scope_note": "Existing first-year International PG rule for eligible ARU graduates. The award is a conditional maximum, not guaranteed.",
+          "published_deposit_evidence": {
+            "amount": "4000.00",
+            "currency": "GBP",
+            "alternative": "sponsorship_letter",
+            "source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+            "source_sha256": "5b19064f79bd9b0be96fe8cd1af07efa142232d8d86f103797ac74399c5a3124"
+          }
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null
+      }
+    }
+  ],
+  "proposed_items": 0,
+  "completed": true
+}

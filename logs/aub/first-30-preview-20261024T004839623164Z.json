@@ -1,0 +1,1944 @@
+{
+  "generated_at": "2026-10-24T00:48:39.623164+00:00",
+  "university_id": "UK005",
+  "database_changes": false,
+  "evidence_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aub\\source-review-20261024T004000918202Z\\source-review.json",
+  "captures_hash_checked": 69,
+  "proposals": [
+    {
+      "course_id": "C_UK005_01",
+      "title": "BA (Hons) Acting",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5437,
+          "course_id": "C_UK005_01",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-acting",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W410"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-acting",
+        "course_file": "page-039.html",
+        "course_sha256": "2509c97bd0b9bd13ebf3d530cb92b8e6b4f81dbfaaf3fc78b458be7b9183e93e",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_02",
+      "title": "BA (Hons) Animation Production",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5439,
+          "course_id": "C_UK005_02",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-animation-production",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W615"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-animation-production",
+        "course_file": "page-041.html",
+        "course_sha256": "62cd75bcd0732b91b7bd63c71345bfed96f8be715dbd4c1f5037d68c691cddf4",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_03",
+      "title": "BA (Hons) Architecture",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5441,
+          "course_id": "C_UK005_03",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-architecture-riba-arb",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "K100"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-architecture-riba-arb",
+        "course_file": "page-042.html",
+        "course_sha256": "e948b28554a179aae5bd3284dad2be123acc6b362d34089dac19752bcfd69287",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_05",
+      "title": "BA (Hons) Commercial Photography",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5445,
+          "course_id": "C_UK005_05",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-commercial-photography",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W644"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-commercial-photography",
+        "course_file": "page-043.html",
+        "course_sha256": "6ed2d77a17d0cc42c1cc5cbaa732452b6235036339510338c7d76238b6e63139",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_06",
+      "title": "BA (Hons) Communication Design and Strategy",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5447,
+          "course_id": "C_UK005_06",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-communication-design-strategy",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W213"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-communication-design-strategy",
+        "course_file": "page-044.html",
+        "course_sha256": "c2361cebf47d73de37143008a7b84553221abf89206a0c0901328237705e0a3b",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_07",
+      "title": "BA (Hons) Content Creation with Marketing",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5449,
+          "course_id": "C_UK005_07",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-content-creation-with-marketing",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W225"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-content-creation-with-marketing",
+        "course_file": "page-045.html",
+        "course_sha256": "4b27e31b75befc9680b4e7d2b8cc4ace0596647f5c0230afae99afef88c6ae7f",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_08",
+      "title": "BA (Hons) Costume",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5451,
+          "course_id": "C_UK005_08",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-costume",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W452"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-costume",
+        "course_file": "page-046.html",
+        "course_sha256": "ad2e29ebba22b7b0d6e6bde5f7a14d9a294b24dda6a54532461b3090ac4d06e6",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_09",
+      "title": "BA (Hons) Costume for Film",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5453,
+          "course_id": "C_UK005_09",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-costume-for-film",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W454"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-costume-for-film",
+        "course_file": "page-047.html",
+        "course_sha256": "619af56967f4e0871c08693cf7f6427a1e4be85db0506f7af3930c73d2f3394f",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_10",
+      "title": "BA (Hons) Creative Writing",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5455,
+          "course_id": "C_UK005_10",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-creative-writing",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W800"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-creative-writing",
+        "course_file": "page-049.html",
+        "course_sha256": "7ebdc43e1cad337380f7934911b8b6909e45b4be2d68c0b7a1fddd3c0b5bd6e4",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_12",
+      "title": "BA (Hons) Fashion",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5459,
+          "course_id": "C_UK005_12",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-fashion",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W230"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-fashion",
+        "course_file": "page-051.html",
+        "course_sha256": "2a9ca97b40c7ec017b288a0533ddb73b34a1e02ef0cafbc9096be7d172f3a96f",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_13",
+      "title": "BA (Hons) Fashion Communication",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5461,
+          "course_id": "C_UK005_13",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-fashion-communication",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W111"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-fashion-communication",
+        "course_file": "page-052.html",
+        "course_sha256": "41b5570fdc1b4b6d86dd96209d5bcf35468c1a50aacbd03baf239fc86f75357f",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_14",
+      "title": "BSc (Hons) Fashion Management and Strategy",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5463,
+          "course_id": "C_UK005_14",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/bsc-hons-fashion-management-and-strategy",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W112"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/bsc-hons-fashion-management-and-strategy",
+        "course_file": "page-068.html",
+        "course_sha256": "cb9086981f442ce2072d647f215571c25885f801893d58284c0d6ce41698bc6c",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_15",
+      "title": "BA (Hons) Film Production",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5465,
+          "course_id": "C_UK005_15",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-film-production",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W610"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-film-production",
+        "course_file": "page-053.html",
+        "course_sha256": "22619b211f9e798f6e7176d74f809c619dcc5ef67af76937173924d8aa344de2",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_16",
+      "title": "BA (Hons) Fine Art",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5467,
+          "course_id": "C_UK005_16",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-fine-art",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W100"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-fine-art",
+        "course_file": "page-054.html",
+        "course_sha256": "20f298824a88ce0c02488ef5268330d619177f348e90c02c6297712473eca701",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_17",
+      "title": "BA (Hons) Games Art and Design",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5469,
+          "course_id": "C_UK005_17",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-games-art-and-design",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "I620"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-games-art-and-design",
+        "course_file": "page-055.html",
+        "course_sha256": "80085e272f5f9c43542ccf68ac61627e548f18d761104ccaf0f4f3845c011769",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_18",
+      "title": "BA (Hons) Graphic Design",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5471,
+          "course_id": "C_UK005_18",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-graphic-design",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W210"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-graphic-design",
+        "course_file": "page-056.html",
+        "course_sha256": "f4d3d8259503d5c9e85ce85fdb58f76abff5be2f95d014954d95a2131303a9b5",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_19",
+      "title": "BA (Hons) Illustration",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5473,
+          "course_id": "C_UK005_19",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-illustration",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W220"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-illustration",
+        "course_file": "page-057.html",
+        "course_sha256": "b3fbd704d3d96d51946acce41e05c84e2f672b83d1a4f4731e31b0a223164f23",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_20",
+      "title": "BA (Hons) Interior Architecture and Design",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5475,
+          "course_id": "C_UK005_20",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-interior-architecture-design",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "KW12"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-interior-architecture-design",
+        "course_file": "page-058.html",
+        "course_sha256": "fe89f7c27f1e2dda0ea0d46fe8506d2fe0f0fb21d8b8a220d4418a1e5901bdf1",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_26",
+      "title": "BA (Hons) Acting for Screen",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5487,
+          "course_id": "C_UK005_26",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-acting-for-screen",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W412"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-acting-for-screen",
+        "course_file": "page-040.html",
+        "course_sha256": "9a67de4f4b6eb34dfce65b5a205cc030cc0d58c4b7045b6c2e5fe5f89bb88a56",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_29",
+      "title": "BA (Hons) Modelmaking",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5493,
+          "course_id": "C_UK005_29",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/ba-hons-modelmaking",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": "W291"
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/ba-hons-modelmaking",
+        "course_file": "page-062.html",
+        "course_sha256": "27c53f9423aade80b74b06d06898873f6aaa1f7bac0aad700867cd508267c099",
+        "fee_page": "https://aub.ac.uk/fees/undergraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "5000.00",
+        "illustrative_net_at_maximum": "14950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_21",
+      "title": "MA Animation Production",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5477,
+          "course_id": "C_UK005_21",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/graduate-courses/ma-animation-production",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": null
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/graduate-courses/ma-animation-production",
+        "course_file": "page-016.html",
+        "course_sha256": "13b1ae61908e2b6c21e2124bca5d9ef3bdd6f68ee6e2b9311f6df5c7200ec998",
+        "fee_page": "https://aub.ac.uk/fees/postgraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "3000.00",
+        "illustrative_net_at_maximum": "16950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_22",
+      "title": "Master of Architecture (Part 2)",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5479,
+          "course_id": "C_UK005_22",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/graduate-courses/master-of-architecture-part-2-arb-riba",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": null
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/graduate-courses/master-of-architecture-part-2-arb-riba",
+        "course_file": "page-038.html",
+        "course_sha256": "5f9b83e21924df0dca517daace6e25a4b76cb0f87e5584c8fe126e607a608e9b",
+        "fee_page": "https://aub.ac.uk/fees/postgraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "3000.00",
+        "illustrative_net_at_maximum": "16950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28.",
+        "MArch is two years; this academic-year quote is not a verified full two-year programme total. The fee table lists registration as N/A."
+      ]
+    },
+    {
+      "course_id": "C_UK005_24",
+      "title": "MA Fine Art",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5483,
+          "course_id": "C_UK005_24",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/graduate-courses/ma-fine-art",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": null
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/graduate-courses/ma-fine-art",
+        "course_file": "page-023.html",
+        "course_sha256": "adf5b8f4a8462350600895c349c932367c36f210f02d08ce2e6a6de1122d81a0",
+        "fee_page": "https://aub.ac.uk/fees/postgraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "3000.00",
+        "illustrative_net_at_maximum": "16950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_25",
+      "title": "MA Graphic Design",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5485,
+          "course_id": "C_UK005_25",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/graduate-courses/ma-graphic-design",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": null
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/graduate-courses/ma-graphic-design",
+        "course_file": "page-024.html",
+        "course_sha256": "6770eff5070bb963d61dc8debcb12560b5cde80e3d37a6205ee1cb848f13d896",
+        "fee_page": "https://aub.ac.uk/fees/postgraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "3000.00",
+        "illustrative_net_at_maximum": "16950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_34",
+      "title": "MA Historical Costume",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5503,
+          "course_id": "C_UK005_34",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/graduate-courses/ma-historical-costume",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": null
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/graduate-courses/ma-historical-costume",
+        "course_file": "page-026.html",
+        "course_sha256": "4a3954be221d6682145d172275caf2032f10848ab8924b16153131a6511919e4",
+        "fee_page": "https://aub.ac.uk/fees/postgraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "3000.00",
+        "illustrative_net_at_maximum": "16950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_35",
+      "title": "MA Illustration",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5505,
+          "course_id": "C_UK005_35",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/graduate-courses/ma-illustration",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": null
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/graduate-courses/ma-illustration",
+        "course_file": "page-027.html",
+        "course_sha256": "0b39ac2a9858b7e026624e46edf52417ebb004c929d949b7039f7b1538e068d7",
+        "fee_page": "https://aub.ac.uk/fees/postgraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "3000.00",
+        "illustrative_net_at_maximum": "16950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_36",
+      "title": "MA Photography",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5507,
+          "course_id": "C_UK005_36",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/graduate-courses/ma-photography",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": null
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/graduate-courses/ma-photography",
+        "course_file": "page-033.html",
+        "course_sha256": "f2b0d5561a213919a18c45e38e424f0d8d4c6bee49367638f547753681879ce1",
+        "fee_page": "https://aub.ac.uk/fees/postgraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "3000.00",
+        "illustrative_net_at_maximum": "16950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_37",
+      "title": "MA Painting",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5509,
+          "course_id": "C_UK005_37",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/graduate-courses/ma-painting",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": null
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/graduate-courses/ma-painting",
+        "course_file": "page-032.html",
+        "course_sha256": "ee045822edc691aae3d1c2574ae8806d0ca299e32e15512e65b89d3f9a132c30",
+        "fee_page": "https://aub.ac.uk/fees/postgraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "3000.00",
+        "illustrative_net_at_maximum": "16950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_38",
+      "title": "MA Innovation and Creative Entrepreneurship",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": false,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5511,
+          "course_id": "C_UK005_38",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/graduate-courses/ma-innovation-and-creative-entrepreneurship",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": null
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/graduate-courses/ma-innovation-and-creative-entrepreneurship",
+        "course_file": "page-029.html",
+        "course_sha256": "734e17c432bf25f03d59e9668300c32fb1af7015d111453aeb0d31214cfaaf66",
+        "fee_page": "https://aub.ac.uk/fees/postgraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "3000.00",
+        "illustrative_net_at_maximum": "16950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28."
+      ]
+    },
+    {
+      "course_id": "C_UK005_39",
+      "title": "MA User Experience (UX/UI)",
+      "mapping": "reviewed_same_award_route",
+      "subject_to_validation": true,
+      "before": {
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aub.ac.uk",
+        "tuition": {
+          "id": 5513,
+          "course_id": "C_UK005_39",
+          "residency": "INTL",
+          "tuition_fee": "19950.0",
+          "scholarship": "5000.0",
+          "tuition_deposit": "3000",
+          "currency": "GBP",
+          "scholarship_source_id": null
+        }
+      },
+      "proposed": {
+        "course_url": "https://aub.ac.uk/graduate-courses/ma-user-experience-ux-ui",
+        "start_month": "September",
+        "start_year": 2027,
+        "academic_year": "2027/28",
+        "gross_tuition": "19950.00",
+        "currency": "GBP",
+        "comparison_period": "academic_year",
+        "ucas_code_if_captured": null
+      },
+      "evidence": {
+        "course_page": "https://aub.ac.uk/graduate-courses/ma-user-experience-ux-ui",
+        "course_file": "page-036.html",
+        "course_sha256": "950d18abfb9459ae83cd2ab3f00e6bc8d7d24215adff7a424fb51776d4287cb4",
+        "fee_page": "https://aub.ac.uk/fees/postgraduate"
+      },
+      "scholarship": {
+        "status": "competitive_actual_award_amount_required",
+        "published_maximum": "3000.00",
+        "illustrative_net_at_maximum": "16950.00",
+        "automatic_deduction": false,
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "questions_saved_for": "scholarship_page",
+        "required_answers": [
+          "overseas_fee_status_confirmed",
+          "qualifying_offer_and_intake_confirmed",
+          "application_submitted_by_published_deadline",
+          "award_granted_and_accepted",
+          "confirmed_award_amount",
+          "no_disqualifying_other_AUB_award"
+        ]
+      },
+      "deposit": {
+        "numeric_amount": null,
+        "status": "2027_28_policy_confirmation_required",
+        "message": "Confirm the applicable acceptance and pre-CAS payment requirements with AUB; the collected payment policy is labelled 2026/27."
+      },
+      "messages": [
+        "September 2027 / 2027/28 proposal; replacing the stored 2026 intake requires explicit review.",
+        "Original gross tuition remains separate from competitive scholarship deductions.",
+        "The stored 2026 scholarship deadline is not verified for this cohort.",
+        "2026/27 payment-policy amounts have not been extended to 2027/28.",
+        "This course is subject to validation; do not present admission/availability as unconditional."
+      ]
+    }
+  ],
+  "summary": {
+    "campus_fee_proposals": 30,
+    "validation_condition_cases": 1,
+    "automatically_deducted_scholarships": 0,
+    "verified_2027_28_numeric_deposit_amounts": 0
+  },
+  "outside_batch": [
+    "4 online MA programme totals",
+    "8 integrated foundation-year subject/UCAS routes",
+    "6 unmatched awards",
+    "Future Media Production fuzzy match is not a mapping",
+    "Digital Fashion Innovation versus Fashion Innovation requires explicit route review"
+  ]
+}

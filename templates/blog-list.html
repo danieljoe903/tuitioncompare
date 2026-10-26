@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}<title>Blog - Latest University & Education Articles | University Tuition Compare</title>{% endblock %}
+
+{% block meta %}
+<meta name="description" content="Stay updated with the latest articles, guides, and insights about studying in the UK and Ireland. Expert advice on university selection, courses, tuition fees, and scholarships.">
+<meta name="keywords" content="university blog, study in UK, study in Ireland, university guides, education articles, tuition fees, scholarships">
+<meta name="author" content="University Tuition Compare">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ request.scheme }}://www.{{ request.get_host|cut:'www.' }}{{ request.path }}">
+<meta property="og:title" content="Blog - University Tuition Compare">
+<meta property="og:description" content="Latest articles and insights about studying in the UK and Ireland">
+<meta property="og:image" content="{{ request.scheme }}://www.{{ request.get_host|cut:'www.' }}{% static 'images/mine/university compare.png' %}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ request.scheme }}://www.{{ request.get_host|cut:'www.' }}{{ request.path }}">
+<meta property="twitter:title" content="Blog - University Tuition Compare">
+<meta property="twitter:description" content="Latest articles and insights about studying in the UK and Ireland">
+<meta property="twitter:image" content="{{ request.scheme }}://www.{{ request.get_host|cut:'www.' }}{% static 'images/mine/university compare.png' %}">
+
+<link rel="canonical" href="{{ request.scheme }}://www.{{ request.get_host|cut:'www.' }}{{ request.path }}">
+{% endblock %}
+
+{% block content %}
+    <div class="pt-24"></div>
+        <!-- Hero Section -->
+        <section style="background-color: #102C46;" class="relative overflow-hidden py-12 md:py-16">
+            <div class="container">
+                <div class="max-w-3xl">
+                    <p class="relative z-0 inline-block text-primary text-lg font-bold before:absolute before:content-[''] before:bg-primary/20 before:w-full before:h-2 before:-z-1 before:bottom-0" data-aos="fade-up" data-aos-delay="100">
+                        Our Blog
+                    </p>
+                    <h1 class="py-4 text-3xl md:text-4xl font-bold text-white" data-aos="fade-up" data-aos-delay="200">
+                        Latest Articles & Insights
+                    </h1>
+                    <p class="text-lg text-white text-opacity-80 font-normal" data-aos="fade-up" data-aos-delay="300">
+                        Stay updated with the latest news, guides, and tips about studying in the UK and Ireland
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Blog Posts Section -->
+        <section class="bg-IcyBreeze dark:bg-darklight py-16">
+            <div class="container">
+                <div class="max-w-7xl mx-auto">
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {% for post in page_obj %}
+                            <article class="bg-white dark:bg-dark_card rounded-22 overflow-hidden shadow-round-box hover:shadow-xl transition-shadow duration-300" data-aos="fade-up">
+                                {% if post.featured_image %}
+                                <div class="h-48 overflow-hidden">
+                                    <img src="{{ post.featured_image.url }}" alt="{{ post.title }}" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300">
+                                </div>
+                                {% else %}
+                                <div class="h-48 bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center">
+                                    <svg class="w-16 h-16 text-white opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
+                                    </svg>
+                                </div>
+                                {% endif %}
+                                
+                                <div class="p-6">
+                                    <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 mb-3">
+                                        <span class="flex items-center gap-2">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                            </svg>
+                                            {{ post.published_at|date:"M d, Y" }}
+                                        </span>
+                                        {% if post.category %}
+                                        <span class="flex items-center gap-2">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path>
+                                            </svg>
+                                            {{ post.category.name }}
+                                        </span>
+                                        {% endif %}
+                                    </div>
+                                    
+                                    <h2 class="text-lg font-bold mb-3">
+                                        <a href="{% url 'blog-detail' post.slug %}" class="hover:text-primary transition-colors">
+                                            {{ post.title }}
+                                        </a>
+                                    </h2>
+                                    
+                                    <p class="text-sm text-SlateBlueText dark:text-opacity-80 mb-4 line-clamp-3">
+                                        {{ post.excerpt }}
+                                    </p>
+                                    
+                                    <a href="{% url 'blog-detail' post.slug %}" class="btn btn-1 hover-filled-slide-down rounded-lg overflow-hidden inline-block btn-small">
+                                        <span>Read More</span>
+                                    </a>
+                                </div>
+                            </article>
+                            {% empty %}
+                            <div class="col-span-full text-center py-12">
+                                <svg class="w-24 h-24 mx-auto text-gray-400 dark:text-gray-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
+                                </svg>
+                                <h3 class="text-2xl font-bold text-gray-700 dark:text-gray-300 mb-2">No Posts Yet</h3>
+                                <p class="text-gray-600 dark:text-gray-400">Check back soon for new articles!</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        
+                        <!-- Pagination -->
+                        {% if page_obj.has_other_pages %}
+                        <div class="mt-12 flex justify-center gap-2">
+                            {% if page_obj.has_previous %}
+                            <a href="?page={{ page_obj.previous_page_number }}" class="px-4 py-2 bg-white dark:bg-dark_card rounded-lg hover:bg-primary hover:text-white transition-colors">Previous</a>
+                            {% endif %}
+                            
+                            {% for num in page_obj.paginator.page_range %}
+                                {% if page_obj.number == num %}
+                                <span class="px-4 py-2 bg-primary text-white rounded-lg">{{ num }}</span>
+                                {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+                                <a href="?page={{ num }}" class="px-4 py-2 bg-white dark:bg-dark_card rounded-lg hover:bg-primary hover:text-white transition-colors">{{ num }}</a>
+                                {% endif %}
+                            {% endfor %}
+                            
+                            {% if page_obj.has_next %}
+                            <a href="?page={{ page_obj.next_page_number }}" class="px-4 py-2 bg-white dark:bg-dark_card rounded-lg hover:bg-primary hover:text-white transition-colors">Next</a>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+        </section>
+{% endblock %}

@@ -1,0 +1,1623 @@
+{
+  "university_id": "UK004",
+  "plans": [
+    {
+      "course_id": "C_UK004_01",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management",
+      "source_html_sha256": "10d8e0dee164ffc2c6229fef99f5e6d328bd645a8157a2d3ffbb49c72a30ad44",
+      "title": "BA (Hons) Business Management",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Full-time: 3 years (Blended) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1551|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_01",
+        "university_id": "UK004",
+        "subject_id": 23,
+        "title": "BA (Hons) Business Management",
+        "level": "UG",
+        "overview": "CMI accredited; focused on core business principles and leadership development.",
+        "modules": "Strategic Management, Marketing, HR, Finance, Operations",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:44.911Z",
+        "updated_at": "2026-03-28T18:14:44.911Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1551",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1551",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_02",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/finance-degrees/bsc-accounting-finance",
+      "source_html_sha256": "48d1583801e11ecfbd9ad28a99ec4731ec940aff579b0cc828b3ec0f4f2d1624",
+      "title": "BSc (Hons) Accounting and Finance",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Full-time: 3 years (Blended) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1199|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_02",
+        "university_id": "UK004",
+        "subject_id": 1,
+        "title": "BSc (Hons) Accounting and Finance",
+        "level": "UG",
+        "overview": "Accredited by ACCA and CIMA; providing professional exam exemptions.",
+        "modules": "Financial Accounting, Management Accounting, Taxation, Audit",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:44.940Z",
+        "updated_at": "2026-03-28T18:14:44.940Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1199",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1199",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_03",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/healthcare-and-social-care/bsc-hons-health-and-care-management",
+      "source_html_sha256": "af32f9e3855140a89865bf645a1ef783a6af61a5c64d61ab365695aa2fb96527",
+      "title": "BSc (Hons) Health and Care Management",
+      "duration": "3-9 years (part-time)",
+      "duration_evidence": "Full-time: 3 years (Blended) Part-time: 3-9 years (Online)",
+      "study_options": [
+        "c1957|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_03",
+        "university_id": "UK004",
+        "subject_id": 68,
+        "title": "BSc (Hons) Health and Care Management",
+        "level": "UG",
+        "overview": "Preparing students for leadership roles in the health and social care sectors.",
+        "modules": "Health Policy, Care Management, Ethics, Leadership in Care",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:44.966Z",
+        "updated_at": "2026-03-28T18:14:44.966Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1957",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1957",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_04",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/computing-degrees/bsc-hons-computing",
+      "source_html_sha256": "2bb7261aa564bdd88a46a86bdd1655575a624774a309a8aef3340c5a8f1c487d",
+      "title": "BSc (Hons) Computing",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Full-time: 3 years (Blended) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1186|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_04",
+        "university_id": "UK004",
+        "subject_id": 33,
+        "title": "BSc (Hons) Computing",
+        "level": "UG",
+        "overview": "BCS accredited; covering software development and systems management.",
+        "modules": "Programming, Systems Analysis, Web Dev, Database Systems",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:44.993Z",
+        "updated_at": "2026-03-28T18:14:44.993Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1186",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1186",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_05",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/psychology-degrees/bsc-hons-psychology-bps",
+      "source_html_sha256": "695fe9bf4c4ba0969cd8f0c01bfbc6069371a18979de3d829ab32095e6fdeff9",
+      "title": "BSc (Hons) Psychology",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Full-time: 3 years (Blended) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1561|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_05",
+        "university_id": "UK004",
+        "subject_id": 107,
+        "title": "BSc (Hons) Psychology",
+        "level": "UG",
+        "overview": "BPS accredited; scientific study of the human mind and social behaviour.",
+        "modules": "Social Psychology, Cognitive Research, Biopsychology, Personality",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.020Z",
+        "updated_at": "2026-03-28T18:14:45.020Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1561",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1561",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_06",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/law-degrees/llb-hons",
+      "source_html_sha256": "b5df81809c3669f73a809dd114481f06e970baebe837a0612b20932724c7bc14",
+      "title": "LLB (Hons) Law",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Full-time: 3 years (Blended) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1545|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_06",
+        "university_id": "UK004",
+        "subject_id": 79,
+        "title": "LLB (Hons) Law",
+        "level": "UG",
+        "overview": "Qualifying law degree (QLD) focusing on legal theory and practical advocacy.",
+        "modules": "Criminal Law, Contract Law, Public Law, Land Law, Equity",
+        "entry_requirements": "UCAS 96-104; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.055Z",
+        "updated_at": "2026-03-28T18:14:45.055Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1545",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1545",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_07",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology-psychology",
+      "source_html_sha256": "260293b93af70351ca1b8374435cd16066723cdf5c048d87589ea00a5fddea5a",
+      "title": "BA (Hons) Criminology and Psychology",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Full-time: 3 years (Blended) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c2572|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_07",
+        "university_id": "UK004",
+        "subject_id": 36,
+        "title": "BA (Hons) Criminology and Psychology",
+        "level": "UG",
+        "overview": "Combined study of criminal justice and the psychological causes of crime.",
+        "modules": "Criminal Justice, Victims, Forensic Psychology, Social Research",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.084Z",
+        "updated_at": "2026-03-28T18:14:45.084Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=2572",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=2572",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_08",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/marketing-degree/bsc-hons-digital-marketing",
+      "source_html_sha256": "d5544e4689108759923768c2904ea74258da066a1904499b8b808cdf2a7ae52e",
+      "title": "BSc (Hons) Digital Marketing",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c3330|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_08",
+        "university_id": "UK004",
+        "subject_id": 42,
+        "title": "BA (Hons) Digital Marketing",
+        "level": "UG",
+        "overview": "DMI accredited; focused on online consumer behaviour and SEO strategies.",
+        "modules": "Social Media, SEO, Content Marketing, Analytics, Branding",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.108Z",
+        "updated_at": "2026-03-28T18:14:45.108Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=3330",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=3330",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_09",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-hrm",
+      "source_html_sha256": "4bb3decb9ebe64ea9479f738d9c860446f17687acbcf930a476739214a7359fb",
+      "title": "BA (Hons) Business Management (Human Resource Management)",
+      "duration": "3 years full-time; 3 years+ part-time",
+      "duration_evidence": "Full-time: 3 years (Online) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1554|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_09",
+        "university_id": "UK004",
+        "subject_id": 71,
+        "title": "BA (Hons) Business Management (HRM)",
+        "level": "UG",
+        "overview": "Specialized management degree focusing on human capital and employment law.",
+        "modules": "Strategic HRM, Leadership, Employment Law, Employee Relations",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.137Z",
+        "updated_at": "2026-03-28T18:14:45.138Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1554",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1554",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_10",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-marketing",
+      "source_html_sha256": "855ca8c3e83a6cf64e416ef9c99615e7380b4c32d11307d6154502b40fce736a",
+      "title": "BA (Hons) Business Management (Marketing)",
+      "duration": "3 years full-time; 3 years+ part-time",
+      "duration_evidence": "Full-time: 3 years (Online) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1553|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_10",
+        "university_id": "UK004",
+        "subject_id": 84,
+        "title": "BA (Hons) Business Management (Marketing)",
+        "level": "UG",
+        "overview": "Focusing on market research, digital branding, and communications.",
+        "modules": "Market Research, Consumer Behaviour, Branding, Advertising",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.166Z",
+        "updated_at": "2026-03-28T18:14:45.166Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1553",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1553",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_11",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/bsc-project-management",
+      "source_html_sha256": "fc6ba21dab1838a14beddd3ce0f5cc03e1e5c5f8aee9c986d5ae6ca792d4938c",
+      "title": "BSc (Hons) Project Management",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Full-time: 3 years (Blended) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1565|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_11",
+        "university_id": "UK004",
+        "subject_id": 106,
+        "title": "BSc (Hons) Project Management",
+        "level": "UG",
+        "overview": "APM accredited; technical skills for managing complex business projects.",
+        "modules": "Project Planning, Risk Management, Stakeholder Engagement",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.192Z",
+        "updated_at": "2026-03-28T18:14:45.192Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1565",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1565",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_12",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/criminology-degrees/ba-hons-criminology-law",
+      "source_html_sha256": "4db4fc021c2088d1e1389c737b8e54d6eaedafcdffe7e0934febd692184b5e81",
+      "title": "BA (Hons) Criminology with Law",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c2565|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_12",
+        "university_id": "UK004",
+        "subject_id": 79,
+        "title": "BA (Hons) Criminology and Law",
+        "level": "UG",
+        "overview": "Interdisciplinary study of the legal system and criminal behaviour.",
+        "modules": "Criminal Law, Tort Law, Penology, Victims and Society",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.219Z",
+        "updated_at": "2026-03-28T18:14:45.219Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=2565",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=2565",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_15",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/graphic-design-degrees/ba-hons-graphic-design",
+      "source_html_sha256": "cd29ee72ed7028febdc69fcc13379e1756de33d464a701d0bd1fcc1e18fcff65",
+      "title": "BA (Hons) Graphic Design",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1178|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_15",
+        "university_id": "UK004",
+        "subject_id": 66,
+        "title": "BA (Hons) Graphic Design",
+        "level": "UG",
+        "overview": "Studio-based degree exploring visual communication and digital design.",
+        "modules": "Typography, Branding, Digital Design, Visual Research",
+        "entry_requirements": "Portfolio; UCAS 80; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Online / London",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.305Z",
+        "updated_at": "2026-03-28T18:14:45.305Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1178",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1178",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_27",
+      "category": "campus_topup_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/degree-top-ups/bsc-hons-health-and-care-top-up",
+      "source_html_sha256": "c5a07a0454417d6544e3b3d930be11ec9bc16fba419d8bb1572e1bb1285d11d6",
+      "title": "BSc (Hons) Health and Care Management (Top-Up)",
+      "duration": "1 Year",
+      "duration_evidence": "Full-time: 1 year (Blended) Part-time: 1 year+ (Online)",
+      "study_options": [
+        "c2645|tbl1666|i2026-11|m=ft",
+        "c2645|tbl1666|i2027-02|m=ft",
+        "c2645|tbl1680|i2026-11|m=ft",
+        "c2645|tbl1680|i2027-02|m=ft"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_27",
+        "university_id": "UK004",
+        "subject_id": 68,
+        "title": "BSc (Hons) Health and Care Management (Top-Up)",
+        "level": "UG",
+        "overview": "Designed for health professionals to gain senior management skills and a full degree.",
+        "modules": "Quality Management, Service Improvement, Leadership in Healthcare",
+        "entry_requirements": "Level 5 in Health/Social Care; IELTS 6.0.",
+        "duration": "1 Year",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.618Z",
+        "updated_at": "2026-03-28T18:14:45.618Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=277&awarding_body=arden&course_id=2645",
+          "sha256": "d39d3abe39064f203fc285ae86a8512fcba7a9a502c25ac82806faf79a0d68b1",
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £16,000 Fee with UK Offer for International Students: £12,500 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £16,000 Fee with UK Offer for International Students: £13,500 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,500 Studying Online Fee Total fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=277&awarding_body=arden&course_id=2645",
+          "sha256": "d39d3abe39064f203fc285ae86a8512fcba7a9a502c25ac82806faf79a0d68b1",
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £16,000 Fee with UK Offer for International Students: £12,500 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £16,000 Fee with UK Offer for International Students: £13,500 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,500 Studying Online Fee Total fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_28",
+      "category": "campus_topup_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/degree-top-ups/bsc-computing-top-up",
+      "source_html_sha256": "3ed3c154f330a3edb035488fb12e7f73e41f4a0fb0d4466ef187bcb0440e6569",
+      "title": "BSc (Hons) Computing (Top-Up)",
+      "duration": "1 Year",
+      "duration_evidence": "Full-time: 1 year (Blended) Part-time: 1 year+ (Online)",
+      "study_options": [
+        "c1231|tbl1666|i2026-11|m=ft",
+        "c1231|tbl1666|i2027-02|m=ft",
+        "c1231|tbl1680|i2026-11|m=ft",
+        "c1231|tbl1680|i2027-02|m=ft"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_28",
+        "university_id": "UK004",
+        "subject_id": 32,
+        "title": "BSc (Hons) Computing (Top-Up)",
+        "level": "UG",
+        "overview": "A one-year bridge to a full Bachelor’s degree focusing on advanced systems.",
+        "modules": "Agile Development, Data Analytics, Computing Project",
+        "entry_requirements": "Level 5 in Computing/IT; IELTS 6.0.",
+        "duration": "1 Year",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.641Z",
+        "updated_at": "2026-03-28T18:14:45.641Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=277&awarding_body=arden&course_id=1231",
+          "sha256": "d39d3abe39064f203fc285ae86a8512fcba7a9a502c25ac82806faf79a0d68b1",
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £16,000 Fee with UK Offer for International Students: £12,500 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £16,000 Fee with UK Offer for International Students: £13,500 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,500 Studying Online Fee Total fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=277&awarding_body=arden&course_id=1231",
+          "sha256": "d39d3abe39064f203fc285ae86a8512fcba7a9a502c25ac82806faf79a0d68b1",
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £16,000 Fee with UK Offer for International Students: £12,500 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £16,000 Fee with UK Offer for International Students: £13,500 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,500 Studying Online Fee Total fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_29",
+      "category": "published_fee_unavailable",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-foundation-year",
+      "source_html_sha256": "781881832dcb538c037f6291ec61cbf9deed7143611b3b06be5c5cc9d519c994",
+      "title": "BA (Hons) Business Management with Foundation Year",
+      "duration": "4 Years",
+      "duration_evidence": "Full-time: 4 years (Blended)",
+      "study_options": [
+        "c1731|tbl1666|i2026-11|m=ft",
+        "c1731|tbl1666|i2027-02|m=ft",
+        "c1731|tbl1680|i2026-11|m=ft",
+        "c1731|tbl1680|i2027-02|m=ft"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_29",
+        "university_id": "UK004",
+        "subject_id": 23,
+        "title": "BA (Hons) Business Management with Foundation Year",
+        "level": "UG",
+        "overview": "Includes an entry year for those without traditional entry qualifications to build core skills.",
+        "modules": "Academic Skills, Business Basics, Marketing, Management Strategy",
+        "entry_requirements": "48 UCAS points or relevant work experience; IELTS 6.0.",
+        "duration": "4 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.665Z",
+        "updated_at": "2026-03-28T18:14:45.665Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=544&awarding_body=arden&course_id=1731",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=544&awarding_body=arden&course_id=1731",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_30",
+      "category": "published_fee_unavailable",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/llb-hons-qualifying-status-foundation",
+      "source_html_sha256": "52fd518ed96259c5ac40dd80eb6991d56d88c7737615421ce59becd34467e326",
+      "title": "LLB (Hons) Law with Foundation Year",
+      "duration": "4 Years",
+      "duration_evidence": "Full-time: 4 years (Blended)",
+      "study_options": [
+        "c1205|tbl1666|i2027-02|m=ft",
+        "c1205|tbl1680|i2027-02|m=ft"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_30",
+        "university_id": "UK004",
+        "subject_id": 79,
+        "title": "LLB (Hons) Law with Foundation Year",
+        "level": "UG",
+        "overview": "A four-year qualifying law degree pathway for students needing an entry year.",
+        "modules": "Foundations of Law, Academic Ethics, Criminal Law, Contract Law",
+        "entry_requirements": "48 UCAS points; IELTS 6.0.",
+        "duration": "4 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.691Z",
+        "updated_at": "2026-03-28T18:14:45.691Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=544&awarding_body=arden&course_id=1205",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=544&awarding_body=arden&course_id=1205",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_31",
+      "category": "published_fee_unavailable",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-criminology-and-psychology-foundation",
+      "source_html_sha256": "eeac2952455d75cb790dba2c35ac82d51b5bc84c2c585eae9722eaf05e638972",
+      "title": "BA (Hons) Criminology and Psychology with Foundation Year",
+      "duration": "4 Years",
+      "duration_evidence": "Full-time: 4 years (Blended)",
+      "study_options": [
+        "c2571|tbl1666|i2026-11|m=ft",
+        "c2571|tbl1680|i2026-11|m=ft",
+        "c2571|tbl1680|i2027-02|m=ft"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_31",
+        "university_id": "UK004",
+        "subject_id": 36,
+        "title": "BA (Hons) Criminology and Psychology with Foundation Year",
+        "level": "UG",
+        "overview": "Bridging the entry gap for a career in criminal justice and social science.",
+        "modules": "Developing Study Skills, Social Theory, Forensic Psychology",
+        "entry_requirements": "48 UCAS points; IELTS 6.0.",
+        "duration": "4 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.716Z",
+        "updated_at": "2026-03-28T18:14:45.716Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=544&awarding_body=arden&course_id=2571",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=544&awarding_body=arden&course_id=2571",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_32",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology-cybercrime",
+      "source_html_sha256": "427fc5d45f7b24ccc243c41aa6b67724f84763cff5eff1a4ae7c81800eada378",
+      "title": "BA (Hons) Criminology with Cybercrime",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c2438|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_32",
+        "university_id": "UK004",
+        "subject_id": 36,
+        "title": "BA (Hons) Criminology with Cybercrime",
+        "level": "UG",
+        "overview": "Examining the motivations behind digital crimes and the legal response.",
+        "modules": "Cybercrime Theory, Digital Forensics, Criminological Theory",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.739Z",
+        "updated_at": "2026-03-28T18:14:45.739Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=2438",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=2438",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_33",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/bsc-hons-policing-and-criminal-investigation",
+      "source_html_sha256": "eb28234a79b77f4323186fc60e79b4ed1aab3e62e86b2f934e2db14fb95938ec",
+      "title": "BSc (Hons) Policing and Criminal Investigation",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c2089|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_33",
+        "university_id": "UK004",
+        "subject_id": 36,
+        "title": "BA (Hons) Policing and Criminal Investigation",
+        "level": "UG",
+        "overview": "Practical study of evidence collection, investigative strategy, and law enforcement.",
+        "modules": "Criminal Investigation, Policing Power, Law of Evidence",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.765Z",
+        "updated_at": "2026-03-28T18:14:45.765Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=2089",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=2089",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_34",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/bsc-hons-hospitality-tourism-management",
+      "source_html_sha256": "c4eeac478234bbee06ef4856f3abbcd21cca7c8d34ea68bdb06cb0f379b961db",
+      "title": "BSc (Hons) International Hospitality and Tourism Management",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Full-time: 3 years (Blended) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c3047|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_34",
+        "university_id": "UK004",
+        "subject_id": 126,
+        "title": "BSc (Hons) International Hospitality and Tourism Management",
+        "level": "UG",
+        "overview": "Focused on the commercial management of the global travel and leisure industry.",
+        "modules": "Destination Marketing, Crisis Management, Tourism Economics",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.791Z",
+        "updated_at": "2026-03-28T18:14:45.791Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=3047",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=3047",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_35",
+      "category": "online_topup_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-marketing-top-up",
+      "source_html_sha256": "4ae68bf12145f161484a14914c4086d9ba94fc07cc4a54f4cb47ba506899f7d9",
+      "title": "BA (Hons) Business Management (Marketing) (Top-Up)",
+      "duration": "1 year+ (part-time)",
+      "duration_evidence": "Part-time: 1 year+ (Online)",
+      "study_options": [
+        "c1558|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_35",
+        "university_id": "UK004",
+        "subject_id": 84,
+        "title": "BA (Hons) Business Management (Marketing) (Top-Up)",
+        "level": "UG",
+        "overview": "One-year degree upgrade focusing on advanced marketing strategy and brand management.",
+        "modules": "Digital Marketing, Brand Management, Strategic Marketing",
+        "entry_requirements": "Level 5 in Marketing/Business; IELTS 6.0.",
+        "duration": "1 Year",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.816Z",
+        "updated_at": "2026-03-28T18:14:45.816Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=277&awarding_body=arden&course_id=1558",
+          "sha256": "9c5f10dcfede3438008f0a7b7e09e3506d43c074622de35d542e6655e678e73f",
+          "text": "Course fee breakdown Studying Online Fee Total fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=277&awarding_body=arden&course_id=1558",
+          "sha256": "9c5f10dcfede3438008f0a7b7e09e3506d43c074622de35d542e6655e678e73f",
+          "text": "Course fee breakdown Studying Online Fee Total fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_41",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-accounting-finance",
+      "source_html_sha256": "d64186079488de193b403584f8a956cf770fc2203211584b759b7cca27a7b552",
+      "title": "BA (Hons) Business Management (Accounting & Finance)",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1552|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_41",
+        "university_id": "UK004",
+        "subject_id": 23,
+        "title": "BA (Hons) Business Management (Accounting and Finance)",
+        "level": "UG",
+        "overview": "Focused on the relationship between management strategy and corporate financial health.",
+        "modules": "Financial Accounting, Management Accounting, Strategic Management",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:45.976Z",
+        "updated_at": "2026-03-28T18:14:45.976Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1552",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1552",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_42",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-tourism",
+      "source_html_sha256": "7a0b37dab72c6970794e04fe5c07e1d1d15ba101e9dae6ca0391daa3b88623f5",
+      "title": "BA (Hons) Business Management (Tourism)",
+      "duration": "3 years full-time; 3 years+ part-time",
+      "duration_evidence": "Full-time: 3 years (Online) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1555|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_42",
+        "university_id": "UK004",
+        "subject_id": 126,
+        "title": "BA (Hons) Business Management (Tourism)",
+        "level": "UG",
+        "overview": "Focused on global tourism trends, destination management, and leisure industry leadership.",
+        "modules": "Tourism Economics, Destination Marketing, Strategic Management",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.004Z",
+        "updated_at": "2026-03-28T18:14:46.004Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1555",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1555",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_43",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/psychology-degrees/bsc-hons-psychology-counselling",
+      "source_html_sha256": "0a513260e70d296429e3b2ab4f8f6873336d6b9e7311b2e957e25872b2f53db2",
+      "title": "BSc (Hons) Psychology with Counselling and Mental Health",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Full-time: 3 years (Blended) Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c1562|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_43",
+        "university_id": "UK004",
+        "subject_id": 107,
+        "title": "BSc (Hons) Psychology with Counselling",
+        "level": "UG",
+        "overview": "BPS accredited; combines scientific psychology with therapeutic and counselling skill foundations.",
+        "modules": "Counselling Theory, Developmental Psychology, Social Psychology",
+        "entry_requirements": "UCAS 112; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.031Z",
+        "updated_at": "2026-03-28T18:14:46.031Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1562",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=1562",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_44",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-law",
+      "source_html_sha256": "42385ca93e021c1ad655c8ffb476bb635b4a80aad970aca35b6727eee53f2442",
+      "title": "BA (Hons) Business Management and Law",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c2230|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_44",
+        "university_id": "UK004",
+        "subject_id": 79,
+        "title": "BA (Hons) Business and Law",
+        "level": "UG",
+        "overview": "Examining the legal frameworks that govern modern commercial transactions and corporate ethics.",
+        "modules": "Contract Law, Company Law, Strategic Management, Business Ethics",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.069Z",
+        "updated_at": "2026-03-28T18:14:46.069Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=2230",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=2230",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_45",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-computing",
+      "source_html_sha256": "a61f25915dfe5b05b0d979d870a6bc7d84b3b0aa1451cbbd657b53a54e747514",
+      "title": "BA (Hons) Business Management and Computing",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c2222|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_45",
+        "university_id": "UK004",
+        "subject_id": 33,
+        "title": "BA (Hons) Business and Computing",
+        "level": "UG",
+        "overview": "Focused on the integration of digital information systems within business operations.",
+        "modules": "Systems Analysis, Digital Marketing, Strategic Management, Database Design",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.102Z",
+        "updated_at": "2026-03-28T18:14:46.102Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=2222",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=2222",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_48",
+      "category": "published_fee_unavailable",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/healthcare-and-social-care/bsc-hons-health-and-care-management-foundation-degree",
+      "source_html_sha256": "8f4f25ec5942934692a7f297a985d2d9ab0dc2609ddceae657f3e1a23b1f9f59",
+      "title": "BSc (Hons) Health and Care Management with Foundation Year",
+      "duration": "4 Years",
+      "duration_evidence": "Full-time: 4 years (Blended)",
+      "study_options": [
+        "c1990|tbl1666|i2026-11|m=ft",
+        "c1990|tbl1666|i2027-02|m=ft",
+        "c1990|tbl1680|i2026-11|m=ft",
+        "c1990|tbl1680|i2027-02|m=ft"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_48",
+        "university_id": "UK004",
+        "subject_id": 68,
+        "title": "BSc (Hons) Health and Care Management (with Foundation Year)",
+        "level": "UG",
+        "overview": "Includes an entry year to build academic foundations for health leadership roles.",
+        "modules": "Care Management, Health Policy, Academic Skills, Ethics",
+        "entry_requirements": "48 UCAS points; IELTS 6.0.",
+        "duration": "4 Years",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.197Z",
+        "updated_at": "2026-03-28T18:14:46.197Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=544&awarding_body=arden&course_id=1990",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=544&awarding_body=arden&course_id=1990",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_49",
+      "category": "online_topup_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-accounting-finance-top-up",
+      "source_html_sha256": "2e3ef795d56904235b7691474128c81f47c00e1d434ffd8cf6e7365c694f9542",
+      "title": "BA (Hons) Business Management (Accounting & Finance) (Top-Up)",
+      "duration": "1 year+ (part-time)",
+      "duration_evidence": "Part-time: 1 year+ (Online)",
+      "study_options": [
+        "c1557|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_49",
+        "university_id": "UK004",
+        "subject_id": 1,
+        "title": "BA (Hons) Business Management (Accounting and Finance) (Top-Up)",
+        "level": "UG",
+        "overview": "One-year degree upgrade focusing on advanced financial reporting and management strategy.",
+        "modules": "Strategic Management, Financial Reporting, Audit, Business Project",
+        "entry_requirements": "Level 5 (HND/FD); IELTS 6.0.",
+        "duration": "1 Year",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.229Z",
+        "updated_at": "2026-03-28T18:14:46.229Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=277&awarding_body=arden&course_id=1557",
+          "sha256": "9c5f10dcfede3438008f0a7b7e09e3506d43c074622de35d542e6655e678e73f",
+          "text": "Course fee breakdown Studying Online Fee Total fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=277&awarding_body=arden&course_id=1557",
+          "sha256": "9c5f10dcfede3438008f0a7b7e09e3506d43c074622de35d542e6655e678e73f",
+          "text": "Course fee breakdown Studying Online Fee Total fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_50",
+      "category": "online_topup_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-hrm-top-up",
+      "source_html_sha256": "97207f75b497b6b08a249a7f8e79869533c85b251a7cfd0a5c239b9da9bcf669",
+      "title": "BA (Hons) Business Management (HRM) (Top-Up)",
+      "duration": "1 year+ (part-time)",
+      "duration_evidence": "Part-time: 1 year+ (Online)",
+      "study_options": [
+        "c1559|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_50",
+        "university_id": "UK004",
+        "subject_id": 71,
+        "title": "BA (Hons) Business Management (HRM) (Top-Up)",
+        "level": "UG",
+        "overview": "Final year upgrade for HND holders specializing in strategic people management.",
+        "modules": "Strategic HRM, Leadership, Business Project, Employment Law",
+        "entry_requirements": "Level 5 in HR/Business; IELTS 6.0.",
+        "duration": "1 Year",
+        "location": "London / Manchester / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.258Z",
+        "updated_at": "2026-03-28T18:14:46.258Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=277&awarding_body=arden&course_id=1559",
+          "sha256": "9c5f10dcfede3438008f0a7b7e09e3506d43c074622de35d542e6655e678e73f",
+          "text": "Course fee breakdown Studying Online Fee Total fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=277&awarding_body=arden&course_id=1559",
+          "sha256": "9c5f10dcfede3438008f0a7b7e09e3506d43c074622de35d542e6655e678e73f",
+          "text": "Course fee breakdown Studying Online Fee Total fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_56",
+      "category": "online_per_level_fee_proposal",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/bsc-hons-forensic-and-criminal-investigation",
+      "source_html_sha256": "62a4b8c7b23b4284c1156a58aeb10e64849e63a1a1a02ff30a4ec075132c9fd8",
+      "title": "BSc (Hons) Forensic and Criminal Investigation",
+      "duration": "3 years+ (part-time)",
+      "duration_evidence": "Part-time: 3 years+ (Online)",
+      "study_options": [
+        "c2088|tdl1668|i2027-01|m=pt"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_56",
+        "university_id": "UK004",
+        "subject_id": 36,
+        "title": "BSc (Hons) Forensic and Criminal Investigation",
+        "level": "UG",
+        "overview": "Combines crime scene science with criminal law and investigative psychology.",
+        "modules": "Trace Evidence, Forensic Psychology, Criminal Law, Scene Investigation",
+        "entry_requirements": "UCAS 80-96; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "London / Birmingham / Manchester",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.443Z",
+        "updated_at": "2026-03-28T18:14:46.443Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=2088",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=276&awarding_body=arden&course_id=2088",
+          "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+          "text": "Course fee breakdown Studying Online Fee Fee per level : Level 4 fee: £5,500 Level 5 fee: £5,500 Level 6 fee: £5,500 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_61",
+      "category": "published_fee_unavailable",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/fda-business-innovation",
+      "source_html_sha256": "5179bdf81e3e72549d878d36157dff1cefb5045b482080e3720a4acadde0afff",
+      "title": "Foundation Degree Business and Innovation (FdA)",
+      "duration": "2 Years",
+      "duration_evidence": "Full-time: 2 years (Blended)",
+      "study_options": [
+        "c3722|tbl1666|i2026-11|m=ft",
+        "c3722|tbl1680|i2026-11|m=ft",
+        "c3722|tbl1680|i2027-02|m=ft"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_61",
+        "university_id": "UK004",
+        "subject_id": 23,
+        "title": "Foundation Degree Business and Innovation (FdA)",
+        "level": "UG",
+        "overview": "A practical Level 5 qualification focusing on entrepreneurship and business start-up skills.",
+        "modules": "Innovation, Business Planning, Marketing, Finance",
+        "entry_requirements": "UCAS 48-64; IELTS 6.0.",
+        "duration": "2 Years",
+        "location": "Birmingham / Leeds / Manchester",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.623Z",
+        "updated_at": "2026-03-28T18:14:46.623Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=1682&awarding_body=arden&course_id=3722",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=1682&awarding_body=arden&course_id=3722",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_62",
+      "category": "published_fee_unavailable",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/computing-degrees/fdsc-computing-digital-futures",
+      "source_html_sha256": "af54ae3ad7358bad332080aaad400ff19f8e6fd37d08355513abd7a3ec276fe0",
+      "title": "Foundation Degree Computing and Digital Futures (FdSc)",
+      "duration": "2 Years",
+      "duration_evidence": "Full-time: 2 years (Blended)",
+      "study_options": [
+        "c3721|tbl1680|i2026-11|m=ft",
+        "c3721|tbl1680|i2027-02|m=ft"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_62",
+        "university_id": "UK004",
+        "subject_id": 33,
+        "title": "Foundation Degree Computing and Digital Futures (FdSc)",
+        "level": "UG",
+        "overview": "Focused on building technical skills in software, web, and network foundations.",
+        "modules": "Programming, Network Security, Web Design, Data",
+        "entry_requirements": "UCAS 48-64; IELTS 6.0.",
+        "duration": "2 Years",
+        "location": "London / Birmingham",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.655Z",
+        "updated_at": "2026-03-28T18:14:46.655Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=1682&awarding_body=arden&course_id=3721",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=1682&awarding_body=arden&course_id=3721",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        }
+      ]
+    },
+    {
+      "course_id": "C_UK004_63",
+      "category": "published_fee_unavailable",
+      "source_url": "https://arden.ac.uk/our-courses/undergraduate/healthcare-and-social-care/fdsc-health-and-care-management",
+      "source_html_sha256": "66e3fd446af2355fbf149490679856f5bb66de1f8db910728e16240584b561bf",
+      "title": "Foundation Degree Health and Care Management (FdSc)",
+      "duration": "2 Years",
+      "duration_evidence": "Full-time: 2 years (Blended)",
+      "study_options": [
+        "c3719|tbl1666|i2026-11|m=ft",
+        "c3719|tbl1680|i2026-11|m=ft",
+        "c3719|tbl1680|i2027-02|m=ft"
+      ],
+      "stored_course": {
+        "course_id": "C_UK004_63",
+        "university_id": "UK004",
+        "subject_id": 68,
+        "title": "Foundation Degree Health and Care Management (FdSc)",
+        "level": "UG",
+        "overview": "A Level 5 entry point into healthcare administration and social care leadership.",
+        "modules": "Care Management, Health Policy, Ethics, Public Health",
+        "entry_requirements": "UCAS 48-64; IELTS 6.0.",
+        "duration": "2 Years",
+        "location": "London / Manchester",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.arden.ac.uk",
+        "created_at": "2026-03-28T18:14:46.683Z",
+        "updated_at": "2026-03-28T18:14:46.683Z"
+      },
+      "fee_evidence": [
+        {
+          "country": "Nigeria",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=1682&awarding_body=arden&course_id=3719",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        },
+        {
+          "country": "Ghana",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=1682&awarding_body=arden&course_id=3719",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+          "text": "Course fee breakdown Course fees are not available yet."
+        }
+      ]
+    }
+  ]
+}

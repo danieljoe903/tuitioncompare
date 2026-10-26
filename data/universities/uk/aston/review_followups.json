@@ -1,0 +1,94 @@
+{
+  "university_id": "UK007",
+  "reviewed_on": "2026-10-26",
+  "routes": {
+    "C_AST007_RES_01": {
+      "title": "MRes Business and Management",
+      "status": "route_intake_fee_unconfirmed",
+      "message": "The available MRes course link redirects to a taught MSc. This does not confirm the current MRes intake or its international tuition fee.",
+      "source_urls": [
+        "https://www.aston.ac.uk/study/courses/business-and-management-mres/january-2027"
+      ],
+      "confirmation_needed": "Confirm the exact recruiting MRes route, entry date, duration and international fee. Do not substitute the taught MSc."
+    },
+    "C_AST007_RES_02": {
+      "title": "MSc by Research — Health Sciences",
+      "status": "route_intake_fee_unconfirmed",
+      "message": "General research-degree guidance does not establish the exact Health Sciences research route, entry date and applicable international fee.",
+      "source_urls": [
+        "https://www.aston.ac.uk/postgraduate-research/how-to-apply",
+        "https://www.aston.ac.uk/node/5710"
+      ],
+      "confirmation_needed": "Confirm the specific research registration/project, intake, full-time duration, fee year and any bench fees."
+    },
+    "C_AST007_RES_03": {
+      "title": "MSc by Research — Engineering & Physical Sciences",
+      "status": "route_intake_fee_unconfirmed",
+      "message": "Research guidance supports MSc by Research projects, but does not confirm this exact stored route, intake and applicable international tuition.",
+      "source_urls": [
+        "https://www.aston.ac.uk/research/eps/aipt/jobs-study",
+        "https://www.aston.ac.uk/node/5710"
+      ],
+      "confirmation_needed": "Confirm the exact research registration/project and intake before assigning a departmental annual research fee."
+    },
+    "C_AST007_RES_04": {
+      "title": "MPhil — Languages and Social Sciences",
+      "status": "route_intake_fee_unconfirmed",
+      "message": "Research regulations recognise MPhil awards, but an exact current Languages and Social Sciences route, intake and applicable international fee have not been established.",
+      "source_urls": [
+        "https://www.aston.ac.uk/education/quality/a-z/general-regulations",
+        "https://www.aston.ac.uk/node/5710"
+      ],
+      "confirmation_needed": "Confirm the precise MPhil registration, recruiting intake, duration and applicable fee. Do not infer a PhD replacement."
+    },
+    "C_UK007_36": {
+      "title": "BSc Business and Politics",
+      "status": "route_intake_fee_unconfirmed",
+      "message": "The supporting Aston course table describes 2021 entry. The tested current course URL returned 404; neither establishes September 2027 recruitment or tuition.",
+      "source_urls": [
+        "https://www.aston.ac.uk/undergraduate/unistats-directory",
+        "https://www.aston.ac.uk/courses-atoz"
+      ],
+      "confirmation_needed": "Confirm whether this exact degree is recruiting, discontinued or officially replaced; do not duplicate Business and International Relations."
+    },
+    "C_UK007_37": {
+      "title": "BSc Business and Sociology",
+      "status": "route_intake_fee_unconfirmed",
+      "message": "The supporting Aston course table describes 2021 entry. The tested current course URL returned 404; neither establishes September 2027 recruitment or tuition.",
+      "source_urls": [
+        "https://www.aston.ac.uk/undergraduate/unistats-directory",
+        "https://www.aston.ac.uk/courses-atoz"
+      ],
+      "confirmation_needed": "Confirm the exact current award and recruiting intake or an explicit official replacement. A 404 alone does not prove closure."
+    },
+    "C_UK007_47": {
+      "title": "MSc Data Science and Artificial Intelligence",
+      "status": "route_intake_fee_unconfirmed",
+      "message": "Aston mentions this award on supporting pages, but its course link redirects to authentication. A current public recruiting intake and applicable international fee remain unconfirmed.",
+      "source_urls": [
+        "https://www.aston.ac.uk/international/scholarships/women-in-stem",
+        "https://www.aston.ac.uk/aston-university-and-technological-and-higher-education-institute-hong-kong-thei"
+      ],
+      "confirmation_needed": "Obtain a current public course/intake and fee source. Do not automatically replace it with Data Science or Applied Artificial Intelligence."
+    }
+  },
+  "mba_scholarships": {
+    "course_ids": [
+      "C_UK007_50",
+      "C_UK007_24"
+    ],
+    "status": "exact_intake_terms_unconfirmed",
+    "message": "MBA scholarships are advertised for 2026/27, but the linked terms apply to 2025/26 only. The applicable award and conditions need Aston confirmation for your exact intake. No MBA scholarship is deducted yet. Visit the scholarship page with your award letter.",
+    "source_urls": [
+      "https://www.aston.ac.uk/aston-business-school/aston-mba/mba-scholarships",
+      "https://www.aston.ac.uk/sites/default/files/International%20Scholarship%20TC%2025-26.pdf"
+    ],
+    "confirmation_needed": "Obtain valid January 2027 / 2026/27 and September 2027 / 2027/28 MBA award terms and the actual applicant award. Published Gold/Silver amounts are not automatically granted."
+  },
+  "notes": [
+    "Research fee tables provide departmental 2026/27 rates; they do not alone establish the exact stored route/intake.",
+    "A failed capture or authentication redirect is not proof of permanent closure.",
+    "No scholarship or deposit is inferred for an unverified course/intake.",
+    "Deposit amounts remain offer-letter specific."
+  ]
+}

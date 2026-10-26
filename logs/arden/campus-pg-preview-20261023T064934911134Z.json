@@ -1,0 +1,548 @@
+{
+  "generated_at": "2026-10-23T06:49:29.957682+00:00",
+  "mode": "preview",
+  "database_changes": false,
+  "mappings_approved": false,
+  "course_evidence": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\arden\\course-evidence-20261023T001908157007Z",
+  "fee_evidence": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\arden\\dynamic-fees-20261023T010111265891Z",
+  "proposals": [
+    {
+      "course_id": "C_UK004_16",
+      "stored_title": "MBA Master of Business Administration",
+      "source_heading": "MBA",
+      "source_course_id": "1744",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/mba/master-of-business-administration",
+      "before": {
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "17500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,855 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=280&awarding_body=arden&course_id=1744"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,855 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=280&awarding_body=arden&course_id=1744"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    },
+    {
+      "course_id": "C_UK004_17",
+      "stored_title": "MSc Data Science",
+      "source_heading": "Data Science",
+      "source_course_id": "2918",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-data-science",
+      "before": {
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "17500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=2918"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=279&awarding_body=arden&course_id=2918"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    },
+    {
+      "course_id": "C_UK004_18",
+      "stored_title": "MSc Cyber Security",
+      "source_heading": "Cyber Security",
+      "source_course_id": "2925",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-cyber-security",
+      "before": {
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "17500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=2925"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=279&awarding_body=arden&course_id=2925"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    },
+    {
+      "course_id": "C_UK004_19",
+      "stored_title": "Master of Public Health (MPH)",
+      "source_heading": "Master of Public Health",
+      "source_course_id": "1535",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/degrees/master-public-health",
+      "before": {
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "17500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1535"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=279&awarding_body=arden&course_id=1535"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    },
+    {
+      "course_id": "C_UK004_20",
+      "stored_title": "MSc Project Management",
+      "source_heading": "Project Management",
+      "source_course_id": "1294",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-project-management-technology",
+      "before": {
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "17500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1294"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=279&awarding_body=arden&course_id=1294"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    },
+    {
+      "course_id": "C_UK004_21",
+      "stored_title": "MSc International Business Management",
+      "source_heading": "International Business Management",
+      "source_course_id": "3494",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-international-business-management",
+      "before": {
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "17500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=3494"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=279&awarding_body=arden&course_id=3494"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    },
+    {
+      "course_id": "C_UK004_22",
+      "stored_title": "MSc Engineering Management",
+      "source_heading": "Engineering Management",
+      "source_course_id": "1232",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-engineering-management",
+      "before": {
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "17500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1232"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=279&awarding_body=arden&course_id=1232"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    },
+    {
+      "course_id": "C_UK004_23",
+      "stored_title": "MSc Strategic Digital Marketing",
+      "source_heading": "Strategic Digital Marketing",
+      "source_course_id": "1548",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-strategic-digital-marketing",
+      "before": {
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "17500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1548"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=279&awarding_body=arden&course_id=1548"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    },
+    {
+      "course_id": "C_UK004_24",
+      "stored_title": "MSc Strategic Human Resource Management",
+      "source_heading": "Strategic Human Resource Management",
+      "source_course_id": "2256",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-strategic-human-resource-management",
+      "before": {
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "17500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=2256"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=279&awarding_body=arden&course_id=2256"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    },
+    {
+      "course_id": "C_UK004_25",
+      "stored_title": "MSc Supply Chain Management and Logistics",
+      "source_heading": "Supply Chain Management and Logistics",
+      "source_course_id": "1295",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/business-degree/msc-supply-chain-management-and-logistics",
+      "before": {
+        "location": "London / Manchester / Birmingham",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "17500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2026-11",
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1295"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,550 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=279&awarding_body=arden&course_id=1295"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    },
+    {
+      "course_id": "C_UK004_40",
+      "stored_title": "Executive MBA",
+      "source_heading": "Executive MBA",
+      "source_course_id": "1175",
+      "source_course_url": "https://arden.ac.uk/our-courses/postgraduate/mba/executive-mba",
+      "before": {
+        "location": "London Campus",
+        "start_month": "September",
+        "start_year": 2026,
+        "tuition_fee": "18500.00"
+      },
+      "campus_options": {
+        "Manchester": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2027-02"
+          ]
+        },
+        "London Stratford": {
+          "gross_annual_tuition": "17500.00",
+          "advertised_full_time_intakes": [
+            "2027-02"
+          ]
+        }
+      },
+      "currency": "GBP",
+      "fee_basis": "annual_tuition",
+      "countries_checked": {
+        "Nigeria": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,855 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=280&awarding_body=arden&course_id=1175"
+        },
+        "Ghana": {
+          "text": "Course fee breakdown In a UK campus Fee Manchester Campus Fee per year: £17,500 Fee with UK Offer for International Students: £13,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £10,000 London, Stratford Campus Fee per year: £17,500 Fee with UK Offer for International Students: £14,000 ( Terms and conditions apply . Valid until May 2027) UK International Super Early Bird Offer: £3,000 ( Terms and conditions apply . Valid for November 2026, February 2027 and May 2027 intakes.) Fee with combined offers: £11,000 Studying Online Fee Total fee: £10,855 Please note: Fees quoted relate to the intake that you enrol on (i.e. when you start your course), NOT your application date.",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1495&award_id=280&awarding_body=arden&course_id=1175"
+        }
+      },
+      "academic_year": null,
+      "review_notes": [
+        "Campus/intake options are preserved individually.",
+        "The fee response does not explicitly label an academic year.",
+        "A final campus/intake mapping is required before import.",
+        "Offer deductions require separate eligibility/terms verification.",
+        "No numeric deposit has been verified by this preview."
+      ]
+    }
+  ],
+  "blocked": []
+}

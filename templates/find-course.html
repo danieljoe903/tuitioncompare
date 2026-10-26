@@ -1,0 +1,645 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Find University Courses in UK & Ireland - University Tuition Compare</title>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* Navbar space is handled inside this page's hero. */
+    body > main {
+        padding-top: 0 !important;
+    }
+
+    .course-discovery {
+        --course-header-height: 120px;
+    }
+
+    .course-discovery .discovery-hero {
+        min-height: 520px;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        padding: calc(var(--course-header-height) + 56px) 0 64px;
+        background: #102c46;
+        position: relative;
+        isolation: isolate;
+    }
+
+    .course-discovery .discovery-background {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        z-index: -2;
+    }
+
+    .course-discovery .discovery-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+            90deg,
+            rgba(8, 25, 43, 0.85),
+            rgba(8, 25, 43, 0.4)
+        );
+        z-index: -1;
+    }
+
+    .course-discovery .discovery-hero-content {
+        max-width: 760px;
+    }
+
+    .course-discovery .discovery-eyebrow {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 8px 14px;
+        border: 1px solid rgba(125, 211, 252, 0.35);
+        border-radius: 999px;
+        background: rgba(56, 189, 248, 0.12);
+        color: #bae6fd;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .course-discovery .discovery-heading {
+        margin: 0 0 22px;
+        color: #ffffff;
+        font-size: clamp(32px, 4vw, 50px);
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .course-discovery .discovery-description {
+        margin: 0;
+        max-width: 680px;
+        color: #e2e8f0;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .course-discovery .discovery-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 28px;
+    }
+
+    .course-discovery .discovery-tag {
+        padding: 8px 14px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        background: rgba(8, 25, 43, 0.25);
+        color: #ffffff;
+        font-size: 14px;
+    }
+
+    .course-discovery .discovery-form-section {
+        padding: 56px 0 80px;
+        background: #f1f7fb;
+    }
+
+    .course-discovery .discovery-form-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.5fr);
+        align-items: start;
+        gap: 40px;
+    }
+
+    .course-discovery .discovery-guide {
+        padding-top: 12px;
+    }
+
+    .course-discovery .discovery-guide h2 {
+        margin: 0 0 16px;
+        color: #102c46;
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .course-discovery .discovery-guide > p {
+        margin: 0 0 28px;
+        color: #52657a;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .course-discovery .discovery-steps {
+        display: grid;
+        gap: 22px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .course-discovery .discovery-step {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    .course-discovery .discovery-step-number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+        background: #dbeafe;
+        color: #1d4ed8;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .course-discovery .discovery-step h3 {
+        margin: 0 0 4px;
+        color: #102c46;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .course-discovery .discovery-step p {
+        margin: 0;
+        color: #52657a;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .course-discovery .discovery-form-card {
+        min-width: 0;
+        padding: 36px;
+        border: 1px solid #e2e8f0;
+        border-radius: 24px;
+        background: #ffffff;
+        box-shadow: 0 16px 45px rgba(16, 44, 70, 0.07);
+    }
+
+    .course-discovery .discovery-form-header {
+        margin-bottom: 28px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    .course-discovery .discovery-form-header h2 {
+        margin: 0 0 8px;
+        color: #102c46;
+        font-size: 25px;
+        line-height: 1.3;
+    }
+
+    .course-discovery .discovery-form-header p {
+        margin: 0;
+        color: #64748b;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .course-discovery .discovery-fields {
+        display: grid;
+        gap: 24px;
+    }
+
+    .course-discovery .discovery-field-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .course-discovery .discovery-field {
+        min-width: 0;
+    }
+
+    .course-discovery .discovery-field label {
+        display: block;
+        margin-bottom: 9px;
+        color: #334155;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .course-discovery .discovery-required {
+        color: #dc2626;
+    }
+
+    .course-discovery .discovery-control {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 54px;
+        padding: 13px 15px;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #ffffff;
+        color: #102c46;
+        font: inherit;
+        font-size: 15px;
+        transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .course-discovery .discovery-control:focus {
+        border-color: #2563eb;
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    }
+
+    .course-discovery .discovery-control::placeholder {
+        color: #64748b;
+        font-size: 15px;
+    }
+
+    .course-discovery select.discovery-control {
+        cursor: pointer;
+    }
+
+    .course-discovery .discovery-subject-wrapper {
+        position: relative;
+    }
+
+    .course-discovery #course-subject {
+        padding-right: 46px;
+    }
+
+    .course-discovery .discovery-search-icon {
+        position: absolute;
+        top: 17px;
+        right: 15px;
+        width: 20px;
+        height: 20px;
+        color: #64748b;
+        pointer-events: none;
+    }
+
+    .course-discovery #find-course-suggestions {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 30;
+        max-height: 260px;
+        margin-top: 6px;
+        overflow-y: auto;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #ffffff;
+        color: #102c46;
+        box-shadow: 0 14px 30px rgba(16, 44, 70, 0.12);
+    }
+
+    .course-discovery .discovery-field-help {
+        margin: 8px 0 0;
+        color: #64748b;
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .course-discovery .discovery-submit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        min-height: 54px;
+        padding: 14px 20px;
+        border: 0;
+        border-radius: 10px;
+        background: #102c46;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .course-discovery .discovery-submit:hover {
+        background: #1d4e73;
+    }
+
+    .course-discovery .discovery-submit:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 3px;
+    }
+
+    .course-discovery .discovery-submit svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .dark .course-discovery .discovery-form-section {
+        background: #011120;
+    }
+
+    .dark .course-discovery .discovery-form-card {
+        border-color: #334155;
+        background: #102c46;
+    }
+
+    .dark .course-discovery .discovery-form-header {
+        border-color: #334155;
+    }
+
+    .dark .course-discovery .discovery-guide h2,
+    .dark .course-discovery .discovery-step h3,
+    .dark .course-discovery .discovery-form-header h2,
+    .dark .course-discovery .discovery-field label {
+        color: #ffffff;
+    }
+
+    .dark .course-discovery .discovery-guide > p,
+    .dark .course-discovery .discovery-step p,
+    .dark .course-discovery .discovery-form-header p,
+    .dark .course-discovery .discovery-field-help {
+        color: #cbd5e1;
+    }
+
+    .dark .course-discovery .discovery-control {
+        border-color: #475569;
+        background: #1b2430;
+        color: #ffffff;
+    }
+
+    .dark .course-discovery #find-course-suggestions {
+        border-color: #475569;
+        background: #102c46;
+        color: #ffffff;
+    }
+
+    .dark .course-discovery .discovery-submit {
+        background: #2563eb;
+    }
+
+    @media (max-width: 1023px) {
+        .course-discovery .discovery-form-grid {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 32px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .course-discovery .discovery-hero {
+            min-height: 440px;
+            padding: calc(var(--course-header-height) + 36px) 0 48px;
+        }
+
+        .course-discovery .discovery-description {
+            font-size: 16px;
+        }
+
+        .course-discovery .discovery-form-section {
+            padding: 36px 0 56px;
+        }
+
+        .course-discovery .discovery-form-card {
+            padding: 24px 20px;
+            border-radius: 18px;
+        }
+
+        .course-discovery .discovery-field-row {
+            grid-template-columns: minmax(0, 1fr);
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="course-discovery" id="course-discovery-page">
+
+    <section class="discovery-hero" aria-labelledby="discovery-heading">
+        <!-- Decorative background image -->
+        <img
+            class="discovery-background"
+            src="{% static 'images/hero/find_course.jpg' %}"
+            alt=""
+            fetchpriority="high"
+        />
+
+        <div class="container">
+            <div class="discovery-hero-content">
+                <span class="discovery-eyebrow">
+                    Course Discovery
+                </span>
+
+                <h1 id="discovery-heading" class="discovery-heading">
+                    Find Your Perfect Course
+                </h1>
+
+                <p class="discovery-description">
+                    Explore undergraduate and postgraduate programmes
+                    across the UK and Ireland. Start with your interests
+                    and discover courses that match your goals.
+                </p>
+
+                <div class="discovery-tags">
+                    <span class="discovery-tag">Undergraduate</span>
+                    <span class="discovery-tag">Postgraduate</span>
+                    <span class="discovery-tag">UK &amp; Ireland</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discovery-form-section">
+        <div class="container">
+            <div class="discovery-form-grid">
+
+                <aside class="discovery-guide">
+                    <h2>Your next step starts here</h2>
+
+                    <p>
+                        Tell us what you want to study and where.
+                        We’ll help you explore the available courses.
+                    </p>
+
+                    <ol class="discovery-steps">
+                        <li class="discovery-step">
+                            <span class="discovery-step-number">1</span>
+                            <div>
+                                <h3>Choose your study level</h3>
+                                <p>
+                                    Select undergraduate, postgraduate,
+                                    top-up or MRes.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="discovery-step">
+                            <span class="discovery-step-number">2</span>
+                            <div>
+                                <h3>Select your destination</h3>
+                                <p>
+                                    Explore courses in the United Kingdom
+                                    or Ireland.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="discovery-step">
+                            <span class="discovery-step-number">3</span>
+                            <div>
+                                <h3>Search your subject</h3>
+                                <p>
+                                    Enter a subject or course name
+                                    that interests you.
+                                </p>
+                            </div>
+                        </li>
+                    </ol>
+                </aside>
+
+                <div class="discovery-form-card">
+                    <div class="discovery-form-header">
+                        <h2>Start Your Search</h2>
+                        <p>
+                            Fields marked with an asterisk are required.
+                        </p>
+                    </div>
+
+                    <form id="course-search-form">
+                        <div class="discovery-fields">
+
+                            <div class="discovery-field-row">
+                                <div class="discovery-field">
+                                    <label for="level-of-study">
+                                        Level of Study
+                                        <span class="discovery-required">*</span>
+                                    </label>
+
+                                    <select
+                                        id="level-of-study"
+                                        name="level"
+                                        class="discovery-control"
+                                        required
+                                    >
+                                        <option value="">Select Level</option>
+                                        <option value="UG">Undergraduate</option>
+                                        <option value="PG">Postgraduate</option>
+                                        <option value="TOPUP">Top-up</option>
+                                        <option value="MRES">MRes</option>
+                                    </select>
+                                </div>
+
+                                <div class="discovery-field">
+                                    <label for="destination-country">
+                                        Country
+                                        <span class="discovery-required">*</span>
+                                    </label>
+
+                                    <select
+                                        id="destination-country"
+                                        name="country"
+                                        class="discovery-control"
+                                        required
+                                    >
+                                        <option value="">Select Country</option>
+                                        <option value="UK">United Kingdom</option>
+                                        <option value="IE">Ireland</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="discovery-field">
+                                <label for="course-subject">
+                                    Subject or Course Name
+                                    <span class="discovery-required">*</span>
+                                </label>
+
+                                <div class="discovery-subject-wrapper">
+                                    <input
+                                        type="text"
+                                        id="course-subject"
+                                        name="subject"
+                                        class="discovery-control"
+                                        placeholder="e.g. Computer Science"
+                                        autocomplete="off"
+                                        aria-describedby="subject-help"
+                                        required
+                                    />
+
+                                    <svg
+                                        class="discovery-search-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        aria-hidden="true"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                                        ></path>
+                                    </svg>
+
+                                    <div
+                                        id="find-course-suggestions"
+                                        class="hidden"
+                                    ></div>
+                                </div>
+
+                                <p id="subject-help" class="discovery-field-help">
+                                    Try a subject such as Business,
+                                    Engineering or Medicine.
+                                </p>
+                            </div>
+
+                            <button type="submit" class="discovery-submit">
+                                <span>Search Courses</span>
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M5 12h14m-6-6 6 6-6 6"
+                                    ></path>
+                                </svg>
+                            </button>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    (() => {
+        const header = document.getElementById("header");
+        const page = document.getElementById("course-discovery-page");
+
+        if (!header || !page) return;
+
+        const updateSpacing = () => {
+            const fixedHeader =
+                getComputedStyle(header).position === "fixed";
+
+            const height = fixedHeader
+                ? Math.ceil(header.getBoundingClientRect().height)
+                : 0;
+
+            page.style.setProperty(
+                "--course-header-height",
+                `${height}px`
+            );
+        };
+
+        updateSpacing();
+        new ResizeObserver(updateSpacing).observe(header);
+        window.addEventListener("load", updateSpacing);
+    })();
+</script>
+
+<script src="{% static 'js/find-course.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,215 @@
+{
+  "generated_at": "2026-10-20T23:33:48.445568+00:00",
+  "mode": "preview",
+  "university_id": "UK002",
+  "course_id": "C_UK002_61",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\remaining-review-20261020T231510825902Z\\remaining-course-review.json",
+  "fee_changed": false,
+  "scholarship_scope_changed": false,
+  "before": {
+    "course": {
+      "title": "MSc Advanced Computer Science (with integrated year in industry)",
+      "duration": "2 Years",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://courses.aber.ac.uk/postgraduate/software-engineering-integrated-industrial-year/",
+      "work_placement": true
+    },
+    "tuition": {
+      "tuition_fee": "23820.00",
+      "currency": "GBP"
+    },
+    "source": {
+      "academic_year": "2027/28",
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/",
+      "source_course_name": "Advanced Computer Science (with integrated year in industry)",
+      "source_course_code": "G498",
+      "fee_basis": "annual_tuition",
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_band": "Sciences",
+        "fee_note": "First teaching-year tuition: £23,820. A separate £1,850 placement charge is published for the integrated industry route. The placement charge is not included in this first-year comparison.",
+        "verified": true,
+        "fee_method": "reviewed_named_course_fee",
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "academic_year": "2027/28",
+        "placement_fee": "1850.00",
+        "annual_tuition": "23820.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "First teaching-year tuition: £23,820. A separate £1,850 placement charge is published for the integrated industry route. The placement charge is not included in this first-year comparison.",
+            "academic_year": "2027/28",
+            "annual_tuition": "23820.00",
+            "raw_annual_fee": "£23,820",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/software-engineering-integrated-industrial-year/",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "programme_fee_group": "masters",
+        "source_fee_category": "International",
+        "placement_fee_currency": "GBP",
+        "placement_fee_included_in_tuition": false
+      }
+    }
+  },
+  "after": {
+    "course": {
+      "title": "MSc Advanced Computer Science (with integrated year in industry)",
+      "duration": "2 Years",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://courses.aber.ac.uk/postgraduate/software-engineering-integrated-industrial-year/",
+      "work_placement": true
+    },
+    "tuition": {
+      "tuition_fee": "23820.00",
+      "currency": "GBP"
+    },
+    "source": {
+      "academic_year": "2027/28",
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/",
+      "source_course_name": "Advanced Computer Science (with integrated year in industry)",
+      "source_course_code": "G498",
+      "fee_basis": "annual_tuition",
+      "raw_fees": {
+        "verified": true,
+        "academic_year": "2027/28",
+        "source_fee_category": "International",
+        "fee_band": "Sciences",
+        "programme_fee_group": "masters",
+        "course_kind": "postgraduate_taught",
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/software-engineering-integrated-industrial-year/",
+        "annual_tuition": "23820.00",
+        "currency": "GBP",
+        "study_year": 1,
+        "fee_method": "reviewed_named_course_fee",
+        "placement_fee": "1850.00",
+        "placement_fee_currency": "GBP",
+        "placement_fee_included_in_tuition": false,
+        "fee_note": "First teaching-year tuition: £23,820. A separate £1,850 placement charge is published for the integrated industry route. The placement charge is not included in this first-year comparison.",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "source_fee_category": "International",
+            "academic_year": "2027/28",
+            "currency": "GBP",
+            "annual_tuition": "23820.00",
+            "raw_annual_fee": "£23,820",
+            "annotation": "First teaching-year tuition: £23,820. A separate £1,850 placement charge is published for the integrated industry route. The placement charge is not included in this first-year comparison.",
+            "footnote_marker": "",
+            "amount_requires_review": false
+          }
+        ]
+      }
+    }
+  },
+  "scholarship_rule_before": {
+    "kind": "fixed",
+    "value": "3800.00",
+    "benefit": "tuition",
+    "currency": "GBP",
+    "stacking": "exclusive",
+    "conditions": {
+      "course_id": [
+        "C_UK002_21",
+        "C_UK002_22",
+        "C_UK002_26",
+        "C_UK002_47",
+        "C_UK002_51",
+        "C_UK002_61"
+      ],
+      "fee_status": [
+        "INTL"
+      ],
+      "new_entrant": [
+        true
+      ],
+      "offer_received": [
+        true
+      ],
+      "external_funding": [
+        false
+      ],
+      "applied_by_deadline": [
+        true
+      ],
+      "academic_conditions_met": [
+        true
+      ]
+    },
+    "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+    "study_years": [
+      1
+    ],
+    "award_status": "conditional",
+    "academic_year": "2027/28",
+    "compatible_ids": [],
+    "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+    "percentage_basis": "original_tuition",
+    "fee_basis_confirmed": true,
+    "application_deadline": "2027-08-01",
+    "published_scholarship_table": {
+      "net": "20020.00",
+      "award": "3800.00",
+      "gross": "23820.00"
+    }
+  },
+  "scholarship_rule_after": {
+    "kind": "fixed",
+    "value": "3800.00",
+    "benefit": "tuition",
+    "currency": "GBP",
+    "stacking": "exclusive",
+    "conditions": {
+      "course_id": [
+        "C_UK002_21",
+        "C_UK002_22",
+        "C_UK002_26",
+        "C_UK002_47",
+        "C_UK002_51",
+        "C_UK002_61"
+      ],
+      "fee_status": [
+        "INTL"
+      ],
+      "new_entrant": [
+        true
+      ],
+      "offer_received": [
+        true
+      ],
+      "external_funding": [
+        false
+      ],
+      "applied_by_deadline": [
+        true
+      ],
+      "academic_conditions_met": [
+        true
+      ]
+    },
+    "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+    "study_years": [
+      1
+    ],
+    "award_status": "conditional",
+    "academic_year": "2027/28",
+    "compatible_ids": [],
+    "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+    "percentage_basis": "original_tuition",
+    "fee_basis_confirmed": true,
+    "application_deadline": "2027-08-01",
+    "published_scholarship_table": {
+      "net": "20020.00",
+      "award": "3800.00",
+      "gross": "23820.00"
+    }
+  }
+}

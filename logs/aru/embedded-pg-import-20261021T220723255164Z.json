@@ -1,0 +1,1067 @@
+{
+  "generated_at": "2026-10-21T22:07:23.255164+00:00",
+  "mode": "preview",
+  "database_changes": false,
+  "university_id": "UK003",
+  "academic_year": "2027/28",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\remaining-evidence-20261021T220115804916Z\\remaining-evidence.json",
+  "records": [
+    {
+      "course_id": "C_UK003_23",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MA Education",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "17500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MA Education",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/education"
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/education",
+          "source_course_code": "",
+          "source_course_name": "MA Education",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "campus": "Chelmsford",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/education",
+            "source_sha256": "2bfaa47fe987ca508a4f4af70800ee85de219e51c814c67e50e8470b2a6a3b78",
+            "fee_method": "reviewed_embedded_course_option",
+            "selected_option": {
+              "Duration": {
+                "Name": "1 year full-time",
+                "Id": "0e006fc1-d6c6-476d-b58d-0f7542981c6e"
+              },
+              "StartDate": [
+                {
+                  "Name": "January 2027",
+                  "Id": "4edfb18a-10c0-49d5-aadd-8e2296c05190"
+                },
+                {
+                  "Name": "September 2027",
+                  "Id": "12ba467c-68e1-4784-9b56-3b8ccb7cca9f"
+                }
+              ],
+              "Location": [
+                {
+                  "ShortName": "Chelmsford",
+                  "AstraLocationCode": "che",
+                  "DisplayOrder": 2,
+                  "Id": "ccdeed22-58f7-44af-8606-4b8b59949e32"
+                },
+                {
+                  "ShortName": "Cambridge",
+                  "AstraLocationCode": "cam",
+                  "DisplayOrder": 1,
+                  "Id": "e44a5b31-f469-4e5b-93ad-f9219a73fe81"
+                }
+              ]
+            },
+            "selected_fee": {
+              "HeadingTitle": "Tuition fees for international students (2027/28)",
+              "FeeBand": {
+                "Description": "International students starting 2027/28 (full-time, per year)",
+                "Value": 18825.0,
+                "Id": "0fa1e6e4-424d-4554-9de9-b4dcc9fcc33e"
+              },
+              "FeesInformation": [
+                {
+                  "RichTextTitle": "",
+                  "RichTextContent": "<p>You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of &pound;4,000 or a sponsorship letter</p>\n<p>Find out about <a href=\"/web-payments\">paying your fees</a>.</p>",
+                  "BackgroundColor": null,
+                  "TextLimit": 0,
+                  "Id": "a60582fc-c9c9-431a-acdf-a4d10a52281f"
+                }
+              ],
+              "CallToActionLinks": [],
+              "FeeType": "International",
+              "Id": "b8aba091-51bf-4815-8906-5e4faeca0528"
+            },
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for September 2027, Chelmsford, 1 year full-time. This is the annual amount, not an inferred whole-programme total.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_57",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MA Music Therapy",
+          "level": "PG",
+          "duration": "2 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MA Music Therapy",
+          "level": "PG",
+          "duration": "2 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/music-therapy"
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/music-therapy",
+          "source_course_code": "",
+          "source_course_name": "MA Music Therapy",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/music-therapy",
+            "source_sha256": "7385d1efcf6d39ea31a929291ca3610b0c4ba163217faf1606574316c2e75c1f",
+            "fee_method": "reviewed_embedded_course_option",
+            "selected_option": {
+              "Duration": {
+                "Name": "24 months full-time",
+                "Id": "82370938-b80f-4d08-ab85-4aa45835f1c8"
+              },
+              "StartDate": [
+                {
+                  "Name": "September 2027",
+                  "Id": "12ba467c-68e1-4784-9b56-3b8ccb7cca9f"
+                }
+              ],
+              "Location": [
+                {
+                  "ShortName": "Cambridge",
+                  "AstraLocationCode": "cam",
+                  "DisplayOrder": 1,
+                  "Id": "e44a5b31-f469-4e5b-93ad-f9219a73fe81"
+                }
+              ]
+            },
+            "selected_fee": {
+              "HeadingTitle": "Tuition fees for international students (2027/28)",
+              "FeeBand": {
+                "Description": "International students starting 2027/28 (full-time, per year)",
+                "Value": 19750.0,
+                "Id": "2881c5dc-adf4-48d0-89bd-a5e0da1cf197"
+              },
+              "FeesInformation": [
+                {
+                  "RichTextTitle": "",
+                  "RichTextContent": "<p>You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of &pound;4,000 or a sponsorship letter</p>\n<p>Find out about <a href=\"/web-payments\">paying your fees</a>.</p>",
+                  "BackgroundColor": null,
+                  "TextLimit": 0,
+                  "Id": "a60582fc-c9c9-431a-acdf-a4d10a52281f"
+                }
+              ],
+              "CallToActionLinks": [],
+              "FeeType": "International",
+              "Id": "3af8a62f-e619-441b-b347-58e34cb22b8f"
+            },
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for September 2027, Cambridge, 24 months full-time. This is the annual amount, not an inferred whole-programme total.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_58",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MA Dramatherapy",
+          "level": "PG",
+          "duration": "2 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MA Dramatherapy",
+          "level": "PG",
+          "duration": "2 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/dramatherapy"
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/dramatherapy",
+          "source_course_code": "",
+          "source_course_name": "MA Dramatherapy",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/dramatherapy",
+            "source_sha256": "d722e23f4e854078527f8acf14864a6a772feb29b2af64b6d92e1c5585fac88e",
+            "fee_method": "reviewed_embedded_course_option",
+            "selected_option": {
+              "Duration": {
+                "Name": "24 months full-time",
+                "Id": "82370938-b80f-4d08-ab85-4aa45835f1c8"
+              },
+              "StartDate": [
+                {
+                  "Name": "September 2027",
+                  "Id": "12ba467c-68e1-4784-9b56-3b8ccb7cca9f"
+                }
+              ],
+              "Location": [
+                {
+                  "ShortName": "Cambridge",
+                  "AstraLocationCode": "cam",
+                  "DisplayOrder": 1,
+                  "Id": "e44a5b31-f469-4e5b-93ad-f9219a73fe81"
+                }
+              ]
+            },
+            "selected_fee": {
+              "HeadingTitle": "Tuition fees for international students (2027/28)",
+              "FeeBand": {
+                "Description": "International students starting 2027/28 (full-time, per year)",
+                "Value": 19750.0,
+                "Id": "2881c5dc-adf4-48d0-89bd-a5e0da1cf197"
+              },
+              "FeesInformation": [
+                {
+                  "RichTextTitle": "",
+                  "RichTextContent": "<p>You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of &pound;4,000 or a sponsorship letter</p>\n<p>Find out about <a href=\"/web-payments\">paying your fees</a>.</p>",
+                  "BackgroundColor": null,
+                  "TextLimit": 0,
+                  "Id": "a60582fc-c9c9-431a-acdf-a4d10a52281f"
+                }
+              ],
+              "CallToActionLinks": [],
+              "FeeType": "International",
+              "Id": "3af8a62f-e619-441b-b347-58e34cb22b8f"
+            },
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for September 2027, Cambridge, 24 months full-time. This is the annual amount, not an inferred whole-programme total.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_60",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MA English Literature",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MA English Literature",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/english-literature"
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/english-literature",
+          "source_course_code": "",
+          "source_course_name": "MA English Literature",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/english-literature",
+            "source_sha256": "fc9b9f4be7b5deb365d27cd6052cbe7b3217aef1e2cb4f82503589383496001c",
+            "fee_method": "reviewed_embedded_course_option",
+            "selected_option": {
+              "Duration": {
+                "Name": "12 months full-time",
+                "Id": "482c5a0f-3c14-44b0-bb91-22bb2b11aef7"
+              },
+              "StartDate": [
+                {
+                  "Name": "September 2027",
+                  "Id": "12ba467c-68e1-4784-9b56-3b8ccb7cca9f"
+                },
+                {
+                  "Name": "January 2027",
+                  "Id": "4edfb18a-10c0-49d5-aadd-8e2296c05190"
+                }
+              ],
+              "Location": [
+                {
+                  "ShortName": "Cambridge",
+                  "AstraLocationCode": "cam",
+                  "DisplayOrder": 1,
+                  "Id": "e44a5b31-f469-4e5b-93ad-f9219a73fe81"
+                }
+              ]
+            },
+            "selected_fee": {
+              "HeadingTitle": "Tuition fees for international students (2027/28)",
+              "FeeBand": {
+                "Description": "International students starting 2027/28 (full-time, per year)",
+                "Value": 19750.0,
+                "Id": "2881c5dc-adf4-48d0-89bd-a5e0da1cf197"
+              },
+              "FeesInformation": [
+                {
+                  "RichTextTitle": "",
+                  "RichTextContent": "<p>You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of &pound;4,000 or a sponsorship letter</p>\n<p>Find out about <a href=\"/web-payments\">paying your fees</a>.</p>",
+                  "BackgroundColor": null,
+                  "TextLimit": 0,
+                  "Id": "a60582fc-c9c9-431a-acdf-a4d10a52281f"
+                }
+              ],
+              "CallToActionLinks": [],
+              "FeeType": "International",
+              "Id": "3af8a62f-e619-441b-b347-58e34cb22b8f"
+            },
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for September 2027, Cambridge, 12 months full-time. This is the annual amount, not an inferred whole-programme total.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_98",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MA Applied Linguistics and TESOL",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "17500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MA Applied Linguistics and TESOL",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/applied-linguistics-and-tesol"
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/applied-linguistics-and-tesol",
+          "source_course_code": "",
+          "source_course_name": "MA Applied Linguistics and TESOL",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/applied-linguistics-and-tesol",
+            "source_sha256": "742b541b09414f1502eab240c813033a9ffef1aba812c9009bd947a743b06d27",
+            "fee_method": "reviewed_embedded_course_option",
+            "selected_option": {
+              "Duration": {
+                "Name": "1 year full-time",
+                "Id": "0e006fc1-d6c6-476d-b58d-0f7542981c6e"
+              },
+              "StartDate": [
+                {
+                  "Name": "September 2027",
+                  "Id": "12ba467c-68e1-4784-9b56-3b8ccb7cca9f"
+                }
+              ],
+              "Location": [
+                {
+                  "ShortName": "Cambridge",
+                  "AstraLocationCode": "cam",
+                  "DisplayOrder": 1,
+                  "Id": "e44a5b31-f469-4e5b-93ad-f9219a73fe81"
+                }
+              ]
+            },
+            "selected_fee": {
+              "HeadingTitle": "Tuition fees for international students (2027/28)",
+              "FeeBand": {
+                "Description": "International students starting 2027/28 (full-time, per year)",
+                "Value": 19750.0,
+                "Id": "2881c5dc-adf4-48d0-89bd-a5e0da1cf197"
+              },
+              "FeesInformation": [
+                {
+                  "RichTextTitle": "",
+                  "RichTextContent": "<p>You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of &pound;4,000 or a sponsorship letter</p>\n<p>Find out about <a href=\"/web-payments\">paying your fees</a>.</p>",
+                  "BackgroundColor": null,
+                  "TextLimit": 0,
+                  "Id": "a60582fc-c9c9-431a-acdf-a4d10a52281f"
+                }
+              ],
+              "CallToActionLinks": [],
+              "FeeType": "International",
+              "Id": "3af8a62f-e619-441b-b347-58e34cb22b8f"
+            },
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for September 2027, Cambridge, 1 year full-time. This is the annual amount, not an inferred whole-programme total.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_101",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MA Intercultural Communication",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "17500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MA Intercultural Communication",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/intercultural-communication"
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/intercultural-communication",
+          "source_course_code": "",
+          "source_course_name": "MA Intercultural Communication",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/intercultural-communication",
+            "source_sha256": "8bc901f121d06756f2397f33762b87a7014cbf0f279c7f4c25d8242d4bfc83b8",
+            "fee_method": "reviewed_embedded_course_option",
+            "selected_option": {
+              "Duration": {
+                "Name": "1 year full-time",
+                "Id": "0e006fc1-d6c6-476d-b58d-0f7542981c6e"
+              },
+              "StartDate": [
+                {
+                  "Name": "September 2027",
+                  "Id": "12ba467c-68e1-4784-9b56-3b8ccb7cca9f"
+                }
+              ],
+              "Location": [
+                {
+                  "ShortName": "Cambridge",
+                  "AstraLocationCode": "cam",
+                  "DisplayOrder": 1,
+                  "Id": "e44a5b31-f469-4e5b-93ad-f9219a73fe81"
+                }
+              ]
+            },
+            "selected_fee": {
+              "HeadingTitle": "Tuition fees for international students (2027/28)",
+              "FeeBand": {
+                "Description": "International students starting 2027/28 (full-time, per year)",
+                "Value": 19750.0,
+                "Id": "2881c5dc-adf4-48d0-89bd-a5e0da1cf197"
+              },
+              "FeesInformation": [
+                {
+                  "RichTextTitle": "",
+                  "RichTextContent": "<p>You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of &pound;4,000 or a sponsorship letter</p>\n<p>Find out about <a href=\"/web-payments\">paying your fees</a>.</p>",
+                  "BackgroundColor": null,
+                  "TextLimit": 0,
+                  "Id": "a60582fc-c9c9-431a-acdf-a4d10a52281f"
+                }
+              ],
+              "CallToActionLinks": [],
+              "FeeType": "International",
+              "Id": "3af8a62f-e619-441b-b347-58e34cb22b8f"
+            },
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for September 2027, Cambridge, 1 year full-time. This is the annual amount, not an inferred whole-programme total.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_97",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MA Art, Health and Wellbeing",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "17500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MA Art, Health and Wellbeing",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/art-health-and-wellbeing"
+        },
+        "tuition_fee": "21975.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/art-health-and-wellbeing",
+          "source_course_code": "",
+          "source_course_name": "MA Art, Health and Wellbeing",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "21975.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/art-health-and-wellbeing",
+            "source_sha256": "11272677806b47681ba0ef53260922037a5a940480231e0f3545625860e69806",
+            "fee_method": "reviewed_embedded_course_option",
+            "selected_option": {
+              "Duration": {
+                "Name": "1 year full-time",
+                "Id": "0e006fc1-d6c6-476d-b58d-0f7542981c6e"
+              },
+              "StartDate": [
+                {
+                  "Name": "September 2027",
+                  "Id": "12ba467c-68e1-4784-9b56-3b8ccb7cca9f"
+                }
+              ],
+              "Location": [
+                {
+                  "ShortName": "Cambridge",
+                  "AstraLocationCode": "cam",
+                  "DisplayOrder": 1,
+                  "Id": "e44a5b31-f469-4e5b-93ad-f9219a73fe81"
+                }
+              ]
+            },
+            "selected_fee": {
+              "HeadingTitle": "Tuition fees for international students (2027/28)",
+              "FeeBand": {
+                "Description": "International students starting 2027/28 (full-time, per year)",
+                "Value": 21975.0,
+                "Id": "b8b7611c-6598-48de-9372-3065c751e8d9"
+              },
+              "FeesInformation": [
+                {
+                  "RichTextTitle": "",
+                  "RichTextContent": "<p>You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of &pound;4,000 or a sponsorship letter</p>\n<p>Find out about <a href=\"/web-payments\">paying your fees</a>.</p>",
+                  "BackgroundColor": null,
+                  "TextLimit": 0,
+                  "Id": "a60582fc-c9c9-431a-acdf-a4d10a52281f"
+                }
+              ],
+              "CallToActionLinks": [],
+              "FeeType": "International",
+              "Id": "590670b5-4c2a-4ebc-8347-3fe5c9206464"
+            },
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for September 2027, Cambridge, 1 year full-time. This is the annual amount, not an inferred whole-programme total.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "21975.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_73",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Computer Games Development (Programming)",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Games Development (Programming)",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/computer-games-development-computing"
+        },
+        "tuition_fee": "21975.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/computer-games-development-computing",
+          "source_course_code": "",
+          "source_course_name": "MSc Games Development (Programming)",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "21975.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/computer-games-development-computing",
+            "source_sha256": "0962a265126825a9dec0ba14f8df0b7163cebab5276445bebef4de37a1374134",
+            "fee_method": "reviewed_embedded_course_option",
+            "selected_option": {
+              "Duration": {
+                "Name": "12 months full-time",
+                "Id": "482c5a0f-3c14-44b0-bb91-22bb2b11aef7"
+              },
+              "StartDate": [
+                {
+                  "Name": "September 2027",
+                  "Id": "12ba467c-68e1-4784-9b56-3b8ccb7cca9f"
+                }
+              ],
+              "Location": [
+                {
+                  "ShortName": "Cambridge",
+                  "AstraLocationCode": "cam",
+                  "DisplayOrder": 1,
+                  "Id": "e44a5b31-f469-4e5b-93ad-f9219a73fe81"
+                }
+              ]
+            },
+            "selected_fee": {
+              "HeadingTitle": "Tuition fees for international students (2027/28)",
+              "FeeBand": {
+                "Description": "International students starting 2027/28 (full-time, per year)",
+                "Value": 21975.0,
+                "Id": "b8b7611c-6598-48de-9372-3065c751e8d9"
+              },
+              "FeesInformation": [
+                {
+                  "RichTextTitle": "",
+                  "RichTextContent": "<p>You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of &pound;4,000 or a sponsorship letter</p>\n<p>Find out about <a href=\"/web-payments\">paying your fees</a>.</p>",
+                  "BackgroundColor": null,
+                  "TextLimit": 0,
+                  "Id": "a60582fc-c9c9-431a-acdf-a4d10a52281f"
+                }
+              ],
+              "CallToActionLinks": [],
+              "FeeType": "International",
+              "Id": "590670b5-4c2a-4ebc-8347-3fe5c9206464"
+            },
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for September 2027, Cambridge, 12 months full-time. This is the annual amount, not an inferred whole-programme total.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "21975.00",
+                "amount_requires_review": false
+              }
+            ],
+            "reviewed_course_corrections": {
+              "title": {
+                "before": "MSc Computer Games Development (Programming)",
+                "after": "MSc Games Development (Programming)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_74",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MA Computer Games Development (Art)",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MA Games Development (Art)",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/computer-games-development-art"
+        },
+        "tuition_fee": "21975.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/computer-games-development-art",
+          "source_course_code": "",
+          "source_course_name": "MA Games Development (Art)",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "21975.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/computer-games-development-art",
+            "source_sha256": "2e26f21687b6040bc2cb2872175673a7d9c18c40e3ef6128f890f10267432a76",
+            "fee_method": "reviewed_embedded_course_option",
+            "selected_option": {
+              "Duration": {
+                "Name": "12 months full-time",
+                "Id": "482c5a0f-3c14-44b0-bb91-22bb2b11aef7"
+              },
+              "StartDate": [
+                {
+                  "Name": "September 2027",
+                  "Id": "12ba467c-68e1-4784-9b56-3b8ccb7cca9f"
+                }
+              ],
+              "Location": [
+                {
+                  "ShortName": "Cambridge",
+                  "AstraLocationCode": "cam",
+                  "DisplayOrder": 1,
+                  "Id": "e44a5b31-f469-4e5b-93ad-f9219a73fe81"
+                }
+              ]
+            },
+            "selected_fee": {
+              "HeadingTitle": "Tuition fees for international students (2027/28)",
+              "FeeBand": {
+                "Description": "International students starting 2027/28 (full-time, per year)",
+                "Value": 21975.0,
+                "Id": "b8b7611c-6598-48de-9372-3065c751e8d9"
+              },
+              "FeesInformation": [
+                {
+                  "RichTextTitle": "",
+                  "RichTextContent": "<p>You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of &pound;4,000 or a sponsorship letter</p>\n<p>Find out about <a href=\"/web-payments\">paying your fees</a>.</p>",
+                  "BackgroundColor": null,
+                  "TextLimit": 0,
+                  "Id": "a60582fc-c9c9-431a-acdf-a4d10a52281f"
+                }
+              ],
+              "CallToActionLinks": [],
+              "FeeType": "International",
+              "Id": "590670b5-4c2a-4ebc-8347-3fe5c9206464"
+            },
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for September 2027, Cambridge, 12 months full-time. This is the annual amount, not an inferred whole-programme total.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "21975.00",
+                "amount_requires_review": false
+              }
+            ],
+            "reviewed_course_corrections": {
+              "title": {
+                "before": "MA Computer Games Development (Art)",
+                "after": "MA Games Development (Art)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_102",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc International Social Welfare and Social Policy",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc International Social Welfare and Social Policy",
+          "level": "PG",
+          "duration": "13 Months",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/international-social-welfare-and-social-policy"
+        },
+        "tuition_fee": "21975.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/international-social-welfare-and-social-policy",
+          "source_course_code": "",
+          "source_course_name": "MSc International Social Welfare and Social Policy",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "21975.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/international-social-welfare-and-social-policy",
+            "source_sha256": "2aee98c83091c6c548ab9fcab4c713aa3dba3c45fc8114d93345541115e6676d",
+            "fee_method": "reviewed_embedded_course_option",
+            "selected_option": {
+              "Duration": {
+                "Name": "13 months full-time",
+                "Id": "bdda37e3-35f9-4c6d-b84d-f9fae5cae2e3"
+              },
+              "StartDate": [
+                {
+                  "Name": "January 2027",
+                  "Id": "4edfb18a-10c0-49d5-aadd-8e2296c05190"
+                },
+                {
+                  "Name": "September 2027",
+                  "Id": "12ba467c-68e1-4784-9b56-3b8ccb7cca9f"
+                }
+              ],
+              "Location": [
+                {
+                  "ShortName": "Cambridge",
+                  "AstraLocationCode": "cam",
+                  "DisplayOrder": 1,
+                  "Id": "e44a5b31-f469-4e5b-93ad-f9219a73fe81"
+                }
+              ]
+            },
+            "selected_fee": {
+              "HeadingTitle": "Tuition fees for international students (2027/28)",
+              "FeeBand": {
+                "Description": "International students starting 2027/28 (full-time, per year)",
+                "Value": 21975.0,
+                "Id": "b8b7611c-6598-48de-9372-3065c751e8d9"
+              },
+              "FeesInformation": [
+                {
+                  "RichTextTitle": "",
+                  "RichTextContent": "<p>You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of &pound;4,000 or a sponsorship letter</p>\n<p>Find out about <a href=\"/web-payments\">paying your fees</a>.</p>",
+                  "BackgroundColor": null,
+                  "TextLimit": 0,
+                  "Id": "a60582fc-c9c9-431a-acdf-a4d10a52281f"
+                }
+              ],
+              "CallToActionLinks": [],
+              "FeeType": "International",
+              "Id": "590670b5-4c2a-4ebc-8347-3fe5c9206464"
+            },
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for September 2027, Cambridge, 13 months full-time. This is the annual amount, not an inferred whole-programme total.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "21975.00",
+                "amount_requires_review": false
+              }
+            ],
+            "reviewed_course_corrections": {
+              "duration": {
+                "before": "1 Year",
+                "after": "13 Months"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "blocked": []
+}

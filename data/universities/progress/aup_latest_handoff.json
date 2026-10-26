@@ -1,0 +1,323 @@
+{
+  "owner": "aup_final_handoff_v1",
+  "university_id": "UK006",
+  "university_name": "Arts University Plymouth",
+  "generated_at": "2026-10-25T00:42:04.469177+00:00",
+  "status": "reviewed_with_outstanding_cases",
+  "database_changes": false,
+  "summary": {
+    "total_course_records": 26,
+    "active_courses": 25,
+    "inactive_courses": 1,
+    "verified_international_fees": 23,
+    "pending_international_fees": 2,
+    "verified_annual_fee_courses": 23,
+    "verified_fee_courses_with_conditional_alumni_scope": 7,
+    "verified_fee_courses_without_supported_deduction_scope": 16,
+    "scholarship_rule_records": 2,
+    "verified_scholarship_rule_records": 1,
+    "unverified_scholarship_rule_records": 1,
+    "ended_published_competitive_award_cycles": 3,
+    "deposit_policy_records": 1,
+    "verified_deposit_policy_records": 1,
+    "verified_fee_courses_with_conditional_deposit_scope": 23
+  },
+  "courses": [
+    {
+      "course_id": "C_AUP006_01",
+      "title": "BA (Hons) Graphic Design (Top-up)",
+      "active": true,
+      "fee_verified": false,
+      "fee_reason": "AUP exact course route, intake and international tuition remain unverified. No legacy fee or scholarship deduction is displayed.",
+      "academic_year": null,
+      "fee_basis": null,
+      "tuition": null
+    },
+    {
+      "course_id": "C_UK006_01",
+      "title": "BA (Hons) Fine Art",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_02",
+      "title": "BA (Hons) Game Arts & Animation",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_03",
+      "title": "BA (Hons) Illustration",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_04",
+      "title": "BA (Hons) Graphic Design",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_05",
+      "title": "BA (Hons) Fashion Design",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_06",
+      "title": "BA (Hons) Film & Screen Arts",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_07",
+      "title": "BA (Hons) Photography",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_08",
+      "title": "BA (Hons) Textile Design",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_09",
+      "title": "BA (Hons) Costume Production",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_10",
+      "title": "BA (Hons) Interior Design & Styling",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_11",
+      "title": "BA (Hons) Content Creation",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_12",
+      "title": "BA (Hons) Craft & Material Practices",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_13",
+      "title": "BA (Hons) Fashion Media & Marketing",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_14",
+      "title": "BA (Hons) Painting, Drawing & Printmaking",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_15",
+      "title": "CertHE Business & Management for Creatives",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "17500.0"
+    },
+    {
+      "course_id": "C_UK006_16",
+      "title": "CertHE Ceramics & Glass",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "17500.0"
+    },
+    {
+      "course_id": "C_UK006_17",
+      "title": "MA Fine Art",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_18",
+      "title": "MA Drawing",
+      "active": true,
+      "fee_verified": false,
+      "fee_reason": "AUP exact course route, intake and international tuition remain unverified. No legacy fee or scholarship deduction is displayed.",
+      "academic_year": null,
+      "fee_basis": null,
+      "tuition": null
+    },
+    {
+      "course_id": "C_UK006_19",
+      "title": "MA Design (Fashion)",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_20",
+      "title": "MA Design (Communication)",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_21",
+      "title": "MA Craft & Material Practices",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_22",
+      "title": "MA Museum Studies",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_23",
+      "title": "MA Immersive Media",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    },
+    {
+      "course_id": "C_UK006_24",
+      "title": "MA Painting",
+      "active": false,
+      "fee_verified": false,
+      "fee_reason": "AUP exact course route, intake and international tuition remain unverified. No legacy fee or scholarship deduction is displayed.",
+      "academic_year": null,
+      "fee_basis": null,
+      "tuition": null
+    },
+    {
+      "course_id": "C_UK006_25",
+      "title": "MA Glass",
+      "active": true,
+      "fee_verified": true,
+      "fee_reason": null,
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "tuition": "18000.0"
+    }
+  ],
+  "competitive_award_notices": [
+    {
+      "name": "Creative Scholarships",
+      "status": "ended",
+      "label": "Has ended",
+      "application_deadline": "2026-02-25",
+      "source_url": "https://www.aup.ac.uk/international/finance",
+      "applicable_academic_year": null,
+      "automatic_deduction": false,
+      "message": "The published application deadline was 25 February 2026. This application cycle has ended. September 2027 availability has not been confirmed. Existing award letters require separate assessment."
+    },
+    {
+      "name": "Pro-Vice-Chancellor’s Arts University Plymouth Creative Excellence Award",
+      "status": "ended",
+      "label": "Has ended",
+      "application_deadline": "2026-02-25",
+      "source_url": "https://www.aup.ac.uk/international/finance",
+      "applicable_academic_year": null,
+      "automatic_deduction": false,
+      "message": "The published application deadline was 25 February 2026. This application cycle has ended. September 2027 availability has not been confirmed. Existing award letters require separate assessment."
+    },
+    {
+      "name": "Vice-Chancellor’s Arts University Plymouth Excellence Award",
+      "status": "ended",
+      "label": "Has ended",
+      "application_deadline": "2026-02-25",
+      "source_url": "https://www.aup.ac.uk/international/finance",
+      "applicable_academic_year": null,
+      "automatic_deduction": false,
+      "message": "The published application deadline was 25 February 2026. This application cycle has ended. September 2027 availability has not been confirmed. Existing award letters require separate assessment."
+    }
+  ],
+  "follow_up": "Recheck Graphic Design Top-up, MA Drawing and September 2027 competitive scholarship availability when official terms are updated.",
+  "anomalies": [],
+  "next_university_id": "UK007",
+  "audit_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\scraping-progress\\aup-handoff-20261025T004204469177Z\\aup-final-audit.json"
+}

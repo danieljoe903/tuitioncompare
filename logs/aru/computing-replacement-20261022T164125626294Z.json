@@ -1,0 +1,195 @@
+{
+  "generated_at": "2026-10-22T16:41:25.641902+00:00",
+  "university_id": "UK003",
+  "course_id": "C_UK003_64",
+  "mode": "preview",
+  "database_changes": false,
+  "proposed_changes": 0,
+  "mapping": "explicit_replacement_proposal",
+  "replacement_accepted": false,
+  "not_a_confirmed_rename": true,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\four-unidentified-20261022T161108375171Z\\four-route-evidence.json",
+  "before": {
+    "course": {
+      "title": "BSc (Hons) Computing",
+      "level": "UG",
+      "location": "Peterborough Campus",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2027,
+      "intake_months": "September",
+      "ucas_cao_code": "I118",
+      "course_url": "https://www.aru.ac.uk/study/undergraduate/computing"
+    },
+    "tuition": {
+      "id": 5209,
+      "residency": "INTL",
+      "currency": "GBP",
+      "tuition_fee": "19750.00"
+    },
+    "source": {
+      "academic_year": "2027/28",
+      "source_url": "https://www.aru.ac.uk/study/undergraduate/computing",
+      "source_course_name": "Computing",
+      "source_course_code": "I118",
+      "fee_basis": "annual_tuition",
+      "raw_fees": {
+        "mapping": "explicit_replacement",
+        "currency": "GBP",
+        "fee_note": "Annual international tuition for the standard three-year BSc Computing route at Peterborough, September 2027 / 2027/28. Foundation and placement routes are excluded. This is an explicit replacement of the stored Cambridge Computing and Information Systems record, not a verified course rename.",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "undergraduate_taught",
+        "academic_year": "2027/28",
+        "source_sha256": "c634154057225a04c065e792b5ecc2d0377192d92f4a58ae35fdad7112e00fe3",
+        "annual_tuition": "19750.00",
+        "deposit_status": "applicability_pending",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Annual international tuition for the standard three-year BSc Computing route at Peterborough, September 2027 / 2027/28. Foundation and placement routes are excluded. This is an explicit replacement of the stored Cambridge Computing and Information Systems record, not a verified course rename.",
+            "academic_year": "2027/28",
+            "annual_tuition": "19750.00",
+            "raw_annual_fee": "£19,750",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/computing",
+        "scholarship_status": "applicability_pending",
+        "source_course_code": "I118",
+        "source_course_name": "Computing",
+        "source_fee_category": "International",
+        "replacement_accepted": true,
+        "route_review_history": [
+          {
+            "mapping": "explicit_replacement",
+            "recorded_at": "2026-10-22T16:41:20.922497+00:00",
+            "after_course": {
+              "level": "UG",
+              "title": "BSc (Hons) Computing",
+              "duration": "3 Years",
+              "location": "Peterborough Campus",
+              "course_url": "https://www.aru.ac.uk/study/undergraduate/computing",
+              "start_year": 2027,
+              "start_month": "September",
+              "intake_months": "September",
+              "ucas_cao_code": "I118"
+            },
+            "before_course": {
+              "level": "UG",
+              "title": "BSc (Hons) Computing and Information Systems",
+              "duration": "3 Years",
+              "location": "Cambridge Campus",
+              "course_url": "www.aru.ac.uk",
+              "start_year": 2026,
+              "start_month": "September",
+              "intake_months": "September",
+              "ucas_cao_code": ""
+            },
+            "replacement_accepted": true,
+            "evidence_generated_at": "2026-10-22T16:11:08.375171+00:00",
+            "not_a_confirmed_rename": true,
+            "previous_tuition_source": null
+          }
+        ],
+        "not_a_confirmed_rename": true
+      }
+    }
+  },
+  "after": {
+    "course": {
+      "title": "BSc (Hons) Computing",
+      "level": "UG",
+      "location": "Peterborough Campus",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2027,
+      "intake_months": "September",
+      "ucas_cao_code": "I118",
+      "course_url": "https://www.aru.ac.uk/study/undergraduate/computing"
+    },
+    "tuition": {
+      "id": 5209,
+      "residency": "INTL",
+      "currency": "GBP",
+      "tuition_fee": "19750.00"
+    },
+    "source": {
+      "academic_year": "2027/28",
+      "source_url": "https://www.aru.ac.uk/study/undergraduate/computing",
+      "source_course_name": "Computing",
+      "source_course_code": "I118",
+      "fee_basis": "annual_tuition",
+      "raw_fees": {
+        "mapping": "explicit_replacement",
+        "currency": "GBP",
+        "fee_note": "Annual international tuition for the standard three-year BSc Computing route at Peterborough, September 2027 / 2027/28. Foundation and placement routes are excluded. This is an explicit replacement of the stored Cambridge Computing and Information Systems record, not a verified course rename.",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "undergraduate_taught",
+        "academic_year": "2027/28",
+        "source_sha256": "c634154057225a04c065e792b5ecc2d0377192d92f4a58ae35fdad7112e00fe3",
+        "annual_tuition": "19750.00",
+        "deposit_status": "applicability_pending",
+        "fee_categories": [
+          {
+            "source_fee_category": "International",
+            "academic_year": "2027/28",
+            "currency": "GBP",
+            "annual_tuition": "19750.00",
+            "raw_annual_fee": "£19,750",
+            "annotation": "Annual international tuition for the standard three-year BSc Computing route at Peterborough, September 2027 / 2027/28. Foundation and placement routes are excluded. This is an explicit replacement of the stored Cambridge Computing and Information Systems record, not a verified course rename.",
+            "footnote_marker": "",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/computing",
+        "scholarship_status": "applicability_pending",
+        "source_course_code": "I118",
+        "source_course_name": "Computing",
+        "source_fee_category": "International",
+        "replacement_accepted": true,
+        "route_review_history": [
+          {
+            "mapping": "explicit_replacement",
+            "recorded_at": "2026-10-22T16:41:20.922497+00:00",
+            "after_course": {
+              "level": "UG",
+              "title": "BSc (Hons) Computing",
+              "duration": "3 Years",
+              "location": "Peterborough Campus",
+              "course_url": "https://www.aru.ac.uk/study/undergraduate/computing",
+              "start_year": 2027,
+              "start_month": "September",
+              "intake_months": "September",
+              "ucas_cao_code": "I118"
+            },
+            "before_course": {
+              "level": "UG",
+              "title": "BSc (Hons) Computing and Information Systems",
+              "duration": "3 Years",
+              "location": "Cambridge Campus",
+              "course_url": "www.aru.ac.uk",
+              "start_year": 2026,
+              "start_month": "September",
+              "intake_months": "September",
+              "ucas_cao_code": ""
+            },
+            "replacement_accepted": true,
+            "evidence_generated_at": "2026-10-22T16:11:08.375171+00:00",
+            "not_a_confirmed_rename": true,
+            "previous_tuition_source": null
+          }
+        ],
+        "not_a_confirmed_rename": true
+      }
+    }
+  },
+  "other_courses_unchanged": {
+    "C_UK003_18": "The captured Writtle veterinary listing describes college qualifications. It does not verify the stored BSc route.",
+    "C_UK003_41": "Historical Marine Biology evidence does not verify a current intake or applicable international fee.",
+    "C_UK003_43": "The former Ecology course URL redirects to a subject listing. A current course-specific intake and fee remain unverified."
+  }
+}

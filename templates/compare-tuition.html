@@ -1,0 +1,1108 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Compare University Tuition Fees in UK & Ireland - University Tuition Compare</title>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    body > main {
+        padding-top: 0 !important;
+    }
+
+    .tuition-page {
+        --tuition-header-height: 120px;
+        background: #f1f7fb;
+        color: #102c46;
+    }
+
+    .tuition-page .hidden,
+    .tuition-page [hidden] {
+        display: none !important;
+    }
+
+    .tuition-hero {
+        position: relative;
+        isolation: isolate;
+        display: flex;
+        align-items: center;
+        min-height: 520px;
+        padding: calc(var(--tuition-header-height) + 50px) 0 68px;
+        overflow: hidden;
+        background: #102c46;
+    }
+
+    .tuition-hero-image {
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .tuition-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background: linear-gradient(
+            90deg,
+            rgba(8, 25, 43, 0.94),
+            rgba(8, 25, 43, 0.8) 55%,
+            rgba(8, 25, 43, 0.48)
+        );
+    }
+
+    .tuition-hero-content {
+        max-width: 760px;
+    }
+
+    .tuition-eyebrow {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 8px 14px;
+        border: 1px solid rgba(125, 211, 252, 0.35);
+        border-radius: 999px;
+        background: rgba(125, 211, 252, 0.1);
+        color: #bae6fd;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    }
+
+    .tuition-hero h1 {
+        margin: 0 0 22px;
+        color: #fff;
+        font-size: clamp(34px, 4.5vw, 54px);
+        font-weight: 700;
+        line-height: 1.12;
+    }
+
+    .tuition-hero h1 span {
+        color: #7dd3fc;
+    }
+
+    .tuition-hero-description {
+        max-width: 640px;
+        margin: 0;
+        color: #e2e8f0;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .tuition-hero-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 26px;
+    }
+
+    .tuition-hero-tags span {
+        padding: 7px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .tuition-search-section {
+        padding: 64px 0;
+    }
+
+    .tuition-search-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.4fr);
+        align-items: start;
+        gap: 44px;
+    }
+
+    .tuition-guide {
+        min-width: 0;
+        padding-top: 10px;
+    }
+
+    .tuition-guide h2,
+    .tuition-results-heading h2 {
+        margin: 0 0 18px;
+        font-size: clamp(26px, 2.5vw, 34px);
+        font-weight: 700;
+        line-height: 1.25;
+    }
+
+    .tuition-guide-description {
+        margin: 0 0 28px;
+        color: #52657a;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .tuition-steps {
+        display: grid;
+        gap: 22px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .tuition-steps li {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    .tuition-step-number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+        background: #dbeafe;
+        color: #1d4ed8;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .tuition-steps h3 {
+        margin: 0 0 5px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .tuition-steps p {
+        margin: 0;
+        color: #64748b;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .tuition-guide-note {
+        margin-top: 28px;
+        padding: 18px;
+        border: 1px solid #dbeafe;
+        border-radius: 14px;
+        background: #eff6ff;
+        color: #475569;
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .tuition-form-panel {
+        min-width: 0;
+        padding: 34px;
+        border: 1px solid #dce6ef;
+        border-radius: 22px;
+        background: #fff;
+        box-shadow: 0 12px 36px rgba(16, 44, 70, 0.06);
+    }
+
+    .tuition-form-heading {
+        margin-bottom: 28px;
+    }
+
+    .tuition-form-heading h2 {
+        margin: 0 0 9px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .tuition-form-heading p,
+    .tuition-help {
+        margin: 0;
+        color: #64748b;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .tuition-help {
+        margin-top: 8px;
+        font-size: 13px;
+    }
+
+    .tuition-fields {
+        display: grid;
+        gap: 22px;
+    }
+
+    .tuition-field-row {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .tuition-field {
+        min-width: 0;
+    }
+
+    .tuition-field label,
+    .tuition-results-controls label {
+        display: block;
+        margin-bottom: 9px;
+        color: #334155;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .tuition-required {
+        color: #dc2626;
+    }
+
+    .tuition-field select,
+    .tuition-field input,
+    .tuition-results-controls select {
+        display: block;
+        width: 100%;
+        min-height: 50px;
+        padding: 12px 14px;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #fff;
+        color: #102c46;
+        font: inherit;
+        font-size: 14px;
+    }
+
+    .tuition-field input::placeholder {
+        color: #64748b;
+    }
+
+    .tuition-field select:focus,
+    .tuition-field input:focus,
+    .tuition-results-controls select:focus {
+        outline: 3px solid rgba(37, 99, 235, 0.18);
+        border-color: #2563eb;
+    }
+
+    .tuition-fieldset {
+        min-width: 0;
+        padding: 18px;
+        border: 1px solid #cbd5e1;
+        border-radius: 12px;
+    }
+
+    .tuition-fieldset legend {
+        padding: 0 8px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .tuition-subject-wrapper {
+        position: relative;
+    }
+
+    #subject-suggestions {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 60;
+        max-height: 260px;
+        margin-top: 6px;
+        overflow-y: auto;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #fff;
+        color: #102c46;
+        box-shadow: 0 12px 28px rgba(16, 44, 70, 0.12);
+    }
+
+    .tuition-suggestion {
+        display: block;
+        width: 100%;
+        padding: 12px 16px;
+        border: 0;
+        background: transparent;
+        color: inherit;
+        text-align: left;
+        font: inherit;
+        cursor: pointer;
+    }
+
+    .tuition-suggestion:hover,
+    .tuition-suggestion:focus-visible {
+        background: #eff6ff;
+    }
+
+    .tuition-suggestion-message {
+        margin: 0;
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+    .tuition-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 50px;
+        padding: 14px 22px;
+        border: 0;
+        border-radius: 10px;
+        background: #2563eb;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    .tuition-button:hover {
+        background: #1d4ed8;
+    }
+
+    .tuition-submit {
+        width: 100%;
+        margin-top: 4px;
+    }
+
+    .tuition-page button:focus-visible,
+    .tuition-page a:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 4px;
+    }
+
+    .tuition-results {
+        padding: 48px 0 72px;
+        border-top: 1px solid #dce6ef;
+        background: #fff;
+        scroll-margin-top: calc(var(--tuition-header-height) + 24px);
+    }
+
+    .tuition-results-heading {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-bottom: 30px;
+    }
+
+    .tuition-results-heading h2 {
+        margin-bottom: 10px;
+    }
+
+    #comparison-count {
+        margin: 0;
+        color: #64748b;
+        font-size: 15px;
+    }
+
+    .tuition-results-controls {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        gap: 12px;
+    }
+
+    .tuition-results-controls select {
+        min-width: 140px;
+    }
+
+    #comparison-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: stretch;
+        gap: 24px;
+    }
+
+    #comparison-grid > * {
+        min-width: 0;
+        overflow-wrap: anywhere;
+    }
+
+    .tuition-card {
+        padding: 24px;
+        border: 1px solid #dce6ef;
+        border-radius: 14px;
+        background: #fff;
+        box-shadow: 0 8px 24px rgba(16, 44, 70, 0.06);
+    }
+
+    .tuition-card h3 {
+        margin: 0 0 6px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .tuition-card-header {
+        margin-bottom: 18px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid #dce6ef;
+    }
+
+    .tuition-card-section {
+        margin-bottom: 18px;
+    }
+
+    .tuition-card p {
+        margin: 0 0 6px;
+        line-height: 1.6;
+    }
+
+    .tuition-card-title {
+        font-weight: 700;
+    }
+
+    .tuition-card-label {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .tuition-card-amount {
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    .tuition-card-note {
+        color: #64748b;
+        font-size: 13px;
+    }
+
+    .tuition-card-discount {
+        color: #15803d;
+    }
+
+    .tuition-card-link {
+        display: block;
+        margin-top: 20px;
+        padding: 12px 16px;
+        border: 2px solid #2563eb;
+        border-radius: 10px;
+        color: #1d4ed8;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .tuition-card a:hover {
+        text-decoration: underline;
+    }
+
+    .tuition-result-message {
+        grid-column: 1 / -1;
+        padding: 32px 20px;
+        text-align: center;
+    }
+
+    .tuition-error {
+        border: 1px solid #fca5a5;
+        border-radius: 12px;
+        color: #b91c1c;
+    }
+
+    .dark .tuition-page,
+    .dark .tuition-results {
+        background: #0d1a2c;
+        color: #fff;
+    }
+
+    .dark .tuition-form-panel,
+    .dark .tuition-card {
+        background: #16283d;
+        border-color: #334155;
+        color: #fff;
+    }
+
+    .dark .tuition-field label,
+    .dark .tuition-results-controls label {
+        color: #fff;
+    }
+
+    .dark .tuition-guide-description,
+    .dark .tuition-steps p,
+    .dark .tuition-form-heading p,
+    .dark .tuition-help,
+    .dark .tuition-card-note,
+    .dark #comparison-count {
+        color: #cbd5e1;
+    }
+
+    .dark .tuition-step-number {
+        background: #183552;
+        color: #7dd3fc;
+    }
+
+    .dark .tuition-guide-note {
+        border-color: #334155;
+        background: #102c46;
+        color: #cbd5e1;
+    }
+
+    .dark .tuition-field input,
+    .dark .tuition-field select,
+    .dark .tuition-results-controls select,
+    .dark #subject-suggestions {
+        border-color: #475569;
+        background: #102c46;
+        color: #fff;
+        color-scheme: dark;
+    }
+
+    .dark .tuition-field input::placeholder {
+        color: #94a3b8;
+    }
+
+    .dark .tuition-fieldset,
+    .dark .tuition-results,
+    .dark .tuition-card-header {
+        border-color: #334155;
+    }
+
+    .dark .tuition-suggestion:hover,
+    .dark .tuition-suggestion:focus-visible {
+        background: #183552;
+    }
+
+    .dark .tuition-card-discount {
+        color: #86efac;
+    }
+
+    .dark .tuition-card-link {
+        color: #93c5fd;
+    }
+
+    @media (max-width: 1023px) {
+        .tuition-search-layout {
+            gap: 28px;
+        }
+
+        .tuition-form-panel {
+            padding: 26px;
+        }
+
+        .tuition-field-row {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        #comparison-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .tuition-results-heading {
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .tuition-hero {
+            min-height: 450px;
+            padding: calc(var(--tuition-header-height) + 36px) 0 48px;
+        }
+
+        .tuition-hero-description {
+            font-size: 16px;
+        }
+
+        .tuition-search-section {
+            padding: 40px 0;
+        }
+
+        .tuition-search-layout,
+        #comparison-grid {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        .tuition-guide {
+            padding-top: 0;
+        }
+
+        .tuition-form-panel {
+            padding: 24px;
+            border-radius: 18px;
+        }
+
+        .tuition-results {
+            padding: 36px 0 48px;
+        }
+
+        .tuition-results-controls {
+            width: 100%;
+        }
+
+        .tuition-results-controls > div {
+            flex: 1;
+            min-width: 130px;
+        }
+
+        .tuition-results-controls select {
+            min-width: 0;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .tuition-button {
+            transition: none;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="tuition-page" id="tuition-page">
+    <section class="tuition-hero" aria-labelledby="tuition-page-heading">
+        <img
+            class="tuition-hero-image"
+            src="{% static 'images/mine/DMU-ccCcccc.jpg' %}"
+            alt=""
+            fetchpriority="high"
+            decoding="async"
+        >
+
+        <div class="container">
+            <div class="tuition-hero-content">
+                <span class="tuition-eyebrow">Tuition Fee Comparison</span>
+
+                <h1 id="tuition-page-heading">
+                    Compare your options.<br>
+                    <span>Plan your education.</span>
+                </h1>
+
+                <p class="tuition-hero-description">
+                    Explore international tuition fees across UK and
+                    Irish universities and find courses that fit your
+                    interests and budget.
+                </p>
+
+                <div class="tuition-hero-tags">
+                    <span>United Kingdom</span>
+                    <span>Ireland</span>
+                    <span>Undergraduate &amp; Postgraduate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tuition-search-section" aria-label="Tuition comparison search">
+        <div class="container">
+            <div class="tuition-search-layout">
+                <aside class="tuition-guide">
+                    <h2>A clearer view of your study options.</h2>
+
+                    <p class="tuition-guide-description">
+                        Start with your destination and subject.
+                        Explore tuition information before building
+                        your university shortlist.
+                    </p>
+
+                    <ol class="tuition-steps">
+                        <li>
+                            <span class="tuition-step-number" aria-hidden="true">1</span>
+                            <div>
+                                <h3>Tell us where you live</h3>
+                                <p>Select your legal country of residence.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="tuition-step-number" aria-hidden="true">2</span>
+                            <div>
+                                <h3>Choose your study destination</h3>
+                                <p>Explore universities in the UK or Ireland.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="tuition-step-number" aria-hidden="true">3</span>
+                            <div>
+                                <h3>Find your subject</h3>
+                                <p>Choose a programme level and compare matching courses.</p>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <p class="tuition-guide-note">
+                        Fees, scholarships and deposits depend on the
+                        course, academic year and individual circumstances.
+                        Check the verification notes and confirm the
+                        amounts with the university before paying.
+                    </p>
+                </aside>
+
+                <div class="tuition-form-panel">
+                    <div class="tuition-form-heading">
+                        <h2>Compare Tuition Fees</h2>
+                        <p>
+                            Fields marked * are required.
+                            Deposit and scholarship questions are optional.
+                        </p>
+                    </div>
+
+                    <form id="tuition-compare-form" class="tuition-fields">
+                        <input type="hidden" name="fee_status" value="international">
+
+                        <div class="tuition-field-row">
+                            <div class="tuition-field">
+                                <label for="residence-country">
+                                    Legal Country of Residence (optional)
+                                    <span class="tuition-required" aria-hidden="true">*</span>
+                                </label>
+
+                                <select id="residence-country" name="residence">
+                                    <option value="">Not selected — show general deposit guidance</option>
+                                    <option value="NG">Nigeria</option>
+                                    <option value="GH">Ghana</option>
+                                    <option value="KE">Kenya</option>
+                                    <option value="ZA">South Africa</option>
+                                    <option value="US">United States</option>
+                                    <option value="IN">India</option>
+                                    <option value="CN">China</option>
+                                    <option value="PK">Pakistan</option>
+                                    <option value="BD">Bangladesh</option>
+                                    <option value="AF">Afghanistan</option>
+                                    <option value="IR">Iran</option>
+                                    <option value="IE">Republic of Ireland</option>
+                                    <option value="DE">Germany</option>
+                                    <option value="FR">France</option>
+                                    <option value="ES">Spain</option>
+                                    <option value="OTHER">Other / not listed</option>
+                                </select>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="dest-country">
+                                    Study Destination
+                                    <span class="tuition-required" aria-hidden="true">*</span>
+                                </label>
+
+                                <select id="dest-country" name="destination" required>
+                                    <option value="">Select destination</option>
+                                    <option value="UK">United Kingdom</option>
+                                    <option value="IE">Ireland</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <p class="tuition-help">
+                            This comparison uses international tuition fees.
+                            Legal residence helps determine deposit requirements;
+                            it does not establish your university fee status.
+                            If your country is not listed, a deposit estimate
+                            may require further assessment.
+                        </p>
+
+                        <div class="tuition-field">
+                            <label for="programme-type">
+                                Programme Type
+                                <span class="tuition-required" aria-hidden="true">*</span>
+                            </label>
+
+                            <select id="programme-type" name="programme" required>
+                                <option value="">Select programme type</option>
+                                <option value="UG">Undergraduate</option>
+                                <option value="PG">Postgraduate</option>
+                            </select>
+                        </div>
+
+                        <div class="tuition-field">
+                            <label for="subject">
+                                Subject or Course
+                                <span class="tuition-required" aria-hidden="true">*</span>
+                            </label>
+
+                            <div class="tuition-subject-wrapper">
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    name="subject"
+                                    autocomplete="off"
+                                    placeholder="e.g. Computer Science or Business..."
+                                    required
+                                >
+
+                                <div
+                                    id="subject-suggestions"
+                                    class="hidden"
+                                    aria-label="Subject suggestions"
+                                ></div>
+                            </div>
+                        </div>
+
+                        <fieldset class="tuition-fields tuition-fieldset">
+                            <legend>Deposit estimate (optional)</legend>
+
+                            <p class="tuition-help">
+                                These answers help estimate the payment required
+                                before CAS for applicable UK courses.
+                                Leave unknown answers unconfirmed.
+                                The university confirms the final amount.
+                            </p>
+
+                            <div
+                                id="residence-region-field"
+                                class="tuition-field"
+                                hidden
+                            >
+                                <label for="residence-region">
+                                    Indian state or union territory of legal residence
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="residence-region"
+                                    name="residence_region"
+                                    placeholder="For example: Punjab or Maharashtra"
+                                    disabled
+                                >
+
+                                <p class="tuition-help">
+                                    Enter the full name. Deposit requirements
+                                    differ for certain Indian states.
+                                </p>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="requires-student-visa">
+                                    Will you require a Student visa?
+                                </label>
+
+                                <select
+                                    id="requires-student-visa"
+                                    name="requires_student_visa"
+                                >
+                                    <option value="">Not confirmed</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="self-funded">Will you be self-funded?</label>
+
+                                <select id="self-funded" name="self_funded">
+                                    <option value="">Not confirmed</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No — externally sponsored</option>
+                                </select>
+
+                                <p class="tuition-help">
+                                    A university tuition scholarship alone does
+                                    not mean you have an external sponsor.
+                                </p>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="tuition-fields tuition-fieldset">
+                            <legend>Scholarship eligibility (optional)</legend>
+
+                            <p class="tuition-help">
+                                These self-reported answers produce estimates,
+                                not confirmation of an award.
+                                Leave unknown answers unconfirmed.
+                            </p>
+                            <div class="tuition-field">
+                                <label for="offer-received">
+                                    Have you received an offer for this course?
+                                </label>
+                                <select id="offer-received" name="offer_received">
+                                    <option value="">Not confirmed</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="applied-by-deadline">
+                                    For Aberystwyth September 2027 entry:
+                                    did you apply by 1 August 2027?
+                                </label>
+                                <select id="applied-by-deadline" name="applied_by_deadline">
+                                    <option value="">Not confirmed / not applicable</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="external-funding">
+                                    Will you receive any external scholarship, funding or bursary?
+                                </label>
+                                <select id="external-funding" name="external_funding">
+                                    <option value="">Not confirmed</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                            <div class="tuition-field">
+                                <label for="eligibility-new_entrant">
+                                    Are you a new entrant?
+                                </label>
+                                <select id="eligibility-new_entrant" name="new_entrant">
+                                    <option value="">Not confirmed</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="pg_2_1_equivalent_met">
+                                    For postgraduate scholarships: do you meet
+                                    the UK 2:1 degree-equivalent requirement?
+                                </label>
+                                <select
+                                    id="pg_2_1_equivalent_met"
+                                    name="pg_2_1_equivalent_met"
+                                >
+                                    <option value="">Not confirmed / not applicable</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="eligibility-full_time">
+                                    Will you study full-time?
+                                </label>
+                                <select id="eligibility-full_time" name="full_time">
+                                    <option value="">Not confirmed</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="eligibility-on_campus_dundee">
+                                    Will you study on campus in Dundee? (Abertay only)
+                                </label>
+                                <select
+                                    id="eligibility-on_campus_dundee"
+                                    name="on_campus_dundee"
+                                >
+                                    <option value="">Not confirmed</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="eligibility-academic_conditions_met">
+                                    Have you met all academic conditions of your offer?
+                                </label>
+                                <select
+                                    id="eligibility-academic_conditions_met"
+                                    name="academic_conditions_met"
+                                >
+                                    <option value="">Not confirmed</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="eligibility-partner_discount">
+                                    Will you receive a partner-institution tuition discount?
+                                </label>
+                                <select
+                                    id="eligibility-partner_discount"
+                                    name="partner_discount"
+                                >
+                                    <option value="">Not confirmed</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+
+                            <div class="tuition-field">
+                                <label for="eligibility-repeat_year">
+                                    Is this a repeat year of study?
+                                </label>
+                                <select id="eligibility-repeat_year" name="repeat_year">
+                                    <option value="">Not confirmed</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                        </fieldset>
+
+                        <button type="submit" class="tuition-button tuition-submit">
+                            Compare Fees
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section
+        id="comparison-results"
+        class="tuition-results hidden"
+        aria-labelledby="tuition-results-heading"
+    >
+        <div class="container">
+            <div class="tuition-results-heading">
+                <div>
+                    <h2 id="tuition-results-heading">Tuition Fee Comparison</h2>
+                    <p id="comparison-count" role="status">0 course options found</p>
+                </div>
+
+                <div class="tuition-results-controls">
+                    <div>
+                        <label for="level-filter">Additional Level Filter</label>
+                        <select id="level-filter">
+                            <option value="">All</option>
+                            <option value="TOPUP">Top-up</option>
+                            <option value="MRES">MRes</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="sort-filter">Sort net tuition</label>
+                        <select id="sort-filter">
+                            <option value="lowest">Lowest first</option>
+                            <option value="highest">Highest first</option>
+                        </select>
+                    </div>
+
+                    <button
+                        type="button"
+                        id="level-search-btn"
+                        class="tuition-button"
+                    >
+                        Apply Filter
+                    </button>
+                </div>
+            </div>
+
+            <div id="comparison-grid"></div>
+        </div>
+    </section>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'js/compare-tuition.js' %}?v=deposit-2"></script>
+
+<script>
+    (() => {
+        const page = document.getElementById("tuition-page");
+        const header = document.getElementById("header");
+
+        function updateHeaderSpacing() {
+            if (!page) return;
+
+            const isFixed = (
+                header
+                && getComputedStyle(header).position === "fixed"
+            );
+
+            const height = isFixed
+                ? Math.ceil(header.getBoundingClientRect().height)
+                : 0;
+
+            page.style.setProperty(
+                "--tuition-header-height",
+                `${height}px`
+            );
+        }
+
+        updateHeaderSpacing();
+        window.addEventListener("resize", updateHeaderSpacing);
+        window.addEventListener("load", updateHeaderSpacing);
+
+        if (header && "ResizeObserver" in window) {
+            new ResizeObserver(updateHeaderSpacing).observe(header);
+        }
+    })();
+</script>
+{% endblock %}

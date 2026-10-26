@@ -1,0 +1,199 @@
+{
+  "university_id": "UK005",
+  "source_url": "https://aub.ac.uk/international/international-scholarships/international-early-payment-fee-waiver",
+  "source_sha256": "2694715ed02b6baeea8172d7c7cd68e740696d2f354a7fef040678231d1a72a7",
+  "checked_at": "2026-10-24T19:29:48.539045+00:00",
+  "database_changes": false,
+  "rules": [
+    {
+      "name": "AUB International Early Payment Waiver — UG (2027/28)",
+      "course_count": 29,
+      "changed": true,
+      "rules": {
+        "importer": "aub_early_payment_2027_v1",
+        "benefit": "tuition",
+        "kind": "fixed",
+        "value": "1500.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aub_fee_status_confirmed": [
+            true
+          ],
+          "aub_offer_accepted": [
+            true
+          ],
+          "aub_full_annual_fee_paid": [
+            true
+          ],
+          "aub_no_other_award_received": [
+            true
+          ],
+          "course_id": [
+            "C_UK005_01",
+            "C_UK005_02",
+            "C_UK005_03",
+            "C_UK005_05",
+            "C_UK005_06",
+            "C_UK005_07",
+            "C_UK005_08",
+            "C_UK005_09",
+            "C_UK005_10",
+            "C_UK005_11",
+            "C_UK005_12",
+            "C_UK005_13",
+            "C_UK005_14",
+            "C_UK005_15",
+            "C_UK005_16",
+            "C_UK005_17",
+            "C_UK005_18",
+            "C_UK005_19",
+            "C_UK005_20",
+            "C_UK005_26",
+            "C_UK005_29",
+            "C_UK005_43",
+            "C_UK005_44",
+            "C_UK005_45",
+            "C_UK005_46",
+            "C_UK005_47",
+            "C_UK005_48",
+            "C_UK005_49",
+            "C_UK005_50"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aub_early_payment_date_valid": [
+            true
+          ]
+        },
+        "award_status": "conditional",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "fee_basis": "annual_tuition",
+        "payment_deadline": "2027-08-01",
+        "scope_note": "Reviewed September 2027 annual campus fees only. Includes integrated foundation Year 0; excludes online totals, MArch and unresolved routes. No stacking. No award-letter amount required for this fixed payment waiver.",
+        "eligibility_questions": [
+          {
+            "key": "aub_fee_status_confirmed",
+            "type": "boolean",
+            "label": "Has AUB assessed you as an overseas fee payer?"
+          },
+          {
+            "key": "aub_offer_accepted",
+            "type": "boolean",
+            "label": "Have you accepted the offer for this exact September 2027 course?"
+          },
+          {
+            "key": "aub_full_annual_fee_paid",
+            "type": "boolean",
+            "label": "Has AUB confirmed receipt of the full annual tuition payment?"
+          },
+          {
+            "key": "aub_no_other_award_received",
+            "type": "boolean",
+            "label": "Have you confirmed that no other AUB scholarship, bursary or financial award has been awarded to you for this period?"
+          },
+          {
+            "key": "aub_full_annual_payment_date",
+            "type": "date",
+            "label": "On what date did AUB receive the full annual tuition payment? Use the confirmed receipt date."
+          }
+        ],
+        "questions_location": "scholarship_page"
+      },
+      "before": null
+    },
+    {
+      "name": "AUB International Early Payment Waiver — PG (2027/28)",
+      "course_count": 10,
+      "changed": true,
+      "rules": {
+        "importer": "aub_early_payment_2027_v1",
+        "benefit": "tuition",
+        "kind": "fixed",
+        "value": "1500.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aub_fee_status_confirmed": [
+            true
+          ],
+          "aub_offer_accepted": [
+            true
+          ],
+          "aub_full_annual_fee_paid": [
+            true
+          ],
+          "aub_no_other_award_received": [
+            true
+          ],
+          "course_id": [
+            "C_UK005_21",
+            "C_UK005_24",
+            "C_UK005_25",
+            "C_UK005_33",
+            "C_UK005_34",
+            "C_UK005_35",
+            "C_UK005_36",
+            "C_UK005_37",
+            "C_UK005_38",
+            "C_UK005_39"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aub_early_payment_date_valid": [
+            true
+          ]
+        },
+        "award_status": "conditional",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "fee_basis": "annual_tuition",
+        "payment_deadline": "2027-08-01",
+        "scope_note": "Reviewed September 2027 annual campus fees only. Includes integrated foundation Year 0; excludes online totals, MArch and unresolved routes. No stacking. No award-letter amount required for this fixed payment waiver.",
+        "eligibility_questions": [
+          {
+            "key": "aub_fee_status_confirmed",
+            "type": "boolean",
+            "label": "Has AUB assessed you as an overseas fee payer?"
+          },
+          {
+            "key": "aub_offer_accepted",
+            "type": "boolean",
+            "label": "Have you accepted the offer for this exact September 2027 course?"
+          },
+          {
+            "key": "aub_full_annual_fee_paid",
+            "type": "boolean",
+            "label": "Has AUB confirmed receipt of the full annual tuition payment?"
+          },
+          {
+            "key": "aub_no_other_award_received",
+            "type": "boolean",
+            "label": "Have you confirmed that no other AUB scholarship, bursary or financial award has been awarded to you for this period?"
+          },
+          {
+            "key": "aub_full_annual_payment_date",
+            "type": "date",
+            "label": "On what date did AUB receive the full annual tuition payment? Use the confirmed receipt date."
+          }
+        ],
+        "questions_location": "scholarship_page"
+      },
+      "before": null
+    }
+  ],
+  "changed_items": 2
+}

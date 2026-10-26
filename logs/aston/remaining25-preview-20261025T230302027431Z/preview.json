@@ -1,0 +1,1139 @@
+{
+  "university_id": "UK007",
+  "database_changes": false,
+  "mappings_applied": false,
+  "proposals": [
+    {
+      "course_id": "C_UK007_02",
+      "level": "UG",
+      "source_url": "https://www.aston.ac.uk/study/courses/aerospace-engineering-beng",
+      "source_sha256": "4558312b23af3506073343dd57744758ffdcc88b2ea70cb31a343aa71b8001ef",
+      "heading": "Aerospace Engineering",
+      "academic_year": "2027/28",
+      "fee_label": "First year tuition fee",
+      "tuition_fee": "22575.00",
+      "fee_basis": "first_year_tuition",
+      "start_month": "September",
+      "start_year": 2027,
+      "published_duration": "4 years",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_02",
+        "university_id": "UK007",
+        "subject_id": 3,
+        "title": "BEng (Hons) Aerospace Engineering",
+        "level": "UG",
+        "overview": "Focused on aircraft design and propulsion systems with an integrated placement year.",
+        "modules": "Aerodynamics, Propulsion, Structural Analysis, Avionics",
+        "entry_requirements": "UCAS 120-128; Math/Physics required; IELTS 6.0.",
+        "duration": "4 Years",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:49.054Z",
+        "updated_at": "2026-03-28T18:14:49.054Z"
+      },
+      "before_international_tuition": {
+        "id": 5589,
+        "course_id": "C_UK007_02",
+        "residency": "INTL",
+        "tuition_fee": "22500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/aerospace-engineering-beng",
+        "start_month": "September",
+        "start_year": 2027,
+        "duration": "4 years",
+        "ucas_cao_code": "H400"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/aerospace-engineering-beng"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "4 Years",
+          "after": "4 years"
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "H400"
+        }
+      },
+      "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_10",
+      "level": "UG",
+      "source_url": "https://www.aston.ac.uk/study/courses/construction-project-management-bsc",
+      "source_sha256": "0f349777aa2c6ddad1113fe12d3040a643072b426a4bb1542aa6ab7d15371c1e",
+      "heading": "Construction Project Management",
+      "academic_year": "2027/28",
+      "fee_label": "First year tuition fee",
+      "tuition_fee": "22575.00",
+      "fee_basis": "first_year_tuition",
+      "start_month": "September",
+      "start_year": 2027,
+      "published_duration": "3 or 4 years",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_10",
+        "university_id": "UK007",
+        "subject_id": 34,
+        "title": "BSc (Hons) Construction Project Management",
+        "level": "UG",
+        "overview": "Preparing students for senior roles in site management and cost control in construction.",
+        "modules": "Site Management, Law, Cost Planning, Sustainability",
+        "entry_requirements": "UCAS 104-120; IELTS 6.0.",
+        "duration": "4 Years",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:49.248Z",
+        "updated_at": "2026-03-28T18:14:49.248Z"
+      },
+      "before_international_tuition": {
+        "id": 5605,
+        "course_id": "C_UK007_10",
+        "residency": "INTL",
+        "tuition_fee": "20500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/construction-project-management-bsc",
+        "start_month": "September",
+        "start_year": 2027,
+        "duration": "3 or 4 years",
+        "ucas_cao_code": "K221"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/construction-project-management-bsc"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "4 Years",
+          "after": "3 or 4 years"
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "K221"
+        }
+      },
+      "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_13",
+      "level": "UG",
+      "source_url": "https://www.aston.ac.uk/study/courses/economics-bsc",
+      "source_sha256": "84a275a0d889e917d0d9bf5de70d6d931a4887bdafb6d17175b5e5dd584412d7",
+      "heading": "Economics",
+      "academic_year": "2027/28",
+      "fee_label": "First year tuition fee",
+      "tuition_fee": "23500.00",
+      "fee_basis": "first_year_tuition",
+      "start_month": "September",
+      "start_year": 2027,
+      "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_13",
+        "university_id": "UK007",
+        "subject_id": 46,
+        "title": "BSc (Hons) Economics",
+        "level": "UG",
+        "overview": "Studies global markets, econometrics, and the impact of public policy on finance.",
+        "modules": "Microeconomics, Macroeconomics, Econometrics, Global Trade",
+        "entry_requirements": "UCAS 112-120; IELTS 6.5.",
+        "duration": "4 Years",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:49.317Z",
+        "updated_at": "2026-03-28T18:14:49.317Z"
+      },
+      "before_international_tuition": {
+        "id": 5611,
+        "course_id": "C_UK007_13",
+        "residency": "INTL",
+        "tuition_fee": "20500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/economics-bsc",
+        "start_month": "September",
+        "start_year": 2027,
+        "duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+        "ucas_cao_code": "L100"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/economics-bsc"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "4 Years",
+          "after": "4 years with integrated placement year (international students may opt out of the placement year)"
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "L100"
+        }
+      },
+      "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_14",
+      "level": "UG",
+      "source_url": "https://www.aston.ac.uk/study/courses/electrical-and-electronic-engineering-beng",
+      "source_sha256": "1bb3afc62c31ea7657d89cb625106c8ecf376c84080eddd7c480cba724022eb8",
+      "heading": "Electrical and Electronic Engineering",
+      "academic_year": "2027/28",
+      "fee_label": "First year tuition fee",
+      "tuition_fee": "22575.00",
+      "fee_basis": "first_year_tuition",
+      "start_month": "September",
+      "start_year": 2027,
+      "published_duration": "3 or 4 years",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_14",
+        "university_id": "UK007",
+        "subject_id": 49,
+        "title": "BEng (Hons) Electrical and Electronic Engineering",
+        "level": "UG",
+        "overview": "Covers power systems, digital electronics, and signal processing with a placement year.",
+        "modules": "Digital Systems, Power Electronics, Microprocessors, Control",
+        "entry_requirements": "UCAS 120-128; Math required; IELTS 6.0.",
+        "duration": "4 Years",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:49.340Z",
+        "updated_at": "2026-03-28T18:14:49.340Z"
+      },
+      "before_international_tuition": {
+        "id": 5613,
+        "course_id": "C_UK007_14",
+        "residency": "INTL",
+        "tuition_fee": "22500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/electrical-and-electronic-engineering-beng",
+        "start_month": "September",
+        "start_year": 2027,
+        "duration": "3 or 4 years",
+        "ucas_cao_code": "H600"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/electrical-and-electronic-engineering-beng"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "4 Years",
+          "after": "3 or 4 years"
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "H600"
+        }
+      },
+      "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_16",
+      "level": "UG",
+      "source_url": "https://www.aston.ac.uk/study/courses/law-llb",
+      "source_sha256": "ce7e3776b5fcb65dc209108265c5cb04a6b9c03f30d9391519ff86eab763af81",
+      "heading": "Law",
+      "academic_year": "2027/28",
+      "fee_label": "First year tuition fee",
+      "tuition_fee": "22575.00",
+      "fee_basis": "first_year_tuition",
+      "start_month": "September",
+      "start_year": 2027,
+      "published_duration": "3 or 4 years",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_16",
+        "university_id": "UK007",
+        "subject_id": 79,
+        "title": "LLB (Hons) Law",
+        "level": "UG",
+        "overview": "Qualifying law degree focusing on commercial legal practice and practical advocacy.",
+        "modules": "Criminal Law, Contract Law, Public Law, Equity and Trusts",
+        "entry_requirements": "UCAS 128-144; IELTS 6.5.",
+        "duration": "3 Years",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:49.388Z",
+        "updated_at": "2026-03-28T18:14:49.388Z"
+      },
+      "before_international_tuition": {
+        "id": 5617,
+        "course_id": "C_UK007_16",
+        "residency": "INTL",
+        "tuition_fee": "20500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/law-llb",
+        "start_month": "September",
+        "start_year": 2027,
+        "duration": "3 or 4 years",
+        "ucas_cao_code": "M100"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/law-llb"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "3 Years",
+          "after": "3 or 4 years"
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "M100"
+        }
+      },
+      "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_17",
+      "level": "UG",
+      "source_url": "https://www.aston.ac.uk/study/courses/medicine-mbchb/september-2027",
+      "source_sha256": "1f204e843772fe2a47765a87aa0c581ba6a3f3c02f0a5ca831090087c9c3b766",
+      "heading": "Medicine",
+      "academic_year": "2027/28",
+      "fee_label": "Annual tuition fee",
+      "tuition_fee": "47000.00",
+      "fee_basis": "annual_tuition",
+      "start_month": "September",
+      "start_year": 2027,
+      "published_duration": "5 Years",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_17",
+        "university_id": "UK007",
+        "subject_id": 91,
+        "title": "MBChB Medicine",
+        "level": "UG",
+        "overview": "GMC-regulated degree preparing students for professional doctor registration.",
+        "modules": "Anatomy, Physiology, Clinical Skills, Public Health, Surgery",
+        "entry_requirements": "AAA; UCAT; Interview; IELTS 7.5.",
+        "duration": "5 Years",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:49.411Z",
+        "updated_at": "2026-03-28T18:14:49.411Z"
+      },
+      "before_international_tuition": {
+        "id": 5619,
+        "course_id": "C_UK007_17",
+        "residency": "INTL",
+        "tuition_fee": "43500.0",
+        "scholarship": "0.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/medicine-mbchb/september-2027",
+        "start_month": "September",
+        "start_year": 2027,
+        "duration": "5 Years",
+        "ucas_cao_code": "A100"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/medicine-mbchb/september-2027"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "A100"
+        }
+      },
+      "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_24",
+      "level": "PG",
+      "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027",
+      "source_sha256": "ce904f0539b119d582be3aa7bbf137e8f70d45ef120d7f0536f616254361c4b7",
+      "heading": "MBA (Full-time)",
+      "academic_year": "2026/27",
+      "fee_label": "Annual tuition fees",
+      "tuition_fee": "31500.00",
+      "fee_basis": "annual_tuition",
+      "start_month": "January",
+      "start_year": 2027,
+      "published_duration": "One year",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_24",
+        "university_id": "UK007",
+        "subject_id": 21,
+        "title": "MBA Full-Time",
+        "level": "PG",
+        "overview": "Elite triple-accredited MBA program for future global corporate leaders.",
+        "modules": "Leadership, Strategic Marketing, Corporate Finance, Ethics",
+        "entry_requirements": "2.1 Honours; 3 years exp; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:49.579Z",
+        "updated_at": "2026-03-28T18:14:49.579Z"
+      },
+      "before_international_tuition": {
+        "id": 5633,
+        "course_id": "C_UK007_24",
+        "residency": "INTL",
+        "tuition_fee": "31500.0",
+        "scholarship": "0.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027",
+        "start_month": "January",
+        "start_year": 2027,
+        "duration": "One year"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027"
+        },
+        "start_month": {
+          "before": "September",
+          "after": "January"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "1 Year",
+          "after": "One year"
+        }
+      },
+      "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_32",
+      "level": "UG",
+      "source_url": "https://www.aston.ac.uk/study/courses/optometry-moptom/september-2027",
+      "source_sha256": "04fd98095ca6b7fe2bb5db03b93ee627638aeb08ad799fa0661960f8d111f40c",
+      "heading": "Optometry",
+      "academic_year": "2027/28",
+      "fee_label": "First year tuition fee",
+      "tuition_fee": "22575.00",
+      "fee_basis": "first_year_tuition",
+      "start_month": "September",
+      "start_year": 2027,
+      "published_duration": "4 years",
+      "mapping": "explicit_replacement_proposal",
+      "replacement_title": "MOptom Optometry",
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_32",
+        "university_id": "UK007",
+        "subject_id": 99,
+        "title": "BSc (Hons) Optometry",
+        "level": "UG",
+        "overview": "Professional training for GOC registration; students gain access to world-class vision clinics.",
+        "modules": "Clinical Optometry, Pathology, Ocular Anatomy, Binocular Vision",
+        "entry_requirements": "AAB-AAA; Science required; IELTS 7.0.",
+        "duration": "3 Years",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:49.782Z",
+        "updated_at": "2026-03-28T18:14:49.782Z"
+      },
+      "before_international_tuition": {
+        "id": 5649,
+        "course_id": "C_UK007_32",
+        "residency": "INTL",
+        "tuition_fee": "21500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/optometry-moptom/september-2027",
+        "start_month": "September",
+        "start_year": 2027,
+        "duration": "4 years",
+        "ucas_cao_code": "B512",
+        "title": "MOptom Optometry"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/optometry-moptom/september-2027"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "3 Years",
+          "after": "4 years"
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "B512"
+        },
+        "title": {
+          "before": "BSc (Hons) Optometry",
+          "after": "MOptom Optometry"
+        }
+      },
+      "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+      "mapping_status": "explicit_replacement_proposal",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_38",
+      "level": "UG",
+      "source_url": "https://www.aston.ac.uk/study/courses/business-and-supply-chain-management-bsc",
+      "source_sha256": "dd5f6714f48d6befd06b941fb36b0e654fc42b69fe6daaddd668912befc09dcc",
+      "heading": "Business and Supply Chain Management",
+      "academic_year": "2027/28",
+      "fee_label": "First year tuition fee",
+      "tuition_fee": "22575.00",
+      "fee_basis": "first_year_tuition",
+      "start_month": "September",
+      "start_year": 2027,
+      "published_duration": "4 years",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_38",
+        "university_id": "UK007",
+        "subject_id": 122,
+        "title": "BSc (Hons) Business and Supply Chain Management",
+        "level": "UG",
+        "overview": "Focused on the logistics, procurement, and management of global value chains.",
+        "modules": "Logistics, Operations Management, Strategic Marketing",
+        "entry_requirements": "UCAS 112-120; IELTS 6.5.",
+        "duration": "4 Years",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:49.946Z",
+        "updated_at": "2026-03-28T18:14:49.946Z"
+      },
+      "before_international_tuition": {
+        "id": 5661,
+        "course_id": "C_UK007_38",
+        "residency": "INTL",
+        "tuition_fee": "20500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/business-and-supply-chain-management-bsc",
+        "start_month": "September",
+        "start_year": 2027,
+        "duration": "4 years",
+        "ucas_cao_code": "N1J9"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/business-and-supply-chain-management-bsc"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "4 Years",
+          "after": "4 years"
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "N1J9"
+        }
+      },
+      "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_44",
+      "level": "PG",
+      "source_url": "https://www.aston.ac.uk/study/courses/information-systems-and-business-analysis-msc/january-2027",
+      "source_sha256": "5e0d5cc761cf7c897ffc55703bd81d9ba08acbfd193495c189aa1dc3833a02f3",
+      "heading": "Information Systems and Business Analysis",
+      "academic_year": "2026/27",
+      "fee_label": "Annual tuition fees",
+      "tuition_fee": "25500.00",
+      "fee_basis": "annual_tuition",
+      "start_month": "January",
+      "start_year": 2027,
+      "published_duration": "One year",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_44",
+        "university_id": "UK007",
+        "subject_id": 22,
+        "title": "MSc Information Systems and Business Analysis",
+        "level": "PG",
+        "overview": "Converting complex IT data into actionable business intelligence.",
+        "modules": "Data Mining, SQL, Project Strategy, Business Analysis",
+        "entry_requirements": "2.2 Honours; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "January",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "January",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:50.150Z",
+        "updated_at": "2026-03-28T18:14:50.151Z"
+      },
+      "before_international_tuition": {
+        "id": 5673,
+        "course_id": "C_UK007_44",
+        "residency": "INTL",
+        "tuition_fee": "23500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/information-systems-and-business-analysis-msc/january-2027",
+        "start_month": "January",
+        "start_year": 2027,
+        "duration": "One year"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/information-systems-and-business-analysis-msc/january-2027"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "1 Year",
+          "after": "One year"
+        }
+      },
+      "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_45",
+      "level": "PG",
+      "source_url": "https://www.aston.ac.uk/study/courses/human-resource-management-msc/january-2027",
+      "source_sha256": "7da0f5a415f692cbdcf134700f60a8d83a29a469617ac7dc37280b241a7ce050",
+      "heading": "Human Resource Management",
+      "academic_year": "2026/27",
+      "fee_label": "Annual tuition fees",
+      "tuition_fee": "25500.00",
+      "fee_basis": "annual_tuition",
+      "start_month": "January",
+      "start_year": 2027,
+      "published_duration": "One year",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_45",
+        "university_id": "UK007",
+        "subject_id": 71,
+        "title": "MSc Human Resource Management",
+        "level": "PG",
+        "overview": "Strategic and ethical people management with a January intake option.",
+        "modules": "Strategic HRM, Employee Relations, L&D, Employment Law",
+        "entry_requirements": "2.2 Honours; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "January",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "January",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:50.185Z",
+        "updated_at": "2026-03-28T18:14:50.185Z"
+      },
+      "before_international_tuition": {
+        "id": 5675,
+        "course_id": "C_UK007_45",
+        "residency": "INTL",
+        "tuition_fee": "23500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/human-resource-management-msc/january-2027",
+        "start_month": "January",
+        "start_year": 2027,
+        "duration": "One year"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/human-resource-management-msc/january-2027"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "1 Year",
+          "after": "One year"
+        }
+      },
+      "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_46",
+      "level": "PG",
+      "source_url": "https://www.aston.ac.uk/study/courses/business-and-management-msc/january-2027",
+      "source_sha256": "8fe51f0d68e839910d43a340a36b4938180b18e3dd224dfb8259d7f3ce0e6a6b",
+      "heading": "Business and Management",
+      "academic_year": "2026/27",
+      "fee_label": "Annual tuition fees",
+      "tuition_fee": "25500.00",
+      "fee_basis": "annual_tuition",
+      "start_month": "January",
+      "start_year": 2027,
+      "published_duration": "One year",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_46",
+        "university_id": "UK007",
+        "subject_id": 23,
+        "title": "MSc Business and Management",
+        "level": "PG",
+        "overview": "Conversion masters for graduates wishing to enter senior management.",
+        "modules": "Strategic Management, Marketing, HRM, Finance",
+        "entry_requirements": "2.2 Honours; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "January",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "January",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:50.221Z",
+        "updated_at": "2026-03-28T18:14:50.222Z"
+      },
+      "before_international_tuition": {
+        "id": 5677,
+        "course_id": "C_UK007_46",
+        "residency": "INTL",
+        "tuition_fee": "22500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/business-and-management-msc/january-2027",
+        "start_month": "January",
+        "start_year": 2027,
+        "duration": "One year"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/business-and-management-msc/january-2027"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "1 Year",
+          "after": "One year"
+        }
+      },
+      "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_48",
+      "level": "PG",
+      "source_url": "https://www.aston.ac.uk/study/courses/robotics-and-autonomous-systems-msc/january-2027",
+      "source_sha256": "ebabffa5b0c984978657d5cd41fbefc37d63260592d90b05b85e0abce8b66da2",
+      "heading": "Robotics and Autonomous Systems",
+      "academic_year": "2026/27",
+      "fee_label": "Annual tuition fees",
+      "tuition_fee": "24800.00",
+      "fee_basis": "annual_tuition",
+      "start_month": "January",
+      "start_year": 2027,
+      "published_duration": "One year",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_48",
+        "university_id": "UK007",
+        "subject_id": 113,
+        "title": "MSc Robotics and Autonomous Systems",
+        "level": "PG",
+        "overview": "Advanced robotics engineering including control systems and computer vision.",
+        "modules": "Robotic Control, AI, Embedded Systems, Computer Vision",
+        "entry_requirements": "2.2 Honours (STEM); IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "January",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "January",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:50.288Z",
+        "updated_at": "2026-03-28T18:14:50.288Z"
+      },
+      "before_international_tuition": {
+        "id": 5681,
+        "course_id": "C_UK007_48",
+        "residency": "INTL",
+        "tuition_fee": "23500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/robotics-and-autonomous-systems-msc/january-2027",
+        "start_month": "January",
+        "start_year": 2027,
+        "duration": "One year"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/robotics-and-autonomous-systems-msc/january-2027"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "1 Year",
+          "after": "One year"
+        }
+      },
+      "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    },
+    {
+      "course_id": "C_UK007_49",
+      "level": "PG",
+      "source_url": "https://www.aston.ac.uk/study/courses/smart-manufacturing-msc/january-2027",
+      "source_sha256": "59490c97df8f22e2b68a59a2e7b85893eb580551690d5b3d3b8b0e4ecfe933ef",
+      "heading": "Smart Manufacturing",
+      "academic_year": "2026/27",
+      "fee_label": "Annual tuition fees",
+      "tuition_fee": "24800.00",
+      "fee_basis": "annual_tuition",
+      "start_month": "January",
+      "start_year": 2027,
+      "published_duration": "One year",
+      "mapping": "reviewed_exact_award_and_subject",
+      "replacement_title": null,
+      "currency": "GBP",
+      "before_course": {
+        "course_id": "C_UK007_49",
+        "university_id": "UK007",
+        "subject_id": 83,
+        "title": "MSc Smart Manufacturing",
+        "level": "PG",
+        "overview": "Focused on the Industry 4.0 transition and digital manufacturing strategy.",
+        "modules": "Automation, Supply Chain, Operations Excellence",
+        "entry_requirements": "2.2 Honours; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Birmingham Campus",
+        "start_year": 2026,
+        "start_month": "January",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "January",
+        "course_url": "www.aston.ac.uk",
+        "created_at": "2026-03-28T18:14:50.322Z",
+        "updated_at": "2026-03-28T18:14:50.322Z"
+      },
+      "before_international_tuition": {
+        "id": 5683,
+        "course_id": "C_UK007_49",
+        "residency": "INTL",
+        "tuition_fee": "23500.0",
+        "scholarship": "3000.0",
+        "tuition_deposit": "5000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "course_url": "https://www.aston.ac.uk/study/courses/smart-manufacturing-msc/january-2027",
+        "start_month": "January",
+        "start_year": 2027,
+        "duration": "One year"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aston.ac.uk",
+          "after": "https://www.aston.ac.uk/study/courses/smart-manufacturing-msc/january-2027"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "duration": {
+          "before": "1 Year",
+          "after": "One year"
+        }
+      },
+      "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+      "mapping_status": "reviewed_exact_award_and_subject",
+      "scholarship_status": "separate_cohort_scope_reconciliation_required",
+      "deposit_status": "offer_and_policy_scope_reconciliation_required"
+    }
+  ],
+  "blocked": [],
+  "summary": {
+    "fee_proposals": 14,
+    "blocked": 0,
+    "undergraduate_first_year_fees": 7,
+    "postgraduate_annual_fees": 6,
+    "reviewed_remaining_records": 25,
+    "existing_route_fee_proposals": 13,
+    "explicit_replacement_proposals": 1,
+    "undergraduate_annual_fee_proposals": 1,
+    "held_identity_duplicate_cases": 11
+  },
+  "pending": [
+    {
+      "course_id": "C_AST007_01",
+      "status": "topup_route_and_missing_fee_row",
+      "reason": "A related standard BSc is not the stored Business Administration top-up. No international tuition row exists; exact top-up ownership, route and fee require confirmation."
+    },
+    {
+      "course_id": "C_AST007_RES_01",
+      "status": "research_route_pending",
+      "reason": "No exact MRes Business and Management route was established. A business research/PhD page cannot verify this award automatically."
+    },
+    {
+      "course_id": "C_AST007_RES_02",
+      "status": "research_award_mismatch",
+      "reason": "The suggested Health and Life Sciences PhD page is a different award from the stored MSc by Research."
+    },
+    {
+      "course_id": "C_AST007_RES_03",
+      "status": "research_award_mismatch",
+      "reason": "The Engineering and Physical Sciences candidate is a PhD route, not confirmation of the stored MSc by Research."
+    },
+    {
+      "course_id": "C_AST007_RES_04",
+      "status": "research_award_mismatch",
+      "reason": "The Law and Social Sciences PhD candidate does not establish the stored MPhil Languages and Social Sciences route."
+    },
+    {
+      "course_id": "C_UK007_20",
+      "status": "replacement_review_required",
+      "reason": "Advanced Computer Science MSc is a related candidate, not an approved replacement for MSc Computer Science."
+    },
+    {
+      "course_id": "C_UK007_26",
+      "status": "public_health_route_pending",
+      "reason": "The MBA candidate is incorrect. No exact current MPH route/intake is approved from the collected evidence."
+    },
+    {
+      "course_id": "C_UK007_36",
+      "status": "exact_subject_route_pending",
+      "reason": "Business Analytics is not Business and Politics. Similarity does not approve a replacement."
+    },
+    {
+      "course_id": "C_UK007_37",
+      "status": "exact_subject_route_pending",
+      "reason": "Psychology and Business is not Business and Sociology. A replacement requires explicit route review."
+    },
+    {
+      "course_id": "C_UK007_47",
+      "status": "capture_and_route_pending",
+      "reason": "The exact Data Science and Artificial Intelligence URL redirected to authentication. No sign-in is attempted and no closure inferred; Applied AI remains a different unapproved candidate."
+    },
+    {
+      "course_id": "C_UK007_50",
+      "status": "possible_duplicate_review",
+      "reason": "Both MBA records point to the same Full-Time MBA route. C_UK007_24 is previewed provisionally; do not retire this record until duplicate identity and history are accepted."
+    }
+  ],
+  "generated_at": "2026-10-25T23:03:02.027431+00:00",
+  "evidence_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aston\\source-review-20261025T213423816488Z\\reindexed-review-20261025T215549355064Z.json",
+  "original_evidence_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aston\\source-review-20261025T213423816488Z\\source-review.json",
+  "notes": [
+    "No database records changed. No replacement or duplicate retirement accepted.",
+    "MBA is excluded from reviewed Community/Cadbury schemes; MBA-specific awards still require review.",
+    "Medicine and proposed Optometry are excluded from reviewed Community/Cadbury schemes.",
+    "Other scholarship scopes must be extended only after exact-cohort reconciliation.",
+    "Deposit amounts remain offer-letter specific. This preview does not extend saved policy scopes."
+  ]
+}

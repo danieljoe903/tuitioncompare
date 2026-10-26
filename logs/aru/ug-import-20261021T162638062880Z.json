@@ -1,0 +1,1594 @@
+{
+  "generated_at": "2026-10-21T16:26:38.062880+00:00",
+  "university_id": "UK003",
+  "mode": "apply",
+  "database_changes": true,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\courses-20261021T143154720282Z\\course-evidence.json",
+  "records": [
+    {
+      "course_id": "C_UK003_91",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Acting",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Acting",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/acting",
+          "ucas_cao_code": "W410",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/acting",
+          "source_course_code": "W410",
+          "source_course_name": "Acting",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/acting",
+            "source_sha256": "054a77e7bca78c997796c9b7b976f575af9da26beda829abb642489020b494d5",
+            "source_checked_at": "2026-10-21T14:34:17.875992+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_17",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Agriculture",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Writtle Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Agriculture",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Writtle Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/agriculture",
+          "ucas_cao_code": "D401",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/agriculture",
+          "source_course_code": "D401",
+          "source_course_name": "Agriculture",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/agriculture",
+            "source_sha256": "dea657551a3c1f4919ae07dd76aecb02187ba9983df3ba189ed1513af18d28f7",
+            "source_checked_at": "2026-10-21T14:34:19.250301+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_69",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Agriculture with Business",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Writtle Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Agriculture with Business",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Writtle Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/agriculture-with-business",
+          "ucas_cao_code": "D403",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/agriculture-with-business",
+          "source_course_code": "D403",
+          "source_course_name": "Agriculture with Business",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/agriculture-with-business",
+            "source_sha256": "5e62eb6f43a54501e2b42d9d493c04f1267aa655b613a6924b7e343d75970eef",
+            "source_checked_at": "2026-10-21T14:34:20.744255+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_42",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Biology",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Biology",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/biology",
+          "ucas_cao_code": "C100",
+          "is_active": true
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/biology",
+          "source_course_code": "C100",
+          "source_course_name": "Biology",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/biology",
+            "source_sha256": "23928871b7cde6a38fc1bc667039a3422712468b6f08ed2ca272f3d04cbb19c6",
+            "source_checked_at": "2026-10-21T14:34:37.745998+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_04",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Biomedical Science",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Biomedical Science",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/biomedical-science",
+          "ucas_cao_code": "B940",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/biomedical-science",
+          "source_course_code": "B940",
+          "source_course_name": "Biomedical Science",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/biomedical-science",
+            "source_sha256": "480ad4cc22327267e91419c5630b2c0fddb2bfb0aed7ad62d170b07a23c2bdcc",
+            "source_checked_at": "2026-10-21T14:34:42.076133+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_62",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Building Surveying",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Building Surveying",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/building-surveying",
+          "ucas_cao_code": "K230",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/building-surveying",
+          "source_course_code": "K230",
+          "source_course_name": "Building Surveying",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/building-surveying",
+            "source_sha256": "d3a16d6f498ccac1d089f287ecca9d1c023d89808fccd88b2c922d6e14ac797b",
+            "source_checked_at": "2026-10-21T14:34:46.030199+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_34",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Computer Networking",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Peterborough Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Computer Networking",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Peterborough Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/computer-networking",
+          "ucas_cao_code": "I120",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/computer-networking",
+          "source_course_code": "I120",
+          "source_course_name": "Computer Networking",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/computer-networking",
+            "source_sha256": "373d2b4d462b4e88dae911bb50a47af6629933cc4480d752d101077154863ff2",
+            "source_checked_at": "2026-10-21T14:35:11.116440+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_07",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Criminology",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Criminology",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/criminology",
+          "ucas_cao_code": "L370",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/criminology",
+          "source_course_code": "L370",
+          "source_course_name": "Criminology",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/criminology",
+            "source_sha256": "a339b4737f4d5c9d4f7a62e97483e4a612e942fcf814ef4a85db0bec49d8c496",
+            "source_checked_at": "2026-10-21T14:35:21.012467+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_84",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Criminology and Policing",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Criminology and Policing",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/criminology-and-policing",
+          "ucas_cao_code": "L311",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/criminology-and-policing",
+          "source_course_code": "L311",
+          "source_course_name": "Criminology and Policing",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/criminology-and-policing",
+            "source_sha256": "3eb3c1aa3e450cd7e7b55aad0070b0affd27800c482b850fb46e94542776cc46",
+            "source_checked_at": "2026-10-21T14:35:22.617870+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_08",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Cyber Security",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Cyber Security",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/cyber-security",
+          "ucas_cao_code": "I103",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/cyber-security",
+          "source_course_code": "I103",
+          "source_course_name": "Cyber Security",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/cyber-security",
+            "source_sha256": "e77233a72199b7a554455662cea57367172adf3e2c6eeaf8ced3baeb36fe3f4f",
+            "source_checked_at": "2026-10-21T14:35:26.007327+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_33",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Cyber Security and Forensic Computing",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Peterborough Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Cyber Security and Forensic Computing",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Peterborough Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/cyber-security-with-forensic-computing",
+          "ucas_cao_code": "I114",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/cyber-security-with-forensic-computing",
+          "source_course_code": "I114",
+          "source_course_name": "Cyber Security and Forensic Computing",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/cyber-security-with-forensic-computing",
+            "source_sha256": "23076f62ded03ac42dd8220a06507da8a535004906032982631b7747230f1e78",
+            "source_checked_at": "2026-10-21T14:35:29.330484+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_09",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Drama",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Drama",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/drama",
+          "ucas_cao_code": "W490",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/drama",
+          "source_course_code": "W490",
+          "source_course_name": "Drama",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/drama",
+            "source_sha256": "a9d397349a2d9f9e4681824762236efc9c972a3123961d7a6d48fc89df8dbfcc",
+            "source_checked_at": "2026-10-21T14:35:30.980569+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_38",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BEng (Hons) Electronic and Electrical Engineering",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BEng (Hons) Electronic and Electrical Engineering",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/electronic-and-electrical-engineering-beng",
+          "ucas_cao_code": "H609",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/electronic-and-electrical-engineering-beng",
+          "source_course_code": "H609",
+          "source_course_name": "Electronic and Electrical Engineering",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/electronic-and-electrical-engineering-beng",
+            "source_sha256": "c84f123f746e230c0587082c07d96596e1f889806da768d9f46eeda040890fd9",
+            "source_checked_at": "2026-10-21T14:35:45.125694+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_67",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Film and Media",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Film and Media",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/film-and-media",
+          "ucas_cao_code": "P391",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/film-and-media",
+          "source_course_code": "P391",
+          "source_course_name": "Film and Media",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/film-and-media",
+            "source_sha256": "a26bab4f23149042e719e7a0b261c663622208fcd2761c37bb5e682b5e99b258",
+            "source_checked_at": "2026-10-21T14:35:54.333310+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_11",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Fine Art",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Fine Art",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/fine-art",
+          "ucas_cao_code": "W105",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/fine-art",
+          "source_course_code": "W105",
+          "source_course_name": "Fine Art",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/fine-art",
+            "source_sha256": "277d08eff0bfab429f3bb859345901850171f9c8f9b7fbc68c07ba8705315d39",
+            "source_checked_at": "2026-10-21T14:35:56.618554+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_68",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Graphic Design",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Graphic Design",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/graphic-design",
+          "ucas_cao_code": "W200",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/graphic-design",
+          "source_course_code": "W200",
+          "source_course_name": "Graphic Design",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/graphic-design",
+            "source_sha256": "d88e5eee8ca7dc65afa91abcf044f597b6ef9149959e0b1cb86d882b91512eeb",
+            "source_checked_at": "2026-10-21T14:36:00.192340+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_86",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) History",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) History",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/history",
+          "ucas_cao_code": "V140",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/history",
+          "source_course_code": "V140",
+          "source_course_name": "History",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/history",
+            "source_sha256": "567d95dddd2dedf958570d98e95deda89d63491efc98c7205f75697a89b0d3ed",
+            "source_checked_at": "2026-10-21T14:36:01.838564+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_35",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) International Business Management",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) International Business Management",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/international-business-management",
+          "ucas_cao_code": "N102",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/international-business-management",
+          "source_course_code": "N102",
+          "source_course_name": "International Business Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/international-business-management",
+            "source_sha256": "da3bf60c3f7e1679872d6c8d83a55284065284cb9e581fdfeac3619cf7a81762",
+            "source_checked_at": "2026-10-21T14:36:08.912029+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_39",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BEng (Hons) Mechatronics and Robotics Engineering",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BEng (Hons) Mechatronics and Robotics Engineering",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/mechatronics-and-robotics-engineering-beng",
+          "ucas_cao_code": "H361",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/mechatronics-and-robotics-engineering-beng",
+          "source_course_code": "H361",
+          "source_course_name": "Mechatronics and Robotics Engineering",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/mechatronics-and-robotics-engineering-beng",
+            "source_sha256": "5e41b7e003f43e5f30eaede4c23caf0b78af6cd9f1dfde80a10bfee2814bcb02",
+            "source_checked_at": "2026-10-21T14:36:33.248751+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_85",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Philosophy",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Philosophy",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/philosophy",
+          "ucas_cao_code": "V501",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/philosophy",
+          "source_course_code": "V501",
+          "source_course_name": "Philosophy",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/philosophy",
+            "source_sha256": "8617a302ef0bbae9a3c203e39f2cf16225a4ab887227bede42cda48ef0a23adc",
+            "source_checked_at": "2026-10-21T14:36:54.565743+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_14",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Psychology",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Psychology",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/psychology",
+          "ucas_cao_code": "C800",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/psychology",
+          "source_course_code": "C800",
+          "source_course_name": "Psychology",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/psychology",
+            "source_sha256": "c1412f46aec1f6491656e4255611d8efa5846f37894cefcbfddd2c888fcdefe4",
+            "source_checked_at": "2026-10-21T14:36:58.470114+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_32",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Psychology with Education",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Psychology with Education",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/psychology-with-education",
+          "ucas_cao_code": "C802",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/psychology-with-education",
+          "source_course_code": "C802",
+          "source_course_name": "Psychology with Education",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/psychology-with-education",
+            "source_sha256": "63034324e46c293059e8cd6f4cd24b41936c4fc489f6f729c56e5d37c4d0bb51",
+            "source_checked_at": "2026-10-21T14:37:03.910701+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_83",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Sociology",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Sociology",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/sociology",
+          "ucas_cao_code": "L300",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/sociology",
+          "source_course_code": "L300",
+          "source_course_name": "Sociology",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/sociology",
+            "source_sha256": "e107d40fb9e4ca9daedd52b3eb00494f26e018797911c317d73d4e9f8aa55721",
+            "source_checked_at": "2026-10-21T14:37:13.928060+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_63",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Software Development",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Peterborough Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Software Development",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Peterborough Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/software-development",
+          "ucas_cao_code": "I303",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/software-development",
+          "source_course_code": "I303",
+          "source_course_name": "Software Development",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/software-development",
+            "source_sha256": "c3570732960a8321dee4c41763ca504f3fb72756618da7d598a56e530f039e1c",
+            "source_checked_at": "2026-10-21T14:37:15.598636+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_policy_import",
+            "fee_note": "Published annual international fee for 2027/28, standard three-year honours route. Optional foundation and placement routes are excluded from this comparison.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "blocked": []
+}

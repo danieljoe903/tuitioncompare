@@ -1,0 +1,991 @@
+{
+  "university_id": "UK003",
+  "database_changes": false,
+  "synthetic_api_checks_passed": 9,
+  "pending_course_count": 19,
+  "restricted_course_count": 2,
+  "pending_courses": [
+    {
+      "course_id": "C_ARU003_RES_01",
+      "title": "MSc by Research (Medicine & Health)",
+      "level": "MRES",
+      "duration": "1 Year",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "16700.0",
+      "currency": "GBP",
+      "source": null
+    },
+    {
+      "course_id": "C_UK003_104",
+      "title": "MPH Global Public Health",
+      "level": "PG",
+      "duration": "1 Year",
+      "location": "Cambridge Campus",
+      "start_month": "January",
+      "start_year": 2027,
+      "course_url": "https://www.aru.ac.uk/study/postgraduate/global-public-health",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "18400.0",
+      "currency": "GBP",
+      "source": {
+        "academic_year": "",
+        "source_url": "https://www.aru.ac.uk/study/postgraduate/global-public-health",
+        "fee_basis": "unavailable",
+        "raw_fees": {
+          "currency": "GBP",
+          "fee_note": "The captured route advertises January 2027 entry. Its displayed international fee of £18,825 is labelled 2027/28 and cannot verify January 2027 tuition. The applicable 2026/27 fee requires confirmation.",
+          "verified": false,
+          "fee_basis": "unavailable",
+          "course_kind": "postgraduate_taught",
+          "academic_year": "",
+          "source_sha256": "1e27aff4ada47738696c1b97dbcc219b73148abde81b3bfc341796684ed27554",
+          "annual_tuition": null,
+          "deposit_review": {
+            "note": "January 2027 entry needs applicable 2026/27 evidence. Do not apply 2027/28 scholarship or deposit scope to this intake.",
+            "status": "applicability_pending",
+            "source_url": "https://www.aru.ac.uk/international/how-to-apply/step-4---receive-our-decision-on-your-application",
+            "policy_text_sha256": "053458e0a612ea53c2a53345ae3b146b77416a728b7f50cf2cb2c0876ab6a930",
+            "policy_academic_year": null,
+            "eligibility_questions": [
+              {
+                "key": "requires_student_visa",
+                "type": "boolean",
+                "question": "Do you require a Student visa?"
+              },
+              {
+                "key": "full_fee_paying",
+                "type": "boolean",
+                "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+              },
+              {
+                "key": "sponsored",
+                "type": "boolean",
+                "question": "Will a sponsor provide a sponsorship letter?"
+              }
+            ]
+          },
+          "deposit_status": "applicability_pending",
+          "fee_categories": [],
+          "course_source_url": "https://www.aru.ac.uk/study/postgraduate/global-public-health",
+          "scholarship_review": {
+            "note": "January 2027 entry needs applicable 2026/27 evidence. Do not apply 2027/28 scholarship or deposit scope to this intake.",
+            "status": "applicability_unconfirmed",
+            "source_url": "https://www.aru.ac.uk/international/international-scholarships/international-undergraduate-scholarship",
+            "academic_year": "2026/27",
+            "source_period": "current_undated_policy",
+            "policy_text_sha256": "88c4d1ed49241d2d25b2bf4a989f99e63b22d97a90f7482290bc228e256ab7d3",
+            "eligible_rule_tiers": [],
+            "eligibility_questions": [
+              {
+                "key": "new_entrant",
+                "type": "boolean",
+                "question": "Are you joining ARU for the first time?"
+              },
+              {
+                "key": "full_time",
+                "note": "Exceptional part-time cases require ARU confirmation.",
+                "type": "boolean",
+                "question": "Will you study full-time?"
+              },
+              {
+                "key": "entry_year",
+                "note": "These rules cover entry into Year 1 only.",
+                "type": "integer",
+                "question": "Which course year are you entering?"
+              },
+              {
+                "key": "apcl",
+                "note": "APCL discounts need a separate pro-rata assessment.",
+                "type": "boolean",
+                "question": "Have you received Accredited Prior Certified Learning credit?"
+              },
+              {
+                "key": "registration_conditions_met",
+                "type": "boolean",
+                "question": "Have all ARU registration conditions been met?"
+              },
+              {
+                "key": "aru_funding_eligibility_confirmed",
+                "note": "Sponsored students and federal loan recipients may need confirmation from ARU and their funding body.",
+                "type": "boolean",
+                "question": "Is your funding arrangement eligible for this award, including any sponsorship or federal tuition loan?"
+              },
+              {
+                "key": "aru_ug_award_confirmed",
+                "type": "boolean",
+                "question": "Has ARU confirmed your undergraduate scholarship?"
+              },
+              {
+                "key": "aru_ug_award_tier",
+                "note": "Exceeding entry requirements does not confirm a tier.",
+                "type": "choice",
+                "choices": [
+                  {
+                    "label": "£2,000",
+                    "value": "lower"
+                  },
+                  {
+                    "label": "£4,000",
+                    "value": "higher"
+                  }
+                ],
+                "question": "Which first-year award has ARU confirmed?"
+              },
+              {
+                "key": "aru_course_award_applicability_confirmed",
+                "type": "boolean",
+                "question": "Has ARU confirmed that this scholarship covers your exact course, study mode and intake?"
+              },
+              {
+                "key": "aru_international_route_eligibility_confirmed",
+                "type": "boolean",
+                "question": "Has ARU confirmed your eligibility to join this route as an international student?"
+              }
+            ]
+          },
+          "scholarship_status": "applicability_unconfirmed",
+          "source_fee_category": "International",
+          "verification_reason": "The captured route advertises January 2027 entry. Its displayed international fee of £18,825 is labelled 2027/28 and cannot verify January 2027 tuition. The applicable 2026/27 fee requires confirmation.",
+          "route_review_history": [
+            {
+              "changes": {
+                "course_url": {
+                  "after": "https://www.aru.ac.uk/study/postgraduate/global-public-health",
+                  "before": "www.aru.ac.uk"
+                },
+                "start_year": {
+                  "after": 2027,
+                  "before": 2026
+                },
+                "start_month": {
+                  "after": "January",
+                  "before": "September"
+                }
+              },
+              "mapping": "route_correction_proposal",
+              "source_url": "https://www.aru.ac.uk/study/postgraduate/global-public-health",
+              "source_sha256": "1e27aff4ada47738696c1b97dbcc219b73148abde81b3bfc341796684ed27554",
+              "replacement_accepted": false,
+              "evidence_generated_at": "2026-10-22T01:23:03.439336+00:00"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_18",
+      "title": "BSc (Hons) Veterinary Nursing",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Writtle Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "18400.0",
+      "currency": "GBP",
+      "source": null
+    },
+    {
+      "course_id": "C_UK003_22",
+      "title": "MSc Data Science",
+      "level": "PG",
+      "duration": "1 Year",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": null
+    },
+    {
+      "course_id": "C_UK003_26",
+      "title": "Master of Public Health (MPH)",
+      "level": "PG",
+      "duration": "1 Year",
+      "location": "ARU London",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://www.aru.ac.uk/study/postgraduate/master-of-public-health-london",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "18400.0",
+      "currency": "GBP",
+      "source": {
+        "academic_year": "",
+        "source_url": "https://www.aru.ac.uk/study/postgraduate/master-of-public-health-london",
+        "fee_basis": "unavailable",
+        "raw_fees": {
+          "campus": "ARU London",
+          "intake": "September 2027",
+          "currency": "GBP",
+          "fee_note": "The reviewed ARU London Public Health page does not provide a confirmed international tuition amount. International tuition is unavailable pending confirmation; the stored amount must not be presented as verified.",
+          "verified": false,
+          "study_year": 1,
+          "course_kind": "postgraduate_taught",
+          "award_review": {
+            "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake.",
+            "status": "pending",
+            "questions": [
+              {
+                "key": "aru_london_alumni",
+                "type": "boolean",
+                "label": "Did you complete a degree at ARU London?",
+                "required": true
+              },
+              {
+                "key": "uk_first_class_degree",
+                "type": "boolean",
+                "label": "Have you achieved a first-class honours degree from a UK university?",
+                "required": true
+              },
+              {
+                "key": "aru_london_award_confirmed",
+                "type": "boolean",
+                "label": "Has ARU London confirmed your scholarship for this course and intake?",
+                "required": true
+              }
+            ],
+            "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+            "entry_award": {
+              "status": "international_intake_confirmation_required",
+              "currency": "GBP",
+              "published_amount": "1000.00"
+            },
+            "alumni_award": {
+              "status": "international_intake_and_alumni_scope_confirmation_required",
+              "currency": "GBP",
+              "published_amount": "2000.00"
+            },
+            "masters_programme": {
+              "deduction_applied": false,
+              "maximum_percentage": "50",
+              "international_applicability": "excluded"
+            }
+          },
+          "mapping_kind": "campus_correction",
+          "academic_year": "",
+          "source_sha256": "9ad8f5967613e5c3589a1a18ba3f4f6ecb43cf2da6d67cb9f964abd198ac44d8",
+          "deposit_status": "international_deposit_unconfirmed",
+          "fee_categories": [],
+          "course_source_url": "https://www.aru.ac.uk/study/postgraduate/master-of-public-health-london",
+          "scholarship_status": "london_international_applicability_pending",
+          "source_fee_category": "International",
+          "verification_reason": "The reviewed ARU London Public Health page does not provide a confirmed international tuition amount. International tuition is unavailable pending confirmation; the stored amount must not be presented as verified."
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_41",
+      "title": "BSc (Hons) Marine Biology with Conservation",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": null
+    },
+    {
+      "course_id": "C_UK003_43",
+      "title": "BSc (Hons) Ecology and Conservation",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": null
+    },
+    {
+      "course_id": "C_UK003_46",
+      "title": "BSc (Hons) Nursing (Mental Health)",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Chelmsford Campus",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://www.aru.ac.uk/study/undergraduate/nursing-mental-health",
+      "ucas_cao_code": "B760",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": {
+        "academic_year": "",
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/nursing-mental-health",
+        "fee_basis": "unavailable",
+        "raw_fees": {
+          "currency": "GBP",
+          "fee_note": "The reviewed Nursing course page does not provide a confirmed international tuition amount. International fee and applicant eligibility require confirmation. This does not establish that international applicants are excluded.",
+          "verified": false,
+          "course_kind": "undergraduate",
+          "mapping_kind": "nursing_correction",
+          "academic_year": "",
+          "source_sha256": "7c7adc88e535062db4c6ce7eb191043558552252d34fce5d833b9f99194c9ec6",
+          "deposit_status": "applicability_unconfirmed",
+          "fee_categories": [],
+          "advertised_intake": "September 2027",
+          "course_source_url": "https://www.aru.ac.uk/study/undergraduate/nursing-mental-health",
+          "scholarship_status": "applicability_unconfirmed",
+          "source_fee_category": "International",
+          "verification_reason": "The reviewed Nursing course page does not provide a confirmed international tuition amount. International fee and applicant eligibility require confirmation. This does not establish that international applicants are excluded."
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_52",
+      "title": "MSc Child and Adolescent Mental Wellbeing",
+      "level": "PG",
+      "duration": "1 Year",
+      "location": "Distance learning",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://www.aru.ac.uk/study/postgraduate/child-and-adolescent-mental-wellbeing",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": {
+        "academic_year": "",
+        "source_url": "https://www.aru.ac.uk/study/postgraduate/child-and-adolescent-mental-wellbeing",
+        "fee_basis": "unavailable",
+        "raw_fees": {
+          "currency": "GBP",
+          "fee_note": "A GBP 9,450 total distance-learning course fee is published for 2027/28, but its applicability to international students has not been confirmed. The stored numeric tuition is not verified.",
+          "verified": false,
+          "study_mode": "distance_learning",
+          "study_year": 1,
+          "course_kind": "postgraduate_taught",
+          "deposit_note": "This is distance learning. Do not apply the campus pre-CAS deposit policy. Any online-course payment requirements must be confirmed separately.",
+          "mapping_kind": "distance_learning_correction",
+          "academic_year": "",
+          "source_sha256": "ebf3f2dea7cf68843dc5787b71d4f864131f9f13e512244e5390a61d790dbc19",
+          "deposit_status": "campus_pre_cas_policy_not_applicable",
+          "fee_categories": [],
+          "award_review_note": "Distance-learning scholarship applicability remains unconfirmed. The campus pre-CAS deposit rule does not apply; any separate online-course payment terms require confirmation.",
+          "course_source_url": "https://www.aru.ac.uk/study/postgraduate/child-and-adolescent-mental-wellbeing",
+          "scholarship_status": "distance_learning_applicability_unconfirmed",
+          "source_fee_category": "International",
+          "verification_reason": "A GBP 9,450 total distance-learning course fee is published for 2027/28, but its applicability to international students has not been confirmed. The stored numeric tuition is not verified.",
+          "published_fee_evidence": {
+            "basis": "total_course_fee",
+            "amount": "9450.00",
+            "category": "Distance learning",
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "international_applicability_confirmed": false
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_56",
+      "title": "MSc Horticulture",
+      "level": "PG",
+      "duration": "1 Year",
+      "location": "Writtle Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "https://www.aru.ac.uk/study/postgraduate/horticulture",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": {
+        "academic_year": "",
+        "source_url": "https://www.aru.ac.uk/study/postgraduate/horticulture",
+        "fee_basis": "unavailable",
+        "raw_fees": {
+          "currency": "GBP",
+          "fee_note": "The captured MSc Horticulture page only provides a three-year part-time option, September without an intake year, and a 2025/26 UK fee. A current applicable international route and fee are unconfirmed. The stored tuition is not verified.",
+          "verified": false,
+          "course_kind": "postgraduate_taught",
+          "mapping_kind": "historical_part_time_review",
+          "academic_year": "",
+          "source_sha256": "72e4f6fa0a08759d9bbfc385304ec403e5fa0786c1c64181720368c5a6d76345",
+          "deposit_status": "applicability_unconfirmed",
+          "fee_categories": [],
+          "observed_route": {
+            "campus": "Writtle",
+            "duration": "3 years part-time",
+            "start_year": null,
+            "start_month": "September",
+            "published_fee": {
+              "basis": "part_time_per_year",
+              "amount": "3118.00",
+              "category": "UK",
+              "currency": "GBP",
+              "academic_year": "2025/26"
+            }
+          },
+          "course_source_url": "https://www.aru.ac.uk/study/postgraduate/horticulture",
+          "scholarship_status": "applicability_unconfirmed",
+          "source_fee_category": "International",
+          "verification_reason": "The captured MSc Horticulture page only provides a three-year part-time option, September without an intake year, and a 2025/26 UK fee. A current applicable international route and fee are unconfirmed. The stored tuition is not verified."
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_64",
+      "title": "BSc (Hons) Computing and Information Systems",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": null
+    },
+    {
+      "course_id": "C_UK003_65",
+      "title": "BSc (Hons) Computer Games Technology",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": null
+    },
+    {
+      "course_id": "C_UK003_66",
+      "title": "BA (Hons) Music Performance",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "18400.0",
+      "currency": "GBP",
+      "source": null
+    },
+    {
+      "course_id": "C_UK003_81",
+      "title": "BA (Hons) Politics",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": null
+    },
+    {
+      "course_id": "C_UK003_82",
+      "title": "BA (Hons) International Relations",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": null
+    },
+    {
+      "course_id": "C_UK003_87",
+      "title": "BA (Hons) Early Childhood Studies (Graduate Practitioner)",
+      "level": "UG",
+      "duration": "2 Years",
+      "location": "Blended learning — Chelmsford",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
+      "ucas_cao_code": "X3C0",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": {
+        "academic_year": "",
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
+        "fee_basis": "unavailable",
+        "raw_fees": {
+          "currency": "GBP",
+          "fee_note": "The advertised Chelmsford route is a two-year accelerated, blended-learning degree. An applicable international tuition fee has not been verified. UK and distance-learning prices must not be substituted.",
+          "verified": false,
+          "fee_basis": "unavailable",
+          "course_kind": "undergraduate_taught",
+          "academic_year": "",
+          "source_sha256": "6efde6d1fa42ed53fadf6d3e9340df834034f4808e04425fe1fa57d4439cf327",
+          "annual_tuition": null,
+          "deposit_review": {
+            "note": "The accelerated blended-learning route needs separate international fee, scholarship and visa/payment confirmation. No automatic scholarship deduction or deposit estimate.",
+            "status": "applicability_pending",
+            "source_url": "https://www.aru.ac.uk/international/how-to-apply/step-4---receive-our-decision-on-your-application",
+            "policy_text_sha256": "053458e0a612ea53c2a53345ae3b146b77416a728b7f50cf2cb2c0876ab6a930",
+            "policy_academic_year": null,
+            "eligibility_questions": [
+              {
+                "key": "requires_student_visa",
+                "type": "boolean",
+                "question": "Do you require a Student visa?"
+              },
+              {
+                "key": "full_fee_paying",
+                "type": "boolean",
+                "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+              },
+              {
+                "key": "sponsored",
+                "type": "boolean",
+                "question": "Will a sponsor provide a sponsorship letter?"
+              }
+            ]
+          },
+          "deposit_status": "applicability_pending",
+          "fee_categories": [],
+          "course_source_url": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
+          "scholarship_review": {
+            "note": "The accelerated blended-learning route needs separate international fee, scholarship and visa/payment confirmation. No automatic scholarship deduction or deposit estimate.",
+            "status": "applicability_unconfirmed",
+            "source_url": "https://www.aru.ac.uk/international/international-scholarships/international-undergraduate-scholarship",
+            "academic_year": "2027/28",
+            "source_period": "current_undated_policy",
+            "policy_text_sha256": "88c4d1ed49241d2d25b2bf4a989f99e63b22d97a90f7482290bc228e256ab7d3",
+            "eligible_rule_tiers": [],
+            "eligibility_questions": [
+              {
+                "key": "new_entrant",
+                "type": "boolean",
+                "question": "Are you joining ARU for the first time?"
+              },
+              {
+                "key": "full_time",
+                "note": "Exceptional part-time cases require ARU confirmation.",
+                "type": "boolean",
+                "question": "Will you study full-time?"
+              },
+              {
+                "key": "entry_year",
+                "note": "These rules cover entry into Year 1 only.",
+                "type": "integer",
+                "question": "Which course year are you entering?"
+              },
+              {
+                "key": "apcl",
+                "note": "APCL discounts need a separate pro-rata assessment.",
+                "type": "boolean",
+                "question": "Have you received Accredited Prior Certified Learning credit?"
+              },
+              {
+                "key": "registration_conditions_met",
+                "type": "boolean",
+                "question": "Have all ARU registration conditions been met?"
+              },
+              {
+                "key": "aru_funding_eligibility_confirmed",
+                "note": "Sponsored students and federal loan recipients may need confirmation from ARU and their funding body.",
+                "type": "boolean",
+                "question": "Is your funding arrangement eligible for this award, including any sponsorship or federal tuition loan?"
+              },
+              {
+                "key": "aru_ug_award_confirmed",
+                "type": "boolean",
+                "question": "Has ARU confirmed your undergraduate scholarship?"
+              },
+              {
+                "key": "aru_ug_award_tier",
+                "note": "Exceeding entry requirements does not confirm a tier.",
+                "type": "choice",
+                "choices": [
+                  {
+                    "label": "£2,000",
+                    "value": "lower"
+                  },
+                  {
+                    "label": "£4,000",
+                    "value": "higher"
+                  }
+                ],
+                "question": "Which first-year award has ARU confirmed?"
+              },
+              {
+                "key": "aru_course_award_applicability_confirmed",
+                "type": "boolean",
+                "question": "Has ARU confirmed that this scholarship covers your exact course, study mode and intake?"
+              },
+              {
+                "key": "aru_international_route_eligibility_confirmed",
+                "type": "boolean",
+                "question": "Has ARU confirmed your eligibility to join this route as an international student?"
+              }
+            ]
+          },
+          "scholarship_status": "applicability_unconfirmed",
+          "source_fee_category": "International",
+          "verification_reason": "The advertised Chelmsford route is a two-year accelerated, blended-learning degree. An applicable international tuition fee has not been verified. UK and distance-learning prices must not be substituted.",
+          "route_review_history": [
+            {
+              "changes": {
+                "title": {
+                  "after": "BA (Hons) Early Childhood Studies (Graduate Practitioner)",
+                  "before": "BA (Hons) Early Childhood Studies"
+                },
+                "duration": {
+                  "after": "2 Years",
+                  "before": "3 Years"
+                },
+                "location": {
+                  "after": "Blended learning — Chelmsford",
+                  "before": "Chelmsford Campus"
+                },
+                "course_url": {
+                  "after": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
+                  "before": "www.aru.ac.uk"
+                },
+                "start_year": {
+                  "after": 2027,
+                  "before": 2026
+                },
+                "ucas_cao_code": {
+                  "after": "X3C0",
+                  "before": ""
+                }
+              },
+              "mapping": "route_correction_proposal",
+              "source_url": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
+              "source_sha256": "6efde6d1fa42ed53fadf6d3e9340df834034f4808e04425fe1fa57d4439cf327",
+              "replacement_accepted": false,
+              "evidence_generated_at": "2026-10-22T01:23:03.439336+00:00"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_88",
+      "title": "BA (Hons) Social Work",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Blended learning — Cambridge",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://www.aru.ac.uk/study/undergraduate/social-work",
+      "ucas_cao_code": "L501",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": {
+        "academic_year": "",
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/social-work",
+        "fee_basis": "unavailable",
+        "raw_fees": {
+          "currency": "GBP",
+          "fee_note": "The captured page publishes UK tuition and application guidance for UK applicants and specified settled-status groups. An applicable international fee and application route remain unverified. This is not a blanket nationality exclusion.",
+          "verified": false,
+          "fee_basis": "unavailable",
+          "course_kind": "undergraduate_taught",
+          "academic_year": "",
+          "source_sha256": "f5557d5d071a711e43e3ba591558e121dc748f99cda4d5dfc9ddcf42fca4da8f",
+          "annual_tuition": null,
+          "deposit_review": {
+            "note": "International application eligibility and fee status require confirmation for the blended Social Work route. No automatic scholarship deduction or deposit estimate.",
+            "status": "applicability_pending",
+            "source_url": "https://www.aru.ac.uk/international/how-to-apply/step-4---receive-our-decision-on-your-application",
+            "policy_text_sha256": "053458e0a612ea53c2a53345ae3b146b77416a728b7f50cf2cb2c0876ab6a930",
+            "policy_academic_year": null,
+            "eligibility_questions": [
+              {
+                "key": "requires_student_visa",
+                "type": "boolean",
+                "question": "Do you require a Student visa?"
+              },
+              {
+                "key": "full_fee_paying",
+                "type": "boolean",
+                "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+              },
+              {
+                "key": "sponsored",
+                "type": "boolean",
+                "question": "Will a sponsor provide a sponsorship letter?"
+              }
+            ]
+          },
+          "deposit_status": "applicability_pending",
+          "fee_categories": [],
+          "course_source_url": "https://www.aru.ac.uk/study/undergraduate/social-work",
+          "scholarship_review": {
+            "note": "International application eligibility and fee status require confirmation for the blended Social Work route. No automatic scholarship deduction or deposit estimate.",
+            "status": "applicability_unconfirmed",
+            "source_url": "https://www.aru.ac.uk/international/international-scholarships/international-undergraduate-scholarship",
+            "academic_year": "2027/28",
+            "source_period": "current_undated_policy",
+            "policy_text_sha256": "88c4d1ed49241d2d25b2bf4a989f99e63b22d97a90f7482290bc228e256ab7d3",
+            "eligible_rule_tiers": [],
+            "eligibility_questions": [
+              {
+                "key": "new_entrant",
+                "type": "boolean",
+                "question": "Are you joining ARU for the first time?"
+              },
+              {
+                "key": "full_time",
+                "note": "Exceptional part-time cases require ARU confirmation.",
+                "type": "boolean",
+                "question": "Will you study full-time?"
+              },
+              {
+                "key": "entry_year",
+                "note": "These rules cover entry into Year 1 only.",
+                "type": "integer",
+                "question": "Which course year are you entering?"
+              },
+              {
+                "key": "apcl",
+                "note": "APCL discounts need a separate pro-rata assessment.",
+                "type": "boolean",
+                "question": "Have you received Accredited Prior Certified Learning credit?"
+              },
+              {
+                "key": "registration_conditions_met",
+                "type": "boolean",
+                "question": "Have all ARU registration conditions been met?"
+              },
+              {
+                "key": "aru_funding_eligibility_confirmed",
+                "note": "Sponsored students and federal loan recipients may need confirmation from ARU and their funding body.",
+                "type": "boolean",
+                "question": "Is your funding arrangement eligible for this award, including any sponsorship or federal tuition loan?"
+              },
+              {
+                "key": "aru_ug_award_confirmed",
+                "type": "boolean",
+                "question": "Has ARU confirmed your undergraduate scholarship?"
+              },
+              {
+                "key": "aru_ug_award_tier",
+                "note": "Exceeding entry requirements does not confirm a tier.",
+                "type": "choice",
+                "choices": [
+                  {
+                    "label": "£2,000",
+                    "value": "lower"
+                  },
+                  {
+                    "label": "£4,000",
+                    "value": "higher"
+                  }
+                ],
+                "question": "Which first-year award has ARU confirmed?"
+              },
+              {
+                "key": "aru_course_award_applicability_confirmed",
+                "type": "boolean",
+                "question": "Has ARU confirmed that this scholarship covers your exact course, study mode and intake?"
+              },
+              {
+                "key": "aru_international_route_eligibility_confirmed",
+                "type": "boolean",
+                "question": "Has ARU confirmed your eligibility to join this route as an international student?"
+              }
+            ]
+          },
+          "scholarship_status": "applicability_unconfirmed",
+          "source_fee_category": "International",
+          "verification_reason": "The captured page publishes UK tuition and application guidance for UK applicants and specified settled-status groups. An applicable international fee and application route remain unverified. This is not a blanket nationality exclusion.",
+          "route_review_history": [
+            {
+              "changes": {
+                "location": {
+                  "after": "Blended learning — Cambridge",
+                  "before": "Cambridge Campus"
+                },
+                "course_url": {
+                  "after": "https://www.aru.ac.uk/study/undergraduate/social-work",
+                  "before": "www.aru.ac.uk"
+                },
+                "start_year": {
+                  "after": 2027,
+                  "before": 2026
+                },
+                "ucas_cao_code": {
+                  "after": "L501",
+                  "before": ""
+                }
+              },
+              "mapping": "route_correction_proposal",
+              "source_url": "https://www.aru.ac.uk/study/undergraduate/social-work",
+              "source_sha256": "f5557d5d071a711e43e3ba591558e121dc748f99cda4d5dfc9ddcf42fca4da8f",
+              "replacement_accepted": false,
+              "evidence_generated_at": "2026-10-22T01:23:03.439336+00:00"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_89",
+      "title": "BSc (Hons) Nursing (Children)",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Chelmsford Campus",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://www.aru.ac.uk/study/undergraduate/nursing-child",
+      "ucas_cao_code": "B730",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": {
+        "academic_year": "",
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/nursing-child",
+        "fee_basis": "unavailable",
+        "raw_fees": {
+          "currency": "GBP",
+          "fee_note": "The reviewed Nursing course page does not provide a confirmed international tuition amount. International fee and applicant eligibility require confirmation. This does not establish that international applicants are excluded.",
+          "verified": false,
+          "course_kind": "undergraduate",
+          "mapping_kind": "nursing_correction",
+          "academic_year": "",
+          "source_sha256": "1b21d3c910b9b305124fa061442785bdeaf613ec6198f97cf588c13c643a577c",
+          "deposit_status": "applicability_unconfirmed",
+          "fee_categories": [],
+          "advertised_intake": "September 2027",
+          "course_source_url": "https://www.aru.ac.uk/study/undergraduate/nursing-child",
+          "scholarship_status": "applicability_unconfirmed",
+          "source_fee_category": "International",
+          "verification_reason": "The reviewed Nursing course page does not provide a confirmed international tuition amount. International fee and applicant eligibility require confirmation. This does not establish that international applicants are excluded."
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_94",
+      "title": "BA (Hons) Computer Animation and Visual Effects",
+      "level": "UG",
+      "duration": "3 Years",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aru.ac.uk",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "19500.0",
+      "currency": "GBP",
+      "source": null
+    }
+  ],
+  "restricted_courses": [
+    {
+      "course_id": "C_ARU003_RES_03",
+      "title": "MRes Life Sciences",
+      "level": "MRES",
+      "duration": "1 Year",
+      "location": "Cambridge Campus",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://www.aru.ac.uk/study/postgraduate/life-sciences",
+      "ucas_cao_code": "",
+      "international_tuition_count": 1,
+      "stored_tuition": "16700.0",
+      "currency": "GBP",
+      "source": {
+        "academic_year": "",
+        "source_url": "https://www.aru.ac.uk/study/postgraduate/life-sciences",
+        "fee_basis": "unavailable",
+        "raw_fees": {
+          "currency": "GBP",
+          "fee_note": "The published MRes Life Sciences page states that the programme is open to UK students only. International tuition is unavailable; no home fee has been assigned as an international fee.",
+          "verified": false,
+          "study_mode": "full_time",
+          "study_year": 1,
+          "course_kind": "postgraduate_research",
+          "academic_year": "",
+          "source_sha256": "ba38ddaefc6da3e86c6b34e9e85d147284ef0d77ef1c1b7cf9a6900744c237c1",
+          "deposit_status": "not_applicable_to_international_applicants",
+          "fee_categories": [],
+          "advertised_intake": "September 2027",
+          "course_source_url": "https://www.aru.ac.uk/study/postgraduate/life-sciences",
+          "source_checked_at": "2026-10-21T22:44:55.567185+00:00",
+          "scholarship_status": "not_applicable_to_international_applicants",
+          "source_fee_category": "International",
+          "verification_reason": "The published MRes Life Sciences page states that the programme is open to UK students only. International tuition is unavailable; no home fee has been assigned as an international fee.",
+          "reviewed_course_corrections": {
+            "title": {
+              "after": "MRes Life Sciences",
+              "before": "MSc by Research (Life Sciences)"
+            }
+          },
+          "international_applicants_eligible": false,
+          "unverified_legacy_discount_disabled": true
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_44",
+      "title": "MBChB Medicine",
+      "level": "UG",
+      "duration": "5 Years",
+      "location": "Chelmsford Campus",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://www.aru.ac.uk/study/undergraduate/medicine",
+      "ucas_cao_code": "A100",
+      "international_tuition_count": 1,
+      "stored_tuition": "42000.0",
+      "currency": "GBP",
+      "source": {
+        "academic_year": "",
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/medicine",
+        "fee_basis": "unavailable",
+        "raw_fees": {
+          "campus": "Chelmsford",
+          "currency": "GBP",
+          "fee_note": "ARU requires home fee status at the point of application for MBChB Medicine. This course is unavailable for an international-fee comparison. Fee status is assessed by ARU and must not be inferred from nationality or residence alone.",
+          "verified": false,
+          "study_mode": "full_time",
+          "study_year": 1,
+          "course_kind": "undergraduate_taught",
+          "academic_year": "",
+          "source_sha256": "2bf90132b60761c63b29bb8176a4f3f4321ca6cf30c8ed2810b12265371e9aa7",
+          "deposit_status": "not_applicable_to_international_fee_status",
+          "fee_categories": [],
+          "advertised_intake": "September 2027",
+          "course_source_url": "https://www.aru.ac.uk/study/undergraduate/medicine",
+          "source_checked_at": "2026-10-21T23:11:32.881170+00:00",
+          "scholarship_status": "not_applicable_to_international_fee_status",
+          "required_fee_status": "HOME",
+          "source_fee_category": "International",
+          "verification_reason": "ARU requires home fee status at the point of application for MBChB Medicine. This course is unavailable for an international-fee comparison. Fee status is assessed by ARU and must not be inferred from nationality or residence alone.",
+          "unverified_legacy_discount_disabled": true
+        }
+      }
+    }
+  ]
+}

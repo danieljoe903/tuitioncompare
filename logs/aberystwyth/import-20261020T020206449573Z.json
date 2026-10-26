@@ -1,0 +1,1928 @@
+{
+  "generated_at": "2026-10-20T02:02:06.449573+00:00",
+  "mode": "preview",
+  "university_id": "UK002",
+  "academic_year": "2027/28",
+  "source_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\20261020T013657080411Z\\source-review.json",
+  "course_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\20261020T014643071101Z\\course-evidence.json",
+  "proposals": [
+    {
+      "course_id": "C_UK002_01",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Accounting and Finance",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/accounting-and-finance-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Accounting and Finance",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/accounting-and-finance-degree/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Accounting and Finance",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/accounting-and-finance-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Accounting and Finance",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/accounting-and-finance-degree/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_04",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Business and Management",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/business-management-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Business and Management",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/business-management-degree/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Business and Management",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/business-management-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Business and Management",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/business-management-degree/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_15",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Art History",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/V350-art-history/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Art History",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/V350-art-history/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Art History",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/V350-art-history/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Art History",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/V350-art-history/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_16",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Economics",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/economics-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Economics",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/economics-degree/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Economics",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/economics-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Economics",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/economics-degree/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_17",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Education",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/BA-education/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Education",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/BA-education/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Education",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/BA-education/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Education",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/BA-education/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_18",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Fine Art",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/W100-fine-art/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Fine Art",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/W100-fine-art/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Fine Art",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/W100-fine-art/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Fine Art",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/W100-fine-art/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_44",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Marketing",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/marketing-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Marketing",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/marketing-degree/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Marketing",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/marketing-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Marketing",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/marketing-degree/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_53",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Accounting and Finance / Business and Management",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/accounting-management/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Accounting and Finance / Business and Management",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/accounting-management/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Accounting and Finance / Business and Management",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/accounting-management/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Accounting and Finance / Business and Management",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/accounting-management/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_76",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Business Finance",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/business-finance-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Business Finance",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/business-finance-degree/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Business Finance",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/business-finance-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Business Finance",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/business-finance-degree/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_77",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Business Economics",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/business-economics-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Business Economics",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/business-economics-degree/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Business Economics",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/business-economics-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Business Economics",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/business-economics-degree/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_78",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Business and Climate Change",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/business-and-climate-change/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Business and Climate Change",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/business-and-climate-change/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Business and Climate Change",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/business-and-climate-change/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Business and Climate Change",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/business-and-climate-change/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_79",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Economics and Climate Change",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/economics-and-climate-change/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Economics and Climate Change",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/economics-and-climate-change/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Economics and Climate Change",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/economics-and-climate-change/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Economics and Climate Change",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/economics-and-climate-change/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_87",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Fine Art with Art History",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/W1V3-fine-art-art-history/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Fine Art with Art History",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "undergraduate",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/W1V3-fine-art-art-history/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "bachelors",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Fine Art with Art History",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/W1V3-fine-art-art-history/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Fine Art with Art History",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/W1V3-fine-art-art-history/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_49",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MA Archives and Records Management",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/archives-records-management/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Archives and Records Management",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "postgraduate_taught",
+            "academic_year": "2027/28",
+            "annual_tuition": "22115.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/archives-records-management/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MA Archives and Records Management",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/archives-records-management/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Archives and Records Management",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/archives-records-management/",
+            "annual_tuition": "22115.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_62",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MSc Management and Finance",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/management-finance-msc/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Management and Finance",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "postgraduate_taught",
+            "academic_year": "2027/28",
+            "annual_tuition": "22115.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/management-finance-msc/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MSc Management and Finance",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/management-finance-msc/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Management and Finance",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/management-finance-msc/",
+            "annual_tuition": "22115.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_63",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MSc International Business and Marketing",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/international-business-marketing-msc/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Business and Marketing",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "postgraduate_taught",
+            "academic_year": "2027/28",
+            "annual_tuition": "22115.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/international-business-marketing-msc/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MSc International Business and Marketing",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/international-business-marketing-msc/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Business and Marketing",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/international-business-marketing-msc/",
+            "annual_tuition": "22115.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_75",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MA Information and Library Studies",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/information-and-library-studies-masters/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Information and Library Studies",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "postgraduate_taught",
+            "academic_year": "2027/28",
+            "annual_tuition": "22115.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/information-and-library-studies-masters/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MA Information and Library Studies",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/information-and-library-studies-masters/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Information and Library Studies",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/information-and-library-studies-masters/",
+            "annual_tuition": "22115.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_89",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MSc Finance",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/finance-msc/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Finance",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "postgraduate_taught",
+            "academic_year": "2027/28",
+            "annual_tuition": "22115.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/finance-msc/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MSc Finance",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/finance-msc/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Finance",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/finance-msc/",
+            "annual_tuition": "22115.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_90",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MSc International Finance and Banking",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/international-banking/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Finance and Banking",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "course_kind": "postgraduate_taught",
+            "academic_year": "2027/28",
+            "annual_tuition": "22115.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2027/28",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/international-banking/",
+            "scholarship_status": "pending_separate_reconciliation",
+            "programme_fee_group": "masters",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MSc International Finance and Banking",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/international-banking/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Finance and Banking",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/international-banking/",
+            "annual_tuition": "22115.00",
+            "currency": "GBP",
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "footnote_marker": "",
+                "annotation": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "blocked": [],
+  "outside_this_batch": [
+    "C_ABE002_01",
+    "C_ABE002_RES_01",
+    "C_ABE002_RES_02",
+    "C_ABE002_RES_03",
+    "C_ABE002_RES_04",
+    "C_ABE002_RES_05",
+    "C_ABE002_RES_06",
+    "C_ABE002_RES_07",
+    "C_ABE002_RES_08",
+    "C_ABE002_RES_09",
+    "C_UK002_02",
+    "C_UK002_03",
+    "C_UK002_05",
+    "C_UK002_06",
+    "C_UK002_07",
+    "C_UK002_08",
+    "C_UK002_09",
+    "C_UK002_10",
+    "C_UK002_100",
+    "C_UK002_11",
+    "C_UK002_12",
+    "C_UK002_13",
+    "C_UK002_14",
+    "C_UK002_19",
+    "C_UK002_20",
+    "C_UK002_21",
+    "C_UK002_22",
+    "C_UK002_23",
+    "C_UK002_24",
+    "C_UK002_25",
+    "C_UK002_26",
+    "C_UK002_27",
+    "C_UK002_28",
+    "C_UK002_29",
+    "C_UK002_30",
+    "C_UK002_31",
+    "C_UK002_32",
+    "C_UK002_33",
+    "C_UK002_34",
+    "C_UK002_35",
+    "C_UK002_36",
+    "C_UK002_37",
+    "C_UK002_38",
+    "C_UK002_39",
+    "C_UK002_40",
+    "C_UK002_41",
+    "C_UK002_42",
+    "C_UK002_43",
+    "C_UK002_45",
+    "C_UK002_46",
+    "C_UK002_47",
+    "C_UK002_48",
+    "C_UK002_50",
+    "C_UK002_51",
+    "C_UK002_52",
+    "C_UK002_54",
+    "C_UK002_55",
+    "C_UK002_56",
+    "C_UK002_57",
+    "C_UK002_58",
+    "C_UK002_59",
+    "C_UK002_60",
+    "C_UK002_61",
+    "C_UK002_64",
+    "C_UK002_65",
+    "C_UK002_66",
+    "C_UK002_67",
+    "C_UK002_68",
+    "C_UK002_69",
+    "C_UK002_70",
+    "C_UK002_71",
+    "C_UK002_72",
+    "C_UK002_73",
+    "C_UK002_74",
+    "C_UK002_80",
+    "C_UK002_81",
+    "C_UK002_82",
+    "C_UK002_83",
+    "C_UK002_84",
+    "C_UK002_85",
+    "C_UK002_86",
+    "C_UK002_88",
+    "C_UK002_91",
+    "C_UK002_92",
+    "C_UK002_93",
+    "C_UK002_94",
+    "C_UK002_95",
+    "C_UK002_96",
+    "C_UK002_97",
+    "C_UK002_98",
+    "C_UK002_99"
+  ]
+}

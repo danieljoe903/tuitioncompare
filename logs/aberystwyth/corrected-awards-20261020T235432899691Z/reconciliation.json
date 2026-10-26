@@ -1,0 +1,1130 @@
+{
+  "generated_at": "2026-10-20T23:54:32.899691+00:00",
+  "university_id": "UK002",
+  "mode": "preview",
+  "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+  "source_sha256": "922835b209af8a71da1789cdf3a925a966f22e94386cd3ac1af727264b71181d",
+  "scholarship_rules": [
+    {
+      "name": "Global Citizens Scholarship — Humanities UG (2027/28)",
+      "rule_id": 3,
+      "verified": true,
+      "scope_count": 26,
+      "changed": true,
+      "before": {
+        "kind": "fixed",
+        "value": "3000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "course_id": [
+            "C_ABE002_01",
+            "C_UK002_01",
+            "C_UK002_04",
+            "C_UK002_09",
+            "C_UK002_11",
+            "C_UK002_15",
+            "C_UK002_16",
+            "C_UK002_17",
+            "C_UK002_18",
+            "C_UK002_38",
+            "C_UK002_39",
+            "C_UK002_40",
+            "C_UK002_42",
+            "C_UK002_44",
+            "C_UK002_53",
+            "C_UK002_55",
+            "C_UK002_56",
+            "C_UK002_76",
+            "C_UK002_77",
+            "C_UK002_78",
+            "C_UK002_79",
+            "C_UK002_87",
+            "C_UK002_88"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "offer_received": [
+            true
+          ],
+          "external_funding": [
+            false
+          ],
+          "applied_by_deadline": [
+            true
+          ],
+          "academic_conditions_met": [
+            true
+          ]
+        },
+        "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "application_deadline": "2027-08-01",
+        "published_scholarship_table": {
+          "net": "17400.00",
+          "award": "3000.00",
+          "gross": "20400.00"
+        }
+      },
+      "after": {
+        "kind": "fixed",
+        "value": "3000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "course_id": [
+            "C_ABE002_01",
+            "C_UK002_01",
+            "C_UK002_04",
+            "C_UK002_09",
+            "C_UK002_10",
+            "C_UK002_11",
+            "C_UK002_15",
+            "C_UK002_16",
+            "C_UK002_17",
+            "C_UK002_18",
+            "C_UK002_38",
+            "C_UK002_39",
+            "C_UK002_40",
+            "C_UK002_41",
+            "C_UK002_42",
+            "C_UK002_44",
+            "C_UK002_53",
+            "C_UK002_55",
+            "C_UK002_56",
+            "C_UK002_60",
+            "C_UK002_76",
+            "C_UK002_77",
+            "C_UK002_78",
+            "C_UK002_79",
+            "C_UK002_87",
+            "C_UK002_88"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "offer_received": [
+            true
+          ],
+          "external_funding": [
+            false
+          ],
+          "applied_by_deadline": [
+            true
+          ],
+          "academic_conditions_met": [
+            true
+          ]
+        },
+        "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "application_deadline": "2027-08-01",
+        "published_scholarship_table": {
+          "net": "17400.00",
+          "award": "3000.00",
+          "gross": "20400.00"
+        }
+      }
+    },
+    {
+      "name": "Global Citizens Scholarship — Humanities PG (2027/28)",
+      "rule_id": 4,
+      "verified": true,
+      "scope_count": 11,
+      "changed": true,
+      "before": {
+        "kind": "fixed",
+        "value": "3000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "course_id": [
+            "C_UK002_24",
+            "C_UK002_30",
+            "C_UK002_48",
+            "C_UK002_49",
+            "C_UK002_50",
+            "C_UK002_62",
+            "C_UK002_63",
+            "C_UK002_75",
+            "C_UK002_89",
+            "C_UK002_90"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "offer_received": [
+            true
+          ],
+          "external_funding": [
+            false
+          ],
+          "applied_by_deadline": [
+            true
+          ],
+          "academic_conditions_met": [
+            true
+          ]
+        },
+        "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "application_deadline": "2027-08-01",
+        "published_scholarship_table": {
+          "net": "19115.00",
+          "award": "3000.00",
+          "gross": "22115.00"
+        }
+      },
+      "after": {
+        "kind": "fixed",
+        "value": "3000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "course_id": [
+            "C_ABE002_RES_04",
+            "C_UK002_24",
+            "C_UK002_30",
+            "C_UK002_48",
+            "C_UK002_49",
+            "C_UK002_50",
+            "C_UK002_62",
+            "C_UK002_63",
+            "C_UK002_75",
+            "C_UK002_89",
+            "C_UK002_90"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "offer_received": [
+            true
+          ],
+          "external_funding": [
+            false
+          ],
+          "applied_by_deadline": [
+            true
+          ],
+          "academic_conditions_met": [
+            true
+          ]
+        },
+        "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "application_deadline": "2027-08-01",
+        "published_scholarship_table": {
+          "net": "19115.00",
+          "award": "3000.00",
+          "gross": "22115.00"
+        }
+      }
+    },
+    {
+      "name": "Global Citizens Scholarship — Sciences UG (2027/28)",
+      "rule_id": 5,
+      "verified": false,
+      "scope_count": 20,
+      "changed": true,
+      "before": {
+        "kind": "fixed",
+        "value": "4500.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "course_id": [
+            "C_UK002_02",
+            "C_UK002_03",
+            "C_UK002_05",
+            "C_UK002_06",
+            "C_UK002_08",
+            "C_UK002_12",
+            "C_UK002_13",
+            "C_UK002_19",
+            "C_UK002_20",
+            "C_UK002_31",
+            "C_UK002_32",
+            "C_UK002_33",
+            "C_UK002_34",
+            "C_UK002_35",
+            "C_UK002_54",
+            "C_UK002_58",
+            "C_UK002_59",
+            "C_UK002_81",
+            "C_UK002_85"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "offer_received": [
+            true
+          ],
+          "external_funding": [
+            false
+          ],
+          "applied_by_deadline": [
+            true
+          ],
+          "academic_conditions_met": [
+            true
+          ]
+        },
+        "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "review_reason": "Undergraduate science gross tuition differs between the scholarship table (£23,555) and verified tuition sources (£23,255). Record the published award but do not deduct it until its applicable fee basis is confirmed.",
+        "compatible_ids": [],
+        "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": false,
+        "application_deadline": "2027-08-01",
+        "published_scholarship_table": {
+          "net": "19055.00",
+          "award": "4500.00",
+          "gross": "23555.00"
+        }
+      },
+      "after": {
+        "kind": "fixed",
+        "value": "4500.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "stacking": "exclusive",
+        "conditions": {
+          "course_id": [
+            "C_UK002_02",
+            "C_UK002_03",
+            "C_UK002_05",
+            "C_UK002_06",
+            "C_UK002_08",
+            "C_UK002_12",
+            "C_UK002_13",
+            "C_UK002_19",
+            "C_UK002_20",
+            "C_UK002_31",
+            "C_UK002_32",
+            "C_UK002_33",
+            "C_UK002_34",
+            "C_UK002_35",
+            "C_UK002_54",
+            "C_UK002_58",
+            "C_UK002_59",
+            "C_UK002_81",
+            "C_UK002_84",
+            "C_UK002_85"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "offer_received": [
+            true
+          ],
+          "external_funding": [
+            false
+          ],
+          "applied_by_deadline": [
+            true
+          ],
+          "academic_conditions_met": [
+            true
+          ]
+        },
+        "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "academic_year": "2027/28",
+        "review_reason": "Undergraduate science gross tuition differs between the scholarship table (£23,555) and verified tuition sources (£23,255). Record the published award but do not deduct it until its applicable fee basis is confirmed.",
+        "compatible_ids": [],
+        "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": false,
+        "application_deadline": "2027-08-01",
+        "published_scholarship_table": {
+          "net": "19055.00",
+          "award": "4500.00",
+          "gross": "23555.00"
+        }
+      }
+    }
+  ],
+  "course_reviews": [
+    {
+      "course_id": "C_UK002_10",
+      "changed": true,
+      "before": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "annual_tuition": "20400.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year.",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "raw_annual_fee": "£20,400.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+          "official_code": "142L",
+          "official_award": "BA",
+          "official_title": "International Relations",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+        "scholarship_status": "pending_separate_reconciliation",
+        "programme_fee_group": "bachelors",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false
+      },
+      "after": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "A scholarship estimate is available when the eligibility conditions are confirmed."
+        },
+        "annual_tuition": "20400.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year.",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "raw_annual_fee": "£20,400.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+          "official_code": "142L",
+          "official_award": "BA",
+          "official_title": "International Relations",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "programme_fee_group": "bachelors",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false,
+        "scholarship_review": {
+          "status": "verified_rule_eligibility_required",
+          "rule_id": 3,
+          "reason": "Existing verified conditional award extended to the accepted course and fee year.",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_41",
+      "changed": true,
+      "before": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "annual_tuition": "20400.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year.",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "raw_annual_fee": "£20,400.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+          "official_code": "W400",
+          "official_award": "BA",
+          "official_title": "Drama and Theatre",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+        "scholarship_status": "pending_separate_reconciliation",
+        "programme_fee_group": "bachelors",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false
+      },
+      "after": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "A scholarship estimate is available when the eligibility conditions are confirmed."
+        },
+        "annual_tuition": "20400.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year.",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "raw_annual_fee": "£20,400.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+          "official_code": "W400",
+          "official_award": "BA",
+          "official_title": "Drama and Theatre",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "programme_fee_group": "bachelors",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false,
+        "scholarship_review": {
+          "status": "verified_rule_eligibility_required",
+          "rule_id": 3,
+          "reason": "Existing verified conditional award extended to the accepted course and fee year.",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_60",
+      "changed": true,
+      "before": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "annual_tuition": "20400.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year.",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "raw_annual_fee": "£20,400.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/",
+          "official_code": "MM91",
+          "official_award": "LLB",
+          "official_title": "Law and Criminology",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/",
+        "scholarship_status": "pending_separate_reconciliation",
+        "programme_fee_group": "bachelors",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false
+      },
+      "after": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "A scholarship estimate is available when the eligibility conditions are confirmed."
+        },
+        "annual_tuition": "20400.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year.",
+            "academic_year": "2027/28",
+            "annual_tuition": "20400.00",
+            "raw_annual_fee": "£20,400.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/",
+          "official_code": "MM91",
+          "official_award": "LLB",
+          "official_title": "Law and Criminology",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "programme_fee_group": "bachelors",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false,
+        "scholarship_review": {
+          "status": "verified_rule_eligibility_required",
+          "rule_id": 3,
+          "reason": "Existing verified conditional award extended to the accepted course and fee year.",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+        }
+      }
+    },
+    {
+      "course_id": "C_ABE002_RES_04",
+      "changed": true,
+      "before": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "annual_tuition": "22115.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year.",
+            "academic_year": "2027/28",
+            "annual_tuition": "22115.00",
+            "raw_annual_fee": "£22,115.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+          "official_code": "V140",
+          "official_award": "MA",
+          "official_title": "Modern History",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+        "scholarship_status": "pending_separate_reconciliation",
+        "programme_fee_group": "masters",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false
+      },
+      "after": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "A scholarship estimate is available when the eligibility conditions are confirmed."
+        },
+        "annual_tuition": "22115.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year.",
+            "academic_year": "2027/28",
+            "annual_tuition": "22115.00",
+            "raw_annual_fee": "£22,115.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+          "official_code": "V140",
+          "official_award": "MA",
+          "official_title": "Modern History",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+        "scholarship_status": "verified_rule_eligibility_required",
+        "programme_fee_group": "masters",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false,
+        "scholarship_review": {
+          "status": "verified_rule_eligibility_required",
+          "rule_id": 4,
+          "reason": "Existing verified conditional award extended to the accepted course and fee year.",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_84",
+      "changed": true,
+      "before": {
+        "currency": "GBP",
+        "fee_band": "Sciences",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "annual_tuition": "23255.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year.",
+            "academic_year": "2027/28",
+            "annual_tuition": "23255.00",
+            "raw_annual_fee": "£23,255.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/",
+          "official_code": "GGC3",
+          "official_award": "BSC",
+          "official_title": "Pure Mathematics / Statistics",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/",
+        "scholarship_status": "pending_separate_reconciliation",
+        "programme_fee_group": "bachelors",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false
+      },
+      "after": {
+        "currency": "GBP",
+        "fee_band": "Sciences",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount has been included."
+        },
+        "annual_tuition": "23255.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year.",
+            "academic_year": "2027/28",
+            "annual_tuition": "23255.00",
+            "raw_annual_fee": "£23,255.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/",
+          "official_code": "GGC3",
+          "official_award": "BSC",
+          "official_title": "Pure Mathematics / Statistics",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/",
+        "scholarship_status": "pending_fee_source_discrepancy",
+        "programme_fee_group": "bachelors",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false,
+        "scholarship_review": {
+          "status": "pending_fee_source_discrepancy",
+          "rule_id": 5,
+          "reason": "Undergraduate science tuition differs between official fee and scholarship pages. The award remains unverified and unapplied.",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+        }
+      }
+    },
+    {
+      "course_id": "C_ABE002_RES_02",
+      "changed": true,
+      "before": {
+        "currency": "GBP",
+        "fee_band": "Sciences",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "postgraduate_mres",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "annual_tuition": "23820.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year. Project-specific supplementary costs, if any, require university confirmation.",
+            "academic_year": "2027/28",
+            "annual_tuition": "23820.00",
+            "raw_annual_fee": "£23,820.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+          "official_code": "C111",
+          "official_award": "MRES",
+          "official_title": "Parasite Control",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+        "scholarship_status": "pending_separate_reconciliation",
+        "programme_fee_group": "masters",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false
+      },
+      "after": {
+        "currency": "GBP",
+        "fee_band": "Sciences",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "postgraduate_mres",
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount has been included."
+        },
+        "annual_tuition": "23820.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year. Project-specific supplementary costs, if any, require university confirmation.",
+            "academic_year": "2027/28",
+            "annual_tuition": "23820.00",
+            "raw_annual_fee": "£23,820.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+          "official_code": "C111",
+          "official_award": "MRES",
+          "official_title": "Parasite Control",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+        "scholarship_status": "applicability_unconfirmed",
+        "programme_fee_group": "masters",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false,
+        "scholarship_review": {
+          "status": "applicability_unconfirmed",
+          "rule_id": null,
+          "reason": "MRes programme eligibility under the published Global Citizens award categories has not been explicitly confirmed.",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+        }
+      }
+    },
+    {
+      "course_id": "C_ABE002_RES_06",
+      "changed": true,
+      "before": {
+        "currency": "GBP",
+        "fee_band": "Sciences",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "postgraduate_research",
+        "academic_year": "2026/27",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "annual_tuition": "21515.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year. Research fees may increase annually; project-specific supplementary costs are excluded.",
+            "academic_year": "2026/27",
+            "annual_tuition": "21515.00",
+            "raw_annual_fee": "£21,515.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+          "official_code": "C800",
+          "official_award": "MPHL",
+          "official_title": "Psychology",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+        "scholarship_status": "pending_separate_reconciliation",
+        "programme_fee_group": "research",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false
+      },
+      "after": {
+        "currency": "GBP",
+        "fee_band": "Sciences",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_band",
+        "fee_review": {
+          "reason": "Accepted course identity matched to its published intake-year tuition category.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "postgraduate_research",
+        "academic_year": "2026/27",
+        "display_notes": {
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount has been included."
+        },
+        "annual_tuition": "21515.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Published base tuition for the first study year. Research fees may increase annually; project-specific supplementary costs are excluded.",
+            "academic_year": "2026/27",
+            "annual_tuition": "21515.00",
+            "raw_annual_fee": "£21,515.00",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+          "status": "accepted_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+          "official_code": "C800",
+          "official_award": "MPHL",
+          "official_title": "Psychology",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+        "scholarship_status": "applicability_unconfirmed",
+        "programme_fee_group": "research",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "supplementary_charges_included": false,
+        "scholarship_review": {
+          "status": "applicability_unconfirmed",
+          "rule_id": null,
+          "reason": "January 2027 is in 2026/27. Global Citizens starts from 2027/28; other scholarship applicability remains unconfirmed.",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+        }
+      }
+    }
+  ],
+  "tuition_prices_changed": false,
+  "stored_discounts_changed": false,
+  "deposit_amounts_changed": false
+}

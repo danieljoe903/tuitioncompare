@@ -1,0 +1,21 @@
+{
+  "academic_year": "2026/27",
+  "currency": "GBP",
+  "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/biomedical-science/",
+  "categories": [
+    {
+      "source_fee_category": "Scotland",
+      "raw_annual_fee": "£1,820 (typically paid by SAAS)"
+    },
+    {
+      "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+      "raw_annual_fee": "£9,790"
+    },
+    {
+      "source_fee_category": "International",
+      "raw_annual_fee": "£16,950"
+    }
+  ],
+  "fee_policy_text": "Fees and Funding The tuition fees you'll pay and the funding available to you depends on factors such as your nationality, location, personal circumstances and the course you're studying. If you’re studying a full-time undergraduate degree, your fee status will be classed as one of the following: Scotland England, Wales, Northern Ireland, and the Republic of Ireland International Fee Status Your fee status is typically based on the country where you've lived on a regular, non-temporary basis for the three years prior to the start of your course. We’ll confirm your tuition fees once you’ve applied. International International includes applicants from EU countries who do not hold Pre-Settled or Settled Status in the UK. (Students from the Republic of Ireland are not included.) Annual Tuition Fees Fee Status 2026/27 2027/28 Scotland £1,820 (typically paid by SAAS) £1,820* (typically paid by SAAS) England/Wales/N Ireland/Rep of Ireland £9,790 Tuition fees for 2027 entry are being confirmed and will be published here. Fees shown are for 2026 entry.** International £16,950 £16,950*** *For Scottish undergraduate students, tuition fees are set by the Scottish Government and confirmed annually. If the approved fee level changes in future, Abertay may update its published tuition fees in line with the confirmed government rate. **Tuition fees for Rest of UK students are reviewed annually. Where permitted, the University may increase tuition fees for continuing students (those starting their course from September 2027) in line with changes to the maximum tuition fee cap set by the UK Government. Students should take the potential for future fee increases into account when planning the overall cost of their studies. ***Eligible international students will automatically receive a scholarship worth between £12,000-£28,000 over the duration of their course. More information See more about tuition fees, grants, bursaries, tuition fee loans, maintenance loans and living costs in our undergraduate fees and funding section .",
+  "database_changes": false
+}

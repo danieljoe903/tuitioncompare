@@ -1,0 +1,693 @@
+{
+  "generated_at": "2026-10-21T00:15:27.694964+00:00",
+  "mode": "preview",
+  "university_id": "UK002",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\remaining-review-20261020T231510825902Z\\remaining-course-review.json",
+  "records": [
+    {
+      "course_id": "C_UK002_07",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Criminology and Sociology",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+          "ucas_cao_code": "ML93"
+        },
+        "tuition": {
+          "tuition_fee": "19190.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Criminology and Sociology",
+          "source_course_code": "ML93",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "The course identity is confirmed, but its joint-course international fee band needs confirmation.",
+              "status": "pending",
+              "target_academic_year": "2027/28"
+            },
+            "display_notes": {
+              "fee": "The course identity is confirmed, but its joint-course international fee band needs confirmation.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+              "official_code": "ML93",
+              "official_award": "BSC",
+              "official_title": "Criminology and Sociology",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+            "application_review": {
+              "note": "The course identity is confirmed, but its joint-course international fee band needs confirmation.",
+              "status": "not_assessed",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Criminology and Sociology",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+          "ucas_cao_code": "ML93"
+        },
+        "tuition": {
+          "tuition_fee": "19190.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Criminology and Sociology",
+          "source_course_code": "ML93",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "status": "pending",
+              "target_academic_year": "2027/28",
+              "reason": "The course identity is confirmed, but its joint-course international fee band needs confirmation."
+            },
+            "display_notes": {
+              "fee": "The course identity is confirmed, but its joint-course international fee band needs confirmation.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "official_title": "Criminology and Sociology",
+              "official_code": "ML93",
+              "official_award": "BSC",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+            "application_review": {
+              "status": "not_assessed",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+              "note": "The course identity is confirmed, but its joint-course international fee band needs confirmation."
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_14",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BVSc Veterinary Science",
+          "level": "UG",
+          "duration": "5 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+          "ucas_cao_code": ""
+        },
+        "tuition": {
+          "tuition_fee": "21875.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Veterinary Science (BVSc)",
+          "source_course_code": "YD105",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "Joint Aberystwyth/RVC BVSc. The course directs students to the RVC fee schedule; no ordinary Aberystwyth science fee has been assigned.",
+              "status": "pending",
+              "target_academic_year": "2027/28"
+            },
+            "display_notes": {
+              "fee": "Joint Aberystwyth/RVC BVSc. The course directs students to the RVC fee schedule; no ordinary Aberystwyth science fee has been assigned.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+              "official_code": "YD105",
+              "official_award": "NQUG",
+              "official_title": "Veterinary Science (BVSc)",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+            "application_review": {
+              "note": "Joint Aberystwyth/RVC BVSc. The course directs students to the RVC fee schedule; no ordinary Aberystwyth science fee has been assigned.",
+              "status": "not_assessed",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BVSc Veterinary Science",
+          "level": "UG",
+          "duration": "5 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+          "ucas_cao_code": ""
+        },
+        "tuition": {
+          "tuition_fee": "21875.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Veterinary Science (BVSc)",
+          "source_course_code": "YD105",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "status": "pending",
+              "target_academic_year": "2027/28",
+              "reason": "Joint Aberystwyth/RVC BVSc. The course directs students to the RVC fee schedule; no ordinary Aberystwyth science fee has been assigned."
+            },
+            "display_notes": {
+              "fee": "Joint Aberystwyth/RVC BVSc. The course directs students to the RVC fee schedule; no ordinary Aberystwyth science fee has been assigned.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "official_title": "Veterinary Science (BVSc)",
+              "official_code": "YD105",
+              "official_award": "NQUG",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+            "application_review": {
+              "status": "not_assessed",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+              "note": "Joint Aberystwyth/RVC BVSc. The course directs students to the RVC fee schedule; no ordinary Aberystwyth science fee has been assigned."
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_36",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Nursing (Adult)",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+          "ucas_cao_code": "B740"
+        },
+        "tuition": {
+          "tuition_fee": "21875.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Nursing (Adult)",
+          "source_course_code": "B740",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "The saved course page says international applications for 2027 entry are held pending HEIW funding confirmation. An applicable international tuition amount remains unconfirmed.",
+              "status": "pending",
+              "target_academic_year": "2027/28"
+            },
+            "display_notes": {
+              "fee": "The saved course page says international applications for 2027 entry are held pending HEIW funding confirmation. An applicable international tuition amount remains unconfirmed.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+              "official_code": "B740",
+              "official_award": "BSC",
+              "official_title": "Nursing (Adult)",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+            "application_review": {
+              "note": "The saved course page says international applications for 2027 entry are held pending HEIW funding confirmation. An applicable international tuition amount remains unconfirmed.",
+              "status": "international_funding_confirmation_pending",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Nursing (Adult)",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+          "ucas_cao_code": "B740"
+        },
+        "tuition": {
+          "tuition_fee": "21875.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Nursing (Adult)",
+          "source_course_code": "B740",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "status": "pending",
+              "target_academic_year": "2027/28",
+              "reason": "The saved course page says international applications for 2027 entry are held pending HEIW funding confirmation. An applicable international tuition amount remains unconfirmed."
+            },
+            "display_notes": {
+              "fee": "The saved course page says international applications for 2027 entry are held pending HEIW funding confirmation. An applicable international tuition amount remains unconfirmed.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "official_title": "Nursing (Adult)",
+              "official_code": "B740",
+              "official_award": "BSC",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+            "application_review": {
+              "status": "international_funding_confirmation_pending",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+              "note": "The saved course page says international applications for 2027 entry are held pending HEIW funding confirmation. An applicable international tuition amount remains unconfirmed."
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_37",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Nursing (Mental Health)",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+          "ucas_cao_code": "B760"
+        },
+        "tuition": {
+          "tuition_fee": "21875.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Nursing (Mental Health)",
+          "source_course_code": "B760",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "The saved course page excludes international applicants ordinarily resident outside the UK. Eligibility for a UK-resident applicant and the applicable fee require confirmation.",
+              "status": "pending",
+              "target_academic_year": "2027/28"
+            },
+            "display_notes": {
+              "fee": "The saved course page excludes international applicants ordinarily resident outside the UK. Eligibility for a UK-resident applicant and the applicable fee require confirmation.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+              "official_code": "B760",
+              "official_award": "BSC",
+              "official_title": "Nursing (Mental Health)",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+            "application_review": {
+              "note": "The saved course page excludes international applicants ordinarily resident outside the UK. Eligibility for a UK-resident applicant and the applicable fee require confirmation.",
+              "status": "restricted_by_ordinary_residence",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Nursing (Mental Health)",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+          "ucas_cao_code": "B760"
+        },
+        "tuition": {
+          "tuition_fee": "21875.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Nursing (Mental Health)",
+          "source_course_code": "B760",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "status": "pending",
+              "target_academic_year": "2027/28",
+              "reason": "The saved course page excludes international applicants ordinarily resident outside the UK. Eligibility for a UK-resident applicant and the applicable fee require confirmation."
+            },
+            "display_notes": {
+              "fee": "The saved course page excludes international applicants ordinarily resident outside the UK. Eligibility for a UK-resident applicant and the applicable fee require confirmation.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "official_title": "Nursing (Mental Health)",
+              "official_code": "B760",
+              "official_award": "BSC",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+            "application_review": {
+              "status": "restricted_by_ordinary_residence",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+              "note": "The saved course page excludes international applicants ordinarily resident outside the UK. Eligibility for a UK-resident applicant and the applicable fee require confirmation."
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_57",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Psychology and Marketing",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+          "ucas_cao_code": "NC58"
+        },
+        "tuition": {
+          "tuition_fee": "19190.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Psychology and Marketing",
+          "source_course_code": "NC58",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "The course identity is confirmed, but the international fee band for this joint Psychology/Business course needs confirmation.",
+              "status": "pending",
+              "target_academic_year": "2027/28"
+            },
+            "display_notes": {
+              "fee": "The course identity is confirmed, but the international fee band for this joint Psychology/Business course needs confirmation.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+              "official_code": "NC58",
+              "official_award": "BSC",
+              "official_title": "Psychology and Marketing",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+            "application_review": {
+              "note": "The course identity is confirmed, but the international fee band for this joint Psychology/Business course needs confirmation.",
+              "status": "not_assessed",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Psychology and Marketing",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+          "ucas_cao_code": "NC58"
+        },
+        "tuition": {
+          "tuition_fee": "19190.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Psychology and Marketing",
+          "source_course_code": "NC58",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "status": "pending",
+              "target_academic_year": "2027/28",
+              "reason": "The course identity is confirmed, but the international fee band for this joint Psychology/Business course needs confirmation."
+            },
+            "display_notes": {
+              "fee": "The course identity is confirmed, but the international fee band for this joint Psychology/Business course needs confirmation.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "official_title": "Psychology and Marketing",
+              "official_code": "NC58",
+              "official_award": "BSC",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+            "application_review": {
+              "status": "not_assessed",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+              "note": "The course identity is confirmed, but the international fee band for this joint Psychology/Business course needs confirmation."
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_91",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MSc Behaviour Change",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+          "ucas_cao_code": ""
+        },
+        "tuition": {
+          "tuition_fee": "20805.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Behaviour Change",
+          "source_course_code": "C801",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation.",
+              "status": "pending",
+              "target_academic_year": "2027/28"
+            },
+            "display_notes": {
+              "fee": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+              "official_code": "C801",
+              "official_award": "MSC",
+              "official_title": "Behaviour Change",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+            "application_review": {
+              "note": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation.",
+              "status": "not_assessed",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MSc Behaviour Change",
+          "level": "PG",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+          "ucas_cao_code": ""
+        },
+        "tuition": {
+          "tuition_fee": "20805.0",
+          "currency": "GBP",
+          "scholarship": "2000.0",
+          "tuition_deposit": "2000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "Behaviour Change",
+          "source_course_code": "C801",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "status": "pending",
+              "target_academic_year": "2027/28",
+              "reason": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation."
+            },
+            "display_notes": {
+              "fee": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation.",
+              "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established.",
+              "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer."
+            },
+            "deposit_status": "individual_policy_review_required",
+            "course_identity": {
+              "status": "confirmed_current_catalogue_match",
+              "official_title": "Behaviour Change",
+              "official_code": "C801",
+              "official_award": "MSC",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+            "application_review": {
+              "status": "not_assessed",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+              "note": "The multidisciplinary course identity is confirmed. Its course-specific international fee band needs confirmation."
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "needs_review"
+          }
+        }
+      }
+    }
+  ],
+  "blocked": []
+}

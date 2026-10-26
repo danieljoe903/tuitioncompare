@@ -1,0 +1,51 @@
+{
+  "university_id": "UK006",
+  "generated_at": "2026-10-24T23:51:43.128657+00:00",
+  "database_changes": false,
+  "changed_items": 1,
+  "painting_transition": {
+    "importer": "aup_painting_transition_v1",
+    "is_active": false,
+    "canonical_course_id": "C_UK006_17",
+    "transition": "MA Painting became part of MA Fine Art from September 2025",
+    "source_url": "https://www.aup.ac.uk/posts/layla-lyons-exploring-landscape-abstraction-and-the-creative-process-in-ma-fine-art",
+    "reason": "Retain historical record; avoid a second current MA Fine Art mapping."
+  },
+  "competitive_award_notices": [
+    {
+      "name": "Creative Scholarships",
+      "status": "ended",
+      "label": "Has ended",
+      "application_deadline": "2026-02-25",
+      "source_url": "https://www.aup.ac.uk/international/finance",
+      "applicable_academic_year": null,
+      "automatic_deduction": false,
+      "message": "The published application deadline was 25 February 2026. This application cycle has ended. September 2027 availability has not been confirmed. Existing award letters require separate assessment."
+    },
+    {
+      "name": "Pro-Vice-Chancellor\u2019s Arts University Plymouth Creative Excellence Award",
+      "status": "ended",
+      "label": "Has ended",
+      "application_deadline": "2026-02-25",
+      "source_url": "https://www.aup.ac.uk/international/finance",
+      "applicable_academic_year": null,
+      "automatic_deduction": false,
+      "message": "The published application deadline was 25 February 2026. This application cycle has ended. September 2027 availability has not been confirmed. Existing award letters require separate assessment."
+    },
+    {
+      "name": "Vice-Chancellor\u2019s Arts University Plymouth Excellence Award",
+      "status": "ended",
+      "label": "Has ended",
+      "application_deadline": "2026-02-25",
+      "source_url": "https://www.aup.ac.uk/international/finance",
+      "applicable_academic_year": null,
+      "automatic_deduction": false,
+      "message": "The published application deadline was 25 February 2026. This application cycle has ended. September 2027 availability has not been confirmed. Existing award letters require separate assessment."
+    }
+  ],
+  "unresolved_routes": [
+    "C_AUP006_01",
+    "C_UK006_18"
+  ],
+  "note": "No tuition, numeric discounts, deposit policies or Alumni rules changed."
+}

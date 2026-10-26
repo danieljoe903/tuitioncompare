@@ -1,0 +1,2498 @@
+{
+  "university_id": "UK007",
+  "database_changes": false,
+  "generated_at": "2026-10-25T22:29:49.962752+00:00",
+  "courses": [
+    {
+      "course_id": "C_UK007_01",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/accounting-and-finance-bsc/september-2027",
+          "duration": "4 Years (placement optional)",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Accounting and Finance",
+          "ucas_cao_code": "N420"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "N420",
+            "source_course_name": "BSc (Hons) Accounting and Finance",
+            "source_sha256": "3ef9939414545a4930475e9c7d9966382c8c598f1a247501443320e7a8054c51",
+            "stored_duration": "4 Years (placement optional)",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "23500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/accounting-and-finance-bsc/september-2027"
+        },
+        "tuition_fee": "23500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/accounting-and-finance-bsc/september-2027",
+          "duration": "4 Years (placement optional)",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Accounting and Finance",
+          "ucas_cao_code": "N420"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "N420",
+            "source_course_name": "BSc (Hons) Accounting and Finance",
+            "source_sha256": "3ef9939414545a4930475e9c7d9966382c8c598f1a247501443320e7a8054c51",
+            "stored_duration": "4 Years (placement optional)",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "23500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/accounting-and-finance-bsc/september-2027"
+        },
+        "tuition_fee": "23500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_03",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-and-robotics-bsc/september-2027",
+          "duration": "4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Artificial Intelligence and Robotics",
+          "ucas_cao_code": "GH76"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "GH76",
+            "source_course_name": "BSc (Hons) Artificial Intelligence and Robotics",
+            "source_sha256": "d605cdb19b3175ca2649b0f8894dfd679ebb0f9a8d6e65fc288869407bd1cc39",
+            "stored_duration": "4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-and-robotics-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-and-robotics-bsc/september-2027",
+          "duration": "4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Artificial Intelligence and Robotics",
+          "ucas_cao_code": "GH76"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "GH76",
+            "source_course_name": "BSc (Hons) Artificial Intelligence and Robotics",
+            "source_sha256": "d605cdb19b3175ca2649b0f8894dfd679ebb0f9a8d6e65fc288869407bd1cc39",
+            "stored_duration": "4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-and-robotics-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_04",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/biochemistry-bsc/september-2027",
+          "duration": "3 or 4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Biochemistry",
+          "ucas_cao_code": "C700"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3 or 4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "C700",
+            "source_course_name": "BSc (Hons) Biochemistry",
+            "source_sha256": "67d2fde3405e53e97f42068b1460fa9c11679e500a34dfcc6154b1add256329b",
+            "stored_duration": "3 or 4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/biochemistry-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/biochemistry-bsc/september-2027",
+          "duration": "3 or 4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Biochemistry",
+          "ucas_cao_code": "C700"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3 or 4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "C700",
+            "source_course_name": "BSc (Hons) Biochemistry",
+            "source_sha256": "67d2fde3405e53e97f42068b1460fa9c11679e500a34dfcc6154b1add256329b",
+            "stored_duration": "3 or 4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/biochemistry-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_05",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/biomedical-science-bsc/september-2027",
+          "duration": "3 or 4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Biomedical Science",
+          "ucas_cao_code": "C900"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3 or 4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "C900",
+            "source_course_name": "BSc (Hons) Biomedical Science",
+            "source_sha256": "06d22d2646ba6f849229d7c8b345b12a7485e7587f615c0c55b8d3ea2f15ce87",
+            "stored_duration": "3 or 4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/biomedical-science-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/biomedical-science-bsc/september-2027",
+          "duration": "3 or 4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Biomedical Science",
+          "ucas_cao_code": "C900"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3 or 4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "C900",
+            "source_course_name": "BSc (Hons) Biomedical Science",
+            "source_sha256": "06d22d2646ba6f849229d7c8b345b12a7485e7587f615c0c55b8d3ea2f15ce87",
+            "stored_duration": "3 or 4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/biomedical-science-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_06",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/business-analytics-bsc/september-2027",
+          "duration": "4 Years (placement optional)",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Business Analytics",
+          "ucas_cao_code": "NG12"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "NG12",
+            "source_course_name": "BSc (Hons) Business Analytics",
+            "source_sha256": "a807f5343e0c0199c5c825a242a8794fec3055652d2166e92b138028c5de197d",
+            "stored_duration": "4 Years (placement optional)",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "23500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/business-analytics-bsc/september-2027"
+        },
+        "tuition_fee": "23500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/business-analytics-bsc/september-2027",
+          "duration": "4 Years (placement optional)",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Business Analytics",
+          "ucas_cao_code": "NG12"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "NG12",
+            "source_course_name": "BSc (Hons) Business Analytics",
+            "source_sha256": "a807f5343e0c0199c5c825a242a8794fec3055652d2166e92b138028c5de197d",
+            "stored_duration": "4 Years (placement optional)",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "23500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/business-analytics-bsc/september-2027"
+        },
+        "tuition_fee": "23500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_07",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/business-and-management-bsc/september-2027",
+          "duration": "4 Years (placement optional)",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Business and Management",
+          "ucas_cao_code": "NN12"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "NN12",
+            "source_course_name": "BSc (Hons) Business and Management",
+            "source_sha256": "3705ef506114ee24c443b217eb0c9589ab41bd85b9fe3c9347ce4f997e99a2a1",
+            "stored_duration": "4 Years (placement optional)",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "23500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/business-and-management-bsc/september-2027"
+        },
+        "tuition_fee": "23500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/business-and-management-bsc/september-2027",
+          "duration": "4 Years (placement optional)",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Business and Management",
+          "ucas_cao_code": "NN12"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "NN12",
+            "source_course_name": "BSc (Hons) Business and Management",
+            "source_sha256": "3705ef506114ee24c443b217eb0c9589ab41bd85b9fe3c9347ce4f997e99a2a1",
+            "stored_duration": "4 Years (placement optional)",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "23500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/business-and-management-bsc/september-2027"
+        },
+        "tuition_fee": "23500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_08",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/chemical-engineering-beng/september-2027",
+          "duration": "3 or 4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BEng (Hons) Chemical Engineering",
+          "ucas_cao_code": "H803"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3 or 4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "H803",
+            "source_course_name": "BEng (Hons) Chemical Engineering",
+            "source_sha256": "d4f170ff183c5881f1bc3eb12f1e46b3463df324f0a19eaa67449e8d69a5380f",
+            "stored_duration": "3 or 4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/chemical-engineering-beng/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/chemical-engineering-beng/september-2027",
+          "duration": "3 or 4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BEng (Hons) Chemical Engineering",
+          "ucas_cao_code": "H803"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3 or 4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "H803",
+            "source_course_name": "BEng (Hons) Chemical Engineering",
+            "source_sha256": "d4f170ff183c5881f1bc3eb12f1e46b3463df324f0a19eaa67449e8d69a5380f",
+            "stored_duration": "3 or 4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/chemical-engineering-beng/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_09",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/civil-engineering-beng/september-2027",
+          "duration": "4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BEng (Hons) Civil Engineering",
+          "ucas_cao_code": "H200"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "H200",
+            "source_course_name": "BEng (Hons) Civil Engineering",
+            "source_sha256": "25a3ab15f2aba0bfad55cf85a81b7e463376e5d8b240a509acba688d27f6d27c",
+            "stored_duration": "4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/civil-engineering-beng/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/civil-engineering-beng/september-2027",
+          "duration": "4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BEng (Hons) Civil Engineering",
+          "ucas_cao_code": "H200"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "H200",
+            "source_course_name": "BEng (Hons) Civil Engineering",
+            "source_sha256": "25a3ab15f2aba0bfad55cf85a81b7e463376e5d8b240a509acba688d27f6d27c",
+            "stored_duration": "4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/civil-engineering-beng/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_11",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/criminology-bsc/september-2027",
+          "duration": "4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Criminology",
+          "ucas_cao_code": "L370"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "L370",
+            "source_course_name": "BSc (Hons) Criminology",
+            "source_sha256": "fdac7f47bb7d355e28e5fdd98694518559cee7b025c32a1c089e1f5cfd4076f8",
+            "stored_duration": "4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/criminology-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/criminology-bsc/september-2027",
+          "duration": "4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Criminology",
+          "ucas_cao_code": "L370"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "L370",
+            "source_course_name": "BSc (Hons) Criminology",
+            "source_sha256": "fdac7f47bb7d355e28e5fdd98694518559cee7b025c32a1c089e1f5cfd4076f8",
+            "stored_duration": "4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/criminology-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_12",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/digital-marketing-bsc/september-2027",
+          "duration": "4 Years (placement optional)",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Digital Marketing",
+          "ucas_cao_code": "N590"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "N590",
+            "source_course_name": "BSc (Hons) Digital Marketing",
+            "source_sha256": "bdee2d9602e638402299add39d2be0474b3f845c94fe66d05c2da9615ad29941",
+            "stored_duration": "4 Years (placement optional)",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "23500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/digital-marketing-bsc/september-2027"
+        },
+        "tuition_fee": "23500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/digital-marketing-bsc/september-2027",
+          "duration": "4 Years (placement optional)",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Digital Marketing",
+          "ucas_cao_code": "N590"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "N590",
+            "source_course_name": "BSc (Hons) Digital Marketing",
+            "source_sha256": "bdee2d9602e638402299add39d2be0474b3f845c94fe66d05c2da9615ad29941",
+            "stored_duration": "4 Years (placement optional)",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "23500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/digital-marketing-bsc/september-2027"
+        },
+        "tuition_fee": "23500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_15",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/psychology-bsc/september-2027",
+          "duration": "3/4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Psychology",
+          "ucas_cao_code": "C801"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3/4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "C801",
+            "source_course_name": "BSc (Hons) Psychology",
+            "source_sha256": "5d69e857e50cedca3867694a8b1390e40b70df15994769238069054741758927",
+            "stored_duration": "3/4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/psychology-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/psychology-bsc/september-2027",
+          "duration": "3/4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Psychology",
+          "ucas_cao_code": "C801"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3/4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "C801",
+            "source_course_name": "BSc (Hons) Psychology",
+            "source_sha256": "5d69e857e50cedca3867694a8b1390e40b70df15994769238069054741758927",
+            "stored_duration": "3/4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/psychology-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_31",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/healthcare-science-audiology-bsc/september-2027",
+          "duration": "3 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Healthcare Science (Audiology)",
+          "ucas_cao_code": "B611"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "B611",
+            "source_course_name": "BSc (Hons) Healthcare Science (Audiology)",
+            "source_sha256": "6361ef087fed9596275d7745c8dc267252b0a7b6b554b546a8a4c316d46dea17",
+            "stored_duration": "3 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/healthcare-science-audiology-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/healthcare-science-audiology-bsc/september-2027",
+          "duration": "3 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Healthcare Science (Audiology)",
+          "ucas_cao_code": "B611"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "B611",
+            "source_course_name": "BSc (Hons) Healthcare Science (Audiology)",
+            "source_sha256": "6361ef087fed9596275d7745c8dc267252b0a7b6b554b546a8a4c316d46dea17",
+            "stored_duration": "3 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/healthcare-science-audiology-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_33",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/pharmacy-mpharm/september-2027",
+          "duration": "4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MPharm Pharmacy",
+          "ucas_cao_code": "B230"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "B230",
+            "source_course_name": "MPharm Pharmacy",
+            "source_sha256": "6085981afc0185eeb5927174f5124bf39d5ac0b6983584f3a08bbebca4c33aac",
+            "stored_duration": "4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/pharmacy-mpharm/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/pharmacy-mpharm/september-2027",
+          "duration": "4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MPharm Pharmacy",
+          "ucas_cao_code": "B230"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "B230",
+            "source_course_name": "MPharm Pharmacy",
+            "source_sha256": "6085981afc0185eeb5927174f5124bf39d5ac0b6983584f3a08bbebca4c33aac",
+            "stored_duration": "4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/pharmacy-mpharm/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_34",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/neuroscience-bsc/september-2027",
+          "duration": "3 or 4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Neuroscience",
+          "ucas_cao_code": "B140"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3 or 4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "B140",
+            "source_course_name": "BSc (Hons) Neuroscience",
+            "source_sha256": "eec3c53665a90027101aa9ec98739038e70739e2a3c739b2862f6e707e50a91b",
+            "stored_duration": "3 or 4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/neuroscience-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/neuroscience-bsc/september-2027",
+          "duration": "3 or 4 years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Neuroscience",
+          "ucas_cao_code": "B140"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "3 or 4 years",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "B140",
+            "source_course_name": "BSc (Hons) Neuroscience",
+            "source_sha256": "eec3c53665a90027101aa9ec98739038e70739e2a3c739b2862f6e707e50a91b",
+            "stored_duration": "3 or 4 years",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/neuroscience-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_35",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/business-and-international-relations-bsc/september-2027",
+          "duration": "4 Years (placement optional)",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Business and International Relations",
+          "ucas_cao_code": "LN21"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "LN21",
+            "source_course_name": "BSc (Hons) Business and International Relations",
+            "source_sha256": "ff2fb9b064f36219ded4be9d21258b9c9b24fceb32687bcf88a4280137f1b9e3",
+            "stored_duration": "4 Years (placement optional)",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/business-and-international-relations-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/business-and-international-relations-bsc/september-2027",
+          "duration": "4 Years (placement optional)",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Business and International Relations",
+          "ucas_cao_code": "LN21"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "first_year_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "first_year_tuition",
+            "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+            "importer": "aston_first30_v1",
+            "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "LN21",
+            "source_course_name": "BSc (Hons) Business and International Relations",
+            "source_sha256": "ff2fb9b064f36219ded4be9d21258b9c9b24fceb32687bcf88a4280137f1b9e3",
+            "stored_duration": "4 Years (placement optional)",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "22575.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/business-and-international-relations-bsc/september-2027"
+        },
+        "tuition_fee": "22575.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_18",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Artificial Intelligence"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Artificial Intelligence",
+            "source_sha256": "9c175a72d53882708147656e9d4c180392ba855a362755dd0dc1f9cb4a0b6cc3",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-msc/january-2027"
+        },
+        "tuition_fee": "24800.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Artificial Intelligence"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Artificial Intelligence",
+            "source_sha256": "9c175a72d53882708147656e9d4c180392ba855a362755dd0dc1f9cb4a0b6cc3",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-msc/january-2027"
+        },
+        "tuition_fee": "24800.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_19",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/business-analytics-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Business Analytics"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Business Analytics",
+            "source_sha256": "7dc9fd9ef3dbcdac07037c90fb4d43e9dc9c16795e28202ffa7bca56581bd5e6",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/business-analytics-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/business-analytics-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Business Analytics"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Business Analytics",
+            "source_sha256": "7dc9fd9ef3dbcdac07037c90fb4d43e9dc9c16795e28202ffa7bca56581bd5e6",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/business-analytics-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_21",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/cyber-security-management-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Cyber Security Management"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Cyber Security Management",
+            "source_sha256": "233d91594a7e8cab5de2022f32b50c59b39b5ede14af0ca3e44356c04dfb2014",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/cyber-security-management-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/cyber-security-management-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Cyber Security Management"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Cyber Security Management",
+            "source_sha256": "233d91594a7e8cab5de2022f32b50c59b39b5ede14af0ca3e44356c04dfb2014",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/cyber-security-management-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_22",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/data-science-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Data Science"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Data Science",
+            "source_sha256": "397991941fb7204419a2c75e6addb4f12e6e3cc5cac61b9ed6736eade13c8f27",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/data-science-msc/january-2027"
+        },
+        "tuition_fee": "24800.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/data-science-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Data Science"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Data Science",
+            "source_sha256": "397991941fb7204419a2c75e6addb4f12e6e3cc5cac61b9ed6736eade13c8f27",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/data-science-msc/january-2027"
+        },
+        "tuition_fee": "24800.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_23",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/international-business-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc International Business"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc International Business",
+            "source_sha256": "c45260d8b33b5a10fd7f59b9a7e9464c139f47876679c7db1acca742b95c4330",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/international-business-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/international-business-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc International Business"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc International Business",
+            "source_sha256": "c45260d8b33b5a10fd7f59b9a7e9464c139f47876679c7db1acca742b95c4330",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/international-business-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_25",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/strategic-marketing-management-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Strategic Marketing Management"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Strategic Marketing Management",
+            "source_sha256": "5c674cc89e18808c56f0e263110c0b71fbd2f22c466f76c196462cc059803759",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/strategic-marketing-management-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/strategic-marketing-management-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Strategic Marketing Management"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Strategic Marketing Management",
+            "source_sha256": "5c674cc89e18808c56f0e263110c0b71fbd2f22c466f76c196462cc059803759",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/strategic-marketing-management-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_27",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/addiction-and-mental-health-msc/september-2027",
+          "duration": "One year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MSc Addiction and Mental Health"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Addiction and Mental Health",
+            "source_sha256": "d1cd6c01580863de7531453122418c5de4307d9ea3f59178d3955bd7d72ec587",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/addiction-and-mental-health-msc/september-2027"
+        },
+        "tuition_fee": "24800.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/addiction-and-mental-health-msc/september-2027",
+          "duration": "One year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MSc Addiction and Mental Health"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Addiction and Mental Health",
+            "source_sha256": "d1cd6c01580863de7531453122418c5de4307d9ea3f59178d3955bd7d72ec587",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/addiction-and-mental-health-msc/september-2027"
+        },
+        "tuition_fee": "24800.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_28",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/biotechnology-msc/september-2027",
+          "duration": "One year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MSc Biotechnology"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Biotechnology",
+            "source_sha256": "3088d94db3dd3877b786a224f418ad5357f292640e067fba8b2cc0ba1a429811",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/biotechnology-msc/september-2027"
+        },
+        "tuition_fee": "24800.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/biotechnology-msc/september-2027",
+          "duration": "One year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MSc Biotechnology"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Biotechnology",
+            "source_sha256": "3088d94db3dd3877b786a224f418ad5357f292640e067fba8b2cc0ba1a429811",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/biotechnology-msc/september-2027"
+        },
+        "tuition_fee": "24800.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_29",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/engineering-management-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Engineering Management"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Engineering Management",
+            "source_sha256": "bae7a74150c3d7a167f99d2005525fb6f41aa35e751adb24209b9943379b2fcf",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/engineering-management-msc/january-2027"
+        },
+        "tuition_fee": "24800.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/engineering-management-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Engineering Management"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Engineering Management",
+            "source_sha256": "bae7a74150c3d7a167f99d2005525fb6f41aa35e751adb24209b9943379b2fcf",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/engineering-management-msc/january-2027"
+        },
+        "tuition_fee": "24800.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_30",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/supply-chain-management-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Supply Chain Management"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Supply Chain Management",
+            "source_sha256": "41fb8dca7c0049724a30809deeb7167da1522420ece4ae33104aca56784fa9b7",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/supply-chain-management-msc/january-2027"
+        },
+        "tuition_fee": "24800.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/supply-chain-management-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Supply Chain Management"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Supply Chain Management",
+            "source_sha256": "41fb8dca7c0049724a30809deeb7167da1522420ece4ae33104aca56784fa9b7",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/supply-chain-management-msc/january-2027"
+        },
+        "tuition_fee": "24800.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_39",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/finance-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Finance"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Finance",
+            "source_sha256": "0e47f64d09e46c0610397f824bf5eee5f01053b876739ac3ef833876f2b10a1f",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/finance-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/finance-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Finance"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Finance",
+            "source_sha256": "0e47f64d09e46c0610397f824bf5eee5f01053b876739ac3ef833876f2b10a1f",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/finance-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_40",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/financial-management-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Financial Management"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Financial Management",
+            "source_sha256": "fc276b3dc2bf262d0a6653941ce09934c4279f13b1644cbfea9532a6aeced2e4",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/financial-management-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/financial-management-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Financial Management"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Financial Management",
+            "source_sha256": "fc276b3dc2bf262d0a6653941ce09934c4279f13b1644cbfea9532a6aeced2e4",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/financial-management-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_41",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/financial-technology-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Financial Technology"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Financial Technology",
+            "source_sha256": "1eec3f801b564a10498ae6c46a59036d7e733dcc4db9ae4fbe459bddb9b8251b",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/financial-technology-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/financial-technology-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Financial Technology"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Financial Technology",
+            "source_sha256": "1eec3f801b564a10498ae6c46a59036d7e733dcc4db9ae4fbe459bddb9b8251b",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/financial-technology-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_42",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/international-accounting-and-finance-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc International Accounting and Finance"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc International Accounting and Finance",
+            "source_sha256": "773d3e9dfc863799d77596378c2705a5f844fb4a135ac89285c4469491a647d9",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/international-accounting-and-finance-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/international-accounting-and-finance-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc International Accounting and Finance"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc International Accounting and Finance",
+            "source_sha256": "773d3e9dfc863799d77596378c2705a5f844fb4a135ac89285c4469491a647d9",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/international-accounting-and-finance-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_43",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/investment-analysis-and-risk-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Investment Analysis and Risk"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Investment Analysis and Risk",
+            "source_sha256": "c7be5e1572b2446df5f6f027a31ff6fc827787ca37f769cc0ca2b52d9690faf4",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/investment-analysis-and-risk-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/investment-analysis-and-risk-msc/january-2027",
+          "duration": "One year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Investment Analysis and Risk"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "offer_and_policy_scope_reconciliation_required",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+            "importer": "aston_first30_v1",
+            "published_duration": "One year",
+            "scholarship_review": "separate_cohort_scope_reconciliation_required",
+            "source_course_code": "",
+            "source_course_name": "MSc Investment Analysis and Risk",
+            "source_sha256": "c7be5e1572b2446df5f6f027a31ff6fc827787ca37f769cc0ca2b52d9690faf4",
+            "stored_duration": "One year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "25500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/investment-analysis-and-risk-msc/january-2027"
+        },
+        "tuition_fee": "25500.00"
+      }
+    }
+  ],
+  "changed_courses": 0
+}

@@ -1,0 +1,207 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}<title>Course Search Results - University Tuition Compare</title>{% endblock %}
+
+{% block content %}
+    <div class="pt-24 dark:bg-darkmode">
+        <!-- Breadcrumb -->
+        <section class="bg-IcyBreeze dark:bg-darklight py-6">
+            <div class="container">
+                <div class="flex items-center space-x-2 text-sm">
+                    <a href="/" class="text-primary hover:underline">Home</a>
+                    <span class="text-SlateBlueText">/</span>
+                    <a href="/find-course" class="text-primary hover:underline">Find Course</a>
+                    <span class="text-SlateBlueText">/</span>
+                    <span class="text-SlateBlueText dark:text-opacity-80" id="breadcrumb-level">Results</span>
+                </div>
+                <h1 class="mt-4 font-bold text-MidnightNavyText dark:text-white" id="page-title">Course Results</h1>
+                <p class="text-SlateBlueText dark:text-opacity-80 mt-2" id="search-summary"></p>
+            </div>
+        </section>
+        
+        <!-- Main Content: Filters + Results -->
+        <section class="py-8">
+            <div class="container">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                    <!-- Left Sidebar: Filters (3 columns) -->
+            <aside class="hidden lg:block lg:col-span-3">
+                <div class="bg-white/10 backdrop-blur-md border border-gray-200/30 rounded-lg shadow-lg p-6 sticky top-24">
+                    <!-- New Search Button -->
+                    <div class="mb-6">
+                        <a href="/find-course" class="btn btn-1 hover-filled-slide-down rounded-lg overflow-hidden w-full block text-center">
+                            <span class="!py-2.5 flex items-center justify-center gap-2">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                </svg>
+                                New Search
+                            </span>
+                        </a>
+                    </div>
+                    
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-xl font-bold">Filters</h2>
+                        <button id="clear-filters" class="text-primary text-sm hover:underline">Clear All</button>
+                    </div>                            <!-- Level of Study -->
+                            <div class="mb-6">
+                                <h3 class="font-bold mb-3 text-sm">Level of Study</h3>
+                                <select id="filter-level" class="w-full px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-dark_input text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-primary">
+                                    <option value="">All Levels</option>
+                                    <option value="undergraduate">Undergraduate</option>
+                                    <option value="postgraduate">Postgraduate</option>
+                                </select>
+                            </div>
+                            
+                <!-- Destination Country -->
+                <div class="mb-6">
+                    <h3 class="font-bold mb-3 text-sm">Destination Country</h3>
+                    <select id="filter-country" class="w-full px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-dark_input text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-primary">
+                        <option value="" class="bg-white dark:bg-gray-800 text-gray-900 dark:text-white">All Countries</option>
+                        <option value="uk" class="bg-white dark:bg-gray-800 text-gray-900 dark:text-white">UK</option>
+                        <option value="ireland" class="bg-white dark:bg-gray-800 text-gray-900 dark:text-white">Ireland</option>
+                    </select>
+                </div>                            <!-- Study Start Year -->
+                            <div class="mb-6">
+                                <h3 class="font-bold mb-3 text-sm">Study Start Year</h3>
+                                <select id="filter-year" class="w-full px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-dark_input text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-primary">
+                                    <option value="">All Years</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2026">2026</option>
+                                    <option value="2027">2027</option>
+                                </select>
+                            </div>
+                            
+                            <!-- Course/Subject -->
+                            <div class="mb-6">
+                                <h3 class="font-bold mb-3 text-sm">Course/Subject</h3>
+                                <input type="text" id="filter-course" placeholder="Search course or subject..." 
+                                       class="w-full px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-dark_input dark:text-white text-sm focus:ring-2 focus:ring-primary">
+                            </div>
+                            
+                            <!-- Apply Filters Button -->
+                            <button id="apply-filters" class="btn btn-1 hover-filled-slide-down rounded-lg overflow-hidden w-full">
+                                <span class="!py-2.5">Apply Filters</span>
+                            </button>
+                        </div>
+                    </aside>
+                    
+                    <!-- Right Content: Search Results (9 columns) -->
+                    <div class="col-span-1 lg:col-span-9">
+                        <!-- Results Header -->
+                        <div class="flex justify-between items-center mb-6">
+                            <div>
+                                <p class="text-SlateBlueText dark:text-opacity-80">
+                                    <span id="results-count" class="font-bold text-MidnightNavyText dark:text-white">0</span> courses found
+                                </p>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <label class="text-sm text-SlateBlueText dark:text-opacity-80">Sort by:</label>
+                                <select id="sort-results" class="px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-dark_input text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-primary">
+                                    <option value="relevance">Relevance</option>
+                                    <option value="tuition-low">Tuition: Low to High</option>
+                                    <option value="tuition-high">Tuition: High to Low</option>
+                                    <option value="duration">Duration</option>
+                                    <option value="university">University Name</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- Results Grid -->
+                        <div id="results-grid" class="space-y-6">
+                            <!-- Course Result Card Template -->
+                            <div class="bg-white/10 backdrop-blur-md border border-gray-200/30 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow" data-aos="fade-up">
+                                <div class="p-6">
+                                    <div class="flex justify-between items-start mb-4">
+                                        <div class="flex-1">
+                                            <h3 class="text-xl font-bold mb-2 text-MidnightNavyText dark:text-white hover:text-primary transition-colors">
+                                                <a href="/university-detail">BSc Computer Science</a>
+                                            </h3>
+                                            <p class="text-primary font-semibold mb-2">University of Example</p>
+                                            <p class="text-sm text-SlateBlueText dark:text-opacity-80 flex items-center">
+                                                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                                </svg>
+                                                London, UK
+                                            </p>
+                                        </div>
+                                        <button class="favorite-btn text-gray-400 hover:text-red-500 transition-colors">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    
+                                    <!-- Course Overview -->
+                                    <div class="mb-4">
+                                        <p class="text-sm text-SlateBlueText dark:text-opacity-80 line-clamp-2">
+                                            This comprehensive program provides students with a solid foundation in computer science principles, software development, and emerging technologies...
+                                        </p>
+                                    </div>
+                                    
+                                    <!-- Course Details Grid -->
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4 py-4 border-y border-gray-200 dark:border-gray-700">
+                                        <div>
+                                            <p class="text-xs text-SlateBlueText dark:text-opacity-80 mb-1">Duration</p>
+                                            <p class="font-semibold text-sm">3 Years</p>
+                                        </div>
+                                        <div>
+                                            <p class="text-xs text-SlateBlueText dark:text-opacity-80 mb-1">Intake</p>
+                                            <p class="font-semibold text-sm">September 2026</p>
+                                        </div>
+                                        <div>
+                                            <p class="text-xs text-SlateBlueText dark:text-opacity-80 mb-1">Tuition Fee</p>
+                                            <p class="font-semibold text-sm text-primary">£18,500/year</p>
+                                        </div>
+                                        <div>
+                                            <p class="text-xs text-SlateBlueText dark:text-opacity-80 mb-1">Scholarship</p>
+                                            <p class="font-semibold text-sm text-green-600">Up to £5,000</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Entry Requirements -->
+                                    <div class="mb-4">
+                                        <h4 class="font-bold text-sm mb-2">Entry Requirements:</h4>
+                                        <p class="text-sm text-SlateBlueText dark:text-opacity-80">A-levels: AAB or equivalent | IELTS: 6.5 overall</p>
+                                    </div>
+                                    
+                                    <!-- Action Buttons -->
+                                    <div class="flex flex-wrap gap-3">
+                                        <a href="/university-detail" class="btn btn-1 hover-filled-slide-down rounded-lg overflow-hidden flex-1 sm:flex-none">
+                                            <span class="!py-2 !px-6">View Details</span>
+                                        </a>
+                                        <a href="#" class="btn_outline btn-2 hover-outline-slide-down rounded-lg flex-1 sm:flex-none">
+                                            <span class="!py-2 !px-6">Visit Website</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- More cards will be dynamically added here -->
+                        </div>
+                        
+                        <!-- Pagination -->
+                        <div class="flex justify-center mt-8">
+                            <nav class="flex items-center space-x-2">
+                                <button class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 text-sm hover:bg-primary hover:text-white hover:border-primary transition-colors">
+                                    Previous
+                                </button>
+                                <button class="px-4 py-2 rounded-lg bg-primary text-white text-sm">1</button>
+                                <button class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 text-sm hover:bg-primary hover:text-white hover:border-primary transition-colors">2</button>
+                                <button class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 text-sm hover:bg-primary hover:text-white hover:border-primary transition-colors">3</button>
+                                <button class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 text-sm hover:bg-primary hover:text-white hover:border-primary transition-colors">
+                                    Next
+                                </button>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'js/favorites-handler.js' %}"></script>
+<script src="{% static 'js/course-results.js' %}"></script>
+{% endblock %}

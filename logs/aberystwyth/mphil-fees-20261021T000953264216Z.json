@@ -1,0 +1,432 @@
+{
+  "generated_at": "2026-10-21T00:09:53.264216+00:00",
+  "university_id": "UK002",
+  "academic_year": "2026/27",
+  "mode": "preview",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\remaining-review-20261020T231510825902Z\\remaining-course-review.json",
+  "proposals": [
+    {
+      "course_id": "C_ABE002_RES_03",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MPhil International Politics",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Politics",
+          "source_course_code": "L2442",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "fee_review": {
+              "reason": "Accepted January 2027 MPhil route matched to the 2026/27 research fee table.",
+              "status": "resolved"
+            },
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "annual_tuition": "19070.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base research tuition. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the university offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "MPHIL",
+            "course_identity": {
+              "note": "Accepted current MPhil replacement for the stored record; historical equivalence is not established.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/",
+              "official_code": "L2442",
+              "official_award": "MPHL",
+              "official_title": "International Politics",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/",
+            "scholarship_status": "applicability_unconfirmed",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "fee_verification_status": "verified",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil International Politics",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Politics",
+          "source_course_code": "L2442",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Accepted January 2027 MPhil route matched to the 2026/27 research fee table."
+            },
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "annual_tuition": "19070.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "annotation": "First study-year base research tuition. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the university offer.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "MPHIL",
+            "course_identity": {
+              "note": "Accepted current MPhil replacement for the stored record; historical equivalence is not established.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/",
+              "official_code": "L2442",
+              "official_award": "MPHL",
+              "official_title": "International Politics",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/",
+            "scholarship_status": "applicability_unconfirmed",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "fee_verification_status": "verified",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_ABE002_RES_08",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MPhil Computer Science",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Computer Science",
+          "source_course_code": "G4313",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Sciences",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "fee_review": {
+              "reason": "Accepted January 2027 MPhil route matched to the 2026/27 research fee table.",
+              "status": "resolved"
+            },
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "annual_tuition": "21515.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base research tuition. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the university offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "MPHIL",
+            "course_identity": {
+              "note": "Accepted current MPhil replacement for the stored record; historical equivalence is not established.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/",
+              "official_code": "G4313",
+              "official_award": "MPHL",
+              "official_title": "Computer Science",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/",
+            "scholarship_status": "applicability_unconfirmed",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "fee_verification_status": "verified",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Computer Science",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Computer Science",
+          "source_course_code": "G4313",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Sciences",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Accepted January 2027 MPhil route matched to the 2026/27 research fee table."
+            },
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "annual_tuition": "21515.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "annotation": "First study-year base research tuition. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the university offer.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "MPHIL",
+            "course_identity": {
+              "note": "Accepted current MPhil replacement for the stored record; historical equivalence is not established.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/",
+              "official_code": "G4313",
+              "official_award": "MPHL",
+              "official_title": "Computer Science",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/",
+            "scholarship_status": "applicability_unconfirmed",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "fee_verification_status": "verified",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_99",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MPhil Geography and Earth Sciences (Science)",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Geography and Earth Sciences (Science)",
+          "source_course_code": "F9352",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Sciences",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "fee_review": {
+              "reason": "Accepted January 2027 MPhil route matched to the 2026/27 research fee table.",
+              "status": "resolved"
+            },
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "annual_tuition": "21515.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base research tuition. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the university offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "MPHIL",
+            "course_identity": {
+              "note": "Accepted current MPhil replacement for the stored record; historical equivalence is not established.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/",
+              "official_code": "F9352",
+              "official_award": "MPHL",
+              "official_title": "Geography and Earth Sciences (Science)",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/",
+            "scholarship_status": "applicability_unconfirmed",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "fee_verification_status": "verified",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Geography and Earth Sciences (Science)",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Geography and Earth Sciences (Science)",
+          "source_course_code": "F9352",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Sciences",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Accepted January 2027 MPhil route matched to the 2026/27 research fee table."
+            },
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "annual_tuition": "21515.00",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "annotation": "First study-year base research tuition. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the university offer.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "MPHIL",
+            "course_identity": {
+              "note": "Accepted current MPhil replacement for the stored record; historical equivalence is not established.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/",
+              "official_code": "F9352",
+              "official_award": "MPHL",
+              "official_title": "Geography and Earth Sciences (Science)",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/",
+            "scholarship_status": "applicability_unconfirmed",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "fee_verification_status": "verified",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      }
+    }
+  ],
+  "blocked": [],
+  "scholarship_amounts_changed": false,
+  "deposit_amounts_changed": false
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "course_id": "C_UK004_36",
+    "title": "MSc Business Psychology",
+    "source_course_code": "1568",
+    "gross": "10550.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_37",
+    "title": "MSc Global Health Management",
+    "source_course_code": "1534",
+    "gross": "10550.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_38",
+    "title": "MA Serious and Violent Crime",
+    "source_course_code": "2696",
+    "gross": "10550.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_53",
+    "title": "MBA Master of Business Administration (Top-Up)",
+    "source_course_code": "1174",
+    "gross": "3421.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_64",
+    "title": "MSc Business Transformation",
+    "source_course_code": "1297",
+    "gross": "10550.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_65",
+    "title": "MA Design Management",
+    "source_course_code": "1544",
+    "gross": "10550.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_66",
+    "title": "Executive MBA (Artificial Intelligence)",
+    "source_course_code": "3389",
+    "gross": "10855.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_67",
+    "title": "Executive MBA (Finance)",
+    "source_course_code": "2343",
+    "gross": "10855.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_68",
+    "title": "MSc Health and Care Management (Top-Up)",
+    "source_course_code": "3371",
+    "gross": "3421.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_69",
+    "title": "MSc Psychology (Conversion)",
+    "source_course_code": "1203",
+    "gross": "8500.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_70",
+    "title": "PG Cert Neurodiversity",
+    "source_course_code": "2647",
+    "gross": "3967.00",
+    "intakes": [
+      "2027-01"
+    ]
+  },
+  {
+    "course_id": "C_UK004_71",
+    "title": "LLM in Professional Legal Practice (SQE1 and SQE2)",
+    "source_course_code": "1567",
+    "gross": "10550.00",
+    "intakes": [
+      "2027-04"
+    ]
+  },
+  {
+    "course_id": "C_UK004_72",
+    "title": "PG Cert Serious and Violent Crime",
+    "source_course_code": "3557",
+    "gross": "3967.00",
+    "intakes": [
+      "2027-01"
+    ]
+  }
+]

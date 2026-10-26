@@ -1,0 +1,163 @@
+[
+  {
+    "course_id": "C_UK006_01",
+    "title": "BA (Hons) Fine Art",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fine-art",
+    "source_sha256": "20a2fc69f64d1740123816442e530a40445e8c0bd4976783a72e81162bde61fa",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_02",
+    "title": "BA (Hons) Game Arts & Animation",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-game-arts-animation",
+    "source_sha256": "bdfd23e5b959e5def1e7c2f6dd4632e69d5118876df428f5aa6ac47a978ff425",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_03",
+    "title": "BA (Hons) Illustration",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-illustration",
+    "source_sha256": "a7dee67afa9aeb63282998e75465bbaf1d9e8ea68fcf2f561156aa4f1cafd71e",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_04",
+    "title": "BA (Hons) Graphic Design",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-graphic-design",
+    "source_sha256": "a8cb446a03e8737d0c12533055efdc09be9b61c14ee80dab3838dc948e821421",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_05",
+    "title": "BA (Hons) Fashion Design",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-design",
+    "source_sha256": "0d0c1a828673426ac6f8cd4a7a2d0a3917cc604546674a08a9b4308e153b20fb",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_06",
+    "title": "BA (Hons) Film & Screen Arts",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-film-screen-arts",
+    "source_sha256": "2b1942831dcf81b979844bd51846988e40d6f9f93062f867bb01e24cbe8643b0",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_07",
+    "title": "BA (Hons) Photography",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-photography",
+    "source_sha256": "92973b7fe217eaa35062ec7db790f79b41b809a7c85a701414b9f7c5aeea7338",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_08",
+    "title": "BA (Hons) Textile Design",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-textile-design",
+    "source_sha256": "6c6fbf3055ec69ec620f22ecea29b64a35e2def75b44547bd2691fd24e5edd4c",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_09",
+    "title": "BA (Hons) Costume Production",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-costume-production",
+    "source_sha256": "78790e4dab6c10b9b8d4ef68e628debaa6b3208f1a3fe7e3d63155b479591b2c",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_10",
+    "title": "BA (Hons) Interior Design & Styling",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-interior-design",
+    "source_sha256": "13b313d42f7c2a425d10294d985531bb0f35e308c975b85b01c8ef9210d7239b",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_11",
+    "title": "BA (Hons) Content Creation",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-content-creation",
+    "source_sha256": "30365167ee585e23bbdfc25140b2004630b2a64aa8a393cdadf7cdc6a792bbf7",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_12",
+    "title": "BA (Hons) Craft & Material Practices",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-craft-material-practices",
+    "source_sha256": "a40f461f8e576289da77f8fd42d2ee3a29b6d11f10d49241c3eff8c7b06b4710",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_13",
+    "title": "BA (Hons) Fashion Media & Marketing",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-media-marketing",
+    "source_sha256": "5dd4920e02a4c12f4e4f6bc6d765e7854fc425ac78c8ca6de3aa712ae24db9a0",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_14",
+    "title": "BA (Hons) Painting, Drawing & Printmaking",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-painting-drawing-printmaking",
+    "source_sha256": "2f0c43324896d34408adf44e2a7835d36c16282dd30d5aa33dbe25353ac75cc0",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_15",
+    "title": "CertHE Business & Management for Creatives",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/cert-he-business-management-creatives",
+    "source_sha256": "eaca8ec877f205c377e4cdd8a37aaaff5321b6695f331e7a6df69512ef853efe",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_16",
+    "title": "CertHE Ceramics & Glass",
+    "source_url": "https://www.aup.ac.uk/courses/undergraduate/cert-he-ceramics-glass",
+    "source_sha256": "d6e3d6b00ca9f9e276e99cb6262681a130572a5e07fcd3e578c8c677e4f4d034",
+    "level": "UG"
+  },
+  {
+    "course_id": "C_UK006_17",
+    "title": "MA Fine Art",
+    "source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-fine-art",
+    "source_sha256": "d952012cf21c3472287d025e8089064f2b020f3dc40002403d8a72b33834daa4",
+    "level": "PG"
+  },
+  {
+    "course_id": "C_UK006_19",
+    "title": "MA Design (Fashion)",
+    "source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-design-fashion",
+    "source_sha256": "9fc0930e25a0375734de1915a16174800b3de5142e652524ab7541f320d1997e",
+    "level": "PG"
+  },
+  {
+    "course_id": "C_UK006_20",
+    "title": "MA Design (Communication)",
+    "source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-design-communication",
+    "source_sha256": "f31b0cf1c11b998168e4be149cfac8b5e447d4173880d5a8080546ada346098c",
+    "level": "PG"
+  },
+  {
+    "course_id": "C_UK006_21",
+    "title": "MA Craft & Material Practices",
+    "source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-3d-design-crafts",
+    "source_sha256": "219cd3bec7c016b8e046ff3e93587491f324aa2d1f820ca00ddbf5c39377b5ce",
+    "level": "PG"
+  },
+  {
+    "course_id": "C_UK006_22",
+    "title": "MA Museum Studies",
+    "source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-museum-studies",
+    "source_sha256": "2f47775f5eff72ae3764595c58e8522f96bd0f073efb407e38092f20adea3f02",
+    "level": "PG"
+  },
+  {
+    "course_id": "C_UK006_23",
+    "title": "MA Immersive Media",
+    "source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-immersive-media",
+    "source_sha256": "60e86d26e0615453a923f8a5896ed62e311502240eb1c07ea50bc5a6c754b6a4",
+    "level": "PG"
+  },
+  {
+    "course_id": "C_UK006_25",
+    "title": "MA Glass",
+    "source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-glass",
+    "source_sha256": "625c31093ed433f70015acd4764c940ffb450f9357fb493d9ada2e5578379b94",
+    "level": "PG"
+  }
+]

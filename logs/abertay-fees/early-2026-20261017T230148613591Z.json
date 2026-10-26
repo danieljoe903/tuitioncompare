@@ -1,0 +1,820 @@
+{
+  "academic_year": "2025/26",
+  "mode": "apply",
+  "status": "committed",
+  "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+  "source_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+  "policy_text": "Postgraduate Tuition Fees - International Students 2025/26 Show Hide Postgraduate tuition fees for international students vary depending on your programme of study (also called a 'postgraduate degree course'). See table below. Paying your deposit You’re required to pay a deposit equal to 50% of your net tuition fee before you can apply for your Confirmation of Acceptance for Studies (CAS) – a mandatory document for your Student Visa application. The net tuition fee is calculated after deducting any University scholarships from the gross fee. Following registration on your programme of study, the remaining balance of your net tuition fee will be payable in three equal instalments: Students starting in September A 50% deposit is due, with three equal instalments to be paid on 1 November, 1 January and 1 March. Students starting in January A 50% deposit is due, with three equal instalments to be paid on 1 March, 1 May and 1 July. For example, if you’re enrolled on a course with a gross tuition fee of £18,000 and you receive an International Scholarship of £3,000, your net tuition fee becomes £15,000. Consequently, your deposit will be 50% of £15,000—that is, £7,500. The remaining balance will then be divided into three equal payments of £2,500 each. Please note: In certain circumstances, if risk factors are identified in relation to visa applications, a student may be required to pay either the full first-year tuition fee or a higher deposit prior to the issuance of the CAS. Should this occur, you’ll be advised accordingly. Fee guarantee We offer all new international students a fee guarantee: the fee rate published for 2025/26 entrants will be the same each year and won’t increase during your course of study. POSTGRADUATE COURSES TUITION FEES PER YEAR (£) Postgraduate Taught Degrees* MSc Ethical Hacking and Cybersecurity £18,000* MSc Applied Artificial Intelligence and User Experience £18,000* MProf Games Development £18,000* MSc Computer Games Technology £18,000* MA Technical Art & Visual Effects £18,000* MSc Counselling £17,000 a MSc Accounting and Finance (CIMA Gateway) £17,000* MSc Digital Marketing & e-Commerce £17,000 * MSc Biomedical Sciences MSc Biomedical Sciences with Industrial Practise £17,000* MSc Civil Engineering MSc Civil Engineering with Industrial Practise £17,000 * MSc Construction and Project Management £17,000 * MSc Environment and Business MSc Environment and Business with Industrial Practise £17,000 * MSc Environment and Energy MSc Environment and Energy with Industrial Practise £17,000 * MSc Fintech £17,000* MSc Food Quality and Safety with Industrial Practise £17,000* MSc Food Quality, Safety and Innovation £17,000* MSc Human Resource Management £17,000* MSc International Management £17,000* MSc International Human Resource Management £17,000* MSc Geotechnical Engineering MSc Geotechnical Engineering with Industrial Practise £17,000* Global MBA £17,000* MSc Research Methods in Psychology £17,000* MSc Sports Therapy £17,000* MSc Structural Engineering MSc Structural Engineering with Industrial Practise £17,000* MSc Water and Environmental Management MSc Water and Environmental Management with Industrial Practise £17,000 * Postgraduate Research Programmes Masters by Research (all subjects) £22,000 PhD/MPhil subjects in Food, Environment, Engineering, Science, Sport (per academic year) £15,750 PhD/MPhil subjects in Computing, Computer Games, Computer Arts, Ethical Hacking (per academic year) £14,750 PhD/MPhil subjects in Counselling, Psychology, Sociology, Management, Marketing, Business, Accountancy, Economics, Mental Health Nursing (per academic year) £13,750 Continuation Fee for Masters by Research (for the additional two months) Continuation Fee for PhD/MPhil (per academic year) £150 £500 There may be additional charges where the MSc is not completed within 18 months (FTE). Module fees are on a pro rata basis of 120 credits. a Total fee for the MSc, charged on a pro rata basis dependent on modules taken. Module fees are on a pro rata basis of 180 credits. See 'Self-funding/sponsored students: how to pay tuition fees' below for payment information. Find out more about your funding options: Postgraduate taught funding including scholarships. Postgraduate research funding including scholarships.",
+  "proposals": [
+    {
+      "course_id": "C_UK001_47",
+      "title": "MSc Accounting and Finance (CIMA Gateway)",
+      "start_month": "January",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "18950.0",
+        "source_metadata": null
+      },
+      "after": {
+        "tuition_fee": "17000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "MSc Accounting and Finance (CIMA Gateway)",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£17,000*",
+            "course_kind": "postgraduate_taught",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc Accounting and Finance (CIMA Gateway)",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£17,000*",
+                "annual_tuition": "17000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_48",
+      "title": "MSc Applied Artificial Intelligence & UX",
+      "start_month": "January",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "19950.0",
+        "source_metadata": null
+      },
+      "after": {
+        "tuition_fee": "18000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "MSc Applied Artificial Intelligence and User Experience",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£18,000*",
+            "course_kind": "postgraduate_taught",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc Applied Artificial Intelligence & UX",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£18,000*",
+                "annual_tuition": "18000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_51",
+      "title": "MSc Construction and Project Management",
+      "start_month": "January",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "18950.0",
+        "source_metadata": null
+      },
+      "after": {
+        "tuition_fee": "17000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "MSc Construction and Project Management",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£17,000 *",
+            "course_kind": "postgraduate_taught",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc Construction and Project Management",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£17,000 *",
+                "annual_tuition": "17000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_52",
+      "title": "MSc Ethical Hacking and Cybersecurity",
+      "start_month": "January",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "19950.0",
+        "source_metadata": null
+      },
+      "after": {
+        "tuition_fee": "18000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "MSc Ethical Hacking and Cybersecurity",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£18,000*",
+            "course_kind": "postgraduate_taught",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc Ethical Hacking and Cybersecurity",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£18,000*",
+                "annual_tuition": "18000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_53",
+      "title": "MSc Computer Games Technology",
+      "start_month": "January",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "19950.0",
+        "source_metadata": null
+      },
+      "after": {
+        "tuition_fee": "18000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "MSc Computer Games Technology",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£18,000*",
+            "course_kind": "postgraduate_taught",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc Computer Games Technology",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£18,000*",
+                "annual_tuition": "18000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_54",
+      "title": "Global MBA",
+      "start_month": "January",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "19950.0",
+        "source_metadata": null
+      },
+      "after": {
+        "tuition_fee": "17000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "Global MBA",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£17,000*",
+            "course_kind": "postgraduate_taught",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "Global MBA",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£17,000*",
+                "annual_tuition": "17000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored January 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_71",
+      "title": "MSc by Research in Accounting and Finance",
+      "start_month": "February",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "22000.0",
+        "source_metadata": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+          "source_course_code": "",
+          "source_course_name": "Accounting and Finance MSc by Research, MPhil, PhD",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_method": "reviewed_central_policy",
+            "fee_status": "International",
+            "course_kind": "masters_by_research",
+            "review_note": "Masters by Research fee only. No PhD/MPhil fee or taught postgraduate scholarship has been applied.",
+            "policy_sha256": "5791a60681c40485778310a16d290859c56d219eaeaf36f3c69ab6a3103a0680",
+            "annual_tuition": "£22,000",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2026/27",
+                "annual_tuition": "22000.00",
+                "raw_annual_fee": "£22,000",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/accounting-and-finance/",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "tuition_fee": "22000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "Masters by Research (all subjects)",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£22,000",
+            "course_kind": "masters_by_research",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc by Research in Accounting and Finance",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£22,000",
+                "annual_tuition": "22000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_73",
+      "title": "MSc by Research in Applied Games",
+      "start_month": "February",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "22000.0",
+        "source_metadata": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+          "source_course_code": "",
+          "source_course_name": "Applied Games MSc by Research, MPhil, PhD",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_method": "reviewed_central_policy",
+            "fee_status": "International",
+            "course_kind": "masters_by_research",
+            "review_note": "Masters by Research fee only. No PhD/MPhil fee or taught postgraduate scholarship has been applied.",
+            "policy_sha256": "5791a60681c40485778310a16d290859c56d219eaeaf36f3c69ab6a3103a0680",
+            "annual_tuition": "£22,000",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2026/27",
+                "annual_tuition": "22000.00",
+                "raw_annual_fee": "£22,000",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/applied-games/",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "tuition_fee": "22000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "Masters by Research (all subjects)",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£22,000",
+            "course_kind": "masters_by_research",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc by Research in Applied Games",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£22,000",
+                "annual_tuition": "22000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_74",
+      "title": "MSc by Research in Business and Management",
+      "start_month": "February",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "22000.0",
+        "source_metadata": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+          "source_course_code": "",
+          "source_course_name": "Business and Management MSc by Research, MPhil, PhD",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_method": "reviewed_central_policy",
+            "fee_status": "International",
+            "course_kind": "masters_by_research",
+            "review_note": "Masters by Research fee only. No PhD/MPhil fee or taught postgraduate scholarship has been applied.",
+            "policy_sha256": "5791a60681c40485778310a16d290859c56d219eaeaf36f3c69ab6a3103a0680",
+            "annual_tuition": "£22,000",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2026/27",
+                "annual_tuition": "22000.00",
+                "raw_annual_fee": "£22,000",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/business-and-management/",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "tuition_fee": "22000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "Masters by Research (all subjects)",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£22,000",
+            "course_kind": "masters_by_research",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc by Research in Business and Management",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£22,000",
+                "annual_tuition": "22000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_75",
+      "title": "MSc by Research in Civil, Structural and Geotechnical Engineering",
+      "start_month": "February",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "22000.0",
+        "source_metadata": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+          "source_course_code": "",
+          "source_course_name": "Civil, Structural and Geotechnical Engineering MSc by Research, MPhil, PhD",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_method": "reviewed_central_policy",
+            "fee_status": "International",
+            "course_kind": "masters_by_research",
+            "review_note": "Masters by Research fee only. No PhD/MPhil fee or taught postgraduate scholarship has been applied.",
+            "policy_sha256": "5791a60681c40485778310a16d290859c56d219eaeaf36f3c69ab6a3103a0680",
+            "annual_tuition": "£22,000",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2026/27",
+                "annual_tuition": "22000.00",
+                "raw_annual_fee": "£22,000",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/civil-structural-and-geotechnical-engineering/",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "tuition_fee": "22000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "Masters by Research (all subjects)",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£22,000",
+            "course_kind": "masters_by_research",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc by Research in Civil, Structural and Geotechnical Engineering",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£22,000",
+                "annual_tuition": "22000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_84",
+      "title": "MSc by Research in Analytical, Sensory and Consumer Science",
+      "start_month": "February",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "15750.0",
+        "source_metadata": null
+      },
+      "after": {
+        "tuition_fee": "22000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "Masters by Research (all subjects)",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£22,000",
+            "course_kind": "masters_by_research",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc by Research in Analytical, Sensory and Consumer Science",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£22,000",
+                "annual_tuition": "22000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_85",
+      "title": "MSc by Research in Cybersecurity",
+      "start_month": "February",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "22000.0",
+        "source_metadata": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+          "source_course_code": "",
+          "source_course_name": "Cybersecurity MSc by Research, MPhil, PhD",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_method": "reviewed_central_policy",
+            "fee_status": "International",
+            "course_kind": "masters_by_research",
+            "review_note": "Masters by Research fee only. No PhD/MPhil fee or taught postgraduate scholarship has been applied.",
+            "policy_sha256": "5791a60681c40485778310a16d290859c56d219eaeaf36f3c69ab6a3103a0680",
+            "annual_tuition": "£22,000",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2026/27",
+                "annual_tuition": "22000.00",
+                "raw_annual_fee": "£22,000",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/cyber-security/",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "tuition_fee": "22000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "Masters by Research (all subjects)",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£22,000",
+            "course_kind": "masters_by_research",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MSc by Research in Cybersecurity",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£22,000",
+                "annual_tuition": "22000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK001_89",
+      "title": "MA Computer Arts by Research",
+      "start_month": "February",
+      "start_year": 2026,
+      "changed": true,
+      "before": {
+        "tuition_fee": "22000.0",
+        "source_metadata": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+          "source_course_code": "",
+          "source_course_name": "Computer Arts MA by Research, MPhil, PhD",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_method": "reviewed_central_policy",
+            "fee_status": "International",
+            "course_kind": "masters_by_research",
+            "review_note": "Masters by Research fee only. No PhD/MPhil fee or taught postgraduate scholarship has been applied.",
+            "policy_sha256": "5791a60681c40485778310a16d290859c56d219eaeaf36f3c69ab6a3103a0680",
+            "annual_tuition": "£22,000",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "",
+                "academic_year": "2026/27",
+                "annual_tuition": "22000.00",
+                "raw_annual_fee": "£22,000",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/computer-arts/",
+            "source_fee_category": "International"
+          }
+        }
+      },
+      "after": {
+        "tuition_fee": "22000.00",
+        "source_metadata": {
+          "academic_year": "2025/26",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2025-2026/",
+          "source_course_code": "",
+          "source_course_name": "Masters by Research (all subjects)",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£22,000",
+            "course_kind": "masters_by_research",
+            "fee_method": "reviewed_cohort_policy",
+            "cohort_academic_year": "2025/26",
+            "matched_database_title": "MA Computer Arts by Research",
+            "policy_sha256": "ab88ce9433eabfc5a5eb9e35cfe8cfca55eec06ccb248b08637416ff33ac2e97",
+            "policy_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\abertay-2025-26-ab88ce9433ea.html",
+            "review_note": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2025/26",
+                "currency": "GBP",
+                "raw_annual_fee": "£22,000",
+                "annual_tuition": "22000.00",
+                "footnote_marker": "",
+                "annotation": "2025/26 entrant fee for the stored February 2026 intake. Course details and stored discounts have not been changed. Scholarship eligibility for this cohort requires separate verified rules.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

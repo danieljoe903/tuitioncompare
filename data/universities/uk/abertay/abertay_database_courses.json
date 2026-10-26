@@ -1,0 +1,362 @@
+[
+  {
+    "course_id": "C_ABE001_01",
+    "title": "BSc (Hons) Computing (Top-up)",
+    "level": "TOPUP",
+    "duration": "1 Year",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_ABE001_02",
+    "title": "BA (Hons) Business Management (Top-up)",
+    "level": "TOPUP",
+    "duration": "1 Year",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_01",
+    "title": "BA (Hons) Accounting and Finance",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_02",
+    "title": "BSc (Hons) Biomedical Science",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/biomedical-science/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_03",
+    "title": "BA (Hons) Business Management",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/ba-business-management/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_04",
+    "title": "BA (Hons) Business Management with Analytics",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_05",
+    "title": "BEng (Hons) Civil and Environmental Engineering",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_06",
+    "title": "BSc (Hons) Computer Science",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_07",
+    "title": "BSc (Hons) Ethical Hacking",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/ethical-hacking/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_08",
+    "title": "BA (Hons) Criminology",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_09",
+    "title": "Bachelor of Laws (LLB) Honours",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/law/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_10",
+    "title": "BSc (Hons) Mental Health Nursing",
+    "level": "UG",
+    "duration": "3 years (full-time)",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/mental-health-nursing/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_11",
+    "title": "BSc (Hons) Psychology",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_12",
+    "title": "BSc (Hons) Sport and Exercise Science",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise-science/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_13",
+    "title": "BSc (Hons) Computer Game Applications Development",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-game-applications-development/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_14",
+    "title": "BSc (Hons) Computer Games Technology",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-games-technology/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_15",
+    "title": "BA (Hons) Computer Arts",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-arts/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_16",
+    "title": "BSc (Hons) Forensic Sciences",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/forensic-sciences/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_17",
+    "title": "BSc (Hons) Food and Consumer Science",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-and-consumer-science/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_18",
+    "title": "BSc (Hons) Food Science, Nutrition and Wellbeing",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-science-nutrition-and-wellbeing/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_31",
+    "title": "BA (Hons) Accounting and Finance with Business Analytics",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_32",
+    "title": "BA (Hons) Accounting and Finance with Law",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_33",
+    "title": "BA (Hons) Accounting and Finance with People Management",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_34",
+    "title": "BA (Hons) Business Management with Events Management",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_35",
+    "title": "BA (Hons) Business Management with People Management",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_36",
+    "title": "BA (Hons) Digital Marketing and Business Management",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_37",
+    "title": "BA (Hons) Criminology and Policing",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-policing/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_38",
+    "title": "BA (Hons) Criminology and Sociology",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-sociology/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_39",
+    "title": "BSc (Hons) Computer Science with Cybersecurity",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science-with-cybersecurity/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_40",
+    "title": "BSc (Hons) Environmental Management and Sustainability",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_41",
+    "title": "BSc (Hons) Psychology and Counselling",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-and-counselling/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_42",
+    "title": "BSc (Hons) Psychology with Development and Education",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-development-and-education/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_43",
+    "title": "BSc (Hons) Psychology with Forensic Scene Investigation",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-forensic-scene-investigation/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_44",
+    "title": "BA (Hons) Sport & Management",
+    "level": "UG",
+    "duration": "4 years (full-time)",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-management/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_45",
+    "title": "BSc (Hons) Sports Development and Coaching",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/sports-development-and-coaching/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_46",
+    "title": "BSc (Hons) Strength and Conditioning",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/strength-and-conditioning/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_61",
+    "title": "Bachelor of Laws (LLB) Honours (Accelerated)",
+    "level": "UG",
+    "duration": "2 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_62",
+    "title": "BA (Hons) Sociology",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_63",
+    "title": "BSc (Hons) Physical Activity and Health",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/physical-activity-and-health/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_64",
+    "title": "BSc (Hons) Sports Coaching and Development",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_76",
+    "title": "BA (Hons) Business Management and Marketing",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_77",
+    "title": "BA (Hons) Business Management with Human Resource Management",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_78",
+    "title": "BSc (Hons) Food Science and Nutrition",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_79",
+    "title": "BA (Hons) Game Design and Production",
+    "level": "UG",
+    "duration": "4 years (full-time)",
+    "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/game-design-and-production/",
+    "start_year": 2026
+  },
+  {
+    "course_id": "C_UK001_80",
+    "title": "BSc (Hons) Software Engineering",
+    "level": "UG",
+    "duration": "4 Years",
+    "course_url": "www.abertay.ac.uk",
+    "start_year": 2026
+  }
+]

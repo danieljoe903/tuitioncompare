@@ -1,0 +1,1079 @@
+{
+  "generated_at": "2026-10-20T23:38:30.615652+00:00",
+  "university_id": "UK002",
+  "mode": "preview",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\remaining-review-20261020T231510825902Z\\remaining-course-review.json",
+  "proposals": [
+    {
+      "course_id": "C_ABE002_RES_02",
+      "title": "MRes Parasitology",
+      "changed": true,
+      "reason": "Possible Parasite Control MRes candidate. Equivalence to the stored Parasitology course requires confirmation.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Possible Parasite Control MRes candidate. Equivalence to the stored Parasitology course requires confirmation.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+            "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+            "https://courses.aber.ac.uk/postgraduate/research-psychology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_ABE002_RES_03",
+      "title": "MRes International Politics",
+      "changed": true,
+      "reason": "Stored MRes award differs from the advertised MPhil/PhD International Politics routes.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Stored MRes award differs from the advertised MPhil/PhD International Politics routes.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/",
+            "https://courses.aber.ac.uk/postgraduate/international-relations-L288/",
+            "https://courses.aber.ac.uk/postgraduate/research-international-politics/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_ABE002_RES_04",
+      "title": "MRes Modern History",
+      "changed": true,
+      "reason": "Modern History is advertised as MA; the stored MRes award requires correction review.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Modern History is advertised as MA; the stored MRes award requires correction review.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-history/",
+            "https://courses.aber.ac.uk/postgraduate/research-history/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_ABE002_RES_05",
+      "title": "MRes Media, Communication and Creative Practice",
+      "changed": true,
+      "reason": "No official catalogue candidate was found in this collection. This does not establish discontinuation.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No official catalogue candidate was found in this collection. This does not establish discontinuation.",
+          "candidate_urls": [],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_ABE002_RES_06",
+      "title": "MPhil (Research) Psychology",
+      "changed": true,
+      "reason": "Psychology MPhil candidate advertises one year; the stored two-year duration may represent a different study mode.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Psychology MPhil candidate advertises one year; the stored two-year duration may represent a different study mode.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/M1866-llm-research/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+            "https://courses.aber.ac.uk/postgraduate/research-psychology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_ABE002_RES_07",
+      "title": "MSc (Research) Geography",
+      "changed": true,
+      "reason": "Stored Geography MSc by Research does not match the advertised MPhil award. Do not substitute a route without confirmation.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Stored Geography MSc by Research does not match the advertised MPhil award. Do not substitute a route without confirmation.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/M1866-llm-research/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-geography/",
+            "https://courses.aber.ac.uk/postgraduate/phd-arts-dges/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_ABE002_RES_08",
+      "title": "MSc (Research) Computer Science",
+      "changed": true,
+      "reason": "Computer Science taught MSc and research MPhil/PhD are distinct routes. The stored MSc Research identity remains unconfirmed.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Computer Science taught MSc and research MPhil/PhD are distinct routes. The stored MSc Research identity remains unconfirmed.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/computer-science-msc/",
+            "https://courses.aber.ac.uk/postgraduate/computer-science-research/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_ABE002_RES_09",
+      "title": "MPhil (Research) Welsh / Cymraeg",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/archives-records-management-dl/",
+            "https://courses.aber.ac.uk/postgraduate/archives-records-management-dl2/",
+            "https://courses.aber.ac.uk/postgraduate/archives-records-management/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_07",
+      "title": "BSc (Hons) Criminology and Sociology",
+      "changed": true,
+      "reason": "Course identity found; applicable fee band for the combined Criminology and Sociology programme remains unconfirmed.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Course identity found; applicable fee band for the combined Criminology and Sociology programme remains unconfirmed.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/M9C6-criminology-and-criminal-psychology/",
+            "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+            "https://courses.aber.ac.uk/undergraduate/psychology-sociology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_10",
+      "title": "BA (Hons) International Politics",
+      "changed": true,
+      "reason": "International Relations is a candidate for stored International Politics; course equivalence requires confirmation.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "International Relations is a candidate for stored International Politics; course equivalence requires confirmation.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+            "https://courses.aber.ac.uk/undergraduate/F42L-international-relations-foundation/",
+            "https://courses.aber.ac.uk/undergraduate/law-relations/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_14",
+      "title": "BVSc Veterinary Science",
+      "changed": true,
+      "reason": "Joint Aberystwyth/RVC Veterinary Science route. Use its course-specific RVC fee source, not the generic science band.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Joint Aberystwyth/RVC Veterinary Science route. Use its course-specific RVC fee source, not the generic science band.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+            "https://courses.aber.ac.uk/undergraduate/veterinary-biosciences-integrated-foundation/",
+            "https://courses.aber.ac.uk/undergraduate/veterinary-biosciences/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_25",
+      "title": "LLM International Business Law",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/international-business-management-msc/",
+            "https://courses.aber.ac.uk/postgraduate/international-business-marketing-msc/",
+            "https://courses.aber.ac.uk/postgraduate/international-finance-msc/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_27",
+      "title": "MSc Environmental Management",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/N23F-engineering-management/",
+            "https://courses.aber.ac.uk/postgraduate/engineering-management/",
+            "https://courses.aber.ac.uk/postgraduate/project-management/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_28",
+      "title": "MSc Psychology (Conversion)",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+            "https://courses.aber.ac.uk/postgraduate/research-psychology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_29",
+      "title": "MA Digital Media Production",
+      "changed": true,
+      "reason": "No official catalogue candidate was found in this collection. This does not establish discontinuation.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No official catalogue candidate was found in this collection. This does not establish discontinuation.",
+          "candidate_urls": [],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_36",
+      "title": "BSc (Hons) Nursing (Adult)",
+      "changed": true,
+      "reason": "The collected Adult Nursing page says international places for 2027 are awaiting HEIW funding confirmation.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "The collected Adult Nursing page says international places for 2027 are awaiting HEIW funding confirmation.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/adult-part/",
+            "https://courses.aber.ac.uk/undergraduate/mentalhealth-parttime/",
+            "https://courses.aber.ac.uk/undergraduate/nursing-adult/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_37",
+      "title": "BSc (Hons) Nursing (Mental Health)",
+      "changed": true,
+      "reason": "The collected Mental Health Nursing page says the course is unavailable to international applicants ordinarily resident outside the UK. Individual eligibility needs assessment.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "The collected Mental Health Nursing page says the course is unavailable to international applicants ordinarily resident outside the UK. Individual eligibility needs assessment.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/adult-part/",
+            "https://courses.aber.ac.uk/undergraduate/mental-health/",
+            "https://courses.aber.ac.uk/undergraduate/mentalhealth-parttime/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_41",
+      "title": "BA (Hons) Drama and Theatre Studies",
+      "changed": true,
+      "reason": "Drama and Theatre is a candidate for the stored Drama and Theatre Studies course; identity requires confirmation.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Drama and Theatre is a candidate for the stored Drama and Theatre Studies course; identity requires confirmation.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+            "https://courses.aber.ac.uk/undergraduate/W40F-drama-and-theatre-foundation/",
+            "https://courses.aber.ac.uk/undergraduate/drama-and-theatre-studies-and-history-degree/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_43",
+      "title": "BA (Hons) Modern Languages (French and Spanish)",
+      "changed": true,
+      "reason": "The stored French and Spanish language combination has not been matched to a confirmed official route.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "The stored French and Spanish language combination has not been matched to a confirmed official route.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/modern-languages-drama-theatre/",
+            "https://courses.aber.ac.uk/undergraduate/modern-languages-english-literature/",
+            "https://courses.aber.ac.uk/undergraduate/modern-languages-history/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_52",
+      "title": "MSc Business Psychology",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/business-administration/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+            "https://courses.aber.ac.uk/postgraduate/research-psychology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_57",
+      "title": "BSc (Hons) Psychology and Marketing",
+      "changed": true,
+      "reason": "Course identity found; the applicable fee band for combined Psychology and Marketing requires confirmation.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Course identity found; the applicable fee band for combined Psychology and Marketing requires confirmation.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+            "https://courses.aber.ac.uk/undergraduate/psychology-and-criminology/",
+            "https://courses.aber.ac.uk/undergraduate/psychology-education-degree/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_60",
+      "title": "LLB (Hons) Law with Criminology",
+      "changed": true,
+      "reason": "Stored Law with Criminology differs from the advertised Law and Criminology title; route equivalence is unconfirmed.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Stored Law with Criminology differs from the advertised Law and Criminology title; route equivalence is unconfirmed.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/M900-criminology/",
+            "https://courses.aber.ac.uk/undergraduate/M90F-criminology-foundation/",
+            "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_65",
+      "title": "MSc Agrifood Innovation",
+      "changed": true,
+      "reason": "Advertised Agrifood Innovation candidates are longer programmes. Duration, study mode and distance-learning fee basis need review.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Advertised Agrifood Innovation candidates are longer programmes. Duration, study mode and distance-learning fee basis need review.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/J792D-agrifood-innovation/",
+            "https://courses.aber.ac.uk/postgraduate/J792D3-sustainable-agriculture/",
+            "https://courses.aber.ac.uk/postgraduate/agrifood-innovation/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_68",
+      "title": "PhD Education / Childhood Studies",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/information-and-library-studies-distance-learning-masters/",
+            "https://courses.aber.ac.uk/postgraduate/information-and-library-studies-masters/",
+            "https://courses.aber.ac.uk/postgraduate/information-library/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_80",
+      "title": "BA (Hons) History and Heritage",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/history-and-english-literature-degree/",
+            "https://courses.aber.ac.uk/undergraduate/history-and-mathematics-degree/",
+            "https://courses.aber.ac.uk/undergraduate/history-and-welsh-history-degree/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_82",
+      "title": "BSc (Hons) Geology",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/biology-degree/",
+            "https://courses.aber.ac.uk/undergraduate/ecology-degree-integrated-foundation/",
+            "https://courses.aber.ac.uk/undergraduate/ecology-degree/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_83",
+      "title": "BSc (Hons) Physics with Astronomy",
+      "changed": true,
+      "reason": "Physics with Astronomy has not been matched to a confirmed official route. Do not substitute another Physics programme.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Physics with Astronomy has not been matched to a confirmed official route. Do not substitute another Physics programme.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/mathematics-with-education/",
+            "https://courses.aber.ac.uk/undergraduate/physics-with-year-in-industry/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_84",
+      "title": "BSc (Hons) Mathematics with Statistics",
+      "changed": true,
+      "reason": "Pure Mathematics / Statistics is a candidate; equivalence to Mathematics with Statistics remains unconfirmed.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Pure Mathematics / Statistics is a candidate; equivalence to Mathematics with Statistics remains unconfirmed.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/mathematics-and-physics-degree/",
+            "https://courses.aber.ac.uk/undergraduate/mathematics-with-education/",
+            "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_86",
+      "title": "BA (Hons) Creative Arts",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/W100-fine-art/",
+            "https://courses.aber.ac.uk/undergraduate/WW18-creative-writing-and-fine-art/",
+            "https://courses.aber.ac.uk/undergraduate/creative-writing-degree/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_91",
+      "title": "MSc Behaviour Change",
+      "changed": true,
+      "reason": "Behaviour Change course identity found; its multidisciplinary programme fee classification remains unconfirmed.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Behaviour Change course identity found; its multidisciplinary programme fee classification remains unconfirmed.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_92",
+      "title": "MSc Agrifood Innovation (Distance Learning)",
+      "changed": true,
+      "reason": "Agrifood Innovation candidates differ in award and duration. Confirm the distance-learning route and module/programme fees.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Agrifood Innovation candidates differ in award and duration. Confirm the distance-learning route and module/programme fees.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/J792D-agrifood-innovation/",
+            "https://courses.aber.ac.uk/postgraduate/J792D3-sustainable-agriculture/",
+            "https://courses.aber.ac.uk/postgraduate/agrifood-innovation/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_93",
+      "title": "MSc Human Resource Management",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/archives-records-management-dl/",
+            "https://courses.aber.ac.uk/postgraduate/archives-records-management/",
+            "https://courses.aber.ac.uk/postgraduate/project-management/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_94",
+      "title": "MSc Digital Marketing",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/international-business-marketing-msc/",
+            "https://courses.aber.ac.uk/postgraduate/international-marketing/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_95",
+      "title": "MSc Bioengineering",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/N23F-engineering-management/",
+            "https://courses.aber.ac.uk/postgraduate/engineering-management/",
+            "https://courses.aber.ac.uk/postgraduate/space-engineering/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_96",
+      "title": "MSc Pharmaceutical Sciences",
+      "changed": true,
+      "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/animal-science-masters/",
+            "https://courses.aber.ac.uk/postgraduate/animal-science/",
+            "https://courses.aber.ac.uk/postgraduate/research-ibers/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_97",
+      "title": "PhD Politics",
+      "changed": true,
+      "reason": "International Politics PhD is a possible match, but it is also mapped to another database record. Duplicate/identity review needed.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "International Politics PhD is a possible match, but it is also mapped to another database record. Duplicate/identity review needed.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/",
+            "https://courses.aber.ac.uk/postgraduate/research-international-politics/",
+            "https://courses.aber.ac.uk/postgraduate/research-physics/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    },
+    {
+      "course_id": "C_UK002_99",
+      "title": "MRes Geography and Earth Sciences",
+      "changed": true,
+      "reason": "Stored Geography and Earth Sciences MRes differs from advertised MPhil/PhD awards. Programme identity requires confirmation.",
+      "before": {},
+      "after": {
+        "verified": false,
+        "fee_verification_status": "needs_review",
+        "fee_review": {
+          "status": "pending",
+          "reason": "Stored Geography and Earth Sciences MRes differs from advertised MPhil/PhD awards. Programme identity requires confirmation.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-geography/",
+            "https://courses.aber.ac.uk/postgraduate/research-iges/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "deposit_status": "offer_letter_amount_required",
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter."
+        }
+      },
+      "source_record_to_create": true
+    }
+  ],
+  "blocked": [],
+  "skipped_verified": [
+    "C_ABE002_RES_01",
+    "C_UK002_46",
+    "C_UK002_61",
+    "C_UK002_64"
+  ],
+  "tuition_prices_changed": false,
+  "courses_deactivated": false,
+  "scholarship_amounts_changed": false,
+  "deposit_amounts_changed": false
+}

@@ -1,0 +1,941 @@
+{
+  "generated_at": "2026-10-21T21:39:31.871805+00:00",
+  "mode": "preview",
+  "database_changes": false,
+  "university_id": "UK003",
+  "academic_year": "2027/28",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\courses-20261021T143154720282Z\\course-evidence.json",
+  "records": [
+    {
+      "course_id": "C_UK003_21",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Artificial Intelligence",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Artificial Intelligence",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/artificial-intelligence"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/artificial-intelligence",
+          "source_course_code": "",
+          "source_course_name": "Artificial Intelligence",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/artificial-intelligence",
+            "source_sha256": "338f057b1f42d86f1983e2b30af7d2983d33e9093e35472bd41078243e5cfb96",
+            "source_checked_at": "2026-10-21T14:32:14.987565+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_28",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Cyber Security",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Cyber Security",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/cyber-security"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/cyber-security",
+          "source_course_code": "",
+          "source_course_name": "Cyber Security",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/cyber-security",
+            "source_sha256": "0c4cba102402f1bc20d88727be261ebfaa6786818b571b6fdff84bd083a2cfdd",
+            "source_checked_at": "2026-10-21T14:32:41.537909+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_47",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Applied Bioscience",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Applied Bioscience",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/applied-bioscience"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/applied-bioscience",
+          "source_course_code": "",
+          "source_course_name": "Applied Bioscience",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/applied-bioscience",
+            "source_sha256": "7148aef8419a0487788d1193c39774d120f6e3039ff880ffe57043acb4e4029d",
+            "source_checked_at": "2026-10-21T14:32:06.782046+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_48",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Advanced Biomedical Science",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Advanced Biomedical Science",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/advanced-biomedical-science"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/advanced-biomedical-science",
+          "source_course_code": "",
+          "source_course_name": "Advanced Biomedical Science",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/advanced-biomedical-science",
+            "source_sha256": "e2c1552d1fdef46fe8629fbc36b6687f246c94b741e728816b193587a4d9e17f",
+            "source_checked_at": "2026-10-21T14:31:59.886497+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_49",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Automation and Robotics",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Automation and Robotics",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/automation-and-robotics"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/automation-and-robotics",
+          "source_course_code": "",
+          "source_course_name": "Automation and Robotics",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/automation-and-robotics",
+            "source_sha256": "5139b2329343379e53235885adae7fcd110ae5e0ccd775e537e08937bc657fd4",
+            "source_checked_at": "2026-10-21T14:32:16.084845+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_50",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Brand Management",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Brand Management",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/brand-management"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/brand-management",
+          "source_course_code": "",
+          "source_course_name": "Brand Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/brand-management",
+            "source_sha256": "5ef3286d222220e8339685fd61ff416aaf4eb31ad26004e71deaa8076f611dda",
+            "source_checked_at": "2026-10-21T14:32:20.793501+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_51",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Business Data Analytics",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Peterborough Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Business Data Analytics",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Peterborough Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/business-data-analytics"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/business-data-analytics",
+          "source_course_code": "",
+          "source_course_name": "Business Data Analytics",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/business-data-analytics",
+            "source_sha256": "ba58144cc897e7abf8396a949a824cb16cdfbb6b162a013b4aae72d995856c92",
+            "source_checked_at": "2026-10-21T14:32:22.013260+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_53",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Clinical Child Psychology",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Clinical Child Psychology",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/clinical-child-psychology"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-child-psychology",
+          "source_course_code": "",
+          "source_course_name": "Clinical Child Psychology",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-child-psychology",
+            "source_sha256": "1d911eae2239b5faadc1fd79b9d1c7a16486f912bba3055baae442cdf182daa7",
+            "source_checked_at": "2026-10-21T14:32:28.446538+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_72",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Engineering Management",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Engineering Management",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/engineering-management"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/engineering-management",
+          "source_course_code": "",
+          "source_course_name": "Engineering Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/engineering-management",
+            "source_sha256": "1e205fe6dc4554c5430078ca64b3ba6df4929c7155dabb1f358c42838927c941",
+            "source_checked_at": "2026-10-21T14:32:50.520742+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_75",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Computer Science",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Computer Science",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/computer-science"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/computer-science",
+          "source_course_code": "",
+          "source_course_name": "Computer Science",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/computer-science",
+            "source_sha256": "1b4f8d551a4f8e786617efcc5c3c577ea811c663c82444c23f60ac3b59ff6df3",
+            "source_checked_at": "2026-10-21T14:32:33.480012+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_77",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Pharmaceutical Science",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Pharmaceutical Science",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/pharmaceutical-science"
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/pharmaceutical-science",
+          "source_course_code": "",
+          "source_course_name": "Pharmaceutical Science",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/pharmaceutical-science",
+            "source_sha256": "de901cd7a62abf3f81e8bc9e600594e860209c5439a04e53d50c74dab5b6e854",
+            "source_checked_at": "2026-10-21T14:33:48.555234+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_78",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Forensic Science",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Forensic Science",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/forensic-science"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/forensic-science",
+          "source_course_code": "",
+          "source_course_name": "Forensic Science",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/forensic-science",
+            "source_sha256": "2c879fcb014088cb2457fcde37cecb5f804771db8e8341c34e797694867751c4",
+            "source_checked_at": "2026-10-21T14:33:01.842306+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_79",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Applied Wildlife Conservation",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Applied Wildlife Conservation",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/applied-wildlife-conservation"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/applied-wildlife-conservation",
+          "source_course_code": "",
+          "source_course_name": "Applied Wildlife Conservation",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/applied-wildlife-conservation",
+            "source_sha256": "167f7996a8f759af1ad12eb5f1cd83e464dd316a66b38ae13bbc1472cb91060b",
+            "source_checked_at": "2026-10-21T14:32:10.046997+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_80",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "Agribusiness MBA",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Writtle Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "21200.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "Agribusiness MBA",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Writtle Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/agribusiness"
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/agribusiness",
+          "source_course_code": "",
+          "source_course_name": "Agribusiness MBA",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/agribusiness",
+            "source_sha256": "21cb55df3a0d831a2da8fc2d9e55f7b4383fe17e4e2c119d19c4868498b40afe",
+            "source_checked_at": "2026-10-21T14:32:01.249419+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_103",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Town Planning",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk"
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Town Planning",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/town-planning"
+        },
+        "tuition_fee": "20925.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/town-planning",
+          "source_course_code": "",
+          "source_course_name": "Town Planning",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/town-planning",
+            "source_sha256": "44b4c4e686a691a1bf227a20f1ec77f4d91077c2a95f60f2080594239bfad271",
+            "source_checked_at": "2026-10-21T14:34:12.516337+00:00",
+            "fee_method": "reviewed_named_course_fee",
+            "scholarship_status": "pending_separate_review",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published 2027/28 international annual fee for the standard September 2027 one-year full-time course. Optional professional-experience routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "blocked": []
+}

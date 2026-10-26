@@ -1,0 +1,131 @@
+subject_code,subject_name,slug
+ACCOUNTING,Accounting,accounting
+ACTUARIAL_SCIENCE,Actuarial Science,actuarial-science
+AEROSPACE_ENGINEERING,Aerospace Engineering,aerospace-engineering
+AGRICULTURE,Agriculture,agriculture
+ANATOMY,Anatomy,anatomy
+ANTHROPOLOGY,Anthropology,anthropology
+APPLIED_MATHEMATICS,Applied Mathematics,applied-mathematics
+ARCHAEOLOGY,Archaeology,archaeology
+ARCHITECTURE,Architecture,architecture
+ART_HISTORY,Art History,art-history
+ARTS,Arts,arts
+ASTRONOMY,Astronomy,astronomy
+BANKING_AND_FINANCE,Banking and Finance,banking-and-finance
+BIOCHEMISTRY,Biochemistry,biochemistry
+BIOENGINEERING,Bioengineering,bioengineering
+BIOINFORMATICS,Bioinformatics,bioinformatics
+BIOLOGY,Biology,biology
+BIOMEDICAL_ENGINEERING,Biomedical Engineering,biomedical-engineering
+BIOTECHNOLOGY,Biotechnology,biotechnology
+BUILDING_SURVEYING,Building Surveying,building-surveying
+BUSINESS_ADMINISTRATION,Business Administration,business-administration
+BUSINESS_ANALYTICS,Business Analytics,business-analytics
+BUSINESS_MANAGEMENT,Business Management,business-management
+CHEMICAL_ENGINEERING,Chemical Engineering,chemical-engineering
+CHEMISTRY,Chemistry,chemistry
+CIVIL_ENGINEERING,Civil Engineering,civil-engineering
+CLASSICS,Classics,classics
+CLINICAL_PSYCHOLOGY,Clinical Psychology,clinical-psychology
+COGNITIVE_SCIENCE,Cognitive Science,cognitive-science
+COMMUNICATION_STUDIES,Communication Studies,communication-studies
+COMPUTATIONAL_SCIENCE,Computational Science,computational-science
+COMPUTER_ENGINEERING,Computer Engineering,computer-engineering
+COMPUTER_SCIENCE,Computer Science,computer-science
+CONSTRUCTION_MANAGEMENT,Construction Management,construction-management
+CREATIVE_WRITING,Creative Writing,creative-writing
+CRIMINOLOGY,Criminology,criminology
+CYBER_SECURITY,Cyber Security,cyber-security
+DATA_ANALYTICS,Data Analytics,data-analytics
+DATA_SCIENCE,Data Science,data-science
+DENTISTRY,Dentistry,dentistry
+DESIGN,Design,design
+DIGITAL_MARKETING,Digital Marketing,digital-marketing
+DRAMA_AND_THEATRE,Drama and Theatre,drama-and-theatre
+EARLY_CHILDHOOD_STUDIES,Early Childhood Studies,early-childhood-studies
+EARTH_SCIENCE,Earth Science,earth-science
+ECONOMICS,Economics,economics
+EDUCATION,Education,education
+EDUCATIONAL_PSYCHOLOGY,Educational Psychology,educational-psychology
+ELECTRICAL_ENGINEERING,Electrical Engineering,electrical-engineering
+ELECTRONIC_ENGINEERING,Electronic Engineering,electronic-engineering
+ENGLISH_LANGUAGE,English Language,english-language
+ENGLISH_LITERATURE,English Literature,english-literature
+ENVIRONMENTAL_ENGINEERING,Environmental Engineering,environmental-engineering
+ENVIRONMENTAL_SCIENCE,Environmental Science,environmental-science
+EPIDEMIOLOGY,Epidemiology,epidemiology
+EVENT_MANAGEMENT,Event Management,event-management
+FILM_AND_MEDIA_STUDIES,Film and Media Studies,film-and-media-studies
+FINANCE,Finance,finance
+FINE_ART,Fine Art,fine-art
+FORENSIC_SCIENCE,Forensic Science,forensic-science
+FORESTRY,Forestry,forestry
+GAME_DESIGN,Game Design,game-design
+GENETICS,Genetics,genetics
+GEOGRAPHY,Geography,geography
+GEOLOGY,Geology,geology
+GRAPHIC_DESIGN,Graphic Design,graphic-design
+HEALTH_INFORMATICS,Health Informatics,health-informatics
+HEALTH_SCIENCES,Health Sciences,health-sciences
+HISTORY,History,history
+HOSPITALITY_MANAGEMENT,Hospitality Management,hospitality-management
+HUMAN_RESOURCE_MANAGEMENT,Human Resource Management,human-resource-management
+HUMANITIES,Humanities,humanities
+INFORMATION_SYSTEMS,Information Systems,information-systems
+INFORMATION_TECHNOLOGY,Information Technology,information-technology
+INTERNATIONAL_BUSINESS,International Business,international-business
+INTERNATIONAL_RELATIONS,International Relations,international-relations
+JOURNALISM,Journalism,journalism
+LANDSCAPE_ARCHITECTURE,Landscape Architecture,landscape-architecture
+LAW,Law,law
+LIBRARY_AND_INFORMATION_SCIENCE,Library and Information Science,library-and-information-science
+LINGUISTICS,Linguistics,linguistics
+LOGISTICS_AND_SUPPLY_CHAIN,Logistics and Supply Chain,logistics-and-supply-chain
+MANAGEMENT,Management,management
+MARKETING,Marketing,marketing
+MATERIALS_SCIENCE,Materials Science,materials-science
+MATHEMATICS,Mathematics,mathematics
+MECHANICAL_ENGINEERING,Mechanical Engineering,mechanical-engineering
+MECHATRONICS,Mechatronics,mechatronics
+MEDIA_AND_COMMUNICATION,Media and Communication,media-and-communication
+MEDICAL_SCIENCES,Medical Sciences,medical-sciences
+MEDICINE,Medicine,medicine
+MIDWIFERY,Midwifery,midwifery
+MOLECULAR_BIOLOGY,Molecular Biology,molecular-biology
+MUSIC,Music,music
+NURSING,Nursing,nursing
+NUTRITION,Nutrition,nutrition
+OCCUPATIONAL_THERAPY,Occupational Therapy,occupational-therapy
+OPERATIONS_MANAGEMENT,Operations Management,operations-management
+OPTOMETRY,Optometry,optometry
+PHARMACY,Pharmacy,pharmacy
+PHILOSOPHY,Philosophy,philosophy
+PHYSICS,Physics,physics
+PHYSIOTHERAPY,Physiotherapy,physiotherapy
+POLITICAL_SCIENCE,Political Science,political-science
+POLITICS,Politics,politics
+PROJECT_MANAGEMENT,Project Management,project-management
+PSYCHOLOGY,Psychology,psychology
+PUBLIC_HEALTH,Public Health,public-health
+PUBLIC_POLICY,Public Policy,public-policy
+QUANTITY_SURVEYING,Quantity Surveying,quantity-surveying
+REAL_ESTATE,Real Estate,real-estate
+RENEWABLE_ENERGY,Renewable Energy,renewable-energy
+ROBOTICS,Robotics,robotics
+SOCIAL_POLICY,Social Policy,social-policy
+SOCIAL_SCIENCES,Social Sciences,social-sciences
+SOCIAL_WORK,Social Work,social-work
+SOCIOLOGY,Sociology,sociology
+SOFTWARE_ENGINEERING,Software Engineering,software-engineering
+SPORTS_SCIENCE,Sports Science,sports-science
+STATISTICS,Statistics,statistics
+STRUCTURAL_ENGINEERING,Structural Engineering,structural-engineering
+SUPPLY_CHAIN_MANAGEMENT,Supply Chain Management,supply-chain-management
+SUSTAINABILITY,Sustainability,sustainability
+TEACHER_EDUCATION,Teacher Education,teacher-education
+THEOLOGY,Theology,theology
+TOURISM_MANAGEMENT,Tourism Management,tourism-management
+TRANSLATION_AND_INTERPRETING,Translation and Interpreting,translation-and-interpreting
+URBAN_PLANNING,Urban Planning,urban-planning
+VETERINARY_SCIENCE,Veterinary Science,veterinary-science
+ZOOLOGY,Zoology,zoology

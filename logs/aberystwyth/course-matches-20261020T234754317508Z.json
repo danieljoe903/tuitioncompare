@@ -1,0 +1,545 @@
+{
+  "generated_at": "2026-10-20T23:47:54.317508+00:00",
+  "university_id": "UK002",
+  "mode": "apply",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\remaining-review-20261020T231510825902Z\\remaining-course-review.json",
+  "proposals": [
+    {
+      "course_id": "C_ABE002_RES_02",
+      "changed": true,
+      "before": {
+        "title": "MRes Parasitology",
+        "level": "MRES",
+        "duration": "1 Year",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aber.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "after": {
+        "title": "MRes Parasite Control",
+        "level": "MRES",
+        "duration": "1 Year",
+        "start_month": "September",
+        "start_year": 2027,
+        "course_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+        "ucas_cao_code": ""
+      },
+      "metadata_before": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Possible Parasite Control MRes candidate. Equivalence to the stored Parasitology course requires confirmation.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+            "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+            "https://courses.aber.ac.uk/postgraduate/research-psychology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "metadata_after": {
+        "verified": false,
+        "fee_review": {
+          "status": "pending",
+          "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/parasite-control/"
+          ]
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "pending_fee_mapping",
+        "course_identity": {
+          "status": "accepted_current_catalogue_match",
+          "official_title": "Parasite Control",
+          "official_code": "C111",
+          "official_award": "MRES",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence."
+        }
+      },
+      "changed_fields": [
+        "title",
+        "start_year",
+        "course_url"
+      ]
+    },
+    {
+      "course_id": "C_ABE002_RES_04",
+      "changed": true,
+      "before": {
+        "title": "MRes Modern History",
+        "level": "MRES",
+        "duration": "1 Year",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aber.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "after": {
+        "title": "MA Modern History",
+        "level": "PG",
+        "duration": "1 Year",
+        "start_month": "September",
+        "start_year": 2027,
+        "course_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+        "ucas_cao_code": ""
+      },
+      "metadata_before": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Modern History is advertised as MA; the stored MRes award requires correction review.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-history/",
+            "https://courses.aber.ac.uk/postgraduate/research-history/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "metadata_after": {
+        "verified": false,
+        "fee_review": {
+          "status": "pending",
+          "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/modern-history-masters/"
+          ]
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "pending_fee_mapping",
+        "course_identity": {
+          "status": "accepted_current_catalogue_match",
+          "official_title": "Modern History",
+          "official_code": "V140",
+          "official_award": "MA",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence."
+        }
+      },
+      "changed_fields": [
+        "title",
+        "level",
+        "start_year",
+        "course_url"
+      ]
+    },
+    {
+      "course_id": "C_ABE002_RES_06",
+      "changed": true,
+      "before": {
+        "title": "MPhil (Research) Psychology",
+        "level": "MRES",
+        "duration": "2 Years",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aber.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "after": {
+        "title": "MPhil Psychology",
+        "level": "PG",
+        "duration": "1 Year",
+        "start_month": "January",
+        "start_year": 2027,
+        "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+        "ucas_cao_code": ""
+      },
+      "metadata_before": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Psychology MPhil candidate advertises one year; the stored two-year duration may represent a different study mode.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/M1866-llm-research/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+            "https://courses.aber.ac.uk/postgraduate/research-psychology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "metadata_after": {
+        "verified": false,
+        "fee_review": {
+          "status": "pending",
+          "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/mphil-psychology/"
+          ]
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "pending_fee_mapping",
+        "course_identity": {
+          "status": "accepted_current_catalogue_match",
+          "official_title": "Psychology",
+          "official_code": "C800",
+          "official_award": "MPHL",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence."
+        }
+      },
+      "changed_fields": [
+        "title",
+        "level",
+        "duration",
+        "start_month",
+        "start_year",
+        "course_url"
+      ]
+    },
+    {
+      "course_id": "C_UK002_10",
+      "changed": true,
+      "before": {
+        "title": "BA (Hons) International Politics",
+        "level": "UG",
+        "duration": "3 Years",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aber.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "after": {
+        "title": "BA (Hons) International Relations",
+        "level": "UG",
+        "duration": "3 Years",
+        "start_month": "September",
+        "start_year": 2027,
+        "course_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+        "ucas_cao_code": "142L"
+      },
+      "metadata_before": {
+        "verified": false,
+        "fee_review": {
+          "reason": "International Relations is a candidate for stored International Politics; course equivalence requires confirmation.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+            "https://courses.aber.ac.uk/undergraduate/F42L-international-relations-foundation/",
+            "https://courses.aber.ac.uk/undergraduate/law-relations/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "metadata_after": {
+        "verified": false,
+        "fee_review": {
+          "status": "pending",
+          "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/142L-international-relations/"
+          ]
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "pending_fee_mapping",
+        "course_identity": {
+          "status": "accepted_current_catalogue_match",
+          "official_title": "International Relations",
+          "official_code": "142L",
+          "official_award": "BA",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence."
+        }
+      },
+      "changed_fields": [
+        "title",
+        "start_year",
+        "course_url",
+        "ucas_cao_code"
+      ]
+    },
+    {
+      "course_id": "C_UK002_41",
+      "changed": true,
+      "before": {
+        "title": "BA (Hons) Drama and Theatre Studies",
+        "level": "UG",
+        "duration": "3 Years",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aber.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "after": {
+        "title": "BA (Hons) Drama and Theatre",
+        "level": "UG",
+        "duration": "3 Years",
+        "start_month": "September",
+        "start_year": 2027,
+        "course_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+        "ucas_cao_code": "W400"
+      },
+      "metadata_before": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Drama and Theatre is a candidate for the stored Drama and Theatre Studies course; identity requires confirmation.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+            "https://courses.aber.ac.uk/undergraduate/W40F-drama-and-theatre-foundation/",
+            "https://courses.aber.ac.uk/undergraduate/drama-and-theatre-studies-and-history-degree/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "metadata_after": {
+        "verified": false,
+        "fee_review": {
+          "status": "pending",
+          "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/"
+          ]
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "pending_fee_mapping",
+        "course_identity": {
+          "status": "accepted_current_catalogue_match",
+          "official_title": "Drama and Theatre",
+          "official_code": "W400",
+          "official_award": "BA",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence."
+        }
+      },
+      "changed_fields": [
+        "title",
+        "start_year",
+        "course_url",
+        "ucas_cao_code"
+      ]
+    },
+    {
+      "course_id": "C_UK002_60",
+      "changed": true,
+      "before": {
+        "title": "LLB (Hons) Law with Criminology",
+        "level": "UG",
+        "duration": "3 Years",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aber.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "after": {
+        "title": "LLB (Hons) Law and Criminology",
+        "level": "UG",
+        "duration": "3 Years",
+        "start_month": "September",
+        "start_year": 2027,
+        "course_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/",
+        "ucas_cao_code": "MM91"
+      },
+      "metadata_before": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Stored Law with Criminology differs from the advertised Law and Criminology title; route equivalence is unconfirmed.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/M900-criminology/",
+            "https://courses.aber.ac.uk/undergraduate/M90F-criminology-foundation/",
+            "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "metadata_after": {
+        "verified": false,
+        "fee_review": {
+          "status": "pending",
+          "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/"
+          ]
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "pending_fee_mapping",
+        "course_identity": {
+          "status": "accepted_current_catalogue_match",
+          "official_title": "Law and Criminology",
+          "official_code": "MM91",
+          "official_award": "LLB",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence."
+        }
+      },
+      "changed_fields": [
+        "title",
+        "start_year",
+        "course_url",
+        "ucas_cao_code"
+      ]
+    },
+    {
+      "course_id": "C_UK002_84",
+      "changed": true,
+      "before": {
+        "title": "BSc (Hons) Mathematics with Statistics",
+        "level": "UG",
+        "duration": "3 Years",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aber.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "after": {
+        "title": "BSc (Hons) Pure Mathematics / Statistics",
+        "level": "UG",
+        "duration": "3 Years",
+        "start_month": "September",
+        "start_year": 2027,
+        "course_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/",
+        "ucas_cao_code": "GGC3"
+      },
+      "metadata_before": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Pure Mathematics / Statistics is a candidate; equivalence to Mathematics with Statistics remains unconfirmed.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/mathematics-and-physics-degree/",
+            "https://courses.aber.ac.uk/undergraduate/mathematics-with-education/",
+            "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "metadata_after": {
+        "verified": false,
+        "fee_review": {
+          "status": "pending",
+          "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/"
+          ]
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "pending_fee_mapping",
+        "course_identity": {
+          "status": "accepted_current_catalogue_match",
+          "official_title": "Pure Mathematics / Statistics",
+          "official_code": "GGC3",
+          "official_award": "BSC",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+          "note": "Accepted replacement for the stored record; not a claim of historical course equivalence."
+        }
+      },
+      "changed_fields": [
+        "title",
+        "start_year",
+        "course_url",
+        "ucas_cao_code"
+      ]
+    }
+  ],
+  "blocked": [],
+  "tuition_prices_changed": false,
+  "scholarship_amounts_changed": false,
+  "deposit_amounts_changed": false
+}

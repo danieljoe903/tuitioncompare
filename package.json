@@ -1,0 +1,19 @@
+{
+  "name": "university-tuition-compare",
+  "version": "1.0.0",
+  "description": "University Tuition Compare - Tailwind CSS Static Files",
+  "scripts": {
+    "build:css": "tailwindcss -i ./static/css/style.css -o ./static/css/output.css --minify",
+    "watch:css": "tailwindcss -i ./static/css/style.css -o ./static/css/output.css --watch"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "django"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

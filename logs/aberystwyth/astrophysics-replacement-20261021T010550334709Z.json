@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-10-21T01:05:50.334709+00:00",
+  "mode": "preview",
+  "course_id": "C_UK002_83",
+  "changed": false,
+  "before": {
+    "course": {
+      "title": "BSc (Hons) Astrophysics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+      "ucas_cao_code": "F510"
+    },
+    "tuition": {
+      "tuition_fee": "23255.00",
+      "currency": "GBP"
+    },
+    "source": {
+      "academic_year": "2027/28",
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/undergrad/tuition-fees/",
+      "source_course_name": "Astrophysics",
+      "source_course_code": "F510",
+      "fee_basis": "annual_tuition",
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_band": "Sciences",
+        "verified": true,
+        "fee_method": "accepted_replacement_and_published_subject_band",
+        "fee_review": {
+          "reason": "Astrophysics is taught in Physics, classified under the published undergraduate science fee.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "fee_evidence": {
+          "course": {
+            "sha256": "cd526902bc13976bc648d526264a1f82eab512c247da8cc31a34091868beb26f",
+            "source_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/"
+          },
+          "fee_schedule": {
+            "sha256": "05fb8b94c49d533dc7994d0cec6d4133c8d7e343fe3d81b53f8ca093fec594de",
+            "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/undergrad/tuition-fees/"
+          }
+        },
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is specified in your individual offer letter.",
+          "scholarship": "Scholarship eligibility has not yet been confirmed for this replacement course."
+        },
+        "annual_tuition": "23255.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Annual full-time undergraduate science tuition.",
+            "academic_year": "2027/28",
+            "annual_tuition": "23255.00",
+            "raw_annual_fee": "£23,255",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "note": "User accepted replacing the stored listing with the current Astrophysics route. This does not assert historical course equivalence.",
+          "status": "accepted_current_catalogue_replacement",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+          "official_code": "F510",
+          "official_award": "BSC",
+          "official_title": "Astrophysics",
+          "replaces_title": "BSc (Hons) Physics with Astronomy"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+        "scholarship_review": {
+          "reason": "Scholarship applicability for the replacement course requires separate reconciliation.",
+          "status": "pending"
+        },
+        "scholarship_status": "pending_separate_reconciliation",
+        "programme_fee_group": "bachelors",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified"
+      }
+    }
+  },
+  "after": {
+    "course": {
+      "title": "BSc (Hons) Astrophysics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+      "ucas_cao_code": "F510"
+    },
+    "tuition": {
+      "tuition_fee": "23255.00",
+      "currency": "GBP"
+    },
+    "source": {
+      "academic_year": "2027/28",
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/undergrad/tuition-fees/",
+      "source_course_name": "Astrophysics",
+      "source_course_code": "F510",
+      "fee_basis": "annual_tuition",
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_band": "Sciences",
+        "verified": true,
+        "fee_method": "accepted_replacement_and_published_subject_band",
+        "fee_review": {
+          "status": "resolved",
+          "reason": "Astrophysics is taught in Physics, classified under the published undergraduate science fee."
+        },
+        "study_year": 1,
+        "course_kind": "undergraduate",
+        "fee_evidence": {
+          "course": {
+            "source_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+            "sha256": "cd526902bc13976bc648d526264a1f82eab512c247da8cc31a34091868beb26f"
+          },
+          "fee_schedule": {
+            "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/undergrad/tuition-fees/",
+            "sha256": "05fb8b94c49d533dc7994d0cec6d4133c8d7e343fe3d81b53f8ca093fec594de"
+          }
+        },
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is specified in your individual offer letter.",
+          "scholarship": "Scholarship eligibility has not yet been confirmed for this replacement course."
+        },
+        "annual_tuition": "23255.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "source_fee_category": "International",
+            "academic_year": "2027/28",
+            "currency": "GBP",
+            "annual_tuition": "23255.00",
+            "raw_annual_fee": "£23,255",
+            "annotation": "Annual full-time undergraduate science tuition.",
+            "footnote_marker": "",
+            "amount_requires_review": false
+          }
+        ],
+        "course_identity": {
+          "status": "accepted_current_catalogue_replacement",
+          "replaces_title": "BSc (Hons) Physics with Astronomy",
+          "official_title": "Astrophysics",
+          "official_code": "F510",
+          "official_award": "BSC",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+          "note": "User accepted replacing the stored listing with the current Astrophysics route. This does not assert historical course equivalence."
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+        "scholarship_review": {
+          "reason": "Scholarship applicability for the replacement course requires separate reconciliation.",
+          "status": "pending"
+        },
+        "scholarship_status": "pending_separate_reconciliation",
+        "programme_fee_group": "bachelors",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified"
+      }
+    }
+  }
+}

@@ -1,0 +1,467 @@
+{% load static %}
+
+<style>
+    .university-support {
+        padding: 80px 0;
+        overflow: hidden;
+        background:
+            radial-gradient(circle at 100% 0,
+                rgba(56, 189, 248, 0.1),
+                transparent 40%),
+            #f1f7fb;
+    }
+
+    .university-support .support-heading {
+        max-width: 700px;
+        margin: 0 auto 42px;
+        text-align: center;
+    }
+
+    .university-support .support-eyebrow {
+        display: inline-block;
+        margin-bottom: 14px;
+        color: #2563eb;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+
+    .university-support .support-heading h2 {
+        margin: 0 0 18px;
+        color: #102c46;
+        font-size: clamp(28px, 3vw, 40px);
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .university-support .support-heading p {
+        margin: 0;
+        color: #52657a;
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .university-support .support-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 30px;
+    }
+
+    .university-support .support-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        overflow: hidden;
+        border: 1px solid #dce6ef;
+        border-radius: 22px;
+        background: #ffffff;
+        box-shadow: 0 10px 30px rgba(16, 44, 70, 0.06);
+        transition:
+            border-color 0.25s ease,
+            box-shadow 0.25s ease;
+    }
+
+    .university-support .support-card:hover {
+        border-color: #93c5fd;
+        box-shadow: 0 18px 40px rgba(16, 44, 70, 0.12);
+    }
+
+    .university-support .support-image {
+        position: relative;
+        overflow: hidden;
+        background: #dce6ef;
+    }
+
+    .university-support .support-image img {
+        display: block;
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+        object-position: center;
+        transition: transform 0.5s ease;
+    }
+
+    .university-support .support-card:hover .support-image img {
+        transform: scale(1.04);
+    }
+
+    .university-support .support-image::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top,
+                rgba(8, 25, 43, 0.6),
+                transparent 65%);
+        pointer-events: none;
+    }
+
+    .university-support .support-image-label {
+        position: absolute;
+        bottom: 20px;
+        left: 24px;
+        z-index: 1;
+        padding: 7px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 999px;
+        background: rgba(16, 44, 70, 0.65);
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+    }
+
+    .university-support .support-body {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .university-support .support-title-row {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 18px;
+    }
+
+    .university-support .support-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 48px;
+        height: 48px;
+        border-radius: 14px;
+        background: #eff6ff;
+        color: #2563eb;
+    }
+
+    .university-support .support-icon svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .university-support .support-title-row h3 {
+        margin: 0;
+        color: #102c46;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .university-support .support-description {
+        margin: 0 0 22px;
+        color: #52657a;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .university-support .support-topics {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0 0 28px;
+        padding: 0;
+        list-style: none;
+    }
+
+    .university-support .support-topics li {
+        padding: 6px 10px;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        background: #f8fafc;
+        color: #52657a;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .university-support .support-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        min-height: 50px;
+        margin-top: auto;
+        padding: 14px 18px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        background: #102c46;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: background-color 0.2s ease;
+    }
+
+    .university-support .support-button svg {
+        flex-shrink: 0;
+        width: 20px;
+        height: 20px;
+        transition: transform 0.2s ease;
+    }
+
+    .university-support .support-button:hover {
+        background: #1d4e73;
+    }
+
+    .university-support .support-button:hover svg {
+        transform: translateX(3px);
+    }
+
+    .university-support .support-button-advice {
+        background: #2563eb;
+    }
+
+    .university-support .support-button-advice:hover {
+        background: #1d4ed8;
+    }
+
+    .university-support .support-button:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 4px;
+    }
+
+    /* Dark mode */
+    .dark .university-support {
+        background:
+            radial-gradient(circle at 100% 0,
+                rgba(56, 189, 248, 0.07),
+                transparent 40%),
+            #101e30;
+    }
+
+    .dark .university-support .support-heading h2,
+    .dark .university-support .support-title-row h3 {
+        color: #ffffff;
+    }
+
+    .dark .university-support .support-heading p,
+    .dark .university-support .support-description {
+        color: #cbd5e1;
+    }
+
+    .dark .university-support .support-eyebrow {
+        color: #7dd3fc;
+    }
+
+    .dark .university-support .support-card {
+        border-color: #334155;
+        background: #16283d;
+    }
+
+    .dark .university-support .support-card:hover {
+        border-color: #60a5fa;
+    }
+
+    .dark .university-support .support-icon {
+        background: #102c46;
+        color: #7dd3fc;
+    }
+
+    .dark .university-support .support-topics li {
+        border-color: #334155;
+        background: #102c46;
+        color: #cbd5e1;
+    }
+
+    /* Tablets */
+    @media (max-width: 1023px) {
+        .university-support {
+            padding: 64px 0;
+        }
+
+        .university-support .support-grid {
+            gap: 24px;
+        }
+
+        .university-support .support-body {
+            padding: 24px;
+        }
+
+        .university-support .support-image img {
+            height: 220px;
+        }
+    }
+
+    /* Phones */
+    @media (max-width: 767px) {
+        .university-support {
+            padding: 48px 0;
+        }
+
+        .university-support .support-heading {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .university-support .support-heading p {
+            font-size: 16px;
+        }
+
+        .university-support .support-grid {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        .university-support .support-card {
+            border-radius: 18px;
+        }
+
+        .university-support .support-image img {
+            height: 230px;
+        }
+
+        .university-support .support-title-row h3 {
+            font-size: 21px;
+        }
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+        .university-support [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        .university-support .support-card,
+        .university-support .support-image img,
+        .university-support .support-button,
+        .university-support .support-button svg {
+            transition: none;
+        }
+
+        .university-support .support-card:hover .support-image img,
+        .university-support .support-button:hover svg {
+            transform: none;
+        }
+    }
+</style>
+
+<section class="university-support" aria-labelledby="university-support-heading">
+    <div class="container">
+
+        <div class="support-heading" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <span class="support-eyebrow">
+                Guidance for your next step
+            </span>
+
+            <h2 id="university-support-heading">
+                Get Answers. Make Confident Choices.
+            </h2>
+
+            <p>
+                Explore answers to common questions about studying
+                in the UK and Ireland, or contact our team for help
+                with your university search.
+            </p>
+        </div>
+
+        <div class="support-grid">
+
+            <!-- FAQ card: enters from the left -->
+            <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-out-cubic"
+                data-aos-once="true">
+                <article class="support-card">
+                    <div class="support-image">
+                        <img src="{% static 'images/mine/UniUnderCover--University-of-East-London.jpg' %}"
+                            alt="University of East London" loading="lazy" decoding="async">
+
+                        <span class="support-image-label">
+                            Find useful answers
+                        </span>
+                    </div>
+
+                    <div class="support-body">
+                        <div class="support-title-row">
+                            <span class="support-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.5 8.5a3.5 3.5 0 017 0c0 2-3.5 2.5-3.5 4.5M12 16h.01"></path>
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                </svg>
+                            </span>
+
+                            <h3>Frequently Asked Questions</h3>
+                        </div>
+
+                        <p class="support-description">
+                            Find answers to common questions about
+                            studying in the UK and Ireland, and prepare
+                            for the next stage of your education.
+                        </p>
+
+                        <ul class="support-topics" aria-label="Study topics">
+                            <li>University choices</li>
+                            <li>Study planning</li>
+                            <li>Tuition fees</li>
+                        </ul>
+
+                        <a href="/faq" class="support-button">
+                            <span>Explore FAQs</span>
+
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Advice card: enters from the right -->
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-out-cubic"
+                data-aos-once="true">
+                <article class="support-card">
+                    <div class="support-image">
+                        <img src="{% static 'images/mine/heriot-watt-ccccccccccccccccccccccccccc.jpg' %}"
+                            alt="Heriot-Watt University" loading="lazy" decoding="async">
+
+                        <span class="support-image-label">
+                            Take the next step
+                        </span>
+                    </div>
+
+                    <div class="support-body">
+                        <div class="support-title-row">
+                            <span class="support-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 11.5a8.5 8.5 0 01-8.5 8.5 9 9 0 01-4-.9L3 21l1.9-5.5a9 9 0 01-.9-4A8.5 8.5 0 0112.5 3H13a8.5 8.5 0 018 8v.5Z">
+                                    </path>
+                                    <path stroke-linecap="round" d="M8 11h8M8 15h5"></path>
+                                </svg>
+                            </span>
+
+                            <h3>Get Advice</h3>
+                        </div>
+
+                        <p class="support-description">
+                            Have a question or need assistance?
+                            Contact our team for help exploring your
+                            options and planning your university journey.
+                        </p>
+
+                        <ul class="support-topics" aria-label="Advice topics">
+                            <li>Course choices</li>
+                            <li>Your shortlist</li>
+                            <li>Next steps</li>
+                        </ul>
+
+                        <a href="/contact-us" class="support-button support-button-advice">
+                            <span>Contact Our Team</span>
+
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="border-t border-gray-200 dark:border-gray-700"></div>

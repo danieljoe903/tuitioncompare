@@ -1,0 +1,17 @@
+{
+  "source_course_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management",
+  "database_changes": false,
+  "files": [
+    {
+      "source_url": "https://arden.ac.uk/sites/default/files/js/js_Ga42GxWMG8umtzUnzPnctuPk3o25hJ1jcVf2v44iWP4.js?scope=footer&delta=0&language=en&theme=arden&include=eJxtikEOgCAMBD-E8iRSYY0kSElbov7eSDh62clMliSh-shdFI6GVFy6aMkJMsvD3foGtwPqv1lPMsm3a4JArfnJkGs2pyCJR6BuHPlsBQb_08b5BUgXMes",
+      "file": "bundle-01.js",
+      "sha256": "63994cee9b5029efe9d6ce03c44bb1216e3ee09db439d39f3579330010edeaf8"
+    },
+    {
+      "source_url": "https://arden.ac.uk/sites/default/files/js/js_bA0E-uMWq3ctjJWW15BUiAaJB3xc3K-c1ID9lE7zuEY.js?scope=footer&delta=2&language=en&theme=arden&include=eJxtikEOgCAMBD-E8iRSYY0kSElbov7eSDh62clMliSh-shdFI6GVFy6aMkJMsvD3foGtwPqv1lPMsm3a4JArfnJkGs2pyCJR6BuHPlsBQb_08b5BUgXMes",
+      "file": "bundle-02.js",
+      "sha256": "3391d71298c148299a5ce00bfded1702ee545f908eca52e726ffa6d692d012c4"
+    }
+  ],
+  "errors": []
+}

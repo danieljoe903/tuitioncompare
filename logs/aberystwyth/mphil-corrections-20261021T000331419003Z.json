@@ -1,0 +1,216 @@
+{
+  "generated_at": "2026-10-21T00:03:31.419003+00:00",
+  "university_id": "UK002",
+  "mode": "apply",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\remaining-review-20261020T231510825902Z\\remaining-course-review.json",
+  "proposals": [
+    {
+      "course_id": "C_ABE002_RES_03",
+      "changed": true,
+      "before": {
+        "title": "MRes International Politics",
+        "level": "MRES",
+        "duration": "1 Year",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aber.ac.uk"
+      },
+      "after": {
+        "title": "MPhil International Politics",
+        "level": "PG",
+        "duration": "1 Year",
+        "start_month": "January",
+        "start_year": 2027,
+        "course_url": "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/"
+      },
+      "metadata_before": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Stored MRes award differs from the advertised MPhil/PhD International Politics routes.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/",
+            "https://courses.aber.ac.uk/postgraduate/international-relations-L288/",
+            "https://courses.aber.ac.uk/postgraduate/research-international-politics/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "metadata_after": {
+        "verified": false,
+        "fee_review": {
+          "status": "pending",
+          "reason": "Accepted MPhil identity. January 2027 tuition must be mapped to the 2026/27 research fee.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/"
+          ]
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "pending_fee_mapping",
+        "course_identity": {
+          "status": "accepted_current_catalogue_match",
+          "official_title": "International Politics",
+          "official_code": "L2442",
+          "official_award": "MPHL",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+          "note": "Accepted current MPhil replacement for the stored record; historical equivalence is not established."
+        }
+      }
+    },
+    {
+      "course_id": "C_ABE002_RES_08",
+      "changed": true,
+      "before": {
+        "title": "MSc (Research) Computer Science",
+        "level": "MRES",
+        "duration": "1 Year",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aber.ac.uk"
+      },
+      "after": {
+        "title": "MPhil Computer Science",
+        "level": "PG",
+        "duration": "1 Year",
+        "start_month": "January",
+        "start_year": 2027,
+        "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/"
+      },
+      "metadata_before": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Computer Science taught MSc and research MPhil/PhD are distinct routes. The stored MSc Research identity remains unconfirmed.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/computer-science-msc/",
+            "https://courses.aber.ac.uk/postgraduate/computer-science-research/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "metadata_after": {
+        "verified": false,
+        "fee_review": {
+          "status": "pending",
+          "reason": "Accepted MPhil identity. January 2027 tuition must be mapped to the 2026/27 research fee.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/"
+          ]
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "pending_fee_mapping",
+        "course_identity": {
+          "status": "accepted_current_catalogue_match",
+          "official_title": "Computer Science",
+          "official_code": "G4313",
+          "official_award": "MPHL",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-computer-science/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+          "note": "Accepted current MPhil replacement for the stored record; historical equivalence is not established."
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_99",
+      "changed": true,
+      "before": {
+        "title": "MRes Geography and Earth Sciences",
+        "level": "PG",
+        "duration": "1 Year",
+        "start_month": "September",
+        "start_year": 2026,
+        "course_url": "www.aber.ac.uk"
+      },
+      "after": {
+        "title": "MPhil Geography and Earth Sciences (Science)",
+        "level": "PG",
+        "duration": "1 Year",
+        "start_month": "January",
+        "start_year": 2027,
+        "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/"
+      },
+      "metadata_before": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Stored Geography and Earth Sciences MRes differs from advertised MPhil/PhD awards. Programme identity requires confirmation.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-geography/",
+            "https://courses.aber.ac.uk/postgraduate/research-iges/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "metadata_after": {
+        "verified": false,
+        "fee_review": {
+          "status": "pending",
+          "reason": "Accepted MPhil identity. January 2027 tuition must be mapped to the 2026/27 research fee.",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/"
+          ]
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "pending_fee_mapping",
+        "course_identity": {
+          "status": "accepted_current_catalogue_match",
+          "official_title": "Geography and Earth Sciences (Science)",
+          "official_code": "F9352",
+          "official_award": "MPHL",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography-science/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00",
+          "note": "Accepted current MPhil replacement for the stored record; historical equivalence is not established."
+        }
+      }
+    }
+  ],
+  "blocked": [],
+  "tuition_prices_changed": false,
+  "scholarship_amounts_changed": false,
+  "deposit_amounts_changed": false
+}

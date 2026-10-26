@@ -1,0 +1,1078 @@
+{
+  "generated_at": "2026-10-22T00:17:04.577695+00:00",
+  "mode": "preview",
+  "database_changes": false,
+  "policy_evidence": {
+    "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+    "sha256": "73374847cd427605a95d339dd7fd4641af2871482c7ba13ab4c181ebd4b6b861"
+  },
+  "courses": [
+    {
+      "course_id": "C_ARU003_RES_07",
+      "changed": false,
+      "before": {
+        "campus": "Chelmsford Campus",
+        "intake": "January 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for 2026/27, January 2027 intake.",
+        "verified": true,
+        "study_year": 1,
+        "course_kind": "postgraduate_research",
+        "award_review": {
+          "note": "No applicable Education MPhil scholarship deduction or research deposit amount has been verified for January 2027. Confirm with ARU.",
+          "status": "pending"
+        },
+        "mapping_kind": "research_route_correction",
+        "academic_year": "2026/27",
+        "duration_note": "Published full-time MPhil duration: from one to three years.",
+        "source_sha256": "b55e37c54aeaf1b47648a8c8db066ed1dd958f1175b9ade61b6470ac21f87840",
+        "annual_tuition": "17500.00",
+        "deposit_status": "research_deposit_unconfirmed",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "fee_basis": "annual_tuition",
+            "academic_year": "2026/27",
+            "annual_tuition": "17500.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/school-of-education",
+        "scholarship_status": "research_applicability_unconfirmed",
+        "published_fee_basis": "annual_tuition",
+        "source_fee_category": "International",
+        "published_fee_amount": "17500.00"
+      },
+      "after": {
+        "campus": "Chelmsford Campus",
+        "intake": "January 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for 2026/27, January 2027 intake.",
+        "verified": true,
+        "study_year": 1,
+        "course_kind": "postgraduate_research",
+        "award_review": {
+          "status": "pending",
+          "note": "No applicable Education MPhil scholarship deduction or research deposit amount has been verified for January 2027. Confirm with ARU."
+        },
+        "mapping_kind": "research_route_correction",
+        "academic_year": "2026/27",
+        "duration_note": "Published full-time MPhil duration: from one to three years.",
+        "source_sha256": "b55e37c54aeaf1b47648a8c8db066ed1dd958f1175b9ade61b6470ac21f87840",
+        "annual_tuition": "17500.00",
+        "deposit_status": "research_deposit_unconfirmed",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "fee_basis": "annual_tuition",
+            "academic_year": "2026/27",
+            "annual_tuition": "17500.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/school-of-education",
+        "scholarship_status": "research_applicability_unconfirmed",
+        "published_fee_basis": "annual_tuition",
+        "source_fee_category": "International",
+        "published_fee_amount": "17500.00"
+      }
+    },
+    {
+      "course_id": "C_UK003_19",
+      "changed": false,
+      "before": {
+        "campus": "ARU London",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published international total course fee for the one-year full-time ARU London route, September 2027. This is a total course fee, not a separately stated annual rate.",
+        "verified": true,
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "award_review": {
+          "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake.",
+          "status": "pending",
+          "questions": [
+            {
+              "key": "aru_london_alumni",
+              "type": "boolean",
+              "label": "Did you complete a degree at ARU London?",
+              "required": true
+            },
+            {
+              "key": "uk_first_class_degree",
+              "type": "boolean",
+              "label": "Have you achieved a first-class honours degree from a UK university?",
+              "required": true
+            },
+            {
+              "key": "aru_london_award_confirmed",
+              "type": "boolean",
+              "label": "Has ARU London confirmed your scholarship for this course and intake?",
+              "required": true
+            }
+          ],
+          "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+          "entry_award": {
+            "status": "international_intake_confirmation_required",
+            "currency": "GBP",
+            "published_amount": "1000.00"
+          },
+          "alumni_award": {
+            "status": "international_intake_and_alumni_scope_confirmation_required",
+            "currency": "GBP",
+            "published_amount": "2000.00"
+          },
+          "masters_programme": {
+            "deduction_applied": false,
+            "maximum_percentage": "50",
+            "international_applicability": "excluded"
+          }
+        },
+        "mapping_kind": "campus_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "06ab096d4317f838f419569e17fe04ee5f6ef3b3c4977adfbd0a0dbdfcf26a8a",
+        "annual_tuition": "20925.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "fee_basis": "full_time_course_fee",
+            "academic_year": "2027/28",
+            "annual_tuition": "20925.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+        "scholarship_status": "london_international_applicability_pending",
+        "published_fee_basis": "full_time_course_fee",
+        "source_fee_category": "International",
+        "published_fee_amount": "20925.00",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+          "alternative": "sponsorship_letter",
+          "policy_scope_extended": false
+        }
+      },
+      "after": {
+        "campus": "ARU London",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published international total course fee for the one-year full-time ARU London route, September 2027. This is a total course fee, not a separately stated annual rate.",
+        "verified": true,
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "award_review": {
+          "status": "pending",
+          "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+          "masters_programme": {
+            "maximum_percentage": "50",
+            "international_applicability": "excluded",
+            "deduction_applied": false
+          },
+          "alumni_award": {
+            "published_amount": "2000.00",
+            "currency": "GBP",
+            "status": "international_intake_and_alumni_scope_confirmation_required"
+          },
+          "entry_award": {
+            "published_amount": "1000.00",
+            "currency": "GBP",
+            "status": "international_intake_confirmation_required"
+          },
+          "questions": [
+            {
+              "key": "aru_london_alumni",
+              "type": "boolean",
+              "label": "Did you complete a degree at ARU London?",
+              "required": true
+            },
+            {
+              "key": "uk_first_class_degree",
+              "type": "boolean",
+              "label": "Have you achieved a first-class honours degree from a UK university?",
+              "required": true
+            },
+            {
+              "key": "aru_london_award_confirmed",
+              "type": "boolean",
+              "label": "Has ARU London confirmed your scholarship for this course and intake?",
+              "required": true
+            }
+          ],
+          "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake."
+        },
+        "mapping_kind": "campus_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "06ab096d4317f838f419569e17fe04ee5f6ef3b3c4977adfbd0a0dbdfcf26a8a",
+        "annual_tuition": "20925.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "fee_basis": "full_time_course_fee",
+            "academic_year": "2027/28",
+            "annual_tuition": "20925.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+        "scholarship_status": "london_international_applicability_pending",
+        "published_fee_basis": "full_time_course_fee",
+        "source_fee_category": "International",
+        "published_fee_amount": "20925.00",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+          "alternative": "sponsorship_letter",
+          "policy_scope_extended": false
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_24",
+      "changed": false,
+      "before": {
+        "campus": "ARU London",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+        "verified": true,
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "award_review": {
+          "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake.",
+          "status": "pending",
+          "questions": [
+            {
+              "key": "aru_london_alumni",
+              "type": "boolean",
+              "label": "Did you complete a degree at ARU London?",
+              "required": true
+            },
+            {
+              "key": "uk_first_class_degree",
+              "type": "boolean",
+              "label": "Have you achieved a first-class honours degree from a UK university?",
+              "required": true
+            },
+            {
+              "key": "aru_london_award_confirmed",
+              "type": "boolean",
+              "label": "Has ARU London confirmed your scholarship for this course and intake?",
+              "required": true
+            }
+          ],
+          "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+          "entry_award": {
+            "status": "international_intake_confirmation_required",
+            "currency": "GBP",
+            "published_amount": "1000.00"
+          },
+          "alumni_award": {
+            "status": "international_intake_and_alumni_scope_confirmation_required",
+            "currency": "GBP",
+            "published_amount": "2000.00"
+          },
+          "masters_programme": {
+            "deduction_applied": false,
+            "maximum_percentage": "50",
+            "international_applicability": "excluded"
+          }
+        },
+        "mapping_kind": "campus_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "ea91cb50d2fc5d01245490de319d7222ebabab4491fd9c143b5cc0d279bc33b7",
+        "annual_tuition": "20925.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "fee_basis": "annual_tuition",
+            "academic_year": "2027/28",
+            "annual_tuition": "20925.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+        "scholarship_status": "london_international_applicability_pending",
+        "published_fee_basis": "annual_tuition",
+        "source_fee_category": "International",
+        "published_fee_amount": "20925.00",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+          "alternative": "sponsorship_letter",
+          "policy_scope_extended": false
+        }
+      },
+      "after": {
+        "campus": "ARU London",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+        "verified": true,
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "award_review": {
+          "status": "pending",
+          "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+          "masters_programme": {
+            "maximum_percentage": "50",
+            "international_applicability": "excluded",
+            "deduction_applied": false
+          },
+          "alumni_award": {
+            "published_amount": "2000.00",
+            "currency": "GBP",
+            "status": "international_intake_and_alumni_scope_confirmation_required"
+          },
+          "entry_award": {
+            "published_amount": "1000.00",
+            "currency": "GBP",
+            "status": "international_intake_confirmation_required"
+          },
+          "questions": [
+            {
+              "key": "aru_london_alumni",
+              "type": "boolean",
+              "label": "Did you complete a degree at ARU London?",
+              "required": true
+            },
+            {
+              "key": "uk_first_class_degree",
+              "type": "boolean",
+              "label": "Have you achieved a first-class honours degree from a UK university?",
+              "required": true
+            },
+            {
+              "key": "aru_london_award_confirmed",
+              "type": "boolean",
+              "label": "Has ARU London confirmed your scholarship for this course and intake?",
+              "required": true
+            }
+          ],
+          "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake."
+        },
+        "mapping_kind": "campus_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "ea91cb50d2fc5d01245490de319d7222ebabab4491fd9c143b5cc0d279bc33b7",
+        "annual_tuition": "20925.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "fee_basis": "annual_tuition",
+            "academic_year": "2027/28",
+            "annual_tuition": "20925.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+        "scholarship_status": "london_international_applicability_pending",
+        "published_fee_basis": "annual_tuition",
+        "source_fee_category": "International",
+        "published_fee_amount": "20925.00",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+          "alternative": "sponsorship_letter",
+          "policy_scope_extended": false
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_26",
+      "changed": false,
+      "before": {
+        "campus": "ARU London",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "The reviewed ARU London Public Health page does not provide a confirmed international tuition amount. International tuition is unavailable pending confirmation; the stored amount must not be presented as verified.",
+        "verified": false,
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "award_review": {
+          "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake.",
+          "status": "pending",
+          "questions": [
+            {
+              "key": "aru_london_alumni",
+              "type": "boolean",
+              "label": "Did you complete a degree at ARU London?",
+              "required": true
+            },
+            {
+              "key": "uk_first_class_degree",
+              "type": "boolean",
+              "label": "Have you achieved a first-class honours degree from a UK university?",
+              "required": true
+            },
+            {
+              "key": "aru_london_award_confirmed",
+              "type": "boolean",
+              "label": "Has ARU London confirmed your scholarship for this course and intake?",
+              "required": true
+            }
+          ],
+          "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+          "entry_award": {
+            "status": "international_intake_confirmation_required",
+            "currency": "GBP",
+            "published_amount": "1000.00"
+          },
+          "alumni_award": {
+            "status": "international_intake_and_alumni_scope_confirmation_required",
+            "currency": "GBP",
+            "published_amount": "2000.00"
+          },
+          "masters_programme": {
+            "deduction_applied": false,
+            "maximum_percentage": "50",
+            "international_applicability": "excluded"
+          }
+        },
+        "mapping_kind": "campus_correction",
+        "academic_year": "",
+        "source_sha256": "9ad8f5967613e5c3589a1a18ba3f4f6ecb43cf2da6d67cb9f964abd198ac44d8",
+        "deposit_status": "international_deposit_unconfirmed",
+        "fee_categories": [],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/master-of-public-health-london",
+        "scholarship_status": "london_international_applicability_pending",
+        "source_fee_category": "International",
+        "verification_reason": "The reviewed ARU London Public Health page does not provide a confirmed international tuition amount. International tuition is unavailable pending confirmation; the stored amount must not be presented as verified."
+      },
+      "after": {
+        "campus": "ARU London",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "The reviewed ARU London Public Health page does not provide a confirmed international tuition amount. International tuition is unavailable pending confirmation; the stored amount must not be presented as verified.",
+        "verified": false,
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "award_review": {
+          "status": "pending",
+          "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+          "masters_programme": {
+            "maximum_percentage": "50",
+            "international_applicability": "excluded",
+            "deduction_applied": false
+          },
+          "alumni_award": {
+            "published_amount": "2000.00",
+            "currency": "GBP",
+            "status": "international_intake_and_alumni_scope_confirmation_required"
+          },
+          "entry_award": {
+            "published_amount": "1000.00",
+            "currency": "GBP",
+            "status": "international_intake_confirmation_required"
+          },
+          "questions": [
+            {
+              "key": "aru_london_alumni",
+              "type": "boolean",
+              "label": "Did you complete a degree at ARU London?",
+              "required": true
+            },
+            {
+              "key": "uk_first_class_degree",
+              "type": "boolean",
+              "label": "Have you achieved a first-class honours degree from a UK university?",
+              "required": true
+            },
+            {
+              "key": "aru_london_award_confirmed",
+              "type": "boolean",
+              "label": "Has ARU London confirmed your scholarship for this course and intake?",
+              "required": true
+            }
+          ],
+          "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake."
+        },
+        "mapping_kind": "campus_correction",
+        "academic_year": "",
+        "source_sha256": "9ad8f5967613e5c3589a1a18ba3f4f6ecb43cf2da6d67cb9f964abd198ac44d8",
+        "deposit_status": "international_deposit_unconfirmed",
+        "fee_categories": [],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/master-of-public-health-london",
+        "scholarship_status": "london_international_applicability_pending",
+        "source_fee_category": "International",
+        "verification_reason": "The reviewed ARU London Public Health page does not provide a confirmed international tuition amount. International tuition is unavailable pending confirmation; the stored amount must not be presented as verified."
+      }
+    },
+    {
+      "course_id": "C_UK003_29",
+      "changed": false,
+      "before": {
+        "campus": "ARU London",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+        "verified": true,
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "award_review": {
+          "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake.",
+          "status": "pending",
+          "questions": [
+            {
+              "key": "aru_london_alumni",
+              "type": "boolean",
+              "label": "Did you complete a degree at ARU London?",
+              "required": true
+            },
+            {
+              "key": "uk_first_class_degree",
+              "type": "boolean",
+              "label": "Have you achieved a first-class honours degree from a UK university?",
+              "required": true
+            },
+            {
+              "key": "aru_london_award_confirmed",
+              "type": "boolean",
+              "label": "Has ARU London confirmed your scholarship for this course and intake?",
+              "required": true
+            }
+          ],
+          "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+          "entry_award": {
+            "status": "international_intake_confirmation_required",
+            "currency": "GBP",
+            "published_amount": "1000.00"
+          },
+          "alumni_award": {
+            "status": "international_intake_and_alumni_scope_confirmation_required",
+            "currency": "GBP",
+            "published_amount": "2000.00"
+          },
+          "masters_programme": {
+            "deduction_applied": false,
+            "maximum_percentage": "50",
+            "international_applicability": "excluded"
+          }
+        },
+        "mapping_kind": "campus_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "5e16d5b3ec2fd9cc9cd99cfb2af655d9102446d4b5578c81ca9c721594ef5390",
+        "annual_tuition": "20925.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "fee_basis": "annual_tuition",
+            "academic_year": "2027/28",
+            "annual_tuition": "20925.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+        "scholarship_status": "london_international_applicability_pending",
+        "published_fee_basis": "annual_tuition",
+        "source_fee_category": "International",
+        "published_fee_amount": "20925.00",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+          "alternative": "sponsorship_letter",
+          "policy_scope_extended": false
+        }
+      },
+      "after": {
+        "campus": "ARU London",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+        "verified": true,
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "award_review": {
+          "status": "pending",
+          "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+          "masters_programme": {
+            "maximum_percentage": "50",
+            "international_applicability": "excluded",
+            "deduction_applied": false
+          },
+          "alumni_award": {
+            "published_amount": "2000.00",
+            "currency": "GBP",
+            "status": "international_intake_and_alumni_scope_confirmation_required"
+          },
+          "entry_award": {
+            "published_amount": "1000.00",
+            "currency": "GBP",
+            "status": "international_intake_confirmation_required"
+          },
+          "questions": [
+            {
+              "key": "aru_london_alumni",
+              "type": "boolean",
+              "label": "Did you complete a degree at ARU London?",
+              "required": true
+            },
+            {
+              "key": "uk_first_class_degree",
+              "type": "boolean",
+              "label": "Have you achieved a first-class honours degree from a UK university?",
+              "required": true
+            },
+            {
+              "key": "aru_london_award_confirmed",
+              "type": "boolean",
+              "label": "Has ARU London confirmed your scholarship for this course and intake?",
+              "required": true
+            }
+          ],
+          "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake."
+        },
+        "mapping_kind": "campus_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "5e16d5b3ec2fd9cc9cd99cfb2af655d9102446d4b5578c81ca9c721594ef5390",
+        "annual_tuition": "20925.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "fee_basis": "annual_tuition",
+            "academic_year": "2027/28",
+            "annual_tuition": "20925.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+        "scholarship_status": "london_international_applicability_pending",
+        "published_fee_basis": "annual_tuition",
+        "source_fee_category": "International",
+        "published_fee_amount": "20925.00",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+          "alternative": "sponsorship_letter",
+          "policy_scope_extended": false
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_96",
+      "changed": false,
+      "before": {
+        "campus": "ARU London",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+        "verified": true,
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "award_review": {
+          "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake.",
+          "status": "pending",
+          "questions": [
+            {
+              "key": "aru_london_alumni",
+              "type": "boolean",
+              "label": "Did you complete a degree at ARU London?",
+              "required": true
+            },
+            {
+              "key": "uk_first_class_degree",
+              "type": "boolean",
+              "label": "Have you achieved a first-class honours degree from a UK university?",
+              "required": true
+            },
+            {
+              "key": "aru_london_award_confirmed",
+              "type": "boolean",
+              "label": "Has ARU London confirmed your scholarship for this course and intake?",
+              "required": true
+            }
+          ],
+          "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+          "entry_award": {
+            "status": "international_intake_confirmation_required",
+            "currency": "GBP",
+            "published_amount": "1000.00"
+          },
+          "alumni_award": {
+            "status": "international_intake_and_alumni_scope_confirmation_required",
+            "currency": "GBP",
+            "published_amount": "2000.00"
+          },
+          "masters_programme": {
+            "deduction_applied": false,
+            "maximum_percentage": "50",
+            "international_applicability": "excluded"
+          }
+        },
+        "mapping_kind": "campus_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "9695c8f366659cdb055c1334a76b727390895b5cd1cc7061337376635402b297",
+        "annual_tuition": "20925.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "fee_basis": "annual_tuition",
+            "academic_year": "2027/28",
+            "annual_tuition": "20925.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management",
+        "scholarship_status": "london_international_applicability_pending",
+        "published_fee_basis": "annual_tuition",
+        "source_fee_category": "International",
+        "published_fee_amount": "20925.00",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management",
+          "alternative": "sponsorship_letter",
+          "policy_scope_extended": false
+        }
+      },
+      "after": {
+        "campus": "ARU London",
+        "intake": "September 2027",
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+        "verified": true,
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "award_review": {
+          "status": "pending",
+          "source_url": "https://london.aru.ac.uk/admissions/scholarships",
+          "masters_programme": {
+            "maximum_percentage": "50",
+            "international_applicability": "excluded",
+            "deduction_applied": false
+          },
+          "alumni_award": {
+            "published_amount": "2000.00",
+            "currency": "GBP",
+            "status": "international_intake_and_alumni_scope_confirmation_required"
+          },
+          "entry_award": {
+            "published_amount": "1000.00",
+            "currency": "GBP",
+            "status": "international_intake_confirmation_required"
+          },
+          "questions": [
+            {
+              "key": "aru_london_alumni",
+              "type": "boolean",
+              "label": "Did you complete a degree at ARU London?",
+              "required": true
+            },
+            {
+              "key": "uk_first_class_degree",
+              "type": "boolean",
+              "label": "Have you achieved a first-class honours degree from a UK university?",
+              "required": true
+            },
+            {
+              "key": "aru_london_award_confirmed",
+              "type": "boolean",
+              "label": "Has ARU London confirmed your scholarship for this course and intake?",
+              "required": true
+            }
+          ],
+          "note": "No scholarship deduction verified. The Master's Scholarship Programme excludes international students. Other awards require confirmation for this international intake."
+        },
+        "mapping_kind": "campus_correction",
+        "academic_year": "2027/28",
+        "source_sha256": "9695c8f366659cdb055c1334a76b727390895b5cd1cc7061337376635402b297",
+        "annual_tuition": "20925.00",
+        "deposit_status": "verified_policy_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "fee_basis": "annual_tuition",
+            "academic_year": "2027/28",
+            "annual_tuition": "20925.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management",
+        "scholarship_status": "london_international_applicability_pending",
+        "published_fee_basis": "annual_tuition",
+        "source_fee_category": "International",
+        "published_fee_amount": "20925.00",
+        "published_deposit_evidence": {
+          "amount": "4000.00",
+          "currency": "GBP",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management",
+          "alternative": "sponsorship_letter",
+          "policy_scope_extended": false
+        }
+      }
+    }
+  ],
+  "deposit_policy": {
+    "changed": false,
+    "before": {
+      "kind": "fixed",
+      "note": "Current published pre-CAS deposit: £4,000 for full-fee-paying international taught students. Confirm the requirement in the individual offer. Sponsored arrangements require separate assessment. Recheck the current policy before payment.",
+      "amount": "4000.00",
+      "currency": "GBP",
+      "course_ids": [
+        "C_ARU003_02",
+        "C_UK003_01",
+        "C_UK003_03",
+        "C_UK003_04",
+        "C_UK003_06",
+        "C_UK003_07",
+        "C_UK003_08",
+        "C_UK003_09",
+        "C_UK003_10",
+        "C_UK003_100",
+        "C_UK003_101",
+        "C_UK003_102",
+        "C_UK003_103",
+        "C_UK003_105",
+        "C_UK003_11",
+        "C_UK003_13",
+        "C_UK003_14",
+        "C_UK003_15",
+        "C_UK003_16",
+        "C_UK003_17",
+        "C_UK003_19",
+        "C_UK003_20",
+        "C_UK003_21",
+        "C_UK003_23",
+        "C_UK003_24",
+        "C_UK003_25",
+        "C_UK003_27",
+        "C_UK003_28",
+        "C_UK003_29",
+        "C_UK003_32",
+        "C_UK003_33",
+        "C_UK003_34",
+        "C_UK003_35",
+        "C_UK003_36",
+        "C_UK003_37",
+        "C_UK003_38",
+        "C_UK003_39",
+        "C_UK003_40",
+        "C_UK003_42",
+        "C_UK003_45",
+        "C_UK003_47",
+        "C_UK003_48",
+        "C_UK003_49",
+        "C_UK003_50",
+        "C_UK003_51",
+        "C_UK003_53",
+        "C_UK003_55",
+        "C_UK003_57",
+        "C_UK003_58",
+        "C_UK003_60",
+        "C_UK003_62",
+        "C_UK003_63",
+        "C_UK003_67",
+        "C_UK003_68",
+        "C_UK003_69",
+        "C_UK003_72",
+        "C_UK003_73",
+        "C_UK003_74",
+        "C_UK003_75",
+        "C_UK003_76",
+        "C_UK003_77",
+        "C_UK003_78",
+        "C_UK003_79",
+        "C_UK003_80",
+        "C_UK003_83",
+        "C_UK003_84",
+        "C_UK003_85",
+        "C_UK003_86",
+        "C_UK003_90",
+        "C_UK003_91",
+        "C_UK003_92",
+        "C_UK003_93",
+        "C_UK003_95",
+        "C_UK003_96",
+        "C_UK003_97",
+        "C_UK003_98",
+        "C_UK003_99"
+      ],
+      "fee_status": "INTL",
+      "course_kinds": [
+        "postgraduate_taught",
+        "undergraduate_taught",
+        "undergraduate_topup"
+      ],
+      "academic_year": "2027/28",
+      "payment_stage": "before_cas",
+      "source_period": "current_undated_policy",
+      "schema_version": 1,
+      "full_fee_paying": true,
+      "course_source_urls": {
+        "C_UK003_19": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+        "C_UK003_24": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+        "C_UK003_29": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+        "C_UK003_96": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management"
+      },
+      "eligibility_questions": [
+        {
+          "key": "requires_student_visa",
+          "type": "boolean",
+          "question": "Do you require a Student visa?"
+        },
+        {
+          "key": "full_fee_paying",
+          "type": "boolean",
+          "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+        },
+        {
+          "key": "sponsored",
+          "type": "boolean",
+          "question": "Will a sponsor provide a sponsorship letter?"
+        }
+      ],
+      "requires_student_visa": true,
+      "deduct_scholarship_from_deposit": false,
+      "offer_letter_confirmation_required": true,
+      "sponsorship_letter_requires_review": true
+    },
+    "after": {
+      "kind": "fixed",
+      "note": "Current published pre-CAS deposit: £4,000 for full-fee-paying international taught students. Confirm the requirement in the individual offer. Sponsored arrangements require separate assessment. Recheck the current policy before payment.",
+      "amount": "4000.00",
+      "currency": "GBP",
+      "course_ids": [
+        "C_ARU003_02",
+        "C_UK003_01",
+        "C_UK003_03",
+        "C_UK003_04",
+        "C_UK003_06",
+        "C_UK003_07",
+        "C_UK003_08",
+        "C_UK003_09",
+        "C_UK003_10",
+        "C_UK003_100",
+        "C_UK003_101",
+        "C_UK003_102",
+        "C_UK003_103",
+        "C_UK003_105",
+        "C_UK003_11",
+        "C_UK003_13",
+        "C_UK003_14",
+        "C_UK003_15",
+        "C_UK003_16",
+        "C_UK003_17",
+        "C_UK003_19",
+        "C_UK003_20",
+        "C_UK003_21",
+        "C_UK003_23",
+        "C_UK003_24",
+        "C_UK003_25",
+        "C_UK003_27",
+        "C_UK003_28",
+        "C_UK003_29",
+        "C_UK003_32",
+        "C_UK003_33",
+        "C_UK003_34",
+        "C_UK003_35",
+        "C_UK003_36",
+        "C_UK003_37",
+        "C_UK003_38",
+        "C_UK003_39",
+        "C_UK003_40",
+        "C_UK003_42",
+        "C_UK003_45",
+        "C_UK003_47",
+        "C_UK003_48",
+        "C_UK003_49",
+        "C_UK003_50",
+        "C_UK003_51",
+        "C_UK003_53",
+        "C_UK003_55",
+        "C_UK003_57",
+        "C_UK003_58",
+        "C_UK003_60",
+        "C_UK003_62",
+        "C_UK003_63",
+        "C_UK003_67",
+        "C_UK003_68",
+        "C_UK003_69",
+        "C_UK003_72",
+        "C_UK003_73",
+        "C_UK003_74",
+        "C_UK003_75",
+        "C_UK003_76",
+        "C_UK003_77",
+        "C_UK003_78",
+        "C_UK003_79",
+        "C_UK003_80",
+        "C_UK003_83",
+        "C_UK003_84",
+        "C_UK003_85",
+        "C_UK003_86",
+        "C_UK003_90",
+        "C_UK003_91",
+        "C_UK003_92",
+        "C_UK003_93",
+        "C_UK003_95",
+        "C_UK003_96",
+        "C_UK003_97",
+        "C_UK003_98",
+        "C_UK003_99"
+      ],
+      "fee_status": "INTL",
+      "course_kinds": [
+        "postgraduate_taught",
+        "undergraduate_taught",
+        "undergraduate_topup"
+      ],
+      "academic_year": "2027/28",
+      "payment_stage": "before_cas",
+      "source_period": "current_undated_policy",
+      "schema_version": 1,
+      "full_fee_paying": true,
+      "course_source_urls": {
+        "C_UK003_19": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+        "C_UK003_24": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+        "C_UK003_29": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+        "C_UK003_96": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management"
+      },
+      "eligibility_questions": [
+        {
+          "key": "requires_student_visa",
+          "type": "boolean",
+          "question": "Do you require a Student visa?"
+        },
+        {
+          "key": "full_fee_paying",
+          "type": "boolean",
+          "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+        },
+        {
+          "key": "sponsored",
+          "type": "boolean",
+          "question": "Will a sponsor provide a sponsorship letter?"
+        }
+      ],
+      "requires_student_visa": true,
+      "deduct_scholarship_from_deposit": false,
+      "offer_letter_confirmation_required": true,
+      "sponsorship_letter_requires_review": true
+    }
+  },
+  "proposed_items": 0,
+  "completed": true
+}

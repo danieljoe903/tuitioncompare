@@ -1,0 +1,218 @@
+{
+  "mode": "preview",
+  "database_changes": false,
+  "committed": false,
+  "academic_year": "2026/27",
+  "policy_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+  "policy_sha256": "5791a60681c40485778310a16d290859c56d219eaeaf36f3c69ab6a3103a0680",
+  "evidence": {
+    "C_ABE001_RES_06": {
+      "source_title": "Food & Drink Science & Technology Novel & Sustainable Production including new product development",
+      "source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/food-drink-science-technology/",
+      "snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\C_ABE001_RES_06-f97a004c5d81.html",
+      "sha256": "f97a004c5d81536ee3e56dc9e0382a0c972863caa32efb95d921eecc27cdee3b",
+      "details": {
+        "Start Date": "Multiple Start Dates,February, June, October",
+        "Duration": "MSc by Research normally 1 year full-time or 2 years part-time, MPhil normally 2 years full-time or 4 years part-time, PhD normally 3 years full-time or 6 years part-time",
+        "Award Title": "MSc by Research, MPhil, PhD"
+      }
+    },
+    "C_ABE001_RES_08": {
+      "source_title": "Professional development in mental health nursing and counselling MSc by Research, MPhil, PhD",
+      "source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/professional-development-in-mental-health-nursing-and-counselling/",
+      "snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\abertay-fees\\source-evidence\\C_ABE001_RES_08-18000b41639f.html",
+      "sha256": "18000b41639f17d54c4687c44b6f299cba1ad9ea8d375d7ac0644d9dfaaae5f5",
+      "details": {
+        "Start Date": "Multiple Start Dates,February, June, October",
+        "Duration": "MSc by Research normally 1 year full-time or 2 years part-time, MPhil normally 2 years full-time or 4 years part-time, PhD normally 3 years full-time or 6 years part-time",
+        "Award Title": "MSc by Research, MPhil, PhD"
+      }
+    }
+  },
+  "proposals": [
+    {
+      "course_id": "C_ABE001_RES_06",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "Food Science and Technology MSc by Research",
+          "level": "MRES",
+          "duration": "1 Year",
+          "start_month": "October",
+          "start_year": 2026,
+          "course_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/food-drink-science-technology/",
+          "is_active": true
+        },
+        "tuition_fee": "22000.0",
+        "source_metadata": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+          "source_course_code": "",
+          "source_course_name": "Food & Drink Science & Technology Novel & Sustainable Production including new product development",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_method": "reviewed_research_subject",
+            "fee_status": "International",
+            "course_kind": "masters_by_research",
+            "review_note": "Published annual Masters by Research fee. The course page currently states that international Masters by Research/MPhil applications are not being accepted because of CAS availability. A published fee does not confirm that applications are open.",
+            "annual_tuition": "£22,000",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "Published annual Masters by Research fee. The course page currently states that international Masters by Research/MPhil applications are not being accepted because of CAS availability. A published fee does not confirm that applications are open.",
+                "academic_year": "2026/27",
+                "annual_tuition": "22000.00",
+                "raw_annual_fee": "£22,000",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/food-drink-science-technology/",
+            "source_fee_category": "International",
+            "international_applications_open": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "Food Science and Technology MSc by Research",
+          "level": "MRES",
+          "duration": "1 Year",
+          "start_month": "October",
+          "start_year": 2026,
+          "course_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/food-drink-science-technology/",
+          "is_active": true
+        },
+        "tuition_fee": "22000.00",
+        "source_metadata": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+          "source_course_code": "",
+          "source_course_name": "Food & Drink Science & Technology Novel & Sustainable Production including new product development",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£22,000",
+            "course_kind": "masters_by_research",
+            "course_source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/food-drink-science-technology/",
+            "fee_method": "reviewed_research_subject",
+            "international_applications_open": false,
+            "review_note": "Published annual Masters by Research fee. The course page currently states that international Masters by Research/MPhil applications are not being accepted because of CAS availability. A published fee does not confirm that applications are open.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "raw_annual_fee": "£22,000",
+                "annual_tuition": "22000.00",
+                "footnote_marker": "",
+                "annotation": "Published annual Masters by Research fee. The course page currently states that international Masters by Research/MPhil applications are not being accepted because of CAS availability. A published fee does not confirm that applications are open.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_ABE001_RES_08",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "Mental Health Nursing MSc by Research",
+          "level": "MRES",
+          "duration": "1 Year",
+          "start_month": "October",
+          "start_year": 2026,
+          "course_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/professional-development-in-mental-health-nursing-and-counselling/",
+          "is_active": true
+        },
+        "tuition_fee": "22000.0",
+        "source_metadata": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+          "source_course_code": "",
+          "source_course_name": "Professional development in mental health nursing and counselling MSc by Research, MPhil, PhD",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_method": "reviewed_research_subject",
+            "fee_status": "International",
+            "course_kind": "masters_by_research",
+            "review_note": "Published annual Masters by Research fee. The course page currently states that international Masters by Research/MPhil applications are not being accepted because of CAS availability. A published fee does not confirm that applications are open.",
+            "annual_tuition": "£22,000",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "Published annual Masters by Research fee. The course page currently states that international Masters by Research/MPhil applications are not being accepted because of CAS availability. A published fee does not confirm that applications are open.",
+                "academic_year": "2026/27",
+                "annual_tuition": "22000.00",
+                "raw_annual_fee": "£22,000",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "course_source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/professional-development-in-mental-health-nursing-and-counselling/",
+            "source_fee_category": "International",
+            "international_applications_open": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "Mental Health Nursing MSc by Research",
+          "level": "MRES",
+          "duration": "1 Year",
+          "start_month": "October",
+          "start_year": 2026,
+          "course_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/professional-development-in-mental-health-nursing-and-counselling/",
+          "is_active": true
+        },
+        "tuition_fee": "22000.00",
+        "source_metadata": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+          "source_course_code": "",
+          "source_course_name": "Professional development in mental health nursing and counselling MSc by Research, MPhil, PhD",
+          "fee_basis": "annual_tuition",
+          "student_contribution": null,
+          "published_total": null,
+          "raw_fees": {
+            "fee_status": "International",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "£22,000",
+            "course_kind": "masters_by_research",
+            "course_source_url": "https://www.abertay.ac.uk/course-search/postgraduate-research/professional-development-in-mental-health-nursing-and-counselling/",
+            "fee_method": "reviewed_research_subject",
+            "international_applications_open": false,
+            "review_note": "Published annual Masters by Research fee. The course page currently states that international Masters by Research/MPhil applications are not being accepted because of CAS availability. A published fee does not confirm that applications are open.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "raw_annual_fee": "£22,000",
+                "annual_tuition": "22000.00",
+                "footnote_marker": "",
+                "annotation": "Published annual Masters by Research fee. The course page currently states that international Masters by Research/MPhil applications are not being accepted because of CAS availability. A published fee does not confirm that applications are open.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

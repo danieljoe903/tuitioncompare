@@ -1,0 +1,9 @@
+﻿{
+    "project_root":  "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main",
+    "python_executable":  "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\venv312\\Scripts\\python.exe",
+    "academic_year":  "2026/27",
+    "timeout_seconds":  900,
+    "log_retention_days":  90,
+    "mapping_file":  null,
+    "university_id":  null
+}

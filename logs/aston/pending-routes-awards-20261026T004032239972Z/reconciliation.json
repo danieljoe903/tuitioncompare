@@ -1,0 +1,1187 @@
+{
+  "university_id": "UK007",
+  "generated_at": "2026-10-26T00:40:40.588275+00:00",
+  "database_changes": true,
+  "changed_items": 6,
+  "rules": [
+    {
+      "name": "Aston International Community Scholarship — UG September 2027 — reviewed30",
+      "course_count": 19,
+      "changed": false,
+      "rules": {
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "ics_ug_sep",
+        "benefit": "tuition",
+        "kind": "fixed",
+        "value": "3000.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_ics_applied": [
+            true
+          ],
+          "aston_ug_direct_nonpartner": [
+            true
+          ],
+          "course_id": [
+            "C_UK007_01",
+            "C_UK007_02",
+            "C_UK007_03",
+            "C_UK007_04",
+            "C_UK007_05",
+            "C_UK007_06",
+            "C_UK007_07",
+            "C_UK007_08",
+            "C_UK007_09",
+            "C_UK007_10",
+            "C_UK007_11",
+            "C_UK007_12",
+            "C_UK007_13",
+            "C_UK007_14",
+            "C_UK007_15",
+            "C_UK007_16",
+            "C_UK007_34",
+            "C_UK007_35",
+            "C_UK007_38"
+          ],
+          "fee_status": [
+            "INTL"
+          ]
+        },
+        "award_status": "conditional",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "fee_basis": "first_year_tuition",
+        "intake_month": "September",
+        "intake_year": 2027,
+        "application_deadline": null,
+        "deadline_blocks_new_applications_only": true,
+        "questions_location": "scholarship_page",
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_ics_applied",
+            "type": "boolean",
+            "label": "Has Aston confirmed the Community Scholarship has been formally applied for this exact programme/intake?"
+          },
+          {
+            "key": "aston_ug_direct_nonpartner",
+            "type": "boolean",
+            "label": "Are you entering Year 1 directly, outside every formal partnership, progression or articulation agreement?"
+          }
+        ],
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "evidence_sha256": "56f6639a449ff9bdbe064fdf2ba86ca609ca9521795b7f88bc461046a7a3a87f"
+      }
+    },
+    {
+      "name": "Aston Sir Adrian Cadbury Chancellor’s Scholarship — UG September 2027 — reviewed30",
+      "course_count": 19,
+      "changed": false,
+      "rules": {
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "cadbury_ug_sep",
+        "benefit": "tuition",
+        "kind": "fixed",
+        "value": "10000.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_cadbury_application_accepted": [
+            true
+          ],
+          "aston_cadbury_awarded_applied": [
+            true
+          ],
+          "course_id": [
+            "C_UK007_01",
+            "C_UK007_02",
+            "C_UK007_03",
+            "C_UK007_04",
+            "C_UK007_05",
+            "C_UK007_06",
+            "C_UK007_07",
+            "C_UK007_08",
+            "C_UK007_09",
+            "C_UK007_10",
+            "C_UK007_11",
+            "C_UK007_12",
+            "C_UK007_13",
+            "C_UK007_14",
+            "C_UK007_15",
+            "C_UK007_16",
+            "C_UK007_34",
+            "C_UK007_35",
+            "C_UK007_38"
+          ],
+          "fee_status": [
+            "INTL"
+          ]
+        },
+        "award_status": "conditional",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "fee_basis": "first_year_tuition",
+        "intake_month": "September",
+        "intake_year": 2027,
+        "application_deadline": null,
+        "deadline_blocks_new_applications_only": true,
+        "questions_location": "scholarship_page",
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_cadbury_application_accepted",
+            "type": "boolean",
+            "label": "Has Aston confirmed your official Cadbury application was submitted and eligible within the applicable deadline?"
+          },
+          {
+            "key": "aston_cadbury_awarded_applied",
+            "type": "boolean",
+            "label": "Has Aston awarded and applied the GBP 10,000 Cadbury Scholarship to this exact programme/intake and confirmed it is the applicable single award?"
+          }
+        ],
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "evidence_sha256": "c1b13050a1290cb75b09396389d1bc8d5573db1a0253297274601ec297de85a3"
+      }
+    },
+    {
+      "name": "Aston International Community Scholarship — PG January 2027 — reviewed30",
+      "course_count": 19,
+      "changed": true,
+      "rules": {
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "ics_pg_jan",
+        "benefit": "tuition",
+        "kind": "fixed",
+        "value": "4000.00",
+        "currency": "GBP",
+        "academic_year": "2026/27",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_ics_applied": [
+            true
+          ],
+          "aston_pg_no_dedicated_partner_award": [
+            true
+          ],
+          "course_id": [
+            "C_UK007_18",
+            "C_UK007_19",
+            "C_UK007_20",
+            "C_UK007_21",
+            "C_UK007_22",
+            "C_UK007_23",
+            "C_UK007_25",
+            "C_UK007_29",
+            "C_UK007_30",
+            "C_UK007_39",
+            "C_UK007_40",
+            "C_UK007_41",
+            "C_UK007_42",
+            "C_UK007_43",
+            "C_UK007_44",
+            "C_UK007_45",
+            "C_UK007_46",
+            "C_UK007_48",
+            "C_UK007_49"
+          ],
+          "fee_status": [
+            "INTL"
+          ]
+        },
+        "award_status": "conditional",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "fee_basis": "annual_tuition",
+        "intake_month": "January",
+        "intake_year": 2027,
+        "application_deadline": null,
+        "deadline_blocks_new_applications_only": true,
+        "questions_location": "scholarship_page",
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_ics_applied",
+            "type": "boolean",
+            "label": "Has Aston confirmed the Community Scholarship has been formally applied for this exact programme/intake?"
+          },
+          {
+            "key": "aston_pg_no_dedicated_partner_award",
+            "type": "boolean",
+            "label": "Has Aston confirmed that no separate dedicated partnership/progression fee arrangement excludes you from PG ICS?"
+          }
+        ],
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "evidence_sha256": "7569bd4b666e8e8beff4e0afdfca96c226404cb60fef4ef70da662907a0189cd"
+      }
+    },
+    {
+      "name": "Aston Sir Adrian Cadbury Chancellor’s Scholarship — PG January 2027 — reviewed30",
+      "course_count": 19,
+      "changed": true,
+      "rules": {
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "cadbury_pg_jan",
+        "benefit": "tuition",
+        "kind": "fixed",
+        "value": "10000.00",
+        "currency": "GBP",
+        "academic_year": "2026/27",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_cadbury_application_accepted": [
+            true
+          ],
+          "aston_cadbury_awarded_applied": [
+            true
+          ],
+          "course_id": [
+            "C_UK007_18",
+            "C_UK007_19",
+            "C_UK007_20",
+            "C_UK007_21",
+            "C_UK007_22",
+            "C_UK007_23",
+            "C_UK007_25",
+            "C_UK007_29",
+            "C_UK007_30",
+            "C_UK007_39",
+            "C_UK007_40",
+            "C_UK007_41",
+            "C_UK007_42",
+            "C_UK007_43",
+            "C_UK007_44",
+            "C_UK007_45",
+            "C_UK007_46",
+            "C_UK007_48",
+            "C_UK007_49"
+          ],
+          "fee_status": [
+            "INTL"
+          ]
+        },
+        "award_status": "conditional",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "fee_basis": "annual_tuition",
+        "intake_month": "January",
+        "intake_year": 2027,
+        "application_deadline": "2026-11-01",
+        "deadline_blocks_new_applications_only": true,
+        "questions_location": "scholarship_page",
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_cadbury_application_accepted",
+            "type": "boolean",
+            "label": "Has Aston confirmed your official Cadbury application was submitted and eligible within the applicable deadline?"
+          },
+          {
+            "key": "aston_cadbury_awarded_applied",
+            "type": "boolean",
+            "label": "Has Aston awarded and applied the GBP 10,000 Cadbury Scholarship to this exact programme/intake and confirmed it is the applicable single award?"
+          }
+        ],
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "evidence_sha256": "c1b13050a1290cb75b09396389d1bc8d5573db1a0253297274601ec297de85a3"
+      }
+    },
+    {
+      "name": "Aston International Community Scholarship — PG September 2027 — reviewed30",
+      "course_count": 2,
+      "changed": false,
+      "rules": {
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "ics_pg_sep",
+        "benefit": "tuition",
+        "kind": "fixed",
+        "value": "5500.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_ics_applied": [
+            true
+          ],
+          "aston_pg_no_dedicated_partner_award": [
+            true
+          ],
+          "course_id": [
+            "C_UK007_27",
+            "C_UK007_28"
+          ],
+          "fee_status": [
+            "INTL"
+          ]
+        },
+        "award_status": "conditional",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "fee_basis": "annual_tuition",
+        "intake_month": "September",
+        "intake_year": 2027,
+        "application_deadline": null,
+        "deadline_blocks_new_applications_only": true,
+        "questions_location": "scholarship_page",
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_ics_applied",
+            "type": "boolean",
+            "label": "Has Aston confirmed the Community Scholarship has been formally applied for this exact programme/intake?"
+          },
+          {
+            "key": "aston_pg_no_dedicated_partner_award",
+            "type": "boolean",
+            "label": "Has Aston confirmed that no separate dedicated partnership/progression fee arrangement excludes you from PG ICS?"
+          }
+        ],
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "evidence_sha256": "538c22d428e0ad49a0299246cfec84a90ea4e3ff4a757649dbc0efd339ac59e3"
+      }
+    },
+    {
+      "name": "Aston Sir Adrian Cadbury Chancellor’s Scholarship — PG September 2027 — reviewed30",
+      "course_count": 2,
+      "changed": false,
+      "rules": {
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "cadbury_pg_sep",
+        "benefit": "tuition",
+        "kind": "fixed",
+        "value": "10000.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_cadbury_application_accepted": [
+            true
+          ],
+          "aston_cadbury_awarded_applied": [
+            true
+          ],
+          "course_id": [
+            "C_UK007_27",
+            "C_UK007_28"
+          ],
+          "fee_status": [
+            "INTL"
+          ]
+        },
+        "award_status": "conditional",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "fee_basis": "annual_tuition",
+        "intake_month": "September",
+        "intake_year": 2027,
+        "application_deadline": null,
+        "deadline_blocks_new_applications_only": true,
+        "questions_location": "scholarship_page",
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_cadbury_application_accepted",
+            "type": "boolean",
+            "label": "Has Aston confirmed your official Cadbury application was submitted and eligible within the applicable deadline?"
+          },
+          {
+            "key": "aston_cadbury_awarded_applied",
+            "type": "boolean",
+            "label": "Has Aston awarded and applied the GBP 10,000 Cadbury Scholarship to this exact programme/intake and confirmed it is the applicable single award?"
+          }
+        ],
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "evidence_sha256": "c1b13050a1290cb75b09396389d1bc8d5573db1a0253297274601ec297de85a3"
+      }
+    },
+    {
+      "name": "Aston International Community Scholarship — Top-up September 2027 — reviewed",
+      "course_count": 1,
+      "changed": true,
+      "rules": {
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "ics_topup_sep",
+        "benefit": "tuition",
+        "kind": "fixed",
+        "value": "3000.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_ics_applied": [
+            true
+          ],
+          "aston_topup_community_confirmed": [
+            true
+          ],
+          "aston_topup_nonpartner": [
+            true
+          ],
+          "course_id": [
+            "C_AST007_01"
+          ],
+          "fee_status": [
+            "INTL"
+          ]
+        },
+        "award_status": "conditional",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "fee_basis": "annual_tuition",
+        "intake_month": "September",
+        "intake_year": 2027,
+        "application_deadline": null,
+        "deadline_blocks_new_applications_only": true,
+        "questions_location": "scholarship_page",
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_ics_applied",
+            "type": "boolean",
+            "label": "Has Aston confirmed the Community Scholarship has been formally applied for this exact programme/intake?"
+          },
+          {
+            "key": "aston_topup_community_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the single GBP 3,000 Community payment applies to your exact final-year Top-up offer and September 2027 intake?"
+          },
+          {
+            "key": "aston_topup_nonpartner",
+            "type": "boolean",
+            "label": "Has Aston confirmed that no excluded formal partnership, progression or articulation agreement applies to your Top-up entry?"
+          }
+        ],
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "evidence_sha256": "fca53728010d2dced7be908b9df798f869bcdefe3b2cc42aaeef6fff3772d0be"
+      }
+    },
+    {
+      "name": "Aston International Community Scholarship — MPH September 2027 — reviewed",
+      "course_count": 1,
+      "changed": true,
+      "rules": {
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "ics_mph_sep",
+        "benefit": "tuition",
+        "kind": "fixed",
+        "value": "5500.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "study_years": [
+          1
+        ],
+        "conditions": {
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_ics_applied": [
+            true
+          ],
+          "aston_pg_no_dedicated_partner_award": [
+            true
+          ],
+          "course_id": [
+            "C_UK007_26"
+          ],
+          "fee_status": [
+            "INTL"
+          ]
+        },
+        "award_status": "conditional",
+        "stacking": "exclusive",
+        "compatible_ids": [],
+        "percentage_basis": "original_tuition",
+        "fee_basis_confirmed": true,
+        "fee_basis": "full_time_course_fee",
+        "intake_month": "September",
+        "intake_year": 2027,
+        "application_deadline": null,
+        "deadline_blocks_new_applications_only": true,
+        "questions_location": "scholarship_page",
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_ics_applied",
+            "type": "boolean",
+            "label": "Has Aston confirmed the Community Scholarship has been formally applied for this exact programme/intake?"
+          },
+          {
+            "key": "aston_pg_no_dedicated_partner_award",
+            "type": "boolean",
+            "label": "Has Aston confirmed that no separate dedicated partnership/progression fee arrangement excludes you from PG ICS?"
+          }
+        ],
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "evidence_sha256": "538c22d428e0ad49a0299246cfec84a90ea4e3ff4a757649dbc0efd339ac59e3"
+      }
+    }
+  ],
+  "deposit_policies": [
+    {
+      "academic_year": "2026/27",
+      "changed": true,
+      "rules": {
+        "importer": "aston_first30_awards_v1",
+        "kind": "offer_letter",
+        "academic_year": "2026/27",
+        "currency": "GBP",
+        "fee_status": "INTL",
+        "course_ids": [
+          "C_UK007_18",
+          "C_UK007_19",
+          "C_UK007_20",
+          "C_UK007_21",
+          "C_UK007_22",
+          "C_UK007_23",
+          "C_UK007_25",
+          "C_UK007_29",
+          "C_UK007_30",
+          "C_UK007_39",
+          "C_UK007_40",
+          "C_UK007_41",
+          "C_UK007_42",
+          "C_UK007_43",
+          "C_UK007_44",
+          "C_UK007_45",
+          "C_UK007_46",
+          "C_UK007_48",
+          "C_UK007_49",
+          "C_UK007_50"
+        ],
+        "included_in_tuition": true,
+        "amount": null,
+        "mba_acceptance_deposits": {
+          "C_UK007_50": {
+            "amount": "5000.00",
+            "currency": "GBP",
+            "payment_stage": "offer_acceptance",
+            "included_in_tuition": true,
+            "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027"
+          }
+        },
+        "note": "Deposit amounts remain offer-letter specific. The amount and deadline are stated in the Aston offer. Student-loan and government-sponsor exceptions require Aston assessment; no numeric deposit is inferred. A scholarship is not a deposit payment."
+      }
+    },
+    {
+      "academic_year": "2027/28",
+      "changed": true,
+      "rules": {
+        "importer": "aston_first30_awards_v1",
+        "kind": "offer_letter",
+        "academic_year": "2027/28",
+        "currency": "GBP",
+        "fee_status": "INTL",
+        "course_ids": [
+          "C_AST007_01",
+          "C_UK007_01",
+          "C_UK007_02",
+          "C_UK007_03",
+          "C_UK007_04",
+          "C_UK007_05",
+          "C_UK007_06",
+          "C_UK007_07",
+          "C_UK007_08",
+          "C_UK007_09",
+          "C_UK007_10",
+          "C_UK007_11",
+          "C_UK007_12",
+          "C_UK007_13",
+          "C_UK007_14",
+          "C_UK007_15",
+          "C_UK007_16",
+          "C_UK007_17",
+          "C_UK007_24",
+          "C_UK007_26",
+          "C_UK007_27",
+          "C_UK007_28",
+          "C_UK007_31",
+          "C_UK007_32",
+          "C_UK007_33",
+          "C_UK007_34",
+          "C_UK007_35",
+          "C_UK007_38"
+        ],
+        "included_in_tuition": true,
+        "amount": null,
+        "mba_acceptance_deposits": {
+          "C_UK007_24": {
+            "amount": "5000.00",
+            "currency": "GBP",
+            "payment_stage": "offer_acceptance",
+            "included_in_tuition": true,
+            "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/september-2027"
+          }
+        },
+        "note": "Deposit amounts remain offer-letter specific. The amount and deadline are stated in the Aston offer. Student-loan and government-sponsor exceptions require Aston assessment; no numeric deposit is inferred. A scholarship is not a deposit payment."
+      }
+    }
+  ],
+  "excluded_courses": [
+    "C_UK007_17",
+    "C_UK007_24",
+    "C_UK007_31",
+    "C_UK007_32",
+    "C_UK007_33",
+    "C_UK007_50"
+  ],
+  "notices": [
+    {
+      "name": "Cadbury — January 2027",
+      "status": "open_until_published_deadline",
+      "label": "Applications: deadline 1 November 2026, 23:59 UK time",
+      "note": "Ending the application window does not cancel an already confirmed award."
+    },
+    {
+      "name": "Cadbury — September 2027",
+      "status": "dates_unconfirmed",
+      "label": "Application dates to be confirmed",
+      "note": "Published award terms exist; do not assume the application window is open."
+    },
+    {
+      "name": "Community Scholarships — reviewed 2027 intakes",
+      "status": "conditional_offer_deadline",
+      "label": "Automatic under governing terms; conditions apply",
+      "note": "The UG webpage describes a competitive application, but V3 governing terms state automatic award and take precedence. Deposit and enrolment confirmation are required."
+    }
+  ],
+  "discrepancy": "UG webpage describes competitive applications; governing V3 PDF (13 October 2026) states automatic and takes precedence.",
+  "batch_review": {
+    "topup": "Single conditional GBP 3,000 payment; exact Top-up entry and non-partner confirmation required; Cadbury not extended.",
+    "mph": "Conditional GBP 5,500 Community for full-time September 2027; Cadbury excluded.",
+    "advanced_computer_science": "January 2027 Community GBP 4,000 or confirmed Cadbury GBP 10,000, never combined.",
+    "mba_scholarships": "Both MBA intakes excluded from Community/Cadbury. MBA marketing 2026/27 links to 2025/26 terms; exact-intake award remains pending.",
+    "mba_deposits": "Published GBP 5,000 acceptance deposit on each exact-year course page, included in tuition. Offer/waiver confirmation required for numeric calculation."
+  },
+  "legacy_review": "Two stored Global Excellence awards have an old 14 June 2026 deadline and no verified current rule; they remain excluded, not renamed or rolled into 2027."
+}

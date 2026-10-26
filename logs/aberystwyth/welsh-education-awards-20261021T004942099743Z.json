@@ -1,0 +1,410 @@
+{
+  "generated_at": "2026-10-21T00:49:42.099743+00:00",
+  "mode": "preview",
+  "evidence": {
+    "scholarship": {
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+      "sha256": "922835b209af8a71da1789cdf3a925a966f22e94386cd3ac1af727264b71181d"
+    },
+    "published_row": [
+      "Humanities PhD, MPhil, LLM by Research",
+      "£20,270",
+      "£3,000",
+      "£17,270 + free housing for one academic year*"
+    ],
+    "fees": {
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+      "sha256": "d8d45bc276353b2b2674b7867b5b1db620a184fcce0c606328187f70de60353b"
+    },
+    "courses": {
+      "C_ABE002_RES_09": {
+        "source_url": "https://courses.aber.ac.uk/postgraduate/welsh-mphil/",
+        "sha256": "d809502a07f59b4347656793fdc533e0016617d0c1e9efd6a2bb799cb68dfbce"
+      },
+      "C_UK002_68": {
+        "source_url": "https://courses.aber.ac.uk/postgraduate/research-education/",
+        "sha256": "145f2cc56a4c4fec6d490be77fb7c77cdce799bf2d0a60ecab41230379d33dfb"
+      }
+    }
+  },
+  "award_before": {
+    "award_type": "Tuition Reduction",
+    "award_value": "3000.00",
+    "currency": "GBP",
+    "deadline": null,
+    "eligibility": "New international students on reviewed Humanities research courses for 2027/28.",
+    "requirements": "Offer received; academic entry requirements met; course application by 1 August 2027; no external scholarship, funding or bursary.",
+    "description": "Published annual tuition award: GBP 3000.00. First study year modelled. Eligibility must be confirmed.",
+    "url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+  },
+  "award_after": {
+    "award_type": "Tuition Reduction",
+    "award_value": "3000.00",
+    "currency": "GBP",
+    "deadline": null,
+    "eligibility": "New international students on reviewed Humanities research courses for 2027/28.",
+    "requirements": "Offer received; academic entry requirements met; course application by 1 August 2027; no external scholarship, funding or bursary.",
+    "description": "Published annual tuition award: GBP 3000.00. First study year modelled. Eligibility must be confirmed.",
+    "url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/"
+  },
+  "rule_before": {
+    "verified": true,
+    "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+    "rules": {
+      "kind": "fixed",
+      "value": "3000.00",
+      "benefit": "tuition",
+      "currency": "GBP",
+      "stacking": "exclusive",
+      "conditions": {
+        "course_id": [
+          "C_ABE002_RES_09"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "new_entrant": [
+          true
+        ],
+        "offer_received": [
+          true
+        ],
+        "external_funding": [
+          false
+        ],
+        "applied_by_deadline": [
+          true
+        ],
+        "academic_conditions_met": [
+          true
+        ]
+      },
+      "scope_note": "First compared study year only. Restricted to reviewed Humanities research courses starting in 2027/28.",
+      "study_years": [
+        1
+      ],
+      "award_status": "conditional",
+      "academic_year": "2027/28",
+      "compatible_ids": [],
+      "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+      "percentage_basis": "original_tuition",
+      "fee_basis_confirmed": true,
+      "application_deadline": "2027-08-01",
+      "published_scholarship_table": {
+        "net": "17270.00",
+        "award": "3000.00",
+        "gross": "20270.00"
+      }
+    }
+  },
+  "rule_after": {
+    "verified": true,
+    "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+    "rules": {
+      "benefit": "tuition",
+      "kind": "fixed",
+      "value": "3000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "study_years": [
+        1
+      ],
+      "fee_basis_confirmed": true,
+      "percentage_basis": "original_tuition",
+      "award_status": "conditional",
+      "stacking": "exclusive",
+      "compatible_ids": [],
+      "conditions": {
+        "course_id": [
+          "C_ABE002_RES_09"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "new_entrant": [
+          true
+        ],
+        "academic_conditions_met": [
+          true
+        ],
+        "offer_received": [
+          true
+        ],
+        "applied_by_deadline": [
+          true
+        ],
+        "external_funding": [
+          false
+        ]
+      },
+      "application_deadline": "2027-08-01",
+      "scope_note": "First compared study year only. Restricted to reviewed Humanities research courses starting in 2027/28.",
+      "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+      "published_scholarship_table": {
+        "gross": "20270.00",
+        "award": "3000.00",
+        "net": "17270.00"
+      }
+    }
+  },
+  "courses": {
+    "C_ABE002_RES_09": {
+      "before": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_subject_band",
+        "fee_review": {
+          "reason": "Official research course mapped to the Humanities fee for its advertised intake.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "postgraduate_research",
+        "fee_evidence": {
+          "course": {
+            "sha256": "d809502a07f59b4347656793fdc533e0016617d0c1e9efd6a2bb799cb68dfbce",
+            "source_url": "https://courses.aber.ac.uk/postgraduate/welsh-mphil/"
+          },
+          "fee_schedule": {
+            "sha256": "d8d45bc276353b2b2674b7867b5b1db620a184fcce0c606328187f70de60353b",
+            "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/"
+          }
+        },
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is specified in your individual offer letter.",
+          "scholarship": "GBP 3000.00 Global Citizens tuition award if eligible; net tuition GBP 17270.00 for the first compared study year."
+        },
+        "annual_tuition": "20270.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Annual full-time research tuition. Fees may increase in subsequent years.",
+            "academic_year": "2027/28",
+            "annual_tuition": "20270.00",
+            "raw_annual_fee": "£20,270",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "research_award": "MPHIL",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/welsh-mphil/",
+          "official_code": "Q5562",
+          "official_award": "MPHL",
+          "official_title": "Welsh"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/welsh-mphil/",
+        "scholarship_review": {
+          "award": "3000.00",
+          "gross": "20270.00",
+          "status": "verified_rule_eligibility_required",
+          "award_name": "Global Citizens Scholarship — Humanities Research PG (2027/28)",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+          "study_year": 1,
+          "academic_year": "2027/28",
+          "net_if_eligible": "17270.00"
+        },
+        "scholarship_status": "verified_rule_eligibility_required",
+        "programme_fee_group": "research",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "annual_fee_increase_possible": true
+      },
+      "after": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_subject_band",
+        "fee_review": {
+          "reason": "Official research course mapped to the Humanities fee for its advertised intake.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "postgraduate_research",
+        "fee_evidence": {
+          "course": {
+            "sha256": "d809502a07f59b4347656793fdc533e0016617d0c1e9efd6a2bb799cb68dfbce",
+            "source_url": "https://courses.aber.ac.uk/postgraduate/welsh-mphil/"
+          },
+          "fee_schedule": {
+            "sha256": "d8d45bc276353b2b2674b7867b5b1db620a184fcce0c606328187f70de60353b",
+            "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/"
+          }
+        },
+        "academic_year": "2027/28",
+        "display_notes": {
+          "deposit": "Deposit amount is specified in your individual offer letter.",
+          "scholarship": "GBP 3000.00 Global Citizens tuition award if eligible; net tuition GBP 17270.00 for the first compared study year."
+        },
+        "annual_tuition": "20270.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Annual full-time research tuition. Fees may increase in subsequent years.",
+            "academic_year": "2027/28",
+            "annual_tuition": "20270.00",
+            "raw_annual_fee": "£20,270",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "research_award": "MPHIL",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/welsh-mphil/",
+          "official_code": "Q5562",
+          "official_award": "MPHL",
+          "official_title": "Welsh"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/welsh-mphil/",
+        "scholarship_review": {
+          "status": "verified_rule_eligibility_required",
+          "award_name": "Global Citizens Scholarship — Humanities Research PG (2027/28)",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+          "academic_year": "2027/28",
+          "gross": "20270.00",
+          "award": "3000.00",
+          "net_if_eligible": "17270.00",
+          "study_year": 1
+        },
+        "scholarship_status": "verified_rule_eligibility_required",
+        "programme_fee_group": "research",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "annual_fee_increase_possible": true
+      }
+    },
+    "C_UK002_68": {
+      "before": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_subject_band",
+        "fee_review": {
+          "reason": "Official research course mapped to the Humanities fee for its advertised intake.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "postgraduate_research",
+        "fee_evidence": {
+          "course": {
+            "sha256": "145f2cc56a4c4fec6d490be77fb7c77cdce799bf2d0a60ecab41230379d33dfb",
+            "source_url": "https://courses.aber.ac.uk/postgraduate/research-education/"
+          },
+          "fee_schedule": {
+            "sha256": "d8d45bc276353b2b2674b7867b5b1db620a184fcce0c606328187f70de60353b",
+            "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/"
+          }
+        },
+        "academic_year": "2026/27",
+        "display_notes": {
+          "deposit": "Deposit amount is specified in your individual offer letter.",
+          "scholarship": "No scholarship deduction has been verified for this January 2027 intake. Global Citizens applies to new entrants from 2027/28 onwards."
+        },
+        "annual_tuition": "19070.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Annual full-time research tuition. Fees may increase in subsequent years.",
+            "academic_year": "2026/27",
+            "annual_tuition": "19070.00",
+            "raw_annual_fee": "£19,070",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "research_award": "PHD",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-education/",
+          "official_code": "X3010",
+          "official_award": "PHD",
+          "official_title": "Education"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/research-education/",
+        "scholarship_review": {
+          "reason": "No scholarship deduction has been verified for this January 2027 intake. Global Citizens applies to new entrants from 2027/28 onwards.",
+          "status": "applicability_unconfirmed",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+          "academic_year": "2026/27",
+          "global_citizens_applicable": false
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "programme_fee_group": "research",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "annual_fee_increase_possible": true
+      },
+      "after": {
+        "currency": "GBP",
+        "fee_band": "Humanities",
+        "verified": true,
+        "fee_method": "reviewed_course_and_published_subject_band",
+        "fee_review": {
+          "reason": "Official research course mapped to the Humanities fee for its advertised intake.",
+          "status": "resolved"
+        },
+        "study_year": 1,
+        "course_kind": "postgraduate_research",
+        "fee_evidence": {
+          "course": {
+            "sha256": "145f2cc56a4c4fec6d490be77fb7c77cdce799bf2d0a60ecab41230379d33dfb",
+            "source_url": "https://courses.aber.ac.uk/postgraduate/research-education/"
+          },
+          "fee_schedule": {
+            "sha256": "d8d45bc276353b2b2674b7867b5b1db620a184fcce0c606328187f70de60353b",
+            "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/"
+          }
+        },
+        "academic_year": "2026/27",
+        "display_notes": {
+          "deposit": "Deposit amount is specified in your individual offer letter.",
+          "scholarship": "No scholarship deduction has been verified for this January 2027 intake. Global Citizens applies to new entrants from 2027/28 onwards."
+        },
+        "annual_tuition": "19070.00",
+        "deposit_status": "offer_letter_amount_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Annual full-time research tuition. Fees may increase in subsequent years.",
+            "academic_year": "2026/27",
+            "annual_tuition": "19070.00",
+            "raw_annual_fee": "£19,070",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "research_award": "PHD",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-education/",
+          "official_code": "X3010",
+          "official_award": "PHD",
+          "official_title": "Education"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/postgraduate/research-education/",
+        "scholarship_review": {
+          "status": "applicability_unconfirmed",
+          "academic_year": "2026/27",
+          "global_citizens_applicable": false,
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+          "reason": "No scholarship deduction has been verified for this January 2027 intake. Global Citizens applies to new entrants from 2027/28 onwards."
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "programme_fee_group": "research",
+        "source_fee_category": "International",
+        "fee_verification_status": "verified",
+        "annual_fee_increase_possible": true
+      }
+    }
+  }
+}

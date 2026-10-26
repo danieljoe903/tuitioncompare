@@ -1,0 +1,1808 @@
+{
+  "university_id": "UK005",
+  "generated_at": "2026-10-24T12:29:41.286645+00:00",
+  "database_changes": true,
+  "fee_source_url": "https://aub.ac.uk/fees/undergraduate",
+  "fee_capture_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+  "course_updates": [
+    {
+      "course_id": "C_UK005_11",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_11",
+          "title": "BA (Hons) Dance, Movement and Creative Practice",
+          "level": "UG",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aub.ac.uk",
+          "ucas_cao_code": "",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "19950.00",
+          "scholarship": "5000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_11",
+          "course_url": "https://www.ucas.com/explore/courses/929631ca-2959-42bd-8df4-3f6da32e51db/dance-movement-and-creative-practice?studyYear=2027",
+          "duration": "3 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Dance, Movement and Creative Practice",
+          "ucas_cao_code": "W713"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "dance_fee_confirmation": "aub_foundation_fees_v1",
+            "default_intake": "2027-09",
+            "duration_note": "Three-year full-time route; optional placement is separate.",
+            "duration_verified": true,
+            "fee_note": "Published AUB September 2027 / 2027/28 annual international tuition for the exact Dance, Movement and Creative Practice route. UCAS code W713; three years. Deposit amount requires confirmation.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "importer": "aub_campus_first30_v1",
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_reference": {
+              "academic_year": "2027/28",
+              "checked_on": "2026-10-24",
+              "course_id": "C_UK005_11",
+              "duration": "3 Years",
+              "evidence_kind": "reviewed_public_listing",
+              "intake": "2027-09",
+              "provenance_note": "Structured review of the exact UCAS public listing; not a local HTML capture. Direct AUB fee table supplies international annual tuition.",
+              "provider": "Arts University Bournemouth",
+              "review_reference": "turn249search1",
+              "source_url": "https://www.ucas.com/explore/courses/929631ca-2959-42bd-8df4-3f6da32e51db/dance-movement-and-creative-practice?studyYear=2027",
+              "title": "BA (Hons) Dance, Movement and Creative Practice",
+              "ucas_code": "W713"
+            },
+            "scholarship_review": {
+              "reason": "Up to GBP 5,000 is a maximum, not an automatic award; exact granted amount and saved eligibility required.",
+              "status": "competitive_actual_amount_rule"
+            },
+            "source_course_url": "https://www.ucas.com/explore/courses/929631ca-2959-42bd-8df4-3f6da32e51db/dance-movement-and-creative-practice?studyYear=2027",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "subject_to_validation": null,
+            "verified": true
+          },
+          "source_course_code": "W713",
+          "source_course_name": "BA (Hons) Dance, Movement and Creative Practice",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_43",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_43",
+          "title": "BA (Hons) Acting with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "410F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "410F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 to 5 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 to 5 Years",
+                "review_reference": "turn238search3; turn242view2",
+                "source_url": "https://www.ucas.com/explore/courses/a5788579-979d-4aac-adc0-6e3e86f7ecc0/acting-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "410F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "410F",
+          "source_course_name": "BA (Hons) Acting with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/a5788579-979d-4aac-adc0-6e3e86f7ecc0/acting-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_43",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Acting with Foundation Year",
+          "ucas_cao_code": "410F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "Published 2027/28 international annual tuition GBP 19,950 from AUB’s integrated foundation year row. Year 0 scholarship applicability and campus deposit amount remain unconfirmed. Optional placement pricing is separate.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "fee_status": "verified",
+            "fee_verified_final": true,
+            "foundation_fee_confirmation": {
+              "importer": "aub_foundation_fees_v1",
+              "source_capture_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+              "source_url": "https://aub.ac.uk/fees/undergraduate",
+              "table_selector": "2027/28 Applicants (all years) plus Integrated Foundation Year – all courses; International/EU table"
+            },
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "410F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 to 5 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 to 5 Years",
+                "review_reference": "turn238search3; turn242view2",
+                "source_url": "https://www.ucas.com/explore/courses/a5788579-979d-4aac-adc0-6e3e86f7ecc0/acting-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "410F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": true
+          },
+          "source_course_code": "410F",
+          "source_course_name": "BA (Hons) Acting with Foundation Year",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_44",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_44",
+          "title": "BA (Hons) Animation Production with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "615F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "615F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn245view1; turn243search2",
+                "source_url": "https://www.ucas.com/explore/courses/59017b58-c61b-4dc6-8a10-8a53a846b172/course?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "615F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "615F",
+          "source_course_name": "BA (Hons) Animation Production with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/59017b58-c61b-4dc6-8a10-8a53a846b172/animation-production-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_44",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Animation Production with Foundation Year",
+          "ucas_cao_code": "615F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "Published 2027/28 international annual tuition GBP 19,950 from AUB’s integrated foundation year row. Year 0 scholarship applicability and campus deposit amount remain unconfirmed. Optional placement pricing is separate.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "fee_status": "verified",
+            "fee_verified_final": true,
+            "foundation_fee_confirmation": {
+              "importer": "aub_foundation_fees_v1",
+              "source_capture_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+              "source_url": "https://aub.ac.uk/fees/undergraduate",
+              "table_selector": "2027/28 Applicants (all years) plus Integrated Foundation Year – all courses; International/EU table"
+            },
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "615F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn245view1; turn243search2",
+                "source_url": "https://www.ucas.com/explore/courses/59017b58-c61b-4dc6-8a10-8a53a846b172/course?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "615F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": true
+          },
+          "source_course_code": "615F",
+          "source_course_name": "BA (Hons) Animation Production with Foundation Year",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_45",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_45",
+          "title": "BA (Hons) Commercial Photography with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "644F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "644F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn236search6; turn242view3",
+                "source_url": "https://www.ucas.com/explore/courses/5d031411-1334-4c17-97c8-2a9dd609d27b/commercial-photography-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "644F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "644F",
+          "source_course_name": "BA (Hons) Commercial Photography with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/5d031411-1334-4c17-97c8-2a9dd609d27b/commercial-photography-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_45",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Commercial Photography with Foundation Year",
+          "ucas_cao_code": "644F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "Published 2027/28 international annual tuition GBP 19,950 from AUB’s integrated foundation year row. Year 0 scholarship applicability and campus deposit amount remain unconfirmed. Optional placement pricing is separate.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "fee_status": "verified",
+            "fee_verified_final": true,
+            "foundation_fee_confirmation": {
+              "importer": "aub_foundation_fees_v1",
+              "source_capture_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+              "source_url": "https://aub.ac.uk/fees/undergraduate",
+              "table_selector": "2027/28 Applicants (all years) plus Integrated Foundation Year – all courses; International/EU table"
+            },
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "644F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn236search6; turn242view3",
+                "source_url": "https://www.ucas.com/explore/courses/5d031411-1334-4c17-97c8-2a9dd609d27b/commercial-photography-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "644F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": true
+          },
+          "source_course_code": "644F",
+          "source_course_name": "BA (Hons) Commercial Photography with Foundation Year",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_46",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_46",
+          "title": "BA (Hons) Communication Design and Strategy with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "213F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "213F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn243search0",
+                "source_url": "https://www.ucas.com/explore/courses/847e9a32-197b-43e0-bfc9-5c7076dda0f3/communication-design-and-strategy-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "213F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "213F",
+          "source_course_name": "BA (Hons) Communication Design and Strategy with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/847e9a32-197b-43e0-bfc9-5c7076dda0f3/communication-design-and-strategy-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_46",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Communication Design and Strategy with Foundation Year",
+          "ucas_cao_code": "213F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "Published 2027/28 international annual tuition GBP 19,950 from AUB’s integrated foundation year row. Year 0 scholarship applicability and campus deposit amount remain unconfirmed. Optional placement pricing is separate.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "fee_status": "verified",
+            "fee_verified_final": true,
+            "foundation_fee_confirmation": {
+              "importer": "aub_foundation_fees_v1",
+              "source_capture_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+              "source_url": "https://aub.ac.uk/fees/undergraduate",
+              "table_selector": "2027/28 Applicants (all years) plus Integrated Foundation Year – all courses; International/EU table"
+            },
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "213F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn243search0",
+                "source_url": "https://www.ucas.com/explore/courses/847e9a32-197b-43e0-bfc9-5c7076dda0f3/communication-design-and-strategy-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "213F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": true
+          },
+          "source_course_code": "213F",
+          "source_course_name": "BA (Hons) Communication Design and Strategy with Foundation Year",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_47",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_47",
+          "title": "BA (Hons) Content Creation with Marketing with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "225F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "225F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn243search1",
+                "source_url": "https://www.ucas.com/explore/courses/970197d3-8d82-4281-aae6-99e1af950b7a/content-creation-with-marketing-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "225F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "225F",
+          "source_course_name": "BA (Hons) Content Creation with Marketing with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/970197d3-8d82-4281-aae6-99e1af950b7a/content-creation-with-marketing-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_47",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Content Creation with Marketing with Foundation Year",
+          "ucas_cao_code": "225F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "Published 2027/28 international annual tuition GBP 19,950 from AUB’s integrated foundation year row. Year 0 scholarship applicability and campus deposit amount remain unconfirmed. Optional placement pricing is separate.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "fee_status": "verified",
+            "fee_verified_final": true,
+            "foundation_fee_confirmation": {
+              "importer": "aub_foundation_fees_v1",
+              "source_capture_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+              "source_url": "https://aub.ac.uk/fees/undergraduate",
+              "table_selector": "2027/28 Applicants (all years) plus Integrated Foundation Year – all courses; International/EU table"
+            },
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "225F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn243search1",
+                "source_url": "https://www.ucas.com/explore/courses/970197d3-8d82-4281-aae6-99e1af950b7a/content-creation-with-marketing-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "225F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": true
+          },
+          "source_course_code": "225F",
+          "source_course_name": "BA (Hons) Content Creation with Marketing with Foundation Year",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_48",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_48",
+          "title": "BA (Hons) Costume with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "452F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "452F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search2; turn242view5",
+                "source_url": "https://www.ucas.com/explore/courses/d5f4255b-e79c-4dda-b3fe-f16bc6adb155/costume-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "452F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "452F",
+          "source_course_name": "BA (Hons) Costume with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/d5f4255b-e79c-4dda-b3fe-f16bc6adb155/costume-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_48",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Costume with Foundation Year",
+          "ucas_cao_code": "452F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "Published 2027/28 international annual tuition GBP 19,950 from AUB’s integrated foundation year row. Year 0 scholarship applicability and campus deposit amount remain unconfirmed. Optional placement pricing is separate.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "fee_status": "verified",
+            "fee_verified_final": true,
+            "foundation_fee_confirmation": {
+              "importer": "aub_foundation_fees_v1",
+              "source_capture_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+              "source_url": "https://aub.ac.uk/fees/undergraduate",
+              "table_selector": "2027/28 Applicants (all years) plus Integrated Foundation Year – all courses; International/EU table"
+            },
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "452F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search2; turn242view5",
+                "source_url": "https://www.ucas.com/explore/courses/d5f4255b-e79c-4dda-b3fe-f16bc6adb155/costume-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "452F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": true
+          },
+          "source_course_code": "452F",
+          "source_course_name": "BA (Hons) Costume with Foundation Year",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_49",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_49",
+          "title": "BA (Hons) Fashion with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "230F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "230F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search4; turn242view1",
+                "source_url": "https://www.ucas.com/explore/courses/e657b6c8-0b26-4896-be27-ded5dd3f5d61/fashion-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "230F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "230F",
+          "source_course_name": "BA (Hons) Fashion with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/e657b6c8-0b26-4896-be27-ded5dd3f5d61/fashion-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_49",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Fashion with Foundation Year",
+          "ucas_cao_code": "230F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "Published 2027/28 international annual tuition GBP 19,950 from AUB’s integrated foundation year row. Year 0 scholarship applicability and campus deposit amount remain unconfirmed. Optional placement pricing is separate.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "fee_status": "verified",
+            "fee_verified_final": true,
+            "foundation_fee_confirmation": {
+              "importer": "aub_foundation_fees_v1",
+              "source_capture_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+              "source_url": "https://aub.ac.uk/fees/undergraduate",
+              "table_selector": "2027/28 Applicants (all years) plus Integrated Foundation Year – all courses; International/EU table"
+            },
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "230F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search4; turn242view1",
+                "source_url": "https://www.ucas.com/explore/courses/e657b6c8-0b26-4896-be27-ded5dd3f5d61/fashion-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "230F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": true
+          },
+          "source_course_code": "230F",
+          "source_course_name": "BA (Hons) Fashion with Foundation Year",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    },
+    {
+      "course_id": "C_UK005_50",
+      "changed": true,
+      "before": {
+        "course": {
+          "course_id": "C_UK005_50",
+          "title": "BA (Hons) Film Production with Foundation Year",
+          "level": "UG",
+          "duration": "4 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "ucas_cao_code": "610F",
+          "intake_months": "September",
+          "location": "Poole Campus",
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "14750.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "The September 2027 exact subject-specific foundation route is reviewed. Its GBP 19,950 annual international quote is provisional; final fee, Year 0 scholarship and deposit scope require confirmation. Do not display an unqualified verified amount.",
+            "fee_status": "provisional",
+            "fee_verified_final": false,
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "610F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search0; turn242view4",
+                "source_url": "https://www.ucas.com/explore/courses/13b40cc9-2246-4d44-9ba3-c424107948b0/film-production-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "610F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": false
+          },
+          "source_course_code": "610F",
+          "source_course_name": "BA (Hons) Film Production with Foundation Year",
+          "source_url": "https://www.ucas.com/explore/courses/13b40cc9-2246-4d44-9ba3-c424107948b0/film-production-with-foundation-year?studyYear=2027"
+        }
+      },
+      "after": {
+        "course": {
+          "course_id": "C_UK005_50",
+          "course_url": "https://aub.ac.uk/integrated-foundation-year",
+          "duration": "4 Years",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "UG",
+          "location": "Poole Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BA (Hons) Film Production with Foundation Year",
+          "ucas_cao_code": "610F"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "annual_tuition": "19950.00",
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "default_intake": "2027-09",
+            "deposit_review": {
+              "amount": null,
+              "available": false,
+              "message": "Do not extend the prior-year campus deposit policy or reuse an unverified stored amount."
+            },
+            "duration_note": "Four-year standard integrated foundation route. Optional placement may extend it.",
+            "duration_verified": true,
+            "entry_point": "Foundation",
+            "fee_note": "Published 2027/28 international annual tuition GBP 19,950 from AUB’s integrated foundation year row. Year 0 scholarship applicability and campus deposit amount remain unconfirmed. Optional placement pricing is separate.",
+            "fee_source_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+            "fee_status": "verified",
+            "fee_verified_final": true,
+            "foundation_fee_confirmation": {
+              "importer": "aub_foundation_fees_v1",
+              "source_capture_sha256": "3f15101e2e110ecb49479d3d20b86486ea8d2452bd6513f85194f4236e873077",
+              "source_url": "https://aub.ac.uk/fees/undergraduate",
+              "table_selector": "2027/28 Applicants (all years) plus Integrated Foundation Year – all courses; International/EU table"
+            },
+            "importer": "aub_remaining13_v1",
+            "mapping": {
+              "kind": "reviewed_subject_specific_foundation_route",
+              "ucas_code": "610F"
+            },
+            "online_foundation_awards": {
+              "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+              "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+              "importer": "aub_online_progression_v1",
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+              "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "published_duration": "4 Years",
+            "published_provisional_fee": "19950.00",
+            "route_evidence": [
+              {
+                "checked_on": "2026-10-24",
+                "duration": "4 Years",
+                "evidence_kind": "reviewed_public_listing",
+                "intake": "2027-09",
+                "provenance_note": "Structured source review; not a local raw HTML capture.",
+                "provisional": true,
+                "published_duration": "4 Years",
+                "review_reference": "turn237search0; turn242view4",
+                "source_url": "https://www.ucas.com/explore/courses/13b40cc9-2246-4d44-9ba3-c424107948b0/film-production-with-foundation-year?studyYear=2027",
+                "subject_to_validation": null,
+                "ucas_code": "610F",
+                "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing."
+              }
+            ],
+            "route_evidence_kind": "reviewed_public_listing",
+            "route_kind": "foundation",
+            "scholarship_review": {
+              "eligibility_questions": [],
+              "questions_location": "scholarship_page",
+              "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Tuition verification is independent; no Year 0 deduction is established.",
+              "status": "year_zero_applicability_unconfirmed"
+            },
+            "source_course_url": "https://aub.ac.uk/integrated-foundation-year",
+            "source_fee_category": "International",
+            "study_mode": "campus",
+            "study_year": 1,
+            "subject_to_validation": null,
+            "validation_status_note": "Do not infer validation approval from a missing marker in an extracted listing.",
+            "verified": true
+          },
+          "source_course_code": "610F",
+          "source_course_name": "BA (Hons) Film Production with Foundation Year",
+          "source_url": "https://aub.ac.uk/fees/undergraduate"
+        },
+        "tuition": {
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000",
+          "tuition_fee": "19950.00"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "The exact 2027/28 international table includes the integrated foundation row; its older introductory year is not used to select the fee.",
+    "Foundation award Year 0 applicability and campus deposits remain pending.",
+    "Six other exact route/intake cases remain unconfirmed; no closures or replacements inferred."
+  ],
+  "changed_courses": 9,
+  "changed_items": 10,
+  "dance_award": {
+    "changed": true,
+    "rules": {
+      "importer": "aub_competitive_confirmed_amount_v1",
+      "kind": "confirmed_amount",
+      "value": "5000.00",
+      "published_maximum": "5000.00",
+      "confirmed_amount_fact": "aub_confirmed_award_amount",
+      "benefit": "tuition",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "study_years": [
+        1
+      ],
+      "conditions": {
+        "aub_fee_status_confirmed": [
+          true
+        ],
+        "aub_offer_confirmed": [
+          true
+        ],
+        "aub_application_by_deadline": [
+          true
+        ],
+        "aub_award_granted": [
+          true
+        ],
+        "aub_award_accepted": [
+          true
+        ],
+        "aub_award_for_compared_period": [
+          true
+        ],
+        "aub_no_other_aub_award": [
+          true
+        ],
+        "course_id": [
+          "C_UK005_11"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "aub_award_amount_valid": [
+          true
+        ]
+      },
+      "award_status": "competitive",
+      "stacking": "exclusive",
+      "compatible_ids": [],
+      "percentage_basis": "original_tuition",
+      "fee_basis_confirmed": true,
+      "source_capture_sha256": "512006985c7d067522728834611b6782caa6a6a0ef00240fa54e41c03b882973",
+      "eligibility_questions": [
+        {
+          "key": "aub_fee_status_confirmed",
+          "type": "boolean",
+          "label": "Has AUB assessed you as an overseas fee payer?"
+        },
+        {
+          "key": "aub_offer_confirmed",
+          "type": "boolean",
+          "label": "Do you hold the AUB offer for this exact course and intake?"
+        },
+        {
+          "key": "aub_application_by_deadline",
+          "type": "boolean",
+          "label": "Did you submit the scholarship application by the published deadline for your intake?"
+        },
+        {
+          "key": "aub_award_granted",
+          "type": "boolean",
+          "label": "Has AUB granted you this international scholarship?"
+        },
+        {
+          "key": "aub_award_accepted",
+          "type": "boolean",
+          "label": "Have you accepted the scholarship under AUB’s instructions?"
+        },
+        {
+          "key": "aub_award_for_compared_period",
+          "type": "boolean",
+          "label": "Does the award letter make this amount applicable to the fee period being compared?"
+        },
+        {
+          "key": "aub_no_other_aub_award",
+          "type": "boolean",
+          "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?"
+        },
+        {
+          "key": "aub_confirmed_award_amount",
+          "type": "money",
+          "currency": "GBP",
+          "label": "What exact scholarship amount has AUB granted for this fee period? Use the award letter; do not enter the advertised maximum unless that is your award."
+        }
+      ],
+      "questions_location": "scholarship_page",
+      "scope_note": "Exact reviewed campus course IDs and compared year only. Deduct the actual granted amount, bounded by the published maximum, once saved personal facts are confirmed. The AUB adapter is required; the generic calculator cannot interpret confirmed_amount."
+    }
+  }
+}

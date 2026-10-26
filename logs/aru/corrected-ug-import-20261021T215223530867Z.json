@@ -1,0 +1,581 @@
+{
+  "generated_at": "2026-10-21T21:52:23.530867+00:00",
+  "mode": "apply",
+  "database_changes": true,
+  "university_id": "UK003",
+  "academic_year": "2027/28",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\courses-20261021T143154720282Z\\course-evidence.json",
+  "records": [
+    {
+      "course_id": "C_UK003_03",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Architecture",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Architecture",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/architecture",
+          "ucas_cao_code": "K100",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/architecture",
+          "source_course_code": "K100",
+          "source_course_name": "Architecture",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Chelmsford",
+            "source_course_code": "K100",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/architecture",
+            "source_sha256": "da20737ee0a4a0353181057c90ad9186c0c0d907f932f5b2b6ff1b7db7bf7e32",
+            "source_checked_at": "2026-10-21T14:34:31.443235+00:00",
+            "fee_method": "reviewed_standard_route_fee",
+            "standard_route_fee_evidence": "£19,750 International students starting 2027/28 (full-time, per year) You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of £4,000 or a sponsorship letter Find out about paying your fees .",
+            "scholarship_status": "pending_scope_extension",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for the standard three-year BA (Hons) route at Chelmsford, September 2027. Foundation, accelerated and placement routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ],
+            "reviewed_course_corrections": {
+              "title": {
+                "before": "BSc (Hons) Architecture",
+                "after": "BA (Hons) Architecture"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_16",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Computer Games Design",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Computer Games Design",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/computer-games-design",
+          "ucas_cao_code": "I620",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/computer-games-design",
+          "source_course_code": "I620",
+          "source_course_name": "Computer Games Design",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "source_course_code": "I620",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/computer-games-design",
+            "source_sha256": "91c87d2e253b2f3baca4b0a21b9dda9ba87806f54be521931cf79482d6c802cb",
+            "source_checked_at": "2026-10-21T14:35:07.073933+00:00",
+            "fee_method": "reviewed_standard_route_fee",
+            "standard_route_fee_evidence": "£18,825 International students starting 2027/28 (full-time, per year) You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of £4,000 or a sponsorship letter Find out about paying your fees .",
+            "scholarship_status": "pending_scope_extension",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for the standard three-year BA (Hons) route at Cambridge, September 2027. Foundation, accelerated and placement routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ],
+            "reviewed_course_corrections": {
+              "title": {
+                "before": "BSc (Hons) Computer Games Design",
+                "after": "BA (Hons) Computer Games Design"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_06",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Computer Science",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Computer Science",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/computer-science-bsc",
+          "ucas_cao_code": "I106",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/computer-science-bsc",
+          "source_course_code": "I106",
+          "source_course_name": "Computer Science",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "source_course_code": "I106",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/computer-science-bsc",
+            "source_sha256": "45ccd83df04719cc40751b8ea1db6bef19b73b5cdeb6fd442eff74f45edac604",
+            "source_checked_at": "2026-10-21T14:35:14.848219+00:00",
+            "fee_method": "reviewed_standard_route_fee",
+            "standard_route_fee_evidence": "£19,750 International students starting 2027/28 (full-time, per year) You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of £4,000 or a sponsorship letter Find out about paying your fees .",
+            "scholarship_status": "pending_scope_extension",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for the standard three-year BSc (Hons) route at Cambridge, September 2027. Foundation, accelerated and placement routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_10",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Primary Education Studies",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Primary Education Studies",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/primary-education-studies",
+          "ucas_cao_code": "XX12",
+          "is_active": true
+        },
+        "tuition_fee": "18825.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/primary-education-studies",
+          "source_course_code": "XX12",
+          "source_course_name": "Primary Education Studies",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "campus": "Chelmsford",
+            "source_course_code": "XX12",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/primary-education-studies",
+            "source_sha256": "00a6abc963bd2ebde9f9a42d4585c754bb56b04a4b0c983fdeed09a1d4cfbaa2",
+            "source_checked_at": "2026-10-21T14:36:56.488654+00:00",
+            "fee_method": "reviewed_standard_route_fee",
+            "standard_route_fee_evidence": "£18,825 International students starting 2027/28 (full-time, per year) You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of £4,000 or a sponsorship letter Find out about paying your fees . 3 years Peterborough £18,825 International students starting 2027/28 (full-time, per year) You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of £4,000 or a sponsorship letter Find out about paying your fees .",
+            "scholarship_status": "pending_scope_extension",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for the standard three-year BA (Hons) route at Chelmsford, September 2027. Foundation, accelerated and placement routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_15",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Sport and Exercise Science",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "18400.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Sport and Exercise Science",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/sport-and-exercise-science",
+          "ucas_cao_code": "C600",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/sport-and-exercise-science",
+          "source_course_code": "C600",
+          "source_course_name": "Sport and Exercise Science",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "source_course_code": "C600",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/sport-and-exercise-science",
+            "source_sha256": "706c48c0f06b6acb977c071f1e47cae43e334a16b9c09ba72ddcf5e4eed8ee95",
+            "source_checked_at": "2026-10-21T14:37:17.759666+00:00",
+            "fee_method": "reviewed_standard_route_fee",
+            "standard_route_fee_evidence": "£19,750 International students starting 2027/28 (full-time, per year) You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of £4,000 or a sponsorship letter Find out about paying your fees .",
+            "scholarship_status": "pending_scope_extension",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for the standard three-year BSc (Hons) route at Cambridge, September 2027. Foundation, accelerated and placement routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_90",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Sport Coaching and Physical Education",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Sport Coaching and Physical Education",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/sport-coaching-and-physical-education",
+          "ucas_cao_code": "C602",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/sport-coaching-and-physical-education",
+          "source_course_code": "C602",
+          "source_course_name": "Sport Coaching and Physical Education",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "source_course_code": "C602",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/sport-coaching-and-physical-education",
+            "source_sha256": "2f81d15df63020f594744322a6bc30ceb94e74ab74cc49a1e57636812e8f68e5",
+            "source_checked_at": "2026-10-21T14:37:19.582894+00:00",
+            "fee_method": "reviewed_standard_route_fee",
+            "standard_route_fee_evidence": "£19,750 International students starting 2027/28 (full-time, per year) You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of £4,000 or a sponsorship letter Find out about paying your fees .",
+            "scholarship_status": "pending_scope_extension",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for the standard three-year BSc (Hons) route at Cambridge, September 2027. Foundation, accelerated and placement routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_37",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BEng (Hons) Mechanical Engineering",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BEng (Hons) Mechanical Engineering",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/mechanical-engineering-beng",
+          "ucas_cao_code": "H300",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/mechanical-engineering-beng",
+          "source_course_code": "H300",
+          "source_course_name": "Mechanical Engineering",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Chelmsford",
+            "source_course_code": "H300",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/mechanical-engineering-beng",
+            "source_sha256": "5dcde3f22f929a0142996c966e8eb0d162ee6c88cb1b2dee0d7e41578fae0253",
+            "source_checked_at": "2026-10-21T14:36:26.356117+00:00",
+            "fee_method": "reviewed_standard_route_fee",
+            "standard_route_fee_evidence": "£18,400 International students starting 2026/27 (full-time, per year) You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of £4,000 or a sponsorship letter Find out about paying your fees . £19,750 International students starting 2027/28 (full-time, per year) You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of £4,000 or a sponsorship letter Find out about paying your fees .",
+            "scholarship_status": "pending_scope_extension",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for the standard three-year BEng (Hons) route at Chelmsford, September 2027. Foundation, accelerated and placement routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_93",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Interior Design",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "is_active": true
+        },
+        "tuition_fee": "19500.00",
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Interior Design",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/interior-design",
+          "ucas_cao_code": "W250",
+          "is_active": true
+        },
+        "tuition_fee": "19750.00",
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/interior-design",
+          "source_course_code": "W250",
+          "source_course_name": "Interior Design",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_taught",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "annual_tuition": "19750.00",
+            "currency": "GBP",
+            "campus": "Cambridge",
+            "source_course_code": "W250",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/interior-design",
+            "source_sha256": "2f7701c4ec5c7d14d35a751da08a9694b0a0d9c92b12c5ae90ca62074e5996cf",
+            "source_checked_at": "2026-10-21T14:36:07.271655+00:00",
+            "fee_method": "reviewed_standard_route_fee",
+            "standard_route_fee_evidence": "£19,750 International students starting 2027/28 (full-time, per year) You can pay your fees upfront, in full or in two instalments. We will ask for a deposit of £4,000 or a sponsorship letter Find out about paying your fees .",
+            "scholarship_status": "pending_scope_extension",
+            "deposit_status": "pending_scope_extension",
+            "fee_note": "Published annual international fee for the standard three-year BA (Hons) route at Cambridge, September 2027. Foundation, accelerated and placement routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "19750.00",
+                "amount_requires_review": false
+              }
+            ],
+            "reviewed_course_corrections": {
+              "location": {
+                "before": "Chelmsford Campus",
+                "after": "Cambridge Campus"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "blocked": []
+}

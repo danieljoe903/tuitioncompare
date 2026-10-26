@@ -1,0 +1,533 @@
+{% load static %}
+
+<style>
+    .rankings-section {
+        padding: 88px 0;
+        overflow: hidden;
+        background: #ffffff;
+    }
+
+    .rankings-section .rankings-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        align-items: center;
+        gap: 64px;
+    }
+
+    /* Image panel */
+    .rankings-section .rankings-visual {
+        position: relative;
+        min-width: 0;
+        padding: 0 24px 24px 0;
+    }
+
+    .rankings-section .rankings-visual::before {
+        content: "";
+        position: absolute;
+        inset: 24px 0 0 24px;
+        border-radius: 26px;
+        background: #dbeafe;
+    }
+
+    .rankings-section .rankings-photo {
+        position: relative;
+        overflow: hidden;
+        border-radius: 24px;
+        background: #e2e8f0;
+        box-shadow: 0 18px 45px rgba(16, 44, 70, 0.12);
+    }
+
+    .rankings-section .rankings-photo img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 4 / 4.2;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .rankings-section .rankings-photo::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+            to top,
+            rgba(8, 25, 43, 0.85),
+            rgba(8, 25, 43, 0) 65%
+        );
+        pointer-events: none;
+    }
+
+    .rankings-section .rankings-photo-caption {
+        position: absolute;
+        bottom: 28px;
+        left: 28px;
+        right: 28px;
+        z-index: 1;
+        color: #ffffff;
+    }
+
+    .rankings-section .rankings-photo-caption span {
+        display: block;
+        margin-bottom: 8px;
+        color: #bae6fd;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+
+    .rankings-section .rankings-photo-caption p {
+        max-width: 320px;
+        margin: 0;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.35;
+    }
+
+    /* Content panel */
+    .rankings-section .rankings-content {
+        min-width: 0;
+    }
+
+    .rankings-section .rankings-eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 20px;
+        padding: 8px 12px;
+        border: 1px solid #dbeafe;
+        border-radius: 999px;
+        background: #eff6ff;
+        color: #1d4ed8;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+
+    .rankings-section .rankings-eyebrow svg {
+        width: 17px;
+        height: 17px;
+        flex-shrink: 0;
+    }
+
+    .rankings-section h2 {
+        margin: 0 0 22px;
+        color: #102c46;
+        font-size: clamp(30px, 3.3vw, 44px);
+        font-weight: 700;
+        line-height: 1.18;
+    }
+
+    .rankings-section h2 span {
+        color: #2563eb;
+    }
+
+    .rankings-section .rankings-description {
+        margin: 0 0 28px;
+        color: #52657a;
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .rankings-section .rankings-highlights {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+        margin: 0 0 28px;
+        padding: 0;
+        list-style: none;
+    }
+
+    .rankings-section .rankings-highlights li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #334155;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .rankings-section .rankings-check {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #eff6ff;
+        color: #2563eb;
+    }
+
+    .rankings-section .rankings-check svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .rankings-section .rankings-note {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        margin-bottom: 28px;
+        padding: 20px;
+        border-radius: 16px;
+        background: #102c46;
+        color: #ffffff;
+    }
+
+    .rankings-section .rankings-note > svg {
+        flex-shrink: 0;
+        width: 24px;
+        height: 24px;
+        margin-top: 2px;
+        color: #7dd3fc;
+    }
+
+    .rankings-section .rankings-note strong {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .rankings-section .rankings-note p {
+        margin: 0;
+        color: #dbeafe;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .rankings-section .rankings-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        min-height: 52px;
+        padding: 14px 22px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        background: #2563eb;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+        transition:
+            background-color 0.2s ease,
+            box-shadow 0.2s ease;
+    }
+
+    .rankings-section .rankings-button svg {
+        flex-shrink: 0;
+        width: 20px;
+        height: 20px;
+        transition: transform 0.2s ease;
+    }
+
+    .rankings-section .rankings-button:hover {
+        background: #1d4ed8;
+        box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
+    }
+
+    .rankings-section .rankings-button:hover svg {
+        transform: translateX(3px);
+    }
+
+    .rankings-section .rankings-button:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 4px;
+    }
+
+    /* Dark mode */
+    .dark .rankings-section {
+        background: #0d1a2c;
+    }
+
+    .dark .rankings-section .rankings-visual::before {
+        background: #183552;
+    }
+
+    .dark .rankings-section h2 {
+        color: #ffffff;
+    }
+
+    .dark .rankings-section h2 span {
+        color: #7dd3fc;
+    }
+
+    .dark .rankings-section .rankings-description {
+        color: #cbd5e1;
+    }
+
+    .dark .rankings-section .rankings-eyebrow {
+        border-color: #334155;
+        background: #102c46;
+        color: #7dd3fc;
+    }
+
+    .dark .rankings-section .rankings-highlights li {
+        color: #e2e8f0;
+    }
+
+    .dark .rankings-section .rankings-check {
+        background: #183552;
+        color: #7dd3fc;
+    }
+
+    .dark .rankings-section .rankings-note {
+        border: 1px solid #334155;
+    }
+
+    /* Tablets */
+    @media (max-width: 1023px) {
+        .rankings-section {
+            padding: 64px 0;
+        }
+
+        .rankings-section .rankings-layout {
+            gap: 36px;
+        }
+
+        .rankings-section .rankings-highlights {
+            grid-template-columns: minmax(0, 1fr);
+        }
+    }
+
+    /* Phones */
+    @media (max-width: 767px) {
+        .rankings-section {
+            padding: 48px 0;
+        }
+
+        .rankings-section .rankings-layout {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 36px;
+        }
+
+        .rankings-section .rankings-visual {
+            padding: 0 16px 16px 0;
+        }
+
+        .rankings-section .rankings-visual::before {
+            inset: 16px 0 0 16px;
+            border-radius: 20px;
+        }
+
+        .rankings-section .rankings-photo {
+            border-radius: 18px;
+        }
+
+        .rankings-section .rankings-photo img {
+            aspect-ratio: 4 / 3;
+        }
+
+        .rankings-section .rankings-photo-caption {
+            bottom: 22px;
+            left: 22px;
+            right: 22px;
+        }
+
+        .rankings-section .rankings-photo-caption p {
+            font-size: 22px;
+        }
+
+        .rankings-section .rankings-description {
+            font-size: 16px;
+        }
+
+        .rankings-section .rankings-button {
+            width: 100%;
+        }
+    }
+
+    /* Respect reduced-motion preferences */
+    @media (prefers-reduced-motion: reduce) {
+        .rankings-section [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        .rankings-section .rankings-button,
+        .rankings-section .rankings-button svg {
+            transition: none;
+        }
+
+        .rankings-section .rankings-button:hover svg {
+            transform: none;
+        }
+    }
+</style>
+
+<section
+    class="rankings-section"
+    aria-labelledby="rankings-section-heading"
+>
+    <div class="container">
+        <div class="rankings-layout">
+
+            <!-- Image: gentle zoom and fade -->
+            <div
+                class="rankings-visual"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                data-aos-easing="ease-out-cubic"
+                data-aos-once="true"
+            >
+                <div class="rankings-photo">
+                    <img
+                        src="{% static 'images/mine/rankings.jpg' %}"
+                        alt="Students walking through a university corridor"
+                        loading="lazy"
+                        decoding="async"
+                    >
+
+                    <div class="rankings-photo-caption">
+                        <span>Your future starts with a choice</span>
+                        <p>
+                            Explore universities.
+                            Find your direction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Text: slide gently in from the right -->
+            <div
+                class="rankings-content"
+                data-aos="fade-left"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+                data-aos-easing="ease-out-cubic"
+                data-aos-once="true"
+            >
+                <span class="rankings-eyebrow">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        aria-hidden="true"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M8 3h8v5a4 4 0 01-8 0V3ZM8 5H5v2a4 4 0 004 4M16 5h3v2a4 4 0 01-4 4M12 12v5M8 21h8M9 17h6v4H9z"
+                        ></path>
+                    </svg>
+
+                    University Rankings 2026
+                </span>
+
+                <h2 id="rankings-section-heading">
+                    Discover universities.
+                    <span>Compare your options.</span>
+                </h2>
+
+                <p class="rankings-description">
+                    Explore university rankings alongside tuition fees
+                    and course information. Build a clearer picture of
+                    your options before choosing where to study.
+                </p>
+
+                <ul class="rankings-highlights">
+                    <li>
+                        <span class="rankings-check" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="2.5">
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      d="m5 12 4 4L19 6"></path>
+                            </svg>
+                        </span>
+                        Explore rankings
+                    </li>
+
+                    <li>
+                        <span class="rankings-check" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="2.5">
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      d="m5 12 4 4L19 6"></path>
+                            </svg>
+                        </span>
+                        Compare tuition fees
+                    </li>
+
+                    <li>
+                        <span class="rankings-check" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="2.5">
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      d="m5 12 4 4L19 6"></path>
+                            </svg>
+                        </span>
+                        Discover course options
+                    </li>
+
+                    <li>
+                        <span class="rankings-check" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="2.5">
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      d="m5 12 4 4L19 6"></path>
+                            </svg>
+                        </span>
+                        Plan your shortlist
+                    </li>
+                </ul>
+
+                <div class="rankings-note">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        aria-hidden="true"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M12 3 2 8l10 5 10-5-10-5ZM6 10v6c0 2 3 4 6 4s6-2 6-4v-6"
+                        ></path>
+                    </svg>
+
+                    <div>
+                        <strong>Find the right fit for your goals</strong>
+                        <p>
+                            Consider your preferred course, budget and
+                            location alongside university rankings.
+                        </p>
+                    </div>
+                </div>
+
+                <a href="/compare-rankings" class="rankings-button">
+                    <span>View University Rankings</span>
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        aria-hidden="true"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M5 12h14m-6-6 6 6-6 6"
+                        ></path>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="border-t border-gray-200 dark:border-gray-700"></div>

@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-10-22T00:32:29.825258+00:00",
+  "university_id": "UK003",
+  "mode": "apply",
+  "database_changes": true,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\campus-intakes-20261022T002000996588Z\\campus-intake-evidence.json",
+  "records": [
+    {
+      "course_id": "C_UK003_05",
+      "mapping_kind": "campus_correction",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Business and Management",
+          "level": "UG",
+          "location": "Cambridge Campus",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "18400.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Business and Management",
+          "level": "UG",
+          "location": "Peterborough Campus",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "intake_months": "September",
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+          "ucas_cao_code": "N127",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "18825.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+          "source_course_code": "N127",
+          "source_course_name": "BSc (Hons) Business and Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "18825.00",
+            "study_year": 1,
+            "course_kind": "undergraduate",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+            "source_sha256": "3d883352cd1a2faa8324c0c02a56fb50a7086ccdc7434eb57889d70997201b80",
+            "campus": "Peterborough",
+            "intake": "September 2027",
+            "mapping_kind": "campus_correction",
+            "fee_method": "reviewed_named_standard_route",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "scope_reconciliation_pending",
+            "fee_note": "Published annual international tuition for September 2027, standard full-time campus route. Foundation, placement and part-time routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ],
+            "campus_correction": {
+              "previous_location": "Cambridge Campus",
+              "corrected_location": "Peterborough Campus",
+              "source_url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+              "note": "Matched the exact advertised Business and Management title and UCAS code N127 to Peterborough."
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_30",
+      "mapping_kind": "explicit_replacement",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Foundations in Clinical Psychology",
+          "level": "PG",
+          "location": "Cambridge Campus",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "19500.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Clinical Applications of Psychology",
+          "level": "PG",
+          "location": "Cambridge Campus",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "intake_months": "September",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "20925.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+          "source_course_code": "",
+          "source_course_name": "MSc Clinical Applications of Psychology",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "20925.00",
+            "study_year": 1,
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+            "source_sha256": "5b19064f79bd9b0be96fe8cd1af07efa142232d8d86f103797ac74399c5a3124",
+            "campus": "Cambridge",
+            "intake": "September 2027",
+            "mapping_kind": "explicit_replacement",
+            "fee_method": "reviewed_named_standard_route",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "scope_reconciliation_pending",
+            "fee_note": "Published annual international tuition for September 2027, standard full-time campus route. Foundation, placement and part-time routes are excluded.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ],
+            "route_replacement": {
+              "previous_title": "MSc Foundations in Clinical Psychology",
+              "replacement_title": "MSc Clinical Applications of Psychology",
+              "source_url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+              "note": "Explicit replacement with a currently advertised course. This record does not claim a university-confirmed renaming."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "blocked": [],
+  "held": [
+    {
+      "course_id": "C_UK003_31",
+      "reason": "Standard-route intake differs between the course overview and structured data."
+    }
+  ],
+  "proposed_changes": 2
+}

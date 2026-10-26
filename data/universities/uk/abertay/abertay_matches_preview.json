@@ -1,0 +1,1031 @@
+{
+  "database_changes": false,
+  "source_courses": [
+    {
+      "source_title": "BSc (Hons) Accounting and Finance",
+      "catalogue_title": "Accounting and Finance BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/bsc-accounting-and-finance/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_01",
+          "stored_title": "BA (Hons) Accounting and Finance",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "award_mismatch",
+            "multiple_source_routes",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Accounting and Finance",
+      "catalogue_title": "Accounting and Finance (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_01",
+          "stored_title": "BA (Hons) Accounting and Finance",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "duration_mismatch",
+            "advanced_entry_route",
+            "multiple_source_routes",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Accounting and Finance with Business Analytics",
+      "catalogue_title": "Accounting and Finance w/ Business Analytics (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-business-analytics/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_31",
+          "stored_title": "BA (Hons) Accounting and Finance with Business Analytics",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "duration_mismatch",
+            "advanced_entry_route",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Accounting and Finance with People Management",
+      "catalogue_title": "Accounting and Finance w/ People Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-people-management/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_33",
+          "stored_title": "BA (Hons) Accounting and Finance with People Management",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "duration_mismatch",
+            "advanced_entry_route",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Accounting and Finance with Law",
+      "catalogue_title": "Accounting and Finance with Law (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-law/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_32",
+          "stored_title": "BA (Hons) Accounting and Finance with Law",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "duration_mismatch",
+            "advanced_entry_route",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Biomedical Science",
+      "catalogue_title": "Biomedical Science BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/biomedical-science/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_02",
+          "stored_title": "BSc (Hons) Biomedical Science",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Business Management",
+      "catalogue_title": "Business Management BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/ba-business-management/",
+      "source_award": "BA (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_03",
+          "stored_title": "BA (Hons) Business Management",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "multiple_source_routes"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Business Management",
+      "catalogue_title": "Business Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-1/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_03",
+          "stored_title": "BA (Hons) Business Management",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "duration_mismatch",
+            "advanced_entry_route",
+            "multiple_source_routes"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Business Management with Analytics",
+      "catalogue_title": "Business Management with Analytics (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-analytics/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_04",
+          "stored_title": "BA (Hons) Business Management with Analytics",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "duration_mismatch",
+            "advanced_entry_route",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Business Management with Events Management",
+      "catalogue_title": "Business Management with Events Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-events-management/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_34",
+          "stored_title": "BA (Hons) Business Management with Events Management",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "duration_mismatch",
+            "advanced_entry_route",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Business Management with People Management",
+      "catalogue_title": "Business Management with People Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-people-management/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_35",
+          "stored_title": "BA (Hons) Business Management with People Management",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "duration_mismatch",
+            "advanced_entry_route",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "MEng/BEng (Hons) Civil and Environmental Engineering",
+      "catalogue_title": "Civil and Environmental Engineering (Yr2) MEng/BEng (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering/",
+      "source_award": "MEng/BEng (Hons)",
+      "source_duration": "3 years (full-time) BEng (Hons) | 4 years (full-time) MEng",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_05",
+          "stored_title": "BEng (Hons) Civil and Environmental Engineering",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "award_mismatch",
+            "multiple_source_awards",
+            "duration_requires_review",
+            "advanced_entry_route",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "MEng/BEng (Hons) Civil and Environmental Engineering (with D&A College)",
+      "catalogue_title": "Civil and Environmental Engineering w/ D&A College MEng/BEng (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering-with-dundee-angus-college/",
+      "source_award": "MEng/BEng (Hons)",
+      "source_duration": "4 years (full-time) BEng (Hons) | 5 years (full-time) MEng",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BA (Hons) Computer Arts",
+      "catalogue_title": "Computer Arts BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-arts/",
+      "source_award": "BA (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "17950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_15",
+          "stored_title": "BA (Hons) Computer Arts",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "Computer Game Applications Development",
+      "catalogue_title": "Computer Game Applications Development BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-game-applications-development/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "17950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_13",
+          "stored_title": "BSc (Hons) Computer Game Applications Development",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Computer Games Technology",
+      "catalogue_title": "Computer Games Technology BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-games-technology/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "17950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_14",
+          "stored_title": "BSc (Hons) Computer Games Technology",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Computer Science",
+      "catalogue_title": "Computer Science BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "17950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_06",
+          "stored_title": "BSc (Hons) Computer Science",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Computer Science with Cybersecurity",
+      "catalogue_title": "Computer Science with Cybersecurity BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science-with-cybersecurity/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "17950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_39",
+          "stored_title": "BSc (Hons) Computer Science with Cybersecurity",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Computing",
+      "catalogue_title": "Computing BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computing/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "17950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BA (Hons) Criminology",
+      "catalogue_title": "Criminology BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology/",
+      "source_award": "BA (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_08",
+          "stored_title": "BA (Hons) Criminology",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Criminology and Policing",
+      "catalogue_title": "Criminology and Policing BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-policing/",
+      "source_award": "BA (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_37",
+          "stored_title": "BA (Hons) Criminology and Policing",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Criminology and Sociology",
+      "catalogue_title": "Criminology and Sociology BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-sociology/",
+      "source_award": "BA (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_38",
+          "stored_title": "BA (Hons) Criminology and Sociology",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Digital Marketing and Business Management",
+      "catalogue_title": "Digital Marketing and Business Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-and-business-management/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_36",
+          "stored_title": "BA (Hons) Digital Marketing and Business Management",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "duration_mismatch",
+            "advanced_entry_route",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Digital Marketing with Events Management",
+      "catalogue_title": "Digital Marketing with Events Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-with-events-management/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BSc (Hons) Engineering Management",
+      "catalogue_title": "Engineering Management (Yr2) BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/engineering-management/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "3 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BSc (Hons) Engineering Management (with Dundee & Angus College)",
+      "catalogue_title": "Engineering Management w/ D&A College BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/engineering-management-with-dundee-angus-college/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BSc (Hons) Environmental Management & Sustainability",
+      "catalogue_title": "Environmental Management & Sustainability (Yr2) BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "3 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_40",
+          "stored_title": "BSc (Hons) Environmental Management and Sustainability",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": [
+            "duration_mismatch",
+            "advanced_entry_route",
+            "stored_url_is_homepage"
+          ]
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Environmental Management and Sustainability (with D&A College)",
+      "catalogue_title": "Environmental Mgmt & Sustainability w/ D&A College BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability-with-dundee-angus-college/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BSc (Hons) Ethical Hacking",
+      "catalogue_title": "Ethical Hacking BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/ethical-hacking/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "17950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_07",
+          "stored_title": "BSc (Hons) Ethical Hacking",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Fitness, Nutrition and Health",
+      "catalogue_title": "Fitness, Nutrition and Health BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/fitness-nutrition-and-health/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BSc (Hons) Food and Consumer Science",
+      "catalogue_title": "Food and Consumer Science BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-and-consumer-science/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_17",
+          "stored_title": "BSc (Hons) Food and Consumer Science",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Food Science, Nutrition and Wellbeing",
+      "catalogue_title": "Food Science, Nutrition and Wellbeing BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-science-nutrition-and-wellbeing/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_18",
+          "stored_title": "BSc (Hons) Food Science, Nutrition and Wellbeing",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Food, Nutrition and Health",
+      "catalogue_title": "Food, Nutrition and Health BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-nutrition-and-health/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BSc (Hons) Forensic Sciences",
+      "catalogue_title": "Forensic Sciences BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/forensic-sciences/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_16",
+          "stored_title": "BSc (Hons) Forensic Sciences",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Game Design and Production",
+      "catalogue_title": "Game Design and Production BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/game-design-and-production/",
+      "source_award": "BA (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "17950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_79",
+          "stored_title": "BA (Hons) Game Design and Production",
+          "stored_level": "UG",
+          "stored_duration": "4 years (full-time)",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "LLB (Hons) Law",
+      "catalogue_title": "Law LLB (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/law/",
+      "source_award": "LLB (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_09",
+          "stored_title": "Bachelor of Laws (LLB) Honours",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "LLB (Hons) Law with Criminology",
+      "catalogue_title": "Law with Criminology LLB (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/law-with-criminology/",
+      "source_award": "LLB (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "Law – Accelerated Graduate Entry LLB",
+      "catalogue_title": "Law – Accelerated Graduate Entry LLB LLB",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/law-accelerated-graduate-entry-llb/",
+      "source_award": "LLB",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BA (Hons) Marketing",
+      "catalogue_title": "Marketing BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/marketing/",
+      "source_award": "BA (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BA (Hons) Marketing and Business Management",
+      "catalogue_title": "Marketing and Business Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/marketing-and-business-management/",
+      "source_award": "BA (Hons)",
+      "source_duration": "2 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BSc (Hons) Mental Health Nursing",
+      "catalogue_title": "Mental Health Nursing BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/mental-health-nursing/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "3 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_10",
+          "stored_title": "BSc (Hons) Mental Health Nursing",
+          "stored_level": "UG",
+          "stored_duration": "3 years (full-time)",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Physical Activity and Health",
+      "catalogue_title": "Physical Activity and Health BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/physical-activity-and-health/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_63",
+          "stored_title": "BSc (Hons) Physical Activity and Health",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Psychology",
+      "catalogue_title": "Psychology BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_11",
+          "stored_title": "BSc (Hons) Psychology",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Psychology and Counselling",
+      "catalogue_title": "Psychology and Counselling BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-and-counselling/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_41",
+          "stored_title": "BSc (Hons) Psychology and Counselling",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Psychology with Forensic and Investigative Psychology",
+      "catalogue_title": "Psychology w. Forensic & Investigative Psychology BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-forensic-and-investigative-psychology/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BSc (Hons) Psychology with Development and Education",
+      "catalogue_title": "Psychology with Development and Education BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-development-and-education/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_42",
+          "stored_title": "BSc (Hons) Psychology with Development and Education",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Psychology with Forensic Scene Investigation",
+      "catalogue_title": "Psychology with Forensic Scene Investigation BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-forensic-scene-investigation/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_43",
+          "stored_title": "BSc (Hons) Psychology with Forensic Scene Investigation",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Psychology with Health Sciences",
+      "catalogue_title": "Psychology with Health Sciences BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-health-sciences/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BSc (Hons) Sport and Exercise",
+      "catalogue_title": "Sport and Exercise BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    },
+    {
+      "source_title": "BSc (Hons) Sport and Exercise Science",
+      "catalogue_title": "Sport and Exercise Science BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise-science/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_12",
+          "stored_title": "BSc (Hons) Sport and Exercise Science",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BA (Hons) Sport & Management",
+      "catalogue_title": "Sport and Management BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-management/",
+      "source_award": "BA (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_44",
+          "stored_title": "BA (Hons) Sport & Management",
+          "stored_level": "UG",
+          "stored_duration": "4 years (full-time)",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Sports Development and Coaching",
+      "catalogue_title": "Sports Development and Coaching BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sports-development-and-coaching/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_45",
+          "stored_title": "BSc (Hons) Sports Development and Coaching",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "BSc (Hons) Strength and Conditioning",
+      "catalogue_title": "Strength and Conditioning BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/strength-and-conditioning/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "16950.00",
+      "academic_year": "2026/27",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "course_id": "C_UK001_46",
+          "stored_title": "BSc (Hons) Strength and Conditioning",
+          "stored_level": "UG",
+          "stored_duration": "4 Years",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "source_title": "Visual Effects for Games and Real-Time Media",
+      "catalogue_title": "Visual Effects for Games and Real-Time Media BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/visual-effects-for-games-and-real-time-media/",
+      "source_award": "BSc (Hons)",
+      "source_duration": "4 years (full-time)",
+      "annual_tuition": "17950.00",
+      "academic_year": "2026/27",
+      "status": "unmatched",
+      "candidates": []
+    }
+  ],
+  "extraction_needs_review": [],
+  "database_courses_without_candidates": [
+    {
+      "course_id": "C_ABE001_01",
+      "title": "BSc (Hons) Computing (Top-up)",
+      "level": "TOPUP",
+      "duration": "1 Year",
+      "course_url": "www.abertay.ac.uk",
+      "start_year": 2026
+    },
+    {
+      "course_id": "C_ABE001_02",
+      "title": "BA (Hons) Business Management (Top-up)",
+      "level": "TOPUP",
+      "duration": "1 Year",
+      "course_url": "www.abertay.ac.uk",
+      "start_year": 2026
+    },
+    {
+      "course_id": "C_UK001_61",
+      "title": "Bachelor of Laws (LLB) Honours (Accelerated)",
+      "level": "UG",
+      "duration": "2 Years",
+      "course_url": "www.abertay.ac.uk",
+      "start_year": 2026
+    },
+    {
+      "course_id": "C_UK001_62",
+      "title": "BA (Hons) Sociology",
+      "level": "UG",
+      "duration": "4 Years",
+      "course_url": "www.abertay.ac.uk",
+      "start_year": 2026
+    },
+    {
+      "course_id": "C_UK001_64",
+      "title": "BSc (Hons) Sports Coaching and Development",
+      "level": "UG",
+      "duration": "4 Years",
+      "course_url": "www.abertay.ac.uk",
+      "start_year": 2026
+    },
+    {
+      "course_id": "C_UK001_76",
+      "title": "BA (Hons) Business Management and Marketing",
+      "level": "UG",
+      "duration": "4 Years",
+      "course_url": "www.abertay.ac.uk",
+      "start_year": 2026
+    },
+    {
+      "course_id": "C_UK001_77",
+      "title": "BA (Hons) Business Management with Human Resource Management",
+      "level": "UG",
+      "duration": "4 Years",
+      "course_url": "www.abertay.ac.uk",
+      "start_year": 2026
+    },
+    {
+      "course_id": "C_UK001_78",
+      "title": "BSc (Hons) Food Science and Nutrition",
+      "level": "UG",
+      "duration": "4 Years",
+      "course_url": "www.abertay.ac.uk",
+      "start_year": 2026
+    },
+    {
+      "course_id": "C_UK001_80",
+      "title": "BSc (Hons) Software Engineering",
+      "level": "UG",
+      "duration": "4 Years",
+      "course_url": "www.abertay.ac.uk",
+      "start_year": 2026
+    }
+  ]
+}

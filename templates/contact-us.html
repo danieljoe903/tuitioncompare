@@ -1,0 +1,815 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Contact Us - University Tuition Compare</title>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    body > main {
+        padding-top: 0 !important;
+    }
+
+    .contact-page {
+        --contact-header-height: 120px;
+        background: #f1f7fb;
+    }
+
+    .contact-page .hidden {
+        display: none !important;
+    }
+
+    /* Hero banner */
+    .contact-hero {
+        position: relative;
+        isolation: isolate;
+        display: flex;
+        align-items: center;
+        min-height: 510px;
+        padding: calc(var(--contact-header-height) + 50px) 0 64px;
+        overflow: hidden;
+        background: #102c46;
+    }
+
+    .contact-hero-image {
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .contact-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background: linear-gradient(
+            90deg,
+            rgba(8, 25, 43, 0.94),
+            rgba(8, 25, 43, 0.78) 55%,
+            rgba(8, 25, 43, 0.45)
+        );
+    }
+
+    .contact-hero-content {
+        max-width: 720px;
+    }
+
+    .contact-eyebrow {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 8px 14px;
+        border: 1px solid rgba(125, 211, 252, 0.35);
+        border-radius: 999px;
+        background: rgba(125, 211, 252, 0.1);
+        color: #bae6fd;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    }
+
+    .contact-hero h1 {
+        margin: 0 0 22px;
+        color: #ffffff;
+        font-size: clamp(34px, 4.5vw, 54px);
+        font-weight: 700;
+        line-height: 1.15;
+    }
+
+    .contact-hero h1 span {
+        color: #7dd3fc;
+    }
+
+    .contact-hero p {
+        max-width: 620px;
+        margin: 0;
+        color: #e2e8f0;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    /* Main layout */
+    .contact-main {
+        padding: 64px 0 80px;
+    }
+
+    .contact-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.4fr);
+        align-items: start;
+        gap: 40px;
+    }
+
+    .contact-info,
+    .contact-form-panel {
+        min-width: 0;
+    }
+
+    .contact-info-heading {
+        margin: 0 0 18px;
+        color: #102c46;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.25;
+    }
+
+    .contact-info-description {
+        margin: 0 0 28px;
+        color: #52657a;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .contact-info-card {
+        margin-bottom: 18px;
+        padding: 24px;
+        border: 1px solid #dce6ef;
+        border-radius: 16px;
+        background: #ffffff;
+    }
+
+    .contact-info-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        margin-bottom: 16px;
+        border-radius: 12px;
+        background: #eff6ff;
+        color: #2563eb;
+    }
+
+    .contact-info-icon svg {
+        width: 23px;
+        height: 23px;
+    }
+
+    .contact-info-card h3 {
+        margin: 0 0 10px;
+        color: #102c46;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .contact-info-card p {
+        margin: 0 0 12px;
+        color: #52657a;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .contact-info-card a {
+        color: #1d4ed8;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+        text-decoration: none;
+    }
+
+    .contact-info-card a:hover {
+        text-decoration: underline;
+    }
+
+    .contact-topic-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 22px;
+        padding: 0;
+        list-style: none;
+    }
+
+    .contact-topic-list li {
+        padding: 7px 11px;
+        border: 1px solid #dce6ef;
+        border-radius: 8px;
+        color: #52657a;
+        font-size: 12px;
+    }
+
+    /* Form */
+    .contact-form-panel {
+        padding: 36px;
+        border: 1px solid #dce6ef;
+        border-radius: 22px;
+        background: #ffffff;
+        box-shadow: 0 12px 36px rgba(16, 44, 70, 0.06);
+    }
+
+    .contact-form-panel h2 {
+        margin: 0 0 10px;
+        color: #102c46;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .contact-form-intro {
+        margin: 0 0 28px;
+        color: #64748b;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .contact-form-fields {
+        display: grid;
+        gap: 22px;
+    }
+
+    .contact-field-row {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .contact-field {
+        min-width: 0;
+    }
+
+    .contact-field label {
+        display: block;
+        margin-bottom: 9px;
+        color: #334155;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .contact-required {
+        color: #dc2626;
+    }
+
+    .contact-field input,
+    .contact-field select,
+    .contact-field textarea {
+        display: block;
+        width: 100%;
+        min-height: 50px;
+        padding: 13px 14px;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #ffffff;
+        color: #102c46;
+        font: inherit;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .contact-field textarea {
+        min-height: 170px;
+        resize: vertical;
+    }
+
+    .contact-field input::placeholder,
+    .contact-field textarea::placeholder {
+        color: #64748b;
+    }
+
+    .contact-field input:focus,
+    .contact-field select:focus,
+    .contact-field textarea:focus {
+        outline: 3px solid rgba(37, 99, 235, 0.18);
+        border-color: #2563eb;
+    }
+
+    .contact-form-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .contact-privacy-note {
+        max-width: 280px;
+        margin: 0;
+        color: #64748b;
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .contact-privacy-note a {
+        color: #1d4ed8;
+        text-decoration: underline;
+    }
+
+    .contact-submit {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        gap: 10px;
+        min-height: 50px;
+        padding: 14px 22px;
+        border: 0;
+        border-radius: 10px;
+        background: #2563eb;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    .contact-submit:hover {
+        background: #1d4ed8;
+    }
+
+    .contact-submit:disabled {
+        opacity: 0.65;
+        cursor: wait;
+    }
+
+    .contact-submit svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .contact-page a:focus-visible,
+    .contact-submit:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 4px;
+    }
+
+    .contact-alert {
+        margin-bottom: 24px;
+        padding: 16px 20px;
+        border: 1px solid #cbd5e1;
+        border-radius: 12px;
+        background: #ffffff;
+        color: #334155;
+        line-height: 1.7;
+    }
+
+    .contact-alert-success {
+        border-color: #bbf7d0;
+        background: #f0fdf4;
+        color: #166534;
+    }
+
+    .contact-alert-error {
+        border-color: #fecaca;
+        background: #fef2f2;
+        color: #991b1b;
+    }
+
+    /* Dark mode */
+    .dark .contact-page {
+        background: #0d1a2c;
+    }
+
+    .dark .contact-info-heading,
+    .dark .contact-info-card h3,
+    .dark .contact-form-panel h2,
+    .dark .contact-field label {
+        color: #ffffff;
+    }
+
+    .dark .contact-info-description,
+    .dark .contact-info-card p,
+    .dark .contact-form-intro,
+    .dark .contact-privacy-note,
+    .dark .contact-topic-list li {
+        color: #cbd5e1;
+    }
+
+    .dark .contact-info-card,
+    .dark .contact-form-panel {
+        border-color: #334155;
+        background: #16283d;
+    }
+
+    .dark .contact-info-icon {
+        background: #102c46;
+        color: #7dd3fc;
+    }
+
+    .dark .contact-info-card a,
+    .dark .contact-privacy-note a {
+        color: #7dd3fc;
+    }
+
+    .dark .contact-topic-list li {
+        border-color: #334155;
+    }
+
+    .dark .contact-field input,
+    .dark .contact-field select,
+    .dark .contact-field textarea {
+        border-color: #475569;
+        background: #102c46;
+        color: #ffffff;
+        color-scheme: dark;
+    }
+
+    .dark .contact-field input::placeholder,
+    .dark .contact-field textarea::placeholder {
+        color: #94a3b8;
+    }
+
+    /* Tablets */
+    @media (max-width: 1023px) {
+        .contact-layout {
+            gap: 28px;
+        }
+
+        .contact-form-panel {
+            padding: 26px;
+        }
+
+        .contact-form-bottom {
+            align-items: flex-start;
+            flex-direction: column;
+        }
+
+        .contact-submit {
+            width: 100%;
+        }
+    }
+
+    /* Phones */
+    @media (max-width: 767px) {
+        .contact-hero {
+            min-height: 440px;
+            padding:
+                calc(var(--contact-header-height) + 36px)
+                0 48px;
+        }
+
+        .contact-hero p {
+            font-size: 16px;
+        }
+
+        .contact-main {
+            padding: 40px 0 48px;
+        }
+
+        .contact-layout,
+        .contact-field-row {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        .contact-form-panel {
+            padding: 24px;
+            border-radius: 18px;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .contact-page [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        .contact-submit {
+            transition: none;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="contact-page" id="contact-page">
+
+    <section class="contact-hero" aria-labelledby="contact-heading">
+        <img
+            class="contact-hero-image"
+            src="{% static 'images/hero/contact.jpg' %}"
+            alt=""
+            fetchpriority="high"
+            decoding="async"
+        >
+
+        <div class="container">
+            <div class="contact-hero-content">
+                <span
+                    class="contact-eyebrow"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-once="true"
+                >
+                    Get in touch
+                </span>
+
+                <h1
+                    id="contact-heading"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="900"
+                    data-aos-once="true"
+                >
+                    Your next step.<br>
+                    <span>Let’s talk about it.</span>
+                </h1>
+
+                <p
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="900"
+                    data-aos-once="true"
+                >
+                    Have a question about courses, tuition fees
+                    or finding a university? Contact our team
+                    and tell us how we can help.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-main" aria-label="Contact information and enquiry form">
+        <div class="container">
+
+            {% if messages %}
+                {% for message in messages %}
+                <div
+                    class="contact-alert
+                    {% if 'success' in message.tags %}contact-alert-success
+                    {% elif 'error' in message.tags %}contact-alert-error{% endif %}"
+                    role="status"
+                >
+                    {{ message }}
+                </div>
+                {% endfor %}
+            {% endif %}
+
+            <div class="contact-layout">
+
+                <!-- Contact information -->
+                <aside class="contact-info">
+                    <h2 class="contact-info-heading">
+                        We’re here to help you explore your options.
+                    </h2>
+
+                    <p class="contact-info-description">
+                        Send an enquiry using the form, or email us
+                        directly. Include the course or university
+                        you’re interested in so we can understand
+                        your question.
+                    </p>
+
+                    <div class="contact-info-card">
+                        <span class="contact-info-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="1.8">
+                                <rect x="3" y="5" width="18" height="14" rx="3"></rect>
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      d="m3 7 9 6 9-6"></path>
+                            </svg>
+                        </span>
+
+                        <h3>Email Our Team</h3>
+                        <p>Prefer to send an email directly?</p>
+
+                        <a href="mailto:info@universitytuitioncompare.com">
+                            info@universitytuitioncompare.com
+                        </a>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <span class="contact-info-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="1.8">
+                                <circle cx="12" cy="12" r="9"></circle>
+                                <path stroke-linecap="round"
+                                      d="M9 9a3 3 0 016 0c0 2-3 2-3 4M12 17h.01"></path>
+                            </svg>
+                        </span>
+
+                        <h3>Looking for a Quick Answer?</h3>
+                        <p>
+                            Explore our frequently asked questions
+                            before sending your enquiry.
+                        </p>
+
+                        <a href="{% url 'faq' %}">Explore FAQs →</a>
+                    </div>
+
+                    <ul class="contact-topic-list" aria-label="Enquiry topics">
+                        <li>Course information</li>
+                        <li>Tuition fees</li>
+                        <li>Scholarships</li>
+                        <li>Technical support</li>
+                    </ul>
+                </aside>
+
+                <!-- Enquiry form -->
+                <div class="contact-form-panel">
+                    <h2>Send Us an Enquiry</h2>
+                    <p class="contact-form-intro">
+                        Fields marked with an asterisk (*) are required.
+                    </p>
+
+                    <form
+                        method="POST"
+                        action="{% url 'contact-us' %}"
+                        id="contact-form"
+                        class="contact-form-fields"
+                    >
+                        {% csrf_token %}
+
+                        <div class="contact-field-row">
+                            <div class="contact-field">
+                                <label for="first_name">
+                                    First Name
+                                    <span class="contact-required" aria-hidden="true">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    id="first_name"
+                                    name="first_name"
+                                    autocomplete="given-name"
+                                    placeholder="Your first name"
+                                    required
+                                >
+                            </div>
+
+                            <div class="contact-field">
+                                <label for="last_name">
+                                    Last Name
+                                    <span class="contact-required" aria-hidden="true">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    id="last_name"
+                                    name="last_name"
+                                    autocomplete="family-name"
+                                    placeholder="Your last name"
+                                    required
+                                >
+                            </div>
+                        </div>
+
+                        <div class="contact-field-row">
+                            <div class="contact-field">
+                                <label for="email">
+                                    Email Address
+                                    <span class="contact-required" aria-hidden="true">*</span>
+                                </label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    autocomplete="email"
+                                    placeholder="you@example.com"
+                                    required
+                                >
+                            </div>
+
+                            <div class="contact-field">
+                                <label for="phone">Phone Number (optional)</label>
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    autocomplete="tel"
+                                    placeholder="Include your country code"
+                                >
+                            </div>
+                        </div>
+
+                        <div class="contact-field">
+                            <label for="subject">
+                                Subject
+                                <span class="contact-required" aria-hidden="true">*</span>
+                            </label>
+
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Enquiry</option>
+                                <option value="course">Course Information</option>
+                                <option value="university">University Information</option>
+                                <option value="application">Application Process</option>
+                                <option value="tuition">Tuition Fees & Scholarships</option>
+                                <option value="technical">Technical Support</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="contact-field">
+                            <label for="message">
+                                Your Message
+                                <span class="contact-required" aria-hidden="true">*</span>
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Tell us how we can help..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <div class="contact-form-bottom">
+                            <p class="contact-privacy-note">
+                                Read our
+                                <a href="{% url 'privacy' %}">Privacy Policy</a>
+                                for information about how we handle your data.
+                            </p>
+
+                            <button
+                                type="submit"
+                                id="submit-btn"
+                                class="contact-submit"
+                            >
+                                <svg
+                                    id="send-icon"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.8"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="m22 2-7 20-4-9-9-4 20-7ZM22 2 11 13"
+                                    ></path>
+                                </svg>
+
+                                <svg
+                                    id="spinner"
+                                    class="hidden animate-spin"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    aria-hidden="true"
+                                >
+                                    <circle
+                                        cx="12" cy="12" r="10"
+                                        stroke="currentColor"
+                                        stroke-width="4"
+                                        opacity="0.25"
+                                    ></circle>
+                                    <path
+                                        fill="currentColor"
+                                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                                    ></path>
+                                </svg>
+
+                                <span id="btn-text">Send Message</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    (() => {
+        const page = document.getElementById('contact-page');
+        const header = document.getElementById('header');
+        const form = document.getElementById('contact-form');
+        const submitBtn = document.getElementById('submit-btn');
+        const sendIcon = document.getElementById('send-icon');
+        const spinner = document.getElementById('spinner');
+        const btnText = document.getElementById('btn-text');
+
+        function updateHeaderSpacing() {
+            const isFixed = header &&
+                getComputedStyle(header).position === 'fixed';
+
+            const height = isFixed
+                ? Math.ceil(header.getBoundingClientRect().height)
+                : 0;
+
+            page.style.setProperty('--contact-header-height', `${height}px`);
+        }
+
+        updateHeaderSpacing();
+        window.addEventListener('resize', updateHeaderSpacing);
+        window.addEventListener('load', updateHeaderSpacing);
+
+        if (header && 'ResizeObserver' in window) {
+            new ResizeObserver(updateHeaderSpacing).observe(header);
+        }
+
+        form.addEventListener('submit', () => {
+            submitBtn.disabled = true;
+            sendIcon.classList.add('hidden');
+            spinner.classList.remove('hidden');
+            btnText.textContent = 'Sending...';
+            form.setAttribute('aria-busy', 'true');
+        });
+
+        // Restore the button when returning with the browser Back button.
+        window.addEventListener('pageshow', () => {
+            submitBtn.disabled = false;
+            sendIcon.classList.remove('hidden');
+            spinner.classList.add('hidden');
+            btnText.textContent = 'Send Message';
+            form.removeAttribute('aria-busy');
+        });
+    })();
+</script>
+{% endblock %}

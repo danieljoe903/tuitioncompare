@@ -1,0 +1,1456 @@
+{
+  "database_changes": false,
+  "courses": [
+    {
+      "course_id": "C_ABE002_RES_05",
+      "university_id": "UK002",
+      "subject_id": 11,
+      "title": "MRes Media, Communication and Creative Practice",
+      "level": "MRES",
+      "overview": "Combines creative practice with rigorous academic research in media and film.",
+      "modules": "Creative Practice Methods, Thesis",
+      "entry_requirements": "2.1 Honours degree; Portfolio; IELTS 6.5",
+      "duration": "1 Year",
+      "location": "Aberystwyth Campus",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:55:37.086Z",
+      "updated_at": "2026-03-28T19:00:30.851Z"
+    },
+    {
+      "course_id": "C_ABE002_RES_07",
+      "university_id": "UK002",
+      "subject_id": 64,
+      "title": "MSc (Research) Geography",
+      "level": "MRES",
+      "overview": "Research in physical or human geography, glaciology, or earth observation.",
+      "modules": "Geographical Research Skills, Thesis",
+      "entry_requirements": "2.1 Honours degree; Supervisor agreement; IELTS 6.5",
+      "duration": "1 Year",
+      "location": "Aberystwyth Campus",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:55:37.144Z",
+      "updated_at": "2026-03-28T19:00:30.898Z"
+    },
+    {
+      "course_id": "C_UK002_07",
+      "university_id": "UK002",
+      "subject_id": 36,
+      "title": "BSc (Hons) Criminology and Sociology",
+      "level": "UG",
+      "overview": "Explores the causes of crime and the social structures of the criminal justice system.",
+      "modules": "Criminal Justice, Social Theory, Victims and Society, Policing",
+      "entry_requirements": "UCAS 104-120; IELTS 6.5.",
+      "duration": "3 Years",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "ML93",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+      "created_at": "2026-03-28T18:14:39.599Z",
+      "updated_at": "2026-10-21T00:15:21.048Z"
+    },
+    {
+      "course_id": "C_UK002_14",
+      "university_id": "UK002",
+      "subject_id": 129,
+      "title": "BVSc Veterinary Science",
+      "level": "UG",
+      "overview": "Joint degree with the Royal Veterinary College; 2 years in Aberystwyth and 3 in London.",
+      "modules": "Animal Husbandry, Pathology, Clinical Medicine, Surgery",
+      "entry_requirements": "AAA at A-level including Biology and Chemistry; IELTS 7.0.",
+      "duration": "5 Years",
+      "location": "Aberystwyth / London",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+      "created_at": "2026-03-28T18:14:39.830Z",
+      "updated_at": "2026-10-21T00:15:21.048Z"
+    },
+    {
+      "course_id": "C_UK002_27",
+      "university_id": "UK002",
+      "subject_id": 54,
+      "title": "MSc Environmental Management",
+      "level": "PG",
+      "overview": "Addressing environmental challenges through sustainable policy and land management.",
+      "modules": "Environmental Law, GIS, Sustainability Assessment, Climate Policy",
+      "entry_requirements": "2.2 Honours in Science/Geography; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:40.253Z",
+      "updated_at": "2026-03-28T18:14:40.253Z"
+    },
+    {
+      "course_id": "C_UK002_28",
+      "university_id": "UK002",
+      "subject_id": 107,
+      "title": "MSc Psychology (Conversion)",
+      "level": "PG",
+      "overview": "BPS-accredited conversion course for non-psychology graduates wishing to enter the field.",
+      "modules": "Cognitive Psychology, Developmental Psychology, Biological Psychology",
+      "entry_requirements": "2.1 Honours in any subject; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:40.283Z",
+      "updated_at": "2026-03-28T18:14:40.283Z"
+    },
+    {
+      "course_id": "C_UK002_29",
+      "university_id": "UK002",
+      "subject_id": 57,
+      "title": "MA Digital Media Production",
+      "level": "PG",
+      "overview": "Focused on high-level production skills for digital filmmaking and television.",
+      "modules": "Cinematography, Digital Editing, Scriptwriting, Media Practice",
+      "entry_requirements": "2.2 Honours; Portfolio; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:40.313Z",
+      "updated_at": "2026-03-28T18:14:40.313Z"
+    },
+    {
+      "course_id": "C_UK002_36",
+      "university_id": "UK002",
+      "subject_id": 95,
+      "title": "BSc (Hons) Nursing (Adult)",
+      "level": "UG",
+      "overview": "Professional practice degree leading to registration as an adult nurse.",
+      "modules": "Clinical Skills, Health Assessment, Pharmacology, Nursing Theory",
+      "entry_requirements": "UCAS 104-112; IELTS 7.0; Interview.",
+      "duration": "3 Years",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "B740",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+      "created_at": "2026-03-28T18:14:40.501Z",
+      "updated_at": "2026-10-21T00:15:21.048Z"
+    },
+    {
+      "course_id": "C_UK002_37",
+      "university_id": "UK002",
+      "subject_id": 95,
+      "title": "BSc (Hons) Nursing (Mental Health)",
+      "level": "UG",
+      "overview": "Focuses on the delivery of evidence-based mental health nursing care.",
+      "modules": "Psychiatric Nursing, Clinical Skills, Ethics, Crisis Management",
+      "entry_requirements": "UCAS 104-112; IELTS 7.0; Interview.",
+      "duration": "3 Years",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "B760",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+      "created_at": "2026-03-28T18:14:40.528Z",
+      "updated_at": "2026-10-21T00:15:21.048Z"
+    },
+    {
+      "course_id": "C_UK002_43",
+      "university_id": "UK002",
+      "subject_id": null,
+      "title": "BA (Hons) Modern Languages (French and Spanish)",
+      "level": "UG",
+      "overview": "Includes a mandatory year abroad in a Francophone or Hispanic country.",
+      "modules": "Language Skills, Culture and Society, Translation, Film Studies",
+      "entry_requirements": "UCAS 104-120; IELTS 6.5.",
+      "duration": "4 Years",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:40.678Z",
+      "updated_at": "2026-03-28T18:14:40.678Z"
+    },
+    {
+      "course_id": "C_UK002_52",
+      "university_id": "UK002",
+      "subject_id": 28,
+      "title": "MSc Business Psychology",
+      "level": "PG",
+      "overview": "Applying psychological principles to improve organizational effectiveness.",
+      "modules": "Consumer Psychology, Organizational Behaviour, HRM, Leadership",
+      "entry_requirements": "2.1 Honours; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:40.902Z",
+      "updated_at": "2026-03-28T18:14:40.902Z"
+    },
+    {
+      "course_id": "C_UK002_57",
+      "university_id": "UK002",
+      "subject_id": 107,
+      "title": "BSc (Hons) Psychology and Marketing",
+      "level": "UG",
+      "overview": "Unique combination exploring consumer behavior through a scientific psychological lens.",
+      "modules": "Consumer Psychology, Social Psychology, Digital Marketing, Branding",
+      "entry_requirements": "UCAS 112-128; IELTS 6.5.",
+      "duration": "3 Years",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "NC58",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+      "created_at": "2026-03-28T18:14:41.022Z",
+      "updated_at": "2026-10-21T00:15:21.048Z"
+    },
+    {
+      "course_id": "C_UK002_65",
+      "university_id": "UK002",
+      "subject_id": 4,
+      "title": "MSc Agrifood Innovation",
+      "level": "PG",
+      "overview": "Focused on the development of new products and sustainable processes in the agrifood sector.",
+      "modules": "Food Safety, Innovation Management, Agri-Supply Chain",
+      "entry_requirements": "2.2 Honours in Agri/Life Science; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:41.239Z",
+      "updated_at": "2026-03-28T18:14:41.239Z"
+    },
+    {
+      "course_id": "C_UK002_80",
+      "university_id": "UK002",
+      "subject_id": 69,
+      "title": "BA (Hons) History and Heritage",
+      "level": "UG",
+      "overview": "Focused on historical research combined with museum and heritage site management.",
+      "modules": "Public History, Heritage Management, Historiography, Archival Research",
+      "entry_requirements": "UCAS 104-120; IELTS 6.5.",
+      "duration": "3 Years",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:41.620Z",
+      "updated_at": "2026-03-28T18:14:41.621Z"
+    },
+    {
+      "course_id": "C_UK002_82",
+      "university_id": "UK002",
+      "subject_id": 65,
+      "title": "BSc (Hons) Geology",
+      "level": "UG",
+      "overview": "Scientific study of the Earth's solid materials and their evolution over time.",
+      "modules": "Mineralogy, Structural Geology, Paleontology, Field Geology",
+      "entry_requirements": "UCAS 104-120; IELTS 6.5.",
+      "duration": "3 Years",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:41.676Z",
+      "updated_at": "2026-03-28T18:14:41.676Z"
+    },
+    {
+      "course_id": "C_UK002_83",
+      "university_id": "UK002",
+      "subject_id": 12,
+      "title": "BSc (Hons) Physics with Astronomy",
+      "level": "UG",
+      "overview": "Explores the physics of the universe with a focus on astronomical observation.",
+      "modules": "Astrophysics, Quantum Mechanics, Observational Astronomy, Cosmology",
+      "entry_requirements": "UCAS 104-120; Math/Physics A-level; IELTS 6.5.",
+      "duration": "3 Years",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:41.700Z",
+      "updated_at": "2026-03-28T18:14:41.700Z"
+    },
+    {
+      "course_id": "C_UK002_92",
+      "university_id": "UK002",
+      "subject_id": 4,
+      "title": "MSc Agrifood Innovation (Distance Learning)",
+      "level": "PG",
+      "overview": "A flexible part-time master's focusing on sustainable agrifood supply chains.",
+      "modules": "Sustainable Production, Food Safety, Supply Chain Innovation",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "3 Years",
+      "location": "Distance Learning",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:41.940Z",
+      "updated_at": "2026-03-28T18:14:41.940Z"
+    },
+    {
+      "course_id": "C_UK002_93",
+      "university_id": "UK002",
+      "subject_id": 71,
+      "title": "MSc Human Resource Management",
+      "level": "PG",
+      "overview": "Accredited program focused on strategic and ethical people management.",
+      "modules": "Strategic HRM, Employment Law, Employee Relations, L&D",
+      "entry_requirements": "2.2 Honours; IELTS 6.0.",
+      "duration": "1 Year",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:41.971Z",
+      "updated_at": "2026-03-28T18:14:41.971Z"
+    },
+    {
+      "course_id": "C_UK002_94",
+      "university_id": "UK002",
+      "subject_id": 84,
+      "title": "MSc Digital Marketing",
+      "level": "PG",
+      "overview": "Focused on consumer data analytics and online brand management strategy.",
+      "modules": "Digital Strategy, SEO, Social Media Marketing, Web Analytics",
+      "entry_requirements": "2.2 Honours; IELTS 6.0.",
+      "duration": "1 Year",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:41.996Z",
+      "updated_at": "2026-03-28T18:14:41.996Z"
+    },
+    {
+      "course_id": "C_UK002_95",
+      "university_id": "UK002",
+      "subject_id": 15,
+      "title": "MSc Bioengineering",
+      "level": "PG",
+      "overview": "Technical application of biological principles to engineering solutions.",
+      "modules": "Bioprocessing, Medical Technology, Research Skills, Engineering Design",
+      "entry_requirements": "2.2 Honours in Engineering/Life Science; IELTS 6.0.",
+      "duration": "1 Year",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:42.025Z",
+      "updated_at": "2026-03-28T18:14:42.025Z"
+    },
+    {
+      "course_id": "C_UK002_96",
+      "university_id": "UK002",
+      "subject_id": 100,
+      "title": "MSc Pharmaceutical Sciences",
+      "level": "PG",
+      "overview": "Advanced study of drug development, analysis, and pharmaceutical technology.",
+      "modules": "Drug Discovery, Pharmacology, Pharmaceutics, Research Methods",
+      "entry_requirements": "2.2 Honours in Chemistry/Bio; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:42.054Z",
+      "updated_at": "2026-03-28T18:14:42.054Z"
+    },
+    {
+      "course_id": "C_UK002_97",
+      "university_id": "UK002",
+      "subject_id": 104,
+      "title": "PhD Politics",
+      "level": "PG",
+      "overview": "High-level doctoral research in political theory and comparative systems.",
+      "modules": "Doctoral Thesis, Political Analysis, Research Ethics",
+      "entry_requirements": "2.1 Honours or Master's; IELTS 7.0.",
+      "duration": "3 Years",
+      "location": "Main Campus Aberystwyth",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aber.ac.uk",
+      "created_at": "2026-03-28T18:14:42.077Z",
+      "updated_at": "2026-03-28T18:14:42.077Z"
+    }
+  ],
+  "tuitions": [
+    {
+      "id": 61293,
+      "course_id": "C_ABE002_RES_05",
+      "residency": "INTL",
+      "tuition_fee": "17200.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 61297,
+      "course_id": "C_ABE002_RES_07",
+      "residency": "INTL",
+      "tuition_fee": "17800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 4895,
+      "course_id": "C_UK002_07",
+      "residency": "INTL",
+      "tuition_fee": "19190.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 4909,
+      "course_id": "C_UK002_14",
+      "residency": "INTL",
+      "tuition_fee": "21875.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 4935,
+      "course_id": "C_UK002_27",
+      "residency": "INTL",
+      "tuition_fee": "22410.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 4937,
+      "course_id": "C_UK002_28",
+      "residency": "INTL",
+      "tuition_fee": "20805.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 4939,
+      "course_id": "C_UK002_29",
+      "residency": "INTL",
+      "tuition_fee": "20805.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 4953,
+      "course_id": "C_UK002_36",
+      "residency": "INTL",
+      "tuition_fee": "21875.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 4955,
+      "course_id": "C_UK002_37",
+      "residency": "INTL",
+      "tuition_fee": "21875.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 4967,
+      "course_id": "C_UK002_43",
+      "residency": "INTL",
+      "tuition_fee": "19190.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 4985,
+      "course_id": "C_UK002_52",
+      "residency": "INTL",
+      "tuition_fee": "20805.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 4995,
+      "course_id": "C_UK002_57",
+      "residency": "INTL",
+      "tuition_fee": "19190.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5011,
+      "course_id": "C_UK002_65",
+      "residency": "INTL",
+      "tuition_fee": "22410.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5041,
+      "course_id": "C_UK002_80",
+      "residency": "INTL",
+      "tuition_fee": "19190.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5045,
+      "course_id": "C_UK002_82",
+      "residency": "INTL",
+      "tuition_fee": "21875.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5047,
+      "course_id": "C_UK002_83",
+      "residency": "INTL",
+      "tuition_fee": "21875.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5065,
+      "course_id": "C_UK002_92",
+      "residency": "INTL",
+      "tuition_fee": "22410.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5067,
+      "course_id": "C_UK002_93",
+      "residency": "INTL",
+      "tuition_fee": "20805.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5069,
+      "course_id": "C_UK002_94",
+      "residency": "INTL",
+      "tuition_fee": "20805.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5071,
+      "course_id": "C_UK002_95",
+      "residency": "INTL",
+      "tuition_fee": "22410.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5073,
+      "course_id": "C_UK002_96",
+      "residency": "INTL",
+      "tuition_fee": "22410.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5075,
+      "course_id": "C_UK002_97",
+      "residency": "INTL",
+      "tuition_fee": "19070.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    }
+  ],
+  "sources": [
+    {
+      "id": 228,
+      "tuition_id": 61293,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MRes Media, Communication and Creative Practice",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No official catalogue candidate was found in this collection. This does not establish discontinuation.",
+          "status": "pending",
+          "candidate_urls": [],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.681Z"
+    },
+    {
+      "id": 230,
+      "tuition_id": 61297,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MSc (Research) Geography",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Stored Geography MSc by Research does not match the advertised MPhil award. Do not substitute a route without confirmation.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/M1866-llm-research/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-geography/",
+            "https://courses.aber.ac.uk/postgraduate/phd-arts-dges/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.684Z"
+    },
+    {
+      "id": 233,
+      "tuition_id": 4895,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "ML93",
+      "source_course_name": "Criminology and Sociology",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "The course identity is confirmed, but its joint-course international fee band needs confirmation.",
+          "status": "pending",
+          "target_academic_year": "2027/28"
+        },
+        "display_notes": {
+          "fee": "The course identity is confirmed, but its joint-course international fee band needs confirmation.",
+          "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+          "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+        },
+        "deposit_status": "individual_policy_review_required",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+          "official_code": "ML93",
+          "official_award": "BSC",
+          "official_title": "Criminology and Sociology",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+        "application_review": {
+          "note": "The course identity is confirmed, but its joint-course international fee band needs confirmation.",
+          "status": "not_assessed",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-21T00:15:21.048Z"
+    },
+    {
+      "id": 235,
+      "tuition_id": 4909,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "YD105",
+      "source_course_name": "Veterinary Science (BVSc)",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Joint Aberystwyth/RVC BVSc. The course directs students to the RVC fee schedule; no ordinary Aberystwyth science fee has been assigned.",
+          "status": "pending",
+          "target_academic_year": "2027/28"
+        },
+        "display_notes": {
+          "fee": "Joint Aberystwyth/RVC BVSc. The course directs students to the RVC fee schedule; no ordinary Aberystwyth science fee has been assigned.",
+          "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+          "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+        },
+        "deposit_status": "individual_policy_review_required",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+          "official_code": "YD105",
+          "official_award": "NQUG",
+          "official_title": "Veterinary Science (BVSc)",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+        "application_review": {
+          "note": "Joint Aberystwyth/RVC BVSc. The course directs students to the RVC fee schedule; no ordinary Aberystwyth science fee has been assigned.",
+          "status": "not_assessed",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-21T00:15:21.048Z"
+    },
+    {
+      "id": 237,
+      "tuition_id": 4935,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MSc Environmental Management",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/N23F-engineering-management/",
+            "https://courses.aber.ac.uk/postgraduate/engineering-management/",
+            "https://courses.aber.ac.uk/postgraduate/project-management/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.693Z"
+    },
+    {
+      "id": 238,
+      "tuition_id": 4937,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MSc Psychology (Conversion)",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+            "https://courses.aber.ac.uk/postgraduate/research-psychology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.694Z"
+    },
+    {
+      "id": 239,
+      "tuition_id": 4939,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MA Digital Media Production",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No official catalogue candidate was found in this collection. This does not establish discontinuation.",
+          "status": "pending",
+          "candidate_urls": [],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.696Z"
+    },
+    {
+      "id": 240,
+      "tuition_id": 4953,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "B740",
+      "source_course_name": "Nursing (Adult)",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "The saved course page says international applications for 2027 entry are held pending HEIW funding confirmation. An applicable international tuition amount remains unconfirmed.",
+          "status": "pending",
+          "target_academic_year": "2027/28"
+        },
+        "display_notes": {
+          "fee": "The saved course page says international applications for 2027 entry are held pending HEIW funding confirmation. An applicable international tuition amount remains unconfirmed.",
+          "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+          "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+        },
+        "deposit_status": "individual_policy_review_required",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+          "official_code": "B740",
+          "official_award": "BSC",
+          "official_title": "Nursing (Adult)",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+        "application_review": {
+          "note": "The saved course page says international applications for 2027 entry are held pending HEIW funding confirmation. An applicable international tuition amount remains unconfirmed.",
+          "status": "international_funding_confirmation_pending",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-21T00:15:21.048Z"
+    },
+    {
+      "id": 241,
+      "tuition_id": 4955,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "B760",
+      "source_course_name": "Nursing (Mental Health)",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "The saved course page excludes international applicants ordinarily resident outside the UK. Eligibility for a UK-resident applicant and the applicable fee require confirmation.",
+          "status": "pending",
+          "target_academic_year": "2027/28"
+        },
+        "display_notes": {
+          "fee": "The saved course page excludes international applicants ordinarily resident outside the UK. Eligibility for a UK-resident applicant and the applicable fee require confirmation.",
+          "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+          "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+        },
+        "deposit_status": "individual_policy_review_required",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+          "official_code": "B760",
+          "official_award": "BSC",
+          "official_title": "Nursing (Mental Health)",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+        "application_review": {
+          "note": "The saved course page excludes international applicants ordinarily resident outside the UK. Eligibility for a UK-resident applicant and the applicable fee require confirmation.",
+          "status": "restricted_by_ordinary_residence",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mental-health/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-21T00:15:21.048Z"
+    },
+    {
+      "id": 243,
+      "tuition_id": 4967,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "BA (Hons) Modern Languages (French and Spanish)",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "The stored French and Spanish language combination has not been matched to a confirmed official route.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/modern-languages-drama-theatre/",
+            "https://courses.aber.ac.uk/undergraduate/modern-languages-english-literature/",
+            "https://courses.aber.ac.uk/undergraduate/modern-languages-history/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.708Z"
+    },
+    {
+      "id": 244,
+      "tuition_id": 4985,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MSc Business Psychology",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/business-administration/",
+            "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+            "https://courses.aber.ac.uk/postgraduate/research-psychology/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.710Z"
+    },
+    {
+      "id": 245,
+      "tuition_id": 4995,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "NC58",
+      "source_course_name": "Psychology and Marketing",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "The course identity is confirmed, but the international fee band for this joint Psychology/Business course needs confirmation.",
+          "status": "pending",
+          "target_academic_year": "2027/28"
+        },
+        "display_notes": {
+          "fee": "The course identity is confirmed, but the international fee band for this joint Psychology/Business course needs confirmation.",
+          "deposit": "A course-applicable deposit amount has not been confirmed. Check the university's offer.",
+          "scholarship": "Scholarship eligibility has not been confirmed for this course; no verified deduction established."
+        },
+        "deposit_status": "individual_policy_review_required",
+        "course_identity": {
+          "status": "confirmed_current_catalogue_match",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+          "official_code": "NC58",
+          "official_award": "BSC",
+          "official_title": "Psychology and Marketing",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+        "application_review": {
+          "note": "The course identity is confirmed, but the international fee band for this joint Psychology/Business course needs confirmation.",
+          "status": "not_assessed",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-21T00:15:21.048Z"
+    },
+    {
+      "id": 247,
+      "tuition_id": 5011,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MSc Agrifood Innovation",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Advertised Agrifood Innovation candidates are longer programmes. Duration, study mode and distance-learning fee basis need review.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/J792D-agrifood-innovation/",
+            "https://courses.aber.ac.uk/postgraduate/J792D3-sustainable-agriculture/",
+            "https://courses.aber.ac.uk/postgraduate/agrifood-innovation/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.736Z"
+    },
+    {
+      "id": 249,
+      "tuition_id": 5041,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "BA (Hons) History and Heritage",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/history-and-english-literature-degree/",
+            "https://courses.aber.ac.uk/undergraduate/history-and-mathematics-degree/",
+            "https://courses.aber.ac.uk/undergraduate/history-and-welsh-history-degree/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.748Z"
+    },
+    {
+      "id": 250,
+      "tuition_id": 5045,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "BSc (Hons) Geology",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/biology-degree/",
+            "https://courses.aber.ac.uk/undergraduate/ecology-degree-integrated-foundation/",
+            "https://courses.aber.ac.uk/undergraduate/ecology-degree/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.752Z"
+    },
+    {
+      "id": 251,
+      "tuition_id": 5047,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "BSc (Hons) Physics with Astronomy",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Physics with Astronomy has not been matched to a confirmed official route. Do not substitute another Physics programme.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/mathematics-with-education/",
+            "https://courses.aber.ac.uk/undergraduate/physics-with-year-in-industry/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.755Z"
+    },
+    {
+      "id": 255,
+      "tuition_id": 5065,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MSc Agrifood Innovation (Distance Learning)",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Agrifood Innovation candidates differ in award and duration. Confirm the distance-learning route and module/programme fees.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/J792D-agrifood-innovation/",
+            "https://courses.aber.ac.uk/postgraduate/J792D3-sustainable-agriculture/",
+            "https://courses.aber.ac.uk/postgraduate/agrifood-innovation/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.762Z"
+    },
+    {
+      "id": 256,
+      "tuition_id": 5067,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MSc Human Resource Management",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/archives-records-management-dl/",
+            "https://courses.aber.ac.uk/postgraduate/archives-records-management/",
+            "https://courses.aber.ac.uk/postgraduate/project-management/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.765Z"
+    },
+    {
+      "id": 257,
+      "tuition_id": 5069,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MSc Digital Marketing",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/international-business-marketing-msc/",
+            "https://courses.aber.ac.uk/postgraduate/international-marketing/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.767Z"
+    },
+    {
+      "id": 258,
+      "tuition_id": 5071,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MSc Bioengineering",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/N23F-engineering-management/",
+            "https://courses.aber.ac.uk/postgraduate/engineering-management/",
+            "https://courses.aber.ac.uk/postgraduate/space-engineering/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.769Z"
+    },
+    {
+      "id": 259,
+      "tuition_id": 5073,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "MSc Pharmaceutical Sciences",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "No confirmed exact course/award match was established. Similar-title candidates do not justify a fee update.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/animal-science-masters/",
+            "https://courses.aber.ac.uk/postgraduate/animal-science/",
+            "https://courses.aber.ac.uk/postgraduate/research-ibers/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.772Z"
+    },
+    {
+      "id": 260,
+      "tuition_id": 5075,
+      "academic_year": "",
+      "source_url": "",
+      "source_course_code": "",
+      "source_course_name": "PhD Politics",
+      "fee_basis": "unverified",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "International Politics PhD is a possible match, but it is also mapped to another database record. Duplicate/identity review needed.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/postgraduate/international-politics-mphil/",
+            "https://courses.aber.ac.uk/postgraduate/research-international-politics/",
+            "https://courses.aber.ac.uk/postgraduate/research-physics/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      },
+      "checked_at": "2026-10-20T23:40:30.774Z"
+    }
+  ]
+}

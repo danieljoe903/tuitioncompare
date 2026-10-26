@@ -1,0 +1,796 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>UK & Ireland University Scholarships - University Tuition Compare</title>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* This page handles its own fixed-navbar spacing. */
+    body > main {
+        padding-top: 0 !important;
+    }
+
+    .scholarship-page {
+        --scholarship-header-height: 120px;
+        background: #f1f7fb;
+    }
+
+    /* Hero */
+    .scholarship-hero {
+        position: relative;
+        isolation: isolate;
+        display: flex;
+        align-items: center;
+        min-height: 540px;
+        padding: calc(var(--scholarship-header-height) + 56px) 0 76px;
+        overflow: hidden;
+        background: #102c46;
+    }
+
+    .scholarship-hero-image {
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 40%;
+    }
+
+    .scholarship-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background: linear-gradient(
+            90deg,
+            rgba(8, 25, 43, 0.94) 0%,
+            rgba(8, 25, 43, 0.8) 55%,
+            rgba(8, 25, 43, 0.48) 100%
+        );
+    }
+
+    .scholarship-hero-content {
+        max-width: 760px;
+    }
+
+    .scholarship-eyebrow {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 8px 14px;
+        border: 1px solid rgba(125, 211, 252, 0.35);
+        border-radius: 999px;
+        background: rgba(125, 211, 252, 0.1);
+        color: #bae6fd;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    }
+
+    .scholarship-hero h1 {
+        margin: 0 0 22px;
+        color: #ffffff;
+        font-size: clamp(34px, 4.5vw, 54px);
+        font-weight: 700;
+        line-height: 1.12;
+    }
+
+    .scholarship-hero h1 span {
+        color: #7dd3fc;
+    }
+
+    .scholarship-hero-description {
+        max-width: 640px;
+        margin: 0;
+        color: #e2e8f0;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .scholarship-hero-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 26px;
+    }
+
+    .scholarship-hero-tags span {
+        padding: 7px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: 13px;
+    }
+
+    /* Page content */
+    .scholarship-content {
+        padding: 48px 0 80px;
+    }
+
+    .scholarship-filter-panel {
+        margin-bottom: 36px;
+        padding: 28px;
+        border: 1px solid #dce6ef;
+        border-radius: 20px;
+        background: #ffffff;
+        box-shadow: 0 10px 30px rgba(16, 44, 70, 0.05);
+    }
+
+    .scholarship-filter-heading {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+        margin-bottom: 24px;
+    }
+
+    .scholarship-filter-heading h2 {
+        margin: 0 0 7px;
+        color: #102c46;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .scholarship-filter-heading p {
+        margin: 0;
+        color: #64748b;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .scholarship-reset {
+        flex-shrink: 0;
+        padding: 9px 12px;
+        border: 1px solid #dbeafe;
+        border-radius: 8px;
+        background: #eff6ff;
+        color: #1d4ed8;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .scholarship-reset:hover {
+        background: #dbeafe;
+    }
+
+    .scholarship-filter-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1.4fr;
+        gap: 20px;
+    }
+
+    .scholarship-field {
+        min-width: 0;
+    }
+
+    .scholarship-field label {
+        display: block;
+        margin-bottom: 9px;
+        color: #334155;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .scholarship-field select,
+    .scholarship-field input {
+        width: 100%;
+        min-height: 50px;
+        padding: 12px 14px;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #ffffff;
+        color: #102c46;
+        font: inherit;
+        font-size: 14px;
+    }
+
+    .scholarship-field input::placeholder {
+        color: #64748b;
+    }
+
+    .scholarship-field select:focus,
+    .scholarship-field input:focus {
+        outline: 3px solid rgba(37, 99, 235, 0.18);
+        border-color: #2563eb;
+    }
+
+    .scholarship-guidance {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 32px;
+        padding: 18px 20px;
+        border: 1px solid #dbeafe;
+        border-radius: 14px;
+        background: #eff6ff;
+    }
+
+    .scholarship-guidance svg {
+        flex-shrink: 0;
+        width: 22px;
+        height: 22px;
+        margin-top: 2px;
+        color: #2563eb;
+    }
+
+    .scholarship-guidance p {
+        margin: 0;
+        color: #475569;
+        font-size: 14px;
+        line-height: 1.75;
+    }
+
+    .scholarship-guidance strong {
+        color: #102c46;
+    }
+
+    .scholarship-results-heading {
+        margin-bottom: 24px;
+    }
+
+    .scholarship-results-heading p {
+        margin: 0;
+        color: #52657a;
+        font-size: 15px;
+    }
+
+    .scholarship-results-heading #results-count {
+        color: #102c46;
+        font-weight: 700;
+    }
+
+    /*
+       Keep .hidden working: the existing JavaScript
+       adds and removes it to control these elements.
+    */
+    .scholarship-page .hidden {
+        display: none !important;
+    }
+
+    #scholarships-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px;
+    }
+
+    /* Cards created by scholarships.js */
+    #scholarships-grid > div {
+        min-width: 0;
+        padding: 26px;
+        border: 1px solid #dce6ef;
+        border-radius: 18px;
+        background: #ffffff;
+        box-shadow: 0 8px 24px rgba(16, 44, 70, 0.05);
+        overflow-wrap: anywhere;
+        transition:
+            border-color 0.2s ease,
+            box-shadow 0.2s ease;
+    }
+
+    #scholarships-grid > div:hover {
+        border-color: #93c5fd;
+        box-shadow: 0 14px 32px rgba(16, 44, 70, 0.1);
+    }
+
+    #scholarships-grid h3 {
+        color: #102c46;
+        line-height: 1.45;
+    }
+
+    .scholarship-state {
+        padding: 56px 24px;
+        border: 1px solid #dce6ef;
+        border-radius: 18px;
+        background: #ffffff;
+        text-align: center;
+    }
+
+    .scholarship-state > svg {
+        display: block;
+        width: 52px;
+        height: 52px;
+        margin: 0 auto 20px;
+        color: #2563eb;
+    }
+
+    .scholarship-state h3 {
+        margin: 0 0 10px;
+        color: #102c46;
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .scholarship-state p {
+        margin: 0;
+        color: #64748b;
+        line-height: 1.7;
+    }
+
+    .scholarship-more {
+        margin-top: 36px;
+        text-align: center;
+    }
+
+    .scholarship-more button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        min-height: 50px;
+        padding: 14px 32px;
+        border: 1px solid #102c46;
+        border-radius: 10px;
+        background: #102c46;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    .scholarship-more button:hover {
+        background: #1d4e73;
+    }
+
+    .scholarship-more button:disabled {
+        opacity: 0.65;
+        cursor: wait;
+    }
+
+    .scholarship-more svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .scholarship-page button:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 4px;
+    }
+
+    /* Dark mode */
+    .dark .scholarship-page {
+        background: #0d1a2c;
+    }
+
+    .dark .scholarship-filter-panel,
+    .dark .scholarship-state,
+    .dark #scholarships-grid > div {
+        border-color: #334155;
+        background: #16283d;
+    }
+
+    .dark .scholarship-filter-heading h2,
+    .dark .scholarship-field label,
+    .dark .scholarship-state h3,
+    .dark #scholarships-grid h3,
+    .dark .scholarship-results-heading #results-count {
+        color: #ffffff;
+    }
+
+    .dark .scholarship-filter-heading p,
+    .dark .scholarship-state p,
+    .dark .scholarship-results-heading p {
+        color: #cbd5e1;
+    }
+
+    .dark .scholarship-field select,
+    .dark .scholarship-field input {
+        border-color: #475569;
+        background: #102c46;
+        color: #ffffff;
+        color-scheme: dark;
+    }
+
+    .dark .scholarship-field input::placeholder {
+        color: #94a3b8;
+    }
+
+    .dark .scholarship-reset,
+    .dark .scholarship-guidance {
+        border-color: #334155;
+        background: #102c46;
+    }
+
+    .dark .scholarship-reset,
+    .dark .scholarship-guidance svg {
+        color: #7dd3fc;
+    }
+
+    .dark .scholarship-guidance p {
+        color: #cbd5e1;
+    }
+
+    .dark .scholarship-guidance strong {
+        color: #ffffff;
+    }
+
+    /* Tablets */
+    @media (max-width: 1023px) {
+        #scholarships-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .scholarship-filter-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .scholarship-field-search {
+            grid-column: 1 / -1;
+        }
+    }
+
+    /* Phones */
+    @media (max-width: 767px) {
+        .scholarship-hero {
+            min-height: 460px;
+            padding:
+                calc(var(--scholarship-header-height) + 36px)
+                0 48px;
+        }
+
+        .scholarship-hero-description {
+            font-size: 16px;
+        }
+
+        .scholarship-content {
+            padding: 28px 0 48px;
+        }
+
+        .scholarship-filter-panel {
+            padding: 22px;
+            border-radius: 16px;
+        }
+
+        .scholarship-filter-heading {
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .scholarship-filter-grid,
+        #scholarships-grid {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        .scholarship-field-search {
+            grid-column: auto;
+        }
+
+        .scholarship-more button {
+            width: 100%;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .scholarship-page [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        #scholarships-grid > div,
+        .scholarship-more button {
+            transition: none;
+        }
+    }
+
+    /* Equal card heights within each row */
+#scholarships-grid {
+    align-items: stretch;
+}
+
+#scholarships-grid > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Keep the final button aligned at the bottom */
+#scholarships-grid > div > a:last-child,
+#scholarships-grid > div > button:last-child {
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+/* Prevent status badges from breaking into multiple lines */
+#scholarships-grid > div > div:first-child > span {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="scholarship-page" id="scholarship-page">
+
+    <!-- Background-image hero -->
+    <section
+        class="scholarship-hero"
+        aria-labelledby="scholarship-page-heading"
+    >
+        <img
+            class="scholarship-hero-image"
+            src="{% static 'images/mine/rankings.jpg' %}"
+            alt=""
+            fetchpriority="high"
+            decoding="async"
+        >
+
+        <div class="container">
+            <div class="scholarship-hero-content">
+                <span
+                    class="scholarship-eyebrow"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-once="true"
+                >
+                    Scholarships & Financial Aid
+                </span>
+
+                <h1
+                    id="scholarship-page-heading"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="900"
+                    data-aos-once="true"
+                >
+                    Explore funding.<br>
+                    <span>Plan your future.</span>
+                </h1>
+
+                <p
+                    class="scholarship-hero-description"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="900"
+                    data-aos-once="true"
+                >
+                    Discover scholarship opportunities across
+                    the UK and Ireland. Explore funding options
+                    that could support your next step in education.
+                </p>
+
+                <div
+                    class="scholarship-hero-tags"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    data-aos-duration="900"
+                    data-aos-once="true"
+                >
+                    <span>Undergraduate</span>
+                    <span>Postgraduate</span>
+                    <span>UK & Ireland</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filters and results -->
+    <section id="scholarships-section" class="scholarship-content">
+        <div class="container">
+
+            <div class="scholarship-filter-panel">
+                <div class="scholarship-filter-heading">
+                    <div>
+                        <h2>Find Scholarships</h2>
+                        <p>
+                            Narrow your search by study level,
+                            destination or keyword.
+                        </p>
+                    </div>
+
+                    <button
+                        type="button"
+                        id="reset-scholarship-filters"
+                        class="scholarship-reset"
+                    >
+                        Reset Filters
+                    </button>
+                </div>
+
+                <div class="scholarship-filter-grid">
+                    <div class="scholarship-field">
+                        <label for="level-filter">Study Level</label>
+
+                        <select id="level-filter">
+                            <option value="">All Levels</option>
+                            <option value="UG">Undergraduate</option>
+                            <option value="PG">Postgraduate</option>
+                            <option value="TOPUP">Top-up</option>
+                            <option value="MRES">MRes</option>
+                        </select>
+                    </div>
+
+                    <div class="scholarship-field">
+                        <label for="location-filter">Study Destination</label>
+
+                        <select id="location-filter">
+                            <option value="">UK & Ireland</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="IE">Ireland</option>
+                        </select>
+                    </div>
+
+                    <div class="scholarship-field scholarship-field-search">
+                        <label for="scholarship-search">
+                            Search Scholarships
+                        </label>
+
+                        <input
+                            type="search"
+                            id="scholarship-search"
+                            placeholder="Scholarship or university name..."
+                        >
+                    </div>
+                </div>
+            </div>
+
+            <aside class="scholarship-guidance">
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    aria-hidden="true"
+                >
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path
+                        stroke-linecap="round"
+                        d="M12 11v5M12 7h.01"
+                    ></path>
+                </svg>
+
+                <p>
+                    <strong>Before you apply:</strong>
+                    Check eligibility, funding amounts and deadlines
+                    on the scholarship provider’s official website.
+                </p>
+            </aside>
+
+            <!-- Loading state -->
+            <div
+                id="loading-spinner"
+                class="scholarship-state"
+                role="status"
+            >
+                <svg
+                    class="animate-spin"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                >
+                    <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        stroke-width="4"
+                        opacity="0.25"
+                    ></circle>
+                    <path
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                    ></path>
+                </svg>
+
+                <p>Loading scholarships...</p>
+            </div>
+
+            <!-- Result count -->
+            <div
+                id="results-section"
+                class="scholarship-results-heading hidden"
+                role="status"
+            >
+                <p>
+                    <span id="results-count">0</span>
+                    scholarships found
+                </p>
+            </div>
+
+            <!-- Existing JavaScript inserts cards here -->
+            <div id="scholarships-grid" class="hidden"></div>
+
+            <!-- Empty state -->
+            <div id="no-results" class="scholarship-state hidden">
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    aria-hidden="true"
+                >
+                    <circle cx="10" cy="10" r="6"></circle>
+                    <path
+                        stroke-linecap="round"
+                        d="m15 15 6 6"
+                    ></path>
+                </svg>
+
+                <h3>No Scholarships Found</h3>
+                <p>Try adjusting your filters or search terms.</p>
+            </div>
+
+            <!-- Load more -->
+            <div
+                id="load-more-container"
+                class="scholarship-more hidden"
+            >
+                <button type="button" id="load-more-btn">
+                    <span id="load-more-text">Load More Scholarships</span>
+
+                    <svg
+                        id="load-more-spinner"
+                        class="hidden animate-spin"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        aria-hidden="true"
+                    >
+                        <circle
+                            cx="12"
+                            cy="12"
+                            r="10"
+                            stroke="currentColor"
+                            stroke-width="4"
+                            opacity="0.25"
+                        ></circle>
+                        <path
+                            fill="currentColor"
+                            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                        ></path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+    </section>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'js/scholarships.js' %}"></script>
+
+<script>
+    (() => {
+        const page = document.getElementById('scholarship-page');
+        const header = document.getElementById('header');
+
+        function updateHeaderSpacing() {
+            if (!page) return;
+
+            const isFixed = header &&
+                getComputedStyle(header).position === 'fixed';
+
+            const height = isFixed
+                ? Math.ceil(header.getBoundingClientRect().height)
+                : 0;
+
+            page.style.setProperty(
+                '--scholarship-header-height',
+                `${height}px`
+            );
+        }
+
+        updateHeaderSpacing();
+        window.addEventListener('resize', updateHeaderSpacing);
+        window.addEventListener('load', updateHeaderSpacing);
+
+        if (header && 'ResizeObserver' in window) {
+            new ResizeObserver(updateHeaderSpacing).observe(header);
+        }
+
+        document.getElementById('reset-scholarship-filters')
+            ?.addEventListener('click', () => {
+                document.getElementById('level-filter').value = '';
+                document.getElementById('location-filter').value = '';
+                document.getElementById('scholarship-search').value = '';
+
+                document.getElementById('level-filter')
+                    .dispatchEvent(new Event('change'));
+            });
+    })();
+</script>
+{% endblock %}

@@ -1,0 +1,686 @@
+{
+  "reviewed_at": "2026-10-23T18:35:06.091376+00:00",
+  "university_id": "UK004",
+  "database_changes": false,
+  "review_basis": "Collected evidence only; no fresh website requests. Latest supplied course export plus subsequently reported award reconciliations.",
+  "summary": {
+    "unpublished_international_fee": 8,
+    "intake_unconfirmed": 1,
+    "ownership_or_award_unconfirmed": 2,
+    "existing_canonical_course_review": 2,
+    "current_exact_award_or_intake_unconfirmed": 3,
+    "berlin_evidence_does_not_verify_uk_route": 3
+  },
+  "active_pending_tuition_cases": 19,
+  "new_verified_tuition_imports": 0,
+  "new_verified_scholarship_deductions": 0,
+  "archived_capture_hashes_checked": 60,
+  "archived_capture_integrity": [
+    {
+      "file": "capture-001.html",
+      "sha256": "122ba5a5569c923996db13bbe36c95622fca752af8172384bf2ebb9a6cfd687f",
+      "verified": true
+    },
+    {
+      "file": "capture-002.html",
+      "sha256": "4116ee25ffb3960e2bfff5ce1c17757ecba48737156efb9cbd2414b8ae918efe",
+      "verified": true
+    },
+    {
+      "file": "capture-003.html",
+      "sha256": "4fa997be97204e2ac217b7cc75ae11cae089baeb31acd135d05374eaecd5df7f",
+      "verified": true
+    },
+    {
+      "file": "capture-004.html",
+      "sha256": "38d9c394a4f76aa2b682649c00bb3530c6f3dc25ea4518b4bdabb0a0da02b01f",
+      "verified": true
+    },
+    {
+      "file": "capture-005.html",
+      "sha256": "d952ca20b20146b28ac9a8b428491a3d6758c206d881391ca49de1e50e749da9",
+      "verified": true
+    },
+    {
+      "file": "capture-006.html",
+      "sha256": "ff316a8c2770e1e67a8b83d6ada8efd532765908b26533b38b0709fe981d891b",
+      "verified": true
+    },
+    {
+      "file": "capture-007.html",
+      "sha256": "612f1990e2c2d3ecefda8b5ee20dc60803a7d4170554e52f906559a2dcd59825",
+      "verified": true
+    },
+    {
+      "file": "capture-008.html",
+      "sha256": "f9fff8c85d504980b80e8ebfc9c1e3acc40667fb248a6f0e54db8dfebbd03e35",
+      "verified": true
+    },
+    {
+      "file": "capture-009.html",
+      "sha256": "5d70e29e36305a22d0defe5643b99fc5eb95203f9a04c98fb60f91a8a8676fa6",
+      "verified": true
+    },
+    {
+      "file": "capture-010.html",
+      "sha256": "f486dbfa5caa05697702265648458822b8e83426a026cfeec61c3dfda715cb75",
+      "verified": true
+    },
+    {
+      "file": "capture-013.html",
+      "sha256": "32c5461d6500b9bde6fcf7a18fd1dd9af75b6272b4f91833f5f1019b7a588488",
+      "verified": true
+    },
+    {
+      "file": "capture-016.html",
+      "sha256": "2f047724d93e0fb7aa73f61234e69d0bcd795a8462276f66fc22b3ab265d50b1",
+      "verified": true
+    },
+    {
+      "file": "capture-017.html",
+      "sha256": "21fefc7045d83ae9c1bc17daf7938f7b911942ccb5c36ce3c2de5cf7da70f781",
+      "verified": true
+    },
+    {
+      "file": "capture-020.html",
+      "sha256": "e59e51362f720ed195941d9d687f432b84c78dfad5ea2ee1ce5e8fb0e13b9254",
+      "verified": true
+    },
+    {
+      "file": "capture-023.html",
+      "sha256": "0b32c7391e7d94ceb0fa89c507195048e6d4a80eba4354f4aea43230ee09e7f0",
+      "verified": true
+    },
+    {
+      "file": "capture-024.html",
+      "sha256": "7fe44751b7d93379db7f47b37f8e5c460956a7996ea7f3ba1560401ca5e21865",
+      "verified": true
+    },
+    {
+      "file": "capture-025.html",
+      "sha256": "6b844ce6c9115b3e3d346d028bf9f44753246d26875338f27dc83af1cf4714e5",
+      "verified": true
+    },
+    {
+      "file": "capture-026.html",
+      "sha256": "5b6021668c4c840d57e84b7737a6527275dfe6bc94f508bebd238fde28b5d908",
+      "verified": true
+    },
+    {
+      "file": "capture-029.html",
+      "sha256": "83c179d4184b50208db9fe08d820ffa36927c82047fc9c98398a7398905fb45f",
+      "verified": true
+    },
+    {
+      "file": "capture-032.html",
+      "sha256": "b6a3f264d74c1831cf3d72fc8c39d7de1c9f05f032ef946962deb467d562491a",
+      "verified": true
+    },
+    {
+      "file": "capture-035.html",
+      "sha256": "aea8a6604ea4f80696d95463f26e0d60438d139eb0265b4a6f38d583cafdaa13",
+      "verified": true
+    },
+    {
+      "file": "capture-036.html",
+      "sha256": "96d0d783fd5d30a57051a4f375f8f7b4cecd07e624495c27ebd6a913bbcf878d",
+      "verified": true
+    },
+    {
+      "file": "capture-039.html",
+      "sha256": "79dce1b5f0e96853cba8345e574ffabea9e2b084b6148fd0db666264040af41e",
+      "verified": true
+    },
+    {
+      "file": "capture-042.html",
+      "sha256": "9fadc1241e70e69127a2a27367e321579e9f5df8e48a54d8a715547be9142c0e",
+      "verified": true
+    },
+    {
+      "file": "capture-043.html",
+      "sha256": "53b987b6d01289d54d254ac121cede2d5869a03765b7aac0e628fa1b995ac27d",
+      "verified": true
+    },
+    {
+      "file": "capture-044.html",
+      "sha256": "3f16d97d1abbf987b6c93302a05c44bf21f325659238327023c428b0d31071e1",
+      "verified": true
+    },
+    {
+      "file": "capture-047.html",
+      "sha256": "db108d6198bc34ce6eb860be5643e0f6fa276c6828f7e5451df30f51e48e5056",
+      "verified": true
+    },
+    {
+      "file": "capture-048.html",
+      "sha256": "9ef9b8095db0127c7d557e144f2755f03ca1cf996f424d1f2ea13f5c64c29b82",
+      "verified": true
+    },
+    {
+      "file": "capture-049.html",
+      "sha256": "592e3faefa79cab9a5bc1da635b294716c7bbfef7ea8174d0244f9b6f05e7dc4",
+      "verified": true
+    },
+    {
+      "file": "capture-050.html",
+      "sha256": "14c5859e0e0a904f121783130ed058a0cef2413e1bd57eec27690c6667dcf1fb",
+      "verified": true
+    },
+    {
+      "file": "capture-053.html",
+      "sha256": "f548014b12cabd559ceb20aa557a2af4b2d76b474969d037645bc396ba0acd95",
+      "verified": true
+    },
+    {
+      "file": "capture-056.html",
+      "sha256": "80407283b28ecbf9c7bd79b4f92e435adcece6c7759a9e37673bd7d0f3f36304",
+      "verified": true
+    },
+    {
+      "file": "capture-011.json",
+      "sha256": "d39d3abe39064f203fc285ae86a8512fcba7a9a502c25ac82806faf79a0d68b1",
+      "verified": true
+    },
+    {
+      "file": "capture-012.json",
+      "sha256": "d39d3abe39064f203fc285ae86a8512fcba7a9a502c25ac82806faf79a0d68b1",
+      "verified": true
+    },
+    {
+      "file": "capture-014.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-015.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-018.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-019.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-021.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-022.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-027.json",
+      "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+      "verified": true
+    },
+    {
+      "file": "capture-028.json",
+      "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+      "verified": true
+    },
+    {
+      "file": "capture-030.json",
+      "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+      "verified": true
+    },
+    {
+      "file": "capture-031.json",
+      "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+      "verified": true
+    },
+    {
+      "file": "capture-033.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-034.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-037.json",
+      "sha256": "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+      "verified": true
+    },
+    {
+      "file": "capture-038.json",
+      "sha256": "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+      "verified": true
+    },
+    {
+      "file": "capture-040.json",
+      "sha256": "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+      "verified": true
+    },
+    {
+      "file": "capture-041.json",
+      "sha256": "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+      "verified": true
+    },
+    {
+      "file": "capture-045.json",
+      "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+      "verified": true
+    },
+    {
+      "file": "capture-046.json",
+      "sha256": "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+      "verified": true
+    },
+    {
+      "file": "capture-051.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-052.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-054.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-055.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-057.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "capture-058.json",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "response-133.json",
+      "archive": "dynamic-fees-20261023T010111265891Z.zip",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    },
+    {
+      "file": "response-134.json",
+      "archive": "dynamic-fees-20261023T010111265891Z.zip",
+      "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+      "verified": true
+    }
+  ],
+  "original_collection_errors": [
+    {
+      "url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-data-analytics-project-management",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-data-analytics-and-project-management",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-data-analytics-information-systems-management",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-data-analytics-and-information-systems-management",
+      "reason": "HTTP 404"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "C_UK004_29",
+      "title": "BA (Hons) Business Management with Foundation Year",
+      "category": "unpublished_international_fee",
+      "finding": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-foundation-year"
+      ],
+      "captures": [
+        {
+          "file": "capture-014.json",
+          "country": "Nigeria",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        },
+        {
+          "file": "capture-015.json",
+          "country": "Ghana",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        }
+      ],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_30",
+      "title": "LLB (Hons) Law with Foundation Year",
+      "category": "unpublished_international_fee",
+      "finding": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/llb-hons-qualifying-status-foundation"
+      ],
+      "captures": [
+        {
+          "file": "capture-018.json",
+          "country": "Nigeria",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        },
+        {
+          "file": "capture-019.json",
+          "country": "Ghana",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        }
+      ],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_31",
+      "title": "BA (Hons) Criminology and Psychology with Foundation Year",
+      "category": "unpublished_international_fee",
+      "finding": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-criminology-and-psychology-foundation"
+      ],
+      "captures": [
+        {
+          "file": "capture-021.json",
+          "country": "Nigeria",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        },
+        {
+          "file": "capture-022.json",
+          "country": "Ghana",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        }
+      ],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_48",
+      "title": "BSc (Hons) Health and Care Management with Foundation Year",
+      "category": "unpublished_international_fee",
+      "finding": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/undergraduate/healthcare-and-social-care/bsc-hons-health-and-care-management-foundation-degree"
+      ],
+      "captures": [
+        {
+          "file": "capture-033.json",
+          "country": "Nigeria",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        },
+        {
+          "file": "capture-034.json",
+          "country": "Ghana",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        }
+      ],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_57",
+      "title": "BSc (Hons) Accounting and Finance with Foundation Year",
+      "category": "unpublished_international_fee",
+      "finding": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/bsc-hons-accounting-and-finance-foundation"
+      ],
+      "captures": [
+        {
+          "file": "response-133.json",
+          "country": "Nigeria",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        },
+        {
+          "file": "response-134.json",
+          "country": "Ghana",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        }
+      ],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_61",
+      "title": "Foundation Degree Business and Innovation (FdA)",
+      "category": "unpublished_international_fee",
+      "finding": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee. This FdA/FdSc is a foundation degree, not a foundation year attached to a BA/BSc honours degree.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/undergraduate/business-degree/fda-business-innovation"
+      ],
+      "captures": [
+        {
+          "file": "capture-051.json",
+          "country": "Nigeria",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        },
+        {
+          "file": "capture-052.json",
+          "country": "Ghana",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        }
+      ],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_62",
+      "title": "Foundation Degree Computing and Digital Futures (FdSc)",
+      "category": "unpublished_international_fee",
+      "finding": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee. This FdA/FdSc is a foundation degree, not a foundation year attached to a BA/BSc honours degree.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/undergraduate/computing-degrees/fdsc-computing-digital-futures"
+      ],
+      "captures": [
+        {
+          "file": "capture-054.json",
+          "country": "Nigeria",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        },
+        {
+          "file": "capture-055.json",
+          "country": "Ghana",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        }
+      ],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_63",
+      "title": "Foundation Degree Health and Care Management (FdSc)",
+      "category": "unpublished_international_fee",
+      "finding": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee. This FdA/FdSc is a foundation degree, not a foundation year attached to a BA/BSc honours degree.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/undergraduate/healthcare-and-social-care/fdsc-health-and-care-management"
+      ],
+      "captures": [
+        {
+          "file": "capture-057.json",
+          "country": "Nigeria",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        },
+        {
+          "file": "capture-058.json",
+          "country": "Ghana",
+          "sha256": "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+        }
+      ],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_47",
+      "title": "BA (Hons) Human Resource Management and Psychology",
+      "category": "intake_unconfirmed",
+      "finding": "Exact online route and GBP 5,500 per level are captured; no advertised intake appears in the saved application options.",
+      "next_action": "Keep the schedule as evidence only. A confirmed intake is needed before a current comparison or scholarship deduction.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/undergraduate/psychology-degrees/ba-hons-hrm-psychology1"
+      ],
+      "captures": [
+        {
+          "file": "capture-029.html",
+          "sha256": "83c179d4184b50208db9fe08d820ffa36927c82047fc9c98398a7398905fb45f"
+        }
+      ],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_13",
+      "title": "BSc (Hons) Agriculture",
+      "category": "ownership_or_award_unconfirmed",
+      "finding": "ARU advertises the matching BSc Agriculture at Writtle. The Arden assignment appears incorrect; no course transfer or fee substitution is approved.",
+      "next_action": "Confirm awarding institution and exact award. Do not move the record to ARU or import ARU fees automatically.",
+      "source_urls": [
+        "https://www.aru.ac.uk/study/undergraduate/agriculture"
+      ],
+      "captures": [],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_14",
+      "title": "BSc (Hons) Veterinary Nursing",
+      "category": "ownership_or_award_unconfirmed",
+      "finding": "ARU Writtle advertises veterinary-nursing college/apprenticeship provision. This does not verify the stored BSc qualification or Arden ownership.",
+      "next_action": "Confirm awarding institution and exact award. Do not move the record to ARU or import ARU fees automatically.",
+      "source_urls": [
+        "https://www.aru.ac.uk/study/college-courses/subject-areas/veterinary-nursing"
+      ],
+      "captures": [],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_51",
+      "title": "MSc IT Security Management",
+      "category": "existing_canonical_course_review",
+      "finding": "The old IT Security Management URL redirects to current MSc Cyber Security, already C_UK004_18. Redirects do not prove award equivalence; retain the existing canonical fee/award scope.",
+      "next_action": "Review as a possible retirement/replacement; preserve history and the existing canonical course. No retirement applied by this audit.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/postgraduate/masters/msc-it-security-management",
+        "https://arden.ac.uk/our-courses/postgraduate/masters/msc-cyber-security"
+      ],
+      "captures": [],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false,
+      "existing_canonical_course_id": "C_UK004_18"
+    },
+    {
+      "course_id": "C_UK004_52",
+      "title": "MSc Global Supply Chain Management",
+      "category": "existing_canonical_course_review",
+      "finding": "The current advertised title is MSc Supply Chain Management and Logistics, already C_UK004_25. No exact Global Supply Chain title/intake was established.",
+      "next_action": "Review as a possible retirement/replacement; preserve history and the existing canonical course. No retirement applied by this audit.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/postgraduate/business-degree/msc-supply-chain-management-and-logistics"
+      ],
+      "captures": [],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false,
+      "existing_canonical_course_id": "C_UK004_25"
+    },
+    {
+      "course_id": "C_UK004_39",
+      "title": "MSc Data Analytics and Project Management",
+      "category": "current_exact_award_or_intake_unconfirmed",
+      "finding": "Historical official award evidence exists; two current URL probes returned 404. Do not silently replace it with already mapped MSc Project Management.",
+      "next_action": "Obtain current exact course/intake evidence. Historical awards and 404 responses do not prove closure.",
+      "source_urls": [
+        "https://arden.ac.uk/programme-specifications"
+      ],
+      "captures": [],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_54",
+      "title": "MA Education",
+      "category": "current_exact_award_or_intake_unconfirmed",
+      "finding": "No exact current MA Education intake, mode and price established. A subject label, PG Cert or staff teaching qualification cannot verify this MA.",
+      "next_action": "Obtain current exact course/intake evidence. Historical awards and 404 responses do not prove closure.",
+      "source_urls": [
+        "https://arden.ac.uk/our-courses/qualification/masters",
+        "https://arden.ac.uk/programme-specifications"
+      ],
+      "captures": [],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_55",
+      "title": "MSc Data Analytics and Information Systems Management",
+      "category": "current_exact_award_or_intake_unconfirmed",
+      "finding": "Official Berlin alumni accounts confirm the historical award. They do not establish a current UK intake or price. Both guessed direct URLs returned 404.",
+      "next_action": "Obtain current exact course/intake evidence. Historical awards and 404 responses do not prove closure.",
+      "source_urls": [
+        "https://arden.ac.uk/berlin/knowledge-base/student-life/berlin-graduation-stories-neha"
+      ],
+      "captures": [],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_58",
+      "title": "BA (Hons) Business Management (Marketing) with Foundation Year",
+      "category": "berlin_evidence_does_not_verify_uk_route",
+      "finding": "Exact Marketing foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "next_action": "Retain UK comparison as unavailable. Berlin provision cannot establish UK location, tuition or award rules.",
+      "source_urls": [
+        "https://arden.ac.uk/berlin/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-business-management-marketing-foundation-year"
+      ],
+      "captures": [],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_59",
+      "title": "BA (Hons) Business Management (HRM) with Foundation Year",
+      "category": "berlin_evidence_does_not_verify_uk_route",
+      "finding": "Exact HRM foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "next_action": "Retain UK comparison as unavailable. Berlin provision cannot establish UK location, tuition or award rules.",
+      "source_urls": [
+        "https://arden.ac.uk/berlin/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-business-management-human-resource-management-foundation-year"
+      ],
+      "captures": [],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    },
+    {
+      "course_id": "C_UK004_60",
+      "title": "BA (Hons) Business Management (Tourism) with Foundation Year",
+      "category": "berlin_evidence_does_not_verify_uk_route",
+      "finding": "Exact Tourism foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "next_action": "Retain UK comparison as unavailable. Berlin provision cannot establish UK location, tuition or award rules.",
+      "source_urls": [
+        "https://arden.ac.uk/berlin/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-business-management-tourism-foundation-year"
+      ],
+      "captures": [],
+      "tuition_import_supported": false,
+      "new_scholarship_deduction_verified": false
+    }
+  ]
+}

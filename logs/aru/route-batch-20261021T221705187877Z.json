@@ -1,0 +1,623 @@
+{
+  "generated_at": "2026-10-21T22:17:05.188873+00:00",
+  "mode": "apply",
+  "database_changes": true,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\remaining-evidence-20261021T220115804916Z\\remaining-evidence.json",
+  "records": [
+    {
+      "course_id": "C_ARU003_02",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) International Nursing (Top-up)",
+          "level": "TOPUP",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": ""
+        },
+        "tuition_fee": "16000.00",
+        "scholarship": "2000.00",
+        "scholarship_source_id": null,
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) International Nursing Studies (Top-Up)",
+          "level": "TOPUP",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/international-nursing-studies",
+          "ucas_cao_code": "B700"
+        },
+        "tuition_fee": "18825.00",
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/international-nursing-studies",
+          "source_course_code": "B700",
+          "source_course_name": "BSc (Hons) International Nursing Studies (Top-Up)",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "undergraduate_topup",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "campus": "Chelmsford",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/international-nursing-studies",
+            "source_sha256": "71638a1b9ad6ebb60970c0885f72df139cfd8d9b845c6d8b58e730623212270a",
+            "fee_method": "reviewed_named_course_fee",
+            "reviewed_course_corrections": {
+              "title": {
+                "before": "BSc (Hons) International Nursing (Top-up)",
+                "after": "BSc (Hons) International Nursing Studies (Top-Up)"
+              }
+            },
+            "unverified_legacy_discount_disabled": true,
+            "scholarship_status": "pending_topup_entry_year_confirmation",
+            "deposit_status": "verified_current_policy_offer_confirmation_required",
+            "fee_note": "Published annual international fee for the September 2027 one-year full-time route at Chelmsford.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ],
+            "course_note": "For qualified, experienced international nurses. This course does not lead to Nursing and Midwifery Council registration. Scholarship entry-year treatment remains unconfirmed."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_55",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Animal Welfare and Conservation",
+          "level": "PG",
+          "duration": "1.3 Years",
+          "location": "Writtle Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": ""
+        },
+        "tuition_fee": "19500.00",
+        "scholarship": "2000.00",
+        "scholarship_source_id": null,
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Animal Welfare and Conservation",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Writtle Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/animal-welfare-and-conservation",
+          "ucas_cao_code": ""
+        },
+        "tuition_fee": "18825.00",
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/animal-welfare-and-conservation",
+          "source_course_code": "",
+          "source_course_name": "MSc Animal Welfare and Conservation",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "annual_tuition": "18825.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "campus": "Writtle",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/animal-welfare-and-conservation",
+            "source_sha256": "997907493f2f8d5c04d2adf1edb8758caee26dd5ea8523639e727f24a6759f90",
+            "fee_method": "reviewed_named_course_fee",
+            "reviewed_course_corrections": {
+              "duration": {
+                "before": "1.3 Years",
+                "after": "1 Year"
+              }
+            },
+            "unverified_legacy_discount_disabled": true,
+            "scholarship_status": "verified_maximum_rule_eligibility_required",
+            "deposit_status": "verified_current_policy_offer_confirmation_required",
+            "fee_note": "Published annual international fee for the September 2027 one-year full-time route at Writtle.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "18825.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_76",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Applied Data Science",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": ""
+        },
+        "tuition_fee": "19500.00",
+        "scholarship": "2000.00",
+        "scholarship_source_id": null,
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Applied Data Science (Conversion)",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/applied-data-science",
+          "ucas_cao_code": ""
+        },
+        "tuition_fee": "20925.00",
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/applied-data-science",
+          "source_course_code": "",
+          "source_course_name": "MSc Applied Data Science (Conversion)",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "course_kind": "postgraduate_taught",
+            "annual_tuition": "20925.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "study_mode": "full_time",
+            "campus": "Cambridge",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/applied-data-science",
+            "source_sha256": "5ae38b88cc77dd8cff12a8945ef2f12a9b7e2b333b58058eacdb106dd0f995f3",
+            "fee_method": "reviewed_named_course_fee",
+            "reviewed_course_corrections": {
+              "title": {
+                "before": "MSc Applied Data Science",
+                "after": "MSc Applied Data Science (Conversion)"
+              }
+            },
+            "unverified_legacy_discount_disabled": true,
+            "scholarship_status": "verified_maximum_rule_eligibility_required",
+            "deposit_status": "verified_current_policy_offer_confirmation_required",
+            "fee_note": "Published annual international fee for the September 2027 one-year full-time route at Cambridge.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "blocked": [],
+  "scholarship_scope": {
+    "changed": true,
+    "before": {
+      "kind": "fixed_maximum",
+      "value": "4000.00",
+      "benefit": "tuition",
+      "currency": "GBP",
+      "stacking": "exclusive",
+      "conditions": {
+        "course_id": [
+          "C_UK003_101",
+          "C_UK003_102",
+          "C_UK003_103",
+          "C_UK003_21",
+          "C_UK003_23",
+          "C_UK003_28",
+          "C_UK003_47",
+          "C_UK003_48",
+          "C_UK003_49",
+          "C_UK003_50",
+          "C_UK003_51",
+          "C_UK003_53",
+          "C_UK003_57",
+          "C_UK003_58",
+          "C_UK003_60",
+          "C_UK003_72",
+          "C_UK003_73",
+          "C_UK003_74",
+          "C_UK003_75",
+          "C_UK003_77",
+          "C_UK003_78",
+          "C_UK003_79",
+          "C_UK003_97",
+          "C_UK003_98"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "aru_graduate": [
+          true
+        ],
+        "registration_conditions_met": [
+          true
+        ],
+        "aru_pg_eligibility_confirmed": [
+          true
+        ],
+        "aru_funding_eligibility_confirmed": [
+          true
+        ],
+        "aru_pg_entry_requirements_exceeded": [
+          true
+        ]
+      },
+      "scope_note": "Reviewed September 2027 standard campus courses only. First compared study year. This models the published maximum, not a confirmed individual award.",
+      "study_years": [
+        1
+      ],
+      "award_status": "conditional",
+      "academic_year": "2027/28",
+      "compatible_ids": [],
+      "combination_note": "No other scholarship is combined automatically. Payment discounts require separate verification.",
+      "percentage_basis": "original_tuition",
+      "source_period_note": "The current scholarship page does not specify an academic year. Associated with the reviewed 2027/28 cohort and subject to rechecking before enrolment.",
+      "fee_basis_confirmed": true,
+      "eligibility_questions": [
+        {
+          "key": "aru_graduate",
+          "type": "boolean",
+          "question": "Are you an ARU graduate?"
+        },
+        {
+          "key": "aru_pg_entry_requirements_exceeded",
+          "type": "boolean",
+          "question": "Has ARU confirmed that your qualifications exceed the minimum entry requirements for this scholarship?"
+        },
+        {
+          "key": "registration_conditions_met",
+          "type": "boolean",
+          "question": "Have all ARU registration conditions been met?"
+        },
+        {
+          "key": "aru_funding_eligibility_confirmed",
+          "type": "boolean",
+          "question": "Is your funding arrangement eligible, including any sponsorship or federal tuition loan?"
+        },
+        {
+          "key": "aru_pg_eligibility_confirmed",
+          "note": "The published maximum is £4,000. Your actual award depends on ARU's assessment.",
+          "type": "boolean",
+          "question": "Has ARU confirmed your eligibility for its International Postgraduate Scholarship?"
+        }
+      ]
+    },
+    "after": {
+      "kind": "fixed_maximum",
+      "value": "4000.00",
+      "benefit": "tuition",
+      "currency": "GBP",
+      "stacking": "exclusive",
+      "conditions": {
+        "course_id": [
+          "C_UK003_101",
+          "C_UK003_102",
+          "C_UK003_103",
+          "C_UK003_21",
+          "C_UK003_23",
+          "C_UK003_28",
+          "C_UK003_47",
+          "C_UK003_48",
+          "C_UK003_49",
+          "C_UK003_50",
+          "C_UK003_51",
+          "C_UK003_53",
+          "C_UK003_55",
+          "C_UK003_57",
+          "C_UK003_58",
+          "C_UK003_60",
+          "C_UK003_72",
+          "C_UK003_73",
+          "C_UK003_74",
+          "C_UK003_75",
+          "C_UK003_76",
+          "C_UK003_77",
+          "C_UK003_78",
+          "C_UK003_79",
+          "C_UK003_97",
+          "C_UK003_98"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "aru_graduate": [
+          true
+        ],
+        "registration_conditions_met": [
+          true
+        ],
+        "aru_pg_eligibility_confirmed": [
+          true
+        ],
+        "aru_funding_eligibility_confirmed": [
+          true
+        ],
+        "aru_pg_entry_requirements_exceeded": [
+          true
+        ]
+      },
+      "scope_note": "Reviewed September 2027 standard campus courses only. First compared study year. This models the published maximum, not a confirmed individual award.",
+      "study_years": [
+        1
+      ],
+      "award_status": "conditional",
+      "academic_year": "2027/28",
+      "compatible_ids": [],
+      "combination_note": "No other scholarship is combined automatically. Payment discounts require separate verification.",
+      "percentage_basis": "original_tuition",
+      "source_period_note": "The current scholarship page does not specify an academic year. Associated with the reviewed 2027/28 cohort and subject to rechecking before enrolment.",
+      "fee_basis_confirmed": true,
+      "eligibility_questions": [
+        {
+          "key": "aru_graduate",
+          "type": "boolean",
+          "question": "Are you an ARU graduate?"
+        },
+        {
+          "key": "aru_pg_entry_requirements_exceeded",
+          "type": "boolean",
+          "question": "Has ARU confirmed that your qualifications exceed the minimum entry requirements for this scholarship?"
+        },
+        {
+          "key": "registration_conditions_met",
+          "type": "boolean",
+          "question": "Have all ARU registration conditions been met?"
+        },
+        {
+          "key": "aru_funding_eligibility_confirmed",
+          "type": "boolean",
+          "question": "Is your funding arrangement eligible, including any sponsorship or federal tuition loan?"
+        },
+        {
+          "key": "aru_pg_eligibility_confirmed",
+          "note": "The published maximum is £4,000. Your actual award depends on ARU's assessment.",
+          "type": "boolean",
+          "question": "Has ARU confirmed your eligibility for its International Postgraduate Scholarship?"
+        }
+      ]
+    }
+  },
+  "deposit_scope": {
+    "changed": true,
+    "before": {
+      "kind": "fixed",
+      "note": "Current published pre-CAS deposit: £4,000 for full-fee-paying international taught students. Confirm the requirement in the individual offer. Sponsored arrangements require separate assessment. Recheck the current policy before payment.",
+      "amount": "4000.00",
+      "currency": "GBP",
+      "course_ids": [
+        "C_UK003_03",
+        "C_UK003_04",
+        "C_UK003_06",
+        "C_UK003_07",
+        "C_UK003_08",
+        "C_UK003_09",
+        "C_UK003_10",
+        "C_UK003_101",
+        "C_UK003_102",
+        "C_UK003_103",
+        "C_UK003_11",
+        "C_UK003_14",
+        "C_UK003_15",
+        "C_UK003_16",
+        "C_UK003_17",
+        "C_UK003_21",
+        "C_UK003_23",
+        "C_UK003_28",
+        "C_UK003_32",
+        "C_UK003_33",
+        "C_UK003_34",
+        "C_UK003_35",
+        "C_UK003_37",
+        "C_UK003_38",
+        "C_UK003_39",
+        "C_UK003_42",
+        "C_UK003_47",
+        "C_UK003_48",
+        "C_UK003_49",
+        "C_UK003_50",
+        "C_UK003_51",
+        "C_UK003_53",
+        "C_UK003_57",
+        "C_UK003_58",
+        "C_UK003_60",
+        "C_UK003_62",
+        "C_UK003_63",
+        "C_UK003_67",
+        "C_UK003_68",
+        "C_UK003_69",
+        "C_UK003_72",
+        "C_UK003_73",
+        "C_UK003_74",
+        "C_UK003_75",
+        "C_UK003_77",
+        "C_UK003_78",
+        "C_UK003_79",
+        "C_UK003_80",
+        "C_UK003_83",
+        "C_UK003_84",
+        "C_UK003_85",
+        "C_UK003_86",
+        "C_UK003_90",
+        "C_UK003_91",
+        "C_UK003_93",
+        "C_UK003_97",
+        "C_UK003_98"
+      ],
+      "fee_status": "INTL",
+      "course_kinds": [
+        "postgraduate_taught",
+        "undergraduate_taught"
+      ],
+      "academic_year": "2027/28",
+      "payment_stage": "before_cas",
+      "source_period": "current_undated_policy",
+      "schema_version": 1,
+      "full_fee_paying": true,
+      "eligibility_questions": [
+        {
+          "key": "requires_student_visa",
+          "type": "boolean",
+          "question": "Do you require a Student visa?"
+        },
+        {
+          "key": "full_fee_paying",
+          "type": "boolean",
+          "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+        },
+        {
+          "key": "sponsored",
+          "type": "boolean",
+          "question": "Will a sponsor provide a sponsorship letter?"
+        }
+      ],
+      "requires_student_visa": true,
+      "deduct_scholarship_from_deposit": false,
+      "offer_letter_confirmation_required": true,
+      "sponsorship_letter_requires_review": true
+    },
+    "after": {
+      "kind": "fixed",
+      "note": "Current published pre-CAS deposit: £4,000 for full-fee-paying international taught students. Confirm the requirement in the individual offer. Sponsored arrangements require separate assessment. Recheck the current policy before payment.",
+      "amount": "4000.00",
+      "currency": "GBP",
+      "course_ids": [
+        "C_ARU003_02",
+        "C_UK003_03",
+        "C_UK003_04",
+        "C_UK003_06",
+        "C_UK003_07",
+        "C_UK003_08",
+        "C_UK003_09",
+        "C_UK003_10",
+        "C_UK003_101",
+        "C_UK003_102",
+        "C_UK003_103",
+        "C_UK003_11",
+        "C_UK003_14",
+        "C_UK003_15",
+        "C_UK003_16",
+        "C_UK003_17",
+        "C_UK003_21",
+        "C_UK003_23",
+        "C_UK003_28",
+        "C_UK003_32",
+        "C_UK003_33",
+        "C_UK003_34",
+        "C_UK003_35",
+        "C_UK003_37",
+        "C_UK003_38",
+        "C_UK003_39",
+        "C_UK003_42",
+        "C_UK003_47",
+        "C_UK003_48",
+        "C_UK003_49",
+        "C_UK003_50",
+        "C_UK003_51",
+        "C_UK003_53",
+        "C_UK003_55",
+        "C_UK003_57",
+        "C_UK003_58",
+        "C_UK003_60",
+        "C_UK003_62",
+        "C_UK003_63",
+        "C_UK003_67",
+        "C_UK003_68",
+        "C_UK003_69",
+        "C_UK003_72",
+        "C_UK003_73",
+        "C_UK003_74",
+        "C_UK003_75",
+        "C_UK003_76",
+        "C_UK003_77",
+        "C_UK003_78",
+        "C_UK003_79",
+        "C_UK003_80",
+        "C_UK003_83",
+        "C_UK003_84",
+        "C_UK003_85",
+        "C_UK003_86",
+        "C_UK003_90",
+        "C_UK003_91",
+        "C_UK003_93",
+        "C_UK003_97",
+        "C_UK003_98"
+      ],
+      "fee_status": "INTL",
+      "course_kinds": [
+        "postgraduate_taught",
+        "undergraduate_taught",
+        "undergraduate_topup"
+      ],
+      "academic_year": "2027/28",
+      "payment_stage": "before_cas",
+      "source_period": "current_undated_policy",
+      "schema_version": 1,
+      "full_fee_paying": true,
+      "eligibility_questions": [
+        {
+          "key": "requires_student_visa",
+          "type": "boolean",
+          "question": "Do you require a Student visa?"
+        },
+        {
+          "key": "full_fee_paying",
+          "type": "boolean",
+          "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+        },
+        {
+          "key": "sponsored",
+          "type": "boolean",
+          "question": "Will a sponsor provide a sponsorship letter?"
+        }
+      ],
+      "requires_student_visa": true,
+      "deduct_scholarship_from_deposit": false,
+      "offer_letter_confirmation_required": true,
+      "sponsorship_letter_requires_review": true
+    }
+  }
+}

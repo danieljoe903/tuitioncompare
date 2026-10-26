@@ -1,0 +1,302 @@
+[
+  {
+    "course_id": "C_UK005_01",
+    "stored_title": "BA (Hons) Acting",
+    "source_title": "BA (Hons) Acting",
+    "source_url": "https://aub.ac.uk/ba-hons-acting",
+    "level": "UG",
+    "source_sha256": "2509c97bd0b9bd13ebf3d530cb92b8e6b4f81dbfaaf3fc78b458be7b9183e93e",
+    "source_file": "page-039.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_02",
+    "stored_title": "BA (Hons) Animation Production",
+    "source_title": "BA (Hons) Animation Production",
+    "source_url": "https://aub.ac.uk/ba-hons-animation-production",
+    "level": "UG",
+    "source_sha256": "62cd75bcd0732b91b7bd63c71345bfed96f8be715dbd4c1f5037d68c691cddf4",
+    "source_file": "page-041.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_03",
+    "stored_title": "BA (Hons) Architecture",
+    "source_title": "BA (Hons) Architecture (Part 1 RIBA/ARB)",
+    "source_url": "https://aub.ac.uk/ba-hons-architecture-riba-arb",
+    "level": "UG",
+    "source_sha256": "e948b28554a179aae5bd3284dad2be123acc6b362d34089dac19752bcfd69287",
+    "source_file": "page-042.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_05",
+    "stored_title": "BA (Hons) Commercial Photography",
+    "source_title": "BA (Hons) Commercial Photography",
+    "source_url": "https://aub.ac.uk/ba-hons-commercial-photography",
+    "level": "UG",
+    "source_sha256": "6ed2d77a17d0cc42c1cc5cbaa732452b6235036339510338c7d76238b6e63139",
+    "source_file": "page-043.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_06",
+    "stored_title": "BA (Hons) Communication Design and Strategy",
+    "source_title": "BA (Hons) Communication Design and Strategy",
+    "source_url": "https://aub.ac.uk/ba-hons-communication-design-strategy",
+    "level": "UG",
+    "source_sha256": "c2361cebf47d73de37143008a7b84553221abf89206a0c0901328237705e0a3b",
+    "source_file": "page-044.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_07",
+    "stored_title": "BA (Hons) Content Creation with Marketing",
+    "source_title": "BA (Hons) Content Creation with Marketing",
+    "source_url": "https://aub.ac.uk/ba-hons-content-creation-with-marketing",
+    "level": "UG",
+    "source_sha256": "4b27e31b75befc9680b4e7d2b8cc4ace0596647f5c0230afae99afef88c6ae7f",
+    "source_file": "page-045.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_08",
+    "stored_title": "BA (Hons) Costume",
+    "source_title": "BA (Hons) Costume",
+    "source_url": "https://aub.ac.uk/ba-hons-costume",
+    "level": "UG",
+    "source_sha256": "ad2e29ebba22b7b0d6e6bde5f7a14d9a294b24dda6a54532461b3090ac4d06e6",
+    "source_file": "page-046.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_09",
+    "stored_title": "BA (Hons) Costume for Film",
+    "source_title": "BA (Hons) Costume for Film",
+    "source_url": "https://aub.ac.uk/ba-hons-costume-for-film",
+    "level": "UG",
+    "source_sha256": "619af56967f4e0871c08693cf7f6427a1e4be85db0506f7af3930c73d2f3394f",
+    "source_file": "page-047.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_10",
+    "stored_title": "BA (Hons) Creative Writing",
+    "source_title": "BA (Hons) Creative Writing",
+    "source_url": "https://aub.ac.uk/ba-hons-creative-writing",
+    "level": "UG",
+    "source_sha256": "7ebdc43e1cad337380f7934911b8b6909e45b4be2d68c0b7a1fddd3c0b5bd6e4",
+    "source_file": "page-049.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_12",
+    "stored_title": "BA (Hons) Fashion",
+    "source_title": "BA (Hons) Fashion",
+    "source_url": "https://aub.ac.uk/ba-hons-fashion",
+    "level": "UG",
+    "source_sha256": "2a9ca97b40c7ec017b288a0533ddb73b34a1e02ef0cafbc9096be7d172f3a96f",
+    "source_file": "page-051.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_13",
+    "stored_title": "BA (Hons) Fashion Communication",
+    "source_title": "BA (Hons) Fashion Communication",
+    "source_url": "https://aub.ac.uk/ba-hons-fashion-communication",
+    "level": "UG",
+    "source_sha256": "41b5570fdc1b4b6d86dd96209d5bcf35468c1a50aacbd03baf239fc86f75357f",
+    "source_file": "page-052.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_14",
+    "stored_title": "BSc (Hons) Fashion Management and Strategy",
+    "source_title": "BSc (Hons) Fashion Management and Strategy",
+    "source_url": "https://aub.ac.uk/bsc-hons-fashion-management-and-strategy",
+    "level": "UG",
+    "source_sha256": "cb9086981f442ce2072d647f215571c25885f801893d58284c0d6ce41698bc6c",
+    "source_file": "page-068.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_15",
+    "stored_title": "BA (Hons) Film Production",
+    "source_title": "BA (Hons) Film Production",
+    "source_url": "https://aub.ac.uk/ba-hons-film-production",
+    "level": "UG",
+    "source_sha256": "22619b211f9e798f6e7176d74f809c619dcc5ef67af76937173924d8aa344de2",
+    "source_file": "page-053.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_16",
+    "stored_title": "BA (Hons) Fine Art",
+    "source_title": "BA (Hons) Fine Art",
+    "source_url": "https://aub.ac.uk/ba-hons-fine-art",
+    "level": "UG",
+    "source_sha256": "20f298824a88ce0c02488ef5268330d619177f348e90c02c6297712473eca701",
+    "source_file": "page-054.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_17",
+    "stored_title": "BA (Hons) Games Art and Design",
+    "source_title": "BA (Hons) Games Art and Design",
+    "source_url": "https://aub.ac.uk/ba-hons-games-art-and-design",
+    "level": "UG",
+    "source_sha256": "80085e272f5f9c43542ccf68ac61627e548f18d761104ccaf0f4f3845c011769",
+    "source_file": "page-055.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_18",
+    "stored_title": "BA (Hons) Graphic Design",
+    "source_title": "BA (Hons) Graphic Design",
+    "source_url": "https://aub.ac.uk/ba-hons-graphic-design",
+    "level": "UG",
+    "source_sha256": "f4d3d8259503d5c9e85ce85fdb58f76abff5be2f95d014954d95a2131303a9b5",
+    "source_file": "page-056.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_19",
+    "stored_title": "BA (Hons) Illustration",
+    "source_title": "BA (Hons) Illustration",
+    "source_url": "https://aub.ac.uk/ba-hons-illustration",
+    "level": "UG",
+    "source_sha256": "b3fbd704d3d96d51946acce41e05c84e2f672b83d1a4f4731e31b0a223164f23",
+    "source_file": "page-057.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_20",
+    "stored_title": "BA (Hons) Interior Architecture and Design",
+    "source_title": "BA (Hons) Interior Architecture and Design",
+    "source_url": "https://aub.ac.uk/ba-hons-interior-architecture-design",
+    "level": "UG",
+    "source_sha256": "fe89f7c27f1e2dda0ea0d46fe8506d2fe0f0fb21d8b8a220d4418a1e5901bdf1",
+    "source_file": "page-058.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_26",
+    "stored_title": "BA (Hons) Acting for Screen",
+    "source_title": "BA (Hons) Acting for Screen",
+    "source_url": "https://aub.ac.uk/ba-hons-acting-for-screen",
+    "level": "UG",
+    "source_sha256": "9a67de4f4b6eb34dfce65b5a205cc030cc0d58c4b7045b6c2e5fe5f89bb88a56",
+    "source_file": "page-040.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_29",
+    "stored_title": "BA (Hons) Modelmaking",
+    "source_title": "BA (Hons) Modelmaking",
+    "source_url": "https://aub.ac.uk/ba-hons-modelmaking",
+    "level": "UG",
+    "source_sha256": "27c53f9423aade80b74b06d06898873f6aaa1f7bac0aad700867cd508267c099",
+    "source_file": "page-062.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_21",
+    "stored_title": "MA Animation Production",
+    "source_title": "MA Animation Production",
+    "source_url": "https://aub.ac.uk/graduate-courses/ma-animation-production",
+    "level": "PG",
+    "source_sha256": "13b1ae61908e2b6c21e2124bca5d9ef3bdd6f68ee6e2b9311f6df5c7200ec998",
+    "source_file": "page-016.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_22",
+    "stored_title": "Master of Architecture (Part 2)",
+    "source_title": "Master of Architecture (Part 2 RIBA/ARB)",
+    "source_url": "https://aub.ac.uk/graduate-courses/master-of-architecture-part-2-arb-riba",
+    "level": "PG",
+    "source_sha256": "5f9b83e21924df0dca517daace6e25a4b76cb0f87e5584c8fe126e607a608e9b",
+    "source_file": "page-038.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_24",
+    "stored_title": "MA Fine Art",
+    "source_title": "MA Fine Art",
+    "source_url": "https://aub.ac.uk/graduate-courses/ma-fine-art",
+    "level": "PG",
+    "source_sha256": "adf5b8f4a8462350600895c349c932367c36f210f02d08ce2e6a6de1122d81a0",
+    "source_file": "page-023.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_25",
+    "stored_title": "MA Graphic Design",
+    "source_title": "MA Graphic Design",
+    "source_url": "https://aub.ac.uk/graduate-courses/ma-graphic-design",
+    "level": "PG",
+    "source_sha256": "6770eff5070bb963d61dc8debcb12560b5cde80e3d37a6205ee1cb848f13d896",
+    "source_file": "page-024.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_34",
+    "stored_title": "MA Historical Costume",
+    "source_title": "MA Historical Costume",
+    "source_url": "https://aub.ac.uk/graduate-courses/ma-historical-costume",
+    "level": "PG",
+    "source_sha256": "4a3954be221d6682145d172275caf2032f10848ab8924b16153131a6511919e4",
+    "source_file": "page-026.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_35",
+    "stored_title": "MA Illustration",
+    "source_title": "MA Illustration",
+    "source_url": "https://aub.ac.uk/graduate-courses/ma-illustration",
+    "level": "PG",
+    "source_sha256": "0b39ac2a9858b7e026624e46edf52417ebb004c929d949b7039f7b1538e068d7",
+    "source_file": "page-027.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_36",
+    "stored_title": "MA Photography",
+    "source_title": "MA Photography",
+    "source_url": "https://aub.ac.uk/graduate-courses/ma-photography",
+    "level": "PG",
+    "source_sha256": "f2b0d5561a213919a18c45e38e424f0d8d4c6bee49367638f547753681879ce1",
+    "source_file": "page-033.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_37",
+    "stored_title": "MA Painting",
+    "source_title": "MA Painting",
+    "source_url": "https://aub.ac.uk/graduate-courses/ma-painting",
+    "level": "PG",
+    "source_sha256": "ee045822edc691aae3d1c2574ae8806d0ca299e32e15512e65b89d3f9a132c30",
+    "source_file": "page-032.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_38",
+    "stored_title": "MA Innovation and Creative Entrepreneurship",
+    "source_title": "MA Innovation and Creative Entrepreneurship",
+    "source_url": "https://aub.ac.uk/graduate-courses/ma-innovation-and-creative-entrepreneurship",
+    "level": "PG",
+    "source_sha256": "734e17c432bf25f03d59e9668300c32fb1af7015d111453aeb0d31214cfaaf66",
+    "source_file": "page-029.html",
+    "subject_to_validation": false
+  },
+  {
+    "course_id": "C_UK005_39",
+    "stored_title": "MA User Experience (UX/UI)",
+    "source_title": "MA User Experience (UX/UI)*",
+    "source_url": "https://aub.ac.uk/graduate-courses/ma-user-experience-ux-ui",
+    "level": "PG",
+    "source_sha256": "950d18abfb9459ae83cd2ab3f00e6bc8d7d24215adff7a424fb51776d4287cb4",
+    "source_file": "page-036.html",
+    "subject_to_validation": true
+  }
+]

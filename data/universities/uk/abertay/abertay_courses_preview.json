@@ -1,0 +1,2834 @@
+{
+  "generated_at": "2026-10-16T22:46:18.347664+00:00",
+  "academic_year": "2026/27",
+  "processed": 54,
+  "extracted": 54,
+  "needs_review": 0,
+  "request_failed": 0,
+  "records": [
+    {
+      "catalogue_title": "Accounting and Finance BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/bsc-accounting-and-finance/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/bsc-accounting-and-finance/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Accounting and Finance",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "N420",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/bsc-accounting-and-finance/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Accounting and Finance (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Accounting and Finance",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N400",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Accounting and Finance w/ Business Analytics (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-business-analytics/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-business-analytics/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Accounting and Finance with Business Analytics",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N4G3",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-business-analytics/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Accounting and Finance w/ People Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-people-management/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-people-management/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Accounting and Finance with People Management",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N4N6",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-people-management/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Accounting and Finance with Law (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-law/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-law/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Accounting and Finance with Law",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N4M1",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-law/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Biomedical Science BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/biomedical-science/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/biomedical-science/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Biomedical Science",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "B901",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/biomedical-science/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Business Management BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/ba-business-management/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/ba-business-management/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Business Management",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N220",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/ba-business-management/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Business Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-1/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-1/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Business Management",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N200",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-1/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Business Management with Analytics (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-analytics/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-analytics/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Business Management with Analytics",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N2G3",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-analytics/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Business Management with Events Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-events-management/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-events-management/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Business Management with Events Management",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N2N8",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-events-management/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Business Management with People Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-people-management/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-people-management/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Business Management with People Management",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N260",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-people-management/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Civil and Environmental Engineering (Yr2) MEng/BEng (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering/",
+      "status": "extracted",
+      "data": {
+        "title": "MEng/BEng (Hons) Civil and Environmental Engineering",
+        "start_month": "September",
+        "duration": "3 years (full-time) BEng (Hons) | 4 years (full-time) MEng",
+        "award_title": "MEng/BEng (Hons)",
+        "ucas_code": "H3H3 BEng (Hons) | H2H2 MEng",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Civil and Environmental Engineering w/ D&A College MEng/BEng (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering-with-dundee-angus-college/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering-with-dundee-angus-college/",
+      "status": "extracted",
+      "data": {
+        "title": "MEng/BEng (Hons) Civil and Environmental Engineering (with D&A College)",
+        "start_month": "September",
+        "duration": "4 years (full-time) BEng (Hons) | 5 years (full-time) MEng",
+        "award_title": "MEng/BEng (Hons)",
+        "ucas_code": "HDH3 BEng (Hons) | HDH2 MEng",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering-with-dundee-angus-college/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Computer Arts BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-arts/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-arts/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Computer Arts",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "GW42",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£17,950",
+        "annual_tuition": "17950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£17,950",
+            "annual_tuition": "17950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-arts/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Computer Game Applications Development BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-game-applications-development/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-game-applications-development/",
+      "status": "extracted",
+      "data": {
+        "title": "Computer Game Applications Development",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "G450",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£17,950",
+        "annual_tuition": "17950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£17,950",
+            "annual_tuition": "17950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-game-applications-development/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Computer Games Technology BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-games-technology/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-games-technology/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Computer Games Technology",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "G470",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£17,950",
+        "annual_tuition": "17950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£17,950",
+            "annual_tuition": "17950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-games-technology/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Computer Science BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Computer Science",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "G401",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£17,950",
+        "annual_tuition": "17950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£17,950",
+            "annual_tuition": "17950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Computer Science with Cybersecurity BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science-with-cybersecurity/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science-with-cybersecurity/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Computer Science with Cybersecurity",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "GI00",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£17,950",
+        "annual_tuition": "17950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£17,950",
+            "annual_tuition": "17950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science-with-cybersecurity/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Computing BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computing/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/computing/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Computing",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "G400",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£17,950",
+        "annual_tuition": "17950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£17,950",
+            "annual_tuition": "17950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/computing/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Criminology BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Criminology",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "M9M9",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Criminology and Policing BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-policing/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-policing/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Criminology and Policing",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "L311",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+        "fee_method": "reviewed_central_default",
+        "fee_rule": "All other Undergraduate Bachelors Degree Programmes",
+        "fee_categories": [
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ]
+      }
+    },
+    {
+      "catalogue_title": "Criminology and Sociology BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-sociology/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-sociology/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Criminology and Sociology",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "M9L3",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-sociology/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Digital Marketing and Business Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-and-business-management/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-and-business-management/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Digital Marketing and Business Management",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N5N1",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-and-business-management/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Digital Marketing with Events Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-with-events-management/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-with-events-management/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Digital Marketing with Events Management",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N5N8",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-with-events-management/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Engineering Management (Yr2) BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/engineering-management/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/engineering-management/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Engineering Management",
+        "start_month": "September",
+        "duration": "3 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "HN10",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/engineering-management/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Engineering Management w/ D&A College BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/engineering-management-with-dundee-angus-college/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/engineering-management-with-dundee-angus-college/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Engineering Management (with Dundee & Angus College)",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "HD10",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/engineering-management-with-dundee-angus-college/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Environmental Management & Sustainability (Yr2) BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Environmental Management & Sustainability",
+        "start_month": "September",
+        "duration": "3 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "H220",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Environmental Mgmt & Sustainability w/ D&A College BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability-with-dundee-angus-college/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability-with-dundee-angus-college/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Environmental Management and Sustainability (with D&A College)",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "HD20",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability-with-dundee-angus-college/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Ethical Hacking BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/ethical-hacking/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/ethical-hacking/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Ethical Hacking",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "GG45",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£17,950",
+        "annual_tuition": "17950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£17,950",
+            "annual_tuition": "17950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/ethical-hacking/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Fitness, Nutrition and Health BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/fitness-nutrition-and-health/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/fitness-nutrition-and-health/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Fitness, Nutrition and Health",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "B400",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/fitness-nutrition-and-health/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Food and Consumer Science BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-and-consumer-science/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-and-consumer-science/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Food and Consumer Science",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "DN69",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-and-consumer-science/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Food Science, Nutrition and Wellbeing BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-science-nutrition-and-wellbeing/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-science-nutrition-and-wellbeing/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Food Science, Nutrition and Wellbeing",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "D610",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-science-nutrition-and-wellbeing/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Food, Nutrition and Health BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-nutrition-and-health/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-nutrition-and-health/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Food, Nutrition and Health",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "BD46",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/food-nutrition-and-health/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Forensic Sciences BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/forensic-sciences/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/forensic-sciences/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Forensic Sciences",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "F410",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/forensic-sciences/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Game Design and Production BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/game-design-and-production/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/game-design-and-production/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Game Design and Production",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "G452",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£17,950",
+        "annual_tuition": "17950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£17,950",
+            "annual_tuition": "17950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/game-design-and-production/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Law LLB (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/law/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/law/",
+      "status": "extracted",
+      "data": {
+        "title": "LLB (Hons) Law",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "LLB (Hons)",
+        "ucas_code": "M114",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/law/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Law with Criminology LLB (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/law-with-criminology/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/law-with-criminology/",
+      "status": "extracted",
+      "data": {
+        "title": "LLB (Hons) Law with Criminology",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "LLB (Hons)",
+        "ucas_code": "MM19",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/law-with-criminology/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Law – Accelerated Graduate Entry LLB LLB",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/law-accelerated-graduate-entry-llb/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/law-accelerated-graduate-entry-llb/",
+      "status": "extracted",
+      "data": {
+        "title": "Law – Accelerated Graduate Entry LLB",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "LLB",
+        "ucas_code": "M115",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£8,000",
+            "annual_tuition": "8000.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£8,000",
+            "annual_tuition": "8000.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/law-accelerated-graduate-entry-llb/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Marketing BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/marketing/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/marketing/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Marketing",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N520",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/marketing/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Marketing and Business Management (Yr3) BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/marketing-and-business-management/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/marketing-and-business-management/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Marketing and Business Management",
+        "start_month": "September",
+        "duration": "2 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "N500",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/marketing-and-business-management/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Mental Health Nursing BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/mental-health-nursing/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/mental-health-nursing/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Mental Health Nursing",
+        "start_month": "September",
+        "duration": "3 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "B760",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/mental-health-nursing/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Physical Activity and Health BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/physical-activity-and-health/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/physical-activity-and-health/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Physical Activity and Health",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "C601",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/physical-activity-and-health/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Psychology BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Psychology",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "C800",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Psychology and Counselling BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-and-counselling/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-and-counselling/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Psychology and Counselling",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "C843",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/tuition-fees-2026-2027/",
+        "fee_method": "reviewed_central_default",
+        "fee_rule": "All other Undergraduate Bachelors Degree Programmes",
+        "fee_categories": [
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ]
+      }
+    },
+    {
+      "catalogue_title": "Psychology w. Forensic & Investigative Psychology BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-forensic-and-investigative-psychology/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-forensic-and-investigative-psychology/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Psychology with Forensic and Investigative Psychology",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "C816",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-forensic-and-investigative-psychology/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Psychology with Development and Education BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-development-and-education/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-development-and-education/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Psychology with Development and Education",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "C820",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-development-and-education/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Psychology with Forensic Scene Investigation BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-forensic-scene-investigation/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-forensic-scene-investigation/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Psychology with Forensic Scene Investigation",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "CF64",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-forensic-scene-investigation/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Psychology with Health Sciences BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-health-sciences/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-health-sciences/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Psychology with Health Sciences",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "C848",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology-with-health-sciences/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Sport and Exercise BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Sport and Exercise",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "C600",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Sport and Exercise Science BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise-science/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise-science/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Sport and Exercise Science",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "C602",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise-science/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Sport and Management BA (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-management/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-management/",
+      "status": "extracted",
+      "data": {
+        "title": "BA (Hons) Sport & Management",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BA (Hons)",
+        "ucas_code": "CN62",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-management/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Sports Development and Coaching BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sports-development-and-coaching/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/sports-development-and-coaching/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Sports Development and Coaching",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "C603",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sports-development-and-coaching/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Strength and Conditioning BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/strength-and-conditioning/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/strength-and-conditioning/",
+      "status": "extracted",
+      "data": {
+        "title": "BSc (Hons) Strength and Conditioning",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "C604",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£16,950",
+        "annual_tuition": "16950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£16,950",
+            "annual_tuition": "16950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/strength-and-conditioning/",
+        "fee_method": "course_page"
+      }
+    },
+    {
+      "catalogue_title": "Visual Effects for Games and Real-Time Media BSc (Hons)",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/visual-effects-for-games-and-real-time-media/",
+      "response_url": "https://www.abertay.ac.uk/course-search/undergraduate/visual-effects-for-games-and-real-time-media/",
+      "status": "extracted",
+      "data": {
+        "title": "Visual Effects for Games and Real-Time Media",
+        "start_month": "September",
+        "duration": "4 years (full-time)",
+        "award_title": "BSc (Hons)",
+        "ucas_code": "G460",
+        "academic_year": "2026/27",
+        "fee_status": "International",
+        "currency": "GBP",
+        "raw_fee": "£17,950",
+        "annual_tuition": "17950.00",
+        "footnote_marker": "",
+        "fee_categories": [
+          {
+            "source_fee_category": "Scotland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£1,820 (typically paid by SAAS)",
+            "annual_tuition": "1820.00",
+            "footnote_marker": "",
+            "annotation": "(typically paid by SAAS)",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "England/Wales/N Ireland/Rep of Ireland",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£9,790",
+            "annual_tuition": "9790.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          },
+          {
+            "source_fee_category": "International",
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "raw_annual_fee": "£17,950",
+            "annual_tuition": "17950.00",
+            "footnote_marker": "",
+            "annotation": "",
+            "amount_requires_review": false
+          }
+        ],
+        "fee_source_url": "https://www.abertay.ac.uk/course-search/undergraduate/visual-effects-for-games-and-real-time-media/",
+        "fee_method": "course_page"
+      }
+    }
+  ]
+}

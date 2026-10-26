@@ -1,0 +1,157 @@
+{
+  "mode": "apply",
+  "course_id": "C_UK004_67",
+  "changed_items": 2,
+  "gross": "10855.00",
+  "conditional_deduction": "5970.25",
+  "net_if_eligible": "4884.75",
+  "before_rule": null,
+  "after_rule": {
+    "kind": "fixed",
+    "value": "5970.25",
+    "benefit": "tuition",
+    "currency": "GBP",
+    "importer": "arden_finance_award_v6",
+    "stacking": "exclusive",
+    "conditions": {
+      "course_id": [
+        "C_UK004_67"
+      ],
+      "fee_status": [
+        "INTL"
+      ],
+      "arden_campus": [
+        "Online"
+      ],
+      "arden_intake": [
+        "2027-01"
+      ],
+      "arden_partner_route": [
+        false
+      ],
+      "arden_not_sanctioned": [
+        true
+      ],
+      "arden_not_uk_student": [
+        true
+      ],
+      "arden_online_gross_quote": [
+        "10855.00"
+      ],
+      "arden_application_accurate": [
+        true
+      ],
+      "arden_online_offer_confirmed": [
+        true
+      ],
+      "arden_prior_credits_under_40": [
+        true
+      ],
+      "arden_not_blocked_or_expelled": [
+        true
+      ],
+      "arden_account_in_good_standing": [
+        true
+      ],
+      "arden_country_evidence_accepted": [
+        true
+      ],
+      "arden_no_staff_agent_connection": [
+        true
+      ],
+      "arden_online_tier2_country_confirmed": [
+        true
+      ]
+    },
+    "scope_note": "Only reviewed course IDs and published intake/price basis. Online awards cannot combine with campus offers.",
+    "review_note": "",
+    "study_years": [
+      1
+    ],
+    "award_status": "conditional",
+    "academic_year": "2026/27",
+    "compatible_ids": [],
+    "percentage_basis": "original_tuition",
+    "comparison_period": "total_programme",
+    "fee_basis_confirmed": true,
+    "source_terms_sha256": "f922aabba883b72f03857fcdba85b0de76ee62275763a17596a946e1f32d6576",
+    "eligibility_questions": [
+      {
+        "key": "arden_intake",
+        "type": "text",
+        "label": "Which reviewed online intake will you join? Use YYYY-MM."
+      },
+      {
+        "key": "arden_online_offer_confirmed",
+        "type": "boolean",
+        "label": "Has Arden offered you this online programme for the selected intake?"
+      },
+      {
+        "key": "arden_not_uk_student",
+        "type": "boolean",
+        "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+      },
+      {
+        "key": "arden_country_evidence_accepted",
+        "type": "boolean",
+        "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+      },
+      {
+        "key": "arden_partner_route",
+        "type": "boolean",
+        "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+      },
+      {
+        "key": "arden_prior_credits_under_40",
+        "type": "boolean",
+        "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+      },
+      {
+        "key": "arden_account_in_good_standing",
+        "type": "boolean",
+        "label": "Is your Arden student account free of arrears?"
+      },
+      {
+        "key": "arden_not_blocked_or_expelled",
+        "type": "boolean",
+        "label": "Are you free of any blocked or expelled student status?"
+      },
+      {
+        "key": "arden_no_staff_agent_connection",
+        "type": "boolean",
+        "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+      },
+      {
+        "key": "arden_application_accurate",
+        "type": "boolean",
+        "label": "Is your application and supporting information accurate and free of misrepresentation?"
+      },
+      {
+        "key": "arden_not_sanctioned",
+        "type": "boolean",
+        "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+      },
+      {
+        "key": "arden_application_residence",
+        "type": "text",
+        "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+      },
+      {
+        "key": "arden_application_nationality",
+        "type": "text",
+        "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+      }
+    ],
+    "finance_pathway_review": {
+      "importer": "arden_finance_award_v6",
+      "source_url": "https://arden.ac.uk/terms-and-conditions",
+      "source_course_id": "2343",
+      "cohort": "January 2027",
+      "gross": "10855.00",
+      "net": "4884.75",
+      "rationale": "Executive MBA Finance is a themed Executive MBA route; Schedule 1 includes postgraduate themed routes/pathways. Schedule 2 MBA Tier 2 price applies."
+    }
+  },
+  "llm_status": "Eligible programme listed; applicable LLM price group requires confirmation. No new LLM deduction.",
+  "database_changes": true
+}

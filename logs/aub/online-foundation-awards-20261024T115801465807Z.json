@@ -1,0 +1,278 @@
+{
+  "university_id": "UK005",
+  "generated_at": "2026-10-24T11:58:01.403740+00:00",
+  "database_changes": false,
+  "course_reviews": [
+    {
+      "course_id": "C_UK005_23",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "verified_conditional_online_progression",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Verified conditional international online progression bursary: GBP 1,995 against the GBP 9,975 programme total, net GBP 7,980 if eligible and awarded. Campus international competitive scholarships do not apply online.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_40",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "verified_conditional_online_progression",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Verified conditional international online progression bursary: GBP 1,995 against the GBP 9,975 programme total, net GBP 7,980 if eligible and awarded. Campus international competitive scholarships do not apply online.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_41",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "verified_conditional_online_progression",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Verified conditional international online progression bursary: GBP 1,995 against the GBP 9,975 programme total, net GBP 7,980 if eligible and awarded. Campus international competitive scholarships do not apply online.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_42",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "verified_conditional_online_progression",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Verified conditional international online progression bursary: GBP 1,995 against the GBP 9,975 programme total, net GBP 7,980 if eligible and awarded. Campus international competitive scholarships do not apply online.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_43",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "year_zero_applicability_unconfirmed",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_44",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "year_zero_applicability_unconfirmed",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_45",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "year_zero_applicability_unconfirmed",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_46",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "year_zero_applicability_unconfirmed",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_47",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "year_zero_applicability_unconfirmed",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_48",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "year_zero_applicability_unconfirmed",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_49",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "year_zero_applicability_unconfirmed",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+        "questions_location": "scholarship_page"
+      }
+    },
+    {
+      "course_id": "C_UK005_50",
+      "changed": true,
+      "review": {
+        "importer": "aub_online_progression_v1",
+        "status": "year_zero_applicability_unconfirmed",
+        "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+        "source_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+        "competitive_source_url": "https://aub.ac.uk/international/international-scholarships/international-undergraduate-and-postgraduate-scholarships",
+        "campus_exclusion_source_url": "https://aub.ac.uk/international/international-scholarships",
+        "reason": "Integrated foundation Year 0 award applicability remains unconfirmed. Foundation Diploma bursaries and progression from an already completed Foundation Diploma are separate. The UG competitive first-year wording does not explicitly confirm Year 0. Provisional tuition remains unverified as final; no deduction.",
+        "questions_location": "scholarship_page"
+      }
+    }
+  ],
+  "source_url": "https://aub.ac.uk/international/international-scholarships/international-progression-bursary",
+  "changed_items": 13,
+  "rule": {
+    "changed": true,
+    "name": "AUB International Online MA Progression Bursary (2027/28)",
+    "rules": {
+      "importer": "aub_online_progression_v1",
+      "benefit": "tuition",
+      "kind": "fixed",
+      "value": "1995.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "study_years": [
+        1
+      ],
+      "conditions": {
+        "aub_fee_status_confirmed": [
+          true
+        ],
+        "aub_offer_confirmed": [
+          true
+        ],
+        "aub_application_by_deadline": [
+          true
+        ],
+        "aub_award_granted": [
+          true
+        ],
+        "aub_award_accepted": [
+          true
+        ],
+        "aub_award_for_compared_period": [
+          true
+        ],
+        "aub_no_other_aub_award": [
+          true
+        ],
+        "aub_progression_qualifying_undergraduate": [
+          true
+        ],
+        "course_id": [
+          "C_UK005_23",
+          "C_UK005_40",
+          "C_UK005_41",
+          "C_UK005_42"
+        ],
+        "fee_status": [
+          "INTL"
+        ]
+      },
+      "award_status": "conditional",
+      "stacking": "exclusive",
+      "compatible_ids": [],
+      "percentage_basis": "original_tuition",
+      "fee_basis_confirmed": true,
+      "fee_basis": "total_programme_fee",
+      "scope_note": "Four reviewed September 2027 two-year online MAs only. GBP 1,995 once against the GBP 9,975 programme total; not an annual deduction. AUB grant and acceptance required. No other AUB award stacked.",
+      "source_capture_sha256": "60b3998e5ec260e1ce82ecd9a00173725b2e7be52c27dc8b219cfe2a9cab32b9",
+      "eligibility_questions": [
+        {
+          "key": "aub_fee_status_confirmed",
+          "type": "boolean",
+          "label": "Has AUB assessed you as an overseas fee payer?"
+        },
+        {
+          "key": "aub_offer_confirmed",
+          "type": "boolean",
+          "label": "Do you hold the AUB offer for this exact course and intake?"
+        },
+        {
+          "key": "aub_application_by_deadline",
+          "type": "boolean",
+          "label": "Did you submit the scholarship application by the published deadline for your intake?"
+        },
+        {
+          "key": "aub_award_granted",
+          "type": "boolean",
+          "label": "Has AUB confirmed that you have been granted its online postgraduate progression bursary?"
+        },
+        {
+          "key": "aub_award_accepted",
+          "type": "boolean",
+          "label": "Have you accepted this progression bursary under AUB’s instructions?"
+        },
+        {
+          "key": "aub_award_for_compared_period",
+          "type": "boolean",
+          "label": "Does the award letter make this amount applicable to the fee period being compared?"
+        },
+        {
+          "key": "aub_no_other_aub_award",
+          "type": "boolean",
+          "label": "Have you confirmed that you are not combining it with another AUB financial award or bursary?"
+        },
+        {
+          "key": "aub_progression_qualifying_undergraduate",
+          "type": "boolean",
+          "label": "Are you a current AUB undergraduate, or did you complete an AUB undergraduate degree within the two years before progressing to this online MA? Use AUB’s assessment if unsure."
+        }
+      ],
+      "questions_location": "scholarship_page"
+    }
+  }
+}

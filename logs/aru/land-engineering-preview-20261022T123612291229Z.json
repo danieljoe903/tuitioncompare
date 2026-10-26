@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-10-22T12:36:12.291229+00:00",
+  "university_id": "UK003",
+  "mode": "preview",
+  "database_changes": false,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\campus-intakes-20261022T123208652315Z\\campus-intake-evidence.json",
+  "proposals": [
+    {
+      "course_id": "C_UK003_02",
+      "mapping": "explicit_replacement_proposal",
+      "replacement_accepted": false,
+      "course_changes": {
+        "title": {
+          "before": "BSc (Hons) Animal Behaviour",
+          "after": "BSc (Hons) Animal Management (Pet Behaviour and Welfare)"
+        },
+        "location": {
+          "before": "Cambridge Campus",
+          "after": "Writtle Campus"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "D304"
+        },
+        "course_url": {
+          "before": "www.aru.ac.uk",
+          "after": "https://www.aru.ac.uk/study/undergraduate/animal-management-pet-behaviour-and-welfare"
+        }
+      },
+      "tuition": {
+        "stored_amount": "18400.0",
+        "proposed_amount": "18825.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "fee_basis": "annual_tuition",
+        "fee_available": true,
+        "reason": ""
+      },
+      "scholarship": {
+        "status": "applicability_pending",
+        "note": "Review for the lower first-year undergraduate award at Writtle. Do not automatically extend the higher award.",
+        "existing_rules_changed": false,
+        "eligibility_questions_preserved": true
+      },
+      "deposit": {
+        "published_amount": "4000.00",
+        "currency": "GBP",
+        "status": "published_statement_scope_review_required",
+        "note": "A published deposit statement does not extend the saved policy automatically. Visa, funding, sponsorship and course applicability require review.",
+        "saved_policy_changed": false
+      },
+      "evidence": {
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/animal-management-pet-behaviour-and-welfare",
+        "source_sha256": "1c8ff90fab7c03f10521a5be95b46150c257140b9e177397ce1fda53a980ac7e",
+        "evidence_generated_at": "2026-10-22T12:32:08.652315+00:00"
+      },
+      "reviewed_route": {
+        "entry": "September 2027",
+        "academic_year": "2027/28",
+        "mode": "full_time",
+        "campus": "Writtle",
+        "excluded_routes": [
+          "foundation",
+          "part_time",
+          "distance_learning"
+        ]
+      }
+    },
+    {
+      "course_id": "C_UK003_54",
+      "mapping": "explicit_replacement_proposal",
+      "replacement_accepted": false,
+      "course_changes": {
+        "title": {
+          "before": "MSc Sustainable Agriculture",
+          "after": "MSc Crop Production"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "course_url": {
+          "before": "www.aru.ac.uk",
+          "after": "https://www.aru.ac.uk/study/postgraduate/crop-production"
+        }
+      },
+      "tuition": {
+        "stored_amount": "19500.0",
+        "proposed_amount": "18825.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "fee_basis": "annual_tuition",
+        "fee_available": true,
+        "reason": ""
+      },
+      "scholarship": {
+        "status": "applicability_pending",
+        "note": "Review the saved International Postgraduate Scholarship for ARU graduates. An MSc place alone does not establish eligibility. This preview covers September entry only.",
+        "existing_rules_changed": false,
+        "eligibility_questions_preserved": true
+      },
+      "deposit": {
+        "published_amount": "4000.00",
+        "currency": "GBP",
+        "status": "published_statement_scope_review_required",
+        "note": "A published deposit statement does not extend the saved policy automatically. Visa, funding, sponsorship and course applicability require review.",
+        "saved_policy_changed": false
+      },
+      "evidence": {
+        "source_url": "https://www.aru.ac.uk/study/postgraduate/crop-production",
+        "source_sha256": "b2dc3de1338bbc74178e48b1bd7cd96b2ba104fa081f330380dac64a7069e71c",
+        "evidence_generated_at": "2026-10-22T12:32:08.652315+00:00"
+      },
+      "reviewed_route": {
+        "entry": "September 2027",
+        "academic_year": "2027/28",
+        "mode": "full_time",
+        "campus": "Writtle",
+        "excluded_routes": [
+          "foundation",
+          "part_time",
+          "distance_learning"
+        ]
+      }
+    },
+    {
+      "course_id": "C_UK003_71",
+      "mapping": "explicit_replacement_proposal",
+      "replacement_accepted": false,
+      "course_changes": {
+        "title": {
+          "before": "MSc Civil Engineering",
+          "after": "MSc Construction and Civil Engineering Management"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "course_url": {
+          "before": "www.aru.ac.uk",
+          "after": "https://www.aru.ac.uk/study/postgraduate/construction-and-civil-engineering-management"
+        }
+      },
+      "tuition": {
+        "stored_amount": "19500.0",
+        "proposed_amount": "20925.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "fee_basis": "annual_tuition",
+        "fee_available": true,
+        "reason": ""
+      },
+      "scholarship": {
+        "status": "applicability_pending",
+        "note": "Review the saved International Postgraduate Scholarship for ARU graduates. This preview excludes part-time and distance-learning routes.",
+        "existing_rules_changed": false,
+        "eligibility_questions_preserved": true
+      },
+      "deposit": {
+        "published_amount": "4000.00",
+        "currency": "GBP",
+        "status": "published_statement_scope_review_required",
+        "note": "A published deposit statement does not extend the saved policy automatically. Visa, funding, sponsorship and course applicability require review.",
+        "saved_policy_changed": false
+      },
+      "evidence": {
+        "source_url": "https://www.aru.ac.uk/study/postgraduate/construction-and-civil-engineering-management",
+        "source_sha256": "51a13e5d36d40aa88bdda2cd36a68771bf9bb4f40babbb0e8937f43cbc6a9f3a",
+        "evidence_generated_at": "2026-10-22T12:32:08.652315+00:00"
+      },
+      "reviewed_route": {
+        "entry": "September 2027",
+        "academic_year": "2027/28",
+        "mode": "full_time",
+        "campus": "Chelmsford",
+        "excluded_routes": [
+          "foundation",
+          "part_time",
+          "distance_learning"
+        ]
+      }
+    }
+  ],
+  "blocked": [],
+  "scholarship_scopes_changed": false,
+  "deposit_policies_changed": false
+}

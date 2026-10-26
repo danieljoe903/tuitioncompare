@@ -1,0 +1,42 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.pyc
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Node modules (for Tailwind)
+node_modules/
+package-lock.json
+
+# Compiled CSS (if using Tailwind CLI)
+# Uncomment if you rebuild CSS on server
+# static/css/style.css

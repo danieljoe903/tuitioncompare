@@ -1,0 +1,962 @@
+[
+  {
+    "course_id": "C_IRL001_01",
+    "title": "B.A. (Mod) Computer Science",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_02",
+    "title": "Bachelor in Business Studies (B.B.S.)",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_03",
+    "title": "LL.B. Law",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_06",
+    "title": "MB BCh BAO Medicine",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_07",
+    "title": "B.A. (Mod) Psychology",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_08",
+    "title": "B.Sc. (Pharm) / M.Pharm Integrated",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_10",
+    "title": "Bachelor in Dental Science",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_100",
+    "title": "B.Sc. (Mod) Social Work",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_103",
+    "title": "B.A. (Mod) Ancient History and Archaeology",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_104",
+    "title": "B.A. (Mod) English Literature and Creative Writing",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_105",
+    "title": "B.A. (Mod) Human Genetics",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_106",
+    "title": "B.A. (Mod) Neuroscience",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_107",
+    "title": "B.A. (Mod) Physiology",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_11",
+    "title": "B.A. (Mod) Biochemistry",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_111",
+    "title": "B.A. (Mod) Social Policy and Economics",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_112",
+    "title": "B.A. (Mod) Classical Civilisation",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_113",
+    "title": "B.A. (Mod) Drama Studies and Modern Irish",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_114",
+    "title": "B.A. (Mod) History of Art and Architecture and Modern Language",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_119",
+    "title": "B.A. (Mod) Physics and Computing",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_12",
+    "title": "B.A. (Mod) History",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_122",
+    "title": "B.A. (Mod) Music and Media Technology",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_125",
+    "title": "B.A. (Mod) Environmental Science and Engineering",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_13",
+    "title": "B.A. (Mod) English Literature",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_131",
+    "title": "B.Sc. in Early Childhood Care and Education",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_134",
+    "title": "B.A. (Mod) Ancient and Medieval History and Culture",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_137",
+    "title": "B.A. (Mod) Global Business and a Language",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_141",
+    "title": "B.Sc. in Mental Health Nursing",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_144",
+    "title": "B.A. (Mod) Physics with Biomedical Instrumentation",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_148",
+    "title": "B.A. (Mod) Sociology and Geography",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_149",
+    "title": "B.Sc. in Education Studies",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_15",
+    "title": "B.A. (Mod) Philosophy",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_16",
+    "title": "B.Sc. Nursing (General)",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_17",
+    "title": "B.A.I. Mechanical & Manufacturing Engineering",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_18",
+    "title": "B.Sc. Physiotherapy",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_19",
+    "title": "B.A. (Mod) Genetics",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_21",
+    "title": "B.A. (Mod) Religion",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_22",
+    "title": "B.A. History of Art & Architecture",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_26",
+    "title": "B.A.I. Civil Engineering",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_27",
+    "title": "B.A. (Mod) Biological and Biomedical Sciences",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_28",
+    "title": "B.A. (Mod) Classics Ancient History and Archaeology",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_29",
+    "title": "B.Sc. Human Nutrition and Dietetics",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_31",
+    "title": "B.A. (Mod) Sociology and Social Policy",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_32",
+    "title": "B.A. (Mod) Zoology",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_34",
+    "title": "B.A. (Mod) Chemistry",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_35",
+    "title": "B.A. (Mod) Philosophy Political Science Economics and Sociology (PPES)",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_36",
+    "title": "B.A. (Mod) Geography",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_37",
+    "title": "B.A. (Mod) History of Art and Architecture",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_38",
+    "title": "B.Sc. (Cur.) Midwifery",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_40",
+    "title": "B.A. (Mod) Mathematics",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_41",
+    "title": "B.A.I. Electronic and Computer Engineering",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_43",
+    "title": "B.A. (Mod) Physics and Astrophysics",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_46",
+    "title": "B.A. (Mod) Drama and Theatre Studies",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_47",
+    "title": "B.A. (Mod) Linguistics and Language",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_48",
+    "title": "B.A. (Mod) Environmental Science",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_50",
+    "title": "B.A. (Mod) Music",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_52",
+    "title": "B.A.I. Biomedical Engineering",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_54",
+    "title": "B.A. (Mod) History of Art and Architecture (Studio option)",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_59",
+    "title": "B.A. (Mod) Nanoscience",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_60",
+    "title": "B.Sc. (Cur.) Occupational Therapy",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_62",
+    "title": "B.A. (Mod) Physics",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_69",
+    "title": "B.A. (Mod) Human Health and Disease",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_72",
+    "title": "B.A. (Mod) Film",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_76",
+    "title": "B.A. (Mod) Molecular Medicine",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_79",
+    "title": "B.A. (Mod) Sociology and Social Policy (Anthropology Stream)",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_81",
+    "title": "B.A. (Mod) Middle Eastern and European Languages and Cultures",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_84",
+    "title": "B.A. (Mod) Early and Modern Irish",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_89",
+    "title": "B.Sc. (Cur.) Children's and General Nursing (Integrated)",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_91",
+    "title": "B.A. (Mod) Geography and Geoscience",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_92",
+    "title": "B.A. (Mod) Theoretical Physics",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "C_IRL001_93",
+    "title": "B.A. (Mod) Economics and Social Studies (BESS)",
+    "course_url": "www.tcd.ie"
+  },
+  {
+    "course_id": "TCD-016835a655f1d01366826a83",
+    "title": "Drama Studies (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/drama-studies-jh/"
+  },
+  {
+    "course_id": "TCD-07d073aca5abc09d783c8ffe",
+    "title": "History of Art and Architecture",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/history-of-art-and-architecture/"
+  },
+  {
+    "course_id": "TCD-07d09145c484863a376f8bab",
+    "title": "Economics (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/economics-jh/"
+  },
+  {
+    "course_id": "TCD-0808325929150a1d1017167d",
+    "title": "Early Irish (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/early-irish-jh/"
+  },
+  {
+    "course_id": "TCD-105ad57abbd164b677454f66",
+    "title": "Neuroscience: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/neuroscience-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-1251df6934a9a737ebe42021",
+    "title": "Medicine",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/medicine/"
+  },
+  {
+    "course_id": "TCD-19177c5e269240404ed148ff",
+    "title": "Computer Science",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/computer-science/"
+  },
+  {
+    "course_id": "TCD-1948efb3d0f022bbcff23cec",
+    "title": "English Studies (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/english-studies-jh/"
+  },
+  {
+    "course_id": "TCD-1ebc607f4054acef13f353e7",
+    "title": "Electronic Engineering",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/electronic-engineering/"
+  },
+  {
+    "course_id": "TCD-1f05761e81ae2f3259eff2c9",
+    "title": "Nanoscience: Chemical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/nanoscience-chemical-sciences/"
+  },
+  {
+    "course_id": "TCD-1f9f010955372cec33e89ba6",
+    "title": "History",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/history/"
+  },
+  {
+    "course_id": "TCD-2036c55f470770e117b232f9",
+    "title": "Classics, Ancient History and Archaeology",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/classics-ancient-history-and-archaeology/"
+  },
+  {
+    "course_id": "TCD-207bbbcffe0d274468fe1408",
+    "title": "Microbiology: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/microbiology-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-214ceebf523b5d5ed5c58238",
+    "title": "Business Studies and Spanish",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/business-studies-and-spanish/"
+  },
+  {
+    "course_id": "TCD-2779a5edad2bdb5e1133032f",
+    "title": "Business Studies and Russian",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/business-studies-and-russian/"
+  },
+  {
+    "course_id": "TCD-2e132bcd62aa0209baf90ee0",
+    "title": "Mathematics (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/mathematics-jh/"
+  },
+  {
+    "course_id": "TCD-2f17dd5339ab94efa63eb105",
+    "title": "Physiology: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/physiology-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-2f7c4dd905e50867ec32e184",
+    "title": "Philosophy Political Science Economics and Sociology",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/philosophy-political-science-economics-and-sociology/"
+  },
+  {
+    "course_id": "TCD-312f859b2a0b7cd097bfeb37",
+    "title": "Chemistry: Chemical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/chemistry-chemical-sciences/"
+  },
+  {
+    "course_id": "TCD-3663cde637ddd19d64368fb3",
+    "title": "Chemistry with Molecular Modelling: Chemical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/chemistry-with-molecular-modelling-chemical-sciences/"
+  },
+  {
+    "course_id": "TCD-36dc60ac87a80241a581e126",
+    "title": "Theoretical Physics",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/theoretical-physics/"
+  },
+  {
+    "course_id": "TCD-3884a6c28215d2e1cc69396e",
+    "title": "Physical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/physical-sciences/"
+  },
+  {
+    "course_id": "TCD-3b4840e298947322a8c37386",
+    "title": "Physics: Physical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/physics-physical-sciences/"
+  },
+  {
+    "course_id": "TCD-3be0e42054633f9c74e75872",
+    "title": "Botany: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/botany-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-3c63374a51dd5f672d550f78",
+    "title": "Engineering",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/engineering/"
+  },
+  {
+    "course_id": "TCD-3d7fb36e1fcad70fe3d1666f",
+    "title": "Radiation Therapy",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/radiation-therapy/"
+  },
+  {
+    "course_id": "TCD-41e7a9eb3022170a4d7169cc",
+    "title": "Physiotherapy",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/physiotherapy/"
+  },
+  {
+    "course_id": "TCD-4314d4b7d45ec393adeef08e",
+    "title": "Pharmacy",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/pharmacy/"
+  },
+  {
+    "course_id": "TCD-442819289fe31b003fd55d44",
+    "title": "Human Nutrition and Dietetics (Joint Degree)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/human-nutrition-and-dietetics-joint-degree/"
+  },
+  {
+    "course_id": "TCD-44518dceb6d45755a4df419e",
+    "title": "Integrated Children's and General Nursing",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/integrated-childrens-and-general-nursing/"
+  },
+  {
+    "course_id": "TCD-458f43c16487b49c2a3e89a1",
+    "title": "Modern Language (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/modern-language-jh/"
+  },
+  {
+    "course_id": "TCD-47faf5a625ef9bb6c7efb507",
+    "title": "Film",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/film/"
+  },
+  {
+    "course_id": "TCD-4e851bbcbd432a4cec2d7c00",
+    "title": "Electronic and Computer Engineering (joint programme)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/electronic-and-computer-engineering-joint-programme/"
+  },
+  {
+    "course_id": "TCD-4f6dd6c769823d1bbb375535",
+    "title": "Mathematics",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/mathematics/"
+  },
+  {
+    "course_id": "TCD-524517254135103496144a08",
+    "title": "Immunology: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/immunology-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-53438079d0d8a4cbe8152767",
+    "title": "Philosophy",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/philosophy/"
+  },
+  {
+    "course_id": "TCD-55cab4a5df6d5dcc217592d3",
+    "title": "Middle Eastern Jewish and Islamic Civilisations (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/middle-eastern-jewish-and-islamic-civilisations-jh/"
+  },
+  {
+    "course_id": "TCD-59078bbef5848eaceb136a68",
+    "title": "Religion",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/religion/"
+  },
+  {
+    "course_id": "TCD-5e5cd1a93dcf1fb805d28595",
+    "title": "Civil, Structural, and Environmental Engineering",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/civil-structural-and-environmental-engineering/"
+  },
+  {
+    "course_id": "TCD-641d9c939d59042ffdb8e0ab",
+    "title": "Music",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/music/"
+  },
+  {
+    "course_id": "TCD-65a9e7598528a0d55c850d20",
+    "title": "Classical Civilisation (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/classical-civilisation-jh/"
+  },
+  {
+    "course_id": "TCD-65b147b6dcaa383fe9ee4230",
+    "title": "Acting",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/acting/"
+  },
+  {
+    "course_id": "TCD-683fd18d60961ead9d8f714a",
+    "title": "Physics and Astrophysics: Physical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/physics-and-astrophysics-physical-sciences/"
+  },
+  {
+    "course_id": "TCD-695d6b6bd3a90d50cf3b3c53",
+    "title": "Philosophy (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/philosophy-jh/"
+  },
+  {
+    "course_id": "TCD-6d2344ee49017fdc4fd345ad",
+    "title": "Biomedical engineering",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/biomedical-engineering/"
+  },
+  {
+    "course_id": "TCD-6e80009e405bc2de8ad7c173",
+    "title": "Social Policy (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/social-policy-jh/"
+  },
+  {
+    "course_id": "TCD-76c7544f5622b8871591a5b3",
+    "title": "Music (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/music-jh/"
+  },
+  {
+    "course_id": "TCD-77dfe91ed590ebdd1a1ee6f9",
+    "title": "Medicinal Chemistry: Chemical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/medicinal-chemistry-chemical-sciences/"
+  },
+  {
+    "course_id": "TCD-7bf389ca2efdf35d8ee04ce0",
+    "title": "Linguistics (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/linguistics-jh/"
+  },
+  {
+    "course_id": "TCD-7e010899ed24de4af831d8c9",
+    "title": "Mechanical and Manufacturing Engineering",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/mechanical-and-manufacturing-engineering/"
+  },
+  {
+    "course_id": "TCD-7e4d76e7e0424d43645644e4",
+    "title": "Zoology: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/zoology-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-7ef915ccf831f8a36edb11e0",
+    "title": "Law (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/law-jh/"
+  },
+  {
+    "course_id": "TCD-83285c38d43872f23a657b84",
+    "title": "Molecular Medicine: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/molecular-medicine-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-835d17a3e7f6d6cf46502702",
+    "title": "Dental Hygiene",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/dental-hygiene/"
+  },
+  {
+    "course_id": "TCD-86e10e2fbc5e7007433753de",
+    "title": "Engineering with Management",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/engineering-with-management/"
+  },
+  {
+    "course_id": "TCD-8be795a16243d7ec62f92a78",
+    "title": "Human Health and Disease",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/human-health-and-disease/"
+  },
+  {
+    "course_id": "TCD-8d2bd2f57488c8b145ee25de",
+    "title": "Law",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/law/"
+  },
+  {
+    "course_id": "TCD-8f86d1917215bb702bc5167b",
+    "title": "German (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/german-jh/"
+  },
+  {
+    "course_id": "TCD-90c835264a8cc809e38f64d2",
+    "title": "Dental Technology",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/dental-technology/"
+  },
+  {
+    "course_id": "TCD-92bad89185b0a3131b93fb6e",
+    "title": "Geography and Geoscience",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/geography-and-geoscience/"
+  },
+  {
+    "course_id": "TCD-96887d44784a52b5acdcfa36",
+    "title": "Music Education",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/music-education/"
+  },
+  {
+    "course_id": "TCD-99e163d61a08a7b6680b89b0",
+    "title": "Occupational Therapy",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/occupational-therapy/"
+  },
+  {
+    "course_id": "TCD-99e69e0f9adcebd843cda490",
+    "title": "Ancient History and Archaeology (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/ancient-history-and-archaeology-jh/"
+  },
+  {
+    "course_id": "TCD-9b5af6f8ab39c6a59cea0d31",
+    "title": "Middle Eastern and European Languages and Cultures",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/middle-eastern-and-european-languages-and-cultures/"
+  },
+  {
+    "course_id": "TCD-9b9a9456f13707c4351e5070",
+    "title": "Russian (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/russian-jh/"
+  },
+  {
+    "course_id": "TCD-9d89f87432d09ece57a20acb",
+    "title": "Political Science (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/political-science-jh/"
+  },
+  {
+    "course_id": "TCD-9e1bb6f951f4ce549a7c150e",
+    "title": "Computer Science (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/computer-science-jh/"
+  },
+  {
+    "course_id": "TCD-9f60ff3db6809f69c3de38ce",
+    "title": "Sociology (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/sociology-jh/"
+  },
+  {
+    "course_id": "TCD-a46684ce620f0eb5ca2b9e17",
+    "title": "Business Studies and Polish",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/business-studies-and-polish/"
+  },
+  {
+    "course_id": "TCD-a60266db85a8a4f2bcf11eb7",
+    "title": "European Studies",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/european-studies/"
+  },
+  {
+    "course_id": "TCD-a6be8e2c4a629af10f8d8f56",
+    "title": "Foundation Studies - Mature Students",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/foundation-studies---mature-students/"
+  },
+  {
+    "course_id": "TCD-aba94a6172a8ca68fb9a32e6",
+    "title": "Environmental Science and Engineering",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/environmental-science-and-engineering/"
+  },
+  {
+    "course_id": "TCD-ac7ca7315cda022c93c46206",
+    "title": "French (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/french-jh/"
+  },
+  {
+    "course_id": "TCD-b16650b06343159c4c48d753",
+    "title": "Columbia Dual Degree",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/columbia-dual-degree/"
+  },
+  {
+    "course_id": "TCD-b1c200a890a03de227f79afa",
+    "title": "Nursing - General Nursing Adelaide",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/nursing---general-nursing-adelaide/"
+  },
+  {
+    "course_id": "TCD-b4c5432eb342a81f5f5b292d",
+    "title": "Law and German",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/law-and-german/"
+  },
+  {
+    "course_id": "TCD-b9afd0cae667885cd1f9a28f",
+    "title": "Dental Science",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/dental-science/"
+  },
+  {
+    "course_id": "TCD-bc1e76580646d25227e1fb36",
+    "title": "Chemical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/chemical-sciences/"
+  },
+  {
+    "course_id": "TCD-bd28adfe1366128cacc40b86",
+    "title": "Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-bf5836fd53bd7f127c2b986c",
+    "title": "Irish (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/irish-jh/"
+  },
+  {
+    "course_id": "TCD-bf763444686fa4c1208d48ae",
+    "title": "Early and Modern Irish",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/early-and-modern-irish/"
+  },
+  {
+    "course_id": "TCD-c082a0231aee11a4065095f2",
+    "title": "Nursing - Mental Health Nursing",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/nursing---mental-health-nursing/"
+  },
+  {
+    "course_id": "TCD-c30f05ad07d6c0ec79e92eaf",
+    "title": "Geoscience: Geography and Geoscience",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/geoscience-geography-and-geoscience/"
+  },
+  {
+    "course_id": "TCD-c51e62791674b11d0b13782e",
+    "title": "Psychology",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/psychology/"
+  },
+  {
+    "course_id": "TCD-c58b03a78504eb5860651afe",
+    "title": "Computer engineering",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/computer-engineering/"
+  },
+  {
+    "course_id": "TCD-c7589cecd61b951597c22921",
+    "title": "Chemistry with Biosciences: Chemical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/chemistry-with-biosciences-chemical-sciences/"
+  },
+  {
+    "course_id": "TCD-c8806405271cbd300cc25234",
+    "title": "Environmental Sciences: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/environmental-sciences-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-c911914dfb9509df2afc4cf4",
+    "title": "Nursing - Intellectual Disability Nursing",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/nursing---intellectual-disability-nursing/"
+  },
+  {
+    "course_id": "TCD-c9865442afad61a9863da329",
+    "title": "Geography: Geography and Geoscience",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/geography-geography-and-geoscience/"
+  },
+  {
+    "course_id": "TCD-c9fcfbcd1055df47030c14b7",
+    "title": "Foundation Studies - Young Adults",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/foundation-studies---young-adults/"
+  },
+  {
+    "course_id": "TCD-ce106e726f113cf38387fed4",
+    "title": "Law and French",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/law-and-french/"
+  },
+  {
+    "course_id": "TCD-d04a463b1b8b583c661fcf65",
+    "title": "Science",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/science/"
+  },
+  {
+    "course_id": "TCD-d0eebdd7a891eab46decca96",
+    "title": "Religion (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/religion-jh/"
+  },
+  {
+    "course_id": "TCD-d4e3830aa979ba85646a0b93",
+    "title": "Social Studies",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/social-studies/"
+  },
+  {
+    "course_id": "TCD-d7c03972f1ea6630ca583e03",
+    "title": "Business Studies and French",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/business-studies-and-french/"
+  },
+  {
+    "course_id": "TCD-d82fd2ea4179a927fb0300a5",
+    "title": "Nanoscience: Physical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/nanoscience-physical-sciences/"
+  },
+  {
+    "course_id": "TCD-d9e9330f8cb060d1abd937e9",
+    "title": "Business (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/business-jh/"
+  },
+  {
+    "course_id": "TCD-da29e516571051869a5c63d8",
+    "title": "Business Studies and German",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/business-studies-and-german/"
+  },
+  {
+    "course_id": "TCD-dbde3124b7ef804a636f3d93",
+    "title": "Clinical Speech and Language Studies",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/clinical-speech-and-language-studies/"
+  },
+  {
+    "course_id": "TCD-e0b238baa677f066e6fad7a6",
+    "title": "Film Studies (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/film-studies-jh/"
+  },
+  {
+    "course_id": "TCD-e1b2f89ac902e4e0532bb58d",
+    "title": "Management Science and Information Systems Studies",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/management-science-and-information-systems-studies/"
+  },
+  {
+    "course_id": "TCD-e44f4c8572870f78ac6523fc",
+    "title": "Italian (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/italian-jh/"
+  },
+  {
+    "course_id": "TCD-e7ae382ef934be629017cf1e",
+    "title": "Drama and Theatre Studies",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/drama-and-theatre-studies/"
+  },
+  {
+    "course_id": "TCD-eb0acd97c289bc2e24c7b350",
+    "title": "Business, Economics and Social Studies",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/business-economics-and-social-studies/"
+  },
+  {
+    "course_id": "TCD-eb7f37da29e865934d0f63be",
+    "title": "Computer Science Linguistics and a Language",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/computer-science-linguistics-and-a-language/"
+  },
+  {
+    "course_id": "TCD-ebba2807333ba2ae149ced54",
+    "title": "History of Art and Architecture (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/history-of-art-and-architecture-jh/"
+  },
+  {
+    "course_id": "TCD-ebf9a20cc71fe75adc141ff1",
+    "title": "English Studies",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/english-studies/"
+  },
+  {
+    "course_id": "TCD-ecab8eaff01aca493f4d951d",
+    "title": "Genetics: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/genetics-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-ef0fd4d2c64dccfebb29b7d9",
+    "title": "Classical Languages (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/classical-languages-jh/"
+  },
+  {
+    "course_id": "TCD-f213f0d038e4958bfbf98740",
+    "title": "Dental Nursing",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/dental-nursing/"
+  },
+  {
+    "course_id": "TCD-f3815abf7a1468fb5d9bf661",
+    "title": "Nursing - General Nursing",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/nursing---general-nursing/"
+  },
+  {
+    "course_id": "TCD-f3b8849c3b0c0bb5ac801d1b",
+    "title": "Pharmacy - Graduate Entry to Pharmacy",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/pharmacy---graduate-entry-to-pharmacy/"
+  },
+  {
+    "course_id": "TCD-f3f8c544b18a7828761170e1",
+    "title": "Geography (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/geography-jh/"
+  },
+  {
+    "course_id": "TCD-f5da5ab495c2b376583a6198",
+    "title": "Stage Management and Technical Theatre",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/stage-management-and-technical-theatre/"
+  },
+  {
+    "course_id": "TCD-f6adbb31ed19aa8cbc24132f",
+    "title": "Midwifery",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/midwifery/"
+  },
+  {
+    "course_id": "TCD-f82261c925b9efa5a63c0898",
+    "title": "Spanish (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/spanish-jh/"
+  },
+  {
+    "course_id": "TCD-f8297c39eace21d4cd89d0cb",
+    "title": "Deaf Studies",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/deaf-studies/"
+  },
+  {
+    "course_id": "TCD-fbb4fe39fe56a2b23335a351",
+    "title": "Diploma in Acting and Theatre",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/diploma-in-acting-and-theatre/"
+  },
+  {
+    "course_id": "TCD-fbbeec1d77c7688b8e158b14",
+    "title": "History (JH)",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/history-jh/"
+  },
+  {
+    "course_id": "TCD-fd05c2260d33809f728f9673",
+    "title": "Human Genetics: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/human-genetics-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-fd12b7b32de989ac5646a42c",
+    "title": "Biochemistry: Biological and Biomedical Sciences",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/biochemistry-biological-and-biomedical-sciences/"
+  },
+  {
+    "course_id": "TCD-fe1d10e4ab50b660dad70a5f",
+    "title": "Ancient and Medieval History and Culture",
+    "course_url": "https://www.tcd.ie/courses/undergraduate/courses/ancient-and-medieval-history-and-culture/"
+  }
+]

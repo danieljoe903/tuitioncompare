@@ -1,0 +1,254 @@
+{
+  "generated_at": "2026-10-21T00:56:58.632075+00:00",
+  "mode": "apply_requested",
+  "course_id": "C_UK002_25",
+  "changed": true,
+  "evidence": {
+    "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+    "sha256": "922835b209af8a71da1789cdf3a925a966f22e94386cd3ac1af727264b71181d"
+  },
+  "published_row": [
+    "Humanities",
+    "£22,115",
+    "£3,000",
+    "£19,115 + free housing"
+  ],
+  "before": {
+    "scholarship_rule_id": 4,
+    "rules": {
+      "kind": "fixed",
+      "value": "3000.00",
+      "benefit": "tuition",
+      "currency": "GBP",
+      "stacking": "exclusive",
+      "conditions": {
+        "course_id": [
+          "C_ABE002_RES_04",
+          "C_UK002_24",
+          "C_UK002_30",
+          "C_UK002_48",
+          "C_UK002_49",
+          "C_UK002_50",
+          "C_UK002_62",
+          "C_UK002_63",
+          "C_UK002_75",
+          "C_UK002_89",
+          "C_UK002_90"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "new_entrant": [
+          true
+        ],
+        "offer_received": [
+          true
+        ],
+        "external_funding": [
+          false
+        ],
+        "applied_by_deadline": [
+          true
+        ],
+        "academic_conditions_met": [
+          true
+        ]
+      },
+      "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+      "study_years": [
+        1
+      ],
+      "award_status": "conditional",
+      "academic_year": "2027/28",
+      "compatible_ids": [],
+      "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+      "percentage_basis": "original_tuition",
+      "fee_basis_confirmed": true,
+      "application_deadline": "2027-08-01",
+      "published_scholarship_table": {
+        "net": "19115.00",
+        "award": "3000.00",
+        "gross": "22115.00"
+      }
+    },
+    "raw_fees": {
+      "currency": "GBP",
+      "fee_band": "Humanities",
+      "verified": true,
+      "fee_method": "reviewed_course_and_published_subject_band",
+      "fee_review": {
+        "reason": "Full-time taught LLM mapped to the published 2027 Law/Humanities international fee band.",
+        "status": "resolved"
+      },
+      "study_year": 1,
+      "course_kind": "postgraduate_taught",
+      "fee_evidence": {
+        "fees": {
+          "sha256": "c270ae8beb4525f1f89436b1431c167afe907b430a911a0b25cef7db4246252e",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/"
+        },
+        "course": {
+          "sha256": "5094b4215134350a56a93075104a15decae453ab08528d60b5571116572d9a48",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/"
+        }
+      },
+      "academic_year": "2027/28",
+      "display_notes": {
+        "deposit": "Deposit amount is specified in your individual offer letter.",
+        "scholarship": "Scholarship applicability requires reconciliation."
+      },
+      "annual_tuition": "22115.00",
+      "deposit_status": "offer_letter_amount_required",
+      "fee_categories": [
+        {
+          "currency": "GBP",
+          "annotation": "Full-time taught-master's Law/Humanities fee.",
+          "academic_year": "2027/28",
+          "annual_tuition": "22115.00",
+          "raw_annual_fee": "£22,115",
+          "footnote_marker": "",
+          "source_fee_category": "International",
+          "amount_requires_review": false
+        }
+      ],
+      "course_identity": {
+        "note": "Current catalogue replacement for the stored listing; historical rename not asserted.",
+        "status": "reviewed_current_catalogue_replacement",
+        "source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+        "official_code": "M190",
+        "official_award": "LLM",
+        "official_title": "International Commercial Law"
+      },
+      "course_source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+      "scholarship_status": "pending_separate_reconciliation",
+      "programme_fee_group": "masters",
+      "source_fee_category": "International",
+      "fee_verification_status": "verified"
+    }
+  },
+  "after": {
+    "scholarship_rule_id": 4,
+    "rules": {
+      "kind": "fixed",
+      "value": "3000.00",
+      "benefit": "tuition",
+      "currency": "GBP",
+      "stacking": "exclusive",
+      "conditions": {
+        "course_id": [
+          "C_ABE002_RES_04",
+          "C_UK002_24",
+          "C_UK002_25",
+          "C_UK002_30",
+          "C_UK002_48",
+          "C_UK002_49",
+          "C_UK002_50",
+          "C_UK002_62",
+          "C_UK002_63",
+          "C_UK002_75",
+          "C_UK002_89",
+          "C_UK002_90"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "new_entrant": [
+          true
+        ],
+        "offer_received": [
+          true
+        ],
+        "external_funding": [
+          false
+        ],
+        "applied_by_deadline": [
+          true
+        ],
+        "academic_conditions_met": [
+          true
+        ]
+      },
+      "scope_note": "First compared study year only. Restricted to reviewed campus course IDs, programme level and fee band.",
+      "study_years": [
+        1
+      ],
+      "award_status": "conditional",
+      "academic_year": "2027/28",
+      "compatible_ids": [],
+      "combination_note": "Other tuition awards require separately verified combination rules. Accommodation benefits are excluded.",
+      "percentage_basis": "original_tuition",
+      "fee_basis_confirmed": true,
+      "application_deadline": "2027-08-01",
+      "published_scholarship_table": {
+        "net": "19115.00",
+        "award": "3000.00",
+        "gross": "22115.00"
+      }
+    },
+    "raw_fees": {
+      "currency": "GBP",
+      "fee_band": "Humanities",
+      "verified": true,
+      "fee_method": "reviewed_course_and_published_subject_band",
+      "fee_review": {
+        "reason": "Full-time taught LLM mapped to the published 2027 Law/Humanities international fee band.",
+        "status": "resolved"
+      },
+      "study_year": 1,
+      "course_kind": "postgraduate_taught",
+      "fee_evidence": {
+        "fees": {
+          "sha256": "c270ae8beb4525f1f89436b1431c167afe907b430a911a0b25cef7db4246252e",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/postgrad/fees/"
+        },
+        "course": {
+          "sha256": "5094b4215134350a56a93075104a15decae453ab08528d60b5571116572d9a48",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/"
+        }
+      },
+      "academic_year": "2027/28",
+      "display_notes": {
+        "deposit": "Deposit amount is specified in your individual offer letter.",
+        "scholarship": "£3,000 scholarship if published eligibility conditions are met; estimated net tuition £19,115."
+      },
+      "annual_tuition": "22115.00",
+      "deposit_status": "offer_letter_amount_required",
+      "fee_categories": [
+        {
+          "currency": "GBP",
+          "annotation": "Full-time taught-master's Law/Humanities fee.",
+          "academic_year": "2027/28",
+          "annual_tuition": "22115.00",
+          "raw_annual_fee": "£22,115",
+          "footnote_marker": "",
+          "source_fee_category": "International",
+          "amount_requires_review": false
+        }
+      ],
+      "course_identity": {
+        "note": "Current catalogue replacement for the stored listing; historical rename not asserted.",
+        "status": "reviewed_current_catalogue_replacement",
+        "source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+        "official_code": "M190",
+        "official_award": "LLM",
+        "official_title": "International Commercial Law"
+      },
+      "course_source_url": "https://courses.aber.ac.uk/postgraduate/M190-international-commercial-law/",
+      "scholarship_status": "verified_rule_eligibility_required",
+      "programme_fee_group": "masters",
+      "source_fee_category": "International",
+      "fee_verification_status": "verified",
+      "scholarship_review": {
+        "status": "verified_rule_eligibility_required",
+        "scholarship_rule_id": 4,
+        "source_url": "https://www.aber.ac.uk/en/study-with-us/international/scholarships/global-citizens-scholarship/",
+        "academic_year": "2027/28",
+        "gross": "22115.00",
+        "award": "3000.00",
+        "net_if_eligible": "19115.00",
+        "study_year": 1,
+        "note": "Humanities taught-postgraduate award. Student eligibility must be confirmed before deduction."
+      }
+    }
+  }
+}

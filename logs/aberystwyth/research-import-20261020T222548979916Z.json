@@ -1,0 +1,1051 @@
+{
+  "generated_at": "2026-10-20T22:25:48.979916+00:00",
+  "university_id": "UK002",
+  "academic_year": "2026/27",
+  "mode": "preview",
+  "source_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\20261020T013657080411Z\\source-review.json",
+  "course_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\20261020T014643071101Z\\course-evidence.json",
+  "proposals": [
+    {
+      "course_id": "C_UK002_100",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "PhD History",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/research-history/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "History",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "annual_tuition": "19070.00",
+            "deposit_status": "pending_2026_27_review",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/research-history/",
+            "scholarship_status": "pending_2026_27_review",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "PhD History",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/research-history/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "History",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/research-history/",
+            "annual_tuition": "19070.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_2026_27_review",
+            "deposit_status": "pending_2026_27_review",
+            "supplementary_charges_included": false,
+            "annual_increases_possible": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_66",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MPhil Geography (Arts)",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Geography (Arts)",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "annual_tuition": "19070.00",
+            "deposit_status": "pending_2026_27_review",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "MPHIL",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography/",
+            "scholarship_status": "pending_2026_27_review",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Geography (Arts)",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Geography (Arts)",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "research_award": "MPHIL",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography/",
+            "annual_tuition": "19070.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_2026_27_review",
+            "deposit_status": "pending_2026_27_review",
+            "supplementary_charges_included": false,
+            "annual_increases_possible": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_67",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "PhD Geography and Earth Sciences (Science)",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/research-iges/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Geography and Earth Sciences (Science)",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Sciences",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "annual_tuition": "21515.00",
+            "deposit_status": "pending_2026_27_review",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/research-iges/",
+            "scholarship_status": "pending_2026_27_review",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "PhD Geography and Earth Sciences (Science)",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/research-iges/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Geography and Earth Sciences (Science)",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Sciences",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/research-iges/",
+            "annual_tuition": "21515.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_2026_27_review",
+            "deposit_status": "pending_2026_27_review",
+            "supplementary_charges_included": false,
+            "annual_increases_possible": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "footnote_marker": "",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_69",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "PhD Law",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/M1450-law-criminology-phd/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Law",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "annual_tuition": "19070.00",
+            "deposit_status": "pending_2026_27_review",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/M1450-law-criminology-phd/",
+            "scholarship_status": "pending_2026_27_review",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "PhD Law",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/M1450-law-criminology-phd/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Law",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/M1450-law-criminology-phd/",
+            "annual_tuition": "19070.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_2026_27_review",
+            "deposit_status": "pending_2026_27_review",
+            "supplementary_charges_included": false,
+            "annual_increases_possible": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_70",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "PhD International Politics",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/research-international-politics/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Politics",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "annual_tuition": "19070.00",
+            "deposit_status": "pending_2026_27_review",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/research-international-politics/",
+            "scholarship_status": "pending_2026_27_review",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "PhD International Politics",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/research-international-politics/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Politics",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/research-international-politics/",
+            "annual_tuition": "19070.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_2026_27_review",
+            "deposit_status": "pending_2026_27_review",
+            "supplementary_charges_included": false,
+            "annual_increases_possible": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_71",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MPhil Sport and Exercise Science",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-sports-exercise/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Sport and Exercise Science",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Sciences",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "annual_tuition": "21515.00",
+            "deposit_status": "pending_2026_27_review",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "MPHIL",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-sports-exercise/",
+            "scholarship_status": "pending_2026_27_review",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Sport and Exercise Science",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-sports-exercise/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Sport and Exercise Science",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Sciences",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "research_award": "MPHIL",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-sports-exercise/",
+            "annual_tuition": "21515.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_2026_27_review",
+            "deposit_status": "pending_2026_27_review",
+            "supplementary_charges_included": false,
+            "annual_increases_possible": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "footnote_marker": "",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_72",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MPhil Art",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-art/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Art",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "annual_tuition": "19070.00",
+            "deposit_status": "pending_2026_27_review",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "MPHIL",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-art/",
+            "scholarship_status": "pending_2026_27_review",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Art",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-art/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Art",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "research_award": "MPHIL",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-art/",
+            "annual_tuition": "19070.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_2026_27_review",
+            "deposit_status": "pending_2026_27_review",
+            "supplementary_charges_included": false,
+            "annual_increases_possible": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_73",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "PhD Agriculture",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/phd-agriculture/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Agriculture",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Sciences",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "annual_tuition": "21515.00",
+            "deposit_status": "pending_2026_27_review",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/phd-agriculture/",
+            "scholarship_status": "pending_2026_27_review",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "PhD Agriculture",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/phd-agriculture/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Agriculture",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Sciences",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/phd-agriculture/",
+            "annual_tuition": "21515.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_2026_27_review",
+            "deposit_status": "pending_2026_27_review",
+            "supplementary_charges_included": false,
+            "annual_increases_possible": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "footnote_marker": "",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_74",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "MPhil Criminology",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/criminology-mphil/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Criminology",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Humanities",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "annual_tuition": "19070.00",
+            "deposit_status": "pending_2026_27_review",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "MPHIL",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/criminology-mphil/",
+            "scholarship_status": "pending_2026_27_review",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Criminology",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/criminology-mphil/"
+        },
+        "tuition": {
+          "tuition_fee": "19070.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Criminology",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "research_award": "MPHIL",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/criminology-mphil/",
+            "annual_tuition": "19070.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_2026_27_review",
+            "deposit_status": "pending_2026_27_review",
+            "supplementary_charges_included": false,
+            "annual_increases_possible": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "19070.00",
+                "raw_annual_fee": "£19,070.00",
+                "footnote_marker": "",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_98",
+      "changed": false,
+      "before": {
+        "course": {
+          "title": "PhD Psychology",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/research-psychology/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.0",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Psychology",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "currency": "GBP",
+            "fee_band": "Sciences",
+            "verified": true,
+            "fee_method": "reviewed_course_and_published_band",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "academic_year": "2026/27",
+            "annual_tuition": "21515.00",
+            "deposit_status": "pending_2026_27_review",
+            "fee_categories": [
+              {
+                "currency": "GBP",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "academic_year": "2026/27",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "footnote_marker": "",
+                "source_fee_category": "International",
+                "amount_requires_review": false
+              }
+            ],
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/research-psychology/",
+            "scholarship_status": "pending_2026_27_review",
+            "programme_fee_group": "research",
+            "source_fee_category": "International",
+            "annual_increases_possible": true,
+            "supplementary_charges_included": false
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "PhD Psychology",
+          "duration": "3 Years",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/research-psychology/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Psychology",
+          "source_course_code": "",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Sciences",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "research_award": "PHD",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/research-psychology/",
+            "annual_tuition": "21515.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_2026_27_review",
+            "deposit_status": "pending_2026_27_review",
+            "supplementary_charges_included": false,
+            "annual_increases_possible": true,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "footnote_marker": "",
+                "annotation": "First study-year base tuition, not a whole-course total. Research fees may increase annually. Project-specific supplementary charges are excluded and require confirmation in the offer.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "blocked": []
+}

@@ -1,0 +1,2213 @@
+{
+  "owner": "arden_final_handoff_v1",
+  "generated_at": "2026-10-23T19:13:36.572274+00:00",
+  "university_id": "UK004",
+  "status": "reviewed_with_outstanding_cases",
+  "database_changes": false,
+  "summary": {
+    "total_course_records": 73,
+    "active_courses": 72,
+    "inactive_courses": 1,
+    "verified_international_fees": 53,
+    "pending_international_fees": 19,
+    "verified_fee_bases": {
+      "annual_tuition": 14,
+      "per_level": 23,
+      "total_programme_fee": 16
+    },
+    "verified_fee_years": {
+      "2026/27": 53
+    },
+    "scholarship_records": 20,
+    "scholarship_rule_records": 19,
+    "verified_scholarship_rule_records": 19,
+    "unverified_scholarship_rule_records": 0,
+    "verified_fee_courses_with_conditional_award_scope": 39,
+    "verified_fee_courses_without_conditional_award_scope": 14,
+    "deposit_policy_records": 1,
+    "verified_deposit_policy_records": 1,
+    "verified_fee_courses_with_individually_advised_deposit_scope": 14,
+    "verified_fee_online_courses_campus_deposit_policy_not_applicable": 39,
+    "verified_fee_courses_with_pending_campus_deposit_scope": 0,
+    "verified_numeric_deposit_amounts": 0
+  },
+  "pending_fee_cases": [
+    {
+      "course_id": "C_UK004_13",
+      "title": "BSc (Hons) Agriculture",
+      "location": "Writtle Campus (Chelmsford)",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": null,
+      "academic_year": null,
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "ARU advertises the matching BSc Agriculture at Writtle. The Arden assignment appears incorrect; no course transfer or fee substitution is approved.",
+      "fee_consistency_error": "Expected one international source; found 0.",
+      "review_category": "ownership_or_award_unconfirmed",
+      "next_action": "Confirm awarding institution and exact award. Do not move the record to ARU or import ARU fees automatically.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {},
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "4000.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_14",
+      "title": "BSc (Hons) Veterinary Nursing",
+      "location": "Writtle Campus (Chelmsford)",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": null,
+      "academic_year": null,
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "ARU Writtle advertises veterinary-nursing college/apprenticeship provision. This does not verify the stored BSc qualification or Arden ownership.",
+      "fee_consistency_error": "Expected one international source; found 0.",
+      "review_category": "ownership_or_award_unconfirmed",
+      "next_action": "Confirm awarding institution and exact award. Do not move the record to ARU or import ARU fees automatically.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {},
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "4000.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_29",
+      "title": "BA (Hons) Business Management with Foundation Year",
+      "location": "London / Manchester / Birmingham",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": "unavailable",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "fee_consistency_error": "The saved course fee response says fees are not available yet. An applicable international amount and intake remain unverified.",
+      "review_category": "unpublished_international_fee",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {
+        "reason": "Scholarship applicability requires a verified fee, mode and intake.",
+        "eligibility_questions": []
+      },
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_30",
+      "title": "LLB (Hons) Law with Foundation Year",
+      "location": "London / Manchester / Birmingham",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": "unavailable",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "fee_consistency_error": "The saved course fee response says fees are not available yet. An applicable international amount and intake remain unverified.",
+      "review_category": "unpublished_international_fee",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {
+        "reason": "Scholarship applicability requires a verified fee, mode and intake.",
+        "eligibility_questions": []
+      },
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_31",
+      "title": "BA (Hons) Criminology and Psychology with Foundation Year",
+      "location": "London / Manchester / Birmingham",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": "unavailable",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "fee_consistency_error": "The saved course fee response says fees are not available yet. An applicable international amount and intake remain unverified.",
+      "review_category": "unpublished_international_fee",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {
+        "reason": "Scholarship applicability requires a verified fee, mode and intake.",
+        "eligibility_questions": []
+      },
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_39",
+      "title": "MSc Data Analytics and Project Management",
+      "location": "London / Manchester / Birmingham",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": null,
+      "academic_year": null,
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Historical official award evidence exists; two current URL probes returned 404. Do not silently replace it with already mapped MSc Project Management.",
+      "fee_consistency_error": "Expected one international source; found 0.",
+      "review_category": "current_exact_award_or_intake_unconfirmed",
+      "next_action": "Obtain current exact course/intake evidence. Historical awards and 404 responses do not prove closure.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {},
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "5000.0",
+      "stored_numeric_deposit": "3500"
+    },
+    {
+      "course_id": "C_UK004_47",
+      "title": "BA (Hons) Human Resource Management and Psychology",
+      "location": "Online",
+      "intake_months": "",
+      "start_month": "",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": "per_level",
+      "academic_year": "",
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Exact online route and GBP 5,500 per level are captured; no advertised intake appears in the saved application options.",
+      "fee_consistency_error": "The online route and £5,500 per-level schedule are confirmed, but no current application intake is published in the capture. Applicable intake/year tuition remains unavailable.",
+      "review_category": "intake_unconfirmed",
+      "next_action": "Keep the schedule as evidence only. A confirmed intake is needed before a current comparison or scholarship deduction.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {
+        "reason": "Do not apply Business Management or Psychology awards merely because both subjects appear in this joint degree. An applicable published scope and intake are required.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_48",
+      "title": "BSc (Hons) Health and Care Management with Foundation Year",
+      "location": "London / Manchester / Birmingham",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": "unavailable",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "fee_consistency_error": "The saved course fee response says fees are not available yet. An applicable international amount and intake remain unverified.",
+      "review_category": "unpublished_international_fee",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {
+        "reason": "Scholarship applicability requires a verified fee, mode and intake.",
+        "eligibility_questions": []
+      },
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_51",
+      "title": "MSc IT Security Management",
+      "location": "London / Manchester / Birmingham",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": null,
+      "academic_year": null,
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "The old IT Security Management URL redirects to current MSc Cyber Security, already C_UK004_18. Redirects do not prove award equivalence; retain the existing canonical fee/award scope.",
+      "fee_consistency_error": "Expected one international source; found 0.",
+      "review_category": "existing_canonical_course_review",
+      "next_action": "Review as a possible retirement/replacement; preserve history and the existing canonical course. No retirement applied by this audit.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {},
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3500"
+    },
+    {
+      "course_id": "C_UK004_52",
+      "title": "MSc Global Supply Chain Management",
+      "location": "London / Manchester / Birmingham",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": null,
+      "academic_year": null,
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "The current advertised title is MSc Supply Chain Management and Logistics, already C_UK004_25. No exact Global Supply Chain title/intake was established.",
+      "fee_consistency_error": "Expected one international source; found 0.",
+      "review_category": "existing_canonical_course_review",
+      "next_action": "Review as a possible retirement/replacement; preserve history and the existing canonical course. No retirement applied by this audit.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {},
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3500"
+    },
+    {
+      "course_id": "C_UK004_54",
+      "title": "MA Education",
+      "location": "London Campus",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": null,
+      "academic_year": null,
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "No exact current MA Education intake, mode and price established. A subject label, PG Cert or staff teaching qualification cannot verify this MA.",
+      "fee_consistency_error": "Expected one international source; found 0.",
+      "review_category": "current_exact_award_or_intake_unconfirmed",
+      "next_action": "Obtain current exact course/intake evidence. Historical awards and 404 responses do not prove closure.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {},
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3500"
+    },
+    {
+      "course_id": "C_UK004_55",
+      "title": "MSc Data Analytics and Information Systems Management",
+      "location": "London / Manchester / Birmingham",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": null,
+      "academic_year": null,
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Official Berlin alumni accounts confirm the historical award. They do not establish a current UK intake or price. Both guessed direct URLs returned 404.",
+      "fee_consistency_error": "Expected one international source; found 0.",
+      "review_category": "current_exact_award_or_intake_unconfirmed",
+      "next_action": "Obtain current exact course/intake evidence. Historical awards and 404 responses do not prove closure.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {},
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3500"
+    },
+    {
+      "course_id": "C_UK004_57",
+      "title": "BSc (Hons) Accounting and Finance with Foundation Year",
+      "location": "London / Birmingham / Manchester",
+      "intake_months": "",
+      "start_month": "",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": "unavailable",
+      "academic_year": "",
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "fee_consistency_error": "The BSc Accounting and Finance with Foundation Year route is identified, but the captured international fee is unavailable. Intake and scholarship applicability need confirmation.",
+      "review_category": "unpublished_international_fee",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {
+        "reason": "An applicable international fee, intake and published award scope must be confirmed before any deduction.",
+        "eligibility_questions": []
+      },
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "4000.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_58",
+      "title": "BA (Hons) Business Management (Marketing) with Foundation Year",
+      "location": "London / Birmingham / Manchester",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": null,
+      "academic_year": null,
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Exact Marketing foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "fee_consistency_error": "Expected one international source; found 0.",
+      "review_category": "berlin_evidence_does_not_verify_uk_route",
+      "next_action": "Retain UK comparison as unavailable. Berlin provision cannot establish UK location, tuition or award rules.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {},
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "4000.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_59",
+      "title": "BA (Hons) Business Management (HRM) with Foundation Year",
+      "location": "London / Birmingham / Manchester",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": null,
+      "academic_year": null,
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Exact HRM foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "fee_consistency_error": "Expected one international source; found 0.",
+      "review_category": "berlin_evidence_does_not_verify_uk_route",
+      "next_action": "Retain UK comparison as unavailable. Berlin provision cannot establish UK location, tuition or award rules.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {},
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "4000.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_60",
+      "title": "BA (Hons) Business Management (Tourism) with Foundation Year",
+      "location": "London / Birmingham / Manchester",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": null,
+      "academic_year": null,
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Exact Tourism foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "fee_consistency_error": "Expected one international source; found 0.",
+      "review_category": "berlin_evidence_does_not_verify_uk_route",
+      "next_action": "Retain UK comparison as unavailable. Berlin provision cannot establish UK location, tuition or award rules.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {},
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "4000.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_61",
+      "title": "Foundation Degree Business and Innovation (FdA)",
+      "location": "Birmingham / Leeds / Manchester",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": "unavailable",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "fee_consistency_error": "The saved course fee response says fees are not available yet. An applicable international amount and intake remain unverified.",
+      "review_category": "unpublished_international_fee",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee. This FdA/FdSc is a foundation degree, not a foundation year attached to a BA/BSc honours degree.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {
+        "reason": "Scholarship applicability requires a verified fee, mode and intake.",
+        "eligibility_questions": []
+      },
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_62",
+      "title": "Foundation Degree Computing and Digital Futures (FdSc)",
+      "location": "London / Birmingham",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": "unavailable",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "fee_consistency_error": "The saved course fee response says fees are not available yet. An applicable international amount and intake remain unverified.",
+      "review_category": "unpublished_international_fee",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee. This FdA/FdSc is a foundation degree, not a foundation year attached to a BA/BSc honours degree.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {
+        "reason": "Scholarship applicability requires a verified fee, mode and intake.",
+        "eligibility_questions": []
+      },
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_63",
+      "title": "Foundation Degree Health and Care Management (FdSc)",
+      "location": "London / Manchester",
+      "intake_months": "September",
+      "start_month": "September",
+      "start_year": 2026,
+      "fee_status": "pending",
+      "fee_basis": "unavailable",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": null,
+      "fee_review_reason": "Saved Nigeria and Ghana fee responses explicitly state that course fees are not available yet.",
+      "fee_consistency_error": "The saved course fee response says fees are not available yet. An applicable international amount and intake remain unverified.",
+      "review_category": "unpublished_international_fee",
+      "next_action": "Retain an unavailable international-fee message. Do not substitute a home, non-foundation or unrelated programme fee. This FdA/FdSc is a foundation degree, not a foundation year attached to a BA/BSc honours degree.",
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_verified_route_and_tuition",
+      "scholarship_review": {
+        "reason": "Scholarship applicability requires a verified fee, mode and intake.",
+        "eligibility_questions": []
+      },
+      "online_alumni_review": {},
+      "deposit_status": "pending_route_or_policy_confirmation",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    }
+  ],
+  "verified_fee_scholarship_scope_gaps": [
+    {
+      "course_id": "C_UK004_04",
+      "title": "BSc (Hons) Computing",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_07",
+      "title": "BA (Hons) Criminology and Psychology",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_08",
+      "title": "BSc (Hons) Digital Marketing",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_11",
+      "title": "BSc (Hons) Project Management",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_12",
+      "title": "BA (Hons) Criminology with Law",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_15",
+      "title": "BA (Hons) Graphic Design",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_32",
+      "title": "BA (Hons) Criminology with Cybercrime",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_33",
+      "title": "BSc (Hons) Policing and Criminal Investigation",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_34",
+      "title": "BSc (Hons) International Hospitality and Tourism Management",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_43",
+      "title": "BSc (Hons) Psychology with Counselling and Mental Health",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_44",
+      "title": "BA (Hons) Business Management and Law",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_45",
+      "title": "BA (Hons) Business Management and Computing",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_46",
+      "title": "BA (Hons) Criminology",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "Criminology is absent from the collected Global Tiers eligible-programme list. No deduction from that offer is approved. Other awards remain unconfirmed.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    },
+    {
+      "course_id": "C_UK004_56",
+      "title": "BSc (Hons) Forensic and Criminal Investigation",
+      "location": "Online",
+      "intake_months": "January",
+      "start_month": "January",
+      "start_year": 2027,
+      "fee_status": "verified",
+      "fee_basis": "per_level",
+      "academic_year": "2026/27",
+      "programme_total_derived_from_levels": "16500.00",
+      "fee_review_reason": "",
+      "fee_consistency_error": "",
+      "review_category": null,
+      "next_action": null,
+      "conditional_scholarship_rules": [],
+      "scholarship_status": "pending_applicability",
+      "scholarship_review": {
+        "reason": "No route-specific scholarship amount is confirmed; this does not establish that no scholarship exists.",
+        "eligibility_questions": [
+          {
+            "key": "arden_level",
+            "type": "select",
+            "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+            "options": [
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 5",
+                "value": "5"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "key": "arden_intake",
+            "type": "text",
+            "label": "Which reviewed online intake will you join? Use YYYY-MM."
+          },
+          {
+            "key": "arden_online_offer_confirmed",
+            "type": "boolean",
+            "label": "Has Arden offered you this online programme for the selected intake?"
+          },
+          {
+            "key": "arden_not_uk_student",
+            "type": "boolean",
+            "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?"
+          },
+          {
+            "key": "arden_country_evidence_accepted",
+            "type": "boolean",
+            "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?"
+          },
+          {
+            "key": "arden_partner_route",
+            "type": "boolean",
+            "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?"
+          },
+          {
+            "key": "arden_prior_credits_under_40",
+            "type": "boolean",
+            "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?"
+          },
+          {
+            "key": "arden_account_in_good_standing",
+            "type": "boolean",
+            "label": "Is your Arden student account free of arrears?"
+          },
+          {
+            "key": "arden_not_blocked_or_expelled",
+            "type": "boolean",
+            "label": "Are you free of any blocked or expelled student status?"
+          },
+          {
+            "key": "arden_no_staff_agent_connection",
+            "type": "boolean",
+            "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?"
+          },
+          {
+            "key": "arden_application_accurate",
+            "type": "boolean",
+            "label": "Is your application and supporting information accurate and free of misrepresentation?"
+          },
+          {
+            "key": "arden_not_sanctioned",
+            "type": "boolean",
+            "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?"
+          },
+          {
+            "key": "arden_application_residence",
+            "type": "text",
+            "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          },
+          {
+            "key": "arden_application_nationality",
+            "type": "text",
+            "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only."
+          }
+        ]
+      },
+      "online_alumni_review": {},
+      "deposit_status": "campus_policy_not_applicable_online_payment_requirements_unverified",
+      "deposit_policy_ids": [],
+      "numeric_deposit_verified": false,
+      "stored_numeric_discount": "0.0",
+      "stored_numeric_deposit": "3000"
+    }
+  ],
+  "audit_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\scraping-progress\\arden-handoff-20261023T191336572274Z\\arden-final-audit.json",
+  "progress_register_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\scraping-progress\\arden-handoff-20261023T191336572274Z\\uk-progress-register.md",
+  "next_university_id": "UK005",
+  "next_university_export": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\scraping-progress\\arden-handoff-20261023T191336572274Z\\next-uk-university-export.json",
+  "expected_count_differences": {},
+  "anomalies": []
+}

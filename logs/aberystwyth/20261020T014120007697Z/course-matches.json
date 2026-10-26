@@ -1,0 +1,3456 @@
+{
+  "generated_at": "2026-10-20T01:41:20.007697+00:00",
+  "university_id": "UK002",
+  "database_changes": false,
+  "catalogue_url": "https://courses.aber.ac.uk/atoz/",
+  "catalogue_snapshot": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\20261020T014120007697Z\\catalogue.html",
+  "catalogue_sha256": "50409bfc2b88f99665f688fac2359a97fa54cd063799e22db1a403509a049192",
+  "catalogue_records": 437,
+  "database_courses": 110,
+  "courses_with_candidates": 79,
+  "courses_without_candidates": 31,
+  "records": [
+    {
+      "course_id": "C_ABE002_01",
+      "title": "BA (Hons) Business and Management (Top-up)",
+      "level": "TOPUP",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Business and Management (Top-up) (BSc, 1 year)",
+          "subject_title": "Business and Management (Top-up)",
+          "normalised_title": "business and management top up",
+          "award": "BSC",
+          "duration_years": "1",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/N12T-business-topup",
+          "flags": [
+            "award_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_ABE002_RES_01",
+      "title": "MRes Biosciences",
+      "level": "MRES",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Biosciences (MRes, 1 year)",
+          "subject_title": "Biosciences",
+          "normalised_title": "biosciences",
+          "award": "MRES",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/biosciences-masters-research",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_ABE002_RES_02",
+      "title": "MRes Parasitology",
+      "level": "MRES",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_ABE002_RES_03",
+      "title": "MRes International Politics",
+      "level": "MRES",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "International Politics (MPhil, 1 year)",
+          "subject_title": "International Politics",
+          "normalised_title": "international politics",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/international-politics-mphil",
+          "flags": [
+            "award_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "International Politics (PhD, 3 years)",
+          "subject_title": "International Politics",
+          "normalised_title": "international politics",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-international-politics",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "International Politics (DProf, 3 years)",
+          "subject_title": "International Politics",
+          "normalised_title": "international politics",
+          "award": "DPROF",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/DProf-international-politics",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_ABE002_RES_04",
+      "title": "MRes Modern History",
+      "level": "MRES",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Modern History (MA, 1 year)",
+          "subject_title": "Modern History",
+          "normalised_title": "modern history",
+          "award": "MA",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters",
+          "flags": [
+            "award_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_ABE002_RES_05",
+      "title": "MRes Media, Communication and Creative Practice",
+      "level": "MRES",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_ABE002_RES_06",
+      "title": "MPhil (Research) Psychology",
+      "level": "MRES",
+      "duration": "2 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Psychology (PhD, 3 years)",
+          "subject_title": "Psychology",
+          "normalised_title": "psychology",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-psychology",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Psychology (MPhil, 1 year)",
+          "subject_title": "Psychology",
+          "normalised_title": "psychology",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Psychology (DProf, 3 years)",
+          "subject_title": "Psychology",
+          "normalised_title": "psychology",
+          "award": "DPROF",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/DProf-psychology",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_ABE002_RES_07",
+      "title": "MSc (Research) Geography",
+      "level": "MRES",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_ABE002_RES_08",
+      "title": "MSc (Research) Computer Science",
+      "level": "MRES",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Computer Science (MSc, 1 year)",
+          "subject_title": "Computer Science",
+          "normalised_title": "computer science",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/computer-science-msc",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Computer Science (PhD, 3 years)",
+          "subject_title": "Computer Science",
+          "normalised_title": "computer science",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/computer-science-research",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Computer Science (MPhil, 1 year)",
+          "subject_title": "Computer Science",
+          "normalised_title": "computer science",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-computer-science",
+          "flags": [
+            "award_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Computer Science (DProf, 3 years)",
+          "subject_title": "Computer Science",
+          "normalised_title": "computer science",
+          "award": "DPROF",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/DProf-computer-science",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_ABE002_RES_09",
+      "title": "MPhil (Research) Welsh / Cymraeg",
+      "level": "MRES",
+      "duration": "2 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_01",
+      "title": "BSc (Hons) Accounting and Finance",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Accounting and Finance (BSc, 3 years)",
+          "subject_title": "Accounting and Finance",
+          "normalised_title": "accounting and finance",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/accounting-and-finance-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Accounting and Finance (BSc, 4 years)",
+          "subject_title": "Accounting and Finance",
+          "normalised_title": "accounting and finance",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/accounting-and-finance-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_02",
+      "title": "BSc (Hons) Agriculture",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Agriculture (BSc, 3 years)",
+          "subject_title": "Agriculture",
+          "normalised_title": "agriculture",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/bsc-agriculture-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Agriculture (BSc, 1 year)",
+          "subject_title": "Agriculture",
+          "normalised_title": "agriculture",
+          "award": "BSC",
+          "duration_years": "1",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/agriculture-top-up",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Agriculture (MAg, 4 years)",
+          "subject_title": "Agriculture",
+          "normalised_title": "agriculture",
+          "award": "MAG",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mag=agriculture",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_03",
+      "title": "BSc (Hons) Marine and Freshwater Biology",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Marine and Freshwater Biology (BSc, 4 years)",
+          "subject_title": "Marine and Freshwater Biology",
+          "normalised_title": "marine and freshwater biology",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/marine-freshwater-biology-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Marine and Freshwater Biology (BSc, 3 years)",
+          "subject_title": "Marine and Freshwater Biology",
+          "normalised_title": "marine and freshwater biology",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/marine-and-freshwater-biology",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Marine and Freshwater Biology (MBiol, 4 years)",
+          "subject_title": "Marine and Freshwater Biology",
+          "normalised_title": "marine and freshwater biology",
+          "award": "MBIOL",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mbiol-marine-freshwater-biology",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Marine and Freshwater Biology (MBiol, 5 years)",
+          "subject_title": "Marine and Freshwater Biology",
+          "normalised_title": "marine and freshwater biology",
+          "award": "MBIOL",
+          "duration_years": "5",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mbiol-marine-freshwater-biology-foundation",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_04",
+      "title": "BSc (Hons) Business and Management",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Business and Management (BSc, 3 years)",
+          "subject_title": "Business and Management",
+          "normalised_title": "business and management",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/business-management-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Business and Management (BSc, 4 years)",
+          "subject_title": "Business and Management",
+          "normalised_title": "business and management",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/business-and-management-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_05",
+      "title": "BSc (Hons) Computer Science",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Computer Science (BSc, 3 years)",
+          "subject_title": "Computer Science",
+          "normalised_title": "computer science",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/computer-science-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Computer Science (BSc, 4 years)",
+          "subject_title": "Computer Science",
+          "normalised_title": "computer science",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/computer-science-degree-foundation-year",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Computer Science (MComp, 4 years)",
+          "subject_title": "Computer Science",
+          "normalised_title": "computer science",
+          "award": "MCOMP",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mcomp-computerscience",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_06",
+      "title": "BSc (Hons) Computer Science (with integrated year in industry)",
+      "level": "UG",
+      "duration": "4 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Computer Science (with integrated year in industry) (BSc, 4 years)",
+          "subject_title": "Computer Science (with integrated year in industry)",
+          "normalised_title": "computer science with integrated year in industry",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/computer-science-degree-with-industrial-year",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Computer Science (with integrated year in industry) (MComp, 5 years)",
+          "subject_title": "Computer Science (with integrated year in industry)",
+          "normalised_title": "computer science with integrated year in industry",
+          "award": "MCOMP",
+          "duration_years": "5",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/computer-science-industry",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_07",
+      "title": "BSc (Hons) Criminology and Sociology",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Criminology and Sociology (BSc, 3 years)",
+          "subject_title": "Criminology and Sociology",
+          "normalised_title": "criminology and sociology",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/ML93-criminology-and-sociology",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_08",
+      "title": "BSc (Hons) Geography",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Geography (BSc, 4 years)",
+          "subject_title": "Geography",
+          "normalised_title": "geography",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/geography-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Geography (BSc, 3 years)",
+          "subject_title": "Geography",
+          "normalised_title": "geography",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/geography-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_09",
+      "title": "BA (Hons) History",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "History (BA, 3 years)",
+          "subject_title": "History",
+          "normalised_title": "history",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/history-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "History (BA, 4 years)",
+          "subject_title": "History",
+          "normalised_title": "history",
+          "award": "BA",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/history-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_10",
+      "title": "BA (Hons) International Politics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_100",
+      "title": "PhD History",
+      "level": "PG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "History (PhD, 3 years)",
+          "subject_title": "History",
+          "normalised_title": "history",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-history",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "History (MPhil, 1 year)",
+          "subject_title": "History",
+          "normalised_title": "history",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-history",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "History (DProf, 3 years)",
+          "subject_title": "History",
+          "normalised_title": "history",
+          "award": "DPROF",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/DProf-history",
+          "flags": [
+            "award_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_11",
+      "title": "LLB (Hons) Law",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Law (LLB, 3 years)",
+          "subject_title": "Law",
+          "normalised_title": "law",
+          "award": "LLB",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/M100-law",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Law (BA, 3 years)",
+          "subject_title": "Law",
+          "normalised_title": "law",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/M103-law",
+          "flags": [
+            "award_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Law (LLB, 4 years)",
+          "subject_title": "Law",
+          "normalised_title": "law",
+          "award": "LLB",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/M10F-law-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_12",
+      "title": "BSc (Hons) Psychology",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Psychology (BSc, 3 years)",
+          "subject_title": "Psychology",
+          "normalised_title": "psychology",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/psychology",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Psychology (BSc, 4 years)",
+          "subject_title": "Psychology",
+          "normalised_title": "psychology",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/psychology-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_13",
+      "title": "BSc (Hons) Sport and Exercise Science",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Sport and Exercise Science (BSc, 3 years)",
+          "subject_title": "Sport and Exercise Science",
+          "normalised_title": "sport and exercise science",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/sport-exercise-science-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Sport and Exercise Science (BSc, 4 years)",
+          "subject_title": "Sport and Exercise Science",
+          "normalised_title": "sport and exercise science",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/sport-and-exercise-science-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_14",
+      "title": "BVSc Veterinary Science",
+      "level": "UG",
+      "duration": "5 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_15",
+      "title": "BA (Hons) Art History",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Art History (BA, 3 years)",
+          "subject_title": "Art History",
+          "normalised_title": "art history",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/V350-art-history",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_16",
+      "title": "BSc (Hons) Economics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Economics (BSc, 3 years)",
+          "subject_title": "Economics",
+          "normalised_title": "economics",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/economics-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Economics (BSc, 4 years)",
+          "subject_title": "Economics",
+          "normalised_title": "economics",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/economics-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_17",
+      "title": "BA (Hons) Education",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Education (BA, 3 years)",
+          "subject_title": "Education",
+          "normalised_title": "education",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/BA-education",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Education (BA, 4 years)",
+          "subject_title": "Education",
+          "normalised_title": "education",
+          "award": "BA",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/BA-education-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_18",
+      "title": "BA (Hons) Fine Art",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Fine Art (BA, 3 years)",
+          "subject_title": "Fine Art",
+          "normalised_title": "fine art",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/W100-fine-art",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_19",
+      "title": "BSc (Hons) Mathematics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Mathematics (BSc, 3 years)",
+          "subject_title": "Mathematics",
+          "normalised_title": "mathematics",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mathematics-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Mathematics (BSc, 4 years)",
+          "subject_title": "Mathematics",
+          "normalised_title": "mathematics",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mathematics-degree-with-foundation-year",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_20",
+      "title": "BSc (Hons) Physics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Physics (BSc, 3 years)",
+          "subject_title": "Physics",
+          "normalised_title": "physics",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/bsc-physics-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Physics (BSc, 4 years)",
+          "subject_title": "Physics",
+          "normalised_title": "physics",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/physics-degree-with-foundation-year",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Physics (MPhys, 4 years)",
+          "subject_title": "Physics",
+          "normalised_title": "physics",
+          "award": "MPHYS",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mphys-physics-degree",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_21",
+      "title": "MSc Advanced Computer Science",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Advanced Computer Science (MSc, 1 year)",
+          "subject_title": "Advanced Computer Science",
+          "normalised_title": "advanced computer science",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/computer-science-software-engineering-masters",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_22",
+      "title": "MSc Data Science",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Data Science (MSc, 1 year)",
+          "subject_title": "Data Science",
+          "normalised_title": "data science",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/masters-data-science",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_23",
+      "title": "MBA Master of Business Administration",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_24",
+      "title": "MA International Relations",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "International Relations (MA, 1 year)",
+          "subject_title": "International Relations",
+          "normalised_title": "international relations",
+          "award": "MA",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/international-relations-L288",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_25",
+      "title": "LLM International Business Law",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_26",
+      "title": "MSc Livestock Science",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Livestock Science (MSc, 1 year)",
+          "subject_title": "Livestock Science",
+          "normalised_title": "livestock science",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/livestock-science-masters",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_27",
+      "title": "MSc Environmental Management",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_28",
+      "title": "MSc Psychology (Conversion)",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_29",
+      "title": "MA Digital Media Production",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_30",
+      "title": "MA History of Wales",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "History of Wales (MA, 1 year)",
+          "subject_title": "History of Wales",
+          "normalised_title": "history of wales",
+          "award": "MA",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/history-of-wales-masters",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_31",
+      "title": "BSc (Hons) Animal Science",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Animal Science (BSc, 4 years)",
+          "subject_title": "Animal Science",
+          "normalised_title": "animal science",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/animal-science-integrated-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Animal Science (BSc, 3 years)",
+          "subject_title": "Animal Science",
+          "normalised_title": "animal science",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/animal-science-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_32",
+      "title": "BSc (Hons) Animal Behaviour",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Animal Behaviour (BSc, 3 years)",
+          "subject_title": "Animal Behaviour",
+          "normalised_title": "animal behaviour",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/animal-behaviour-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Animal Behaviour (BSc, 4 years)",
+          "subject_title": "Animal Behaviour",
+          "normalised_title": "animal behaviour",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/animal-behaviour-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_33",
+      "title": "BSc (Hons) Biochemistry",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Biochemistry (BSc, 3 years)",
+          "subject_title": "Biochemistry",
+          "normalised_title": "biochemistry",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/biochemistry-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Biochemistry (BSc, 4 years)",
+          "subject_title": "Biochemistry",
+          "normalised_title": "biochemistry",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/biochemistry-integrated-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Biochemistry (MBiol, 5 years)",
+          "subject_title": "Biochemistry",
+          "normalised_title": "biochemistry",
+          "award": "MBIOL",
+          "duration_years": "5",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mbiolbiochem-integrated-foundation",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Biochemistry (MBiol, 4 years)",
+          "subject_title": "Biochemistry",
+          "normalised_title": "biochemistry",
+          "award": "MBIOL",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mbiolbiology-degree",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_34",
+      "title": "BSc (Hons) Genetics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Genetics (BSc, 3 years)",
+          "subject_title": "Genetics",
+          "normalised_title": "genetics",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/genetics-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Genetics (BSc, 4 years)",
+          "subject_title": "Genetics",
+          "normalised_title": "genetics",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/genetics-degree-integrated-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_35",
+      "title": "BSc (Hons) Ecology",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Ecology (BSc, 3 years)",
+          "subject_title": "Ecology",
+          "normalised_title": "ecology",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/ecology-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Ecology (BSc, 4 years)",
+          "subject_title": "Ecology",
+          "normalised_title": "ecology",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/ecology-degree-integrated-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_36",
+      "title": "BSc (Hons) Nursing (Adult)",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Nursing (Adult) (BSc, 3 years)",
+          "subject_title": "Nursing (Adult)",
+          "normalised_title": "nursing adult",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/adult-part",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Nursing (Adult) (BSc, 3 years)",
+          "subject_title": "Nursing (Adult)",
+          "normalised_title": "nursing adult",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/nursing-adult",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_37",
+      "title": "BSc (Hons) Nursing (Mental Health)",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Nursing (Mental Health) (BSc, 3 years)",
+          "subject_title": "Nursing (Mental Health)",
+          "normalised_title": "nursing mental health",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mentalhealth-parttime",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Nursing (Mental Health) (BSc, 3 years)",
+          "subject_title": "Nursing (Mental Health)",
+          "normalised_title": "nursing mental health",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/mental-health",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_38",
+      "title": "BA (Hons) Creative Writing",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Creative Writing (BA, 3 years)",
+          "subject_title": "Creative Writing",
+          "normalised_title": "creative writing",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/creative-writing-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_39",
+      "title": "BA (Hons) English Literature and Creative Writing",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "English Literature and Creative Writing (BA, 3 years)",
+          "subject_title": "English Literature and Creative Writing",
+          "normalised_title": "english literature and creative writing",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/english-creative-writing-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "English Literature and Creative Writing (BA, 4 years)",
+          "subject_title": "English Literature and Creative Writing",
+          "normalised_title": "english literature and creative writing",
+          "award": "BA",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/english-creative-writing-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_40",
+      "title": "BA (Hons) Media and Communication Studies",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Media and Communication Studies (BA, 3 years)",
+          "subject_title": "Media and Communication Studies",
+          "normalised_title": "media and communication studies",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/P300-media-and-communication-studies",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_41",
+      "title": "BA (Hons) Drama and Theatre Studies",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_42",
+      "title": "BA (Hons) Welsh (for beginners)",
+      "level": "UG",
+      "duration": "4 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Welsh (for Beginners) (BA, 4 years)",
+          "subject_title": "Welsh (for Beginners)",
+          "normalised_title": "welsh for beginners",
+          "award": "BA",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/welsh-beginners-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_43",
+      "title": "BA (Hons) Modern Languages (French and Spanish)",
+      "level": "UG",
+      "duration": "4 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_44",
+      "title": "BSc (Hons) Marketing",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Marketing (BSc, 3 years)",
+          "subject_title": "Marketing",
+          "normalised_title": "marketing",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/marketing-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Marketing (BSc, 4 years)",
+          "subject_title": "Marketing",
+          "normalised_title": "marketing",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/marketing-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_45",
+      "title": "MBA in Global Supply Chain Management",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "January",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_46",
+      "title": "MBA in Project Management",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "January",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_47",
+      "title": "MSc Engineering Management",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Engineering Management (MSc, 1 year)",
+          "subject_title": "Engineering Management",
+          "normalised_title": "engineering management",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/N23F-engineering-management",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Engineering Management (MBA, 1 year)",
+          "subject_title": "Engineering Management",
+          "normalised_title": "engineering management",
+          "award": "MBA",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/engineering-management",
+          "flags": [
+            "award_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_48",
+      "title": "MA Creative Writing",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Creative Writing (MA, 1 year)",
+          "subject_title": "Creative Writing",
+          "normalised_title": "creative writing",
+          "award": "MA",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/creative-writing-masters",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Creative Writing (PhD, 3 years)",
+          "subject_title": "Creative Writing",
+          "normalised_title": "creative writing",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-creative-writing",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Creative Writing (MPhil, 1 year)",
+          "subject_title": "Creative Writing",
+          "normalised_title": "creative writing",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/creative-writing-mphil",
+          "flags": [
+            "award_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_49",
+      "title": "MA Archives and Records Management",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Archives and Records Management (MA, 1 year)",
+          "subject_title": "Archives and Records Management",
+          "normalised_title": "archives and records management",
+          "award": "MA",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/archives-records-management",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Archives and Records Management (MA, 5 years)",
+          "subject_title": "Archives and Records Management",
+          "normalised_title": "archives and records management",
+          "award": "MA",
+          "duration_years": "5",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/archives-records-management-dl",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Archives and Records Management (MA, 2 years)",
+          "subject_title": "Archives and Records Management",
+          "normalised_title": "archives and records management",
+          "award": "MA",
+          "duration_years": "2",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/archives-records-management-dl2",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_50",
+      "title": "MA Literary Studies",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Literary Studies (MA, 1 year)",
+          "subject_title": "Literary Studies",
+          "normalised_title": "literary studies",
+          "award": "MA",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/literary-studies-masters",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_51",
+      "title": "MSc Product Innovation and Entrepreneurship",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Product Innovation and Entrepreneurship (MSc, 1 year)",
+          "subject_title": "Product Innovation and Entrepreneurship",
+          "normalised_title": "product innovation and entrepreneurship",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/N20F-product-innovation-entrepreneurship",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_52",
+      "title": "MSc Business Psychology",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_53",
+      "title": "BSc (Hons) Accounting and Finance / Business and Management",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Accounting and Finance / Business and Management (BSc, 3 years)",
+          "subject_title": "Accounting and Finance / Business and Management",
+          "normalised_title": "accounting and finance business and management",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/accounting-management",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_54",
+      "title": "BSc (Hons) Computer Science and Mathematics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_55",
+      "title": "BSc (Hons) Economics and International Relations",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Economics and International Relations (BSc, 3 years)",
+          "subject_title": "Economics and International Relations",
+          "normalised_title": "economics and international relations",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/relations-economics",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_56",
+      "title": "BA (Hons) Politics and Modern History",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Politics and Modern History (BA, 3 years)",
+          "subject_title": "Politics and Modern History",
+          "normalised_title": "politics and modern history",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/V135-politics-and-modern-history",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_57",
+      "title": "BSc (Hons) Psychology and Marketing",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Psychology and Marketing (BSc, 3 years)",
+          "subject_title": "Psychology and Marketing",
+          "normalised_title": "psychology and marketing",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_58",
+      "title": "BSc (Hons) Physical Geography",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Physical Geography (BSc, 3 years)",
+          "subject_title": "Physical Geography",
+          "normalised_title": "physical geography",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/physical-geography",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Physical Geography (BSc, 4 years)",
+          "subject_title": "Physical Geography",
+          "normalised_title": "physical geography",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/physical-geography-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_59",
+      "title": "BA (Hons) Human Geography",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Human Geography (BA, 3 years)",
+          "subject_title": "Human Geography",
+          "normalised_title": "human geography",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/human-geography-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Human Geography (BA, 4 years)",
+          "subject_title": "Human Geography",
+          "normalised_title": "human geography",
+          "award": "BA",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/human-geography-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_60",
+      "title": "LLB (Hons) Law with Criminology",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_61",
+      "title": "MSc Advanced Computer Science (with integrated year in industry)",
+      "level": "PG",
+      "duration": "2 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Advanced Computer Science (with integrated year in industry) (MSc, 2 years)",
+          "subject_title": "Advanced Computer Science (with integrated year in industry)",
+          "normalised_title": "advanced computer science with integrated year in industry",
+          "award": "MSC",
+          "duration_years": "2",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/software-engineering-integrated-industrial-year",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_62",
+      "title": "MSc Management and Finance",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Management and Finance (MSc, 1 year)",
+          "subject_title": "Management and Finance",
+          "normalised_title": "management and finance",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/management-finance-msc",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_63",
+      "title": "MSc International Business and Marketing",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "International Business and Marketing (MSc, 1 year)",
+          "subject_title": "International Business and Marketing",
+          "normalised_title": "international business and marketing",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/international-business-marketing-msc",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_64",
+      "title": "MBA in International Marketing",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_65",
+      "title": "MSc Agrifood Innovation",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Agrifood Innovation (MSc, 5 years)",
+          "subject_title": "Agrifood Innovation",
+          "normalised_title": "agrifood innovation",
+          "award": "MSC",
+          "duration_years": "5",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/agrifood-innovation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Agrifood Innovation (MRes, 5 years)",
+          "subject_title": "Agrifood Innovation",
+          "normalised_title": "agrifood innovation",
+          "award": "MRES",
+          "duration_years": "5",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/J792D-agrifood-innovation",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Agrifood Innovation (MRes, 3 years)",
+          "subject_title": "Agrifood Innovation",
+          "normalised_title": "agrifood innovation",
+          "award": "MRES",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/J792D3-sustainable-agriculture",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_66",
+      "title": "MPhil Geography (Arts)",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Geography (Arts) (MPhil, 1 year)",
+          "subject_title": "Geography (Arts)",
+          "normalised_title": "geography arts",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Geography (Arts) (PhD, 3 years)",
+          "subject_title": "Geography (Arts)",
+          "normalised_title": "geography arts",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/phd-arts-dges",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_67",
+      "title": "PhD Geography and Earth Sciences (Science)",
+      "level": "PG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Geography and Earth Sciences (Science) (MPhil, 1 year)",
+          "subject_title": "Geography and Earth Sciences (Science)",
+          "normalised_title": "geography and earth sciences science",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-geography-science",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Geography and Earth Sciences (Science) (PhD, 3 years)",
+          "subject_title": "Geography and Earth Sciences (Science)",
+          "normalised_title": "geography and earth sciences science",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-iges",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_68",
+      "title": "PhD Education / Childhood Studies",
+      "level": "PG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_69",
+      "title": "PhD Law",
+      "level": "PG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Law (PhD, 3 years)",
+          "subject_title": "Law",
+          "normalised_title": "law",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/M1450-law-criminology-phd",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Law (MPhil, 1 year)",
+          "subject_title": "Law",
+          "normalised_title": "law",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/M1450-law-mphil",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Law (LLM, 1 year)",
+          "subject_title": "Law",
+          "normalised_title": "law",
+          "award": "LLM",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/M172-law",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_70",
+      "title": "PhD International Politics",
+      "level": "PG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "International Politics (MPhil, 1 year)",
+          "subject_title": "International Politics",
+          "normalised_title": "international politics",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/international-politics-mphil",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "International Politics (PhD, 3 years)",
+          "subject_title": "International Politics",
+          "normalised_title": "international politics",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-international-politics",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "International Politics (DProf, 3 years)",
+          "subject_title": "International Politics",
+          "normalised_title": "international politics",
+          "award": "DPROF",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/DProf-international-politics",
+          "flags": [
+            "award_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_71",
+      "title": "MPhil Sport and Exercise Science",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Sport and Exercise Science (PhD, 3 years)",
+          "subject_title": "Sport and Exercise Science",
+          "normalised_title": "sport and exercise science",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-sport-exercise",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Sport and Exercise Science (MPhil, 1 year)",
+          "subject_title": "Sport and Exercise Science",
+          "normalised_title": "sport and exercise science",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-sports-exercise",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_72",
+      "title": "MPhil Art",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Art (MPhil, 1 year)",
+          "subject_title": "Art",
+          "normalised_title": "art",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-art",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Art (PhD, 3 years)",
+          "subject_title": "Art",
+          "normalised_title": "art",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-art",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Art (DProf, 3 years)",
+          "subject_title": "Art",
+          "normalised_title": "art",
+          "award": "DPROF",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/DProf-Art",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_73",
+      "title": "PhD Agriculture",
+      "level": "PG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Agriculture (MPhil, 1 year)",
+          "subject_title": "Agriculture",
+          "normalised_title": "agriculture",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-agriculture",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Agriculture (PhD, 3 years)",
+          "subject_title": "Agriculture",
+          "normalised_title": "agriculture",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/phd-agriculture",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Agriculture (DAg, 5 years)",
+          "subject_title": "Agriculture",
+          "normalised_title": "agriculture",
+          "award": "DAG",
+          "duration_years": "5",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/professional-doctorate-agriculture",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Agriculture (MRes, 5 years)",
+          "subject_title": "Agriculture",
+          "normalised_title": "agriculture",
+          "award": "MRES",
+          "duration_years": "5",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/agriculture-research-masters",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_74",
+      "title": "MPhil Criminology",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Criminology (PhD, 3 years)",
+          "subject_title": "Criminology",
+          "normalised_title": "criminology",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/criminology-phd",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Criminology (MPhil, 1 year)",
+          "subject_title": "Criminology",
+          "normalised_title": "criminology",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/criminology-mphil",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_75",
+      "title": "MA Information and Library Studies",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Information and Library Studies (MA, 1 year)",
+          "subject_title": "Information and Library Studies",
+          "normalised_title": "information and library studies",
+          "award": "MA",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/information-and-library-studies-masters",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Information and Library Studies (MA, 5 years)",
+          "subject_title": "Information and Library Studies",
+          "normalised_title": "information and library studies",
+          "award": "MA",
+          "duration_years": "5",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/information-and-library-studies-distance-learning-masters",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Information and Library Studies (MA, 2 years)",
+          "subject_title": "Information and Library Studies",
+          "normalised_title": "information and library studies",
+          "award": "MA",
+          "duration_years": "2",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/information-library",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_76",
+      "title": "BSc (Hons) Business Finance",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Business Finance (BSc, 3 years)",
+          "subject_title": "Business Finance",
+          "normalised_title": "business finance",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/business-finance-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Business Finance (BSc, 4 years)",
+          "subject_title": "Business Finance",
+          "normalised_title": "business finance",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/business-finance-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_77",
+      "title": "BSc (Hons) Business Economics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Business Economics (BSc, 3 years)",
+          "subject_title": "Business Economics",
+          "normalised_title": "business economics",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/business-economics-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Business Economics (BSc, 4 years)",
+          "subject_title": "Business Economics",
+          "normalised_title": "business economics",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/business-economics-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_78",
+      "title": "BSc (Hons) Business and Climate Change",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Business and Climate Change (BSc, 3 years)",
+          "subject_title": "Business and Climate Change",
+          "normalised_title": "business and climate change",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/business-and-climate-change",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_79",
+      "title": "BSc (Hons) Economics and Climate Change",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Economics and Climate Change (BSc, 3 years)",
+          "subject_title": "Economics and Climate Change",
+          "normalised_title": "economics and climate change",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/economics-and-climate-change",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_80",
+      "title": "BA (Hons) History and Heritage",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_81",
+      "title": "BSc (Hons) Environmental Earth Science",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Environmental Earth Science (BSc, 4 years)",
+          "subject_title": "Environmental Earth Science",
+          "normalised_title": "environmental earth science",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/environmental-earth-science-foundation",
+          "flags": [
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Environmental Earth Science (BSc, 3 years)",
+          "subject_title": "Environmental Earth Science",
+          "normalised_title": "environmental earth science",
+          "award": "BSC",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/environmental-earth-science-degree",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_82",
+      "title": "BSc (Hons) Geology",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_83",
+      "title": "BSc (Hons) Physics with Astronomy",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_84",
+      "title": "BSc (Hons) Mathematics with Statistics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_85",
+      "title": "BSc (Hons) Data Science (with integrated year in industry)",
+      "level": "UG",
+      "duration": "4 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Data Science (with integrated year in industry) (BSc, 4 years)",
+          "subject_title": "Data Science (with integrated year in industry)",
+          "normalised_title": "data science with integrated year in industry",
+          "award": "BSC",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/data-science-iy",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_86",
+      "title": "BA (Hons) Creative Arts",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_87",
+      "title": "BA (Hons) Fine Art with Art History",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Fine Art with Art History (BA, 3 years)",
+          "subject_title": "Fine Art with Art History",
+          "normalised_title": "fine art with art history",
+          "award": "BA",
+          "duration_years": "3",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/W1V3-fine-art-art-history",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_88",
+      "title": "BA (Hons) Modern Languages",
+      "level": "UG",
+      "duration": "4 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Modern Languages (BA, 4 years)",
+          "subject_title": "Modern Languages",
+          "normalised_title": "modern languages",
+          "award": "BA",
+          "duration_years": "4",
+          "catalogue_level": "undergraduate",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/R991-modern-languages",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_89",
+      "title": "MSc Finance",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Finance (MSc, 1 year)",
+          "subject_title": "Finance",
+          "normalised_title": "finance",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/finance-msc",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_90",
+      "title": "MSc International Finance and Banking",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "International Finance and Banking (MSc, 1 year)",
+          "subject_title": "International Finance and Banking",
+          "normalised_title": "international finance and banking",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/international-banking",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_91",
+      "title": "MSc Behaviour Change",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Behaviour Change (MSc, 1 year)",
+          "subject_title": "Behaviour Change",
+          "normalised_title": "behaviour change",
+          "award": "MSC",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/C801-behaviour-change",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_92",
+      "title": "MSc Agrifood Innovation (Distance Learning)",
+      "level": "PG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_93",
+      "title": "MSc Human Resource Management",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_94",
+      "title": "MSc Digital Marketing",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_95",
+      "title": "MSc Bioengineering",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_96",
+      "title": "MSc Pharmaceutical Sciences",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_97",
+      "title": "PhD Politics",
+      "level": "PG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [],
+      "status": "no_catalogue_title_candidate",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_98",
+      "title": "PhD Psychology",
+      "level": "PG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Psychology (PhD, 3 years)",
+          "subject_title": "Psychology",
+          "normalised_title": "psychology",
+          "award": "PHD",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/research-psychology",
+          "flags": [
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Psychology (MPhil, 1 year)",
+          "subject_title": "Psychology",
+          "normalised_title": "psychology",
+          "award": "MPHIL",
+          "duration_years": "1",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        },
+        {
+          "catalogue_title": "Psychology (DProf, 3 years)",
+          "subject_title": "Psychology",
+          "normalised_title": "psychology",
+          "award": "DPROF",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/DProf-psychology",
+          "flags": [
+            "award_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    },
+    {
+      "course_id": "C_UK002_99",
+      "title": "MRes Geography and Earth Sciences",
+      "level": "PG",
+      "duration": "1 Year",
+      "start_month": "September",
+      "start_year": 2026,
+      "stored_url": "www.aber.ac.uk",
+      "candidates": [
+        {
+          "catalogue_title": "Geography and Earth Sciences (DProf, 3 years)",
+          "subject_title": "Geography and Earth Sciences",
+          "normalised_title": "geography and earth sciences",
+          "award": "DPROF",
+          "duration_years": "3",
+          "catalogue_level": "postgraduate",
+          "source_url": "https://courses.aber.ac.uk/postgraduate/DProf-geography-earth-sciences",
+          "flags": [
+            "award_mismatch",
+            "duration_mismatch",
+            "course_page_and_intake_not_yet_verified"
+          ],
+          "approved": false
+        }
+      ],
+      "status": "needs_identity_review",
+      "approved": false
+    }
+  ]
+}

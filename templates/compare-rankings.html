@@ -1,0 +1,784 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>UK & Ireland University Rankings 2026 - University Tuition Compare</title>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    body > main {
+        padding-top: 0 !important;
+    }
+
+    .ranking-page {
+        --ranking-header-height: 120px;
+        background: #f1f7fb;
+    }
+
+    .ranking-page .hidden {
+        display: none !important;
+    }
+
+    /* Hero banner */
+    .ranking-hero {
+        position: relative;
+        isolation: isolate;
+        display: flex;
+        align-items: center;
+        min-height: 520px;
+        padding: calc(var(--ranking-header-height) + 50px) 0 68px;
+        overflow: hidden;
+        background: #102c46;
+    }
+
+    .ranking-hero-image {
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .ranking-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background: linear-gradient(
+            90deg,
+            rgba(8, 25, 43, 0.95),
+            rgba(8, 25, 43, 0.8) 55%,
+            rgba(8, 25, 43, 0.48)
+        );
+    }
+
+    .ranking-hero-content {
+        max-width: 780px;
+    }
+
+    .ranking-eyebrow {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 8px 14px;
+        border: 1px solid rgba(125, 211, 252, 0.35);
+        border-radius: 999px;
+        background: rgba(125, 211, 252, 0.1);
+        color: #bae6fd;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    }
+
+    .ranking-hero h1 {
+        margin: 0 0 22px;
+        color: #ffffff;
+        font-size: clamp(34px, 4.5vw, 54px);
+        font-weight: 700;
+        line-height: 1.15;
+    }
+
+    .ranking-hero h1 span {
+        color: #7dd3fc;
+    }
+
+    .ranking-hero-description {
+        max-width: 660px;
+        margin: 0;
+        color: #e2e8f0;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .ranking-hero-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 26px;
+    }
+
+    .ranking-hero-tags span {
+        padding: 7px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: 13px;
+    }
+
+    /* Main content */
+    .ranking-content {
+        padding: 48px 0 80px;
+    }
+
+    .ranking-filter-panel {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 28px;
+        margin-bottom: 28px;
+        padding: 28px;
+        border: 1px solid #dce6ef;
+        border-radius: 18px;
+        background: #ffffff;
+        box-shadow: 0 8px 24px rgba(16, 44, 70, 0.04);
+    }
+
+    .ranking-filter-intro h2 {
+        margin: 0 0 8px;
+        color: #102c46;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .ranking-filter-intro p {
+        margin: 0;
+        color: #64748b;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .ranking-country-field {
+        flex-shrink: 0;
+        width: 280px;
+    }
+
+    .ranking-country-field label {
+        display: block;
+        margin-bottom: 9px;
+        color: #334155;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    #ranking-country {
+        width: 100%;
+        min-height: 50px;
+        padding: 12px 14px;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #ffffff;
+        color: #102c46;
+        font: inherit;
+        font-size: 15px;
+    }
+
+    #ranking-country:focus {
+        outline: 3px solid rgba(37, 99, 235, 0.18);
+        border-color: #2563eb;
+    }
+
+    #country-description {
+        margin-bottom: 28px;
+        padding: 24px 26px;
+        border-left: 4px solid #2563eb;
+        border-radius: 0 14px 14px 0;
+        background: #eaf2fc;
+    }
+
+    #country-description h2 {
+        margin: 0 0 10px;
+        color: #102c46;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 1.4;
+    }
+
+    #country-description p {
+        margin: 0;
+        color: #52657a;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    /* Comparison table */
+    .ranking-table-panel {
+        overflow: hidden;
+        border: 1px solid #dce6ef;
+        border-radius: 18px;
+        background: #ffffff;
+        box-shadow: 0 10px 30px rgba(16, 44, 70, 0.05);
+    }
+
+    .ranking-table-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 24px;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    .ranking-table-heading h3 {
+        margin: 0;
+        color: #102c46;
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    .ranking-scroll-hint {
+        margin: 0;
+        color: #64748b;
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .ranking-table-scroll {
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+    }
+
+    .ranking-table-scroll:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: -3px;
+    }
+
+    #rankings-table {
+        width: 100%;
+        min-width: 1400px;
+        border-collapse: separate;
+        border-spacing: 0;
+        font-size: 14px;
+    }
+
+    #rankings-table thead th {
+        padding: 20px 16px;
+        background: #102c46;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.6;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    #rankings-table thead th:first-child,
+    #rankings-table thead th:nth-child(2) {
+        text-align: left;
+    }
+
+    #rankings-table tbody td {
+        padding: 18px 16px;
+        border-bottom: 1px solid #e2e8f0;
+        color: #475569;
+        line-height: 1.6;
+        vertical-align: middle;
+    }
+
+    #rankings-table tbody tr:nth-child(even) {
+        background: #f8fafc;
+    }
+
+    #rankings-table tbody tr:hover {
+        background: #eff6ff;
+    }
+
+    #rankings-table tbody tr:last-child td {
+        border-bottom: 0;
+    }
+
+    #rankings-table tbody td:first-child {
+        color: #1d4ed8;
+        font-weight: 700;
+    }
+
+    #rankings-table tbody td:nth-child(2) {
+        color: #102c46;
+        font-weight: 600;
+    }
+
+    #rankings-table tbody a {
+        color: #1d4ed8;
+    }
+
+    .ranking-table-note {
+        margin: 0;
+        padding: 18px 24px;
+        border-top: 1px solid #e2e8f0;
+        background: #f8fafc;
+        color: #64748b;
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    /* University carousel */
+    .ranking-carousel-section {
+        margin-top: 48px;
+    }
+
+    .ranking-carousel-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        margin-bottom: 24px;
+    }
+
+    .ranking-carousel-heading h3 {
+        margin: 0 0 7px;
+        color: #102c46;
+        font-size: clamp(22px, 2.5vw, 28px);
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    #ug-universities-count {
+        display: block;
+        color: #64748b;
+        font-size: 14px;
+    }
+
+    .ranking-carousel-controls {
+        display: flex;
+        gap: 10px;
+    }
+
+    .ranking-carousel-controls button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border: 1px solid #cbd5e1;
+        border-radius: 50%;
+        background: #ffffff;
+        color: #102c46;
+        cursor: pointer;
+        transition:
+            background-color 0.2s ease,
+            color 0.2s ease;
+    }
+
+    .ranking-carousel-controls button:hover {
+        border-color: #102c46;
+        background: #102c46;
+        color: #ffffff;
+    }
+
+    .ranking-carousel-controls button:disabled {
+        opacity: 0.4;
+        cursor: default;
+    }
+
+    .ranking-carousel-controls svg {
+        width: 21px;
+        height: 21px;
+    }
+
+    #ug-carousel-container {
+        position: relative;
+        overflow: hidden;
+        touch-action: pan-y;
+    }
+
+    #ug-universities-carousel {
+        display: flex;
+        gap: 24px;
+        align-items: stretch;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    #ug-universities-carousel > div {
+        min-width: 0;
+        overflow-wrap: anywhere;
+    }
+
+    .ranking-page button:focus-visible,
+    .ranking-page a:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 4px;
+    }
+
+    /* Dark mode */
+    .dark .ranking-page {
+        background: #0d1a2c;
+    }
+
+    .dark .ranking-filter-panel,
+    .dark .ranking-table-panel {
+        border-color: #334155;
+        background: #16283d;
+    }
+
+    .dark .ranking-filter-intro h2,
+    .dark .ranking-country-field label,
+    .dark .ranking-table-heading h3,
+    .dark .ranking-carousel-heading h3,
+    .dark #country-description h2 {
+        color: #ffffff;
+    }
+
+    .dark .ranking-filter-intro p,
+    .dark .ranking-scroll-hint,
+    .dark #country-description p,
+    .dark #ug-universities-count {
+        color: #cbd5e1;
+    }
+
+    .dark #ranking-country {
+        border-color: #475569;
+        background: #102c46;
+        color: #ffffff;
+        color-scheme: dark;
+    }
+
+    .dark #country-description {
+        background: #102c46;
+    }
+
+    .dark .ranking-table-heading,
+    .dark #rankings-table tbody td,
+    .dark .ranking-table-note {
+        border-color: #334155;
+    }
+
+    .dark #rankings-table tbody td,
+    .dark #rankings-table tbody td:nth-child(2) {
+        color: #e2e8f0;
+    }
+
+    .dark #rankings-table tbody tr:nth-child(even) {
+        background: #102c46;
+    }
+
+    .dark #rankings-table tbody tr:hover {
+        background: #1c3a56;
+    }
+
+    .dark #rankings-table tbody td:first-child,
+    .dark #rankings-table tbody a {
+        color: #7dd3fc;
+    }
+
+    .dark .ranking-table-note {
+        background: #102c46;
+        color: #cbd5e1;
+    }
+
+    .dark .ranking-carousel-controls button {
+        border-color: #475569;
+        background: #16283d;
+        color: #ffffff;
+    }
+
+    .dark .ranking-carousel-controls button:hover {
+        background: #2563eb;
+    }
+
+    /* Phones and smaller tablets */
+    @media (max-width: 767px) {
+        .ranking-hero {
+            min-height: 450px;
+            padding:
+                calc(var(--ranking-header-height) + 36px)
+                0 48px;
+        }
+
+        .ranking-hero-description {
+            font-size: 16px;
+        }
+
+        .ranking-content {
+            padding: 28px 0 48px;
+        }
+
+        .ranking-filter-panel {
+            align-items: stretch;
+            flex-direction: column;
+            gap: 22px;
+            padding: 24px;
+        }
+
+        .ranking-country-field {
+            width: 100%;
+        }
+
+        #country-description {
+            padding: 20px;
+        }
+
+        .ranking-table-heading {
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 8px;
+            padding: 20px;
+        }
+
+        .ranking-carousel-heading {
+            align-items: flex-start;
+        }
+
+        .ranking-carousel-controls {
+            flex-shrink: 0;
+            gap: 6px;
+        }
+
+        .ranking-carousel-controls button {
+            width: 38px;
+            height: 38px;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .ranking-page [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        #ug-universities-carousel,
+        .ranking-carousel-controls button {
+            transition: none;
+        }
+    }
+    
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="ranking-page" id="ranking-page">
+
+    <!-- Hero banner -->
+    <section class="ranking-hero" aria-labelledby="ranking-page-heading">
+        <img
+            class="ranking-hero-image"
+            src="{% static 'images/mine/UniUnderCover--The-University-of-West-London.jpg' %}"
+            alt=""
+            fetchpriority="high"
+            decoding="async"
+        >
+
+        <div class="container">
+            <div class="ranking-hero-content">
+                <span
+                    class="ranking-eyebrow"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-once="true"
+                >
+                    University Rankings
+                </span>
+
+                <h1
+                    id="ranking-page-heading"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="900"
+                    data-aos-once="true"
+                >
+                    Explore the rankings.<br>
+                    <span>Find your direction.</span>
+                </h1>
+
+                <p
+                    class="ranking-hero-description"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="900"
+                    data-aos-once="true"
+                >
+                    Compare universities across subject areas and
+                    ranking criteria to build a clearer picture
+                    of your study options.
+                </p>
+
+                <div
+                    class="ranking-hero-tags"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    data-aos-duration="900"
+                    data-aos-once="true"
+                >
+                    <span>United Kingdom</span>
+                    <span>Ireland</span>
+                    <span>Subject Comparisons</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rankings -->
+    <section id="rankings-section" class="ranking-content">
+        <div class="container">
+
+            <div class="ranking-filter-panel">
+                <div class="ranking-filter-intro">
+                    <h2>Compare University Rankings</h2>
+                    <p>
+                        Choose a country to explore the available
+                        university ranking data.
+                    </p>
+                </div>
+
+                <div class="ranking-country-field">
+                    <label for="ranking-country">Study Destination</label>
+
+                    <select id="ranking-country" name="country">
+                        <option value="uk" selected>United Kingdom</option>
+                        <option value="ireland">Ireland</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Existing JavaScript populates this description -->
+            <div id="country-description">
+                <h2></h2>
+                <p></p>
+            </div>
+
+            <div class="ranking-table-panel">
+                <div class="ranking-table-heading">
+                    <h3 id="ranking-table-heading">University Comparison</h3>
+                    <p class="ranking-scroll-hint">
+                        Scroll sideways to explore all criteria →
+                    </p>
+                </div>
+
+                <div
+                    class="ranking-table-scroll"
+                    role="region"
+                    aria-labelledby="ranking-table-heading"
+                    tabindex="0"
+                >
+                    <table id="rankings-table" aria-labelledby="ranking-table-heading">
+                        <thead>
+                            <tr>
+                                <th scope="col">Rank</th>
+                                <th scope="col">University</th>
+                                <th scope="col">Overall<br>Score</th>
+                                <th scope="col">Arts &<br>Humanities</th>
+                                <th scope="col">Life<br>Sciences</th>
+                                <th scope="col">Engineering</th>
+                                <th scope="col">Natural<br>Science</th>
+                                <th scope="col">Social<br>Sciences</th>
+                                <th scope="col">Intl.<br>Students</th>
+                                <th scope="col">Graduate<br>Prospects</th>
+                                <th scope="col">Student<br>Satisfaction</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="rankings-table-body">
+                            <!-- Existing JavaScript inserts table rows here -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="ranking-table-note">
+                    Consider rankings alongside tuition fees,
+                    course content and your personal study goals.
+                </p>
+            </div>
+
+            <!-- Undergraduate carousel -->
+            <section
+                class="ranking-carousel-section"
+                aria-labelledby="ug-carousel-heading"
+            >
+                <div class="ranking-carousel-heading">
+                    <div>
+                        <h3 id="ug-carousel-heading">
+                            Undergraduate Universities
+                        </h3>
+
+                        <span id="ug-universities-count">
+                            0 universities
+                        </span>
+                    </div>
+
+                    <div class="ranking-carousel-controls">
+                        <button
+                            type="button"
+                            id="ug-carousel-prev"
+                            aria-label="Previous universities"
+                            aria-controls="ug-universities-carousel"
+                        >
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="m15 19-7-7 7-7"
+                                ></path>
+                            </svg>
+                        </button>
+
+                        <button
+                            type="button"
+                            id="ug-carousel-next"
+                            aria-label="Next universities"
+                            aria-controls="ug-universities-carousel"
+                        >
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="m9 5 7 7-7 7"
+                                ></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="ug-carousel-container">
+                    <div
+                        id="ug-universities-carousel"
+                        class="flex transition-transform duration-300 ease-in-out gap-6"
+                    >
+                        <!-- Existing JavaScript inserts university cards here -->
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'js/compare-rankings.js' %}"></script>
+
+<script>
+    (() => {
+        const page = document.getElementById('ranking-page');
+        const header = document.getElementById('header');
+
+        function updateHeaderSpacing() {
+            if (!page) return;
+
+            const isFixed = header &&
+                getComputedStyle(header).position === 'fixed';
+
+            const height = isFixed
+                ? Math.ceil(header.getBoundingClientRect().height)
+                : 0;
+
+            page.style.setProperty(
+                '--ranking-header-height',
+                `${height}px`
+            );
+        }
+
+        updateHeaderSpacing();
+        window.addEventListener('resize', updateHeaderSpacing);
+        window.addEventListener('load', updateHeaderSpacing);
+
+        if (header && 'ResizeObserver' in window) {
+            new ResizeObserver(updateHeaderSpacing).observe(header);
+        }
+    })();
+</script>
+{% endblock %}

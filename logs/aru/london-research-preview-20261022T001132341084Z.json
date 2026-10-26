@@ -1,0 +1,481 @@
+{
+  "generated_at": "2026-10-22T00:11:32.297194+00:00",
+  "mode": "apply",
+  "database_changes": true,
+  "university_id": "UK003",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\campus-intakes-20261021T235517103032Z\\campus-intake-evidence.json",
+  "records": [
+    {
+      "course_id": "C_UK003_19",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc Accounting and Financial Management",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "19500.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc Accounting and Financial Management",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "ARU London",
+          "start_month": "September",
+          "start_year": 2027,
+          "intake_months": "September",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "20925.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+          "source_course_code": "",
+          "source_course_name": "MSc Accounting and Financial Management",
+          "fee_basis": "full_time_course_fee",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+            "source_sha256": "06ab096d4317f838f419569e17fe04ee5f6ef3b3c4977adfbd0a0dbdfcf26a8a",
+            "campus": "ARU London",
+            "intake": "September 2027",
+            "study_year": 1,
+            "course_kind": "postgraduate_taught",
+            "mapping_kind": "campus_correction",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "course_page_deposit_requires_reconciliation",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "fee_basis": "full_time_course_fee",
+                "amount_requires_review": false
+              }
+            ],
+            "annual_tuition": "20925.00",
+            "published_fee_amount": "20925.00",
+            "published_fee_basis": "full_time_course_fee",
+            "fee_note": "Published international total course fee for the one-year full-time ARU London route, September 2027. This is a total course fee, not a separately stated annual rate.",
+            "published_deposit_evidence": {
+              "amount": "4000.00",
+              "currency": "GBP",
+              "alternative": "sponsorship_letter",
+              "policy_scope_extended": false,
+              "source_url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management"
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_24",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "LLM International Law",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "18400.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "LLM International Law",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "ARU London",
+          "start_month": "September",
+          "start_year": 2027,
+          "intake_months": "September",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "20925.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+          "source_course_code": "",
+          "source_course_name": "LLM International Law",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+            "source_sha256": "ea91cb50d2fc5d01245490de319d7222ebabab4491fd9c143b5cc0d279bc33b7",
+            "campus": "ARU London",
+            "intake": "September 2027",
+            "study_year": 1,
+            "course_kind": "postgraduate_taught",
+            "mapping_kind": "campus_correction",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "course_page_deposit_requires_reconciliation",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "fee_basis": "annual_tuition",
+                "amount_requires_review": false
+              }
+            ],
+            "annual_tuition": "20925.00",
+            "published_fee_amount": "20925.00",
+            "published_fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+            "published_deposit_evidence": {
+              "amount": "4000.00",
+              "currency": "GBP",
+              "alternative": "sponsorship_letter",
+              "policy_scope_extended": false,
+              "source_url": "https://www.aru.ac.uk/study/postgraduate/international-law-london"
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_29",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc International Project Management",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "19500.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc International Project Management",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "ARU London",
+          "start_month": "September",
+          "start_year": 2027,
+          "intake_months": "September",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "20925.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+          "source_course_code": "",
+          "source_course_name": "MSc International Project Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+            "source_sha256": "5e16d5b3ec2fd9cc9cd99cfb2af655d9102446d4b5578c81ca9c721594ef5390",
+            "campus": "ARU London",
+            "intake": "September 2027",
+            "study_year": 1,
+            "course_kind": "postgraduate_taught",
+            "mapping_kind": "campus_correction",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "course_page_deposit_requires_reconciliation",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "fee_basis": "annual_tuition",
+                "amount_requires_review": false
+              }
+            ],
+            "annual_tuition": "20925.00",
+            "published_fee_amount": "20925.00",
+            "published_fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+            "published_deposit_evidence": {
+              "amount": "4000.00",
+              "currency": "GBP",
+              "alternative": "sponsorship_letter",
+              "policy_scope_extended": false,
+              "source_url": "https://www.aru.ac.uk/study/postgraduate/international-project-management"
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_96",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MSc International Hospitality and Tourism Management",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "18400.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MSc International Hospitality and Tourism Management",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "ARU London",
+          "start_month": "September",
+          "start_year": 2027,
+          "intake_months": "September",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "20925.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management",
+          "source_course_code": "",
+          "source_course_name": "MSc International Hospitality and Tourism Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management",
+            "source_sha256": "9695c8f366659cdb055c1334a76b727390895b5cd1cc7061337376635402b297",
+            "campus": "ARU London",
+            "intake": "September 2027",
+            "study_year": 1,
+            "course_kind": "postgraduate_taught",
+            "mapping_kind": "campus_correction",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "course_page_deposit_requires_reconciliation",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20925.00",
+                "fee_basis": "annual_tuition",
+                "amount_requires_review": false
+              }
+            ],
+            "annual_tuition": "20925.00",
+            "published_fee_amount": "20925.00",
+            "published_fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for 2027/28, September 2027 intake.",
+            "published_deposit_evidence": {
+              "amount": "4000.00",
+              "currency": "GBP",
+              "alternative": "sponsorship_letter",
+              "policy_scope_extended": false,
+              "source_url": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management"
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_ARU003_RES_07",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MPhil (Research) Education",
+          "level": "MRES",
+          "duration": "2 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "16100.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Education",
+          "level": "PG",
+          "duration": "1 to 3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/school-of-education",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/school-of-education",
+          "source_course_code": "",
+          "source_course_name": "MPhil Education",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/school-of-education",
+            "source_sha256": "b55e37c54aeaf1b47648a8c8db066ed1dd958f1175b9ade61b6470ac21f87840",
+            "campus": "Chelmsford Campus",
+            "intake": "January 2027",
+            "study_year": 1,
+            "course_kind": "postgraduate_research",
+            "mapping_kind": "research_route_correction",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "applicability_unconfirmed",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "17500.00",
+                "fee_basis": "annual_tuition",
+                "amount_requires_review": false
+              }
+            ],
+            "annual_tuition": "17500.00",
+            "published_fee_amount": "17500.00",
+            "published_fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for 2026/27, January 2027 intake.",
+            "duration_note": "Published full-time MPhil duration: from one to three years."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_26",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "Master of Public Health (MPH)",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "18400.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "Master of Public Health (MPH)",
+          "level": "PG",
+          "duration": "1 Year",
+          "location": "ARU London",
+          "start_month": "September",
+          "start_year": 2027,
+          "intake_months": "September",
+          "course_url": "https://www.aru.ac.uk/study/postgraduate/master-of-public-health-london",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "18400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "https://www.aru.ac.uk/study/postgraduate/master-of-public-health-london",
+          "source_course_code": "",
+          "source_course_name": "Master of Public Health (MPH)",
+          "fee_basis": "unavailable",
+          "raw_fees": {
+            "verified": false,
+            "academic_year": "",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "course_source_url": "https://www.aru.ac.uk/study/postgraduate/master-of-public-health-london",
+            "source_sha256": "9ad8f5967613e5c3589a1a18ba3f4f6ecb43cf2da6d67cb9f964abd198ac44d8",
+            "campus": "ARU London",
+            "intake": "September 2027",
+            "study_year": 1,
+            "course_kind": "postgraduate_taught",
+            "mapping_kind": "campus_correction",
+            "scholarship_status": "applicability_unconfirmed",
+            "deposit_status": "applicability_unconfirmed",
+            "fee_categories": [],
+            "verification_reason": "The reviewed ARU London Public Health page does not provide a confirmed international tuition amount. International tuition is unavailable pending confirmation; the stored amount must not be presented as verified.",
+            "fee_note": "The reviewed ARU London Public Health page does not provide a confirmed international tuition amount. International tuition is unavailable pending confirmation; the stored amount must not be presented as verified."
+          }
+        }
+      }
+    }
+  ],
+  "blocked": [],
+  "verified_fee_proposals": 5,
+  "unavailable_fee_proposals": 1,
+  "proposed_changes": 6
+}

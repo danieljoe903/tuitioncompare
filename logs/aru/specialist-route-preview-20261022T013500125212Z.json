@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-10-22T01:35:00.125212+00:00",
+  "mode": "preview",
+  "database_changes": false,
+  "university_id": "UK003",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\campus-intakes-20261022T012303439336Z\\campus-intake-evidence.json",
+  "collection_issues": [
+    {
+      "course_id": "C_UK003_88",
+      "error": "No application link found; manual route review required."
+    }
+  ],
+  "proposals": [
+    {
+      "course_id": "C_ARU003_01",
+      "mapping": "explicit_replacement_proposal",
+      "replacement_accepted": false,
+      "course_changes": {
+        "title": {
+          "before": "BSc (Hons) Business and Management (Top-up)",
+          "after": "BSc (Hons) International Business (Top-Up)"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "course_url": {
+          "before": "www.aru.ac.uk",
+          "after": "https://www.aru.ac.uk/study/undergraduate/international-business-top-up"
+        }
+      },
+      "tuition": {
+        "stored_amount": "16000.0",
+        "proposed_amount": "18825.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "fee_basis": "annual_tuition",
+        "fee_available": true,
+        "reason": ""
+      },
+      "scholarship": {
+        "status": "applicability_pending",
+        "note": "Top-up scholarship applicability requires confirmation of entry year and the applicable award conditions.",
+        "existing_rules_changed": false,
+        "eligibility_questions_preserved": true
+      },
+      "deposit": {
+        "published_amount": "4000.00",
+        "currency": "GBP",
+        "status": "published_statement_scope_review_required",
+        "note": "A published deposit statement does not extend the saved policy automatically. Visa, funding, sponsorship and course applicability require review.",
+        "saved_policy_changed": false
+      },
+      "evidence": {
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/international-business-top-up",
+        "source_sha256": "2e223fb79cb154c96cbec8d327891cf5e46b6573ce4d6819dafc36a0233d48f1",
+        "evidence_generated_at": "2026-10-22T01:23:03.439336+00:00"
+      }
+    },
+    {
+      "course_id": "C_UK003_59",
+      "mapping": "explicit_replacement_proposal",
+      "replacement_accepted": false,
+      "course_changes": {
+        "title": {
+          "before": "MSc Optometry",
+          "after": "MOptom Optometry"
+        },
+        "level": {
+          "before": "PG",
+          "after": "UG"
+        },
+        "duration": {
+          "before": "1 Year",
+          "after": "4 Years"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "B510"
+        },
+        "course_url": {
+          "before": "www.aru.ac.uk",
+          "after": "https://www.aru.ac.uk/study/undergraduate/optometry"
+        }
+      },
+      "tuition": {
+        "stored_amount": "19500.0",
+        "proposed_amount": "19750.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "fee_basis": "annual_tuition",
+        "fee_available": true,
+        "reason": ""
+      },
+      "scholarship": {
+        "status": "applicability_pending",
+        "note": "The advertised route is an undergraduate-entry integrated master's degree. Scholarship eligibility must be checked for MOptom specifically; existing MSc eligibility must not be carried over automatically.",
+        "existing_rules_changed": false,
+        "eligibility_questions_preserved": true
+      },
+      "deposit": {
+        "published_amount": "4000.00",
+        "currency": "GBP",
+        "status": "published_statement_scope_review_required",
+        "note": "A published deposit statement does not extend the saved policy automatically. Visa, funding, sponsorship and course applicability require review.",
+        "saved_policy_changed": false
+      },
+      "evidence": {
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/optometry",
+        "source_sha256": "72ad8fa7e6463158ef943331bb8bb034bb2db167cdd5d12c86d21ca3e765dba4",
+        "evidence_generated_at": "2026-10-22T01:23:03.439336+00:00"
+      }
+    },
+    {
+      "course_id": "C_UK003_70",
+      "mapping": "explicit_replacement_proposal",
+      "replacement_accepted": false,
+      "course_changes": {
+        "title": {
+          "before": "BSc (Hons) Equine Behavioral Science",
+          "after": "BSc (Hons) Equine Science"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "D423"
+        },
+        "course_url": {
+          "before": "www.aru.ac.uk",
+          "after": "https://www.aru.ac.uk/study/undergraduate/equine-science"
+        }
+      },
+      "tuition": {
+        "stored_amount": "19500.0",
+        "proposed_amount": "18825.00",
+        "currency": "GBP",
+        "academic_year": "2027/28",
+        "fee_basis": "annual_tuition",
+        "fee_available": true,
+        "reason": ""
+      },
+      "scholarship": {
+        "status": "applicability_pending",
+        "note": "Check the standard three-year Writtle route against the scholarship's campus, entry-year and award conditions.",
+        "existing_rules_changed": false,
+        "eligibility_questions_preserved": true
+      },
+      "deposit": {
+        "published_amount": "4000.00",
+        "currency": "GBP",
+        "status": "published_statement_scope_review_required",
+        "note": "A published deposit statement does not extend the saved policy automatically. Visa, funding, sponsorship and course applicability require review.",
+        "saved_policy_changed": false
+      },
+      "evidence": {
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/equine-science",
+        "source_sha256": "0da733842ffc13489a2a09502f3b055671039a41000894d1fa73e0a78d9731fd",
+        "evidence_generated_at": "2026-10-22T01:23:03.439336+00:00"
+      }
+    },
+    {
+      "course_id": "C_UK003_87",
+      "mapping": "route_correction_proposal",
+      "replacement_accepted": false,
+      "course_changes": {
+        "title": {
+          "before": "BA (Hons) Early Childhood Studies",
+          "after": "BA (Hons) Early Childhood Studies (Graduate Practitioner)"
+        },
+        "duration": {
+          "before": "3 Years",
+          "after": "2 Years"
+        },
+        "location": {
+          "before": "Chelmsford Campus",
+          "after": "Blended learning — Chelmsford"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "X3C0"
+        },
+        "course_url": {
+          "before": "www.aru.ac.uk",
+          "after": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies"
+        }
+      },
+      "tuition": {
+        "stored_amount": "19500.0",
+        "proposed_amount": null,
+        "currency": "GBP",
+        "academic_year": "",
+        "fee_basis": "unavailable",
+        "fee_available": false,
+        "reason": "The advertised Chelmsford route is a two-year accelerated, blended-learning degree. An applicable international tuition fee has not been verified. UK and distance-learning prices must not be substituted."
+      },
+      "scholarship": {
+        "status": "applicability_pending",
+        "note": "Scholarship applicability remains unverified for the reviewed route and intake.",
+        "existing_rules_changed": false,
+        "eligibility_questions_preserved": true
+      },
+      "deposit": {
+        "published_amount": null,
+        "currency": "GBP",
+        "status": "applicability_pending",
+        "note": "A published deposit statement does not extend the saved policy automatically. Visa, funding, sponsorship and course applicability require review.",
+        "saved_policy_changed": false
+      },
+      "evidence": {
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
+        "source_sha256": "6efde6d1fa42ed53fadf6d3e9340df834034f4808e04425fe1fa57d4439cf327",
+        "evidence_generated_at": "2026-10-22T01:23:03.439336+00:00"
+      }
+    },
+    {
+      "course_id": "C_UK003_88",
+      "mapping": "route_correction_proposal",
+      "replacement_accepted": false,
+      "course_changes": {
+        "location": {
+          "before": "Cambridge Campus",
+          "after": "Blended learning — Cambridge"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "L501"
+        },
+        "course_url": {
+          "before": "www.aru.ac.uk",
+          "after": "https://www.aru.ac.uk/study/undergraduate/social-work"
+        }
+      },
+      "tuition": {
+        "stored_amount": "19500.0",
+        "proposed_amount": null,
+        "currency": "GBP",
+        "academic_year": "",
+        "fee_basis": "unavailable",
+        "fee_available": false,
+        "reason": "The captured page publishes UK tuition and application guidance for UK applicants and specified settled-status groups. An applicable international fee and application route remain unverified. This is not a blanket nationality exclusion."
+      },
+      "scholarship": {
+        "status": "applicability_pending",
+        "note": "Scholarship applicability remains unverified for the reviewed route and intake.",
+        "existing_rules_changed": false,
+        "eligibility_questions_preserved": true
+      },
+      "deposit": {
+        "published_amount": null,
+        "currency": "GBP",
+        "status": "applicability_pending",
+        "note": "A published deposit statement does not extend the saved policy automatically. Visa, funding, sponsorship and course applicability require review.",
+        "saved_policy_changed": false
+      },
+      "evidence": {
+        "source_url": "https://www.aru.ac.uk/study/undergraduate/social-work",
+        "source_sha256": "f5557d5d071a711e43e3ba591558e121dc748f99cda4d5dfc9ddcf42fca4da8f",
+        "evidence_generated_at": "2026-10-22T01:23:03.439336+00:00"
+      }
+    },
+    {
+      "course_id": "C_UK003_104",
+      "mapping": "route_correction_proposal",
+      "replacement_accepted": false,
+      "course_changes": {
+        "start_month": {
+          "before": "September",
+          "after": "January"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "course_url": {
+          "before": "www.aru.ac.uk",
+          "after": "https://www.aru.ac.uk/study/postgraduate/global-public-health"
+        }
+      },
+      "tuition": {
+        "stored_amount": "18400.0",
+        "proposed_amount": null,
+        "currency": "GBP",
+        "academic_year": "",
+        "fee_basis": "unavailable",
+        "fee_available": false,
+        "reason": "The captured route advertises January 2027 entry. Its displayed international fee of £18,825 is labelled 2027/28 and cannot verify January 2027 tuition. The applicable 2026/27 fee requires confirmation."
+      },
+      "scholarship": {
+        "status": "applicability_pending",
+        "note": "Scholarship applicability remains unverified for the reviewed route and intake.",
+        "existing_rules_changed": false,
+        "eligibility_questions_preserved": true
+      },
+      "deposit": {
+        "published_amount": null,
+        "currency": "GBP",
+        "status": "applicability_pending",
+        "note": "A published deposit statement does not extend the saved policy automatically. Visa, funding, sponsorship and course applicability require review.",
+        "saved_policy_changed": false
+      },
+      "evidence": {
+        "source_url": "https://www.aru.ac.uk/study/postgraduate/global-public-health",
+        "source_sha256": "1e27aff4ada47738696c1b97dbcc219b73148abde81b3bfc341796684ed27554",
+        "evidence_generated_at": "2026-10-22T01:23:03.439336+00:00"
+      }
+    }
+  ],
+  "blocked": []
+}

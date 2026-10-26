@@ -1,0 +1,47 @@
+{
+  "evidence_kind": "reviewed_public_listing",
+  "course_id": "C_UK005_11",
+  "source_url": "https://www.ucas.com/explore/courses/929631ca-2959-42bd-8df4-3f6da32e51db/dance-movement-and-creative-practice?studyYear=2027",
+  "provider": "Arts University Bournemouth",
+  "title": "BA (Hons) Dance, Movement and Creative Practice",
+  "academic_year": "2027/28",
+  "intake": "2027-09",
+  "duration": "3 Years",
+  "ucas_code": "W713",
+  "checked_on": "2026-10-24",
+  "review_reference": "turn249search1",
+  "provenance_note": "Structured review of the exact UCAS public listing; not a local HTML capture. Direct AUB fee table supplies international annual tuition.",
+  "before": {
+    "course": {
+      "course_id": "C_UK005_11",
+      "university_id": "UK005",
+      "subject_id": null,
+      "title": "BA (Hons) Dance, Movement and Creative Practice",
+      "level": "UG",
+      "overview": "Developing versatile performers and choreographers for contemporary dance sectors.",
+      "modules": "Contemporary Technique, Choreography, Dance Science, Industry Skills",
+      "entry_requirements": "UCAS 104-120; Audition; IELTS 6.0.",
+      "duration": "3 Years",
+      "location": "Poole Campus",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aub.ac.uk",
+      "created_at": "2026-03-28T18:14:47.283Z",
+      "updated_at": "2026-03-28T18:14:47.283Z"
+    },
+    "tuition": {
+      "id": 5457,
+      "course_id": "C_UK005_11",
+      "residency": "INTL",
+      "tuition_fee": "19950.0",
+      "scholarship": "5000.0",
+      "tuition_deposit": "3000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    }
+  }
+}

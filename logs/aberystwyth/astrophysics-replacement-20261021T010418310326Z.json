@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-10-21T01:04:18.310326+00:00",
+  "mode": "preview",
+  "course_id": "C_UK002_83",
+  "changed": true,
+  "before": {
+    "course": {
+      "title": "BSc (Hons) Physics with Astronomy",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "course_url": "www.aber.ac.uk",
+      "ucas_cao_code": ""
+    },
+    "tuition": {
+      "tuition_fee": "21875.00",
+      "currency": "GBP"
+    },
+    "source": {
+      "academic_year": "",
+      "source_url": "",
+      "source_course_name": "BSc (Hons) Physics with Astronomy",
+      "source_course_code": "",
+      "fee_basis": "unverified",
+      "raw_fees": {
+        "verified": false,
+        "fee_review": {
+          "reason": "Physics with Astronomy has not been matched to a confirmed official route. Do not substitute another Physics programme.",
+          "status": "pending",
+          "candidate_urls": [
+            "https://courses.aber.ac.uk/undergraduate/mathematics-with-education/",
+            "https://courses.aber.ac.uk/undergraduate/physics-with-year-in-industry/"
+          ],
+          "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+        },
+        "display_notes": {
+          "fee": "International tuition has not been verified for this course and intake.",
+          "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+          "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "applicability_unconfirmed",
+        "fee_verification_status": "needs_review"
+      }
+    }
+  },
+  "after": {
+    "course": {
+      "title": "BSc (Hons) Astrophysics",
+      "level": "UG",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2027,
+      "course_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+      "ucas_cao_code": "F510"
+    },
+    "tuition": {
+      "tuition_fee": "23255.00",
+      "currency": "GBP"
+    },
+    "source": {
+      "academic_year": "2027/28",
+      "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/undergrad/tuition-fees/",
+      "source_course_name": "Astrophysics",
+      "source_course_code": "F510",
+      "fee_basis": "annual_tuition",
+      "raw_fees": {
+        "verified": true,
+        "fee_review": {
+          "status": "resolved",
+          "reason": "Astrophysics is taught in Physics, classified under the published undergraduate science fee."
+        },
+        "display_notes": {
+          "deposit": "Deposit amount is specified in your individual offer letter.",
+          "scholarship": "Scholarship eligibility has not yet been confirmed for this replacement course."
+        },
+        "deposit_status": "offer_letter_amount_required",
+        "scholarship_status": "pending_separate_reconciliation",
+        "fee_verification_status": "verified",
+        "academic_year": "2027/28",
+        "source_fee_category": "International",
+        "annual_tuition": "23255.00",
+        "currency": "GBP",
+        "fee_band": "Sciences",
+        "programme_fee_group": "bachelors",
+        "course_kind": "undergraduate",
+        "course_source_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+        "study_year": 1,
+        "fee_method": "accepted_replacement_and_published_subject_band",
+        "course_identity": {
+          "status": "accepted_current_catalogue_replacement",
+          "replaces_title": "BSc (Hons) Physics with Astronomy",
+          "official_title": "Astrophysics",
+          "official_code": "F510",
+          "official_award": "BSC",
+          "source_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+          "note": "User accepted replacing the stored listing with the current Astrophysics route. This does not assert historical course equivalence."
+        },
+        "fee_evidence": {
+          "course": {
+            "source_url": "https://courses.aber.ac.uk/undergraduate/astrophysics-degree/",
+            "sha256": "cd526902bc13976bc648d526264a1f82eab512c247da8cc31a34091868beb26f"
+          },
+          "fee_schedule": {
+            "source_url": "https://www.aber.ac.uk/en/study-with-us/fees/undergrad/tuition-fees/",
+            "sha256": "05fb8b94c49d533dc7994d0cec6d4133c8d7e343fe3d81b53f8ca093fec594de"
+          }
+        },
+        "fee_categories": [
+          {
+            "source_fee_category": "International",
+            "academic_year": "2027/28",
+            "currency": "GBP",
+            "annual_tuition": "23255.00",
+            "raw_annual_fee": "£23,255",
+            "annotation": "Annual full-time undergraduate science tuition.",
+            "footnote_marker": "",
+            "amount_requires_review": false
+          }
+        ],
+        "scholarship_review": {
+          "status": "pending",
+          "reason": "Scholarship applicability for the replacement course requires separate reconciliation."
+        }
+      }
+    }
+  }
+}

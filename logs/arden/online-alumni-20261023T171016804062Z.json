@@ -1,0 +1,260 @@
+{
+  "mode": "preview",
+  "courses": [
+    {
+      "course_id": "C_UK004_36",
+      "gross": "10550.00",
+      "net_if_alumni_eligible": "5275.00",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_37",
+      "gross": "10550.00",
+      "net_if_alumni_eligible": "5275.00",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_38",
+      "gross": "10550.00",
+      "net_if_alumni_eligible": "5275.00",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_53",
+      "gross": "3421.00",
+      "net_if_alumni_eligible": "1710.50",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_64",
+      "gross": "10550.00",
+      "net_if_alumni_eligible": "5275.00",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_65",
+      "gross": "10550.00",
+      "net_if_alumni_eligible": "5275.00",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_66",
+      "gross": "10855.00",
+      "net_if_alumni_eligible": "5427.50",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_67",
+      "gross": "10855.00",
+      "net_if_alumni_eligible": "5427.50",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_68",
+      "gross": "3421.00",
+      "net_if_alumni_eligible": "1710.50",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_69",
+      "gross": "8500.00",
+      "net_if_alumni_eligible": "4250.00",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_70",
+      "gross": "3967.00",
+      "net_if_alumni_eligible": "1983.50",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_71",
+      "gross": "10550.00",
+      "net_if_alumni_eligible": "5275.00",
+      "changed": false
+    },
+    {
+      "course_id": "C_UK004_72",
+      "gross": "3967.00",
+      "net_if_alumni_eligible": "1983.50",
+      "changed": false
+    }
+  ],
+  "rule": {
+    "importer": "arden_online_alumni_v7",
+    "kind": "percentage",
+    "value": "50.00",
+    "currency": "GBP",
+    "benefit": "tuition",
+    "academic_year": "2026/27",
+    "study_years": [
+      1
+    ],
+    "conditions": {
+      "arden_account_in_good_standing": [
+        true
+      ],
+      "arden_not_blocked_or_expelled": [
+        true
+      ],
+      "arden_no_staff_agent_connection": [
+        true
+      ],
+      "arden_application_accurate": [
+        true
+      ],
+      "arden_not_sanctioned": [
+        true
+      ],
+      "arden_alumni_qualifying_degree": [
+        true
+      ],
+      "arden_alumni_within_five_years": [
+        true
+      ],
+      "arden_alumni_official_results_received": [
+        true
+      ],
+      "arden_alumni_advisor_informed": [
+        true
+      ],
+      "arden_alumni_offer_granted": [
+        true
+      ],
+      "course_id": [
+        "C_UK004_36",
+        "C_UK004_37",
+        "C_UK004_38",
+        "C_UK004_53",
+        "C_UK004_64",
+        "C_UK004_65",
+        "C_UK004_66",
+        "C_UK004_67",
+        "C_UK004_68",
+        "C_UK004_69",
+        "C_UK004_70",
+        "C_UK004_71",
+        "C_UK004_72"
+      ],
+      "fee_status": [
+        "INTL"
+      ],
+      "arden_campus": [
+        "Online"
+      ],
+      "arden_partner_route": [
+        false
+      ],
+      "arden_online_offer_confirmed": [
+        true
+      ],
+      "arden_intake": [
+        "2027-01",
+        "2027-04"
+      ]
+    },
+    "award_status": "conditional",
+    "stacking": "exclusive",
+    "compatible_ids": [],
+    "percentage_basis": "original_tuition",
+    "comparison_period": "total_programme",
+    "fee_basis_confirmed": true,
+    "eligibility_questions": [
+      {
+        "key": "arden_intake",
+        "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+        "type": "text"
+      },
+      {
+        "key": "arden_online_offer_confirmed",
+        "label": "Has Arden offered you this online programme for the selected intake?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_not_uk_student",
+        "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_country_evidence_accepted",
+        "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_partner_route",
+        "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_prior_credits_under_40",
+        "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_account_in_good_standing",
+        "label": "Is your Arden student account free of arrears?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_not_blocked_or_expelled",
+        "label": "Are you free of any blocked or expelled student status?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_no_staff_agent_connection",
+        "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_application_accurate",
+        "label": "Is your application and supporting information accurate and free of misrepresentation?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_not_sanctioned",
+        "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_alumni_qualifying_degree",
+        "label": "Has Arden verified that you obtained at least a 2:2 and 300 credits on an eligible Arden undergraduate programme?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_alumni_within_five_years",
+        "label": "Has Arden verified that your undergraduate graduation falls within the five years before this postgraduate programme starts?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_alumni_official_results_received",
+        "label": "Have you received your official qualifying undergraduate results?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_alumni_advisor_informed",
+        "label": "Have you told your educational advisor that you wish to use the online Alumni offer?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_alumni_offer_granted",
+        "label": "Has Arden granted you the 50% online Postgraduate Alumni offer for this programme and intake?",
+        "type": "boolean"
+      },
+      {
+        "key": "arden_application_residence",
+        "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+        "type": "text"
+      },
+      {
+        "key": "arden_application_nationality",
+        "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+        "type": "text"
+      }
+    ],
+    "source_terms_sha256": "ee585b6118926aa8ad2971db1c12d72b7294760af0713603bddd12191c91da67",
+    "scope_note": "Reviewed online postgraduate routes only. Programme total, not annual tuition. Online Alumni conditions apply; no UK home-student restriction imported from the separate campus offer.",
+    "review_note": "An Alumni award must be granted. Cannot combine with Global Tiers; the greatest eligible exclusive offer is selected."
+  },
+  "database_changes": false,
+  "changed_items": 0
+}

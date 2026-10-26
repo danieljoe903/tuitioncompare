@@ -1,0 +1,348 @@
+{% load static %}
+
+<style>
+    .university-intro {
+        position: relative;
+        padding: 88px 0;
+        background:
+            radial-gradient(circle at 0% 100%,
+                rgba(56, 189, 248, 0.12),
+                transparent 45%),
+            #ffffff;
+        overflow: hidden;
+    }
+
+    .university-intro .intro-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        align-items: center;
+        gap: 72px;
+    }
+
+    .university-intro .intro-photo {
+        position: relative;
+        min-width: 0;
+        padding: 14px;
+        border: 1px solid #dbeafe;
+        border-radius: 28px;
+        background: #eff8ff;
+    }
+
+    .university-intro .intro-photo img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 18px;
+    }
+
+    .university-intro .intro-photo-caption {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 18px 8px 6px;
+    }
+
+    .university-intro .intro-caption-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 42px;
+        height: 42px;
+        border-radius: 12px;
+        background: #dbeafe;
+        color: #1d4ed8;
+    }
+
+    .university-intro .intro-caption-icon svg {
+        width: 23px;
+        height: 23px;
+    }
+
+    .university-intro .intro-photo-caption p {
+        margin: 0;
+        color: #102c46;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .university-intro .intro-content {
+        min-width: 0;
+    }
+
+    .university-intro .intro-eyebrow {
+        display: inline-block;
+        margin-bottom: 18px;
+        color: #2563eb;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+
+    .university-intro h2 {
+        margin: 0 0 22px;
+        color: #102c46;
+        font-size: clamp(28px, 3vw, 40px);
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .university-intro .intro-description {
+        margin: 0;
+        color: #52657a;
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .university-intro .intro-features {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        margin: 28px 0 32px;
+        padding: 0;
+        list-style: none;
+    }
+
+    .university-intro .intro-feature {
+        padding: 16px 12px;
+        border: 1px solid #e2e8f0;
+        border-radius: 14px;
+        background: #f8fafc;
+    }
+
+    .university-intro .intro-feature svg {
+        display: block;
+        width: 24px;
+        height: 24px;
+        margin-bottom: 12px;
+        color: #2563eb;
+    }
+
+    .university-intro .intro-feature span {
+        display: block;
+        color: #102c46;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .university-intro .intro-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        min-height: 52px;
+        padding: 14px 24px;
+        border-radius: 10px;
+        background: #102c46;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        transition:
+            background-color 0.2s ease,
+            transform 0.2s ease;
+    }
+
+    .university-intro .intro-button svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .university-intro .intro-button:hover {
+        background: #1d4e73;
+        transform: translateY(-2px);
+    }
+
+    .university-intro .intro-button:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 4px;
+    }
+
+    .dark .university-intro {
+        background:
+            radial-gradient(circle at 0% 100%,
+                rgba(56, 189, 248, 0.08),
+                transparent 45%),
+            #0d1a2c;
+    }
+
+    .dark .university-intro .intro-photo {
+        border-color: #334155;
+        background: #102c46;
+    }
+
+    .dark .university-intro h2,
+    .dark .university-intro .intro-photo-caption p,
+    .dark .university-intro .intro-feature span {
+        color: #ffffff;
+    }
+
+    .dark .university-intro .intro-description {
+        color: #cbd5e1;
+    }
+
+    .dark .university-intro .intro-eyebrow,
+    .dark .university-intro .intro-feature svg {
+        color: #7dd3fc;
+    }
+
+    .dark .university-intro .intro-feature {
+        border-color: #334155;
+        background: #102c46;
+    }
+
+    .dark .university-intro .intro-button {
+        background: #2563eb;
+    }
+
+    .dark .university-intro .intro-button:hover {
+        background: #1d4ed8;
+    }
+
+    @media (max-width: 1023px) {
+        .university-intro {
+            padding: 64px 0;
+        }
+
+        .university-intro .intro-layout {
+            gap: 36px;
+        }
+
+        .university-intro .intro-features {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        .university-intro .intro-feature {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px;
+        }
+
+        .university-intro .intro-feature svg {
+            flex-shrink: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .university-intro {
+            padding: 48px 0;
+        }
+
+        .university-intro .intro-layout {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 32px;
+        }
+
+        .university-intro .intro-photo {
+            padding: 10px;
+            border-radius: 22px;
+        }
+
+        .university-intro .intro-description {
+            font-size: 16px;
+        }
+
+        .university-intro .intro-button {
+            width: 100%;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .university-intro .intro-button {
+            transition: none;
+        }
+
+        .university-intro .intro-button:hover {
+            transform: none;
+        }
+    }
+</style>
+
+<section class="university-intro" aria-labelledby="university-intro-heading">
+    <div class="container">
+        <div class="intro-layout">
+
+            <div class="intro-photo" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
+                data-aos-once="true">
+                <img src="{% static 'images/mine/about-us.jpg' %}" alt="Two students sitting together outdoors"
+                    loading="lazy" decoding="async" />
+
+                <div class="intro-photo-caption">
+                    <span class="intro-caption-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3 2 8l10 5 10-5-10-5Z
+                                   M6 10v6c0 2 3 4 6 4s6-2 6-4v-6
+                                   M22 8v7"></path>
+                        </svg>
+                    </span>
+
+                    <p>Explore your options. Plan your next step.</p>
+                </div>
+            </div>
+
+            <div class="intro-content" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000"
+                data-aos-once="true">
+                <span class="intro-eyebrow">
+                    Make an informed choice
+                </span>
+
+                <h2 id="university-intro-heading">
+                    Compare Universities Across UK and Ireland
+                </h2>
+
+                <p class="intro-description">
+                    Explore undergraduate and postgraduate programmes.
+                    Compare tuition fees, scholarships and course details
+                    to find options that fit your interests and budget.
+                </p>
+
+                <ul class="intro-features">
+                    <li class="intro-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                            aria-hidden="true">
+                            <rect x="3" y="5" width="18" height="14" rx="3"></rect>
+                            <path stroke-linecap="round" d="M3 10h18M7 15h3"></path>
+                        </svg>
+                        <span>Tuition Fees</span>
+                    </li>
+
+                    <li class="intro-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3 2 8l10 5 10-5-10-5Z
+                                   M6 10v6c0 2 3 4 6 4s6-2 6-4v-6"></path>
+                        </svg>
+                        <span>Scholarships</span>
+                    </li>
+
+                    <li class="intro-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1
+                                   M12 5c3-2 6-2 9-1v15c-3-1-6-1-9 1
+                                   M12 5v15"></path>
+                        </svg>
+                        <span>Course Details</span>
+                    </li>
+                </ul>
+
+                <a href="{% url 'university-search' %}" class="intro-button">
+                    <span>Browse Universities</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"></path>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="border-t border-gray-200 dark:border-gray-700"></div>

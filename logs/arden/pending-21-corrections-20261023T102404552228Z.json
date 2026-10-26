@@ -1,0 +1,388 @@
+{
+  "generated_at": "2026-10-23T10:24:04.487945+00:00",
+  "mode": "apply",
+  "database_changes": true,
+  "evidence_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\arden\\pending-21-investigation-20261023T095806836678Z\\pending-21-evidence.json",
+  "evidence_sha256": "d86e46e2a13504fbbbe4c4aa5c81882c587f987075562d7d98569f28676ef837",
+  "all_21_findings": [
+    {
+      "course_id": "C_UK004_13",
+      "title": "BSc (Hons) Agriculture",
+      "status": "university_ownership_or_award_confirmation_required",
+      "reason": "Stored Writtle location points towards ARU; current ARU export contains no matching Agriculture/Veterinary Nursing record. No cross-university reassignment is approved.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_14",
+      "title": "BSc (Hons) Veterinary Nursing",
+      "status": "university_ownership_or_award_confirmation_required",
+      "reason": "Stored Writtle location points towards ARU; current ARU export contains no matching Agriculture/Veterinary Nursing record. No cross-university reassignment is approved.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_26",
+      "title": "BA (Hons) Business Management (Top-Up)",
+      "status": "confirmed_duplicate_retirement_proposal",
+      "reason": "Same exact top-up title and source as active, verified C_ARD004_01. Retain canonical calculations; retire duplicate only with explicit acceptance.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_29",
+      "title": "BA (Hons) Business Management with Foundation Year",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_30",
+      "title": "LLB (Hons) Law with Foundation Year",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_31",
+      "title": "BA (Hons) Criminology and Psychology with Foundation Year",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_39",
+      "title": "MSc Data Analytics and Project Management",
+      "status": "historical_award_current_intake_unconfirmed",
+      "reason": "Official historical award evidence exists; both direct URL probes returned 404. No current intake or automatic replacement is approved.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_46",
+      "title": "BA (Hons) Criminal Justice",
+      "status": "legacy_title_requires_replacement_acceptance_or_intake_proof",
+      "reason": "A marketing quiz mentions Criminal Justice. Current Criminology is a different title; changing the programme requires explicit replacement acceptance and fee/intake verification.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_47",
+      "title": "BA (Hons) Human Resource Management and Psychology",
+      "status": "confirmed_online_route_current_intake_unverified",
+      "reason": "Direct page and NG/GH £5,500 per-level fee schedule confirmed. No application study options or intake present. No current academic year or deduction can be assigned.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_48",
+      "title": "BSc (Hons) Health and Care Management with Foundation Year",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_51",
+      "title": "MSc IT Security Management",
+      "status": "redirect_to_already_mapped_course",
+      "reason": "The IT Security Management probe redirects to MSc Cyber Security, already C_UK004_18. Redirect alone does not establish equivalent awards or allow a duplicate fee import.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_52",
+      "title": "MSc Global Supply Chain Management",
+      "status": "related_programme_already_mapped",
+      "reason": "MSc Supply Chain Management and Logistics already has canonical record C_UK004_25. Global Supply Chain title still needs identity confirmation.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_54",
+      "title": "MA Education",
+      "status": "exact_current_route_unconfirmed",
+      "reason": "No exact current MA Education intake and fee established. Related subject labels or other qualification levels do not verify this route.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_55",
+      "title": "MSc Data Analytics and Information Systems Management",
+      "status": "historical_award_current_intake_unconfirmed",
+      "reason": "Official historical award evidence exists; both direct URL probes returned 404. No current intake or automatic replacement is approved.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_57",
+      "title": "BA (Hons) Business Management (Accounting and Finance) with Foundation Year",
+      "status": "redirect_drops_foundation_year",
+      "reason": "The foundation pathway probe redirects to the non-foundation Accounting and Finance degree. Do not import a three-year fee against a four-year foundation route.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_58",
+      "title": "BA (Hons) Business Management (Marketing) with Foundation Year",
+      "status": "berlin_route_not_a_verified_uk_route",
+      "reason": "Exact themed foundation route found on Berlin pages. A UK campus/intake and GBP fee are not established; UK scholarship rules do not carry over.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_59",
+      "title": "BA (Hons) Business Management (HRM) with Foundation Year",
+      "status": "berlin_route_not_a_verified_uk_route",
+      "reason": "Exact themed foundation route found on Berlin pages. A UK campus/intake and GBP fee are not established; UK scholarship rules do not carry over.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_60",
+      "title": "BA (Hons) Business Management (Tourism) with Foundation Year",
+      "status": "berlin_route_not_a_verified_uk_route",
+      "reason": "Exact themed foundation route found on Berlin pages. A UK campus/intake and GBP fee are not established; UK scholarship rules do not carry over.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_61",
+      "title": "Foundation Degree Business and Innovation (FdA)",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_62",
+      "title": "Foundation Degree Computing and Digital Futures (FdSc)",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    },
+    {
+      "course_id": "C_UK004_63",
+      "title": "Foundation Degree Health and Care Management (FdSc)",
+      "status": "international_fee_still_unpublished",
+      "reason": "Both fresh country responses explicitly say fees are not available yet. Do not replace with UK/home/general UG rates.",
+      "scholarship_deduction": "No new deduction verified by this investigation; retain canonical verified rules where applicable."
+    }
+  ],
+  "changes": [
+    {
+      "course_id": "C_UK004_26",
+      "changed": true,
+      "before": {
+        "course": {
+          "is_active": true
+        },
+        "tuition": {
+          "tuition_fee": "13000.0",
+          "scholarship": "0",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "is_active": false
+        },
+        "tuition": {
+          "tuition_fee": "13000.0",
+          "scholarship": "0",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=277&awarding_body=arden&course_id=1556",
+          "source_course_code": "1556",
+          "source_course_name": "Business Management (Top-Up) ​",
+          "fee_basis": "unavailable",
+          "raw_fees": {
+            "importer": "arden_pending_21_correction_v4",
+            "verified": false,
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_source_url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management-top-up",
+            "source_html_sha256": "f486dbfa5caa05697702265648458822b8e83426a026cfeec61c3dfda715cb75",
+            "fee_response_sha256": [
+              "d39d3abe39064f203fc285ae86a8512fcba7a9a502c25ac82806faf79a0d68b1",
+              "d39d3abe39064f203fc285ae86a8512fcba7a9a502c25ac82806faf79a0d68b1"
+            ],
+            "evidence_report_sha256": "d86e46e2a13504fbbbe4c4aa5c81882c587f987075562d7d98569f28676ef837",
+            "mapping_reviewed": true,
+            "academic_year": "2026/27",
+            "record_status": "duplicate_retired",
+            "canonical_course_id": "C_ARD004_01",
+            "course_kind": "undergraduate_topup_duplicate",
+            "verification_reason": "This duplicate record has been retired. Use the reviewed Business Management top-up C_ARD004_01.",
+            "scholarship_review": {
+              "reason": "Verified deductions continue on the canonical course. No additional award is created on a duplicate.",
+              "eligibility_questions": []
+            },
+            "deposit_review": {
+              "reason": "Use the canonical course deposit policy; the individual amount is advised by Arden.",
+              "eligibility_questions": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_47",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "duration": "3 Years",
+          "course_url": "www.arden.ac.uk",
+          "start_month": "September",
+          "intake_months": "September"
+        },
+        "tuition": {
+          "tuition_fee": "13000.0",
+          "scholarship": "0",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "Online",
+          "duration": "3 years+ (part-time)",
+          "course_url": "https://arden.ac.uk/our-courses/undergraduate/psychology-degrees/ba-hons-hrm-psychology1",
+          "start_month": "",
+          "intake_months": ""
+        },
+        "tuition": {
+          "tuition_fee": "13000.0",
+          "scholarship": "0",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=1180",
+          "source_course_code": "1180",
+          "source_course_name": "Human Resource Management and Psychology",
+          "fee_basis": "per_level",
+          "raw_fees": {
+            "importer": "arden_pending_21_correction_v4",
+            "verified": false,
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_source_url": "https://arden.ac.uk/our-courses/undergraduate/psychology-degrees/ba-hons-hrm-psychology1",
+            "source_html_sha256": "83c179d4184b50208db9fe08d820ffa36927c82047fc9c98398a7398905fb45f",
+            "fee_response_sha256": [
+              "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+              "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336"
+            ],
+            "evidence_report_sha256": "d86e46e2a13504fbbbe4c4aa5c81882c587f987075562d7d98569f28676ef837",
+            "mapping_reviewed": true,
+            "academic_year": "",
+            "course_kind": "undergraduate_taught_online",
+            "study_mode": "online",
+            "fee_schedule_verified": true,
+            "fees_by_level": {
+              "4": "5500.00",
+              "5": "5500.00",
+              "6": "5500.00"
+            },
+            "intake_verification_status": "pending_no_application_options",
+            "academic_year_basis": "No fee academic year is assigned without a verified intake.",
+            "verification_reason": "The online route and £5,500 per-level schedule are confirmed, but no current application intake is published in the capture. Applicable intake/year tuition remains unavailable.",
+            "scholarship_status": "programme_scope_and_intake_unconfirmed",
+            "scholarship_review": {
+              "reason": "Do not apply Business Management or Psychology awards merely because both subjects appear in this joint degree. An applicable published scope and intake are required.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_level",
+                  "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "4",
+                      "label": "Level 4"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Level 5"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Level 6"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_review": {
+              "reason": "Campus pre-CAS deposit policy does not apply to this online route. Online payment requirements require separate confirmation.",
+              "eligibility_questions": []
+            },
+            "fee_note": "Published schedule £5,500 per level; intake applicability unverified. Historical stored tuition is retained and must not be displayed as a verified current quote."
+          }
+        }
+      }
+    }
+  ],
+  "scholarship_rules_changed": false,
+  "deposit_policies_changed": false,
+  "note": "No new scholarship deduction is verified by this evidence. Canonical top-up rules continue calculating eligible deductions. HRM intake and award scope remain pending.",
+  "changed_records": 2,
+  "applied_records": 2,
+  "status": "applied"
+}

@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-10-20T23:03:51.903489+00:00",
+  "university_id": "UK002",
+  "academic_year": "2027/28",
+  "mode": "preview",
+  "source_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\20261020T013657080411Z\\source-review.json",
+  "course_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\next-batch-20261020T224401153888Z\\next-course-evidence.json",
+  "proposals": [
+    {
+      "course_id": "C_ABE002_01",
+      "action": "create_tuition",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Business and Management (Top-up)",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aber.ac.uk",
+          "level": "TOPUP",
+          "ucas_cao_code": ""
+        },
+        "tuition": null,
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Business and Management (Top-up)",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/N12T-business-topup/",
+          "level": "TOPUP",
+          "ucas_cao_code": "N12T"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Business and Management (Top-up)",
+          "source_course_code": "N12T",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/N12T-business-topup/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "footnote_marker": "",
+                "annotation": "First study-year tuition.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      },
+      "new_tuition_defaults": {
+        "residency": "INTL",
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "tuition_deposit": null
+      }
+    },
+    {
+      "course_id": "C_UK002_23",
+      "action": "update",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MBA Master of Business Administration",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aber.ac.uk",
+          "level": "PG",
+          "ucas_cao_code": ""
+        },
+        "tuition": {
+          "tuition_fee": "21930.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MBA Master of Business Administration",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/business-administration/",
+          "level": "PG",
+          "ucas_cao_code": ""
+        },
+        "tuition": {
+          "tuition_fee": "23310.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Business Administration",
+          "source_course_code": "N1834",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "MBA",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/business-administration/",
+            "annual_tuition": "23310.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "23310.00",
+                "raw_annual_fee": "£23,310.00",
+                "footnote_marker": "",
+                "annotation": "First study-year tuition.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_45",
+      "action": "update",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MBA in Global Supply Chain Management",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2026,
+          "course_url": "www.aber.ac.uk",
+          "level": "PG",
+          "ucas_cao_code": ""
+        },
+        "tuition": {
+          "tuition_fee": "21930.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "MBA in Global Supply Chain Management",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/global-management/",
+          "level": "PG",
+          "ucas_cao_code": ""
+        },
+        "tuition": {
+          "tuition_fee": "23310.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Global Supply Chain Management",
+          "source_course_code": "N1837",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "MBA",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/global-management/",
+            "annual_tuition": "23310.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "23310.00",
+                "raw_annual_fee": "£23,310.00",
+                "footnote_marker": "",
+                "annotation": "First study-year tuition.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_54",
+      "action": "update",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Computer Science and Mathematics",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2026,
+          "course_url": "www.aber.ac.uk",
+          "level": "UG",
+          "ucas_cao_code": ""
+        },
+        "tuition": {
+          "tuition_fee": "21875.00",
+          "currency": "GBP"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Computer Science and Mathematics",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-mathematics-degree/",
+          "level": "UG",
+          "ucas_cao_code": "GG14"
+        },
+        "tuition": {
+          "tuition_fee": "23255.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Computer Science / Mathematics",
+          "source_course_code": "GG14",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Sciences",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-mathematics-degree/",
+            "annual_tuition": "23255.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "scholarship_status": "pending_separate_reconciliation",
+            "deposit_status": "offer_letter_amount_required",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "23255.00",
+                "raw_annual_fee": "£23,255.00",
+                "footnote_marker": "",
+                "annotation": "First study-year tuition.",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "blocked": [],
+  "held_candidates": [
+    {
+      "course_id": "C_UK002_60",
+      "reason": "Law with Criminology versus Law and Criminology: route equivalence unconfirmed."
+    }
+  ]
+}

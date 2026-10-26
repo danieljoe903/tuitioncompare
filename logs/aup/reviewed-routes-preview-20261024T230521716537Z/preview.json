@@ -1,0 +1,2015 @@
+{
+  "university_id": "UK006",
+  "database_changes": false,
+  "mappings_applied": false,
+  "proposals": [
+    {
+      "course_id": "C_UK006_01",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_01",
+        "university_id": "UK006",
+        "subject_id": 59,
+        "title": "BA (Hons) Fine Art",
+        "level": "UG",
+        "overview": "Studio-centered course encouraging experimental practice across installation, sculpture, and digital media.",
+        "modules": "Studio Practice, Contemporary Theory, Professional Engagement",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.361Z",
+        "updated_at": "2026-03-28T18:14:48.361Z"
+      },
+      "before_international_tuition": {
+        "id": 5537,
+        "course_id": "C_UK006_01",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Fine Art",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fine-art",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "W101"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fine-art"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "W101"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fine-art",
+      "course_source_sha256": "20a2fc69f64d1740123816442e530a40445e8c0bd4976783a72e81162bde61fa",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_02",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_02",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "BA (Hons) Game Arts & Animation",
+        "level": "UG",
+        "overview": "Equips students with technical skills in 2D/3D animation, character design, and engine art.",
+        "modules": "Concept Art, 3D Modelling, Character Animation, World Building",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.387Z",
+        "updated_at": "2026-03-28T18:14:48.387Z"
+      },
+      "before_international_tuition": {
+        "id": 5539,
+        "course_id": "C_UK006_02",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Game Arts & Animation",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-game-arts-animation",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "W61M"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-game-arts-animation"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "W61M"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-game-arts-animation",
+      "course_source_sha256": "bdfd23e5b959e5def1e7c2f6dd4632e69d5118876df428f5aa6ac47a978ff425",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_03",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_03",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "BA (Hons) Illustration",
+        "level": "UG",
+        "overview": "Focused on narrative storytelling and personal visual language for commercial and editorial use.",
+        "modules": "Narrative Drawing, Digital Tools, Visual Research, Professional Portfolio",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.414Z",
+        "updated_at": "2026-03-28T18:14:48.414Z"
+      },
+      "before_international_tuition": {
+        "id": 5541,
+        "course_id": "C_UK006_03",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Illustration",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-illustration",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "W220"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-illustration"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "W220"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-illustration",
+      "course_source_sha256": "a7dee67afa9aeb63282998e75465bbaf1d9e8ea68fcf2f561156aa4f1cafd71e",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_04",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_04",
+        "university_id": "UK006",
+        "subject_id": 66,
+        "title": "BA (Hons) Graphic Design",
+        "level": "UG",
+        "overview": "Explores visual communication through typography, branding, and sustainable design thinking.",
+        "modules": "Typography, Brand Identity, Motion Graphics, Design Strategy",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.439Z",
+        "updated_at": "2026-03-28T18:14:48.439Z"
+      },
+      "before_international_tuition": {
+        "id": 5543,
+        "course_id": "C_UK006_04",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Graphic Design",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-graphic-design",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "W214"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-graphic-design"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "W214"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-graphic-design",
+      "course_source_sha256": "a8cb446a03e8737d0c12533055efdc09be9b61c14ee80dab3838dc948e821421",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_05",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_05",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "BA (Hons) Fashion Design",
+        "level": "UG",
+        "overview": "Practical study of garment construction, tailoring, and conceptual fashion design.",
+        "modules": "Pattern Cutting, Garment Construction, Tailoring, Fashion Research",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.465Z",
+        "updated_at": "2026-03-28T18:14:48.465Z"
+      },
+      "before_international_tuition": {
+        "id": 5545,
+        "course_id": "C_UK006_05",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Fashion Design",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-design",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "W290"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-design"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "W290"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-design",
+      "course_source_sha256": "0d0c1a828673426ac6f8cd4a7a2d0a3917cc604546674a08a9b4308e153b20fb",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_06",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_06",
+        "university_id": "UK006",
+        "subject_id": 57,
+        "title": "BA (Hons) Film & Screen Arts",
+        "level": "UG",
+        "overview": "Collaborative filmmaking focusing on cinematography, directing, and experimental screen art.",
+        "modules": "Cinematography, Post-Production, Directing, Screen Theory",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.492Z",
+        "updated_at": "2026-03-28T18:14:48.492Z"
+      },
+      "before_international_tuition": {
+        "id": 5547,
+        "course_id": "C_UK006_06",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Film & Screen Arts",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-film-screen-arts",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "W692"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-film-screen-arts"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "W692"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-film-screen-arts",
+      "course_source_sha256": "2b1942831dcf81b979844bd51846988e40d6f9f93062f867bb01e24cbe8643b0",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_07",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_07",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "BA (Hons) Photography",
+        "level": "UG",
+        "overview": "Broad photography degree covering documentary, editorial, and commercial practice.",
+        "modules": "Studio Lighting, Digital Workflow, Visual Literacy, Darkroom Practice",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.519Z",
+        "updated_at": "2026-03-28T18:14:48.519Z"
+      },
+      "before_international_tuition": {
+        "id": 5549,
+        "course_id": "C_UK006_07",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Photography",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-photography",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "W645"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-photography"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "W645"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-photography",
+      "course_source_sha256": "92973b7fe217eaa35062ec7db790f79b41b809a7c85a701414b9f7c5aeea7338",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_08",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_08",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "BA (Hons) Textile Design",
+        "level": "UG",
+        "overview": "Focuses on material innovation through print, knit, and weave for fashion and interiors.",
+        "modules": "Print Processes, Weave and Knit, Material Science, Trend Analysis",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.542Z",
+        "updated_at": "2026-03-28T18:14:48.542Z"
+      },
+      "before_international_tuition": {
+        "id": 5551,
+        "course_id": "C_UK006_08",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Textile Design",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-textile-design",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "WYC2"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-textile-design"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "WYC2"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-textile-design",
+      "course_source_sha256": "6c6fbf3055ec69ec620f22ecea29b64a35e2def75b44547bd2691fd24e5edd4c",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_09",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_09",
+        "university_id": "UK006",
+        "subject_id": 41,
+        "title": "BA (Hons) Costume Production",
+        "level": "UG",
+        "overview": "Specialized training in the design and construction of costume for stage and screen.",
+        "modules": "Historical Construction, Millinery, On-set Practice, Costume Design",
+        "entry_requirements": "UCAS 104-120; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.568Z",
+        "updated_at": "2026-03-28T18:14:48.568Z"
+      },
+      "before_international_tuition": {
+        "id": 5553,
+        "course_id": "C_UK006_09",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Costume Production",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-costume-production",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "PW34"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-costume-production"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "PW34"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-costume-production",
+      "course_source_sha256": "78790e4dab6c10b9b8d4ef68e628debaa6b3208f1a3fe7e3d63155b479591b2c",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_10",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_10",
+        "university_id": "UK006",
+        "subject_id": 41,
+        "title": "BA (Hons) Interior Design & Styling",
+        "level": "UG",
+        "overview": "Creative reimagining of interior spaces with a focus on sustainable residential and commercial design.",
+        "modules": "Spatial Design, CAD, Materiality, Styling and Curation",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.596Z",
+        "updated_at": "2026-03-28T18:14:48.596Z"
+      },
+      "before_international_tuition": {
+        "id": 5555,
+        "course_id": "C_UK006_10",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Interior Design & Styling",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-interior-design",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "5LWB"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-interior-design"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "5LWB"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-interior-design",
+      "course_source_sha256": "13b313d42f7c2a425d10294d985531bb0f35e308c975b85b01c8ef9210d7239b",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_11",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_11",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "BA (Hons) Content Creation",
+        "level": "UG",
+        "overview": "New for 2026; focuses on digital storytelling, influencer marketing, and social media production.",
+        "modules": "Social Media Strategy, Video Editing, Digital Branding, Analytics",
+        "entry_requirements": "UCAS 104-120; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.622Z",
+        "updated_at": "2026-03-28T18:14:48.622Z"
+      },
+      "before_international_tuition": {
+        "id": 5557,
+        "course_id": "C_UK006_11",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Content Creation",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-content-creation",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "CW20"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-content-creation"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "CW20"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-content-creation",
+      "course_source_sha256": "30365167ee585e23bbdfc25140b2004630b2a64aa8a393cdadf7cdc6a792bbf7",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": true,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_12",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_12",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "BA (Hons) Craft & Material Practices",
+        "level": "UG",
+        "overview": "Interdisciplinary approach to ceramics, glass, metal, and wood with a focus on making.",
+        "modules": "Material Investigation, Studio Skills, Contemporary Craft Theory",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.649Z",
+        "updated_at": "2026-03-28T18:14:48.649Z"
+      },
+      "before_international_tuition": {
+        "id": 5559,
+        "course_id": "C_UK006_12",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Craft & Material Practices",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-craft-material-practices",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "67T2"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-craft-material-practices"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "67T2"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-craft-material-practices",
+      "course_source_sha256": "a40f461f8e576289da77f8fd42d2ee3a29b6d11f10d49241c3eff8c7b06b4710",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_13",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_13",
+        "university_id": "UK006",
+        "subject_id": 84,
+        "title": "BA (Hons) Fashion Media & Marketing",
+        "level": "UG",
+        "overview": "Bridging fashion creative skills with business strategy and digital marketing.",
+        "modules": "Digital Marketing, Fashion Journalism, Branding, Consumer Behaviour",
+        "entry_requirements": "UCAS 104-120; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.674Z",
+        "updated_at": "2026-03-28T18:14:48.674Z"
+      },
+      "before_international_tuition": {
+        "id": 5561,
+        "course_id": "C_UK006_13",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Fashion Media & Marketing",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-media-marketing",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "NW52"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-media-marketing"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "NW52"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-media-marketing",
+      "course_source_sha256": "5dd4920e02a4c12f4e4f6bc6d765e7854fc425ac78c8ca6de3aa712ae24db9a0",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_14",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "BA (Hons)",
+      "before_course": {
+        "course_id": "C_UK006_14",
+        "university_id": "UK006",
+        "subject_id": 59,
+        "title": "BA (Hons) Painting Drawing & Printmaking",
+        "level": "UG",
+        "overview": "Specialized fine art degree focusing on traditional and contemporary flat-surface media.",
+        "modules": "Technical Skills, Drawing as Practice, Printmaking, Art History",
+        "entry_requirements": "UCAS 104-120; Portfolio; IELTS 6.0.",
+        "duration": "3 Years",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.702Z",
+        "updated_at": "2026-03-28T18:14:48.702Z"
+      },
+      "before_international_tuition": {
+        "id": 5563,
+        "course_id": "C_UK006_14",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "BA (Hons) Painting, Drawing & Printmaking",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-painting-drawing-printmaking",
+        "duration": "3 Years",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "WWDF"
+      },
+      "course_changes": {
+        "title": {
+          "before": "BA (Hons) Painting Drawing & Printmaking",
+          "after": "BA (Hons) Painting, Drawing & Printmaking"
+        },
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-painting-drawing-printmaking"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "WWDF"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-painting-drawing-printmaking",
+      "course_source_sha256": "2f0c43324896d34408adf44e2a7835d36c16282dd30d5aa33dbe25353ac75cc0",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_15",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "CertHE",
+      "before_course": {
+        "course_id": "C_UK006_15",
+        "university_id": "UK006",
+        "subject_id": 23,
+        "title": "CertHE Business & Management for Creatives",
+        "level": "UG",
+        "overview": "One-year certificate for developing entrepreneurial and management skills in the creative sector.",
+        "modules": "Entrepreneurship, Financial Literacy, Marketing for Artists",
+        "entry_requirements": "UCAS 72; IELTS 6.0.",
+        "duration": "1 Year",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.729Z",
+        "updated_at": "2026-03-28T18:14:48.729Z"
+      },
+      "before_international_tuition": {
+        "id": 5565,
+        "course_id": "C_UK006_15",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "CertHE Business & Management for Creatives",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/cert-he-business-management-creatives",
+        "duration": "1 Year",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "BY67"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/cert-he-business-management-creatives"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "BY67"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "17500.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/cert-he-business-management-creatives",
+      "course_source_sha256": "eaca8ec877f205c377e4cdd8a37aaaff5321b6695f331e7a6df69512ef853efe",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/courses/undergraduate/cert-he-business-management-creatives",
+      "intake_evidence": "Official exact-course 2027 UCAS application link",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_16",
+      "classification": "reviewed_fee_proposal",
+      "level": "UG",
+      "qualification": "CertHE",
+      "before_course": {
+        "course_id": "C_UK006_16",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "CertHE Ceramics & Glass",
+        "level": "UG",
+        "overview": "Focused one-year program for building foundational skills in kiln-based arts.",
+        "modules": "Clay Work, Glass Blowing, Technical Safety, Studio Design",
+        "entry_requirements": "UCAS 72; IELTS 6.0.",
+        "duration": "1 Year",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.758Z",
+        "updated_at": "2026-03-28T18:14:48.758Z"
+      },
+      "before_international_tuition": {
+        "id": 5567,
+        "course_id": "C_UK006_16",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "CertHE Ceramics & Glass",
+        "course_url": "https://www.aup.ac.uk/courses/undergraduate/cert-he-ceramics-glass",
+        "duration": "1 Year",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September",
+        "ucas_cao_code": "G67W"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/undergraduate/cert-he-ceramics-glass"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        },
+        "ucas_cao_code": {
+          "before": "",
+          "after": "G67W"
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "17500.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/undergraduate/cert-he-ceramics-glass",
+      "course_source_sha256": "d6e3d6b00ca9f9e276e99cb6262681a130572a5e07fcd3e578c8c677e4f4d034",
+      "fee_source_url": "https://www.aup.ac.uk/study/undergraduate/fees-financing-and-funding",
+      "fee_source_sha256": "01f44d3f85aed9cec3e0eb7e680292b7c4cbafc3d827408032d5143c34598604",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/courses/undergraduate/cert-he-ceramics-glass",
+      "intake_evidence": "Official exact-course 2027 UCAS application link",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_17",
+      "classification": "reviewed_fee_proposal",
+      "level": "PG",
+      "qualification": "MA",
+      "before_course": {
+        "course_id": "C_UK006_17",
+        "university_id": "UK006",
+        "subject_id": 59,
+        "title": "MA Fine Art",
+        "level": "PG",
+        "overview": "Research-intensive master's degree for developing a high-level personal studio practice.",
+        "modules": "Advanced Studio, Critical Theory, Professional Engagement, Thesis",
+        "entry_requirements": "2.1 Honours; Portfolio; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.786Z",
+        "updated_at": "2026-03-28T18:14:48.786Z"
+      },
+      "before_international_tuition": {
+        "id": 5569,
+        "course_id": "C_UK006_17",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "MA Fine Art",
+        "course_url": "https://www.aup.ac.uk/courses/postgraduate/ma-fine-art",
+        "duration": "1 Year",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/postgraduate/ma-fine-art"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-fine-art",
+      "course_source_sha256": "d952012cf21c3472287d025e8089064f2b020f3dc40002403d8a72b33834daa4",
+      "fee_source_url": "https://www.aup.ac.uk/study/postgraduate/fees-finance-funding",
+      "fee_source_sha256": "5715cebec5c276203a6ae3aa1d6f1d657ef989b125d1bd9bcc015c661c5c8828",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_19",
+      "classification": "reviewed_fee_proposal",
+      "level": "PG",
+      "qualification": "MA",
+      "before_course": {
+        "course_id": "C_UK006_19",
+        "university_id": "UK006",
+        "subject_id": 41,
+        "title": "MA Design (Fashion)",
+        "level": "PG",
+        "overview": "Advanced study of fashion through the lens of sustainability and technical innovation.",
+        "modules": "Innovation Strategy, Sustainable Production, Fashion Research",
+        "entry_requirements": "2.2 Honours; Portfolio; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.843Z",
+        "updated_at": "2026-03-28T18:14:48.843Z"
+      },
+      "before_international_tuition": {
+        "id": 5573,
+        "course_id": "C_UK006_19",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "MA Design (Fashion)",
+        "course_url": "https://www.aup.ac.uk/courses/postgraduate/ma-design-fashion",
+        "duration": "1 Year",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/postgraduate/ma-design-fashion"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-design-fashion",
+      "course_source_sha256": "9fc0930e25a0375734de1915a16174800b3de5142e652524ab7541f320d1997e",
+      "fee_source_url": "https://www.aup.ac.uk/study/postgraduate/fees-finance-funding",
+      "fee_source_sha256": "5715cebec5c276203a6ae3aa1d6f1d657ef989b125d1bd9bcc015c661c5c8828",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_20",
+      "classification": "reviewed_fee_proposal",
+      "level": "PG",
+      "qualification": "MA",
+      "before_course": {
+        "course_id": "C_UK006_20",
+        "university_id": "UK006",
+        "subject_id": 41,
+        "title": "MA Design (Communication)",
+        "level": "PG",
+        "overview": "Strategic focus on visual communication and information design at a master's level.",
+        "modules": "Design Strategy, Brand Development, Visual Research",
+        "entry_requirements": "2.2 Honours; Portfolio; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.864Z",
+        "updated_at": "2026-03-28T18:14:48.864Z"
+      },
+      "before_international_tuition": {
+        "id": 5575,
+        "course_id": "C_UK006_20",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "MA Design (Communication)",
+        "course_url": "https://www.aup.ac.uk/courses/postgraduate/ma-design-communication",
+        "duration": "1 Year",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/postgraduate/ma-design-communication"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-design-communication",
+      "course_source_sha256": "f31b0cf1c11b998168e4be149cfac8b5e447d4173880d5a8080546ada346098c",
+      "fee_source_url": "https://www.aup.ac.uk/study/postgraduate/fees-finance-funding",
+      "fee_source_sha256": "5715cebec5c276203a6ae3aa1d6f1d657ef989b125d1bd9bcc015c661c5c8828",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_21",
+      "classification": "reviewed_fee_proposal",
+      "level": "PG",
+      "qualification": "MA",
+      "before_course": {
+        "course_id": "C_UK006_21",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "MA Craft & Material Practices",
+        "level": "PG",
+        "overview": "Advanced material investigation focusing on the intersection of craft and industry.",
+        "modules": "Advanced Fabrication, Material Science, Research Thesis",
+        "entry_requirements": "2.2 Honours; Portfolio; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.889Z",
+        "updated_at": "2026-03-28T18:14:48.889Z"
+      },
+      "before_international_tuition": {
+        "id": 5577,
+        "course_id": "C_UK006_21",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "MA Craft & Material Practices",
+        "course_url": "https://www.aup.ac.uk/courses/postgraduate/ma-3d-design-crafts",
+        "duration": "1 Year",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/postgraduate/ma-3d-design-crafts"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-3d-design-crafts",
+      "course_source_sha256": "219cd3bec7c016b8e046ff3e93587491f324aa2d1f820ca00ddbf5c39377b5ce",
+      "fee_source_url": "https://www.aup.ac.uk/study/postgraduate/fees-finance-funding",
+      "fee_source_sha256": "5715cebec5c276203a6ae3aa1d6f1d657ef989b125d1bd9bcc015c661c5c8828",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_22",
+      "classification": "reviewed_fee_proposal",
+      "level": "PG",
+      "qualification": "MA",
+      "before_course": {
+        "course_id": "C_UK006_22",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "MA Museum Studies",
+        "level": "PG",
+        "overview": "Prepares students for roles in curation, conservation, and heritage management.",
+        "modules": "Curatorial Practice, Archive Theory, Public Engagement",
+        "entry_requirements": "2.2 Honours; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.918Z",
+        "updated_at": "2026-03-28T18:14:48.918Z"
+      },
+      "before_international_tuition": {
+        "id": 5579,
+        "course_id": "C_UK006_22",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "MA Museum Studies",
+        "course_url": "https://www.aup.ac.uk/courses/postgraduate/ma-museum-studies",
+        "duration": "1 Year",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/postgraduate/ma-museum-studies"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-museum-studies",
+      "course_source_sha256": "2f47775f5eff72ae3764595c58e8522f96bd0f073efb407e38092f20adea3f02",
+      "fee_source_url": "https://www.aup.ac.uk/study/postgraduate/fees-finance-funding",
+      "fee_source_sha256": "5715cebec5c276203a6ae3aa1d6f1d657ef989b125d1bd9bcc015c661c5c8828",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_23",
+      "classification": "reviewed_fee_proposal",
+      "level": "PG",
+      "qualification": "MA",
+      "before_course": {
+        "course_id": "C_UK006_23",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "MA Immersive Media",
+        "level": "PG",
+        "overview": "Explores VR, AR, and interactive storytelling for digital creative industries.",
+        "modules": "Interactive Design, VR Production, Narrative Structures",
+        "entry_requirements": "2.2 Honours; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:48.944Z",
+        "updated_at": "2026-03-28T18:14:48.944Z"
+      },
+      "before_international_tuition": {
+        "id": 5581,
+        "course_id": "C_UK006_23",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "MA Immersive Media",
+        "course_url": "https://www.aup.ac.uk/courses/postgraduate/ma-immersive-media",
+        "duration": "1 Year",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/postgraduate/ma-immersive-media"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-immersive-media",
+      "course_source_sha256": "60e86d26e0615453a923f8a5896ed62e311502240eb1c07ea50bc5a6c754b6a4",
+      "fee_source_url": "https://www.aup.ac.uk/study/postgraduate/fees-finance-funding",
+      "fee_source_sha256": "5715cebec5c276203a6ae3aa1d6f1d657ef989b125d1bd9bcc015c661c5c8828",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    },
+    {
+      "course_id": "C_UK006_25",
+      "classification": "reviewed_fee_proposal",
+      "level": "PG",
+      "qualification": "MA",
+      "before_course": {
+        "course_id": "C_UK006_25",
+        "university_id": "UK006",
+        "subject_id": null,
+        "title": "MA Glass",
+        "level": "PG",
+        "overview": "Specialized postgraduate study for artists working with hot and cold glass techniques.",
+        "modules": "Glass Production, Technical Innovation, Visual Research",
+        "entry_requirements": "2.2 Honours; Portfolio; IELTS 6.5.",
+        "duration": "1 Year",
+        "location": "Plymouth Campus",
+        "start_year": 2026,
+        "start_month": "September",
+        "is_active": true,
+        "ucas_cao_code": "",
+        "work_placement": false,
+        "intake_months": "September",
+        "course_url": "www.aup.ac.uk",
+        "created_at": "2026-03-28T18:14:49.001Z",
+        "updated_at": "2026-03-28T18:14:49.001Z"
+      },
+      "before_international_tuition": {
+        "id": 5585,
+        "course_id": "C_UK006_25",
+        "residency": "INTL",
+        "tuition_fee": "17500.0",
+        "scholarship": "2000.0",
+        "tuition_deposit": "2000",
+        "currency": "GBP",
+        "scholarship_source_id": null
+      },
+      "proposed_course": {
+        "title": "MA Glass",
+        "course_url": "https://www.aup.ac.uk/courses/postgraduate/ma-glass",
+        "duration": "1 Year",
+        "start_year": 2027,
+        "start_month": "September",
+        "intake_months": "September"
+      },
+      "course_changes": {
+        "course_url": {
+          "before": "www.aup.ac.uk",
+          "after": "https://www.aup.ac.uk/courses/postgraduate/ma-glass"
+        },
+        "start_year": {
+          "before": 2026,
+          "after": 2027
+        }
+      },
+      "tuition_fee_before": "17500.0",
+      "tuition_fee": "18000.00",
+      "currency": "GBP",
+      "academic_year": "2027/28",
+      "fee_basis": "annual_tuition",
+      "course_source_url": "https://www.aup.ac.uk/courses/postgraduate/ma-glass",
+      "course_source_sha256": "625c31093ed433f70015acd4764c940ffb450f9357fb493d9ada2e5578379b94",
+      "fee_source_url": "https://www.aup.ac.uk/study/postgraduate/fees-finance-funding",
+      "fee_source_sha256": "5715cebec5c276203a6ae3aa1d6f1d657ef989b125d1bd9bcc015c661c5c8828",
+      "international_fee_source_sha256": "c87693a16075986321c5a1e0105b7b91b0ff1fd55b6021f194a3709b9efda825",
+      "intake_source_url": "https://www.aup.ac.uk/apply",
+      "intake_evidence": "Exact advertised course plus AUP September 2027 BA/MA application cycle",
+      "subject_to_validation": false,
+      "scholarship_review": {
+        "status": "cohort_applicability_pending",
+        "reason": "Competitive awards page gives 25 February 2026 deadline, not a verified 2027 award cycle. No automatic maximum deduction. PG Alumni 15% eligibility/combination terms need separate confirmation.",
+        "questions_location": "scholarship_page"
+      },
+      "deposit_review": {
+        "status": "published_policy_candidate",
+        "amount": "2000.00",
+        "currency": "GBP",
+        "payment_stage": "before_cas",
+        "requires_student_visa": true,
+        "source_url": "https://www.aup.ac.uk/international/finance",
+        "note": "General current policy on page containing 2027/28 fees. Save a conditional scoped policy only in a reviewed import; remaining tuition payable in full at enrolment. Do not add deposit to tuition."
+      }
+    }
+  ],
+  "blocked": [],
+  "pending": [
+    {
+      "course_id": "C_AUP006_01",
+      "reason": "A standard Graphic Design BA and general advanced-entry guidance do not confirm the stored separate top-up route."
+    },
+    {
+      "course_id": "C_UK006_18",
+      "reason": "No exact current MA Drawing route/intake established; do not replace with BA Painting, Drawing & Printmaking or MA Fine Art automatically."
+    },
+    {
+      "course_id": "C_UK006_24",
+      "reason": "No exact current MA Painting route/intake established; a related Fine Art practice is not an accepted replacement."
+    }
+  ],
+  "legacy_scholarship_review": [
+    {
+      "scholarship_id": 94,
+      "name": "Creative Academic Merit Scholarship",
+      "source_url": "https://www.uca.ac.uk/study-at-uca/scholarships/",
+      "reason": "Stored scholarship URL is outside AUP; verify university ownership, cohort and actual terms before any deduction."
+    }
+  ],
+  "summary": {
+    "verified_fee_proposals": 23,
+    "blocked": 0,
+    "pending_route_cases": 3,
+    "automatic_scholarship_deductions": 0,
+    "deposit_policy_candidates": 1
+  },
+  "generated_at": "2026-10-24T23:05:23.307111+00:00",
+  "evidence_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aup\\source-review-20261024T225757846853Z\\source-review.json",
+  "application_capture": {
+    "source_url": "https://www.aup.ac.uk/apply",
+    "file": "application.html",
+    "sha256": "24831d5a196beba45185476103a8d29a325d3b60d57e3bf0f8e5bfd7259f19e2",
+    "text": "Arts University Plymouth Logo Skip to Content Our Courses Open Days Apply Now Menu Apply Now Our Courses Open Days Chevron Down About Us Chevron Down Study Chevron Down International Chevron Down Student Life Alumni Chevron Down Visit Resources Chevron Down Research & Innovation Prospectus Latest News What's On Established 1856 Student Login Staff Login Contact Us Apply Now Your creative future starts here Last updated October 2026 Places are available on our courses, from fashion, film and fine art to graphic design, photography and animation. Study at an award-winning, specialist arts university Ready to apply to one of our creative courses? Scroll down to begin making an application and kick-start your career in the creative industries. From UCAS codes to portfolio guidance, accommodation to funding - you’ll find quick links to everything you need on this page. If you’re interested in creative study we have options available to start in September 2027 on our Undergraduate BA (Hons) degrees , our four-year Integrated Foundation , our Postgraduate Masters Degrees and our range of Pre-Degree study options. We offer something for everyone looking to further their artistic practice, and our team are on hand to help find the course that’s right for you. Please read our Admissions Policy ( below ) to find out more, or to make an application please email admissions@aup.ac.uk , call +44 (0)1752 203402 or WhatsApp us on 07722744184 . Ranked 6th in the UK for Student Satisfaction Our students have ranked us 6th in the UK for student satisfaction in the Complete University Guide 2027 . Image: Student work by Eloise Bull, BA (Hons) Fashion Design Arrow Right Arts University of the Year 2027 Arts University Plymouth has been named Arts University of the Year in the Daily Mail University Guide 2027. Arrow Right Choose your course How to apply Undergraduate - BA (Hons) Degrees & Integrated Foundation If you’re over 18 years and looking to study a BA degree, you can apply to one of our undergraduate courses. We offer a range of highly-specialised degrees in art, design, craft and media, providing students with access to state-of-the-art facilities and industry expertise. Follow our step-by-step guide below to begin making your application. Note our UCAS Codes — To apply through UCAS you’ll need our institution code P65 and the relevant course code - which is available on each course page. Login to UCAS Apply — You can apply to all of our undergraduate courses through UCAS. Click here to login and if you need any support you can call our Admissions team on +44 (0)1752 203400 . UCAS charge a fee of £34.50 to make a multiple choice application. For the 2027 cycle, if you have been in receipt of free school meals at some point during the last six years (during your secondary education) up until the end of your final year, you will be eligible to have your application fee waived if you're applying for a UCAS Undergraduate course . The deadline for applications for beginning your studies in September 2027 is 6pm on Wednesday 13 January 2027. We advise applicants to not wait until this date to submit your application if it is already complete. From 2 July, you can apply to begin your studies that following September using Clearing , if you’re not already holding an offer from a university or college, and the course still has places. You can view entry requirements for each degree on our course pages and consult the UCAS Tariff Table . We recognise the value of a variety of qualifications and relevant experience and welcome applications from students who have followed less traditional routes. Arrange a visit or register for our next Open Event . Portfolio Submission If your application meets our entry requirements, we’ll invite you to submit your portfolio, so that we can review your work and find out more about your creative potential. You will have the opportunity to submit your portfolio digitally, or in person at one of our Applicant Experience Days. At an Applicant Experience Day, you'll also get the chance to discuss your portfolio with a member of our academic team. Open Days & Campus Visits You can also come along to one of our Open Days or Campus Experience events to gain personalised advice from our student finance team, meet with current staff and students and get hands-on in our specialist studios and workshops. Campus Tours If you can’t make it to one of our event dates or would prefer a visit without the crowds, we’re more than happy to arrange a convenient time for you to tour our facilities. To arrange a date and time that works for you, please email liaison@aup.ac.uk or call +44 (0)1752 203434. University Fairs Our Outreach team will be available at virtual and in-person university fairs, including UCAS, across the country this year - we can't wait to meet you and discuss your future. How to Create a Portfolio pdf 262kb Download Foundation Diploma You can apply at any time during the year. However, we receive a high number of applications and have a limited number of places for this course, so we recommend that you make your application as early as possible. Our application form asks for details of your previous qualifications and any relevant work experience, as well as a short personal statement where you can tell us about yourself and your interests. At this point, we will invite you for an interview. As part of our admissions process, you’ll have the opportunity to tell us about any learning difficulties or disabilities you may have so we can offer you appropriate support. The Foundation Diploma in Art & Design requires a full Level 3 qualification and GCSEs, including English and Maths. All offers are subject to interview and a portfolio or showreel of creative work that reflects your commitment, enthusiasm and passion for art, design and media. Download our handy guide for help in preparing your portfolio. We also welcome applications from students who may not have the required application profile but have alternative experience and knowledge. How to Create a Portfolio pdf 262kb Download Pre-degree - Extended Diplomas For our range of post-GCSE study options, you can apply online through the Arts University Plymouth website by selecting your chosen course within the Pre-Degree course listings and clicking the ‘Apply Online’ option on the right-hand side of the page. As part of the pre-degree application process, we invite students to an Applicant Day, which we hold approximately once a month throughout the year at our Pre-Degree and Sixth Form campus, Palace Court. This is a chance for you to come and experience our unique learning environment, as well as discussing your options with our tutors. Applications can be made at any time during the year. We normally offer places to students who have a minimum of four GCSEs (minimum grade 4), including English, preferably with one in a creative subject. Other variations on this entry profile may be considered, for example students with non-traditional backgrounds, particular learning needs or exceptional circumstances that have affected their ability to achieve a grade C or minimum grade 4 in English. Once we receive your application, we will invite you to book an appointment at the next available Applicant Day. Applicant Days are an opportunity for us to learn about you, your creative potential and why you are interested in studying with us. You can tell us about any learning difficulties or disabilities you may have so we can offer you the appropriate support. It is also a good moment for you to find out what we offer and gain an understanding of the studio experience. How to Create a Portfolio pdf 262kb Download Postgraduate As an MA student at Arts University Plymouth you will join our Postgraduate Centre, an active, cross-disciplinary community of makers and thinkers. Entry Requirements and how to apply for an MA MA applicants are normally expected to have an undergraduate degree at 2:2 or above. However, the strength of your creative practice and other forms of experience will be taken into account at the interview stage and we encourage you to start a conversation with us. You can apply for the postgraduate course you are interested in studying by clicking on the Apply Now link situated on the left-hand side of each specific course listing - see our range of MA programmes on our Postgraduate programme course pages . As part of the application, you will be asked to give the usual application details, to provide some digital images of your work, and to submit a short personal statement (300 words approximately). This personal statement is a chance to tell us what you want to do on your chosen MA. It might include details of the techniques or themes that you want to investigate, the creative practitioners that inspire you, the reading that fires your imagination, and your longer term professional goals. It’s fine to change your mind later on about what you intend to do – we understand that a creative process rarely runs in straight lines. However, the personal statement is important because it helps us to begin a dialogue about how we can best support your flourishing as a distinctive, individual voice. If you meet the entrance requirements, we will get back to you within three weeks of receiving your application to invite you for interview. You will have the opportunity to tell us more about your work at this stage and to ask more questions about your course. More information on the Postgraduate Centre can be found here , and you can also visit us at a Postgraduate Open Evening to learn more. Alumni Progression Award Arts University Plymouth graduates are offered a discount of 15% on Masters programme fees, regardless of when they studied with us previously. The discount applies if you studied on one of our pre-degree, foundation or undergraduate programmes. How to Create a Portfolio pdf 262kb Download Chat to our students Find out about life at our independent arts university from the people who know us best - our students. View our Courses From BA (Hons) and MA degrees, to post-16 Extended Diplomas — find your future in creative education. Arrow Right Unibuddy Community Connect with other applicants, and current students at Arts University Plymouth with Unibuddy Community Arrow Right Admissions Policy Our Admissions Policy can be downloaded as a PDF below, or click here to access a Google docs version . If you would like to request an alternative format to any of the information provided or gain personalised advice on making an application, please get in touch. Email admissions@aup.ac.uk Call +44 (0)1752 203402 WhatsApp us on 07722744184 Arts University Plymouth Admissions Policy for HE entry in AY 2026 27 pdf 543kb Download View Entry Requirements We typically ask for 104 - 120 UCAS points , but also consider more than just formal qualifications. Arrow Right RANKED 1ST IN THE SOUTH WEST FOR FACILITIES & STUDENT SUPPORT WINNER: Arts University Plymouth ranked 1st for Facilities and Student Support at the WUSCAS 2026 Arrow Right Terms & Conditions Our Terms & Conditions for Higher Education students – which set out the basis of the agreement between us when you accept a place with us – can be downloaded here as a google doc or below as a PDF. These documents make reference to our Academic Regulations and our Code of Conduct for students. If you require copies of any of the documentation referenced within the Regulations or an alternative format of the information provided, please contact our Registry department on registry@aup.ac.uk . Arts University Plymouth Terms and Conditions for HE students for academic year 2026 27 pdf 318kb Download Arts University Plymouth Academic Regulations 2026 27 pdf 1mb Download Our Students Say... Alanah Evans At Arts University Plymouth we have a massive creative community. Any class you go into you are surrounded by creativity and inspiration. Everyone is willing to lend a hand and help you work through your creative process, it really is an amazing community to be a part of. Read more Bia Muhammad Arts University Plymouth has always seemed like a big family to me. As an international student, everything was very alien in the beginning, leaving me overwhelmed quite often. However, it didn't take long for me to realise how kind and accepting everyone is. I found out that it was super easy making friends here because it seems like everyone knows everyone and we all love collaborating. This especially helped my art grow as I expanded my limited perspective. Read more Megan Blackwell I studied an Extended Diploma in Fashion & Textiles at Arts University Plymouth for two years after school and I loved their way of teaching. During my Pre-Degree study I had access to the facilities on the main university campus, so knew what they had to offer. Although I looked around at other universities, I knew Arts University Plymouth was the best option for me. The curriculum covers everything you need to know to be able to enter the industry confidently and the support from the lecturers throughout all three years has been amazing, which you don't get in big universities with larger class sizes. Read more Leon Tyler Arts University Plymouth gave me the opportunity to spend my days studying art, improving my skills, and honing my thinking for the creative industries. I was surrounded by extremely inspiring people, and being able to bounce concepts around and share skills was an essential part of my learning. I soon came to realise that being an artist really is a viable career path. Read more Amelia Webster Arts University Plymouth was a fantastic place to study, with incredible tutors and facilities. The course was exactly what I needed at the time and gave me a great foundation to build on. Read more Tim Nguyen Having access to high-spec PCs similar to ones you get in the industry is undoubtedly the most useful piece of tech I had in the studios at Arts University Plymouth. I never felt restricted by anything technical, creatively I could feel free to do what I wanted and it also meant that the transition from Arts University Plymouth into the games industry was just a little bit more seamless. Being exposed to so much new software, such as zBrush and Marmoset, feeds your curiosity and desire for what it’s really like to be in the industry and that gave me the hunger to push myself. Read more Bernie Schaeffer I look back at my time at Arts University Plymouth very fondly. It taught me that if you want to make it, you need to pursue your goals. From day one there was a strong focus on teaching practical skills alongside analytical theory work. This helps you understand and express yourself in a chosen medium. There was also a real sense of collaboration, something that has gone on to affect how I work professionally. Read more Peter Jupp Arts University Plymouth is such an inspiring and collaborative environment to study in. The university brings together talent from all kinds of creative backgrounds. This was especially relevant for working within interactive design - I love combining lots of disciplines: film, photography, coding, sound, animation, storytelling and graphic design. At Arts University Plymouth I was lucky enough to be immersed in and influenced by all of this, supported by the experience and knowledge of the staff. Read more Zowie Broach Being at Arts University Plymouth allowed me to be myself. It ran a series of ideas through my system and asked me to question them. I learned so much in my time there, but it’s only in retrospect that I realise how powerful that Foundation year really was for me. It gave me a freedom that no other course has given me. It was a truly experimental existence for one year. Read more Stefani Nurding I feel like the biggest achievement of my time studying at Arts University Plymouth was the final fashion show at the end, because everyone just came together and made it happen. That was a really good feeling being part of the team. One really good thing that I got from Arts University Plymouth is just to keep trying, trying, trying and then it will eventually work. Read more Henry South The university was great, and it had a vibrant, creative atmosphere that allowed me to find out what I was good at, but more importantly what avenue of art I wanted to pursue. Discovering 3D modelling at the university opened the door to films, games and mediums that I had never given any thought to. Leaving after the Foundation Diploma and the BA degree, I was set to walk into my Masters in animation in Vancouver. Read more India-May Baker I chose this university because it felt so accessible. I have autism and ADHD and the smaller campus was better for me. I also wanted to choose a uni that was pure art and design. I love the idea that literally anyone you pass in the corridors could be a potential collaborator. There's always someone making something cool and you can almost feel the creative energy pinging around. It becomes inspiring and encourages you to go and create more cool stuff. Read more Caitlin Evans I am from Wales and did some scouring before I chose which university to go to. Arts University Plymouth’s facilities and opportunities looked amazing and after having my interview and talking to Course Leader Cathryn Bishop it confirmed my decision as the correct one. I have had the most amazing three years at Arts University Plymouth and wouldn’t change anything about it. The staff are so supportive. Read more Kiki Fraikue The creative community at Arts University Plymouth is great. Everyone is super welcoming and more than happy to collaborate on different projects. I've found that you can really learn from everyone in the community. They aren't afraid to ask questions or give you advice on how to improve your work. Personally I have learnt more than I could have imagined from my peers and their feedback and encouragement has benefited me and my work greatly. Read more Book an Open Day Book a place on one of our upcoming Open Days Arrow Right Get help with your application Join our friendly team on an informal virtual meeting, every Monday at 3pm, to get help with your application. Arrow Right Arts University Plymouth Whatsapp Contact us on Whatsapp Say hello Email us Online chat Chat Now Study About Us International Visit Alumni Research & Innovation Contact Us Strategic Plan 2030 Industry Collaboration Disclaimer Governance and Charitable Status Reports, Policies & Legal Working Here Strategic Leadership & Management Cookie Declaration Arts University Plymouth Tavistock Place Plymouth, PL4 8AT Devon, England +44 (0)1752 203434 General enquiries enquiries@aup.ac.uk Press and media enquiries press@aup.ac.uk Facebook facebook.com/artsuniplym Instagram @artsuniplym TikTok @/@artsuniplym YouTube youtube.com/c/ArtsUniversityPlymouth LinkedIn linkedin.com/school/artsuniplym Proudly Supporting Awards, Rankings & Memberships All content on this site © Arts University Plymouth 2026"
+  }
+}

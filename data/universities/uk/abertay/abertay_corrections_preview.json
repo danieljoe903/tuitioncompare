@@ -1,0 +1,112 @@
+{
+  "database_changes": false,
+  "academic_year": "2026/27",
+  "proposals": [
+    {
+      "course_id": "C_UK001_10",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/mental-health-nursing/",
+      "ucas_code": "B760",
+      "before": {
+        "title": "BSc (Hons) Mental Health Nursing",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk"
+      },
+      "proposed": {
+        "title": "BSc (Hons) Mental Health Nursing",
+        "duration": "3 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/mental-health-nursing/"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4721,
+          "residency": "INTL",
+          "tuition_fee": "15500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4722,
+          "residency": "EU",
+          "tuition_fee": "15500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": true
+    },
+    {
+      "course_id": "C_UK001_79",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/game-design-and-production/",
+      "ucas_code": "G452",
+      "before": {
+        "title": "BSc (Hons) Game Design and Production",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk"
+      },
+      "proposed": {
+        "title": "BA (Hons) Game Design and Production",
+        "duration": "4 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/game-design-and-production/"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4859,
+          "residency": "INTL",
+          "tuition_fee": "16500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4860,
+          "residency": "EU",
+          "tuition_fee": "16500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": true
+    },
+    {
+      "course_id": "C_UK001_44",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-management/",
+      "ucas_code": "CN62",
+      "before": {
+        "title": "BSc (Hons) Sport and Management",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk"
+      },
+      "proposed": {
+        "title": "BA (Hons) Sport & Management",
+        "duration": "4 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-management/"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4789,
+          "residency": "INTL",
+          "tuition_fee": "15500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4790,
+          "residency": "EU",
+          "tuition_fee": "15500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": true
+    }
+  ],
+  "blocked": []
+}

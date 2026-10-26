@@ -1,0 +1,1393 @@
+{
+  "project_root": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main",
+  "mode": "compatibility",
+  "commands": {
+    "audit_aru_handoff": {
+      "group": "aru",
+      "action": "audit_handoff",
+      "module": "app.scraping.uk.aru.commands.audit_aru_handoff"
+    },
+    "correct_abertay_courses": {
+      "group": "abertay",
+      "action": "correct_courses",
+      "module": "app.scraping.uk.abertay.commands.correct_abertay_courses"
+    },
+    "correct_aberystwyth_mphil_routes": {
+      "group": "aberystwyth",
+      "action": "correct_mphil_routes",
+      "module": "app.scraping.uk.aberystwyth.commands.correct_aberystwyth_mphil_routes"
+    },
+    "correct_aberystwyth_remaining_courses": {
+      "group": "aberystwyth",
+      "action": "correct_remaining_courses",
+      "module": "app.scraping.uk.aberystwyth.commands.correct_aberystwyth_remaining_courses"
+    },
+    "extend_abertay_scholarship_scope": {
+      "group": "abertay",
+      "action": "extend_scholarship_scope",
+      "module": "app.scraping.uk.abertay.commands.extend_abertay_scholarship_scope"
+    },
+    "extend_aru_corrected_undergraduate_awards": {
+      "group": "aru",
+      "action": "extend_corrected_undergraduate_awards",
+      "module": "app.scraping.uk.aru.commands.extend_aru_corrected_undergraduate_awards"
+    },
+    "extend_aru_embedded_postgraduate_awards": {
+      "group": "aru",
+      "action": "extend_embedded_postgraduate_awards",
+      "module": "app.scraping.uk.aru.commands.extend_aru_embedded_postgraduate_awards"
+    },
+    "import_abertay_fees": {
+      "group": "abertay",
+      "action": "import_fees",
+      "module": "app.scraping.uk.abertay.commands.import_abertay_fees"
+    },
+    "import_abertay_remaining_fees": {
+      "group": "abertay",
+      "action": "import_remaining_fees",
+      "module": "app.scraping.uk.abertay.commands.import_abertay_remaining_fees"
+    },
+    "import_aberystwyth_batch_three": {
+      "group": "aberystwyth",
+      "action": "import_batch_three",
+      "module": "app.scraping.uk.aberystwyth.commands.import_aberystwyth_batch_three"
+    },
+    "import_aberystwyth_batch_two": {
+      "group": "aberystwyth",
+      "action": "import_batch_two",
+      "module": "app.scraping.uk.aberystwyth.commands.import_aberystwyth_batch_two"
+    },
+    "import_aberystwyth_behaviour_change_fee": {
+      "group": "aberystwyth",
+      "action": "import_behaviour_change_fee",
+      "module": "app.scraping.uk.aberystwyth.commands.import_aberystwyth_behaviour_change_fee"
+    },
+    "import_aberystwyth_corrected_fees": {
+      "group": "aberystwyth",
+      "action": "import_corrected_fees",
+      "module": "app.scraping.uk.aberystwyth.commands.import_aberystwyth_corrected_fees"
+    },
+    "import_aberystwyth_fees": {
+      "group": "aberystwyth",
+      "action": "import_fees",
+      "module": "app.scraping.uk.aberystwyth.commands.import_aberystwyth_fees"
+    },
+    "import_aberystwyth_mphil_fees": {
+      "group": "aberystwyth",
+      "action": "import_mphil_fees",
+      "module": "app.scraping.uk.aberystwyth.commands.import_aberystwyth_mphil_fees"
+    },
+    "import_aberystwyth_placement_fee": {
+      "group": "aberystwyth",
+      "action": "import_placement_fee",
+      "module": "app.scraping.uk.aberystwyth.commands.import_aberystwyth_placement_fee"
+    },
+    "import_aberystwyth_remaining_reviewed": {
+      "group": "aberystwyth",
+      "action": "import_remaining_reviewed",
+      "module": "app.scraping.uk.aberystwyth.commands.import_aberystwyth_remaining_reviewed"
+    },
+    "import_aberystwyth_research_fees": {
+      "group": "aberystwyth",
+      "action": "import_research_fees",
+      "module": "app.scraping.uk.aberystwyth.commands.import_aberystwyth_research_fees"
+    },
+    "import_aberystwyth_welsh_education_fees": {
+      "group": "aberystwyth",
+      "action": "import_welsh_education_fees",
+      "module": "app.scraping.uk.aberystwyth.commands.import_aberystwyth_welsh_education_fees"
+    },
+    "import_aru_confirmed_campus_fees": {
+      "group": "aru",
+      "action": "import_confirmed_campus_fees",
+      "module": "app.scraping.uk.aru.commands.import_aru_confirmed_campus_fees"
+    },
+    "import_aru_corrected_undergraduate_fees": {
+      "group": "aru",
+      "action": "import_corrected_undergraduate_fees",
+      "module": "app.scraping.uk.aru.commands.import_aru_corrected_undergraduate_fees"
+    },
+    "import_aru_embedded_postgraduate_fees": {
+      "group": "aru",
+      "action": "import_embedded_postgraduate_fees",
+      "module": "app.scraping.uk.aru.commands.import_aru_embedded_postgraduate_fees"
+    },
+    "import_aru_postgraduate_fees": {
+      "group": "aru",
+      "action": "import_postgraduate_fees",
+      "module": "app.scraping.uk.aru.commands.import_aru_postgraduate_fees"
+    },
+    "import_aru_undergraduate_fees": {
+      "group": "aru",
+      "action": "import_undergraduate_fees",
+      "module": "app.scraping.uk.aru.commands.import_aru_undergraduate_fees"
+    },
+    "inspect_aberystwyth_courses": {
+      "group": "aberystwyth",
+      "action": "inspect_courses",
+      "module": "app.scraping.uk.aberystwyth.commands.inspect_aberystwyth_courses"
+    },
+    "inspect_aberystwyth_next_batch": {
+      "group": "aberystwyth",
+      "action": "inspect_next_batch",
+      "module": "app.scraping.uk.aberystwyth.commands.inspect_aberystwyth_next_batch"
+    },
+    "inspect_aberystwyth_remaining": {
+      "group": "aberystwyth",
+      "action": "inspect_remaining",
+      "module": "app.scraping.uk.aberystwyth.commands.inspect_aberystwyth_remaining"
+    },
+    "inspect_aberystwyth_sources": {
+      "group": "aberystwyth",
+      "action": "inspect_sources",
+      "module": "app.scraping.uk.aberystwyth.commands.inspect_aberystwyth_sources"
+    },
+    "inspect_arden_sources": {
+      "group": "arden",
+      "action": "inspect_sources",
+      "module": "app.scraping.uk.arden.commands.inspect_arden_sources"
+    },
+    "inspect_aru_campus_intakes": {
+      "group": "aru",
+      "action": "inspect_campus_intakes",
+      "module": "app.scraping.uk.aru.commands.inspect_aru_campus_intakes"
+    },
+    "inspect_aru_courses": {
+      "group": "aru",
+      "action": "inspect_courses",
+      "module": "app.scraping.uk.aru.commands.inspect_aru_courses"
+    },
+    "inspect_aru_four_unidentified": {
+      "group": "aru",
+      "action": "inspect_four_unidentified",
+      "module": "app.scraping.uk.aru.commands.inspect_aru_four_unidentified"
+    },
+    "inspect_aru_remaining_17": {
+      "group": "aru",
+      "action": "inspect_remaining_17",
+      "module": "app.scraping.uk.aru.commands.inspect_aru_remaining_17"
+    },
+    "inspect_aru_remaining_evidence": {
+      "group": "aru",
+      "action": "inspect_remaining_evidence",
+      "module": "app.scraping.uk.aru.commands.inspect_aru_remaining_evidence"
+    },
+    "inspect_aru_sources": {
+      "group": "aru",
+      "action": "inspect_sources",
+      "module": "app.scraping.uk.aru.commands.inspect_aru_sources"
+    },
+    "preview_abertay_remaining": {
+      "group": "abertay",
+      "action": "preview_remaining",
+      "module": "app.scraping.uk.abertay.commands.preview_abertay_remaining"
+    },
+    "preview_aberystwyth_matches": {
+      "group": "aberystwyth",
+      "action": "preview_matches",
+      "module": "app.scraping.uk.aberystwyth.commands.preview_aberystwyth_matches"
+    },
+    "preview_aru_business_psychology_fees": {
+      "group": "aru",
+      "action": "preview_business_psychology_fees",
+      "module": "app.scraping.uk.aru.commands.preview_aru_business_psychology_fees"
+    },
+    "preview_aru_computing_replacement": {
+      "group": "aru",
+      "action": "preview_computing_replacement",
+      "module": "app.scraping.uk.aru.commands.preview_aru_computing_replacement"
+    },
+    "preview_aru_games_health_routes": {
+      "group": "aru",
+      "action": "preview_games_health_routes",
+      "module": "app.scraping.uk.aru.commands.preview_aru_games_health_routes"
+    },
+    "preview_aru_land_engineering_routes": {
+      "group": "aru",
+      "action": "preview_land_engineering_routes",
+      "module": "app.scraping.uk.aru.commands.preview_aru_land_engineering_routes"
+    },
+    "preview_aru_london_research_fees": {
+      "group": "aru",
+      "action": "preview_london_research_fees",
+      "module": "app.scraping.uk.aru.commands.preview_aru_london_research_fees"
+    },
+    "preview_aru_politics_replacement": {
+      "group": "aru",
+      "action": "preview_politics_replacement",
+      "module": "app.scraping.uk.aru.commands.preview_aru_politics_replacement"
+    },
+    "preview_aru_specialist_routes": {
+      "group": "aru",
+      "action": "preview_specialist_routes",
+      "module": "app.scraping.uk.aru.commands.preview_aru_specialist_routes"
+    },
+    "preview_aru_three_routes": {
+      "group": "aru",
+      "action": "preview_three_routes",
+      "module": "app.scraping.uk.aru.commands.preview_aru_three_routes"
+    },
+    "reconcile_abertay_course_records": {
+      "group": "abertay",
+      "action": "reconcile_course_records",
+      "module": "app.scraping.uk.abertay.commands.reconcile_abertay_course_records"
+    },
+    "reconcile_abertay_early_2026_fees": {
+      "group": "abertay",
+      "action": "reconcile_early_2026_fees",
+      "module": "app.scraping.uk.abertay.commands.reconcile_abertay_early_2026_fees"
+    },
+    "reconcile_abertay_example": {
+      "group": "abertay",
+      "action": "reconcile_example",
+      "module": "app.scraping.uk.abertay.commands.reconcile_abertay_example"
+    },
+    "reconcile_abertay_research_batch": {
+      "group": "abertay",
+      "action": "reconcile_research_batch",
+      "module": "app.scraping.uk.abertay.commands.reconcile_abertay_research_batch"
+    },
+    "reconcile_abertay_scholarships": {
+      "group": "abertay",
+      "action": "reconcile_scholarships",
+      "module": "app.scraping.uk.abertay.commands.reconcile_abertay_scholarships"
+    },
+    "reconcile_aberystwyth_agrifood_route": {
+      "group": "aberystwyth",
+      "action": "reconcile_agrifood_route",
+      "module": "app.scraping.uk.aberystwyth.commands.reconcile_aberystwyth_agrifood_route"
+    },
+    "reconcile_aberystwyth_awards": {
+      "group": "aberystwyth",
+      "action": "reconcile_awards",
+      "module": "app.scraping.uk.aberystwyth.commands.reconcile_aberystwyth_awards"
+    },
+    "reconcile_aberystwyth_batch_three_awards": {
+      "group": "aberystwyth",
+      "action": "reconcile_batch_three_awards",
+      "module": "app.scraping.uk.aberystwyth.commands.reconcile_aberystwyth_batch_three_awards"
+    },
+    "reconcile_aberystwyth_behaviour_change_award": {
+      "group": "aberystwyth",
+      "action": "reconcile_behaviour_change_award",
+      "module": "app.scraping.uk.aberystwyth.commands.reconcile_aberystwyth_behaviour_change_award"
+    },
+    "reconcile_aberystwyth_corrected_awards": {
+      "group": "aberystwyth",
+      "action": "reconcile_corrected_awards",
+      "module": "app.scraping.uk.aberystwyth.commands.reconcile_aberystwyth_corrected_awards"
+    },
+    "reconcile_aberystwyth_law_award": {
+      "group": "aberystwyth",
+      "action": "reconcile_law_award",
+      "module": "app.scraping.uk.aberystwyth.commands.reconcile_aberystwyth_law_award"
+    },
+    "reconcile_aberystwyth_law_creative_arts": {
+      "group": "aberystwyth",
+      "action": "reconcile_law_creative_arts",
+      "module": "app.scraping.uk.aberystwyth.commands.reconcile_aberystwyth_law_creative_arts"
+    },
+    "reconcile_aberystwyth_research_awards": {
+      "group": "aberystwyth",
+      "action": "reconcile_research_awards",
+      "module": "app.scraping.uk.aberystwyth.commands.reconcile_aberystwyth_research_awards"
+    },
+    "reconcile_aberystwyth_six_courses": {
+      "group": "aberystwyth",
+      "action": "reconcile_six_courses",
+      "module": "app.scraping.uk.aberystwyth.commands.reconcile_aberystwyth_six_courses"
+    },
+    "reconcile_aberystwyth_welsh_education_awards": {
+      "group": "aberystwyth",
+      "action": "reconcile_welsh_education_awards",
+      "module": "app.scraping.uk.aberystwyth.commands.reconcile_aberystwyth_welsh_education_awards"
+    },
+    "reconcile_aru_advanced_london_awards": {
+      "group": "aru",
+      "action": "reconcile_advanced_london_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_advanced_london_awards"
+    },
+    "reconcile_aru_business_psychology_awards": {
+      "group": "aru",
+      "action": "reconcile_business_psychology_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_business_psychology_awards"
+    },
+    "reconcile_aru_computing_awards": {
+      "group": "aru",
+      "action": "reconcile_computing_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_computing_awards"
+    },
+    "reconcile_aru_computing_nursing_horticulture": {
+      "group": "aru",
+      "action": "reconcile_computing_nursing_horticulture",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_computing_nursing_horticulture"
+    },
+    "reconcile_aru_games_health_awards": {
+      "group": "aru",
+      "action": "reconcile_games_health_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_games_health_awards"
+    },
+    "reconcile_aru_january_2027_routes": {
+      "group": "aru",
+      "action": "reconcile_january_2027_routes",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_january_2027_routes"
+    },
+    "reconcile_aru_land_engineering_awards": {
+      "group": "aru",
+      "action": "reconcile_land_engineering_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_land_engineering_awards"
+    },
+    "reconcile_aru_london_research_awards": {
+      "group": "aru",
+      "action": "reconcile_london_research_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_london_research_awards"
+    },
+    "reconcile_aru_nursing_mba_restriction": {
+      "group": "aru",
+      "action": "reconcile_nursing_mba_restriction",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_nursing_mba_restriction"
+    },
+    "reconcile_aru_politics_awards": {
+      "group": "aru",
+      "action": "reconcile_politics_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_politics_awards"
+    },
+    "reconcile_aru_postgraduate_awards": {
+      "group": "aru",
+      "action": "reconcile_postgraduate_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_postgraduate_awards"
+    },
+    "reconcile_aru_psychology_distance_awards": {
+      "group": "aru",
+      "action": "reconcile_psychology_distance_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_psychology_distance_awards"
+    },
+    "reconcile_aru_psychology_distance_routes": {
+      "group": "aru",
+      "action": "reconcile_psychology_distance_routes",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_psychology_distance_routes"
+    },
+    "reconcile_aru_review_batch_one": {
+      "group": "aru",
+      "action": "reconcile_review_batch_one",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_review_batch_one"
+    },
+    "reconcile_aru_review_batch_two": {
+      "group": "aru",
+      "action": "reconcile_review_batch_two",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_review_batch_two"
+    },
+    "reconcile_aru_route_batch": {
+      "group": "aru",
+      "action": "reconcile_route_batch",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_route_batch"
+    },
+    "reconcile_aru_specialist_awards": {
+      "group": "aru",
+      "action": "reconcile_specialist_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_specialist_awards"
+    },
+    "reconcile_aru_three_research_routes": {
+      "group": "aru",
+      "action": "reconcile_three_research_routes",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_three_research_routes"
+    },
+    "reconcile_aru_undergraduate_awards": {
+      "group": "aru",
+      "action": "reconcile_undergraduate_awards",
+      "module": "app.scraping.uk.aru.commands.reconcile_aru_undergraduate_awards"
+    },
+    "replace_aberystwyth_astrophysics": {
+      "group": "aberystwyth",
+      "action": "replace_astrophysics",
+      "module": "app.scraping.uk.aberystwyth.commands.replace_aberystwyth_astrophysics"
+    },
+    "review_aberystwyth_unresolved": {
+      "group": "aberystwyth",
+      "action": "review_unresolved",
+      "module": "app.scraping.uk.aberystwyth.commands.review_aberystwyth_unresolved"
+    },
+    "review_aru_remaining_15": {
+      "group": "aru",
+      "action": "review_remaining_15",
+      "module": "app.scraping.uk.aru.commands.review_aru_remaining_15"
+    },
+    "scrape_abertay": {
+      "group": "abertay",
+      "action": "scrape",
+      "module": "app.scraping.uk.abertay.commands.scrape_abertay"
+    },
+    "scrape_abertay_deposits": {
+      "group": "abertay",
+      "action": "scrape_deposits",
+      "module": "app.scraping.uk.abertay.commands.scrape_abertay_deposits"
+    },
+    "scrape_abertay_scholarships": {
+      "group": "abertay",
+      "action": "scrape_scholarships",
+      "module": "app.scraping.uk.abertay.commands.scrape_abertay_scholarships"
+    },
+    "scrape_tcd": {
+      "group": "tcd",
+      "action": "scrape",
+      "module": "app.scraping.ireland.tcd.commands.scrape_tcd"
+    },
+    "scrape_tcd_fees": {
+      "group": "tcd",
+      "action": "scrape_fees",
+      "module": "app.scraping.ireland.tcd.commands.scrape_tcd_fees"
+    }
+  },
+  "files": [
+    {
+      "path": "app/scraping/uk/aru/commands/audit_aru_handoff.py",
+      "before_sha256": null,
+      "after_sha256": "31ee3e52022a512420d42bb3ed67fa38d459cac734dd646ddd3a7197de7bdecc"
+    },
+    {
+      "path": "app/management/commands/audit_aru_handoff.py",
+      "before_sha256": "31ee3e52022a512420d42bb3ed67fa38d459cac734dd646ddd3a7197de7bdecc",
+      "after_sha256": "bd4cfc1e12209faeb9b854af07ba5258dadf71dc660f3a097140b2b00f32cac2"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/correct_abertay_courses.py",
+      "before_sha256": null,
+      "after_sha256": "e051bff6086c55f1b9b38c32da7122ca742fd6312f62572516626cd234919358"
+    },
+    {
+      "path": "app/management/commands/correct_abertay_courses.py",
+      "before_sha256": "e051bff6086c55f1b9b38c32da7122ca742fd6312f62572516626cd234919358",
+      "after_sha256": "c6f766122fae075ad67f3fcccc9abe29c43e129e3bae84d4622749444baf96d5"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/correct_aberystwyth_mphil_routes.py",
+      "before_sha256": null,
+      "after_sha256": "1bba0cab683feb4e4742be04b4f6bc3ec53c8ce4913a37aa4fed27e81f8d45fe"
+    },
+    {
+      "path": "app/management/commands/correct_aberystwyth_mphil_routes.py",
+      "before_sha256": "571263fdbb319971b2339545c5491dc88609ad9fbf323f8e5da9218e0247ba6a",
+      "after_sha256": "338bd72ea8917c3901c99a73caa31b87657b2b338735b8fbe2c6d10d4112c152"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/correct_aberystwyth_remaining_courses.py",
+      "before_sha256": null,
+      "after_sha256": "e9c1dac107ac881bcd6c17907f6f2fcc14ef8fd2c0fc502d5e6bc5407fb96d73"
+    },
+    {
+      "path": "app/management/commands/correct_aberystwyth_remaining_courses.py",
+      "before_sha256": "178759bc3b385706ffb7968e50d4f4069685ca7efc8f2452e7d4ebbd73e182e0",
+      "after_sha256": "058cf21158c8cc9fbc2515491b6d0e7d73d0956cc2f34c854307452ab3bf2ea8"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/extend_abertay_scholarship_scope.py",
+      "before_sha256": null,
+      "after_sha256": "4be209d62f2298701329765cc41bac506ddb856be95312146bb2db6841c2cfd1"
+    },
+    {
+      "path": "app/management/commands/extend_abertay_scholarship_scope.py",
+      "before_sha256": "4be209d62f2298701329765cc41bac506ddb856be95312146bb2db6841c2cfd1",
+      "after_sha256": "aff20519e71d1e72578df1f312e77bc27a8ec5599b33bec0702050700ed68ed5"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/extend_aru_corrected_undergraduate_awards.py",
+      "before_sha256": null,
+      "after_sha256": "fa37dc8cb0cead488f940d71876a0a19fc0a9182e9106bd398c025341df82fa8"
+    },
+    {
+      "path": "app/management/commands/extend_aru_corrected_undergraduate_awards.py",
+      "before_sha256": "388f9238fb5f82c25d80ca36eab73efa307d1662a02db2055108442c9f88d87e",
+      "after_sha256": "9b2e0dfed13b9d7d026b79148a7d42fcbbdc485daf13dedd792862fa521d7d47"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/extend_aru_embedded_postgraduate_awards.py",
+      "before_sha256": null,
+      "after_sha256": "47aa386a1583730c11af7cc84725714cf9894b14e21a3a90a77d6ba057f9248e"
+    },
+    {
+      "path": "app/management/commands/extend_aru_embedded_postgraduate_awards.py",
+      "before_sha256": "2e6138756a62986eea26b3639de6691b83f1b8bc81a09db12dfdef7d5152c5a9",
+      "after_sha256": "5461b30cb61ee8771d85903f629797c097484d1977b88a1ee15e03436bcc1f2d"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/import_abertay_fees.py",
+      "before_sha256": null,
+      "after_sha256": "f5b3a77b7be4d5488bc4d9b0521dc2f0403d0c8411bafa344b31080b1f572b5e"
+    },
+    {
+      "path": "app/management/commands/import_abertay_fees.py",
+      "before_sha256": "f5b3a77b7be4d5488bc4d9b0521dc2f0403d0c8411bafa344b31080b1f572b5e",
+      "after_sha256": "aeb6ca229ef36bed5a51835efdf7f61bb15f8aa126a88419f800d2942573cdcf"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/import_abertay_remaining_fees.py",
+      "before_sha256": null,
+      "after_sha256": "bd1e3656c432391b869e9b0c7b70e61e0f5ea5703920451ea199487b0ba18ab6"
+    },
+    {
+      "path": "app/management/commands/import_abertay_remaining_fees.py",
+      "before_sha256": "bd1e3656c432391b869e9b0c7b70e61e0f5ea5703920451ea199487b0ba18ab6",
+      "after_sha256": "5f003ecbf399bb15a1296c718ac4b2f04546b1eff4b38c5ab664dbb1918bd831"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/import_aberystwyth_batch_three.py",
+      "before_sha256": null,
+      "after_sha256": "79711079ec138c132f220ee6fce387105b5504d3eabbe596c80d11b7bed6a1e6"
+    },
+    {
+      "path": "app/management/commands/import_aberystwyth_batch_three.py",
+      "before_sha256": "9287df03da5fa7699d24c83aec029bebda9c278f6a5ac097b47d58c7c80fb9d8",
+      "after_sha256": "f3d10ff7bd0b28abceb7a972d7f8f600f04422f4ec31e951da07a97c92dc5621"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/import_aberystwyth_batch_two.py",
+      "before_sha256": null,
+      "after_sha256": "c71eb86d9dc2f7e882b730271941118c4c86314faf6c85d137bc2c1ef6b1c92f"
+    },
+    {
+      "path": "app/management/commands/import_aberystwyth_batch_two.py",
+      "before_sha256": "90e001d77fdb8a8f55b84d7cf8d8834fba6b1b4c7d81806f7cdb2165f8b3288c",
+      "after_sha256": "cb1974a75982be247635f025c152f62de751405c1f3ac5970d6095338536de93"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/import_aberystwyth_behaviour_change_fee.py",
+      "before_sha256": null,
+      "after_sha256": "c424430b1849ddcbc9f7d98c3e434baf74a5bc558407f66aa784afa6c67e4429"
+    },
+    {
+      "path": "app/management/commands/import_aberystwyth_behaviour_change_fee.py",
+      "before_sha256": "c424430b1849ddcbc9f7d98c3e434baf74a5bc558407f66aa784afa6c67e4429",
+      "after_sha256": "b8b9a0135909c46108ee296eae13dea0bbbb87e32dcd04b24c15f7ce40a6e265"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/import_aberystwyth_corrected_fees.py",
+      "before_sha256": null,
+      "after_sha256": "af5695e179a2fc36fcd26d76954ed693b37f410bc80155cea7b529d2c2193cb4"
+    },
+    {
+      "path": "app/management/commands/import_aberystwyth_corrected_fees.py",
+      "before_sha256": "fab999e20bec3a17598206989c8c155a3c55743b7b4279bb581999312f0df412",
+      "after_sha256": "c293105926e79285fdb246040f0500587c04d5e3825d3dac7587b2427d6f110c"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/import_aberystwyth_fees.py",
+      "before_sha256": null,
+      "after_sha256": "ada79243b576fa48b6fb4808dbd6b39dfa668698c1ffb2812d87d8f85da64c85"
+    },
+    {
+      "path": "app/management/commands/import_aberystwyth_fees.py",
+      "before_sha256": "ada79243b576fa48b6fb4808dbd6b39dfa668698c1ffb2812d87d8f85da64c85",
+      "after_sha256": "a9c4b6319654b799847af202b3e6f68465369fd70f661fa4f68d59e049f8935d"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/import_aberystwyth_mphil_fees.py",
+      "before_sha256": null,
+      "after_sha256": "f14f9cbaf7420d4c97ebccf16712d8db20ca97ca04be7fb5f331128110a3826b"
+    },
+    {
+      "path": "app/management/commands/import_aberystwyth_mphil_fees.py",
+      "before_sha256": "8247c766677d2fee7221d499397ccad870e1f82392cdc750b4da6b3b0a653f53",
+      "after_sha256": "92a22ebb1596b8abbf131313e6ebd9afd6bbce6eccb46c66712a72253806097f"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/import_aberystwyth_placement_fee.py",
+      "before_sha256": null,
+      "after_sha256": "3960716c1552bf33cd449b87f95c1c99cb0ce160fefb2ccc9f77aa4356990f9e"
+    },
+    {
+      "path": "app/management/commands/import_aberystwyth_placement_fee.py",
+      "before_sha256": "f869e928ea00efcf5c709710b291688003c5efdf6e35bb50d180cab10d64709d",
+      "after_sha256": "953145a659233aee72861344344f8747904cdaec7b673e55f440a347db2605d6"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/import_aberystwyth_remaining_reviewed.py",
+      "before_sha256": null,
+      "after_sha256": "b852a68f3a525b2cf294a0a45f6fc8c0991b86d82981ef1352315871d9a34d9b"
+    },
+    {
+      "path": "app/management/commands/import_aberystwyth_remaining_reviewed.py",
+      "before_sha256": "018225a533204f5c088e725a33c40ae2f3da7523934ca03266b174e627771a67",
+      "after_sha256": "063c0044bd120108f70612c8d0e99b57f6cbf40f2af498ffbc9d431947cf6c95"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/import_aberystwyth_research_fees.py",
+      "before_sha256": null,
+      "after_sha256": "64d9ee2adae48b5a85bf8b1382d73f201b58d8600eadc9896fb2f79b2a23e544"
+    },
+    {
+      "path": "app/management/commands/import_aberystwyth_research_fees.py",
+      "before_sha256": "a972886a737150a306d253536065ad0514d2d44c099f3810e22d90214c4599a4",
+      "after_sha256": "000755a4e033d3acd464c62928363ee01cdfcd8e4143e3bf64dddc217fbe2ba3"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/import_aberystwyth_welsh_education_fees.py",
+      "before_sha256": null,
+      "after_sha256": "abcd811baa4c759645137c0aba32e9894ceac3e84e8c4346e759da108a493977"
+    },
+    {
+      "path": "app/management/commands/import_aberystwyth_welsh_education_fees.py",
+      "before_sha256": "abcd811baa4c759645137c0aba32e9894ceac3e84e8c4346e759da108a493977",
+      "after_sha256": "f6bf40ed2dce5ebb3fe5b648ecb8203c1b442e8326161aba02c97d69d1a06d4f"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/import_aru_confirmed_campus_fees.py",
+      "before_sha256": null,
+      "after_sha256": "559db1ccda034f26db54890e65164f1673f1afe8ed4e8c841de002236f4ed0fe"
+    },
+    {
+      "path": "app/management/commands/import_aru_confirmed_campus_fees.py",
+      "before_sha256": "559db1ccda034f26db54890e65164f1673f1afe8ed4e8c841de002236f4ed0fe",
+      "after_sha256": "84758bb1b20351537d4587abc3154e9584fe21aae5fe515ea03e0fd07abfe116"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/import_aru_corrected_undergraduate_fees.py",
+      "before_sha256": null,
+      "after_sha256": "5752c3f3d5fe0d8ecf147b5d9cac86b87ba7ea27056b5fb450963809e9842a5c"
+    },
+    {
+      "path": "app/management/commands/import_aru_corrected_undergraduate_fees.py",
+      "before_sha256": "5752c3f3d5fe0d8ecf147b5d9cac86b87ba7ea27056b5fb450963809e9842a5c",
+      "after_sha256": "e0220a226e3a07d66d8524b5db92f6bddcdcd618bb8df0f0ac7b2e8c150bb361"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/import_aru_embedded_postgraduate_fees.py",
+      "before_sha256": null,
+      "after_sha256": "3b96152c9acdc9ca5077be4fd96d1b7b7b89f8422e4cf7244995b5aadb5ab2dc"
+    },
+    {
+      "path": "app/management/commands/import_aru_embedded_postgraduate_fees.py",
+      "before_sha256": "3b96152c9acdc9ca5077be4fd96d1b7b7b89f8422e4cf7244995b5aadb5ab2dc",
+      "after_sha256": "60136c6ba28ee088032c57fa7926625d9f5f485ed1e70baeb00240522632f13f"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/import_aru_postgraduate_fees.py",
+      "before_sha256": null,
+      "after_sha256": "38d59fa184f1fb3155703e6d9306fcbe0b42eb13412ae09e701176f7184d68ed"
+    },
+    {
+      "path": "app/management/commands/import_aru_postgraduate_fees.py",
+      "before_sha256": "38d59fa184f1fb3155703e6d9306fcbe0b42eb13412ae09e701176f7184d68ed",
+      "after_sha256": "1c5614aeb394731bb3ee4ef4218cd77ae894f7df4aac977cef6984805ee48150"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/import_aru_undergraduate_fees.py",
+      "before_sha256": null,
+      "after_sha256": "e91bab051029956b9921c38c40fd7305962126de3e9f1c77953eab0aa23951a3"
+    },
+    {
+      "path": "app/management/commands/import_aru_undergraduate_fees.py",
+      "before_sha256": "e91bab051029956b9921c38c40fd7305962126de3e9f1c77953eab0aa23951a3",
+      "after_sha256": "51484b794075bf07c372f8a7f35c0886bf0f06d7d6e4ec82c6d486623886958d"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/inspect_aberystwyth_courses.py",
+      "before_sha256": null,
+      "after_sha256": "5c049243611ae9691b80466bb534749c39ae1a1074e808c148510b55ade54e92"
+    },
+    {
+      "path": "app/management/commands/inspect_aberystwyth_courses.py",
+      "before_sha256": "5c049243611ae9691b80466bb534749c39ae1a1074e808c148510b55ade54e92",
+      "after_sha256": "baabaf2aedf54cc7161ed7ffc7e27bf08f33b94a168ffcce1f13c79036e16641"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/inspect_aberystwyth_next_batch.py",
+      "before_sha256": null,
+      "after_sha256": "e51ccaa6a5748f9c08e213826272e11bca7f78d3973858ea296d992b31339e71"
+    },
+    {
+      "path": "app/management/commands/inspect_aberystwyth_next_batch.py",
+      "before_sha256": "4bd8ffe0b8714787163416a5f1e38d5a4d569cd5c89c7a8150c28f43f8ef2674",
+      "after_sha256": "00d16d4b039eddcbfd2dfa8d9b9001ab841ec40b1976606d83066110b0e52fe8"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/inspect_aberystwyth_remaining.py",
+      "before_sha256": null,
+      "after_sha256": "820eeacf1f357b0ae65ca9b4be9083015ad0debbedfad1e6712bb9fcd4333581"
+    },
+    {
+      "path": "app/management/commands/inspect_aberystwyth_remaining.py",
+      "before_sha256": "f3417140fa048ec4e69fa69b018fe81f8d3731736995ab39fd9ac4435e3452a7",
+      "after_sha256": "dc9ce47789e757a51678f7da0d902eb3a9f964ce533237f769961a405dd08358"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/inspect_aberystwyth_sources.py",
+      "before_sha256": null,
+      "after_sha256": "6a71cadd2130003b7930b5519781cdf28da3a32a76070a9eebdc440cc442807d"
+    },
+    {
+      "path": "app/management/commands/inspect_aberystwyth_sources.py",
+      "before_sha256": "6a71cadd2130003b7930b5519781cdf28da3a32a76070a9eebdc440cc442807d",
+      "after_sha256": "228c3866214c2ab1b23ee8083d09c86714d0f5b8bd7178cdd7a80c7e36a27909"
+    },
+    {
+      "path": "app/scraping/uk/arden/commands/inspect_arden_sources.py",
+      "before_sha256": null,
+      "after_sha256": "2036d55c8958055cf7bb62a3b12c1177e77ba41530533f1da843e6cd2ae1ea3f"
+    },
+    {
+      "path": "app/management/commands/inspect_arden_sources.py",
+      "before_sha256": "2036d55c8958055cf7bb62a3b12c1177e77ba41530533f1da843e6cd2ae1ea3f",
+      "after_sha256": "51dfd47e483ed87eb1704cfec738485fb0677261aa0a4d3479e5054d127ec284"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/inspect_aru_campus_intakes.py",
+      "before_sha256": null,
+      "after_sha256": "4420004555c92830bd797f705def80f57872b4422b72f085b95a8cce3d961726"
+    },
+    {
+      "path": "app/management/commands/inspect_aru_campus_intakes.py",
+      "before_sha256": "4420004555c92830bd797f705def80f57872b4422b72f085b95a8cce3d961726",
+      "after_sha256": "db4947e983d350fa6f3d649a29761f048ca76a4f9245cf7f96e5d5aeeadd3cb6"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/inspect_aru_courses.py",
+      "before_sha256": null,
+      "after_sha256": "54d36578ff783d431bdfcf8d66c74f2c7a3a452a435e2ba835ded351b76f5f2d"
+    },
+    {
+      "path": "app/management/commands/inspect_aru_courses.py",
+      "before_sha256": "c7c6c20de4e90773f99234f795069bc852ce0d112c34b69ef66f2c23892cc35f",
+      "after_sha256": "900478f79fd28ecdbe3ecb20b5e49baf6533aff935777d37c95522a02a4fb354"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/inspect_aru_four_unidentified.py",
+      "before_sha256": null,
+      "after_sha256": "3cf7270c61aef4a8761e81031b9de07bec065ac1323f9a01c09f920208fe1455"
+    },
+    {
+      "path": "app/management/commands/inspect_aru_four_unidentified.py",
+      "before_sha256": "27e7b82a9a6471c4118e1a1113bb076594111c60ad559f004f7f35e782307b39",
+      "after_sha256": "32062c8d33475d82f2c7cb03c14963006a76ac9d61ad7e483e8fd93a0b8942ca"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/inspect_aru_remaining_17.py",
+      "before_sha256": null,
+      "after_sha256": "e926a4d9c9cea9622ce1b22cd5c4ac7a98fe5bf9b4e37feb1538895070a02e4a"
+    },
+    {
+      "path": "app/management/commands/inspect_aru_remaining_17.py",
+      "before_sha256": "e926a4d9c9cea9622ce1b22cd5c4ac7a98fe5bf9b4e37feb1538895070a02e4a",
+      "after_sha256": "3f4d435dae55da250216c741a9ee33ba9277f724ed79ba057f4cdea1c839be4f"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/inspect_aru_remaining_evidence.py",
+      "before_sha256": null,
+      "after_sha256": "28ef8c592126ea3b9edda0b52f2b233107cbfa68a45205fc6c059513881af48f"
+    },
+    {
+      "path": "app/management/commands/inspect_aru_remaining_evidence.py",
+      "before_sha256": "28ef8c592126ea3b9edda0b52f2b233107cbfa68a45205fc6c059513881af48f",
+      "after_sha256": "079badf0803aadb89a5c5b295c1eb8de14597a84073af7b4cb029c4cdaa2250b"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/inspect_aru_sources.py",
+      "before_sha256": null,
+      "after_sha256": "defcf6222b83e947e15a0afb7dec7d1452cfb9fee56c73d458f12248c18e3bc9"
+    },
+    {
+      "path": "app/management/commands/inspect_aru_sources.py",
+      "before_sha256": "defcf6222b83e947e15a0afb7dec7d1452cfb9fee56c73d458f12248c18e3bc9",
+      "after_sha256": "c1df7e18ebe56f07e8b015799e5be1c9f8e015f2f1d9d50d93dd6bfe2b4710aa"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/preview_abertay_remaining.py",
+      "before_sha256": null,
+      "after_sha256": "2d2d6f4ab9af915439f3e6d9d40b4fb25d38b6ee137e751598b902682dc62d75"
+    },
+    {
+      "path": "app/management/commands/preview_abertay_remaining.py",
+      "before_sha256": "2d2d6f4ab9af915439f3e6d9d40b4fb25d38b6ee137e751598b902682dc62d75",
+      "after_sha256": "1883f877c8fc1085c4208ba268929f447f3a09561ebe59e3d9c436e25c9028ae"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/preview_aberystwyth_matches.py",
+      "before_sha256": null,
+      "after_sha256": "731ba5767441a9f73e0b8b87fded6536c783736bcc50bb254839f3489dc0ed58"
+    },
+    {
+      "path": "app/management/commands/preview_aberystwyth_matches.py",
+      "before_sha256": "731ba5767441a9f73e0b8b87fded6536c783736bcc50bb254839f3489dc0ed58",
+      "after_sha256": "3fb17469ee4281f25a0c1b7c72a5a146d230c5fa26fcc887f7af8c1555041c4c"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/preview_aru_business_psychology_fees.py",
+      "before_sha256": null,
+      "after_sha256": "8a7e501e8d93a103f854a999ff4a19f5f6050f6b2ca862732bc832d9f2c58a02"
+    },
+    {
+      "path": "app/management/commands/preview_aru_business_psychology_fees.py",
+      "before_sha256": "8a7e501e8d93a103f854a999ff4a19f5f6050f6b2ca862732bc832d9f2c58a02",
+      "after_sha256": "964e383d8238d88a575ecec5fad0e9c1cc1c61176366d3977ff0cb1dfde58491"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/preview_aru_computing_replacement.py",
+      "before_sha256": null,
+      "after_sha256": "6346cd70a537aa0f743a081fa394908e9e067834959866c969bac8a29cce6a03"
+    },
+    {
+      "path": "app/management/commands/preview_aru_computing_replacement.py",
+      "before_sha256": "6346cd70a537aa0f743a081fa394908e9e067834959866c969bac8a29cce6a03",
+      "after_sha256": "81afee7baf588d98670be8438eb23ec627b27e246950ff3983e91ba145e418ad"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/preview_aru_games_health_routes.py",
+      "before_sha256": null,
+      "after_sha256": "e402cb83ce5cc652e0d7f79de860694cd619d1160e8b2d6cb905769a6e9de535"
+    },
+    {
+      "path": "app/management/commands/preview_aru_games_health_routes.py",
+      "before_sha256": "01e9f957312991bf4d1594178f0524c74dd6326af02cc74d7d524f79e0797e75",
+      "after_sha256": "e3d19a5ae0f792d5123827ca84ce33f30052cd2c270425e962e65bf4d4e8efdc"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/preview_aru_land_engineering_routes.py",
+      "before_sha256": null,
+      "after_sha256": "7186cf797713b0ab2f933be98d95b806e7d23734649bb8d3e9a9743bc68cbc29"
+    },
+    {
+      "path": "app/management/commands/preview_aru_land_engineering_routes.py",
+      "before_sha256": "ba65022bd9cfc6d52837875adb8c97d89449d118b60e93f89c84f1c2c2ed1542",
+      "after_sha256": "126104c3a75146c907505e26de085d150ae4a2c6252484dbb2b9228938918ddc"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/preview_aru_london_research_fees.py",
+      "before_sha256": null,
+      "after_sha256": "e9539b300a26e4bc7d0dd85a45b414cd04e5a6c977d0a39bf3fc6418f4f2098a"
+    },
+    {
+      "path": "app/management/commands/preview_aru_london_research_fees.py",
+      "before_sha256": "e9539b300a26e4bc7d0dd85a45b414cd04e5a6c977d0a39bf3fc6418f4f2098a",
+      "after_sha256": "add527e2363758f303cfab8beb2aeb92989a1653c0a38697264029fc0223a5f7"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/preview_aru_politics_replacement.py",
+      "before_sha256": null,
+      "after_sha256": "75bc4abef2ae255f0c787ac9575341934ac3f5ffd13abc3dcdf1ea5c4169dc38"
+    },
+    {
+      "path": "app/management/commands/preview_aru_politics_replacement.py",
+      "before_sha256": "75bc4abef2ae255f0c787ac9575341934ac3f5ffd13abc3dcdf1ea5c4169dc38",
+      "after_sha256": "e9962e15073005846383489feb7b5f5fe4afbb8ff59fdef42f775472d7d25dc6"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/preview_aru_specialist_routes.py",
+      "before_sha256": null,
+      "after_sha256": "2e0d7949192a82e1500f48d51863e4150578691623034639a2747fbd368cf612"
+    },
+    {
+      "path": "app/management/commands/preview_aru_specialist_routes.py",
+      "before_sha256": "2e0d7949192a82e1500f48d51863e4150578691623034639a2747fbd368cf612",
+      "after_sha256": "6e73d4008945d51024a0fd61e6ae7840dafc636f5ab3b93e5e18ed397fb20085"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/preview_aru_three_routes.py",
+      "before_sha256": null,
+      "after_sha256": "26663626ec8971d5d563beccb7917845618a6451850f0ba5b6d425ddb31a31db"
+    },
+    {
+      "path": "app/management/commands/preview_aru_three_routes.py",
+      "before_sha256": "26663626ec8971d5d563beccb7917845618a6451850f0ba5b6d425ddb31a31db",
+      "after_sha256": "2bcbbd94b9d6ad7323bd70bc193df9d926dd9ef01067321db07fc2af94c599a9"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/reconcile_abertay_course_records.py",
+      "before_sha256": null,
+      "after_sha256": "4221f18e9079f3f6818e4a2e155ecb2d045284a431cfa17623f270adc9a7ce1e"
+    },
+    {
+      "path": "app/management/commands/reconcile_abertay_course_records.py",
+      "before_sha256": "4221f18e9079f3f6818e4a2e155ecb2d045284a431cfa17623f270adc9a7ce1e",
+      "after_sha256": "c1dfd65464f893c31abe2cc8c1800e9b4691524f5d51acd4ee26fcaa2563b593"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/reconcile_abertay_early_2026_fees.py",
+      "before_sha256": null,
+      "after_sha256": "67f7f3f0e15fb5d13cbe7d952192619f602c23813d0deb5ee6a450873b602812"
+    },
+    {
+      "path": "app/management/commands/reconcile_abertay_early_2026_fees.py",
+      "before_sha256": "afc6b30ef7c42be43d7ce449e20c44987e4adf608f954817cb782d054f61d279",
+      "after_sha256": "3270b956c1f66a8a6312f441c5f2d3abd9ce9ae35a12d6178644a62a919f15db"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/reconcile_abertay_example.py",
+      "before_sha256": null,
+      "after_sha256": "c3bb5eb51445a015358a720d9eb80064bdbc6675be63c3068c1c0341e49dbbfa"
+    },
+    {
+      "path": "app/management/commands/reconcile_abertay_example.py",
+      "before_sha256": "c3bb5eb51445a015358a720d9eb80064bdbc6675be63c3068c1c0341e49dbbfa",
+      "after_sha256": "0c293b2e7e37ef6bf697b4c0ed91af523d4e31363d2e50d7c9fc9de0ea0c24a8"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/reconcile_abertay_research_batch.py",
+      "before_sha256": null,
+      "after_sha256": "b028633d6e8d03a82481818a24534d8d0b2264cda41d79ad8e262b50f138b46b"
+    },
+    {
+      "path": "app/management/commands/reconcile_abertay_research_batch.py",
+      "before_sha256": "278d887b75b1cdbbf2abdcbeac715273b50d323af0c2b662e3d410a9bc051790",
+      "after_sha256": "cc0e4a9700aa100033b06220aeee497cb5f619457d7c2e278c8ba643288629c1"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/reconcile_abertay_scholarships.py",
+      "before_sha256": null,
+      "after_sha256": "92191677be58a183e9b02766658295c9d6c5ee9db84a28a1285d2dae344d13e6"
+    },
+    {
+      "path": "app/management/commands/reconcile_abertay_scholarships.py",
+      "before_sha256": "92191677be58a183e9b02766658295c9d6c5ee9db84a28a1285d2dae344d13e6",
+      "after_sha256": "23fa8c579347f442574fd645105710469bd8f01651ed8974dfd516489f68f6a1"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/reconcile_aberystwyth_agrifood_route.py",
+      "before_sha256": null,
+      "after_sha256": "72b6cb7e0fd6466bad4c1637c966cca7d749a5171fe2696d3aec238a27ae061c"
+    },
+    {
+      "path": "app/management/commands/reconcile_aberystwyth_agrifood_route.py",
+      "before_sha256": "715cd7c48cdb560983ed893aed5d87db9a58235b605cce2bf4d1dac11d253d51",
+      "after_sha256": "060e2cb6ba895b5a4b1518d351886d1051c26770627a7af4227cdefdb6d801ff"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/reconcile_aberystwyth_awards.py",
+      "before_sha256": null,
+      "after_sha256": "67f6de1222f27e011658494ebb26b83fb4eafff030b36355a5d077a41c774688"
+    },
+    {
+      "path": "app/management/commands/reconcile_aberystwyth_awards.py",
+      "before_sha256": "5b2221288688a90c4959b70a460b440cc81240107611a21912ffeef4c49d0b3c",
+      "after_sha256": "6aa43511a0498ccdca3c4711d448bfabd1b04ba289568f077a2f63b8ee598fe2"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/reconcile_aberystwyth_batch_three_awards.py",
+      "before_sha256": null,
+      "after_sha256": "a12ca1595ca0e582a1b2a979037c25b1ed27ece88e9a36a07ec01384333a6d5d"
+    },
+    {
+      "path": "app/management/commands/reconcile_aberystwyth_batch_three_awards.py",
+      "before_sha256": "bab7aad4c5e936db7f9959edbd90611fde5dcffde7962901d36f40b152e4b53c",
+      "after_sha256": "2cba596fe50d287c5de02593124ac5ab407ee8881f5719d2b1903afbed3f5466"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/reconcile_aberystwyth_behaviour_change_award.py",
+      "before_sha256": null,
+      "after_sha256": "bb1a078b1382ba58e4aae0bc9d05cd98fe9d9b7118ba51dd76f020ca5b5469bd"
+    },
+    {
+      "path": "app/management/commands/reconcile_aberystwyth_behaviour_change_award.py",
+      "before_sha256": "016fa8c72f8133b66daae2a157384411b36be42cad6ec66b4abcddd636af5b5f",
+      "after_sha256": "28d914e62e6f2680264b2a397cb862ca390f1c076ecc229a0aa810b9da799c11"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/reconcile_aberystwyth_corrected_awards.py",
+      "before_sha256": null,
+      "after_sha256": "5a9d7fb96976a03006c280c14d2292a4e782a5cb6f1d2f77f8276fdfcaaf8af4"
+    },
+    {
+      "path": "app/management/commands/reconcile_aberystwyth_corrected_awards.py",
+      "before_sha256": "0e6d1934d58a582684fb7a710eed92d930be6ba5522a00516f87ca5697ca75ff",
+      "after_sha256": "acc00621daa75c2cedecda5a9bce16b84f47f0894697ad2765405815039e8f72"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/reconcile_aberystwyth_law_award.py",
+      "before_sha256": null,
+      "after_sha256": "f3ee42fa1a92e934df89409a39916d41ce9c555454b6de868f52c155566c2631"
+    },
+    {
+      "path": "app/management/commands/reconcile_aberystwyth_law_award.py",
+      "before_sha256": "f7686650a1ecc8570713dea83b2557459f3fe83c5f4d17551032e17f1b3b7a98",
+      "after_sha256": "79129e69a373e8bfe1d78f24db22f8eb6bbce8e5aa9228b7e50a79cf138eed77"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/reconcile_aberystwyth_law_creative_arts.py",
+      "before_sha256": null,
+      "after_sha256": "748325c56f957e1f86f6536c5580307a0ce3493f43e544e29b4fe14280afed53"
+    },
+    {
+      "path": "app/management/commands/reconcile_aberystwyth_law_creative_arts.py",
+      "before_sha256": "3b552c6203f9a18a30ce8b2a50ca0fa9a5fa1fddd50c8b5f448d1446d47fb670",
+      "after_sha256": "8db898c7e1390c4dd74871b0349485cfdde5c9700c3a2157182b66f8fd818db3"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/reconcile_aberystwyth_research_awards.py",
+      "before_sha256": null,
+      "after_sha256": "65cc3631f64edbf7ed1794a4a1e523799ca60e8c4e73de93fed749f0de1a4285"
+    },
+    {
+      "path": "app/management/commands/reconcile_aberystwyth_research_awards.py",
+      "before_sha256": "c7857f0613e70997f8574dc9358edf4d702564924a71fab9828cc73180108d00",
+      "after_sha256": "777a48c5817ee690c834763c51d995c678cc470a404718559dc6afbab9831769"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/reconcile_aberystwyth_six_courses.py",
+      "before_sha256": null,
+      "after_sha256": "da5c6cf49dda960e75522ae485aab5f1a85156faafcc5dabb46434f4348d318b"
+    },
+    {
+      "path": "app/management/commands/reconcile_aberystwyth_six_courses.py",
+      "before_sha256": "da5c6cf49dda960e75522ae485aab5f1a85156faafcc5dabb46434f4348d318b",
+      "after_sha256": "d65c3f685a8b11bf4c0323514f7c2ce47b0529fe3b78fe9d03a8ed890c29db1a"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/reconcile_aberystwyth_welsh_education_awards.py",
+      "before_sha256": null,
+      "after_sha256": "e897ba6ef03bc6086434623c09f57268b77bec0436daafd95f098e63adfa8bc3"
+    },
+    {
+      "path": "app/management/commands/reconcile_aberystwyth_welsh_education_awards.py",
+      "before_sha256": "414c3d8f24a04081a4edea77f44edfd2ffac1ae67c5450c6a60bd0293a537593",
+      "after_sha256": "52e4835e8fcd9f32bf4aec245e3722cdd5461ff49c616afe5d8f0087027e1467"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_advanced_london_awards.py",
+      "before_sha256": null,
+      "after_sha256": "6a7999cdef3aa3bfc4260260edb19d84aca97060338859279efeb78bc156ee53"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_advanced_london_awards.py",
+      "before_sha256": "6a7999cdef3aa3bfc4260260edb19d84aca97060338859279efeb78bc156ee53",
+      "after_sha256": "3d215b6e7c602d0a7b7fd867d6148c410601a782bb770192f18c73bb1bd1ef9e"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_business_psychology_awards.py",
+      "before_sha256": null,
+      "after_sha256": "76b1ed68011a345c1f64dbaf94ae12075d580eacd1612bc73885cc8efc54211d"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_business_psychology_awards.py",
+      "before_sha256": "a05139455e03d6dde7a99d199d1cf62b6589d73552053c229e72937b2f3b7cf8",
+      "after_sha256": "c9e67304a04e043ffbb355590dfeb452847731e86d5a3a95a827af6f122685b7"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_computing_awards.py",
+      "before_sha256": null,
+      "after_sha256": "69d9b03580431457986f3f47e7b9e3522793b18c75675a875f6af90df050064f"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_computing_awards.py",
+      "before_sha256": "543be13a6b645cf603310f2800561454aadc560fffaab1f6b2c2eced58553f4c",
+      "after_sha256": "c356f94ce45b82aed7d94e423dbb68c33f924e3350367b530b8cc85aaee4b8e1"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_computing_nursing_horticulture.py",
+      "before_sha256": null,
+      "after_sha256": "5908ff30d40780b22a0054942bee797ab0f4acdc6e689d2e04d6468d9e478b9e"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_computing_nursing_horticulture.py",
+      "before_sha256": "5908ff30d40780b22a0054942bee797ab0f4acdc6e689d2e04d6468d9e478b9e",
+      "after_sha256": "018c7cc37b0a8fae736ef5406293f054c0eb68739afb4d9019da518433e37643"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_games_health_awards.py",
+      "before_sha256": null,
+      "after_sha256": "7e1d37f2dc7dfd79b6a318627be34b6226abdcdb35ea26a7e5f1d6935befec8f"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_games_health_awards.py",
+      "before_sha256": "7e1d37f2dc7dfd79b6a318627be34b6226abdcdb35ea26a7e5f1d6935befec8f",
+      "after_sha256": "3adf247882ac73206e3b1438486e0898a80f1a488cb29a19d3bcae85665a3e2e"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_january_2027_routes.py",
+      "before_sha256": null,
+      "after_sha256": "eca14eb12a97fff861b078aa837217c0cbb3ec292c13f63f333bd9021ac10603"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_january_2027_routes.py",
+      "before_sha256": "eca14eb12a97fff861b078aa837217c0cbb3ec292c13f63f333bd9021ac10603",
+      "after_sha256": "ea53d9891ca093b7c470ce3e573561ee353ab3f700a7dee4114c4a01edfb4dce"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_land_engineering_awards.py",
+      "before_sha256": null,
+      "after_sha256": "a9e4dad34e910ed4aa4695b3f9a36a4b1bdf9d4441357bad95197ec5ea388cb8"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_land_engineering_awards.py",
+      "before_sha256": "948bc8b047afbf47965aebda9c94a69b47fc6e202334a122fd4156abb90baf6d",
+      "after_sha256": "2e77a32e1ab2ea7e693f2034258733d12b77a57ee7bf1efa2c3ff5dc4adb87a9"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_london_research_awards.py",
+      "before_sha256": null,
+      "after_sha256": "d034f8f9e6aed867169017bf4942b29403ad044d1d25f829562ca6f6f55d31ad"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_london_research_awards.py",
+      "before_sha256": "d034f8f9e6aed867169017bf4942b29403ad044d1d25f829562ca6f6f55d31ad",
+      "after_sha256": "b45f2ac547f49ade92c3a1984372eb8328e8a3b7067cfc56d4edd30dd3227787"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_nursing_mba_restriction.py",
+      "before_sha256": null,
+      "after_sha256": "3f3a8ce40623b91bbba0c55c3276e92e9d46cae9b3a5e2af351fc71880796c29"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_nursing_mba_restriction.py",
+      "before_sha256": "f7286092610899d47b7ab038d6f2799fff4fe0c39d478fadd3b21010eacf6b80",
+      "after_sha256": "d9f2e2c2c0f816aca5148e528945c4d6ce5fea40b1d765afc47fc03cb540ad17"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_politics_awards.py",
+      "before_sha256": null,
+      "after_sha256": "e1bb17c1b2464350e07e68bcf915170169c45ae4f959ca39a35767571d8898fa"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_politics_awards.py",
+      "before_sha256": "402d3d819648f349fbc775c5a2add66825b1488c2845e2dac2f5ef74105066c7",
+      "after_sha256": "f155bf99fc521cd50ba9eb486aadcae36647e6022117a0e841004818626de3e2"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_postgraduate_awards.py",
+      "before_sha256": null,
+      "after_sha256": "23a9b3b76b02f9a765a79b141f4a6dc4de369d1054d78f4dde4ed4f0f333e294"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_postgraduate_awards.py",
+      "before_sha256": "b2529ccbd87edd9445d3cd5ad81d8eeb5b135229ce0de338a8c9513e4acf7b70",
+      "after_sha256": "b78481590cd9c747b3e25b2f55b115c09195f05447603a2da48065ac4032e64e"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_psychology_distance_awards.py",
+      "before_sha256": null,
+      "after_sha256": "f16569d9fb56d121f6558c8befd0cdfcd1830294ccf4331c02bfb0d38e76bce6"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_psychology_distance_awards.py",
+      "before_sha256": "4f411f79e11c76dce838c72348c1470dfc1b5ffdea08711cb227207feb2abad3",
+      "after_sha256": "7d1c59c8d8afd29d8eac642f74898ef569ecdea2313449ff9eca31401724244e"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_psychology_distance_routes.py",
+      "before_sha256": null,
+      "after_sha256": "8f5cc194f5da0b314664ad755772d2708c8335cba856a5bc452f96637f262c1f"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_psychology_distance_routes.py",
+      "before_sha256": "8f5cc194f5da0b314664ad755772d2708c8335cba856a5bc452f96637f262c1f",
+      "after_sha256": "08d99b1a22e9cff04bf5f6a23b374d66c347f5e7d475d7a8642347f6e310047f"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_review_batch_one.py",
+      "before_sha256": null,
+      "after_sha256": "47c341155c49ffa21c7e87f8b689d5077ea2f7bdc62d6ba0961f20fecbbb7e3b"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_review_batch_one.py",
+      "before_sha256": "2e82dcf2bbe6f8e6352b5084e53677741a9154d3f5a24b3dd53960d290e40d4e",
+      "after_sha256": "f9501fdde5faaa7c0818f24ab8d6ea40860c5ea82fb1850ac792146e2b61cd04"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_review_batch_two.py",
+      "before_sha256": null,
+      "after_sha256": "9e5879b35f71bd87ccda241e7192ea5cd6d8add7301b9630a90b5c40259fcb51"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_review_batch_two.py",
+      "before_sha256": "fafb48c60650f20a398e759f82f022ae106e79430e8bc62dc7816762565b5b0d",
+      "after_sha256": "d0ebb08ece5ef8fcee9c77caaf1eb8739afb1f645541a80ff0d5cdcb65b9ddea"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_route_batch.py",
+      "before_sha256": null,
+      "after_sha256": "9bfebfd90d978458559bd998dd4c796940d74ca33aad4f28c8e8f3af90b90ee4"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_route_batch.py",
+      "before_sha256": "9bfebfd90d978458559bd998dd4c796940d74ca33aad4f28c8e8f3af90b90ee4",
+      "after_sha256": "5f54e1a4cb26c2394e16d62c44f8892a98d628c86b9196ba7bbef850ca7e0812"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_specialist_awards.py",
+      "before_sha256": null,
+      "after_sha256": "c7a1e96fa0a90c59a694b7f3a4f2fde09a49645d039799ac18958940463c6718"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_specialist_awards.py",
+      "before_sha256": "9449765507bfa5b464d8eb14475c8293f4f1757b6142ca63267e8413aabb144e",
+      "after_sha256": "86866278e0267794c45c1de98219f2968e0ec1968cfa1e3853f8bea243133a1a"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_three_research_routes.py",
+      "before_sha256": null,
+      "after_sha256": "75bd2fdb65f4255477f374a703dc05be678d0993354b81cc590786425c6f4ef0"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_three_research_routes.py",
+      "before_sha256": "75bd2fdb65f4255477f374a703dc05be678d0993354b81cc590786425c6f4ef0",
+      "after_sha256": "ebfa898333050f4bb48f3eaeb62ad515ac1d62ba4a437ff2a027d8bc354ba473"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/reconcile_aru_undergraduate_awards.py",
+      "before_sha256": null,
+      "after_sha256": "284c12e7d7b2523fc56e042a44e2d06cafce4e76701bd899ad9a1a6152eaa4ec"
+    },
+    {
+      "path": "app/management/commands/reconcile_aru_undergraduate_awards.py",
+      "before_sha256": "1485898a4b80f1c20415beebfe856c08b87e551ef44d0172ac2bd94d6d0b76f9",
+      "after_sha256": "9208762a1658dff71edc74935e5c361d0ed9c9bfdb93b0343c7818db6b88d656"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/replace_aberystwyth_astrophysics.py",
+      "before_sha256": null,
+      "after_sha256": "15c3163d3779f1b7c9e68331b53b98c2f6851a68cc972417bd83165988aea5aa"
+    },
+    {
+      "path": "app/management/commands/replace_aberystwyth_astrophysics.py",
+      "before_sha256": "a4525d4de7bf150fb9e02949025a3d5f8d56b5660ba841c71287c43d8ce89c3a",
+      "after_sha256": "c814ec8313d6286456399fb991f8ba253ef6b69e8b100434727fcea668e2f619"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/review_aberystwyth_unresolved.py",
+      "before_sha256": null,
+      "after_sha256": "60b4310fe616e6b3e55e59a452aef372b4d051d9d593766c27eac2468f4c893a"
+    },
+    {
+      "path": "app/management/commands/review_aberystwyth_unresolved.py",
+      "before_sha256": "f04b44ca06fc1781366b060b1b9cc9106f6b892203af2a16a0916a2938ea5874",
+      "after_sha256": "dd520d2aed4445f1010fa276eb512ad6f96f8bb662aa3938df5ac7bb970d4e50"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/review_aru_remaining_15.py",
+      "before_sha256": null,
+      "after_sha256": "0983ee9cfa4e4d9496a2e2a5e27ecb5347436757fd2c22c230776632997da16b"
+    },
+    {
+      "path": "app/management/commands/review_aru_remaining_15.py",
+      "before_sha256": "0983ee9cfa4e4d9496a2e2a5e27ecb5347436757fd2c22c230776632997da16b",
+      "after_sha256": "52e728d00c7be07e4de575e87e94c5257bbd02765ff5f0336ce763b91f51bcc5"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/scrape_abertay.py",
+      "before_sha256": null,
+      "after_sha256": "1a75afd286634157fa23114c188d24bc4604ea4a00deb03fa302c3fc53464bb9"
+    },
+    {
+      "path": "app/management/commands/scrape_abertay.py",
+      "before_sha256": "26bd2d572df534ff51ce16632cac5377231b87d214b67a9b26f6d8828be3855f",
+      "after_sha256": "d5e00dfa46f4f24294da01e9d261c1465b43a93a0746025c8f8b129fe2e3c8d2"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/scrape_abertay_deposits.py",
+      "before_sha256": null,
+      "after_sha256": "032f8f94013816e94a23e3f73751a31b10ad44e73e501fc9316f240570095eb9"
+    },
+    {
+      "path": "app/management/commands/scrape_abertay_deposits.py",
+      "before_sha256": "032f8f94013816e94a23e3f73751a31b10ad44e73e501fc9316f240570095eb9",
+      "after_sha256": "699f60a9794ac887b13fa1c74bf81bc452bc099147b8574ea9e0aceb3aa1cb99"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/scrape_abertay_scholarships.py",
+      "before_sha256": null,
+      "after_sha256": "6e15f19d321f6bb416509d8d6671202f444af245dc2503495a76670771658782"
+    },
+    {
+      "path": "app/management/commands/scrape_abertay_scholarships.py",
+      "before_sha256": "6e15f19d321f6bb416509d8d6671202f444af245dc2503495a76670771658782",
+      "after_sha256": "176ab32ae7f7c44b21118111149898c039ecc55987b651d5a4170db04d7e0f5a"
+    },
+    {
+      "path": "app/scraping/ireland/tcd/commands/scrape_tcd.py",
+      "before_sha256": null,
+      "after_sha256": "2c6936908c9ca9b784e95ce5a383ac3b21dc1b7c821474e585de92726b8f25d2"
+    },
+    {
+      "path": "app/management/commands/scrape_tcd.py",
+      "before_sha256": "2c6936908c9ca9b784e95ce5a383ac3b21dc1b7c821474e585de92726b8f25d2",
+      "after_sha256": "690feda7b49bc7b4c9fdb59d1c47c6bbb948c42abf0c32bf879a63fc01deaa5d"
+    },
+    {
+      "path": "app/scraping/ireland/tcd/commands/scrape_tcd_fees.py",
+      "before_sha256": null,
+      "after_sha256": "c8c866893373240224ce0d5eaa8b12ed97525653208f65ec2430690789f09e07"
+    },
+    {
+      "path": "app/management/commands/scrape_tcd_fees.py",
+      "before_sha256": "c8c866893373240224ce0d5eaa8b12ed97525653208f65ec2430690789f09e07",
+      "after_sha256": "3d5776cf9e2c54b13d80b692ab36176d09595863c2d48ded3a8748ceca5ef56f"
+    },
+    {
+      "path": "app/scraping/command_registry.py",
+      "before_sha256": null,
+      "after_sha256": "b65d20e8694edafff0f4f02c2808533c492bcb3d8be864b212ece2b252502a03"
+    },
+    {
+      "path": "app/scraping/command_compat.py",
+      "before_sha256": null,
+      "after_sha256": "88d505999a53c0c214865b1bbfaa9af790b69a8a36bfa5c23478b3d26d2ebceb"
+    },
+    {
+      "path": "app/management/commands/university_command.py",
+      "before_sha256": null,
+      "after_sha256": "553710938078f77ee25d3061222566ce6c91a97f624068e9acb6de356f8968fb"
+    },
+    {
+      "path": "app/scraping/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/ireland/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/ireland/tcd/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/ireland/tcd/commands/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/uk/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/uk/abertay/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/uk/abertay/commands/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/uk/aberystwyth/commands/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/uk/arden/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/uk/arden/commands/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/uk/aru/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/scraping/uk/aru/commands/__init__.py",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

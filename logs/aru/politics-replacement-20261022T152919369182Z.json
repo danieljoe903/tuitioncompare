@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-10-22T15:29:19.407368+00:00",
+  "university_id": "UK003",
+  "course_id": "C_UK003_81",
+  "mode": "apply",
+  "database_changes": true,
+  "proposed_changes": 1,
+  "mapping": "explicit_replacement",
+  "replacement_accepted": true,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\remaining-17-evidence-20261022T152141639880Z\\remaining-17-evidence.json",
+  "before": {
+    "course": {
+      "title": "BA (Hons) Politics",
+      "level": "UG",
+      "location": "Cambridge Campus",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "ucas_cao_code": "",
+      "course_url": "www.aru.ac.uk"
+    },
+    "tuition": {
+      "id": 5243,
+      "residency": "INTL",
+      "currency": "GBP",
+      "tuition_fee": "19500.00"
+    },
+    "source": null
+  },
+  "after": {
+    "course": {
+      "title": "BA (Hons) Politics and International Relations",
+      "level": "UG",
+      "location": "Cambridge Campus",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2027,
+      "ucas_cao_code": "L203",
+      "course_url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations"
+    },
+    "tuition": {
+      "id": 5243,
+      "residency": "INTL",
+      "currency": "GBP",
+      "tuition_fee": "18825.00"
+    },
+    "source": {
+      "academic_year": "2027/28",
+      "source_url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations",
+      "source_course_name": "Politics and International Relations",
+      "source_course_code": "L203",
+      "fee_basis": "annual_tuition",
+      "raw_fees": {
+        "route_review_history": [
+          {
+            "recorded_at": "2026-10-22T15:29:19.407368+00:00",
+            "mapping": "explicit_replacement",
+            "replacement_accepted": true,
+            "before_course": {
+              "title": "BA (Hons) Politics",
+              "level": "UG",
+              "location": "Cambridge Campus",
+              "duration": "3 Years",
+              "start_month": "September",
+              "start_year": 2026,
+              "ucas_cao_code": "",
+              "course_url": "www.aru.ac.uk"
+            },
+            "after_course": {
+              "title": "BA (Hons) Politics and International Relations",
+              "level": "UG",
+              "location": "Cambridge Campus",
+              "duration": "3 Years",
+              "start_month": "September",
+              "start_year": 2027,
+              "ucas_cao_code": "L203",
+              "course_url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations"
+            },
+            "previous_tuition_source": null,
+            "evidence_generated_at": "2026-10-22T15:21:41.641748+00:00"
+          }
+        ],
+        "verified": true,
+        "academic_year": "2027/28",
+        "currency": "GBP",
+        "source_fee_category": "International",
+        "annual_tuition": "18825.00",
+        "fee_basis": "annual_tuition",
+        "course_kind": "undergraduate_taught",
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations",
+        "source_sha256": "d4152fd992733b44e685c53e50634ab74013618ddb309d07739dbc532101ed71",
+        "source_course_name": "Politics and International Relations",
+        "source_course_code": "L203",
+        "mapping": "explicit_replacement",
+        "replacement_accepted": true,
+        "fee_note": "Annual international tuition for the standard three-year Cambridge BA route, September 2027. Foundation and placement routes are excluded.",
+        "fee_categories": [
+          {
+            "source_fee_category": "International",
+            "academic_year": "2027/28",
+            "currency": "GBP",
+            "annual_tuition": "18825.00",
+            "raw_annual_fee": "£18,825",
+            "annotation": "Annual international tuition for the standard three-year Cambridge BA route, September 2027. Foundation and placement routes are excluded.",
+            "footnote_marker": "",
+            "amount_requires_review": false
+          }
+        ],
+        "scholarship_status": "applicability_pending",
+        "deposit_status": "applicability_pending"
+      }
+    }
+  },
+  "held_course_id": "C_UK003_82",
+  "held_note": "Unchanged; do not duplicate the combined route."
+}

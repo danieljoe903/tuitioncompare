@@ -1,0 +1,327 @@
+{
+  "database_changes": false,
+  "academic_year": "2026/27",
+  "proposals": [
+    {
+      "course_id": "C_UK001_31",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-business-analytics/",
+      "catalogue_title": "Accounting and Finance w/ Business Analytics (Yr3) BA (Hons)",
+      "source_award": "BA (Hons)",
+      "ucas_code": "N4G3",
+      "entry_year": 3,
+      "before": {
+        "title": "BA (Hons) Accounting and Finance with Business Analytics",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "proposed": {
+        "title": "BA (Hons) Accounting and Finance with Business Analytics",
+        "duration": "2 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-business-analytics/",
+        "ucas_cao_code": "N4G3"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4763,
+          "residency": "INTL",
+          "tuition_fee": "15500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4764,
+          "residency": "EU",
+          "tuition_fee": "15500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": false
+    },
+    {
+      "course_id": "C_UK001_33",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-people-management/",
+      "catalogue_title": "Accounting and Finance w/ People Management (Yr3) BA (Hons)",
+      "source_award": "BA (Hons)",
+      "ucas_code": "N4N6",
+      "entry_year": 3,
+      "before": {
+        "title": "BA (Hons) Accounting and Finance with People Management",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "proposed": {
+        "title": "BA (Hons) Accounting and Finance with People Management",
+        "duration": "2 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-people-management/",
+        "ucas_cao_code": "N4N6"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4767,
+          "residency": "INTL",
+          "tuition_fee": "15500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4768,
+          "residency": "EU",
+          "tuition_fee": "15500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": false
+    },
+    {
+      "course_id": "C_UK001_32",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-law/",
+      "catalogue_title": "Accounting and Finance with Law (Yr3) BA (Hons)",
+      "source_award": "BA (Hons)",
+      "ucas_code": "N4M1",
+      "entry_year": 3,
+      "before": {
+        "title": "BA (Hons) Accounting and Finance with Law",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "proposed": {
+        "title": "BA (Hons) Accounting and Finance with Law",
+        "duration": "2 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-law/",
+        "ucas_cao_code": "N4M1"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4765,
+          "residency": "INTL",
+          "tuition_fee": "15500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4766,
+          "residency": "EU",
+          "tuition_fee": "15500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": false
+    },
+    {
+      "course_id": "C_UK001_04",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-analytics/",
+      "catalogue_title": "Business Management with Analytics (Yr3) BA (Hons)",
+      "source_award": "BA (Hons)",
+      "ucas_code": "N2G3",
+      "entry_year": 3,
+      "before": {
+        "title": "BA (Hons) Business Management with Analytics",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "proposed": {
+        "title": "BA (Hons) Business Management with Analytics",
+        "duration": "2 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-analytics/",
+        "ucas_cao_code": "N2G3"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4709,
+          "residency": "INTL",
+          "tuition_fee": "15500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4710,
+          "residency": "EU",
+          "tuition_fee": "15500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": false
+    },
+    {
+      "course_id": "C_UK001_34",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-events-management/",
+      "catalogue_title": "Business Management with Events Management (Yr3) BA (Hons)",
+      "source_award": "BA (Hons)",
+      "ucas_code": "N2N8",
+      "entry_year": 3,
+      "before": {
+        "title": "BA (Hons) Business Management with Events Management",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "proposed": {
+        "title": "BA (Hons) Business Management with Events Management",
+        "duration": "2 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-events-management/",
+        "ucas_cao_code": "N2N8"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4769,
+          "residency": "INTL",
+          "tuition_fee": "15500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4770,
+          "residency": "EU",
+          "tuition_fee": "15500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": false
+    },
+    {
+      "course_id": "C_UK001_35",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-people-management/",
+      "catalogue_title": "Business Management with People Management (Yr3) BA (Hons)",
+      "source_award": "BA (Hons)",
+      "ucas_code": "N260",
+      "entry_year": 3,
+      "before": {
+        "title": "BA (Hons) Business Management with People Management",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "proposed": {
+        "title": "BA (Hons) Business Management with People Management",
+        "duration": "2 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-people-management/",
+        "ucas_cao_code": "N260"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4771,
+          "residency": "INTL",
+          "tuition_fee": "15500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4772,
+          "residency": "EU",
+          "tuition_fee": "15500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": false
+    },
+    {
+      "course_id": "C_UK001_36",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-and-business-management/",
+      "catalogue_title": "Digital Marketing and Business Management (Yr3) BA (Hons)",
+      "source_award": "BA (Hons)",
+      "ucas_code": "N5N1",
+      "entry_year": 3,
+      "before": {
+        "title": "BA (Hons) Digital Marketing and Business Management",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "proposed": {
+        "title": "BA (Hons) Digital Marketing and Business Management",
+        "duration": "2 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-and-business-management/",
+        "ucas_cao_code": "N5N1"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4773,
+          "residency": "INTL",
+          "tuition_fee": "15500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4774,
+          "residency": "EU",
+          "tuition_fee": "15500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": false
+    },
+    {
+      "course_id": "C_UK001_40",
+      "source_url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability/",
+      "catalogue_title": "Environmental Management & Sustainability (Yr2) BSc (Hons)",
+      "source_award": "BSc (Hons)",
+      "ucas_code": "H220",
+      "entry_year": 2,
+      "before": {
+        "title": "BSc (Hons) Environmental Management and Sustainability",
+        "duration": "4 Years",
+        "course_url": "www.abertay.ac.uk",
+        "ucas_cao_code": ""
+      },
+      "proposed": {
+        "title": "BSc (Hons) Environmental Management & Sustainability",
+        "duration": "3 years (full-time)",
+        "course_url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability/",
+        "ucas_cao_code": "H220"
+      },
+      "related_tuitions": [
+        {
+          "tuition_id": 4781,
+          "residency": "INTL",
+          "tuition_fee": "15500.0",
+          "scholarship": "3000.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        },
+        {
+          "tuition_id": 4782,
+          "residency": "EU",
+          "tuition_fee": "15500.0",
+          "scholarship": "0.0",
+          "scholarship_source_id": null,
+          "currency": "GBP"
+        }
+      ],
+      "requires_scholarship_review": true,
+      "approved": false
+    }
+  ],
+  "blocked": []
+}

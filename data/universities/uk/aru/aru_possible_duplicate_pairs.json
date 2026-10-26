@@ -1,0 +1,386 @@
+{
+  "university_id": "UK003",
+  "database_changes": false,
+  "review_pairs": [
+    [
+      "C_UK003_22",
+      "C_UK003_76"
+    ],
+    [
+      "C_UK003_82",
+      "C_UK003_81"
+    ]
+  ],
+  "courses": [
+    {
+      "course_id": "C_UK003_22",
+      "university_id": "UK003",
+      "subject_id": 39,
+      "title": "MSc Data Science",
+      "level": "PG",
+      "overview": "Analyzing large datasets for business intelligence and industrial application.",
+      "modules": "Big Data, Statistical Modelling, Data Mining, Python",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Cambridge Campus",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aru.ac.uk",
+      "created_at": "2026-03-28T18:14:42.679Z",
+      "updated_at": "2026-03-28T18:14:42.679Z"
+    },
+    {
+      "course_id": "C_UK003_76",
+      "university_id": "UK003",
+      "subject_id": 39,
+      "title": "MSc Applied Data Science (Conversion)",
+      "level": "PG",
+      "overview": "Conversion masters for non-STEM graduates wishing to enter data science.",
+      "modules": "Python for Data, Statistical Modelling, Data Mining, Visualization",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Cambridge Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aru.ac.uk/study/postgraduate/applied-data-science",
+      "created_at": "2026-03-28T18:14:44.082Z",
+      "updated_at": "2026-10-21T22:17:05.238Z"
+    },
+    {
+      "course_id": "C_UK003_81",
+      "university_id": "UK003",
+      "subject_id": 105,
+      "title": "BA (Hons) Politics and International Relations",
+      "level": "UG",
+      "overview": "Examines the structures of power, political theory, and the functioning of global and domestic governments.",
+      "modules": "Political Theory, Comparative Politics, Modern Systems, Policy",
+      "entry_requirements": "UCAS 96; IELTS 6.0.",
+      "duration": "3 Years",
+      "location": "Cambridge Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "L203",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations",
+      "created_at": "2026-03-28T18:14:44.207Z",
+      "updated_at": "2026-10-22T15:29:19.409Z"
+    },
+    {
+      "course_id": "C_UK003_82",
+      "university_id": "UK003",
+      "subject_id": 76,
+      "title": "BA (Hons) International Relations",
+      "level": "UG",
+      "overview": "Analyzes global security, diplomacy, and the political interactions between states.",
+      "modules": "World Politics, Security Studies, Diplomacy, Global Governance",
+      "entry_requirements": "UCAS 104; IELTS 6.0.",
+      "duration": "3 Years",
+      "location": "Cambridge Campus",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aru.ac.uk",
+      "created_at": "2026-03-28T18:14:44.235Z",
+      "updated_at": "2026-03-28T18:14:44.235Z"
+    }
+  ],
+  "tuitions": [
+    {
+      "id": 5125,
+      "course_id": "C_UK003_22",
+      "residency": "INTL",
+      "tuition_fee": "19500.0",
+      "scholarship": "2000.0",
+      "tuition_deposit": "4000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5126,
+      "course_id": "C_UK003_22",
+      "residency": "EU",
+      "tuition_fee": "19500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5233,
+      "course_id": "C_UK003_76",
+      "residency": "INTL",
+      "tuition_fee": "20925.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "4000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5234,
+      "course_id": "C_UK003_76",
+      "residency": "EU",
+      "tuition_fee": "19500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5243,
+      "course_id": "C_UK003_81",
+      "residency": "INTL",
+      "tuition_fee": "18825.0",
+      "scholarship": "4000.0",
+      "tuition_deposit": "4000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5244,
+      "course_id": "C_UK003_81",
+      "residency": "EU",
+      "tuition_fee": "19500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5245,
+      "course_id": "C_UK003_82",
+      "residency": "INTL",
+      "tuition_fee": "19500.0",
+      "scholarship": "4000.0",
+      "tuition_deposit": "4000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5246,
+      "course_id": "C_UK003_82",
+      "residency": "EU",
+      "tuition_fee": "19500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    }
+  ],
+  "sources": [
+    {
+      "id": 321,
+      "tuition_id": 5233,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aru.ac.uk/study/postgraduate/applied-data-science",
+      "source_course_code": "",
+      "source_course_name": "MSc Applied Data Science (Conversion)",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "campus": "Cambridge",
+        "currency": "GBP",
+        "fee_note": "Published annual international fee for the September 2027 one-year full-time route at Cambridge.",
+        "verified": true,
+        "fee_method": "reviewed_named_course_fee",
+        "study_mode": "full_time",
+        "study_year": 1,
+        "course_kind": "postgraduate_taught",
+        "academic_year": "2027/28",
+        "source_sha256": "5ae38b88cc77dd8cff12a8945ef2f12a9b7e2b333b58058eacdb106dd0f995f3",
+        "annual_tuition": "20925.00",
+        "deposit_status": "verified_current_policy_offer_confirmation_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "academic_year": "2027/28",
+            "annual_tuition": "20925.00",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/postgraduate/applied-data-science",
+        "scholarship_status": "verified_maximum_rule_eligibility_required",
+        "source_fee_category": "International",
+        "reviewed_course_corrections": {
+          "title": {
+            "after": "MSc Applied Data Science (Conversion)",
+            "before": "MSc Applied Data Science"
+          }
+        },
+        "unverified_legacy_discount_disabled": true
+      },
+      "checked_at": "2026-10-21T22:17:05.241Z"
+    },
+    {
+      "id": 369,
+      "tuition_id": 5243,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations",
+      "source_course_code": "L203",
+      "source_course_name": "Politics and International Relations",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "mapping": "explicit_replacement",
+        "currency": "GBP",
+        "fee_note": "Annual international tuition for the standard three-year Cambridge BA route, September 2027. Foundation and placement routes are excluded.",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "undergraduate_taught",
+        "academic_year": "2027/28",
+        "source_sha256": "d4152fd992733b44e685c53e50634ab74013618ddb309d07739dbc532101ed71",
+        "annual_tuition": "18825.00",
+        "deposit_review": {
+          "note": "Current fixed pre-CAS deposit £4,000, subject to visa, full-fee-paying and sponsorship assessment. Confirm the individual offer. Scholarship deductions do not reduce this fixed deposit. The published deposit policy is undated.",
+          "status": "verified_rule_eligibility_required",
+          "source_url": "https://www.aru.ac.uk/international/how-to-apply/step-4---receive-our-decision-on-your-application",
+          "policy_academic_year": "2027/28",
+          "eligibility_questions": [
+            {
+              "key": "requires_student_visa",
+              "type": "boolean",
+              "question": "Do you require a Student visa?"
+            },
+            {
+              "key": "full_fee_paying",
+              "type": "boolean",
+              "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+            },
+            {
+              "key": "sponsored",
+              "type": "boolean",
+              "question": "Will a sponsor provide a sponsorship letter?"
+            }
+          ]
+        },
+        "deposit_status": "verified_rule_eligibility_required",
+        "fee_categories": [
+          {
+            "currency": "GBP",
+            "annotation": "Annual international tuition for the standard three-year Cambridge BA route, September 2027. Foundation and placement routes are excluded.",
+            "academic_year": "2027/28",
+            "annual_tuition": "18825.00",
+            "raw_annual_fee": "£18,825",
+            "footnote_marker": "",
+            "source_fee_category": "International",
+            "amount_requires_review": false
+          }
+        ],
+        "course_source_url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations",
+        "scholarship_review": {
+          "note": "Year 1 lower award £2,000 or higher award £4,000, subject to the saved eligibility conditions and ARU assessment. The awards are alternatives and must not be added together. The published policy is undated and is associated with this reviewed 2027/28 route; recheck before enrolment.",
+          "status": "verified_rule_eligibility_required",
+          "source_url": "https://www.aru.ac.uk/international/international-scholarships/international-undergraduate-scholarship",
+          "academic_year": "2027/28",
+          "eligibility_questions": [
+            {
+              "key": "new_entrant",
+              "type": "boolean",
+              "question": "Are you joining ARU for the first time?"
+            },
+            {
+              "key": "full_time",
+              "note": "Exceptional part-time cases require ARU confirmation.",
+              "type": "boolean",
+              "question": "Will you study full-time?"
+            },
+            {
+              "key": "entry_year",
+              "note": "These rules cover entry into Year 1 only.",
+              "type": "integer",
+              "question": "Which course year are you entering?"
+            },
+            {
+              "key": "apcl",
+              "note": "APCL discounts need a separate pro-rata assessment.",
+              "type": "boolean",
+              "question": "Have you received Accredited Prior Certified Learning credit?"
+            },
+            {
+              "key": "registration_conditions_met",
+              "type": "boolean",
+              "question": "Have all ARU registration conditions been met?"
+            },
+            {
+              "key": "aru_funding_eligibility_confirmed",
+              "note": "Sponsored students and federal loan recipients may need confirmation from ARU and their funding body.",
+              "type": "boolean",
+              "question": "Is your funding arrangement eligible for this award, including any sponsorship or federal tuition loan?"
+            },
+            {
+              "key": "aru_ug_award_confirmed",
+              "type": "boolean",
+              "question": "Has ARU confirmed your undergraduate scholarship?"
+            },
+            {
+              "key": "aru_ug_award_tier",
+              "note": "Exceeding entry requirements does not confirm a tier.",
+              "type": "choice",
+              "choices": [
+                {
+                  "label": "£2,000",
+                  "value": "lower"
+                },
+                {
+                  "label": "£4,000",
+                  "value": "higher"
+                }
+              ],
+              "question": "Which first-year award has ARU confirmed?"
+            }
+          ]
+        },
+        "scholarship_status": "verified_rule_eligibility_required",
+        "source_course_code": "L203",
+        "source_course_name": "Politics and International Relations",
+        "source_fee_category": "International",
+        "replacement_accepted": true,
+        "route_review_history": [
+          {
+            "mapping": "explicit_replacement",
+            "recorded_at": "2026-10-22T15:29:19.407368+00:00",
+            "after_course": {
+              "level": "UG",
+              "title": "BA (Hons) Politics and International Relations",
+              "duration": "3 Years",
+              "location": "Cambridge Campus",
+              "course_url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations",
+              "start_year": 2027,
+              "start_month": "September",
+              "ucas_cao_code": "L203"
+            },
+            "before_course": {
+              "level": "UG",
+              "title": "BA (Hons) Politics",
+              "duration": "3 Years",
+              "location": "Cambridge Campus",
+              "course_url": "www.aru.ac.uk",
+              "start_year": 2026,
+              "start_month": "September",
+              "ucas_cao_code": ""
+            },
+            "replacement_accepted": true,
+            "evidence_generated_at": "2026-10-22T15:21:41.641748+00:00",
+            "previous_tuition_source": null
+          }
+        ]
+      },
+      "checked_at": "2026-10-22T16:00:45.566Z"
+    }
+  ]
+}

@@ -1,0 +1,2033 @@
+{
+  "generated_at": "2026-10-23T07:25:33.148228+00:00",
+  "mode": "preview",
+  "database_changes": false,
+  "preview_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\arden\\campus-pg-preview-20261023T064934911134Z.json",
+  "courses": [
+    {
+      "course_id": "C_UK004_16",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/mba/master-of-business-administration"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=280&awarding_body=arden&course_id=1744",
+          "source_course_code": "1744",
+          "source_course_name": "MBA",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2026-11",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "1744",
+            "fee_response_sha256": [
+              "a1980ddb89a05e9bdad1076445a12b8535c54a19d99616a22a533516f2883722",
+              "a1980ddb89a05e9bdad1076445a12b8535c54a19d99616a22a533516f2883722"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_17",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-data-science"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=2918",
+          "source_course_code": "2918",
+          "source_course_name": "Data Science",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2026-11",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "2918",
+            "fee_response_sha256": [
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_18",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-cyber-security"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=2925",
+          "source_course_code": "2925",
+          "source_course_name": "Cyber Security",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2026-11",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "2925",
+            "fee_response_sha256": [
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_19",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/degrees/master-public-health"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1535",
+          "source_course_code": "1535",
+          "source_course_name": "Master of Public Health",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2026-11",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "1535",
+            "fee_response_sha256": [
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_20",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-project-management-technology"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1294",
+          "source_course_code": "1294",
+          "source_course_name": "Project Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2026-11",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "1294",
+            "fee_response_sha256": [
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_21",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-international-business-management"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=3494",
+          "source_course_code": "3494",
+          "source_course_name": "International Business Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2026-11",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "3494",
+            "fee_response_sha256": [
+              "48de7061e44c7b36f3126c93069e7e01775263f624f1ff8d5df9e65f1993c337",
+              "48de7061e44c7b36f3126c93069e7e01775263f624f1ff8d5df9e65f1993c337"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_22",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-engineering-management"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1232",
+          "source_course_code": "1232",
+          "source_course_name": "Engineering Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2026-11",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "1232",
+            "fee_response_sha256": [
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_23",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-strategic-digital-marketing"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1548",
+          "source_course_code": "1548",
+          "source_course_name": "Strategic Digital Marketing",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2026-11",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "1548",
+            "fee_response_sha256": [
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_24",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-strategic-human-resource-management"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=2256",
+          "source_course_code": "2256",
+          "source_course_name": "Strategic Human Resource Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2026-11",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "2256",
+            "fee_response_sha256": [
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_25",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "November",
+          "start_year": 2026,
+          "intake_months": "November, February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/business-degree/msc-supply-chain-management-and-logistics"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=279&awarding_body=arden&course_id=1295",
+          "source_course_code": "1295",
+          "source_course_name": "Supply Chain Management and Logistics",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2026-11",
+            "campus_intakes": {
+              "Manchester": [
+                "2026-11",
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2026-11",
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "1295",
+            "fee_response_sha256": [
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16",
+              "1c3aac5e9eb975943d0fa11a9452c1cf09812b3b8874a72f481e58eb5f756a16"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_40",
+      "changed": true,
+      "before": {
+        "course": {
+          "location": "London Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.arden.ac.uk"
+        },
+        "tuition": {
+          "tuition_fee": "18500.00",
+          "scholarship": "5000.0",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "location": "London Stratford / Manchester",
+          "start_month": "February",
+          "start_year": 2027,
+          "intake_months": "February",
+          "course_url": "https://arden.ac.uk/our-courses/postgraduate/mba/executive-mba"
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "scholarship": "0",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=280&awarding_body=arden&course_id=1175",
+          "source_course_code": "1175",
+          "source_course_name": "Executive MBA",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "importer": "arden_campus_pg_v1",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "annual_tuition": "17500.00",
+            "course_kind": "postgraduate_taught",
+            "study_year": 1,
+            "default_intake": "2027-02",
+            "campus_intakes": {
+              "Manchester": [
+                "2027-02"
+              ],
+              "London Stratford": [
+                "2027-02"
+              ]
+            },
+            "academic_year_basis": "Derived from confirmed November 2026/February 2027 intakes using the September–August comparison year; offer cohort is explicitly 2026–2027.",
+            "source_course_id": "1175",
+            "fee_response_sha256": [
+              "a1980ddb89a05e9bdad1076445a12b8535c54a19d99616a22a533516f2883722",
+              "a1980ddb89a05e9bdad1076445a12b8535c54a19d99616a22a533516f2883722"
+            ],
+            "scholarship_status": "verified_rule_eligibility_required",
+            "deposit_status": "application_advised",
+            "scholarship_review": {
+              "eligibility_questions": [
+                {
+                  "key": "arden_campus",
+                  "label": "Which Arden campus will you attend?",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "Manchester",
+                      "label": "Manchester"
+                    },
+                    {
+                      "value": "London Stratford",
+                      "label": "London Stratford"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which advertised intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "requires_student_visa",
+                  "label": "Do you require a visa to study this programme in the UK?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_uk_blended_offer",
+                  "label": "Has Arden offered you this solely Arden-awarded UK blended-learning programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_student_visa_sponsored",
+                  "label": "Will Arden sponsor your Student visa for this programme?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_programme_at_least_120_credits",
+                  "label": "Is your eligible postgraduate programme at least 120 credits?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_unconditional_offer_at",
+                  "label": "When did Arden issue your unconditional offer? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_deposit_paid_at",
+                  "label": "When was your required deposit paid? Supply an ISO date/time with UTC offset.",
+                  "type": "text"
+                }
+              ]
+            },
+            "fee_note": "Published campus annual gross tuition. Online prices are excluded. Select campus and intake for conditional offer deductions."
+          }
+        }
+      }
+    }
+  ],
+  "awards": [
+    {
+      "name": "Arden UK International PG Offer — Manchester (2026/27)",
+      "value": "4500.00",
+      "conditions": {
+        "requires_student_visa": [
+          true
+        ],
+        "arden_uk_blended_offer": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_UK004_16",
+          "C_UK004_17",
+          "C_UK004_18",
+          "C_UK004_19",
+          "C_UK004_20",
+          "C_UK004_21",
+          "C_UK004_22",
+          "C_UK004_23",
+          "C_UK004_24",
+          "C_UK004_25",
+          "C_UK004_40"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_intake": [
+          "2026-11",
+          "2027-02"
+        ],
+        "arden_campus": [
+          "Manchester"
+        ]
+      }
+    },
+    {
+      "name": "Arden UK International PG Offer — London Stratford (2026/27)",
+      "value": "3500.00",
+      "conditions": {
+        "requires_student_visa": [
+          true
+        ],
+        "arden_uk_blended_offer": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_UK004_16",
+          "C_UK004_17",
+          "C_UK004_18",
+          "C_UK004_19",
+          "C_UK004_20",
+          "C_UK004_21",
+          "C_UK004_22",
+          "C_UK004_23",
+          "C_UK004_24",
+          "C_UK004_25",
+          "C_UK004_40"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_intake": [
+          "2026-11",
+          "2027-02"
+        ],
+        "arden_campus": [
+          "London Stratford"
+        ]
+      }
+    },
+    {
+      "name": "Arden UK International PG Early Bird — 2026-11 (2026/27)",
+      "value": "3000.00",
+      "conditions": {
+        "requires_student_visa": [
+          true
+        ],
+        "arden_uk_blended_offer": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_UK004_16",
+          "C_UK004_17",
+          "C_UK004_18",
+          "C_UK004_19",
+          "C_UK004_20",
+          "C_UK004_21",
+          "C_UK004_22",
+          "C_UK004_23",
+          "C_UK004_24",
+          "C_UK004_25",
+          "C_UK004_40"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_intake": [
+          "2026-11"
+        ],
+        "arden_campus": [
+          "Manchester",
+          "London Stratford"
+        ],
+        "arden_student_visa_sponsored": [
+          true
+        ],
+        "arden_programme_at_least_120_credits": [
+          true
+        ],
+        "arden_unconditional_offer_on_time": [
+          true
+        ],
+        "arden_deposit_paid_on_time": [
+          true
+        ]
+      }
+    },
+    {
+      "name": "Arden UK International PG Early Bird — 2027-02 (2026/27)",
+      "value": "3000.00",
+      "conditions": {
+        "requires_student_visa": [
+          true
+        ],
+        "arden_uk_blended_offer": [
+          true
+        ],
+        "arden_prior_credits_under_40": [
+          true
+        ],
+        "arden_account_in_good_standing": [
+          true
+        ],
+        "arden_not_blocked_or_expelled": [
+          true
+        ],
+        "arden_no_staff_agent_connection": [
+          true
+        ],
+        "arden_application_accurate": [
+          true
+        ],
+        "arden_not_sanctioned": [
+          true
+        ],
+        "arden_partner_route": [
+          false
+        ],
+        "course_id": [
+          "C_UK004_16",
+          "C_UK004_17",
+          "C_UK004_18",
+          "C_UK004_19",
+          "C_UK004_20",
+          "C_UK004_21",
+          "C_UK004_22",
+          "C_UK004_23",
+          "C_UK004_24",
+          "C_UK004_25",
+          "C_UK004_40"
+        ],
+        "fee_status": [
+          "INTL"
+        ],
+        "arden_intake": [
+          "2027-02"
+        ],
+        "arden_campus": [
+          "Manchester",
+          "London Stratford"
+        ],
+        "arden_student_visa_sponsored": [
+          true
+        ],
+        "arden_programme_at_least_120_credits": [
+          true
+        ],
+        "arden_unconditional_offer_on_time": [
+          true
+        ],
+        "arden_deposit_paid_on_time": [
+          true
+        ]
+      }
+    }
+  ],
+  "policy": {
+    "rules": {
+      "schema_version": 1,
+      "kind": "application_advised",
+      "course_ids": [
+        "C_UK004_16",
+        "C_UK004_17",
+        "C_UK004_18",
+        "C_UK004_19",
+        "C_UK004_20",
+        "C_UK004_21",
+        "C_UK004_22",
+        "C_UK004_23",
+        "C_UK004_24",
+        "C_UK004_25",
+        "C_UK004_40"
+      ],
+      "academic_year": "2026/27",
+      "currency": "GBP",
+      "note": "Arden advises the deposit amount for your chosen course during application. Confirm your individual amount with Arden; no universal numeric deposit has been verified.",
+      "eligibility_questions": [],
+      "importer": "arden_campus_pg_v1"
+    },
+    "source_url": "https://arden.ac.uk/international-students/fees-for-international-students"
+  },
+  "course_changes": 11,
+  "changed_items": null,
+  "status": "preview"
+}

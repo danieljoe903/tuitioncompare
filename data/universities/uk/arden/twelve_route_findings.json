@@ -1,0 +1,143 @@
+{
+  "university_id": "UK004",
+  "review_date": "2026-10-23",
+  "database_changes": false,
+  "review_basis": "Uploaded 21-case evidence plus official public course and programme pages checked during this review. Absence from a search is not proof of closure.",
+  "findings": [
+    {
+      "course_id": "C_UK004_13",
+      "stored_title": "BSc (Hons) Agriculture",
+      "outcome": "ownership_mismatch_indicated",
+      "finding": "ARU advertises the matching BSc Agriculture at Writtle. The Arden assignment appears incorrect; no course transfer or fee substitution is approved.",
+      "sources": [
+        "https://www.aru.ac.uk/study/undergraduate/agriculture"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_14",
+      "stored_title": "BSc (Hons) Veterinary Nursing",
+      "outcome": "owner_and_award_unconfirmed",
+      "finding": "ARU Writtle advertises veterinary-nursing college/apprenticeship provision. This does not verify the stored BSc qualification or Arden ownership.",
+      "sources": [
+        "https://www.aru.ac.uk/study/college-courses/subject-areas/veterinary-nursing"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_39",
+      "stored_title": "MSc Data Analytics and Project Management",
+      "outcome": "historical_award_current_intake_unconfirmed",
+      "finding": "Historical official award evidence exists; two current URL probes returned 404. Do not silently replace it with already mapped MSc Project Management.",
+      "sources": [
+        "https://arden.ac.uk/programme-specifications"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_46",
+      "stored_title": "BA (Hons) Criminal Justice",
+      "outcome": "explicit_criminology_replacement_available",
+      "finding": "Current online BA Criminology is a possible explicit replacement. The January 2027 option and NG/GH level fees are captured. It is not a confirmed rename of Criminal Justice.",
+      "sources": [
+        "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology",
+        "https://arden.ac.uk/which-degree-would-be-right-for-me"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": true
+    },
+    {
+      "course_id": "C_UK004_51",
+      "stored_title": "MSc IT Security Management",
+      "outcome": "redirect_to_canonical_cyber_security",
+      "finding": "The old IT Security Management URL redirects to current MSc Cyber Security, already C_UK004_18. Redirects do not prove award equivalence; retain the existing canonical fee/award scope.",
+      "sources": [
+        "https://arden.ac.uk/our-courses/postgraduate/masters/msc-it-security-management",
+        "https://arden.ac.uk/our-courses/postgraduate/masters/msc-cyber-security"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_52",
+      "stored_title": "MSc Global Supply Chain Management",
+      "outcome": "related_course_already_canonical",
+      "finding": "The current advertised title is MSc Supply Chain Management and Logistics, already C_UK004_25. No exact Global Supply Chain title/intake was established.",
+      "sources": [
+        "https://arden.ac.uk/our-courses/postgraduate/business-degree/msc-supply-chain-management-and-logistics"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_54",
+      "stored_title": "MA Education",
+      "outcome": "exact_ma_route_not_established",
+      "finding": "No exact current MA Education intake, mode and price established. A subject label, PG Cert or staff teaching qualification cannot verify this MA.",
+      "sources": [
+        "https://arden.ac.uk/our-courses/qualification/masters",
+        "https://arden.ac.uk/programme-specifications"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_55",
+      "stored_title": "MSc Data Analytics and Information Systems Management",
+      "outcome": "historical_berlin_award_current_uk_intake_unconfirmed",
+      "finding": "Official Berlin alumni accounts confirm the historical award. They do not establish a current UK intake or price. Both guessed direct URLs returned 404.",
+      "sources": [
+        "https://arden.ac.uk/berlin/knowledge-base/student-life/berlin-graduation-stories-neha"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_57",
+      "stored_title": "BA (Hons) Business Management (Accounting and Finance) with Foundation Year",
+      "outcome": "explicit_bsc_foundation_replacement_available",
+      "finding": "The old foundation URL redirects to a non-foundation BA. The separately advertised BSc Accounting and Finance with Foundation Year is a possible explicit replacement; its collected international fee is unavailable.",
+      "sources": [
+        "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/bsc-hons-accounting-and-finance-foundation"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": true
+    },
+    {
+      "course_id": "C_UK004_58",
+      "stored_title": "BA (Hons) Business Management (Marketing) with Foundation Year",
+      "outcome": "berlin_route_no_uk_intake_verified",
+      "finding": "Exact Marketing foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "sources": [
+        "https://arden.ac.uk/berlin/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-business-management-marketing-foundation-year"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_59",
+      "stored_title": "BA (Hons) Business Management (HRM) with Foundation Year",
+      "outcome": "berlin_route_no_uk_intake_verified",
+      "finding": "Exact HRM foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "sources": [
+        "https://arden.ac.uk/berlin/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-business-management-human-resource-management-foundation-year"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    },
+    {
+      "course_id": "C_UK004_60",
+      "stored_title": "BA (Hons) Business Management (Tourism) with Foundation Year",
+      "outcome": "berlin_route_no_uk_intake_verified",
+      "finding": "Exact Tourism foundation pathway found in Berlin. Do not assign Berlin fees or scholarship conditions to the stored UK route.",
+      "sources": [
+        "https://arden.ac.uk/berlin/our-courses/undergraduate/foundation-year-entry-degrees/ba-hons-business-management-tourism-foundation-year"
+      ],
+      "scholarship_deduction_verified": false,
+      "action_requires_acceptance": false
+    }
+  ]
+}

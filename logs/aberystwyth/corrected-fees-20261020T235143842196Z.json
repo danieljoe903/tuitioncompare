@@ -1,0 +1,830 @@
+{
+  "generated_at": "2026-10-20T23:51:43.842196+00:00",
+  "university_id": "UK002",
+  "mode": "preview",
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aberystwyth\\remaining-review-20261020T231510825902Z\\remaining-course-review.json",
+  "proposals": [
+    {
+      "course_id": "C_ABE002_RES_02",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MRes Parasite Control",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/"
+        },
+        "tuition": {
+          "tuition_fee": "17800.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "MRes Parasitology",
+          "source_course_code": "",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+              "status": "pending",
+              "candidate_urls": [
+                "https://courses.aber.ac.uk/postgraduate/parasite-control/"
+              ]
+            },
+            "display_notes": {
+              "fee": "International tuition has not been verified for this course and intake.",
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+              "official_code": "C111",
+              "official_award": "MRES",
+              "official_title": "Parasite Control",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "pending_fee_mapping"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MRes Parasite Control",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/"
+        },
+        "tuition": {
+          "tuition_fee": "23820.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Parasite Control",
+          "source_course_code": "C111",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Accepted course identity matched to its published intake-year tuition category."
+            },
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+              "official_code": "C111",
+              "official_award": "MRES",
+              "official_title": "Parasite Control",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "pending_separate_reconciliation",
+            "fee_verification_status": "verified",
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Sciences",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_mres",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/parasite-control/",
+            "annual_tuition": "23820.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "supplementary_charges_included": false,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "23820.00",
+                "raw_annual_fee": "£23,820.00",
+                "annotation": "Published base tuition for the first study year. Project-specific supplementary costs, if any, require university confirmation.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_ABE002_RES_04",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MA Modern History",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/"
+        },
+        "tuition": {
+          "tuition_fee": "17200.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "MRes Modern History",
+          "source_course_code": "",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+              "status": "pending",
+              "candidate_urls": [
+                "https://courses.aber.ac.uk/postgraduate/modern-history-masters/"
+              ]
+            },
+            "display_notes": {
+              "fee": "International tuition has not been verified for this course and intake.",
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+              "official_code": "V140",
+              "official_award": "MA",
+              "official_title": "Modern History",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "pending_fee_mapping"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MA Modern History",
+          "duration": "1 Year",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/"
+        },
+        "tuition": {
+          "tuition_fee": "22115.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Modern History",
+          "source_course_code": "V140",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Accepted course identity matched to its published intake-year tuition category."
+            },
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+              "official_code": "V140",
+              "official_award": "MA",
+              "official_title": "Modern History",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "pending_separate_reconciliation",
+            "fee_verification_status": "verified",
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "masters",
+            "course_kind": "postgraduate_taught",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/modern-history-masters/",
+            "annual_tuition": "22115.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "supplementary_charges_included": false,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "22115.00",
+                "raw_annual_fee": "£22,115.00",
+                "annotation": "Published base tuition for the first study year.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_ABE002_RES_06",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "MPhil Psychology",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/"
+        },
+        "tuition": {
+          "tuition_fee": "17200.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "MPhil (Research) Psychology",
+          "source_course_code": "",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+              "status": "pending",
+              "candidate_urls": [
+                "https://courses.aber.ac.uk/postgraduate/mphil-psychology/"
+              ]
+            },
+            "display_notes": {
+              "fee": "International tuition has not been verified for this course and intake.",
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+              "official_code": "C800",
+              "official_award": "MPHL",
+              "official_title": "Psychology",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "pending_fee_mapping"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "MPhil Psychology",
+          "duration": "1 Year",
+          "start_month": "January",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/"
+        },
+        "tuition": {
+          "tuition_fee": "21515.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Psychology",
+          "source_course_code": "C800",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Accepted course identity matched to its published intake-year tuition category."
+            },
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+              "official_code": "C800",
+              "official_award": "MPHL",
+              "official_title": "Psychology",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "pending_separate_reconciliation",
+            "fee_verification_status": "verified",
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "fee_band": "Sciences",
+            "programme_fee_group": "research",
+            "course_kind": "postgraduate_research",
+            "course_source_url": "https://courses.aber.ac.uk/postgraduate/mphil-psychology/",
+            "annual_tuition": "21515.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "supplementary_charges_included": false,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "21515.00",
+                "raw_annual_fee": "£21,515.00",
+                "annotation": "Published base tuition for the first study year. Research fees may increase annually; project-specific supplementary costs are excluded.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_10",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) International Relations",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/"
+        },
+        "tuition": {
+          "tuition_fee": "19190.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "BA (Hons) International Politics",
+          "source_course_code": "",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+              "status": "pending",
+              "candidate_urls": [
+                "https://courses.aber.ac.uk/undergraduate/142L-international-relations/"
+              ]
+            },
+            "display_notes": {
+              "fee": "International tuition has not been verified for this course and intake.",
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+              "official_code": "142L",
+              "official_award": "BA",
+              "official_title": "International Relations",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "pending_fee_mapping"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) International Relations",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "International Relations",
+          "source_course_code": "142L",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Accepted course identity matched to its published intake-year tuition category."
+            },
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+              "official_code": "142L",
+              "official_award": "BA",
+              "official_title": "International Relations",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "pending_separate_reconciliation",
+            "fee_verification_status": "verified",
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/142L-international-relations/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "supplementary_charges_included": false,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "annotation": "Published base tuition for the first study year.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_41",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Drama and Theatre",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/"
+        },
+        "tuition": {
+          "tuition_fee": "19190.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "BA (Hons) Drama and Theatre Studies",
+          "source_course_code": "",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+              "status": "pending",
+              "candidate_urls": [
+                "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/"
+              ]
+            },
+            "display_notes": {
+              "fee": "International tuition has not been verified for this course and intake.",
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+              "official_code": "W400",
+              "official_award": "BA",
+              "official_title": "Drama and Theatre",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "pending_fee_mapping"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Drama and Theatre",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Drama and Theatre",
+          "source_course_code": "W400",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Accepted course identity matched to its published intake-year tuition category."
+            },
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+              "official_code": "W400",
+              "official_award": "BA",
+              "official_title": "Drama and Theatre",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "pending_separate_reconciliation",
+            "fee_verification_status": "verified",
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/W400-drama-and-theatre/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "supplementary_charges_included": false,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "annotation": "Published base tuition for the first study year.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_60",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "LLB (Hons) Law and Criminology",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/"
+        },
+        "tuition": {
+          "tuition_fee": "19190.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "LLB (Hons) Law with Criminology",
+          "source_course_code": "",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+              "status": "pending",
+              "candidate_urls": [
+                "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/"
+              ]
+            },
+            "display_notes": {
+              "fee": "International tuition has not been verified for this course and intake.",
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/",
+              "official_code": "MM91",
+              "official_award": "LLB",
+              "official_title": "Law and Criminology",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "pending_fee_mapping"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "LLB (Hons) Law and Criminology",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/"
+        },
+        "tuition": {
+          "tuition_fee": "20400.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Law and Criminology",
+          "source_course_code": "MM91",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Accepted course identity matched to its published intake-year tuition category."
+            },
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/",
+              "official_code": "MM91",
+              "official_award": "LLB",
+              "official_title": "Law and Criminology",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "pending_separate_reconciliation",
+            "fee_verification_status": "verified",
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Humanities",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/MM91-law-and-criminology/",
+            "annual_tuition": "20400.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "supplementary_charges_included": false,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "20400.00",
+                "raw_annual_fee": "£20,400.00",
+                "annotation": "Published base tuition for the first study year.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK002_84",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Pure Mathematics / Statistics",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "21875.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "",
+          "source_course_name": "BSc (Hons) Mathematics with Statistics",
+          "source_course_code": "",
+          "fee_basis": "unverified",
+          "raw_fees": {
+            "verified": false,
+            "fee_review": {
+              "reason": "Course identity corrected. Applicable tuition must now be mapped to this award and intake.",
+              "status": "pending",
+              "candidate_urls": [
+                "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/"
+              ]
+            },
+            "display_notes": {
+              "fee": "International tuition has not been verified for this course and intake.",
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/",
+              "official_code": "GGC3",
+              "official_award": "BSC",
+              "official_title": "Pure Mathematics / Statistics",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "applicability_unconfirmed",
+            "fee_verification_status": "pending_fee_mapping"
+          }
+        }
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Pure Mathematics / Statistics",
+          "duration": "3 Years",
+          "start_month": "September",
+          "start_year": 2027,
+          "course_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/"
+        },
+        "tuition": {
+          "tuition_fee": "23255.00",
+          "currency": "GBP"
+        },
+        "source": {
+          "academic_year": "2027/28",
+          "source_url": "https://www.aber.ac.uk/en/study-with-us/international/fees-scholarships/",
+          "source_course_name": "Pure Mathematics / Statistics",
+          "source_course_code": "GGC3",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "fee_review": {
+              "status": "resolved",
+              "reason": "Accepted course identity matched to its published intake-year tuition category."
+            },
+            "display_notes": {
+              "deposit": "Deposit amount is not available for comparison. Check your university offer letter.",
+              "scholarship": "Scholarship information is not confirmed for this course and intake. No unverified discount should be included."
+            },
+            "deposit_status": "offer_letter_amount_required",
+            "course_identity": {
+              "note": "Accepted replacement for the stored record; not a claim of historical course equivalence.",
+              "status": "accepted_current_catalogue_match",
+              "source_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/",
+              "official_code": "GGC3",
+              "official_award": "BSC",
+              "official_title": "Pure Mathematics / Statistics",
+              "evidence_generated_at": "2026-10-20T23:15:10.825902+00:00"
+            },
+            "scholarship_status": "pending_separate_reconciliation",
+            "fee_verification_status": "verified",
+            "academic_year": "2027/28",
+            "source_fee_category": "International",
+            "fee_band": "Sciences",
+            "programme_fee_group": "bachelors",
+            "course_kind": "undergraduate",
+            "course_source_url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/",
+            "annual_tuition": "23255.00",
+            "currency": "GBP",
+            "study_year": 1,
+            "fee_method": "reviewed_course_and_published_band",
+            "supplementary_charges_included": false,
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2027/28",
+                "currency": "GBP",
+                "annual_tuition": "23255.00",
+                "raw_annual_fee": "£23,255.00",
+                "annotation": "Published base tuition for the first study year.",
+                "footnote_marker": "",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "blocked": [],
+  "scholarship_amounts_changed": false,
+  "deposit_amounts_changed": false
+}

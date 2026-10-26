@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-10-23T16:31:46.134453+00:00",
+  "mode": "apply",
+  "database_changes": true,
+  "accepted_replacements": true,
+  "preview_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\arden\\twelve-route-review-20261023T133816761598Z.json",
+  "courses": [
+    {
+      "course_id": "C_UK004_46",
+      "kind": "explicit_replacement",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Criminal Justice",
+          "duration": "3 Years",
+          "course_url": "www.arden.ac.uk",
+          "location": "London / Manchester / Birmingham",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September"
+        },
+        "tuition": {
+          "tuition_fee": "13000.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000.00"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BA (Hons) Criminology",
+          "duration": "3 years+ (part-time)",
+          "course_url": "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology",
+          "location": "Online",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January"
+        },
+        "tuition": {
+          "tuition_fee": "5500.00",
+          "scholarship": "0.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000.00"
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=276&awarding_body=arden&course_id=2441",
+          "source_course_code": "2441",
+          "source_course_name": "Criminology",
+          "fee_basis": "per_level",
+          "raw_fees": {
+            "importer": "arden_online_ug_levels_v3",
+            "reconciliation_batch": "arden_two_explicit_replacements_v5",
+            "verified": true,
+            "academic_year": "2026/27",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_source_url": "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology",
+            "source_course_id": "2441",
+            "source_html_sha256": "5b6021668c4c840d57e84b7737a6527275dfe6bc94f508bebd238fde28b5d908",
+            "fee_response_sha256": [
+              "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336",
+              "4fc56ee0ffd19d68eddaddc695ca30a9f4f56a6e9d16408ef25415893cc06336"
+            ],
+            "study_year": 1,
+            "source_terms_text_sha256": "57a7da5cfd57b3290393dc67e8b12c8e0bfc2c6a41657f3a8f60018022fb098b",
+            "mapping": {
+              "kind": "explicit_replacement",
+              "previous_title": "BA (Hons) Criminal Justice",
+              "published_title": "BA (Hons) Criminology",
+              "reviewed_preview_sha256": "603ee31e141dd923220329b7130ddc5224759b67e98f89253ee2cc65befabe24",
+              "acceptance_required": true,
+              "accepted_on_apply": true
+            },
+            "course_kind": "undergraduate_taught_online",
+            "study_mode": "online",
+            "fees_by_level": {
+              "4": "5500.00",
+              "5": "5500.00",
+              "6": "5500.00"
+            },
+            "stored_fee_level": "4",
+            "programme_total_derivation": {
+              "operation": "sum",
+              "levels": [
+                "4",
+                "5",
+                "6"
+              ],
+              "amount": "16500.00",
+              "separately_published_total": false
+            },
+            "fee_country_scope": [
+              "NG",
+              "GH"
+            ],
+            "online_intakes": [
+              "2027-01"
+            ],
+            "default_intake": "2027-01",
+            "study_options": [
+              {
+                "source_option": "c2441|tdl1668|i2027-01|m=pt",
+                "location": "Online",
+                "intake": "2027-01",
+                "attendance": "part_time"
+              }
+            ],
+            "academic_year_basis": "Derived from advertised January 2027 intake under the September–August convention, not a printed fee-year label.",
+            "fee_note": "Published online tuition £5,500 per level for Levels 4–6, not annual tuition. January 2027 NG/GH quotes reviewed. No verified scholarship deduction currently applies to this course.",
+            "scholarship_status": "not_in_collected_global_tiers_schedule_1",
+            "deposit_status": "campus_policy_not_applicable",
+            "scholarship_review": {
+              "reason": "Criminology is absent from the collected Global Tiers eligible-programme list. No deduction from that offer is approved. Other awards remain unconfirmed.",
+              "eligibility_questions": [
+                {
+                  "key": "arden_level",
+                  "label": "Which level will you compare? Programme-wide awards are calculated only on the complete programme basis.",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "4",
+                      "label": "Level 4"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Level 5"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Level 6"
+                    }
+                  ]
+                },
+                {
+                  "key": "arden_intake",
+                  "label": "Which reviewed online intake will you join? Use YYYY-MM.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_online_offer_confirmed",
+                  "label": "Has Arden offered you this online programme for the selected intake?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_uk_student",
+                  "label": "Has Arden confirmed that you are not classified as a UK student under the Global Tiers terms?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_country_evidence_accepted",
+                  "label": "Has Arden accepted your nationality/residence evidence for Global Tiers eligibility?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_partner_route",
+                  "label": "Are you enrolling through a franchise or partnership programme (rather than directly or through an approved recruitment agent)?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_prior_credits_under_40",
+                  "label": "Are you carrying fewer than 40 credits from previous learning, including previous Arden study?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_account_in_good_standing",
+                  "label": "Is your Arden student account free of arrears?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_blocked_or_expelled",
+                  "label": "Are you free of any blocked or expelled student status?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_no_staff_agent_connection",
+                  "label": "Have you confirmed that none of the staff, staff-family, agent or sub-agent exclusions in the offer terms apply to you?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_accurate",
+                  "label": "Is your application and supporting information accurate and free of misrepresentation?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_not_sanctioned",
+                  "label": "Has your eligibility under the offer terms concerning sanctioned persons been confirmed?",
+                  "type": "boolean"
+                },
+                {
+                  "key": "arden_application_residence",
+                  "label": "Country of residence at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                },
+                {
+                  "key": "arden_application_nationality",
+                  "label": "Nationality at application: use a two-letter country code. This batch verifies NG/GH eligibility only.",
+                  "type": "text"
+                }
+              ]
+            },
+            "deposit_review": {
+              "reason": "Campus pre-CAS deposit policy does not apply to online study. Confirm any online payment requirements separately.",
+              "eligibility_questions": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK004_57",
+      "kind": "explicit_replacement",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BA (Hons) Business Management (Accounting and Finance) with Foundation Year",
+          "duration": "4 Years",
+          "course_url": "www.arden.ac.uk",
+          "start_month": "September",
+          "intake_months": "September"
+        },
+        "tuition": {
+          "tuition_fee": "16000.00",
+          "scholarship": "4000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000.00"
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Accounting and Finance with Foundation Year",
+          "duration": "4 Years",
+          "course_url": "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/bsc-hons-accounting-and-finance-foundation",
+          "start_month": "",
+          "intake_months": ""
+        },
+        "tuition": {
+          "tuition_fee": "16000.00",
+          "scholarship": "4000.00",
+          "scholarship_source_id": null,
+          "tuition_deposit": "3000.00"
+        },
+        "source": {
+          "academic_year": "",
+          "source_url": "https://arden.ac.uk/fees/course-page?country_id=1573&award_id=544&awarding_body=arden&course_id=1184",
+          "source_course_code": "1184",
+          "source_course_name": "Accounting and Finance",
+          "fee_basis": "unavailable",
+          "raw_fees": {
+            "importer": "arden_unpublished_ug_v3",
+            "reconciliation_batch": "arden_two_explicit_replacements_v5",
+            "verified": false,
+            "academic_year": "",
+            "currency": "GBP",
+            "source_fee_category": "International",
+            "course_source_url": "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/bsc-hons-accounting-and-finance-foundation",
+            "source_course_id": "1184",
+            "source_html_sha256": "7021f3696fa323d60cc3214af35748fc7e7c7fbbc293bf01df7ead190ffd07cd",
+            "fee_response_sha256": [
+              "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3",
+              "3b2648e1e3dcd65d3be8e3dd556c15eb569bf6771eca1aa93d9c9dac1e1459a3"
+            ],
+            "study_year": 1,
+            "source_terms_text_sha256": "57a7da5cfd57b3290393dc67e8b12c8e0bfc2c6a41657f3a8f60018022fb098b",
+            "mapping": {
+              "kind": "explicit_replacement",
+              "previous_title": "BA (Hons) Business Management (Accounting and Finance) with Foundation Year",
+              "published_title": "BSc (Hons) Accounting and Finance with Foundation Year",
+              "reviewed_preview_sha256": "603ee31e141dd923220329b7130ddc5224759b67e98f89253ee2cc65befabe24",
+              "acceptance_required": true,
+              "accepted_on_apply": true
+            },
+            "course_kind": "undergraduate_foundation_fee_pending",
+            "study_mode": "campus",
+            "academic_year_basis": "Applicable international intake and fee year unverified; no academic year assigned.",
+            "verification_reason": "The BSc Accounting and Finance with Foundation Year route is identified, but the captured international fee is unavailable. Intake and scholarship applicability need confirmation.",
+            "fee_note": "International tuition unavailable for this replacement foundation route; no home or non-foundation price substituted.",
+            "scholarship_status": "pending_international_fee_intake_and_scope",
+            "deposit_status": "pending_international_route_confirmation",
+            "scholarship_review": {
+              "reason": "An applicable international fee, intake and published award scope must be confirmed before any deduction.",
+              "eligibility_questions": []
+            },
+            "deposit_review": {
+              "reason": "Deposit policy applicability for this international foundation route is unconfirmed.",
+              "eligibility_questions": []
+            }
+          }
+        }
+      }
+    }
+  ],
+  "scholarship_rules_changed": false,
+  "deposit_policies_changed": false,
+  "proposed_changes": 2,
+  "applied_changes": 2,
+  "status": "applied"
+}

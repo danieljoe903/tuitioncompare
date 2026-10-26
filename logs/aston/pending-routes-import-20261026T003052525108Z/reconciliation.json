@@ -1,0 +1,461 @@
+{
+  "university_id": "UK007",
+  "generated_at": "2026-10-26T00:30:52.479535+00:00",
+  "preview_path": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aston\\pending-routes-preview-20261026T001317629217Z\\preview.json",
+  "courses": [
+    {
+      "course_id": "C_AST007_01",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/global-business-and-management-top-bsc/september-2027",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "TOPUP",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Global Business and Management (Top-up)",
+          "ucas_cao_code": "NN21"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "applications_opening_soon": false,
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake.",
+            "importer": "aston_pending_routes_v1",
+            "published_duration": "1 year",
+            "replacement_history": {
+              "accepted": true,
+              "mapping": "explicit_replacement",
+              "previous_title": "BSc (Hons) Business Administration (Top-up)",
+              "replacement_title": "BSc (Hons) Global Business and Management (Top-up)"
+            },
+            "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+            "source_course_code": "NN21",
+            "source_course_name": "BSc (Hons) Global Business and Management (Top-up)",
+            "source_sha256": "c7ed354599eaf14ef44aa37d1acffcb9402b15e3c8ca3b85c28fc759bb4bc898",
+            "stored_duration": "1 Year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "23500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/global-business-and-management-top-bsc/september-2027"
+        },
+        "tuition_fee": "23500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/global-business-and-management-top-bsc/september-2027",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "TOPUP",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "BSc (Hons) Global Business and Management (Top-up)",
+          "ucas_cao_code": "NN21"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "applications_opening_soon": false,
+            "course_kind": "undergraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake.",
+            "importer": "aston_pending_routes_v1",
+            "published_duration": "1 year",
+            "replacement_history": {
+              "accepted": true,
+              "mapping": "explicit_replacement",
+              "previous_title": "BSc (Hons) Business Administration (Top-up)",
+              "replacement_title": "BSc (Hons) Global Business and Management (Top-up)"
+            },
+            "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+            "source_course_code": "NN21",
+            "source_course_name": "BSc (Hons) Global Business and Management (Top-up)",
+            "source_sha256": "c7ed354599eaf14ef44aa37d1acffcb9402b15e3c8ca3b85c28fc759bb4bc898",
+            "stored_duration": "1 Year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "23500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/global-business-and-management-top-bsc/september-2027"
+        },
+        "tuition_fee": "23500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_26",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/public-health-mph/september-2027",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "Master of Public Health (MPH)"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "full_time_course_fee",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "applications_opening_soon": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+            "fee_basis": "full_time_course_fee",
+            "fee_note": "Full-time MPH course fee; part-time price is not inferred.",
+            "importer": "aston_pending_routes_v1",
+            "published_duration": "One year FT / Two years PT",
+            "replacement_history": null,
+            "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+            "source_course_code": "",
+            "source_course_name": "Master of Public Health (MPH)",
+            "source_sha256": "b467bd491d1e40a456308f86491b96fafffb216c616428a3cdf5ff96b22b2d0f",
+            "stored_duration": "1 Year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/public-health-mph/september-2027"
+        },
+        "tuition_fee": "24800.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/public-health-mph/september-2027",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "Master of Public Health (MPH)"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "full_time_course_fee",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "applications_opening_soon": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+            "fee_basis": "full_time_course_fee",
+            "fee_note": "Full-time MPH course fee; part-time price is not inferred.",
+            "importer": "aston_pending_routes_v1",
+            "published_duration": "One year FT / Two years PT",
+            "replacement_history": null,
+            "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+            "source_course_code": "",
+            "source_course_name": "Master of Public Health (MPH)",
+            "source_sha256": "b467bd491d1e40a456308f86491b96fafffb216c616428a3cdf5ff96b22b2d0f",
+            "stored_duration": "1 Year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/public-health-mph/september-2027"
+        },
+        "tuition_fee": "24800.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_20",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/advanced-computer-science-msc/january-2027",
+          "duration": "1 Year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Advanced Computer Science"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "applications_opening_soon": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake.",
+            "importer": "aston_pending_routes_v1",
+            "published_duration": "One year",
+            "replacement_history": {
+              "accepted": true,
+              "mapping": "explicit_replacement",
+              "previous_title": "MSc Computer Science",
+              "replacement_title": "MSc Advanced Computer Science"
+            },
+            "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+            "source_course_code": "",
+            "source_course_name": "MSc Advanced Computer Science",
+            "source_sha256": "790bf84898626399f651b53a0aae32cb23a421860ee2b7ec15325c6ff03377d5",
+            "stored_duration": "1 Year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/advanced-computer-science-msc/january-2027"
+        },
+        "tuition_fee": "24800.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/advanced-computer-science-msc/january-2027",
+          "duration": "1 Year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MSc Advanced Computer Science"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "applications_opening_soon": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake.",
+            "importer": "aston_pending_routes_v1",
+            "published_duration": "One year",
+            "replacement_history": {
+              "accepted": true,
+              "mapping": "explicit_replacement",
+              "previous_title": "MSc Computer Science",
+              "replacement_title": "MSc Advanced Computer Science"
+            },
+            "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+            "source_course_code": "",
+            "source_course_name": "MSc Advanced Computer Science",
+            "source_sha256": "790bf84898626399f651b53a0aae32cb23a421860ee2b7ec15325c6ff03377d5",
+            "stored_duration": "1 Year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "24800.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/advanced-computer-science-msc/january-2027"
+        },
+        "tuition_fee": "24800.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_50",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027",
+          "duration": "1 Year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MBA (Full-Time)"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "applications_opening_soon": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake.",
+            "importer": "aston_pending_routes_v1",
+            "published_duration": "One year",
+            "replacement_history": null,
+            "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+            "source_course_code": "",
+            "source_course_name": "MBA (Full-Time)",
+            "source_sha256": "a037c82ae10a773a40a03273b828cc5cb753c4be8e0966515d66392ba9af018b",
+            "stored_duration": "1 Year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "31500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027"
+        },
+        "tuition_fee": "31500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027",
+          "duration": "1 Year",
+          "intake_months": "January",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "title": "MBA (Full-Time)"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2026/27",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2026/27",
+            "applications_opening_soon": false,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake.",
+            "importer": "aston_pending_routes_v1",
+            "published_duration": "One year",
+            "replacement_history": null,
+            "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+            "source_course_code": "",
+            "source_course_name": "MBA (Full-Time)",
+            "source_sha256": "a037c82ae10a773a40a03273b828cc5cb753c4be8e0966515d66392ba9af018b",
+            "stored_duration": "1 Year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "31500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027"
+        },
+        "tuition_fee": "31500.00"
+      }
+    },
+    {
+      "course_id": "C_UK007_24",
+      "changed": false,
+      "before": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/september-2027",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MBA Full-Time"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "applications_opening_soon": true,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake.",
+            "importer": "aston_pending_routes_v1",
+            "published_duration": "One year",
+            "replacement_history": null,
+            "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+            "source_course_code": "",
+            "source_course_name": "MBA Full-Time",
+            "source_sha256": "33938e607324f9983fcd31350dc3e66b5cc4f15518920369c9526fdf63842afe",
+            "stored_duration": "1 Year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "31500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/september-2027"
+        },
+        "tuition_fee": "31500.00"
+      },
+      "after": {
+        "course": {
+          "course_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/september-2027",
+          "duration": "1 Year",
+          "intake_months": "September",
+          "is_active": true,
+          "level": "PG",
+          "location": "Birmingham Campus",
+          "start_month": "September",
+          "start_year": 2027,
+          "title": "MBA Full-Time"
+        },
+        "scholarship": "0.00",
+        "scholarship_source_id": null,
+        "source": {
+          "academic_year": "2027/28",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "academic_year": "2027/28",
+            "applications_opening_soon": true,
+            "course_kind": "postgraduate_taught",
+            "currency": "GBP",
+            "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+            "fee_basis": "annual_tuition",
+            "fee_note": "Published annual international tuition for the selected intake.",
+            "importer": "aston_pending_routes_v1",
+            "published_duration": "One year",
+            "replacement_history": null,
+            "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+            "source_course_code": "",
+            "source_course_name": "MBA Full-Time",
+            "source_sha256": "33938e607324f9983fcd31350dc3e66b5cc4f15518920369c9526fdf63842afe",
+            "stored_duration": "1 Year",
+            "stored_location": "Birmingham Campus",
+            "tuition_fee": "31500.00",
+            "verified": true
+          },
+          "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/september-2027"
+        },
+        "tuition_fee": "31500.00"
+      }
+    }
+  ],
+  "changed_courses": 0,
+  "database_changes": false
+}

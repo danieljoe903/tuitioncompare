@@ -1,0 +1,354 @@
+{
+  "generated_at": "2026-10-22T01:17:04.101176+00:00",
+  "mode": "preview",
+  "database_changes": false,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\campus-intakes-20261021T231617865285Z\\campus-intake-evidence.json",
+  "records": [
+    {
+      "course_id": "C_UK003_12",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "LLB (Hons) Law",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "18400.00",
+          "currency": "GBP",
+          "scholarship": "4000.00",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "LLB (Hons) Law",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Cambridge Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/law",
+          "ucas_cao_code": "M100",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "17500.00",
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/law",
+          "source_course_code": "M100",
+          "source_course_name": "LLB (Hons) Law",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "17500.00",
+            "study_year": 1,
+            "course_kind": "undergraduate",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/law",
+            "source_sha256": "7280d0f97fb743fcb5b660debf374229586a30201fedac13db62e637d88b4261",
+            "campus": "Cambridge",
+            "intake": "January 2027",
+            "mapping_kind": "reviewed_intake_correction",
+            "scholarship_status": "academic_year_applicability_unconfirmed",
+            "scholarship_review": {
+              "academic_year": "2026/27",
+              "status": "pending",
+              "note": "The saved 2027/28 scholarship rule has not been copied to this January 2027 / 2026/27 comparison. Applicable award terms require confirmation.",
+              "eligibility_questions": [
+                {
+                  "key": "new_entrant",
+                  "type": "boolean",
+                  "question": "Are you joining ARU for the first time?"
+                },
+                {
+                  "key": "full_time",
+                  "note": "Exceptional part-time cases require ARU confirmation.",
+                  "type": "boolean",
+                  "question": "Will you study full-time?"
+                },
+                {
+                  "key": "entry_year",
+                  "note": "These rules cover entry into Year 1 only.",
+                  "type": "integer",
+                  "question": "Which course year are you entering?"
+                },
+                {
+                  "key": "apcl",
+                  "note": "APCL discounts need a separate pro-rata assessment.",
+                  "type": "boolean",
+                  "question": "Have you received Accredited Prior Certified Learning credit?"
+                },
+                {
+                  "key": "registration_conditions_met",
+                  "type": "boolean",
+                  "question": "Have all ARU registration conditions been met?"
+                },
+                {
+                  "key": "aru_funding_eligibility_confirmed",
+                  "note": "Sponsored students and federal loan recipients may need confirmation from ARU and their funding body.",
+                  "type": "boolean",
+                  "question": "Is your funding arrangement eligible for this award, including any sponsorship or federal tuition loan?"
+                },
+                {
+                  "key": "aru_ug_award_confirmed",
+                  "type": "boolean",
+                  "question": "Has ARU confirmed your undergraduate scholarship?"
+                },
+                {
+                  "key": "aru_ug_award_tier",
+                  "note": "Exceeding entry requirements does not confirm a tier.",
+                  "type": "choice",
+                  "choices": [
+                    {
+                      "label": "£2,000",
+                      "value": "lower"
+                    },
+                    {
+                      "label": "£4,000",
+                      "value": "higher"
+                    }
+                  ],
+                  "question": "Which first-year award has ARU confirmed?"
+                }
+              ]
+            },
+            "deposit_status": "verified_policy_eligibility_required",
+            "published_deposit_evidence": {
+              "academic_year": "2026/27",
+              "amount": "4000.00",
+              "currency": "GBP",
+              "alternative": "sponsorship_letter",
+              "source_url": "https://www.aru.ac.uk/study/undergraduate/law"
+            },
+            "fee_note": "Published annual international tuition for 2026/27, January 2027 standard three-year campus route.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "17500.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "course_id": "C_UK003_61",
+      "changed": true,
+      "before": {
+        "course": {
+          "title": "BSc (Hons) Construction Management",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "September",
+          "start_year": 2026,
+          "intake_months": "September",
+          "course_url": "www.aru.ac.uk",
+          "ucas_cao_code": "",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "19500.00",
+          "currency": "GBP",
+          "scholarship": "4000.00",
+          "scholarship_source_id": null
+        },
+        "source": null
+      },
+      "after": {
+        "course": {
+          "title": "BSc (Hons) Construction Management",
+          "level": "UG",
+          "duration": "3 Years",
+          "location": "Chelmsford Campus",
+          "start_month": "January",
+          "start_year": 2027,
+          "intake_months": "January",
+          "course_url": "https://www.aru.ac.uk/study/undergraduate/construction-management",
+          "ucas_cao_code": "K220",
+          "work_placement": false
+        },
+        "tuition": {
+          "tuition_fee": "18400.00",
+          "currency": "GBP",
+          "scholarship": "0.00",
+          "scholarship_source_id": null
+        },
+        "source": {
+          "academic_year": "2026/27",
+          "source_url": "https://www.aru.ac.uk/study/undergraduate/construction-management",
+          "source_course_code": "K220",
+          "source_course_name": "BSc (Hons) Construction Management",
+          "fee_basis": "annual_tuition",
+          "raw_fees": {
+            "verified": true,
+            "academic_year": "2026/27",
+            "source_fee_category": "International",
+            "currency": "GBP",
+            "annual_tuition": "18400.00",
+            "study_year": 1,
+            "course_kind": "undergraduate",
+            "course_source_url": "https://www.aru.ac.uk/study/undergraduate/construction-management",
+            "source_sha256": "a9c996de49836a002011e43966b7a6dcba080559d8b7a889da3d0d306a41075d",
+            "campus": "Chelmsford",
+            "intake": "January 2027",
+            "mapping_kind": "reviewed_intake_correction",
+            "scholarship_status": "academic_year_applicability_unconfirmed",
+            "scholarship_review": {
+              "academic_year": "2026/27",
+              "status": "pending",
+              "note": "The saved 2027/28 scholarship rule has not been copied to this January 2027 / 2026/27 comparison. Applicable award terms require confirmation.",
+              "eligibility_questions": [
+                {
+                  "key": "new_entrant",
+                  "type": "boolean",
+                  "question": "Are you joining ARU for the first time?"
+                },
+                {
+                  "key": "full_time",
+                  "note": "Exceptional part-time cases require ARU confirmation.",
+                  "type": "boolean",
+                  "question": "Will you study full-time?"
+                },
+                {
+                  "key": "entry_year",
+                  "note": "These rules cover entry into Year 1 only.",
+                  "type": "integer",
+                  "question": "Which course year are you entering?"
+                },
+                {
+                  "key": "apcl",
+                  "note": "APCL discounts need a separate pro-rata assessment.",
+                  "type": "boolean",
+                  "question": "Have you received Accredited Prior Certified Learning credit?"
+                },
+                {
+                  "key": "registration_conditions_met",
+                  "type": "boolean",
+                  "question": "Have all ARU registration conditions been met?"
+                },
+                {
+                  "key": "aru_funding_eligibility_confirmed",
+                  "note": "Sponsored students and federal loan recipients may need confirmation from ARU and their funding body.",
+                  "type": "boolean",
+                  "question": "Is your funding arrangement eligible for this award, including any sponsorship or federal tuition loan?"
+                },
+                {
+                  "key": "aru_ug_award_confirmed",
+                  "type": "boolean",
+                  "question": "Has ARU confirmed your undergraduate scholarship?"
+                },
+                {
+                  "key": "aru_ug_award_tier",
+                  "note": "Exceeding entry requirements does not confirm a tier.",
+                  "type": "choice",
+                  "choices": [
+                    {
+                      "label": "£2,000",
+                      "value": "lower"
+                    },
+                    {
+                      "label": "£4,000",
+                      "value": "higher"
+                    }
+                  ],
+                  "question": "Which first-year award has ARU confirmed?"
+                }
+              ]
+            },
+            "deposit_status": "verified_policy_eligibility_required",
+            "published_deposit_evidence": {
+              "academic_year": "2026/27",
+              "amount": "4000.00",
+              "currency": "GBP",
+              "alternative": "sponsorship_letter",
+              "source_url": "https://www.aru.ac.uk/study/undergraduate/construction-management"
+            },
+            "fee_note": "Published annual international tuition for 2026/27, January 2027 standard three-year campus route.",
+            "fee_categories": [
+              {
+                "source_fee_category": "International",
+                "academic_year": "2026/27",
+                "currency": "GBP",
+                "annual_tuition": "18400.00",
+                "amount_requires_review": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "deposit_policy": {
+    "action": "create",
+    "changed": true,
+    "before": null,
+    "after": {
+      "schema_version": 1,
+      "academic_year": "2026/27",
+      "kind": "fixed",
+      "amount": "4000.00",
+      "currency": "GBP",
+      "fee_status": "INTL",
+      "payment_stage": "before_cas",
+      "requires_student_visa": true,
+      "full_fee_paying": true,
+      "deduct_scholarship_from_deposit": false,
+      "sponsorship_letter_requires_review": true,
+      "offer_letter_confirmation_required": true,
+      "course_ids": [
+        "C_UK003_12",
+        "C_UK003_61"
+      ],
+      "course_kinds": [
+        "undergraduate",
+        "undergraduate_taught"
+      ],
+      "source_period": "course_page_2026_27_fee_section",
+      "eligibility_questions": [
+        {
+          "key": "requires_student_visa",
+          "type": "boolean",
+          "question": "Do you require a Student visa?"
+        },
+        {
+          "key": "full_fee_paying",
+          "type": "boolean",
+          "question": "Are you a full-fee-paying international student under ARU's payment arrangements?"
+        },
+        {
+          "key": "sponsored",
+          "type": "boolean",
+          "question": "Will a sponsor provide a sponsorship letter?"
+        }
+      ],
+      "note": "The reviewed 2026/27 international course fee sections publish a GBP 4,000 deposit or sponsorship-letter alternative. Confirm payment requirements in the offer. The deposit is part of tuition, not an additional charge.",
+      "course_source_urls": {
+        "C_UK003_12": "https://www.aru.ac.uk/study/undergraduate/law",
+        "C_UK003_61": "https://www.aru.ac.uk/study/undergraduate/construction-management"
+      }
+    }
+  },
+  "proposed_items": 3,
+  "completed": true
+}

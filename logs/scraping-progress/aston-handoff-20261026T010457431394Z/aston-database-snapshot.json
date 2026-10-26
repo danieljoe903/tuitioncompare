@@ -1,0 +1,5074 @@
+{
+  "database_changes": false,
+  "university_id": "UK007",
+  "university": {
+    "university_id": "UK007",
+    "name": "Aston University",
+    "slug": "aston-university",
+    "country": "UK",
+    "city": "Birmingham",
+    "overview": "A triple-accredited business school located in the heart of Birmingham with a high focus on employability.",
+    "estimated_living_cost": "14000",
+    "population": 15500,
+    "admission_requirements": "UCAS tariff 120-136; IELTS 6.5; Strong academic record for Pharmacy/Eng.",
+    "acceptance_rate": "50.0",
+    "graduation_rate": "88",
+    "avg_ug_tuition": "19500",
+    "avg_pg_tuition": "21000",
+    "currency": "GBP",
+    "ranking": 45,
+    "financial_aid": "Aston Global Excellence Scholarship (up to £5,000); MBA grants.",
+    "website": "https://www.aston.ac.uk/",
+    "logo": "https://www.aston.ac.uk/themes/custom/aston_university/logo.svg",
+    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmxnjXhtsMjVi0AQrgvLmVm86SEhyqtqAeg&s",
+    "created_at": "2026-03-28T18:13:28.527Z",
+    "updated_at": "2026-03-28T18:13:28.527Z"
+  },
+  "courses": [
+    {
+      "course_id": "C_AST007_01",
+      "university_id": "UK007",
+      "subject_id": 21,
+      "title": "BSc (Hons) Global Business and Management (Top-up)",
+      "level": "TOPUP",
+      "overview": "Specialist final year at a triple-accredited business school.",
+      "modules": "Strategic Management, Operations, International Business",
+      "entry_requirements": "Level 5 HND; IELTS 6.5",
+      "duration": "1 Year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "NN21",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/global-business-and-management-top-bsc/september-2027",
+      "created_at": "2026-03-28T18:55:19.638Z",
+      "updated_at": "2026-10-26T00:30:42.750Z"
+    },
+    {
+      "course_id": "C_AST007_RES_01",
+      "university_id": "UK007",
+      "subject_id": 23,
+      "title": "MRes Business and Management",
+      "level": "MRES",
+      "overview": "Research-intensive foundation for a PhD in management, finance, or marketing.",
+      "modules": "Management Research Methods, Advanced Analytics, Thesis",
+      "entry_requirements": "2.1 Honours degree; Research Proposal; IELTS 7.0",
+      "duration": "1 Year",
+      "location": "Main Campus Birmingham",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aston.ac.uk",
+      "created_at": "2026-03-28T18:55:37.541Z",
+      "updated_at": "2026-03-28T19:00:31.156Z"
+    },
+    {
+      "course_id": "C_AST007_RES_02",
+      "university_id": "UK007",
+      "subject_id": 90,
+      "title": "MSc by Research (Health Sciences)",
+      "level": "MRES",
+      "overview": "Specialized laboratory research in optometry, pharmacy, or psychology.",
+      "modules": "Research Ethics, Experimental Design, Thesis",
+      "entry_requirements": "2.1 Honours degree; Supervisor agreement; IELTS 6.5",
+      "duration": "1 Year",
+      "location": "Main Campus Birmingham",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aston.ac.uk",
+      "created_at": "2026-03-28T18:55:37.577Z",
+      "updated_at": "2026-03-28T19:00:31.181Z"
+    },
+    {
+      "course_id": "C_AST007_RES_03",
+      "university_id": "UK007",
+      "subject_id": null,
+      "title": "MSc by Research (Engineering & Physical Sciences)",
+      "level": "MRES",
+      "overview": "Technical research in sustainable energy, computer science, or photonics.",
+      "modules": "Technical Research Skills, Thesis",
+      "entry_requirements": "2.1 Honours degree; Supervisor agreement; IELTS 6.0",
+      "duration": "1 Year",
+      "location": "Main Campus Birmingham",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aston.ac.uk",
+      "created_at": "2026-03-28T18:55:37.613Z",
+      "updated_at": "2026-03-28T19:00:31.204Z"
+    },
+    {
+      "course_id": "C_AST007_RES_04",
+      "university_id": "UK007",
+      "subject_id": null,
+      "title": "MPhil (Research) Languages and Social Sciences",
+      "level": "MRES",
+      "overview": "Independent research in sociology, politics, history, or modern languages.",
+      "modules": "Qualitative Research Methods, Thesis",
+      "entry_requirements": "2.1 Honours degree; Research Proposal; IELTS 6.5",
+      "duration": "2 Years",
+      "location": "Main Campus Birmingham",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aston.ac.uk",
+      "created_at": "2026-03-28T18:55:37.653Z",
+      "updated_at": "2026-03-28T19:00:31.229Z"
+    },
+    {
+      "course_id": "C_UK007_01",
+      "university_id": "UK007",
+      "subject_id": 1,
+      "title": "BSc (Hons) Accounting and Finance",
+      "level": "UG",
+      "overview": "Triple-accredited; includes a mandatory professional placement year in year 3.",
+      "modules": "Financial Accounting, Management Accounting, Taxation, Audit",
+      "entry_requirements": "UCAS 112-120; IELTS 6.5.",
+      "duration": "4 Years (placement optional)",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "N420",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/accounting-and-finance-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.028Z",
+      "updated_at": "2026-10-25T22:29:43.497Z"
+    },
+    {
+      "course_id": "C_UK007_02",
+      "university_id": "UK007",
+      "subject_id": 3,
+      "title": "BEng (Hons) Aerospace Engineering",
+      "level": "UG",
+      "overview": "Focused on aircraft design and propulsion systems with an integrated placement year.",
+      "modules": "Aerodynamics, Propulsion, Structural Analysis, Avionics",
+      "entry_requirements": "UCAS 120-128; Math/Physics required; IELTS 6.0.",
+      "duration": "4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "H400",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/aerospace-engineering-beng",
+      "created_at": "2026-03-28T18:14:49.054Z",
+      "updated_at": "2026-10-25T23:11:43.777Z"
+    },
+    {
+      "course_id": "C_UK007_03",
+      "university_id": "UK007",
+      "subject_id": 33,
+      "title": "BSc (Hons) Artificial Intelligence and Robotics",
+      "level": "UG",
+      "overview": "Combines core computer science with machine learning and robotic system design.",
+      "modules": "Machine Learning, Robotics, Computer Vision, AI Ethics",
+      "entry_requirements": "UCAS 120-128; IELTS 6.0.",
+      "duration": "4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "GH76",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-and-robotics-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.078Z",
+      "updated_at": "2026-10-25T22:29:43.509Z"
+    },
+    {
+      "course_id": "C_UK007_04",
+      "university_id": "UK007",
+      "subject_id": 17,
+      "title": "BSc (Hons) Biochemistry",
+      "level": "UG",
+      "overview": "Molecular study of life processes with extensive laboratory training and a year in industry.",
+      "modules": "Molecular Genetics, Metabolism, Cell Biology, Immunology",
+      "entry_requirements": "UCAS 104-120; Biology required; IELTS 6.5.",
+      "duration": "3 or 4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "C700",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/biochemistry-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.103Z",
+      "updated_at": "2026-10-25T22:29:43.509Z"
+    },
+    {
+      "course_id": "C_UK007_05",
+      "university_id": "UK007",
+      "subject_id": null,
+      "title": "BSc (Hons) Biomedical Science",
+      "level": "UG",
+      "overview": "IBMS accredited; exploring the biological mechanisms of human disease for clinical practice.",
+      "modules": "Pathology, Microbiology, Haematology, Clinical Biochemistry",
+      "entry_requirements": "UCAS 120-128; IELTS 7.0.",
+      "duration": "3 or 4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "C900",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/biomedical-science-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.127Z",
+      "updated_at": "2026-10-25T22:29:43.509Z"
+    },
+    {
+      "course_id": "C_UK007_06",
+      "university_id": "UK007",
+      "subject_id": 22,
+      "title": "BSc (Hons) Business Analytics",
+      "level": "UG",
+      "overview": "Focuses on data-driven decision making and statistical modeling in a business context.",
+      "modules": "Data Mining, Big Data, Business Forecasting, SQL",
+      "entry_requirements": "UCAS 112-120; IELTS 6.5.",
+      "duration": "4 Years (placement optional)",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "NG12",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/business-analytics-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.152Z",
+      "updated_at": "2026-10-25T22:29:43.524Z"
+    },
+    {
+      "course_id": "C_UK007_07",
+      "university_id": "UK007",
+      "subject_id": 23,
+      "title": "BSc (Hons) Business and Management",
+      "level": "UG",
+      "overview": "Comprehensive study of organizational strategy, leadership, and operational management.",
+      "modules": "Strategic Management, Marketing, HRM, Project Management",
+      "entry_requirements": "UCAS 112-120; IELTS 6.5.",
+      "duration": "4 Years (placement optional)",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "NN12",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/business-and-management-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.176Z",
+      "updated_at": "2026-10-25T22:29:43.524Z"
+    },
+    {
+      "course_id": "C_UK007_08",
+      "university_id": "UK007",
+      "subject_id": 24,
+      "title": "BEng (Hons) Chemical Engineering",
+      "level": "UG",
+      "overview": "Accredited study of chemical processes, thermodynamics, and sustainable production.",
+      "modules": "Heat Transfer, Mass Transfer, Reaction Engineering, Safety",
+      "entry_requirements": "UCAS 120-128; Math required; IELTS 6.0.",
+      "duration": "3 or 4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "H803",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/chemical-engineering-beng/september-2027",
+      "created_at": "2026-03-28T18:14:49.202Z",
+      "updated_at": "2026-10-25T22:29:43.524Z"
+    },
+    {
+      "course_id": "C_UK007_09",
+      "university_id": "UK007",
+      "subject_id": 26,
+      "title": "BEng (Hons) Civil Engineering",
+      "level": "UG",
+      "overview": "Focuses on sustainable infrastructure, structural mechanics, and geotechnical engineering.",
+      "modules": "Structural Design, Surveying, Fluid Mechanics, Geotechnics",
+      "entry_requirements": "UCAS 112-120; Math required; IELTS 6.0.",
+      "duration": "4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "H200",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/civil-engineering-beng/september-2027",
+      "created_at": "2026-03-28T18:14:49.225Z",
+      "updated_at": "2026-10-25T22:29:43.540Z"
+    },
+    {
+      "course_id": "C_UK007_10",
+      "university_id": "UK007",
+      "subject_id": 34,
+      "title": "BSc (Hons) Construction Project Management",
+      "level": "UG",
+      "overview": "Preparing students for senior roles in site management and cost control in construction.",
+      "modules": "Site Management, Law, Cost Planning, Sustainability",
+      "entry_requirements": "UCAS 104-120; IELTS 6.0.",
+      "duration": "3 or 4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "K221",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/construction-project-management-bsc",
+      "created_at": "2026-03-28T18:14:49.248Z",
+      "updated_at": "2026-10-25T23:11:43.777Z"
+    },
+    {
+      "course_id": "C_UK007_11",
+      "university_id": "UK007",
+      "subject_id": 36,
+      "title": "BSc (Hons) Criminology",
+      "level": "UG",
+      "overview": "Scientific study of crime, criminal behavior, and the response of the justice system.",
+      "modules": "Criminal Justice, Victims, Penology, Policing",
+      "entry_requirements": "UCAS 104-112; IELTS 6.0.",
+      "duration": "4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "L370",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/criminology-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.271Z",
+      "updated_at": "2026-10-25T22:29:43.549Z"
+    },
+    {
+      "course_id": "C_UK007_12",
+      "university_id": "UK007",
+      "subject_id": 84,
+      "title": "BSc (Hons) Digital Marketing",
+      "level": "UG",
+      "overview": "Modern marketing degree focusing on consumer data analytics and online brand strategy.",
+      "modules": "SEO, Content Marketing, Analytics, Social Media Strategy",
+      "entry_requirements": "UCAS 112-120; IELTS 6.5.",
+      "duration": "4 Years (placement optional)",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "N590",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/digital-marketing-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.294Z",
+      "updated_at": "2026-10-25T22:29:43.549Z"
+    },
+    {
+      "course_id": "C_UK007_13",
+      "university_id": "UK007",
+      "subject_id": 46,
+      "title": "BSc (Hons) Economics",
+      "level": "UG",
+      "overview": "Studies global markets, econometrics, and the impact of public policy on finance.",
+      "modules": "Microeconomics, Macroeconomics, Econometrics, Global Trade",
+      "entry_requirements": "UCAS 112-120; IELTS 6.5.",
+      "duration": "4 Years (placement optional)",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "L100",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/economics-bsc",
+      "created_at": "2026-03-28T18:14:49.317Z",
+      "updated_at": "2026-10-25T23:11:43.793Z"
+    },
+    {
+      "course_id": "C_UK007_14",
+      "university_id": "UK007",
+      "subject_id": 49,
+      "title": "BEng (Hons) Electrical and Electronic Engineering",
+      "level": "UG",
+      "overview": "Covers power systems, digital electronics, and signal processing with a placement year.",
+      "modules": "Digital Systems, Power Electronics, Microprocessors, Control",
+      "entry_requirements": "UCAS 120-128; Math required; IELTS 6.0.",
+      "duration": "3 or 4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "H600",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/electrical-and-electronic-engineering-beng",
+      "created_at": "2026-03-28T18:14:49.340Z",
+      "updated_at": "2026-10-25T23:11:43.793Z"
+    },
+    {
+      "course_id": "C_UK007_15",
+      "university_id": "UK007",
+      "subject_id": 107,
+      "title": "BSc (Hons) Psychology",
+      "level": "UG",
+      "overview": "BPS accredited; exploring human behavior through experimental and social research.",
+      "modules": "Cognitive Psychology, Developmental Psychology, Biopsychology",
+      "entry_requirements": "UCAS 112-128; IELTS 6.5.",
+      "duration": "3/4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "C801",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/psychology-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.363Z",
+      "updated_at": "2026-10-25T22:29:43.549Z"
+    },
+    {
+      "course_id": "C_UK007_16",
+      "university_id": "UK007",
+      "subject_id": 79,
+      "title": "LLB (Hons) Law",
+      "level": "UG",
+      "overview": "Qualifying law degree focusing on commercial legal practice and practical advocacy.",
+      "modules": "Criminal Law, Contract Law, Public Law, Equity and Trusts",
+      "entry_requirements": "UCAS 128-144; IELTS 6.5.",
+      "duration": "3 or 4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "M100",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/law-llb",
+      "created_at": "2026-03-28T18:14:49.388Z",
+      "updated_at": "2026-10-25T23:11:43.793Z"
+    },
+    {
+      "course_id": "C_UK007_17",
+      "university_id": "UK007",
+      "subject_id": 91,
+      "title": "MBChB Medicine",
+      "level": "UG",
+      "overview": "GMC-regulated degree preparing students for professional doctor registration.",
+      "modules": "Anatomy, Physiology, Clinical Skills, Public Health, Surgery",
+      "entry_requirements": "AAA; UCAT; Interview; IELTS 7.5.",
+      "duration": "5 Years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "A100",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/medicine-mbchb/september-2027",
+      "created_at": "2026-03-28T18:14:49.411Z",
+      "updated_at": "2026-10-25T23:11:43.809Z"
+    },
+    {
+      "course_id": "C_UK007_18",
+      "university_id": "UK007",
+      "subject_id": 33,
+      "title": "MSc Artificial Intelligence",
+      "level": "PG",
+      "overview": "Advanced study of machine learning, neural networks, and AI implementation in industry.",
+      "modules": "Deep Learning, NLP, Data Mining, Robotics",
+      "entry_requirements": "2.2 Honours (STEM); IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-msc/january-2027",
+      "created_at": "2026-03-28T18:14:49.432Z",
+      "updated_at": "2026-10-25T22:29:43.577Z"
+    },
+    {
+      "course_id": "C_UK007_19",
+      "university_id": "UK007",
+      "subject_id": 22,
+      "title": "MSc Business Analytics",
+      "level": "PG",
+      "overview": "Converting complex data into actionable business intelligence using modern analytics tools.",
+      "modules": "Big Data, Predictive Analytics, Visualization, SQL/Python",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/business-analytics-msc/january-2027",
+      "created_at": "2026-03-28T18:14:49.455Z",
+      "updated_at": "2026-10-25T22:29:43.577Z"
+    },
+    {
+      "course_id": "C_UK007_20",
+      "university_id": "UK007",
+      "subject_id": 33,
+      "title": "MSc Advanced Computer Science",
+      "level": "PG",
+      "overview": "Advanced-level computing covering software engineering and complex systems architecture.",
+      "modules": "Agile Development, Data Structures, Software Engineering",
+      "entry_requirements": "2.2 Honours (STEM); IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/advanced-computer-science-msc/january-2027",
+      "created_at": "2026-03-28T18:14:49.478Z",
+      "updated_at": "2026-10-26T00:30:42.767Z"
+    },
+    {
+      "course_id": "C_UK007_21",
+      "university_id": "UK007",
+      "subject_id": 37,
+      "title": "MSc Cyber Security Management",
+      "level": "PG",
+      "overview": "Focuses on the management of network security protocols and cyber risk mitigation.",
+      "modules": "Network Security, Digital Forensics, Risk Management",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/cyber-security-management-msc/january-2027",
+      "created_at": "2026-03-28T18:14:49.506Z",
+      "updated_at": "2026-10-25T22:29:43.577Z"
+    },
+    {
+      "course_id": "C_UK007_22",
+      "university_id": "UK007",
+      "subject_id": 39,
+      "title": "MSc Data Science",
+      "level": "PG",
+      "overview": "Analyzing large datasets for business intelligence and industrial application.",
+      "modules": "Machine Learning, Big Data, Statistical Modelling, Data Mining",
+      "entry_requirements": "2.2 Honours (STEM); IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/data-science-msc/january-2027",
+      "created_at": "2026-03-28T18:14:49.529Z",
+      "updated_at": "2026-10-25T22:29:43.597Z"
+    },
+    {
+      "course_id": "C_UK007_23",
+      "university_id": "UK007",
+      "subject_id": 83,
+      "title": "MSc International Business",
+      "level": "PG",
+      "overview": "Strategic focus on managing multinational organizations in a global economy.",
+      "modules": "Global Strategy, Cross-Cultural Management, Global Finance",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/international-business-msc/january-2027",
+      "created_at": "2026-03-28T18:14:49.554Z",
+      "updated_at": "2026-10-25T22:29:43.597Z"
+    },
+    {
+      "course_id": "C_UK007_24",
+      "university_id": "UK007",
+      "subject_id": 21,
+      "title": "MBA Full-Time",
+      "level": "PG",
+      "overview": "Elite triple-accredited MBA program for future global corporate leaders.",
+      "modules": "Leadership, Strategic Marketing, Corporate Finance, Ethics",
+      "entry_requirements": "2.1 Honours; 3 years exp; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/september-2027",
+      "created_at": "2026-03-28T18:14:49.579Z",
+      "updated_at": "2026-10-26T00:30:42.787Z"
+    },
+    {
+      "course_id": "C_UK007_25",
+      "university_id": "UK007",
+      "subject_id": 84,
+      "title": "MSc Strategic Marketing Management",
+      "level": "PG",
+      "overview": "CIM accredited; focused on high-level marketing strategy and global brand growth.",
+      "modules": "Consumer Behaviour, Digital Marketing, Strategic Management",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/strategic-marketing-management-msc/january-2027",
+      "created_at": "2026-03-28T18:14:49.606Z",
+      "updated_at": "2026-10-25T22:29:43.597Z"
+    },
+    {
+      "course_id": "C_UK007_26",
+      "university_id": "UK007",
+      "subject_id": 108,
+      "title": "Master of Public Health (MPH)",
+      "level": "PG",
+      "overview": "Addressing global health challenges and population-based healthcare strategy.",
+      "modules": "Epidemiology, Health Policy, Biostatistics, Promotion",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/public-health-mph/september-2027",
+      "created_at": "2026-03-28T18:14:49.633Z",
+      "updated_at": "2026-10-26T00:30:42.767Z"
+    },
+    {
+      "course_id": "C_UK007_27",
+      "university_id": "UK007",
+      "subject_id": 68,
+      "title": "MSc Addiction and Mental Health",
+      "level": "PG",
+      "overview": "Exploring clinical interventions and policy for mental health and substance abuse.",
+      "modules": "Pathophysiology of Addiction, Mental Health Policy, Clinical Research",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/addiction-and-mental-health-msc/september-2027",
+      "created_at": "2026-03-28T18:14:49.660Z",
+      "updated_at": "2026-10-25T22:29:43.597Z"
+    },
+    {
+      "course_id": "C_UK007_28",
+      "university_id": "UK007",
+      "subject_id": 19,
+      "title": "MSc Biotechnology",
+      "level": "PG",
+      "overview": "Advanced lab-based study of biological processes for industrial and medical use.",
+      "modules": "Molecular Biology, Bioprocessing, Genetics, Research Methods",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/biotechnology-msc/september-2027",
+      "created_at": "2026-03-28T18:14:49.686Z",
+      "updated_at": "2026-10-25T22:29:43.613Z"
+    },
+    {
+      "course_id": "C_UK007_29",
+      "university_id": "UK007",
+      "subject_id": 83,
+      "title": "MSc Engineering Management",
+      "level": "PG",
+      "overview": "Bridging the gap between technical engineering and corporate leadership.",
+      "modules": "Operational Excellence, Project Finance, Strategic Management",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/engineering-management-msc/january-2027",
+      "created_at": "2026-03-28T18:14:49.710Z",
+      "updated_at": "2026-10-25T22:29:43.613Z"
+    },
+    {
+      "course_id": "C_UK007_30",
+      "university_id": "UK007",
+      "subject_id": 122,
+      "title": "MSc Supply Chain Management",
+      "level": "PG",
+      "overview": "Focusing on global logistics, procurement, and value chain optimization.",
+      "modules": "Logistics Strategy, Procurement, Global Finance, Operations",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/supply-chain-management-msc/january-2027",
+      "created_at": "2026-03-28T18:14:49.733Z",
+      "updated_at": "2026-10-25T22:29:43.625Z"
+    },
+    {
+      "course_id": "C_UK007_31",
+      "university_id": "UK007",
+      "subject_id": 68,
+      "title": "BSc (Hons) Healthcare Science (Audiology)",
+      "level": "UG",
+      "overview": "Accredited by the Academy of Healthcare Science; includes integrated clinical learning in practice.",
+      "modules": "Neurosensory Science, Clinical Audiology, Rehabilitation",
+      "entry_requirements": "UCAS 120-128; IELTS 7.0.",
+      "duration": "3 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "B611",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/healthcare-science-audiology-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.756Z",
+      "updated_at": "2026-10-25T22:29:43.549Z"
+    },
+    {
+      "course_id": "C_UK007_32",
+      "university_id": "UK007",
+      "subject_id": 99,
+      "title": "MOptom Optometry",
+      "level": "UG",
+      "overview": "Professional training for GOC registration; students gain access to world-class vision clinics.",
+      "modules": "Clinical Optometry, Pathology, Ocular Anatomy, Binocular Vision",
+      "entry_requirements": "AAB-AAA; Science required; IELTS 7.0.",
+      "duration": "4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "B512",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/optometry-moptom/september-2027",
+      "created_at": "2026-03-28T18:14:49.782Z",
+      "updated_at": "2026-10-25T23:11:43.809Z"
+    },
+    {
+      "course_id": "C_UK007_33",
+      "university_id": "UK007",
+      "subject_id": 100,
+      "title": "MPharm Pharmacy",
+      "level": "UG",
+      "overview": "Integrated masters leading to professional registration as a pharmacist.",
+      "modules": "Pharmaceutics, Pharmacology, Clinical Practice, Therapeutics",
+      "entry_requirements": "AAB-AAA; Chemistry required; IELTS 7.0.",
+      "duration": "4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "B230",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/pharmacy-mpharm/september-2027",
+      "created_at": "2026-03-28T18:14:49.807Z",
+      "updated_at": "2026-10-25T22:29:43.566Z"
+    },
+    {
+      "course_id": "C_UK007_34",
+      "university_id": "UK007",
+      "subject_id": null,
+      "title": "BSc (Hons) Neuroscience",
+      "level": "UG",
+      "overview": "Detailed study of the nervous system and brain function with a placement year.",
+      "modules": "Neuroanatomy, Pharmacology, Cognitive Neuroscience, Genetics",
+      "entry_requirements": "UCAS 120-128; Biology required; IELTS 6.5.",
+      "duration": "3 or 4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "B140",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/neuroscience-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.836Z",
+      "updated_at": "2026-10-25T22:29:43.570Z"
+    },
+    {
+      "course_id": "C_UK007_35",
+      "university_id": "UK007",
+      "subject_id": 76,
+      "title": "BSc (Hons) Business and International Relations",
+      "level": "UG",
+      "overview": "Explores the interface between global business and international political systems.",
+      "modules": "International Relations Theory, Global Business, Marketing, Strategy",
+      "entry_requirements": "UCAS 112-120; IELTS 6.5.",
+      "duration": "4 Years (placement optional)",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "LN21",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/business-and-international-relations-bsc/september-2027",
+      "created_at": "2026-03-28T18:14:49.865Z",
+      "updated_at": "2026-10-25T22:29:43.577Z"
+    },
+    {
+      "course_id": "C_UK007_36",
+      "university_id": "UK007",
+      "subject_id": 105,
+      "title": "BSc (Hons) Business and Politics",
+      "level": "UG",
+      "overview": "Combines business management with an analysis of political power and public policy.",
+      "modules": "British Politics, Management Strategy, Comparative Politics",
+      "entry_requirements": "UCAS 112-120; IELTS 6.5.",
+      "duration": "4 Years",
+      "location": "Birmingham Campus",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aston.ac.uk",
+      "created_at": "2026-03-28T18:14:49.892Z",
+      "updated_at": "2026-03-28T18:14:49.892Z"
+    },
+    {
+      "course_id": "C_UK007_37",
+      "university_id": "UK007",
+      "subject_id": 117,
+      "title": "BSc (Hons) Business and Sociology",
+      "level": "UG",
+      "overview": "Examining the social context of business operations and organizational behavior.",
+      "modules": "Social Theory, Globalisation, HRM, Organizational Behaviour",
+      "entry_requirements": "UCAS 104-120; IELTS 6.5.",
+      "duration": "4 Years",
+      "location": "Birmingham Campus",
+      "start_year": 2026,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "www.aston.ac.uk",
+      "created_at": "2026-03-28T18:14:49.919Z",
+      "updated_at": "2026-03-28T18:14:49.919Z"
+    },
+    {
+      "course_id": "C_UK007_38",
+      "university_id": "UK007",
+      "subject_id": 122,
+      "title": "BSc (Hons) Business and Supply Chain Management",
+      "level": "UG",
+      "overview": "Focused on the logistics, procurement, and management of global value chains.",
+      "modules": "Logistics, Operations Management, Strategic Marketing",
+      "entry_requirements": "UCAS 112-120; IELTS 6.5.",
+      "duration": "4 years",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "September",
+      "is_active": true,
+      "ucas_cao_code": "N1J9",
+      "work_placement": false,
+      "intake_months": "September",
+      "course_url": "https://www.aston.ac.uk/study/courses/business-and-supply-chain-management-bsc",
+      "created_at": "2026-03-28T18:14:49.946Z",
+      "updated_at": "2026-10-25T23:11:43.825Z"
+    },
+    {
+      "course_id": "C_UK007_39",
+      "university_id": "UK007",
+      "subject_id": 58,
+      "title": "MSc Finance",
+      "level": "PG",
+      "overview": "Advanced study of global financial systems, markets, and investment strategy.",
+      "modules": "Investment Management, Corporate Finance, Risk Management",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/finance-msc/january-2027",
+      "created_at": "2026-03-28T18:14:49.977Z",
+      "updated_at": "2026-10-25T22:29:43.625Z"
+    },
+    {
+      "course_id": "C_UK007_40",
+      "university_id": "UK007",
+      "subject_id": 58,
+      "title": "MSc Financial Management",
+      "level": "PG",
+      "overview": "Focused on financial reporting and corporate governance for corporate leaders.",
+      "modules": "Financial Reporting, Management Accounting, Taxation",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/financial-management-msc/january-2027",
+      "created_at": "2026-03-28T18:14:50.010Z",
+      "updated_at": "2026-10-25T22:29:43.625Z"
+    },
+    {
+      "course_id": "C_UK007_41",
+      "university_id": "UK007",
+      "subject_id": 58,
+      "title": "MSc Financial Technology",
+      "level": "PG",
+      "overview": "Bridging finance and digital technology; covering blockchain and analytics.",
+      "modules": "FinTech Strategy, Blockchain, Data Analysis, SQL",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/financial-technology-msc/january-2027",
+      "created_at": "2026-03-28T18:14:50.048Z",
+      "updated_at": "2026-10-25T22:29:43.625Z"
+    },
+    {
+      "course_id": "C_UK007_42",
+      "university_id": "UK007",
+      "subject_id": 1,
+      "title": "MSc International Accounting and Finance",
+      "level": "PG",
+      "overview": "Advanced accounting within global regulatory frameworks; starts in January.",
+      "modules": "Advanced Management Accounting, Audit, Financial Strategy",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/international-accounting-and-finance-msc/january-2027",
+      "created_at": "2026-03-28T18:14:50.081Z",
+      "updated_at": "2026-10-25T22:29:43.643Z"
+    },
+    {
+      "course_id": "C_UK007_43",
+      "university_id": "UK007",
+      "subject_id": 58,
+      "title": "MSc Investment Analysis and Risk",
+      "level": "PG",
+      "overview": "Technical masters focusing on capital markets and portfolio risk modeling.",
+      "modules": "Derivatives, Portfolio Theory, Quantitative Finance",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/investment-analysis-and-risk-msc/january-2027",
+      "created_at": "2026-03-28T18:14:50.114Z",
+      "updated_at": "2026-10-25T22:29:43.643Z"
+    },
+    {
+      "course_id": "C_UK007_44",
+      "university_id": "UK007",
+      "subject_id": 22,
+      "title": "MSc Information Systems and Business Analysis",
+      "level": "PG",
+      "overview": "Converting complex IT data into actionable business intelligence.",
+      "modules": "Data Mining, SQL, Project Strategy, Business Analysis",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/information-systems-and-business-analysis-msc/january-2027",
+      "created_at": "2026-03-28T18:14:50.150Z",
+      "updated_at": "2026-10-25T23:11:43.825Z"
+    },
+    {
+      "course_id": "C_UK007_45",
+      "university_id": "UK007",
+      "subject_id": 71,
+      "title": "MSc Human Resource Management",
+      "level": "PG",
+      "overview": "Strategic and ethical people management with a January intake option.",
+      "modules": "Strategic HRM, Employee Relations, L&D, Employment Law",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/human-resource-management-msc/january-2027",
+      "created_at": "2026-03-28T18:14:50.185Z",
+      "updated_at": "2026-10-25T23:11:43.825Z"
+    },
+    {
+      "course_id": "C_UK007_46",
+      "university_id": "UK007",
+      "subject_id": 23,
+      "title": "MSc Business and Management",
+      "level": "PG",
+      "overview": "Conversion masters for graduates wishing to enter senior management.",
+      "modules": "Strategic Management, Marketing, HRM, Finance",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/business-and-management-msc/january-2027",
+      "created_at": "2026-03-28T18:14:50.221Z",
+      "updated_at": "2026-10-25T23:11:43.825Z"
+    },
+    {
+      "course_id": "C_UK007_47",
+      "university_id": "UK007",
+      "subject_id": 39,
+      "title": "MSc Data Science & Artificial Intelligence",
+      "level": "PG",
+      "overview": "January start for machine learning and data-driven industry solutions.",
+      "modules": "Deep Learning, Big Data, Statistical Modelling, Python",
+      "entry_requirements": "2.2 Honours (STEM); IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Birmingham Campus",
+      "start_year": 2026,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "www.aston.ac.uk",
+      "created_at": "2026-03-28T18:14:50.256Z",
+      "updated_at": "2026-03-28T18:14:50.256Z"
+    },
+    {
+      "course_id": "C_UK007_48",
+      "university_id": "UK007",
+      "subject_id": 113,
+      "title": "MSc Robotics and Autonomous Systems",
+      "level": "PG",
+      "overview": "Advanced robotics engineering including control systems and computer vision.",
+      "modules": "Robotic Control, AI, Embedded Systems, Computer Vision",
+      "entry_requirements": "2.2 Honours (STEM); IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/robotics-and-autonomous-systems-msc/january-2027",
+      "created_at": "2026-03-28T18:14:50.288Z",
+      "updated_at": "2026-10-25T23:11:43.843Z"
+    },
+    {
+      "course_id": "C_UK007_49",
+      "university_id": "UK007",
+      "subject_id": 83,
+      "title": "MSc Smart Manufacturing",
+      "level": "PG",
+      "overview": "Focused on the Industry 4.0 transition and digital manufacturing strategy.",
+      "modules": "Automation, Supply Chain, Operations Excellence",
+      "entry_requirements": "2.2 Honours; IELTS 6.5.",
+      "duration": "One year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/smart-manufacturing-msc/january-2027",
+      "created_at": "2026-03-28T18:14:50.322Z",
+      "updated_at": "2026-10-25T23:11:43.843Z"
+    },
+    {
+      "course_id": "C_UK007_50",
+      "university_id": "UK007",
+      "subject_id": 21,
+      "title": "MBA (Full-Time)",
+      "level": "PG",
+      "overview": "January intake for Aston's flagship triple-accredited MBA program.",
+      "modules": "Leadership, Strategic Marketing, Corporate Finance, Ethics",
+      "entry_requirements": "2.1 Honours; 3 years exp; IELTS 6.5.",
+      "duration": "1 Year",
+      "location": "Birmingham Campus",
+      "start_year": 2027,
+      "start_month": "January",
+      "is_active": true,
+      "ucas_cao_code": "",
+      "work_placement": false,
+      "intake_months": "January",
+      "course_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027",
+      "created_at": "2026-03-28T18:14:50.353Z",
+      "updated_at": "2026-10-26T00:30:42.787Z"
+    }
+  ],
+  "tuitions": [
+    {
+      "id": 62899,
+      "course_id": "C_AST007_01",
+      "residency": "INTL",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": null,
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 61318,
+      "course_id": "C_AST007_RES_01",
+      "residency": "EU",
+      "tuition_fee": "4786.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 61319,
+      "course_id": "C_AST007_RES_01",
+      "residency": "INTL",
+      "tuition_fee": "17100.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 61320,
+      "course_id": "C_AST007_RES_02",
+      "residency": "EU",
+      "tuition_fee": "4786.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 61321,
+      "course_id": "C_AST007_RES_02",
+      "residency": "INTL",
+      "tuition_fee": "22150.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 61322,
+      "course_id": "C_AST007_RES_03",
+      "residency": "EU",
+      "tuition_fee": "4786.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 61323,
+      "course_id": "C_AST007_RES_03",
+      "residency": "INTL",
+      "tuition_fee": "22150.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 61324,
+      "course_id": "C_AST007_RES_04",
+      "residency": "EU",
+      "tuition_fee": "4786.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 61325,
+      "course_id": "C_AST007_RES_04",
+      "residency": "INTL",
+      "tuition_fee": "17100.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "2000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5587,
+      "course_id": "C_UK007_01",
+      "residency": "INTL",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5588,
+      "course_id": "C_UK007_01",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5589,
+      "course_id": "C_UK007_02",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5590,
+      "course_id": "C_UK007_02",
+      "residency": "EU",
+      "tuition_fee": "22500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5591,
+      "course_id": "C_UK007_03",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5592,
+      "course_id": "C_UK007_03",
+      "residency": "EU",
+      "tuition_fee": "22500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5593,
+      "course_id": "C_UK007_04",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5594,
+      "course_id": "C_UK007_04",
+      "residency": "EU",
+      "tuition_fee": "21500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5595,
+      "course_id": "C_UK007_05",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5596,
+      "course_id": "C_UK007_05",
+      "residency": "EU",
+      "tuition_fee": "21500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5597,
+      "course_id": "C_UK007_06",
+      "residency": "INTL",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5598,
+      "course_id": "C_UK007_06",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5599,
+      "course_id": "C_UK007_07",
+      "residency": "INTL",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5600,
+      "course_id": "C_UK007_07",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5601,
+      "course_id": "C_UK007_08",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5602,
+      "course_id": "C_UK007_08",
+      "residency": "EU",
+      "tuition_fee": "22500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5603,
+      "course_id": "C_UK007_09",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5604,
+      "course_id": "C_UK007_09",
+      "residency": "EU",
+      "tuition_fee": "21500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5605,
+      "course_id": "C_UK007_10",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5606,
+      "course_id": "C_UK007_10",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5607,
+      "course_id": "C_UK007_11",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5608,
+      "course_id": "C_UK007_11",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5609,
+      "course_id": "C_UK007_12",
+      "residency": "INTL",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5610,
+      "course_id": "C_UK007_12",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5611,
+      "course_id": "C_UK007_13",
+      "residency": "INTL",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5612,
+      "course_id": "C_UK007_13",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5613,
+      "course_id": "C_UK007_14",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5614,
+      "course_id": "C_UK007_14",
+      "residency": "EU",
+      "tuition_fee": "22500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5615,
+      "course_id": "C_UK007_15",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5616,
+      "course_id": "C_UK007_15",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5617,
+      "course_id": "C_UK007_16",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5618,
+      "course_id": "C_UK007_16",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5619,
+      "course_id": "C_UK007_17",
+      "residency": "INTL",
+      "tuition_fee": "47000.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5620,
+      "course_id": "C_UK007_17",
+      "residency": "EU",
+      "tuition_fee": "43500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5621,
+      "course_id": "C_UK007_18",
+      "residency": "INTL",
+      "tuition_fee": "24800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5622,
+      "course_id": "C_UK007_18",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5623,
+      "course_id": "C_UK007_19",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5624,
+      "course_id": "C_UK007_19",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5625,
+      "course_id": "C_UK007_20",
+      "residency": "INTL",
+      "tuition_fee": "24800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5626,
+      "course_id": "C_UK007_20",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5627,
+      "course_id": "C_UK007_21",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5628,
+      "course_id": "C_UK007_21",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5629,
+      "course_id": "C_UK007_22",
+      "residency": "INTL",
+      "tuition_fee": "24800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5630,
+      "course_id": "C_UK007_22",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5631,
+      "course_id": "C_UK007_23",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5632,
+      "course_id": "C_UK007_23",
+      "residency": "EU",
+      "tuition_fee": "22500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5633,
+      "course_id": "C_UK007_24",
+      "residency": "INTL",
+      "tuition_fee": "31500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5634,
+      "course_id": "C_UK007_24",
+      "residency": "EU",
+      "tuition_fee": "31500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5635,
+      "course_id": "C_UK007_25",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5636,
+      "course_id": "C_UK007_25",
+      "residency": "EU",
+      "tuition_fee": "22500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5637,
+      "course_id": "C_UK007_26",
+      "residency": "INTL",
+      "tuition_fee": "24800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5638,
+      "course_id": "C_UK007_26",
+      "residency": "EU",
+      "tuition_fee": "21500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5639,
+      "course_id": "C_UK007_27",
+      "residency": "INTL",
+      "tuition_fee": "24800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5640,
+      "course_id": "C_UK007_27",
+      "residency": "EU",
+      "tuition_fee": "21500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5641,
+      "course_id": "C_UK007_28",
+      "residency": "INTL",
+      "tuition_fee": "24800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5642,
+      "course_id": "C_UK007_28",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5643,
+      "course_id": "C_UK007_29",
+      "residency": "INTL",
+      "tuition_fee": "24800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5644,
+      "course_id": "C_UK007_29",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5645,
+      "course_id": "C_UK007_30",
+      "residency": "INTL",
+      "tuition_fee": "24800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5646,
+      "course_id": "C_UK007_30",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5647,
+      "course_id": "C_UK007_31",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5648,
+      "course_id": "C_UK007_31",
+      "residency": "EU",
+      "tuition_fee": "21500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5649,
+      "course_id": "C_UK007_32",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5650,
+      "course_id": "C_UK007_32",
+      "residency": "EU",
+      "tuition_fee": "21500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5651,
+      "course_id": "C_UK007_33",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5652,
+      "course_id": "C_UK007_33",
+      "residency": "EU",
+      "tuition_fee": "21500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5653,
+      "course_id": "C_UK007_34",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5654,
+      "course_id": "C_UK007_34",
+      "residency": "EU",
+      "tuition_fee": "21500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5655,
+      "course_id": "C_UK007_35",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5656,
+      "course_id": "C_UK007_35",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5657,
+      "course_id": "C_UK007_36",
+      "residency": "INTL",
+      "tuition_fee": "20500.0",
+      "scholarship": "3000.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5658,
+      "course_id": "C_UK007_36",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5659,
+      "course_id": "C_UK007_37",
+      "residency": "INTL",
+      "tuition_fee": "20500.0",
+      "scholarship": "3000.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5660,
+      "course_id": "C_UK007_37",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5661,
+      "course_id": "C_UK007_38",
+      "residency": "INTL",
+      "tuition_fee": "22575.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5662,
+      "course_id": "C_UK007_38",
+      "residency": "EU",
+      "tuition_fee": "20500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5663,
+      "course_id": "C_UK007_39",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5664,
+      "course_id": "C_UK007_39",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5665,
+      "course_id": "C_UK007_40",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5666,
+      "course_id": "C_UK007_40",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5667,
+      "course_id": "C_UK007_41",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5668,
+      "course_id": "C_UK007_41",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5669,
+      "course_id": "C_UK007_42",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5670,
+      "course_id": "C_UK007_42",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5671,
+      "course_id": "C_UK007_43",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5672,
+      "course_id": "C_UK007_43",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5673,
+      "course_id": "C_UK007_44",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5674,
+      "course_id": "C_UK007_44",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5675,
+      "course_id": "C_UK007_45",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5676,
+      "course_id": "C_UK007_45",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5677,
+      "course_id": "C_UK007_46",
+      "residency": "INTL",
+      "tuition_fee": "25500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5678,
+      "course_id": "C_UK007_46",
+      "residency": "EU",
+      "tuition_fee": "22500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5679,
+      "course_id": "C_UK007_47",
+      "residency": "INTL",
+      "tuition_fee": "23500.0",
+      "scholarship": "3000.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5680,
+      "course_id": "C_UK007_47",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5681,
+      "course_id": "C_UK007_48",
+      "residency": "INTL",
+      "tuition_fee": "24800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5682,
+      "course_id": "C_UK007_48",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5683,
+      "course_id": "C_UK007_49",
+      "residency": "INTL",
+      "tuition_fee": "24800.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5684,
+      "course_id": "C_UK007_49",
+      "residency": "EU",
+      "tuition_fee": "23500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5685,
+      "course_id": "C_UK007_50",
+      "residency": "INTL",
+      "tuition_fee": "31500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "5000",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    },
+    {
+      "id": 5686,
+      "course_id": "C_UK007_50",
+      "residency": "EU",
+      "tuition_fee": "31500.0",
+      "scholarship": "0.0",
+      "tuition_deposit": "0",
+      "currency": "GBP",
+      "scholarship_source_id": null
+    }
+  ],
+  "sources": [
+    {
+      "id": 551,
+      "tuition_id": 62899,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/global-business-and-management-top-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake.",
+        "importer": "aston_pending_routes_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "23500.00",
+        "academic_year": "2027/28",
+        "source_sha256": "c7ed354599eaf14ef44aa37d1acffcb9402b15e3c8ca3b85c28fc759bb4bc898",
+        "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+        "stored_duration": "1 Year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "1 year",
+        "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+        "source_course_code": "NN21",
+        "source_course_name": "BSc (Hons) Global Business and Management (Top-up)",
+        "replacement_history": {
+          "mapping": "explicit_replacement",
+          "accepted": true,
+          "previous_title": "BSc (Hons) Business Administration (Top-up)",
+          "replacement_title": "BSc (Hons) Global Business and Management (Top-up)"
+        },
+        "applications_opening_soon": false
+      },
+      "checked_at": "2026-10-26T00:30:42.756Z"
+    },
+    {
+      "id": 507,
+      "tuition_id": 5587,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/accounting-and-finance-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "23500.00",
+        "academic_year": "2027/28",
+        "source_sha256": "3ef9939414545a4930475e9c7d9966382c8c598f1a247501443320e7a8054c51",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 Years (placement optional)",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "N420",
+        "source_course_name": "BSc (Hons) Accounting and Finance"
+      },
+      "checked_at": "2026-10-25T22:29:43.509Z"
+    },
+    {
+      "id": 537,
+      "tuition_id": 5589,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/aerospace-engineering-beng",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "4558312b23af3506073343dd57744758ffdcc88b2ea70cb31a343aa71b8001ef",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "H400",
+        "source_course_name": "BEng (Hons) Aerospace Engineering",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.777Z"
+    },
+    {
+      "id": 508,
+      "tuition_id": 5591,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-and-robotics-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "d605cdb19b3175ca2649b0f8894dfd679ebb0f9a8d6e65fc288869407bd1cc39",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "GH76",
+        "source_course_name": "BSc (Hons) Artificial Intelligence and Robotics"
+      },
+      "checked_at": "2026-10-25T22:29:43.509Z"
+    },
+    {
+      "id": 509,
+      "tuition_id": 5593,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/biochemistry-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "67d2fde3405e53e97f42068b1460fa9c11679e500a34dfcc6154b1add256329b",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "3 or 4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "3 or 4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "C700",
+        "source_course_name": "BSc (Hons) Biochemistry"
+      },
+      "checked_at": "2026-10-25T22:29:43.509Z"
+    },
+    {
+      "id": 510,
+      "tuition_id": 5595,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/biomedical-science-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "06d22d2646ba6f849229d7c8b345b12a7485e7587f615c0c55b8d3ea2f15ce87",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "3 or 4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "3 or 4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "C900",
+        "source_course_name": "BSc (Hons) Biomedical Science"
+      },
+      "checked_at": "2026-10-25T22:29:43.524Z"
+    },
+    {
+      "id": 511,
+      "tuition_id": 5597,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/business-analytics-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "23500.00",
+        "academic_year": "2027/28",
+        "source_sha256": "a807f5343e0c0199c5c825a242a8794fec3055652d2166e92b138028c5de197d",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 Years (placement optional)",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "NG12",
+        "source_course_name": "BSc (Hons) Business Analytics"
+      },
+      "checked_at": "2026-10-25T22:29:43.524Z"
+    },
+    {
+      "id": 512,
+      "tuition_id": 5599,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/business-and-management-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "23500.00",
+        "academic_year": "2027/28",
+        "source_sha256": "3705ef506114ee24c443b217eb0c9589ab41bd85b9fe3c9347ce4f997e99a2a1",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 Years (placement optional)",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "NN12",
+        "source_course_name": "BSc (Hons) Business and Management"
+      },
+      "checked_at": "2026-10-25T22:29:43.524Z"
+    },
+    {
+      "id": 513,
+      "tuition_id": 5601,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/chemical-engineering-beng/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "d4f170ff183c5881f1bc3eb12f1e46b3463df324f0a19eaa67449e8d69a5380f",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "3 or 4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "3 or 4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "H803",
+        "source_course_name": "BEng (Hons) Chemical Engineering"
+      },
+      "checked_at": "2026-10-25T22:29:43.540Z"
+    },
+    {
+      "id": 514,
+      "tuition_id": 5603,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/civil-engineering-beng/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "25a3ab15f2aba0bfad55cf85a81b7e463376e5d8b240a509acba688d27f6d27c",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "H200",
+        "source_course_name": "BEng (Hons) Civil Engineering"
+      },
+      "checked_at": "2026-10-25T22:29:43.540Z"
+    },
+    {
+      "id": 538,
+      "tuition_id": 5605,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/construction-project-management-bsc",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "0f349777aa2c6ddad1113fe12d3040a643072b426a4bb1542aa6ab7d15371c1e",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "3 or 4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "3 or 4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "K221",
+        "source_course_name": "BSc (Hons) Construction Project Management",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.793Z"
+    },
+    {
+      "id": 515,
+      "tuition_id": 5607,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/criminology-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "fdac7f47bb7d355e28e5fdd98694518559cee7b025c32a1c089e1f5cfd4076f8",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "L370",
+        "source_course_name": "BSc (Hons) Criminology"
+      },
+      "checked_at": "2026-10-25T22:29:43.549Z"
+    },
+    {
+      "id": 516,
+      "tuition_id": 5609,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/digital-marketing-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "23500.00",
+        "academic_year": "2027/28",
+        "source_sha256": "bdee2d9602e638402299add39d2be0474b3f845c94fe66d05c2da9615ad29941",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 Years (placement optional)",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "N590",
+        "source_course_name": "BSc (Hons) Digital Marketing"
+      },
+      "checked_at": "2026-10-25T22:29:43.549Z"
+    },
+    {
+      "id": 539,
+      "tuition_id": 5611,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/economics-bsc",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "23500.00",
+        "academic_year": "2027/28",
+        "source_sha256": "84a275a0d889e917d0d9bf5de70d6d931a4887bdafb6d17175b5e5dd584412d7",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 Years (placement optional)",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "L100",
+        "source_course_name": "BSc (Hons) Economics",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.793Z"
+    },
+    {
+      "id": 540,
+      "tuition_id": 5613,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/electrical-and-electronic-engineering-beng",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "1bb3afc62c31ea7657d89cb625106c8ecf376c84080eddd7c480cba724022eb8",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "3 or 4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "3 or 4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "H600",
+        "source_course_name": "BEng (Hons) Electrical and Electronic Engineering",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.793Z"
+    },
+    {
+      "id": 517,
+      "tuition_id": 5615,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/psychology-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "5d69e857e50cedca3867694a8b1390e40b70df15994769238069054741758927",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "3/4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "3/4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "C801",
+        "source_course_name": "BSc (Hons) Psychology"
+      },
+      "checked_at": "2026-10-25T22:29:43.549Z"
+    },
+    {
+      "id": 541,
+      "tuition_id": 5617,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/law-llb",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "ce7e3776b5fcb65dc209108265c5cb04a6b9c03f30d9391519ff86eab763af81",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "3 or 4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "3 or 4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "M100",
+        "source_course_name": "LLB (Hons) Law",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.809Z"
+    },
+    {
+      "id": 542,
+      "tuition_id": 5619,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/medicine-mbchb/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "47000.00",
+        "academic_year": "2027/28",
+        "source_sha256": "1f204e843772fe2a47765a87aa0c581ba6a3f3c02f0a5ca831090087c9c3b766",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "5 Years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "5 Years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "A100",
+        "source_course_name": "MBChB Medicine",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.809Z"
+    },
+    {
+      "id": 522,
+      "tuition_id": 5621,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/artificial-intelligence-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "24800.00",
+        "academic_year": "2026/27",
+        "source_sha256": "9c175a72d53882708147656e9d4c180392ba855a362755dd0dc1f9cb4a0b6cc3",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Artificial Intelligence"
+      },
+      "checked_at": "2026-10-25T22:29:43.577Z"
+    },
+    {
+      "id": 523,
+      "tuition_id": 5623,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/business-analytics-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "7dc9fd9ef3dbcdac07037c90fb4d43e9dc9c16795e28202ffa7bca56581bd5e6",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Business Analytics"
+      },
+      "checked_at": "2026-10-25T22:29:43.577Z"
+    },
+    {
+      "id": 553,
+      "tuition_id": 5625,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/advanced-computer-science-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake.",
+        "importer": "aston_pending_routes_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "24800.00",
+        "academic_year": "2026/27",
+        "source_sha256": "790bf84898626399f651b53a0aae32cb23a421860ee2b7ec15325c6ff03377d5",
+        "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+        "stored_duration": "1 Year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+        "source_course_code": "",
+        "source_course_name": "MSc Advanced Computer Science",
+        "replacement_history": {
+          "mapping": "explicit_replacement",
+          "accepted": true,
+          "previous_title": "MSc Computer Science",
+          "replacement_title": "MSc Advanced Computer Science"
+        },
+        "applications_opening_soon": false
+      },
+      "checked_at": "2026-10-26T00:30:42.784Z"
+    },
+    {
+      "id": 524,
+      "tuition_id": 5627,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/cyber-security-management-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "233d91594a7e8cab5de2022f32b50c59b39b5ede14af0ca3e44356c04dfb2014",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Cyber Security Management"
+      },
+      "checked_at": "2026-10-25T22:29:43.594Z"
+    },
+    {
+      "id": 525,
+      "tuition_id": 5629,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/data-science-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "24800.00",
+        "academic_year": "2026/27",
+        "source_sha256": "397991941fb7204419a2c75e6addb4f12e6e3cc5cac61b9ed6736eade13c8f27",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Data Science"
+      },
+      "checked_at": "2026-10-25T22:29:43.597Z"
+    },
+    {
+      "id": 526,
+      "tuition_id": 5631,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/international-business-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "c45260d8b33b5a10fd7f59b9a7e9464c139f47876679c7db1acca742b95c4330",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc International Business"
+      },
+      "checked_at": "2026-10-25T22:29:43.597Z"
+    },
+    {
+      "id": 543,
+      "tuition_id": 5633,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake.",
+        "importer": "aston_pending_routes_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "31500.00",
+        "academic_year": "2027/28",
+        "source_sha256": "33938e607324f9983fcd31350dc3e66b5cc4f15518920369c9526fdf63842afe",
+        "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+        "stored_duration": "1 Year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+        "source_course_code": "",
+        "source_course_name": "MBA Full-Time",
+        "replacement_history": null,
+        "applications_opening_soon": true
+      },
+      "checked_at": "2026-10-26T00:30:42.800Z"
+    },
+    {
+      "id": 527,
+      "tuition_id": 5635,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/strategic-marketing-management-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "5c674cc89e18808c56f0e263110c0b71fbd2f22c466f76c196462cc059803759",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Strategic Marketing Management"
+      },
+      "checked_at": "2026-10-25T22:29:43.597Z"
+    },
+    {
+      "id": 552,
+      "tuition_id": 5637,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/public-health-mph/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "full_time_course_fee",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Full-time MPH course fee; part-time price is not inferred.",
+        "importer": "aston_pending_routes_v1",
+        "verified": true,
+        "fee_basis": "full_time_course_fee",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "24800.00",
+        "academic_year": "2027/28",
+        "source_sha256": "b467bd491d1e40a456308f86491b96fafffb216c616428a3cdf5ff96b22b2d0f",
+        "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+        "stored_duration": "1 Year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year FT / Two years PT",
+        "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+        "source_course_code": "",
+        "source_course_name": "Master of Public Health (MPH)",
+        "replacement_history": null,
+        "applications_opening_soon": false
+      },
+      "checked_at": "2026-10-26T00:30:42.767Z"
+    },
+    {
+      "id": 528,
+      "tuition_id": 5639,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/addiction-and-mental-health-msc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "24800.00",
+        "academic_year": "2027/28",
+        "source_sha256": "d1cd6c01580863de7531453122418c5de4307d9ea3f59178d3955bd7d72ec587",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Addiction and Mental Health"
+      },
+      "checked_at": "2026-10-25T22:29:43.613Z"
+    },
+    {
+      "id": 529,
+      "tuition_id": 5641,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/biotechnology-msc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "24800.00",
+        "academic_year": "2027/28",
+        "source_sha256": "3088d94db3dd3877b786a224f418ad5357f292640e067fba8b2cc0ba1a429811",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Biotechnology"
+      },
+      "checked_at": "2026-10-25T22:29:43.613Z"
+    },
+    {
+      "id": 530,
+      "tuition_id": 5643,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/engineering-management-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "24800.00",
+        "academic_year": "2026/27",
+        "source_sha256": "bae7a74150c3d7a167f99d2005525fb6f41aa35e751adb24209b9943379b2fcf",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Engineering Management"
+      },
+      "checked_at": "2026-10-25T22:29:43.613Z"
+    },
+    {
+      "id": 531,
+      "tuition_id": 5645,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/supply-chain-management-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "24800.00",
+        "academic_year": "2026/27",
+        "source_sha256": "41fb8dca7c0049724a30809deeb7167da1522420ece4ae33104aca56784fa9b7",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Supply Chain Management"
+      },
+      "checked_at": "2026-10-25T22:29:43.625Z"
+    },
+    {
+      "id": 518,
+      "tuition_id": 5647,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/healthcare-science-audiology-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "6361ef087fed9596275d7745c8dc267252b0a7b6b554b546a8a4c316d46dea17",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "3 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "3 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "B611",
+        "source_course_name": "BSc (Hons) Healthcare Science (Audiology)"
+      },
+      "checked_at": "2026-10-25T22:29:43.566Z"
+    },
+    {
+      "id": 544,
+      "tuition_id": 5649,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/optometry-moptom/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "04fd98095ca6b7fe2bb5db03b93ee627638aeb08ad799fa0661960f8d111f40c",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "B512",
+        "source_course_name": "MOptom Optometry",
+        "replacement_history": {
+          "mapping": "explicit_replacement",
+          "accepted": true,
+          "previous_title": "BSc (Hons) Optometry",
+          "replacement_title": "MOptom Optometry"
+        }
+      },
+      "checked_at": "2026-10-25T23:11:43.809Z"
+    },
+    {
+      "id": 519,
+      "tuition_id": 5651,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/pharmacy-mpharm/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "6085981afc0185eeb5927174f5124bf39d5ac0b6983584f3a08bbebca4c33aac",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "B230",
+        "source_course_name": "MPharm Pharmacy"
+      },
+      "checked_at": "2026-10-25T22:29:43.570Z"
+    },
+    {
+      "id": 520,
+      "tuition_id": 5653,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/neuroscience-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "eec3c53665a90027101aa9ec98739038e70739e2a3c739b2862f6e707e50a91b",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "3 or 4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "3 or 4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "B140",
+        "source_course_name": "BSc (Hons) Neuroscience"
+      },
+      "checked_at": "2026-10-25T22:29:43.576Z"
+    },
+    {
+      "id": 521,
+      "tuition_id": 5655,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/business-and-international-relations-bsc/september-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "ff2fb9b064f36219ded4be9d21258b9c9b24fceb32687bcf88a4280137f1b9e3",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 Years (placement optional)",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years with integrated placement year (international students may opt out of the placement year)",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "LN21",
+        "source_course_name": "BSc (Hons) Business and International Relations"
+      },
+      "checked_at": "2026-10-25T22:29:43.577Z"
+    },
+    {
+      "id": 545,
+      "tuition_id": 5661,
+      "academic_year": "2027/28",
+      "source_url": "https://www.aston.ac.uk/study/courses/business-and-supply-chain-management-bsc",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "first_year_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published first-year international tuition; placement-year fees are separate and later-year fees may change.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "first_year_tuition",
+        "course_kind": "undergraduate_taught",
+        "tuition_fee": "22575.00",
+        "academic_year": "2027/28",
+        "source_sha256": "dd5f6714f48d6befd06b941fb36b0e654fc42b69fe6daaddd668912befc09dcc",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "4 years",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "4 years",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "N1J9",
+        "source_course_name": "BSc (Hons) Business and Supply Chain Management",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.825Z"
+    },
+    {
+      "id": 532,
+      "tuition_id": 5663,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/finance-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "0e47f64d09e46c0610397f824bf5eee5f01053b876739ac3ef833876f2b10a1f",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Finance"
+      },
+      "checked_at": "2026-10-25T22:29:43.625Z"
+    },
+    {
+      "id": 533,
+      "tuition_id": 5665,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/financial-management-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "fc276b3dc2bf262d0a6653941ce09934c4279f13b1644cbfea9532a6aeced2e4",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Financial Management"
+      },
+      "checked_at": "2026-10-25T22:29:43.625Z"
+    },
+    {
+      "id": 534,
+      "tuition_id": 5667,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/financial-technology-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "1eec3f801b564a10498ae6c46a59036d7e733dcc4db9ae4fbe459bddb9b8251b",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Financial Technology"
+      },
+      "checked_at": "2026-10-25T22:29:43.643Z"
+    },
+    {
+      "id": 535,
+      "tuition_id": 5669,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/international-accounting-and-finance-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "773d3e9dfc863799d77596378c2705a5f844fb4a135ac89285c4469491a647d9",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc International Accounting and Finance"
+      },
+      "checked_at": "2026-10-25T22:29:43.643Z"
+    },
+    {
+      "id": 536,
+      "tuition_id": 5671,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/investment-analysis-and-risk-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_first30_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "c7be5e1572b2446df5f6f027a31ff6fc827787ca37f769cc0ca2b52d9690faf4",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Investment Analysis and Risk"
+      },
+      "checked_at": "2026-10-25T22:29:43.643Z"
+    },
+    {
+      "id": 546,
+      "tuition_id": 5673,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/information-systems-and-business-analysis-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "5e0d5cc761cf7c897ffc55703bd81d9ba08acbfd193495c189aa1dc3833a02f3",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Information Systems and Business Analysis",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.825Z"
+    },
+    {
+      "id": 547,
+      "tuition_id": 5675,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/human-resource-management-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "7da0f5a415f692cbdcf134700f60a8d83a29a469617ac7dc37280b241a7ce050",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Human Resource Management",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.825Z"
+    },
+    {
+      "id": 548,
+      "tuition_id": 5677,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/business-and-management-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "25500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "8fe51f0d68e839910d43a340a36b4938180b18e3dd224dfb8259d7f3ce0e6a6b",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Business and Management",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.843Z"
+    },
+    {
+      "id": 549,
+      "tuition_id": 5681,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/robotics-and-autonomous-systems-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "24800.00",
+        "academic_year": "2026/27",
+        "source_sha256": "ebabffa5b0c984978657d5cd41fbefc37d63260592d90b05b85e0abce8b66da2",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Robotics and Autonomous Systems",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.843Z"
+    },
+    {
+      "id": 550,
+      "tuition_id": 5683,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/smart-manufacturing-msc/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake. This is not a guaranteed total programme price.",
+        "importer": "aston_remaining14_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "24800.00",
+        "academic_year": "2026/27",
+        "source_sha256": "59490c97df8f22e2b68a59a2e7b85893eb580551690d5b3d3b8b0e4ecfe933ef",
+        "deposit_review": "offer_and_policy_scope_reconciliation_required",
+        "stored_duration": "One year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "separate_cohort_scope_reconciliation_required",
+        "source_course_code": "",
+        "source_course_name": "MSc Smart Manufacturing",
+        "replacement_history": null
+      },
+      "checked_at": "2026-10-25T23:11:43.843Z"
+    },
+    {
+      "id": 554,
+      "tuition_id": 5685,
+      "academic_year": "2026/27",
+      "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027",
+      "source_course_code": "",
+      "source_course_name": "",
+      "fee_basis": "annual_tuition",
+      "student_contribution": null,
+      "published_total": null,
+      "raw_fees": {
+        "currency": "GBP",
+        "fee_note": "Published annual international tuition for the selected intake.",
+        "importer": "aston_pending_routes_v1",
+        "verified": true,
+        "fee_basis": "annual_tuition",
+        "course_kind": "postgraduate_taught",
+        "tuition_fee": "31500.00",
+        "academic_year": "2026/27",
+        "source_sha256": "a037c82ae10a773a40a03273b828cc5cb753c4be8e0966515d66392ba9af018b",
+        "deposit_review": "Deposit amounts remain offer-letter specific. Any course-specific published payment requires separate reconciliation.",
+        "stored_duration": "1 Year",
+        "stored_location": "Birmingham Campus",
+        "published_duration": "One year",
+        "scholarship_review": "Exact route/intake reconciliation pending; no new deduction verified.",
+        "source_course_code": "",
+        "source_course_name": "MBA (Full-Time)",
+        "replacement_history": null,
+        "applications_opening_soon": false
+      },
+      "checked_at": "2026-10-26T00:30:42.787Z"
+    }
+  ],
+  "scholarships": [
+    {
+      "id": 95,
+      "university_id": "UK007",
+      "name": "Aston Global Excellence Scholarship",
+      "level": "UG",
+      "eligibility": "International (Non-EU) fee status",
+      "award_type": "Tuition Reduction",
+      "award_value": "2000.00-5000.00",
+      "currency": "GBP",
+      "deadline": "2026-06-14",
+      "requirements": "Open to students from all countries outside the UK; Must hold an offer for a full-time Undergraduate program; Awarded based on academic achievement (equivalent to AAB at A-Level); Submission of a 500-word personal statement on career goals.",
+      "description": "Aston’s flagship merit-based award designed to support the most academically gifted international students. The value is tiered based on the strength of the application and is applied as a reduction in the first year's tuition fees.",
+      "url": "https://www.aston.ac.uk/international/scholarships"
+    },
+    {
+      "id": 96,
+      "university_id": "UK007",
+      "name": "Aston Global Excellence Scholarship",
+      "level": "PG",
+      "eligibility": "International (Non-EU) fee status",
+      "award_type": "Tuition Reduction",
+      "award_value": "2000.00-5000.00",
+      "currency": "GBP",
+      "deadline": "2026-06-14",
+      "requirements": "Must hold an offer for a taught Master’s degree (excluding MBA); Hold a 2:1 or equivalent in a relevant undergraduate degree; Applicants must demonstrate leadership potential and commitment to their chosen industry through a personal statement.",
+      "description": "A prestigious award for international postgraduates aimed at attracting top global talent to Birmingham. It provides a significant reduction in tuition fees to assist high-achievers in specializing within Aston's business, engineering, and health faculties.",
+      "url": "https://www.aston.ac.uk/international/scholarships"
+    },
+    {
+      "id": 273,
+      "university_id": "UK007",
+      "name": "Aston International Community Scholarship — UG September 2027 — reviewed30",
+      "level": "UG",
+      "eligibility": "Exact reviewed Birmingham programme, intake, Overseas fee status and fully self-funded applicant.",
+      "award_type": "Conditional tuition reduction",
+      "award_value": "3000.00",
+      "currency": "GBP",
+      "deadline": null,
+      "requirements": "Saved applicant confirmation of every governing rule condition; questions belong on scholarship page.",
+      "description": "Community: automatic under governing terms, not guaranteed before conditions. Cadbury: competitive and requires a confirmed award. Only one award is held; no deposit payment is inferred.",
+      "url": "https://www.aston.ac.uk/sites/default/files/V3%20UG%20ICS%20Terms%20and%20Conditions%20September%202027.pdf"
+    },
+    {
+      "id": 274,
+      "university_id": "UK007",
+      "name": "Aston Sir Adrian Cadbury Chancellor’s Scholarship — UG September 2027 — reviewed30",
+      "level": "UG",
+      "eligibility": "Exact reviewed Birmingham programme, intake, Overseas fee status and fully self-funded applicant.",
+      "award_type": "Conditional tuition reduction",
+      "award_value": "10000.00",
+      "currency": "GBP",
+      "deadline": null,
+      "requirements": "Saved applicant confirmation of every governing rule condition; questions belong on scholarship page.",
+      "description": "Community: automatic under governing terms, not guaranteed before conditions. Cadbury: competitive and requires a confirmed award. Only one award is held; no deposit payment is inferred.",
+      "url": "https://www.aston.ac.uk/sites/default/files/SACCS%20Terms%20and%20Conditions%202027%20V2_3.pdf"
+    },
+    {
+      "id": 275,
+      "university_id": "UK007",
+      "name": "Aston International Community Scholarship — PG January 2027 — reviewed30",
+      "level": "PG",
+      "eligibility": "Exact reviewed Birmingham programme, intake, Overseas fee status and fully self-funded applicant.",
+      "award_type": "Conditional tuition reduction",
+      "award_value": "4000.00",
+      "currency": "GBP",
+      "deadline": null,
+      "requirements": "Saved applicant confirmation of every governing rule condition; questions belong on scholarship page.",
+      "description": "Community: automatic under governing terms, not guaranteed before conditions. Cadbury: competitive and requires a confirmed award. Only one award is held; no deposit payment is inferred.",
+      "url": "https://www.aston.ac.uk/sites/default/files/PG%20ICS%20Terms%20and%20Conditions%20January%202027.pdf"
+    },
+    {
+      "id": 276,
+      "university_id": "UK007",
+      "name": "Aston Sir Adrian Cadbury Chancellor’s Scholarship — PG January 2027 — reviewed30",
+      "level": "PG",
+      "eligibility": "Exact reviewed Birmingham programme, intake, Overseas fee status and fully self-funded applicant.",
+      "award_type": "Conditional tuition reduction",
+      "award_value": "10000.00",
+      "currency": "GBP",
+      "deadline": "2026-11-01",
+      "requirements": "Saved applicant confirmation of every governing rule condition; questions belong on scholarship page.",
+      "description": "Community: automatic under governing terms, not guaranteed before conditions. Cadbury: competitive and requires a confirmed award. Only one award is held; no deposit payment is inferred.",
+      "url": "https://www.aston.ac.uk/sites/default/files/SACCS%20Terms%20and%20Conditions%202027%20V2_3.pdf"
+    },
+    {
+      "id": 277,
+      "university_id": "UK007",
+      "name": "Aston International Community Scholarship — PG September 2027 — reviewed30",
+      "level": "PG",
+      "eligibility": "Exact reviewed Birmingham programme, intake, Overseas fee status and fully self-funded applicant.",
+      "award_type": "Conditional tuition reduction",
+      "award_value": "5500.00",
+      "currency": "GBP",
+      "deadline": null,
+      "requirements": "Saved applicant confirmation of every governing rule condition; questions belong on scholarship page.",
+      "description": "Community: automatic under governing terms, not guaranteed before conditions. Cadbury: competitive and requires a confirmed award. Only one award is held; no deposit payment is inferred.",
+      "url": "https://www.aston.ac.uk/sites/default/files/V2%20PG%20ICS%20Terms%20and%20Conditions%20September%202027.pdf"
+    },
+    {
+      "id": 278,
+      "university_id": "UK007",
+      "name": "Aston Sir Adrian Cadbury Chancellor’s Scholarship — PG September 2027 — reviewed30",
+      "level": "PG",
+      "eligibility": "Exact reviewed Birmingham programme, intake, Overseas fee status and fully self-funded applicant.",
+      "award_type": "Conditional tuition reduction",
+      "award_value": "10000.00",
+      "currency": "GBP",
+      "deadline": null,
+      "requirements": "Saved applicant confirmation of every governing rule condition; questions belong on scholarship page.",
+      "description": "Community: automatic under governing terms, not guaranteed before conditions. Cadbury: competitive and requires a confirmed award. Only one award is held; no deposit payment is inferred.",
+      "url": "https://www.aston.ac.uk/sites/default/files/SACCS%20Terms%20and%20Conditions%202027%20V2_3.pdf"
+    },
+    {
+      "id": 279,
+      "university_id": "UK007",
+      "name": "Aston International Community Scholarship — Top-up September 2027 — reviewed",
+      "level": "UG",
+      "eligibility": "Exact reviewed Birmingham programme, intake, Overseas fee status and fully self-funded applicant.",
+      "award_type": "Conditional tuition reduction",
+      "award_value": "3000.00",
+      "currency": "GBP",
+      "deadline": null,
+      "requirements": "Saved applicant confirmation of every governing rule condition; questions belong on scholarship page.",
+      "description": "Community: automatic under governing terms, not guaranteed before conditions. Cadbury: competitive and requires a confirmed award. Only one award is held; no deposit payment is inferred.",
+      "url": "https://www.aston.ac.uk/international/scholarships"
+    },
+    {
+      "id": 280,
+      "university_id": "UK007",
+      "name": "Aston International Community Scholarship — MPH September 2027 — reviewed",
+      "level": "PG",
+      "eligibility": "Exact reviewed Birmingham programme, intake, Overseas fee status and fully self-funded applicant.",
+      "award_type": "Conditional tuition reduction",
+      "award_value": "5500.00",
+      "currency": "GBP",
+      "deadline": null,
+      "requirements": "Saved applicant confirmation of every governing rule condition; questions belong on scholarship page.",
+      "description": "Community: automatic under governing terms, not guaranteed before conditions. Cadbury: competitive and requires a confirmed award. Only one award is held; no deposit payment is inferred.",
+      "url": "https://www.aston.ac.uk/sites/default/files/V2%20PG%20ICS%20Terms%20and%20Conditions%20September%202027.pdf"
+    }
+  ],
+  "scholarship_rules": [
+    {
+      "id": 46,
+      "scholarship_id": 273,
+      "verified": true,
+      "rules": {
+        "kind": "fixed",
+        "value": "3000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "ics_ug_sep",
+        "stacking": "exclusive",
+        "fee_basis": "first_year_tuition",
+        "conditions": {
+          "course_id": [
+            "C_UK007_01",
+            "C_UK007_02",
+            "C_UK007_03",
+            "C_UK007_04",
+            "C_UK007_05",
+            "C_UK007_06",
+            "C_UK007_07",
+            "C_UK007_08",
+            "C_UK007_09",
+            "C_UK007_10",
+            "C_UK007_11",
+            "C_UK007_12",
+            "C_UK007_13",
+            "C_UK007_14",
+            "C_UK007_15",
+            "C_UK007_16",
+            "C_UK007_34",
+            "C_UK007_35",
+            "C_UK007_38"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aston_ics_applied": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_ug_direct_nonpartner": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ]
+        },
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "intake_year": 2027,
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "intake_month": "September",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "evidence_sha256": "56f6639a449ff9bdbe064fdf2ba86ca609ca9521795b7f88bc461046a7a3a87f",
+        "percentage_basis": "original_tuition",
+        "questions_location": "scholarship_page",
+        "fee_basis_confirmed": true,
+        "application_deadline": null,
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_ics_applied",
+            "type": "boolean",
+            "label": "Has Aston confirmed the Community Scholarship has been formally applied for this exact programme/intake?"
+          },
+          {
+            "key": "aston_ug_direct_nonpartner",
+            "type": "boolean",
+            "label": "Are you entering Year 1 directly, outside every formal partnership, progression or articulation agreement?"
+          }
+        ],
+        "deadline_blocks_new_applications_only": true
+      },
+      "reviewed_at": "2026-10-25T23:33:14.525Z",
+      "source_url": "https://www.aston.ac.uk/sites/default/files/V3%20UG%20ICS%20Terms%20and%20Conditions%20September%202027.pdf"
+    },
+    {
+      "id": 47,
+      "scholarship_id": 274,
+      "verified": true,
+      "rules": {
+        "kind": "fixed",
+        "value": "10000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "cadbury_ug_sep",
+        "stacking": "exclusive",
+        "fee_basis": "first_year_tuition",
+        "conditions": {
+          "course_id": [
+            "C_UK007_01",
+            "C_UK007_02",
+            "C_UK007_03",
+            "C_UK007_04",
+            "C_UK007_05",
+            "C_UK007_06",
+            "C_UK007_07",
+            "C_UK007_08",
+            "C_UK007_09",
+            "C_UK007_10",
+            "C_UK007_11",
+            "C_UK007_12",
+            "C_UK007_13",
+            "C_UK007_14",
+            "C_UK007_15",
+            "C_UK007_16",
+            "C_UK007_34",
+            "C_UK007_35",
+            "C_UK007_38"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_cadbury_awarded_applied": [
+            true
+          ],
+          "aston_cadbury_application_accepted": [
+            true
+          ]
+        },
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "intake_year": 2027,
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "intake_month": "September",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "evidence_sha256": "c1b13050a1290cb75b09396389d1bc8d5573db1a0253297274601ec297de85a3",
+        "percentage_basis": "original_tuition",
+        "questions_location": "scholarship_page",
+        "fee_basis_confirmed": true,
+        "application_deadline": null,
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_cadbury_application_accepted",
+            "type": "boolean",
+            "label": "Has Aston confirmed your official Cadbury application was submitted and eligible within the applicable deadline?"
+          },
+          {
+            "key": "aston_cadbury_awarded_applied",
+            "type": "boolean",
+            "label": "Has Aston awarded and applied the GBP 10,000 Cadbury Scholarship to this exact programme/intake and confirmed it is the applicable single award?"
+          }
+        ],
+        "deadline_blocks_new_applications_only": true
+      },
+      "reviewed_at": "2026-10-25T23:33:14.543Z",
+      "source_url": "https://www.aston.ac.uk/sites/default/files/SACCS%20Terms%20and%20Conditions%202027%20V2_3.pdf"
+    },
+    {
+      "id": 48,
+      "scholarship_id": 275,
+      "verified": true,
+      "rules": {
+        "kind": "fixed",
+        "value": "4000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "ics_pg_jan",
+        "stacking": "exclusive",
+        "fee_basis": "annual_tuition",
+        "conditions": {
+          "course_id": [
+            "C_UK007_18",
+            "C_UK007_19",
+            "C_UK007_20",
+            "C_UK007_21",
+            "C_UK007_22",
+            "C_UK007_23",
+            "C_UK007_25",
+            "C_UK007_29",
+            "C_UK007_30",
+            "C_UK007_39",
+            "C_UK007_40",
+            "C_UK007_41",
+            "C_UK007_42",
+            "C_UK007_43",
+            "C_UK007_44",
+            "C_UK007_45",
+            "C_UK007_46",
+            "C_UK007_48",
+            "C_UK007_49"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aston_ics_applied": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_pg_no_dedicated_partner_award": [
+            true
+          ]
+        },
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "intake_year": 2027,
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "intake_month": "January",
+        "academic_year": "2026/27",
+        "compatible_ids": [],
+        "evidence_sha256": "7569bd4b666e8e8beff4e0afdfca96c226404cb60fef4ef70da662907a0189cd",
+        "percentage_basis": "original_tuition",
+        "questions_location": "scholarship_page",
+        "fee_basis_confirmed": true,
+        "application_deadline": null,
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_ics_applied",
+            "type": "boolean",
+            "label": "Has Aston confirmed the Community Scholarship has been formally applied for this exact programme/intake?"
+          },
+          {
+            "key": "aston_pg_no_dedicated_partner_award",
+            "type": "boolean",
+            "label": "Has Aston confirmed that no separate dedicated partnership/progression fee arrangement excludes you from PG ICS?"
+          }
+        ],
+        "deadline_blocks_new_applications_only": true
+      },
+      "reviewed_at": "2026-10-26T00:40:40.522Z",
+      "source_url": "https://www.aston.ac.uk/sites/default/files/PG%20ICS%20Terms%20and%20Conditions%20January%202027.pdf"
+    },
+    {
+      "id": 49,
+      "scholarship_id": 276,
+      "verified": true,
+      "rules": {
+        "kind": "fixed",
+        "value": "10000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "cadbury_pg_jan",
+        "stacking": "exclusive",
+        "fee_basis": "annual_tuition",
+        "conditions": {
+          "course_id": [
+            "C_UK007_18",
+            "C_UK007_19",
+            "C_UK007_20",
+            "C_UK007_21",
+            "C_UK007_22",
+            "C_UK007_23",
+            "C_UK007_25",
+            "C_UK007_29",
+            "C_UK007_30",
+            "C_UK007_39",
+            "C_UK007_40",
+            "C_UK007_41",
+            "C_UK007_42",
+            "C_UK007_43",
+            "C_UK007_44",
+            "C_UK007_45",
+            "C_UK007_46",
+            "C_UK007_48",
+            "C_UK007_49"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_cadbury_awarded_applied": [
+            true
+          ],
+          "aston_cadbury_application_accepted": [
+            true
+          ]
+        },
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "intake_year": 2027,
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "intake_month": "January",
+        "academic_year": "2026/27",
+        "compatible_ids": [],
+        "evidence_sha256": "c1b13050a1290cb75b09396389d1bc8d5573db1a0253297274601ec297de85a3",
+        "percentage_basis": "original_tuition",
+        "questions_location": "scholarship_page",
+        "fee_basis_confirmed": true,
+        "application_deadline": "2026-11-01",
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_cadbury_application_accepted",
+            "type": "boolean",
+            "label": "Has Aston confirmed your official Cadbury application was submitted and eligible within the applicable deadline?"
+          },
+          {
+            "key": "aston_cadbury_awarded_applied",
+            "type": "boolean",
+            "label": "Has Aston awarded and applied the GBP 10,000 Cadbury Scholarship to this exact programme/intake and confirmed it is the applicable single award?"
+          }
+        ],
+        "deadline_blocks_new_applications_only": true
+      },
+      "reviewed_at": "2026-10-26T00:40:40.522Z",
+      "source_url": "https://www.aston.ac.uk/sites/default/files/SACCS%20Terms%20and%20Conditions%202027%20V2_3.pdf"
+    },
+    {
+      "id": 50,
+      "scholarship_id": 277,
+      "verified": true,
+      "rules": {
+        "kind": "fixed",
+        "value": "5500.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "ics_pg_sep",
+        "stacking": "exclusive",
+        "fee_basis": "annual_tuition",
+        "conditions": {
+          "course_id": [
+            "C_UK007_27",
+            "C_UK007_28"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aston_ics_applied": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_pg_no_dedicated_partner_award": [
+            true
+          ]
+        },
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "intake_year": 2027,
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "intake_month": "September",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "evidence_sha256": "538c22d428e0ad49a0299246cfec84a90ea4e3ff4a757649dbc0efd339ac59e3",
+        "percentage_basis": "original_tuition",
+        "questions_location": "scholarship_page",
+        "fee_basis_confirmed": true,
+        "application_deadline": null,
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_ics_applied",
+            "type": "boolean",
+            "label": "Has Aston confirmed the Community Scholarship has been formally applied for this exact programme/intake?"
+          },
+          {
+            "key": "aston_pg_no_dedicated_partner_award",
+            "type": "boolean",
+            "label": "Has Aston confirmed that no separate dedicated partnership/progression fee arrangement excludes you from PG ICS?"
+          }
+        ],
+        "deadline_blocks_new_applications_only": true
+      },
+      "reviewed_at": "2026-10-25T22:51:21.433Z",
+      "source_url": "https://www.aston.ac.uk/sites/default/files/V2%20PG%20ICS%20Terms%20and%20Conditions%20September%202027.pdf"
+    },
+    {
+      "id": 51,
+      "scholarship_id": 278,
+      "verified": true,
+      "rules": {
+        "kind": "fixed",
+        "value": "10000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "cadbury_pg_sep",
+        "stacking": "exclusive",
+        "fee_basis": "annual_tuition",
+        "conditions": {
+          "course_id": [
+            "C_UK007_27",
+            "C_UK007_28"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_cadbury_awarded_applied": [
+            true
+          ],
+          "aston_cadbury_application_accepted": [
+            true
+          ]
+        },
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "intake_year": 2027,
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "intake_month": "September",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "evidence_sha256": "c1b13050a1290cb75b09396389d1bc8d5573db1a0253297274601ec297de85a3",
+        "percentage_basis": "original_tuition",
+        "questions_location": "scholarship_page",
+        "fee_basis_confirmed": true,
+        "application_deadline": null,
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_cadbury_application_accepted",
+            "type": "boolean",
+            "label": "Has Aston confirmed your official Cadbury application was submitted and eligible within the applicable deadline?"
+          },
+          {
+            "key": "aston_cadbury_awarded_applied",
+            "type": "boolean",
+            "label": "Has Aston awarded and applied the GBP 10,000 Cadbury Scholarship to this exact programme/intake and confirmed it is the applicable single award?"
+          }
+        ],
+        "deadline_blocks_new_applications_only": true
+      },
+      "reviewed_at": "2026-10-25T22:51:21.433Z",
+      "source_url": "https://www.aston.ac.uk/sites/default/files/SACCS%20Terms%20and%20Conditions%202027%20V2_3.pdf"
+    },
+    {
+      "id": 52,
+      "scholarship_id": 279,
+      "verified": true,
+      "rules": {
+        "kind": "fixed",
+        "value": "3000.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "ics_topup_sep",
+        "stacking": "exclusive",
+        "fee_basis": "annual_tuition",
+        "conditions": {
+          "course_id": [
+            "C_AST007_01"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aston_ics_applied": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_topup_nonpartner": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_topup_community_confirmed": [
+            true
+          ]
+        },
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "intake_year": 2027,
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "intake_month": "September",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "evidence_sha256": "fca53728010d2dced7be908b9df798f869bcdefe3b2cc42aaeef6fff3772d0be",
+        "percentage_basis": "original_tuition",
+        "questions_location": "scholarship_page",
+        "fee_basis_confirmed": true,
+        "application_deadline": null,
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_ics_applied",
+            "type": "boolean",
+            "label": "Has Aston confirmed the Community Scholarship has been formally applied for this exact programme/intake?"
+          },
+          {
+            "key": "aston_topup_community_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the single GBP 3,000 Community payment applies to your exact final-year Top-up offer and September 2027 intake?"
+          },
+          {
+            "key": "aston_topup_nonpartner",
+            "type": "boolean",
+            "label": "Has Aston confirmed that no excluded formal partnership, progression or articulation agreement applies to your Top-up entry?"
+          }
+        ],
+        "deadline_blocks_new_applications_only": true
+      },
+      "reviewed_at": "2026-10-26T00:45:50.679Z",
+      "source_url": "https://www.aston.ac.uk/international/scholarships"
+    },
+    {
+      "id": 53,
+      "scholarship_id": 280,
+      "verified": true,
+      "rules": {
+        "kind": "fixed",
+        "value": "5500.00",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "aston_first30_awards_v1",
+        "spec_key": "ics_mph_sep",
+        "stacking": "exclusive",
+        "fee_basis": "full_time_course_fee",
+        "conditions": {
+          "course_id": [
+            "C_UK007_26"
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "aston_ics_applied": [
+            true
+          ],
+          "aston_self_funded": [
+            true
+          ],
+          "aston_no_combined_awards": [
+            true
+          ],
+          "aston_overseas_confirmed": [
+            true
+          ],
+          "aston_enrolment_confirmed": [
+            true
+          ],
+          "aston_deposit_paid_on_time": [
+            true
+          ],
+          "aston_offer_conditions_met": [
+            true
+          ],
+          "aston_permission_confirmed": [
+            true
+          ],
+          "aston_full_first_taught_year": [
+            true
+          ],
+          "aston_pg_no_dedicated_partner_award": [
+            true
+          ]
+        },
+        "scope_note": "Only the single reviewed first-year fee and exact intake. Later taught-year progression, special stacking, sponsor exceptions and pro-rata changes require separate review.",
+        "intake_year": 2027,
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "intake_month": "September",
+        "academic_year": "2027/28",
+        "compatible_ids": [],
+        "evidence_sha256": "538c22d428e0ad49a0299246cfec84a90ea4e3ff4a757649dbc0efd339ac59e3",
+        "percentage_basis": "original_tuition",
+        "questions_location": "scholarship_page",
+        "fee_basis_confirmed": true,
+        "application_deadline": null,
+        "eligibility_questions": [
+          {
+            "key": "aston_overseas_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed Overseas fee status for this programme?"
+          },
+          {
+            "key": "aston_offer_conditions_met",
+            "type": "boolean",
+            "label": "Have all conditions of your exact full-time Birmingham offer been met by the required deadlines?"
+          },
+          {
+            "key": "aston_self_funded",
+            "type": "boolean",
+            "label": "Are your tuition fees fully self-funded, with no sponsorship, employer funding or reimbursement?"
+          },
+          {
+            "key": "aston_deposit_paid_on_time",
+            "type": "boolean",
+            "label": "Has Aston confirmed receipt of the required programme deposit by your offer deadline?"
+          },
+          {
+            "key": "aston_enrolment_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed successful enrolment by the latest arrival date, with continuing attendance?"
+          },
+          {
+            "key": "aston_permission_confirmed",
+            "type": "boolean",
+            "label": "Has Aston confirmed the required CAS and valid permission to study, where applicable?"
+          },
+          {
+            "key": "aston_full_first_taught_year",
+            "type": "boolean",
+            "label": "Is this the original first taught year, with no placement, repeat, suspension, withdrawal or pro-rata adjustment?"
+          },
+          {
+            "key": "aston_no_combined_awards",
+            "type": "boolean",
+            "label": "Will only the single award determined by Aston be held, with no other internal or external scholarship, bursary or fee discount combined?"
+          },
+          {
+            "key": "aston_ics_applied",
+            "type": "boolean",
+            "label": "Has Aston confirmed the Community Scholarship has been formally applied for this exact programme/intake?"
+          },
+          {
+            "key": "aston_pg_no_dedicated_partner_award",
+            "type": "boolean",
+            "label": "Has Aston confirmed that no separate dedicated partnership/progression fee arrangement excludes you from PG ICS?"
+          }
+        ],
+        "deadline_blocks_new_applications_only": true
+      },
+      "reviewed_at": "2026-10-26T00:40:40.541Z",
+      "source_url": "https://www.aston.ac.uk/sites/default/files/V2%20PG%20ICS%20Terms%20and%20Conditions%20September%202027.pdf"
+    }
+  ],
+  "deposit_policies": [
+    {
+      "id": 10,
+      "university_id": "UK007",
+      "academic_year": "2026/27",
+      "currency": "GBP",
+      "rules": {
+        "kind": "offer_letter",
+        "note": "Deposit amounts remain offer-letter specific. The amount and deadline are stated in the Aston offer. Student-loan and government-sponsor exceptions require Aston assessment; no numeric deposit is inferred. A scholarship is not a deposit payment.",
+        "amount": null,
+        "currency": "GBP",
+        "importer": "aston_first30_awards_v1",
+        "course_ids": [
+          "C_UK007_18",
+          "C_UK007_19",
+          "C_UK007_20",
+          "C_UK007_21",
+          "C_UK007_22",
+          "C_UK007_23",
+          "C_UK007_25",
+          "C_UK007_29",
+          "C_UK007_30",
+          "C_UK007_39",
+          "C_UK007_40",
+          "C_UK007_41",
+          "C_UK007_42",
+          "C_UK007_43",
+          "C_UK007_44",
+          "C_UK007_45",
+          "C_UK007_46",
+          "C_UK007_48",
+          "C_UK007_49",
+          "C_UK007_50"
+        ],
+        "fee_status": "INTL",
+        "academic_year": "2026/27",
+        "included_in_tuition": true,
+        "mba_acceptance_deposits": {
+          "C_UK007_50": {
+            "amount": "5000.00",
+            "currency": "GBP",
+            "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/january-2027",
+            "payment_stage": "offer_acceptance",
+            "included_in_tuition": true
+          }
+        }
+      },
+      "source_url": "https://www.aston.ac.uk/undergraduate/your-application/funding",
+      "source_text": "Deposit amounts remain offer-letter specific. The amount and deadline are stated in the Aston offer. Student-loan and government-sponsor exceptions require Aston assessment; no numeric deposit is inferred. A scholarship is not a deposit payment.",
+      "source_sha256": "fd5211dcd4ba667d96e2bc8020e6c7b74607acc865b995438e085f3e6223ecc7",
+      "verified": true,
+      "checked_at": "2026-10-26T00:40:40.577Z",
+      "updated_at": "2026-10-26T00:40:40.579Z"
+    },
+    {
+      "id": 11,
+      "university_id": "UK007",
+      "academic_year": "2027/28",
+      "currency": "GBP",
+      "rules": {
+        "kind": "offer_letter",
+        "note": "Deposit amounts remain offer-letter specific. The amount and deadline are stated in the Aston offer. Student-loan and government-sponsor exceptions require Aston assessment; no numeric deposit is inferred. A scholarship is not a deposit payment.",
+        "amount": null,
+        "currency": "GBP",
+        "importer": "aston_first30_awards_v1",
+        "course_ids": [
+          "C_AST007_01",
+          "C_UK007_01",
+          "C_UK007_02",
+          "C_UK007_03",
+          "C_UK007_04",
+          "C_UK007_05",
+          "C_UK007_06",
+          "C_UK007_07",
+          "C_UK007_08",
+          "C_UK007_09",
+          "C_UK007_10",
+          "C_UK007_11",
+          "C_UK007_12",
+          "C_UK007_13",
+          "C_UK007_14",
+          "C_UK007_15",
+          "C_UK007_16",
+          "C_UK007_17",
+          "C_UK007_24",
+          "C_UK007_26",
+          "C_UK007_27",
+          "C_UK007_28",
+          "C_UK007_31",
+          "C_UK007_32",
+          "C_UK007_33",
+          "C_UK007_34",
+          "C_UK007_35",
+          "C_UK007_38"
+        ],
+        "fee_status": "INTL",
+        "academic_year": "2027/28",
+        "included_in_tuition": true,
+        "mba_acceptance_deposits": {
+          "C_UK007_24": {
+            "amount": "5000.00",
+            "currency": "GBP",
+            "source_url": "https://www.aston.ac.uk/study/courses/mba-full-time-mba/september-2027",
+            "payment_stage": "offer_acceptance",
+            "included_in_tuition": true
+          }
+        }
+      },
+      "source_url": "https://www.aston.ac.uk/undergraduate/your-application/funding",
+      "source_text": "Deposit amounts remain offer-letter specific. The amount and deadline are stated in the Aston offer. Student-loan and government-sponsor exceptions require Aston assessment; no numeric deposit is inferred. A scholarship is not a deposit payment.",
+      "source_sha256": "fd5211dcd4ba667d96e2bc8020e6c7b74607acc865b995438e085f3e6223ecc7",
+      "verified": true,
+      "checked_at": "2026-10-26T00:40:40.580Z",
+      "updated_at": "2026-10-26T00:40:40.582Z"
+    }
+  ]
+}

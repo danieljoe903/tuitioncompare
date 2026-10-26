@@ -1,0 +1,345 @@
+{
+  "academic_year": "2026/27",
+  "status": "preview_only",
+  "rules": [
+    {
+      "scholarship_id": 85,
+      "level": "UG",
+      "course_count": 37,
+      "before": {
+        "kind": "fixed_maximum",
+        "value": "3000",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "abertay-base-maximum-v1",
+        "stacking": "exclusive",
+        "conditions": {
+          "level": [
+            "UG"
+          ],
+          "course_id": [
+            "C_UK001_01",
+            "C_UK001_02",
+            "C_UK001_03",
+            "C_UK001_04",
+            "C_UK001_05",
+            "C_UK001_06",
+            "C_UK001_07",
+            "C_UK001_08",
+            "C_UK001_09",
+            "C_UK001_10",
+            "C_UK001_11",
+            "C_UK001_12",
+            "C_UK001_13",
+            "C_UK001_14",
+            "C_UK001_15",
+            "C_UK001_16",
+            "C_UK001_17",
+            "C_UK001_18",
+            "C_UK001_31",
+            "C_UK001_32",
+            "C_UK001_33",
+            "C_UK001_34",
+            "C_UK001_35",
+            "C_UK001_36",
+            "C_UK001_37",
+            "C_UK001_38",
+            "C_UK001_39",
+            "C_UK001_40",
+            "C_UK001_41",
+            "C_UK001_42",
+            "C_UK001_43",
+            "C_UK001_44",
+            "C_UK001_45",
+            "C_UK001_46",
+            "C_UK001_61",
+            "C_UK001_63",
+            "C_UK001_79"
+          ],
+          "full_time": [
+            true
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "repeat_year": [
+            false
+          ],
+          "on_campus_dundee": [
+            true
+          ],
+          "partner_discount": [
+            false
+          ],
+          "academic_conditions_met": [
+            true
+          ]
+        },
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "review_notes": "First compared study year only. Apply this base maximum only to the listed verified course fees when all eligibility conditions are confirmed. Other course-specific awards retain their own amounts, eligibility and combination rules.",
+        "academic_year": "2026/27",
+        "compatible_ids": [],
+        "evidence_sha256": "f32353bb4d634dec4c1b637851901b85a5d5951021207e73dc3f87c76900d15f",
+        "percentage_basis": "original_tuition",
+        "terms_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/terms-conditions/",
+        "fee_basis_confirmed": true,
+        "published_maximum_years": 4
+      },
+      "after": {
+        "kind": "fixed_maximum",
+        "value": "3000",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "abertay-base-maximum-v1",
+        "stacking": "exclusive",
+        "conditions": {
+          "level": [
+            "UG"
+          ],
+          "course_id": [
+            "C_UK001_01",
+            "C_UK001_02",
+            "C_UK001_03",
+            "C_UK001_04",
+            "C_UK001_05",
+            "C_UK001_06",
+            "C_UK001_07",
+            "C_UK001_08",
+            "C_UK001_09",
+            "C_UK001_10",
+            "C_UK001_11",
+            "C_UK001_12",
+            "C_UK001_13",
+            "C_UK001_14",
+            "C_UK001_15",
+            "C_UK001_16",
+            "C_UK001_17",
+            "C_UK001_18",
+            "C_UK001_31",
+            "C_UK001_32",
+            "C_UK001_33",
+            "C_UK001_34",
+            "C_UK001_35",
+            "C_UK001_36",
+            "C_UK001_37",
+            "C_UK001_38",
+            "C_UK001_39",
+            "C_UK001_40",
+            "C_UK001_41",
+            "C_UK001_42",
+            "C_UK001_43",
+            "C_UK001_44",
+            "C_UK001_45",
+            "C_UK001_46",
+            "C_UK001_61",
+            "C_UK001_63",
+            "C_UK001_79"
+          ],
+          "full_time": [
+            true
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "repeat_year": [
+            false
+          ],
+          "on_campus_dundee": [
+            true
+          ],
+          "partner_discount": [
+            false
+          ],
+          "academic_conditions_met": [
+            true
+          ]
+        },
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "review_notes": "First compared study year only. Apply this base maximum only to the listed verified course fees when all eligibility conditions are confirmed. Other course-specific awards retain their own amounts, eligibility and combination rules.",
+        "academic_year": "2026/27",
+        "compatible_ids": [],
+        "evidence_sha256": "f32353bb4d634dec4c1b637851901b85a5d5951021207e73dc3f87c76900d15f",
+        "percentage_basis": "original_tuition",
+        "terms_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/terms-conditions/",
+        "fee_basis_confirmed": true,
+        "published_maximum_years": 4
+      },
+      "changed": false
+    },
+    {
+      "scholarship_id": 86,
+      "level": "PG",
+      "course_count": 24,
+      "before": {
+        "kind": "fixed_maximum",
+        "value": "3000",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "abertay-base-maximum-v1",
+        "stacking": "exclusive",
+        "conditions": {
+          "level": [
+            "PG",
+            "PGT"
+          ],
+          "course_id": [
+            "C_UK001_19",
+            "C_UK001_20",
+            "C_UK001_21",
+            "C_UK001_22",
+            "C_UK001_23",
+            "C_UK001_24",
+            "C_UK001_25",
+            "C_UK001_26",
+            "C_UK001_27",
+            "C_UK001_28",
+            "C_UK001_29",
+            "C_UK001_30",
+            "C_UK001_49",
+            "C_UK001_50",
+            "C_UK001_55",
+            "C_UK001_56",
+            "C_UK001_57",
+            "C_UK001_58",
+            "C_UK001_59",
+            "C_UK001_60",
+            "C_UK001_69",
+            "C_UK001_87",
+            "C_UK001_88"
+          ],
+          "full_time": [
+            true
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "repeat_year": [
+            false
+          ],
+          "on_campus_dundee": [
+            true
+          ],
+          "partner_discount": [
+            false
+          ],
+          "postgraduate_taught": [
+            true
+          ],
+          "pg_2_1_equivalent_met": [
+            true
+          ],
+          "academic_conditions_met": [
+            true
+          ]
+        },
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "review_notes": "First compared study year only. Apply this base maximum only to the listed verified course fees when all eligibility conditions are confirmed. Other course-specific awards retain their own amounts, eligibility and combination rules.",
+        "academic_year": "2026/27",
+        "compatible_ids": [],
+        "evidence_sha256": "f32353bb4d634dec4c1b637851901b85a5d5951021207e73dc3f87c76900d15f",
+        "percentage_basis": "original_tuition",
+        "terms_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/terms-conditions/",
+        "fee_basis_confirmed": true,
+        "published_maximum_years": 4
+      },
+      "after": {
+        "kind": "fixed_maximum",
+        "value": "3000",
+        "benefit": "tuition",
+        "currency": "GBP",
+        "importer": "abertay-base-maximum-v1",
+        "stacking": "exclusive",
+        "conditions": {
+          "level": [
+            "PG",
+            "PGT"
+          ],
+          "course_id": [
+            "C_UK001_19",
+            "C_UK001_20",
+            "C_UK001_21",
+            "C_UK001_22",
+            "C_UK001_23",
+            "C_UK001_24",
+            "C_UK001_25",
+            "C_UK001_26",
+            "C_UK001_27",
+            "C_UK001_28",
+            "C_UK001_29",
+            "C_UK001_30",
+            "C_UK001_49",
+            "C_UK001_50",
+            "C_UK001_55",
+            "C_UK001_56",
+            "C_UK001_57",
+            "C_UK001_58",
+            "C_UK001_59",
+            "C_UK001_60",
+            "C_UK001_69",
+            "C_UK001_70",
+            "C_UK001_87",
+            "C_UK001_88"
+          ],
+          "full_time": [
+            true
+          ],
+          "fee_status": [
+            "INTL"
+          ],
+          "new_entrant": [
+            true
+          ],
+          "repeat_year": [
+            false
+          ],
+          "on_campus_dundee": [
+            true
+          ],
+          "partner_discount": [
+            false
+          ],
+          "postgraduate_taught": [
+            true
+          ],
+          "pg_2_1_equivalent_met": [
+            true
+          ],
+          "academic_conditions_met": [
+            true
+          ]
+        },
+        "study_years": [
+          1
+        ],
+        "award_status": "conditional",
+        "review_notes": "First compared study year only. Apply this base maximum only to the listed verified course fees when all eligibility conditions are confirmed. Other course-specific awards retain their own amounts, eligibility and combination rules.",
+        "academic_year": "2026/27",
+        "compatible_ids": [],
+        "evidence_sha256": "f32353bb4d634dec4c1b637851901b85a5d5951021207e73dc3f87c76900d15f",
+        "percentage_basis": "original_tuition",
+        "terms_source_url": "https://www.abertay.ac.uk/study-apply/money-fees-and-funding/terms-conditions/",
+        "fee_basis_confirmed": true,
+        "published_maximum_years": 4
+      },
+      "changed": true
+    }
+  ]
+}

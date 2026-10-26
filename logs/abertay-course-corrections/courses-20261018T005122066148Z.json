@@ -1,0 +1,39 @@
+{
+  "mode": "apply",
+  "database_changes": true,
+  "committed": true,
+  "course_id": "C_UK001_70",
+  "evidence": {
+    "course_url": "https://www.abertay.ac.uk/course-search/postgraduate-taught/technical-art-and-visual-effects/",
+    "academic_year": "2026/27",
+    "source_preview": "abertay_remaining_preview.json",
+    "source_title": "MSc Technical Art and Visual Effects",
+    "source_duration": "Full-time: 12 months or part-time: 24 months",
+    "published_international_fee": "19950.00"
+  },
+  "before": {
+    "title": "MA Technical Art and Visual Effects",
+    "level": "PG",
+    "duration": "1 Year",
+    "start_month": "September",
+    "start_year": 2026,
+    "course_url": "www.abertay.ac.uk",
+    "is_active": true
+  },
+  "after": {
+    "title": "MSc Technical Art and Visual Effects",
+    "level": "PG",
+    "duration": "1 Year",
+    "start_month": "September",
+    "start_year": 2026,
+    "course_url": "https://www.abertay.ac.uk/course-search/postgraduate-taught/technical-art-and-visual-effects/",
+    "is_active": true
+  },
+  "changed_fields": [
+    "title",
+    "course_url"
+  ],
+  "tuition_changes": false,
+  "scholarship_changes": false,
+  "deposit_changes": false
+}

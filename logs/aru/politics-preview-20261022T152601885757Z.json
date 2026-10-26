@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-10-22T15:26:01.885757+00:00",
+  "university_id": "UK003",
+  "mode": "preview",
+  "database_changes": false,
+  "evidence_report": "C:\\Users\\DELL\\Downloads\\academy-main\\academy-main\\logs\\aru\\remaining-17-evidence-20261022T152141639880Z\\remaining-17-evidence.json",
+  "proposal": {
+    "course_id": "C_UK003_81",
+    "mapping": "explicit_replacement_proposal",
+    "replacement_accepted": false,
+    "before_course": {
+      "title": "BA (Hons) Politics",
+      "level": "UG",
+      "location": "Cambridge Campus",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2026,
+      "ucas_cao_code": "",
+      "course_url": "www.aru.ac.uk"
+    },
+    "after_course": {
+      "title": "BA (Hons) Politics and International Relations",
+      "level": "UG",
+      "location": "Cambridge Campus",
+      "duration": "3 Years",
+      "start_month": "September",
+      "start_year": 2027,
+      "ucas_cao_code": "L203",
+      "course_url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations"
+    },
+    "before_tuition": "19500.00",
+    "after_tuition": "18825.00",
+    "currency": "GBP",
+    "academic_year": "2027/28",
+    "fee_basis": "annual_tuition",
+    "source_url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations",
+    "source_sha256": "d4152fd992733b44e685c53e50634ab74013618ddb309d07739dbc532101ed71",
+    "source_course_code": "L203",
+    "course_kind": "undergraduate_taught",
+    "fee_note": "Annual international tuition for the standard three-year Cambridge BA route, September 2027. Foundation and placement routes are excluded.",
+    "scholarship_status": "reconciliation_required",
+    "deposit_status": "reconciliation_required",
+    "related_record_held": "C_UK003_82",
+    "related_record_note": "Do not assign the same combined route to both the Politics and International Relations records."
+  }
+}
